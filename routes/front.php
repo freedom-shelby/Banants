@@ -11,9 +11,7 @@
  * Роуты приветствия
  */
 Router::get(['/', 'as' => 'front.home'],'Front\Pages@getHome');
-Router::get(['/About', 'as' => 'front.about'],'Front\Pages@getAbout');
-Router::get(['/News', 'as' => 'front.news'],'Front\Pages@getNews');
-Router::get(['/Faq', 'as' => 'front.faq'],'Front\Pages@getFaq');
+
 
 Router::get(['/Test', 'as' => 'front.test'],'Front\Pages@getTest');
 Router::any(['/TestLang', 'as' => 'test.lang'],'Test\I18nTest@anyLang');
@@ -32,11 +30,7 @@ Router::any(['/TestWord', 'as' => 'test.word'],'Test\WordTranslate@anyIndex');
  * Ajax
  */
 
-Router::post(['/charger/DetectNumberOperator', 'as' => 'front.ajax.DetectNumberOperator'],'Front\ChargerAjax@postDetectNumberOperator');
-Router::post(['/charger/GetOperatorPackages', 'as' => 'front.ajax.GetOperatorPackages'],'Front\ChargerAjax@postGetOperatorPackages');
-Router::post(['/charger/Checkout', 'as' => 'front.ajax.Checkout'],'Front\ChargerAjax@postCheckout');
-Router::post(['/charger/PaymentAndConfirmation', 'as' => 'front.ajax.PaymentAndConfirmation'],'Front\ChargerAjax@postPaymentAndConfirmation');
-Router::post(['/charger/GetCountryOperators', 'as' => 'front.ajax.GetCountryOperators'],'Front\ChargerAjax@postGetCountryOperators');
+
 
 /**
  * Тесты

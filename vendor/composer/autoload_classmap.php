@@ -6,12 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AbstractWidget' => $baseDir . '/app/AbstractWidget.php',
     'App' => $baseDir . '/system/App.php',
     'ArticleModel' => $baseDir . '/models/ArticleModel.php',
     'Back\\Articles' => $baseDir . '/controllers/Back/Articles.php',
     'Back\\Back' => $baseDir . '/controllers/Back.php',
     'Back\\Categories' => $baseDir . '/controllers/Back/Categories.php',
     'Back\\Entities' => $baseDir . '/controllers/Back/Entities.php',
+    'Back\\Menus' => $baseDir . '/controllers/Back/Menus.php',
     'Back\\Pages' => $baseDir . '/controllers/Back/Pages.php',
     'Back\\Settings' => $baseDir . '/controllers/Back/Settings.php',
     'Base' => $baseDir . '/controllers/Base.php',
@@ -580,4 +582,6 @@ return array(
     'Test\\WordTranslate' => $baseDir . '/controllers/Test/WordTranslate.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
     'View' => $baseDir . '/system/View.php',
+    'WidgetsContainer' => $baseDir . '/app/WidgetsContainer.php',
+    'Widgets\\WidgetTournamentTable' => $baseDir . '/app/Widgets/WidgetTournamentTable.php',
 );

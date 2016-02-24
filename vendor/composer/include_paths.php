@@ -8,6 +8,4 @@ $baseDir = dirname($vendorDir);
 return array(
     $vendorDir . '/phpunit/phpunit-mock-objects',
     $vendorDir . '/phpunit/php-file-iterator',
-    $vendorDir . '/phpunit/phpunit',
-    $vendorDir . '/symfony/yaml',
 );

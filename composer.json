@@ -1,0 +1,34 @@
+{
+  "name": "TopUp/1.0.0.0",
+  "description": "TopUp System",
+  "minimum-stability": "stable",
+  "license": "Commercial licences",
+  "authors": [
+    {
+      "name": "Qrmoyan Suren",
+      "email": "sur-ser@mail.ru"
+    }
+  ],
+  "require": {
+    "baum/baum": "~1.1",
+    "phpunit/phpunit": "4.0.*",
+    "illuminate/database": "5.0.x-dev",
+    "illuminate/events": "5.0.x-dev",
+    "mockery/mockery": "^0.9.4",
+    "fzaninotto/faker": "^1.5",
+    "nesbot/carbon": "^1.21"
+  },
+  "autoload": {
+    "classmap" : [
+      "app",
+      "system",
+      "controllers",
+      "models"
+    ],
+    "files" : [
+      "config/database.php",
+      "routes/front.php",
+      "routes/back.php"
+    ]
+  }
+}

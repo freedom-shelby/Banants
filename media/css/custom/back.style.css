@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.wrapp{
+    margin-top: 70px;
+}
+
+.form-group textarea{
+    width: 100%;
+}
+.glyphicon-remove-sign{
+    color: #CC0A00;
+}
+
+.node-item{
+    background: #EBEBEB;
+}
+
+.invisible-article{
+    display: none;
+}
+
+/** Sortable Node Styles **/
+.placeholder {
+    outline: 1px dashed #4183C4;
+}
+
+.mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+}
+
+#tree {
+    width: 550px;
+    margin: 0;
+}
+
+ol {
+    max-width: 450px;
+    padding-left: 25px;
+}
+
+ol.sortable,ol.sortable ol {
+    list-style-type: none;
+}
+
+.sortable li > div {
+    border: 1px solid #d4d4d4;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #D4D4D4 #D4D4D4 #BCBCBC;
+    margin: 0;
+    padding: 3px;
+}
+
+.sortable li div span.move{
+    cursor: move;
+}
+
+li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+    border-color: #999;
+}
+
+.disclose, .expandEditor {
+    cursor: pointer;
+    width: 20px;
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-collapsed > ol {
+    display: none;
+}
+
+.sortable li.mjs-nestedSortable-branch > div > .disclose {
+    display: inline-block;
+}
+
+.sortable span.ui-icon {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menuEdit {
+    background: #FFF;
+}
+
+.itemTitle {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.deleteMenu {
+    float: right;
+    cursor: pointer;
+}
+/** #Sortable Node **/

@@ -1,0 +1,2 @@
+[27-Nov-2015 06:07:44 America/Denver] PHP Notice:  Undefined index: local_currency in /home/horizor0/public_html/transferto/app/TransferTo/Response.php on line 107
+[27-Nov-2015 06:14:23 America/Denver] PHP Notice:  Undefined index: local_currency in /home/horizor0/public_html/transferto/app/TransferTo/Response.php on line 108

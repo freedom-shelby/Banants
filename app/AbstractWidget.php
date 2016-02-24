@@ -10,6 +10,7 @@
 
 abstract class AbstractWidget {
 
+
     /**
      * Тип страницы
      */

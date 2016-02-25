@@ -10,9 +10,9 @@
 
 namespace Widgets\Widget;
 restrictAccess();
-use Widgets\AbstractWidget;
 
-use AbstractWidget;
+
+use Widgets\AbstractWidget;
 
 class TournamentTable extends AbstractWidget{
 

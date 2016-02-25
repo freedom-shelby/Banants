@@ -91,6 +91,8 @@ return array(
     'Test\\ViewTests' => $baseDir . '/controllers/Test/ViewTests.php',
     'Test\\WordTranslate' => $baseDir . '/controllers/Test/WordTranslate.php',
     'View' => $baseDir . '/system/View.php',
+    'WidgetModel' => $baseDir . '/models/WidgetModel.php',
+    'WidgetsContainer' => $baseDir . '/app/WidgetsContainer.php',
     'Widgets\\AbstractWidget' => $baseDir . '/app/Widgets/AbstractWidget.php',
     'Widgets\\Widget\\TournamentTable' => $baseDir . '/app/Widgets/Widget/TournamentTable.php',
     'Widgets\\WidgetsContainer' => $baseDir . '/app/Widgets/WidgetsContainer.php',

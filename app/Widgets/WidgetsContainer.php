@@ -22,7 +22,7 @@ class WidgetsContainer {
 
     /**
      * Возвращает объект виджета
-     * @return Langs
+     * @return WidgetsContainer
      */
     public static function instance(){
 
@@ -33,31 +33,22 @@ class WidgetsContainer {
     }
 
     public function __construct(){
-//        $items = \LangModel::where('is_enabled', '=', '1')->get();
-//        if(class_exists('Setting') and method_exists(Setting::instance(), 'get_setting_val')){
-//            $primaryLangIso = strtolower(Setting::instance()->get_setting_val('language.primary_language'));
-//        }else{
-//            $primaryLangIso = strtolower(static::DEFAULT_LANGUAGE);
-//        }
-//
-//        if(!empty($items)){
-//            foreach($items as $i){
-//                $iso = strtolower($i->iso);
-//                $this->_langs[$iso] = array(
-//                    'id' => $i->id,
-//                    'name' => $i->name,
-//                    'iso' => $iso,
-//                );
-//
-//                if($primaryLangIso == $i->iso){
-//                    $this->_primaryLang = $this->_langs[$iso];
-//                }
-//            }
-//        }
-//
-//        $this->_currentLang = $this->_primaryLang;
-    }
+        $items = \LangModel::where('is_enabled', '=', '1')->get();
 
+
+        if(!empty($items)){
+            foreach($items as $i){
+                $iso = strtolower($i->iso);
+                $this->_items[$iso] = array(
+                    'id' => $i->id,
+                    'name' => $i->name,
+                    'iso' => $iso,
+                );
+            }
+        }
+
+        $this->_currentLang = $this->_primaryLang;
+    }
     /**
      * Рисует виджеты для позиици
      * @param string $position

@@ -8,8 +8,8 @@ $baseDir = dirname($vendorDir);
 return array(
     '65fec9ebcfbb3cbb4fd0d519687aea01' => $vendorDir . '/danielstjules/stringy/src/Create.php',
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
-    '1d1b89d124cc9cb8219922c9d5569199' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
-    '178b4872042cd540d60cc767f211bd6a' => $baseDir . '/config/database.php',
-    '7adb6f406b4709d5e7cce5deb27f918e' => $baseDir . '/routes/front.php',
-    '6fe8b0c2306aca07499b798e2e06751b' => $baseDir . '/routes/back.php',
+    '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
+    '21e5fe9e3447fd509d76724235f80917' => $baseDir . '/config/database.php',
+    '8e1126fdb56b2e34cd39d610dc92c6f8' => $baseDir . '/routes/front.php',
+    'af45600eb379ca2231d37ebe5aef1097' => $baseDir . '/routes/back.php',
 );

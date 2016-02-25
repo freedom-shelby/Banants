@@ -21,3 +21,11 @@ require_once(ROOT_PATH . 'vendor/autoload' . EXT);
 
 //Запуск приложения
 App::start();
+
+/**
+ * Ограничивает доступ к файлу напрямую из адресной строки
+ * todo:: перенести все эту функцию в отдельный файл с такими же функциами-помошниками
+ */
+function restrictAccess(){
+    if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
+}

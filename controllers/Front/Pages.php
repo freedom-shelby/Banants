@@ -8,7 +8,7 @@
 
 namespace Front;
 
-if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
+restrictAccess();
 
 use View;
 
@@ -23,6 +23,7 @@ class Pages extends Front
      * Главная страница сайта
      */
     public function getHome(){
+
         $chargerContainer = View::make('front/charge-steps/container')
             ->with('content',View::make('front/charge-steps/step1'));
 //            ->with('content',View::make('front/charge-steps/step1',['countries' => \CountryModel::getChargableCountries()]));

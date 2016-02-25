@@ -9,6 +9,9 @@
  */
 namespace Widgets;
 
+use WidgetModel;
+use ArticleModel;
+
 class WidgetsContainer {
 
     /**
@@ -32,22 +35,23 @@ class WidgetsContainer {
         return self::$_instance;
     }
 
-    public function __construct(){
-        $items = \LangModel::where('is_enabled', '=', '1')->get();
+    public function __construct($articleId){
+        $items = ArticleModel::find($articleId)->widgets()->whereStatus(1)->get();
 
-
-        if(!empty($items)){
-            foreach($items as $i){
-                $iso = strtolower($i->iso);
-                $this->_items[$iso] = array(
-                    'id' => $i->id,
-                    'name' => $i->name,
-                    'iso' => $iso,
-                );
-            }
-        }
-
-        $this->_currentLang = $this->_primaryLang;
+//echo '<pre>';
+//print_r($items);die;
+//        if(!empty($items)){
+//            foreach($items as $i){
+//                $iso = strtolower($i->iso);
+//                $this->_items[$iso] = array(
+//                    'id' => $i->id,
+//                    'name' => $i->name,
+//                    'iso' => $iso,
+//                );
+//            }
+//        }
+//
+//        $this->_currentLang = $this->_primaryLang;
     }
     /**
      * Рисует виджеты для позиици

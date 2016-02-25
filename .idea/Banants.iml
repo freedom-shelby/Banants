@@ -54,7 +54,6 @@
           <root url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
-          <root url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
           <root url="file://$MODULE_DIR$/vendor/illuminate/console" />
           <root url="file://$MODULE_DIR$/vendor/illuminate/container" />
           <root url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
@@ -64,20 +63,9 @@
           <root url="file://$MODULE_DIR$/vendor/illuminate/support" />
           <root url="file://$MODULE_DIR$/vendor/league/flysystem" />
           <root url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/diff" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/environment" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
           <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
           <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
-          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/baum/baum" />
@@ -85,7 +73,6 @@
           <root url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
-          <root url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
           <root url="file://$MODULE_DIR$/vendor/illuminate/console" />
           <root url="file://$MODULE_DIR$/vendor/illuminate/container" />
           <root url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
@@ -95,20 +82,9 @@
           <root url="file://$MODULE_DIR$/vendor/illuminate/support" />
           <root url="file://$MODULE_DIR$/vendor/league/flysystem" />
           <root url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/diff" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/environment" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
           <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
           <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
-          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
         </SOURCES>
       </library>
     </orderEntry>

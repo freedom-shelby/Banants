@@ -35,6 +35,11 @@ class ArticleModel extends LangModel
         return $this->belongsToMany('ContentModel', 'articles_has_contents', 'article_id', 'content_id');
     }
 
+    public function widgets()
+    {
+        return $this->belongsToMany('WidgetsModel', 'articles_has_widgets', 'article_id', 'widget_id');
+    }
+
 //    public function getCreatedAtAttribute($date)
 //    {
 //        return Carbon\Carbon::createFromTimestamp($date)->format('Y-m-d H:i:s');

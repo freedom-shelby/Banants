@@ -7,8 +7,11 @@
  * Употребляется в виде для отабражения элементов страницы
  * по средствам его методов
  */
+
 namespace Widgets;
 restrictAccess();
+
+
 abstract class AbstractWidget {
 
 

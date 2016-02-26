@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/WidgetsContainer.php" afterPath="$PROJECT_DIR$/app/Widgets/WidgetsContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/content/pages/page.php" afterPath="$PROJECT_DIR$/views/front/content/pages/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/widget/banner.php" afterPath="$PROJECT_DIR$/views/front/widgets/widget/banner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/widget/bestPlayer.php" afterPath="$PROJECT_DIR$/views/front/widgets/widget/bestPlayer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/widget/infoBlog.php" afterPath="$PROJECT_DIR$/views/front/widgets/widget/infoBlog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/widget/photoGalleries.php" afterPath="$PROJECT_DIR$/views/front/widgets/widget/photoGalleries.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/widget/snipers.php" afterPath="$PROJECT_DIR$/views/front/widgets/widget/snipers.php" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +62,8 @@
       <file leaf-file-name="leftTemplate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/front/widgets/leftTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21488763">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.26264045">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1091,7 +1082,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456445605641</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Pages Widgets Integretion, bug fixed">
+      <created>1456499771028</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1456499771028</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1180,7 +1177,8 @@
     <MESSAGE value="Delete unused package - Mockery" />
     <MESSAGE value="Clean Project" />
     <MESSAGE value="Pages Widgets Integretion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pages Widgets Integretion" />
+    <MESSAGE value="Pages Widgets Integretion, bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages Widgets Integretion, bug fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1614,8 +1612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/front/widgets/leftTemplate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21488763">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.26264045">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

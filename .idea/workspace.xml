@@ -2,217 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/fonts/segoeui-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/fonts/segoeui-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/fonts/segoeui-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/aadvertisment3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/advertisment1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/advertisment2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/advertisment4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/ball.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/banner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/banner_top1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/banner_top2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_multiple_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_multiple_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_multiple_icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_title_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/bigBanner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/body-bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/car.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_images2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_images3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_item_adver.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_footer_back.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_top_slideshow_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_top_slideshow_next_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_top_slideshow_prev_button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_middle_right_banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_middle_right_slideshow_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_big_images.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_middle_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_middle_images2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_long_images2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_top_banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_top_right_info_blog_images.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_top_right_info_blog_images_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/discount_bannerjpg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/eye.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/eyes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/homeIcon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/inner_content_buttom_img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/left-bottom-image-slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/left-top-image-slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_item_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_item_images2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_list_images1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_wrapper_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/person_image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/photo_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/player1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/player_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/right-bottom-image-slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/right-image-slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/slider_zigzag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/statistics_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/top-image-slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/tournament_slider_title_wrapper_left_zigzag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/tournament_table_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/video_icon2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/video_image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/youtube_banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/Banner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/BestPlayer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/InfoBlog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleries.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/Snipers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/content.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/css/owl.carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/custom/scripts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/imagesloaded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/masonry.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/content/pages/home.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/content/pages/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/leftTemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/rightTemplate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/banner.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/bestPlayer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/infoBlog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/photoGalleries.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/snipers.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/tournamentTable.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/database.sqlite" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/js/custom/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/content.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/Thumbs.db" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/AbstractWidget.php" afterPath="$PROJECT_DIR$/app/Widgets/AbstractWidget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/WidgetsContainer.php" afterPath="$PROJECT_DIR$/app/Widgets/WidgetsContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Front.php" afterPath="$PROJECT_DIR$/controllers/Front.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Front/Pages.php" afterPath="$PROJECT_DIR$/controllers/Front/Pages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test/Widget.php" afterPath="$PROJECT_DIR$/controllers/Test/Widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.css" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/ArticleModel.php" afterPath="$PROJECT_DIR$/models/ArticleModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/WidgetModel.php" afterPath="$PROJECT_DIR$/models/WidgetModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/back.php" afterPath="$PROJECT_DIR$/routes/back.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/front.php" afterPath="$PROJECT_DIR$/routes/front.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/index.php" afterPath="$PROJECT_DIR$/views/back/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/index.php" afterPath="$PROJECT_DIR$/views/front/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/css/custom/back.style.css" afterPath="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/js/custom/back.scripts.js" afterPath="$PROJECT_DIR$/media/back/js/custom/back.scripts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/jquery.mjs.nestedSortable.js" afterPath="$PROJECT_DIR$/media/back/plugins/jquery.mjs.nestedSortable.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/langs/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/license.txt" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/advlist/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/anchor/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/autolink/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/autoresize/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/autosave/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/bbcode/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/code/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/codesample/css/prism.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/codesample/css/prism.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/codesample/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/codesample/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/colorpicker/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/directionality/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/example/dialog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/example/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/fullpage/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/hr/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/image/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/imagetools/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/imagetools/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/importcss/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/layer/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/link/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/lists/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/media/moxieplayer.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/media/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/noneditable/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/paste/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/preview/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/print/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/save/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/table/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/template/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/textcolor/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/textpattern/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/visualchars/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/wordcount/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/anchor.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/object.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/trans.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/skin.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/themes/modern/theme.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/tinymce.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -239,31 +32,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/front/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-45.692307">
-              <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/front/content/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/front/content/pages/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.97191">
+            <state vertical-scroll-proportion="-0.65384614">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.307692">
+              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload_files.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26681614">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -272,7 +75,7 @@
       <file leaf-file-name="Theme.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Theme.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="11" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
@@ -282,7 +85,7 @@
       <file leaf-file-name="Banner.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Banner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1153846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#213#240#0#PHP" expanded="true" />
@@ -294,7 +97,7 @@
       <file leaf-file-name="BestPlayer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/BestPlayer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
+            <state vertical-scroll-proportion="0.0">
               <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#213#240#0#PHP" expanded="true" />
@@ -306,7 +109,7 @@
       <file leaf-file-name="InfoBlog.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/InfoBlog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.923077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#213#240#0#PHP" expanded="true" />
@@ -318,7 +121,7 @@
       <file leaf-file-name="PhotoGalleries.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
+            <state vertical-scroll-proportion="0.0">
               <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#213#240#0#PHP" expanded="true" />
@@ -330,7 +133,7 @@
       <file leaf-file-name="Snipers.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Snipers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#213#240#0#PHP" expanded="true" />
@@ -390,6 +193,9 @@
       </GitPushTagMode>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -409,7 +215,6 @@
         <option value="$PROJECT_DIR$/views/back/articles/add.php" />
         <option value="$PROJECT_DIR$/controllers/Back/Articles.php" />
         <option value="$PROJECT_DIR$/app/AbstractWidget.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/error_log" />
         <option value="$PROJECT_DIR$/app/Widgets/WidgetTournamentTable.php" />
         <option value="$PROJECT_DIR$/app/WidgetsContainer.php" />
@@ -444,6 +249,7 @@
         <option value="$PROJECT_DIR$/views/front/content/pages/home.php" />
         <option value="$PROJECT_DIR$/views/front/index.php" />
         <option value="$PROJECT_DIR$/views/front/content/pages/page.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -493,8 +299,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -521,34 +327,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -827,6 +605,34 @@
       </pane>
       <pane id="Scratches">
         <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
       </pane>
     </panes>
   </component>
@@ -1170,7 +976,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456368685563</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Pages Widgets Integretion">
+      <created>1456445605641</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1456445605641</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1183,15 +995,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.156875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31462142" sideWeight="0.503125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31331593" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38477802" sideWeight="0.4975" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3128964" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767624" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2275" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1201,7 +1014,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38477802" sideWeight="0.4975" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33550915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1258,7 +1070,8 @@
     <MESSAGE value="Menu ADD&#10;" />
     <MESSAGE value="Delete unused package - Mockery" />
     <MESSAGE value="Clean Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean Project" />
+    <MESSAGE value="Pages Widgets Integretion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages Widgets Integretion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1279,13 +1092,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1304,13 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7648766">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1339,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5491573">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,7 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,9 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1409,9 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1419,7 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42977527">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1451,7 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66853935">
           <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31039324">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16713484">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,9 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-32.692307">
           <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
-          <folding>
-            <element signature="e#128#147#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1517,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07162921">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1525,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07162921">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,7 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1541,7 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-26.076923">
           <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.038462">
           <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1557,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1565,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07162921">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1573,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.66853935">
           <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1581,7 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16713484">
           <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,9 +1361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-38.576923">
           <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
-          <folding>
-            <element signature="e#186#225#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1599,15 +1368,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#213#240#0#PHP" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/front/images/bigBanner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/content/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/content/pages/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Banner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1153846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
             <element signature="e#213#240#0#PHP" expanded="true" />
@@ -1617,7 +1420,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/BestPlayer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#213#240#0#PHP" expanded="true" />
@@ -1627,7 +1430,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/InfoBlog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.923077">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#213#240#0#PHP" expanded="true" />
@@ -1637,7 +1440,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#213#240#0#PHP" expanded="true" />
@@ -1647,7 +1450,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Snipers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#213#240#0#PHP" expanded="true" />
@@ -1655,39 +1458,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/front/images/bigBanner.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Theme.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/index.php">
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.692307">
-          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/content/pages/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/content/pages/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.97191">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.26681614">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

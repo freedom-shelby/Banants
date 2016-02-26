@@ -2,12 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Test/Widget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/fonts/segoeui-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/fonts/segoeui-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/fonts/segoeui-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/aadvertisment3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/advertisment1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/advertisment2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/advertisment4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/ball.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/banner_top1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/banner_top2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_multiple_icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_multiple_icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_multiple_icon3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/best_player_title_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/bigBanner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/body-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/car.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_images2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_images3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/carousel_slider_item_adver.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_footer_back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_top_slideshow_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_top_slideshow_next_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/container_top_slideshow_prev_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_middle_right_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_middle_right_slideshow_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_big_images.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_middle_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_middle_images2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_images4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_slider_small_long_images2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_top_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_top_right_info_blog_images.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/content_top_right_info_blog_images_small.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/discount_bannerjpg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/eye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/eyes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/homeIcon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/inner_content_buttom_img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/left-bottom-image-slider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/left-top-image-slider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/leftbar_images_slider_images5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/menu_icon7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_item_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_item_images2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_list_images1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/news_wrapper_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/person_image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/photo_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/player1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/player_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/right-bottom-image-slider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/right-image-slider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/slider_zigzag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/statistics_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/top-image-slider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/tournament_slider_title_wrapper_left_zigzag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/tournament_table_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/video_icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/video_image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/images/youtube_banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/Banner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/BestPlayer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/InfoBlog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleries.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/Snipers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/content.inline.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/content.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/css/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/custom/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/imagesloaded.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/masonry.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/front/js/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/content/pages/home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/content/pages/page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/leftTemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/rightTemplate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/banner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/bestPlayer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/infoBlog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/photoGalleries.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/snipers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/widget/tournamentTable.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database.sqlite" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/js/custom/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/Thumbs.db" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/AbstractWidget.php" afterPath="$PROJECT_DIR$/app/Widgets/AbstractWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/WidgetsContainer.php" afterPath="$PROJECT_DIR$/app/Widgets/WidgetsContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test/I18nTest.php" afterPath="$PROJECT_DIR$/controllers/Test/I18nTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Front.php" afterPath="$PROJECT_DIR$/controllers/Front.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Front/Pages.php" afterPath="$PROJECT_DIR$/controllers/Front/Pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test/Widget.php" afterPath="$PROJECT_DIR$/controllers/Test/Widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.css" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.theme.min.css" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/ArticleModel.php" afterPath="$PROJECT_DIR$/models/ArticleModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/WidgetModel.php" afterPath="$PROJECT_DIR$/models/WidgetModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/back.php" afterPath="$PROJECT_DIR$/routes/back.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/front.php" afterPath="$PROJECT_DIR$/routes/front.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/index.php" afterPath="$PROJECT_DIR$/views/back/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/index.php" afterPath="$PROJECT_DIR$/views/front/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/css/custom/back.style.css" afterPath="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/js/custom/back.scripts.js" afterPath="$PROJECT_DIR$/media/back/js/custom/back.scripts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/jquery.mjs.nestedSortable.js" afterPath="$PROJECT_DIR$/media/back/plugins/jquery.mjs.nestedSortable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/langs/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/license.txt" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/license.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/advlist/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/anchor/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/autolink/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/autoresize/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/autosave/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/bbcode/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/charmap/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/code/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/codesample/css/prism.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/codesample/css/prism.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/codesample/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/codesample/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/colorpicker/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/contextmenu/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/directionality/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-cool.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-cry.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-frown.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-smile.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-wink.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/img/smiley-yell.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/emoticons/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/example/dialog.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/example/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/example_dependency/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/fullpage/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/fullscreen/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/hr/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/image/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/imagetools/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/imagetools/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/importcss/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/insertdatetime/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/layer/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/legacyoutput/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/link/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/lists/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/media/moxieplayer.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/media/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/nonbreaking/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/noneditable/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/pagebreak/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/paste/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/preview/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/print/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/save/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/searchreplace/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/spellchecker/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/tabfocus/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/table/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/template/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/textcolor/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/textpattern/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/visualblocks/css/visualblocks.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/visualblocks/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/visualchars/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/plugins/wordcount/plugin.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/fonts/tinymce.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/anchor.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/object.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/img/trans.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/skin.ie7.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/skins/lightgray/skin.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/themes/modern/theme.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/plugins/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/media/back/plugins/tinymce/tinymce.min.js" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,104 +239,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/front.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/front/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.884615">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state vertical-scroll-proportion="-45.692307">
+              <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordTranslate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/Test/WordTranslate.php">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/front/content/pages/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="I18nTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/Test/I18nTest.php">
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/front/content/pages/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6924157">
-              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state vertical-scroll-proportion="-6.97191">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WidgetsContainer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Widgets/WidgetsContainer.php">
+      <file leaf-file-name="Theme.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Theme.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077">
-              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Banner.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Banner.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1153846">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
-                <element signature="e#186#202#0#PHP" expanded="true" />
+                <element signature="e#213#240#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Widget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/Test/Widget.php">
+      <file leaf-file-name="BestPlayer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/BestPlayer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#213#240#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TournamentTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php">
+      <file leaf-file-name="InfoBlog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/InfoBlog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-16.923077">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#213#240#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractWidget.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Widgets/AbstractWidget.php">
+      <file leaf-file-name="PhotoGalleries.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="e#213#240#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WidgetModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/WidgetModel.php">
+      <file leaf-file-name="Snipers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Snipers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/ArticleModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LangModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/LangModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.269231">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#213#240#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,31 +393,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tmp/test" />
-        <option value="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/Internet.php" />
-        <option value="$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Provider/File.php" />
-        <option value="$PROJECT_DIR$/views/setting/edit.php" />
-        <option value="$PROJECT_DIR$/controllers/Base.php" />
-        <option value="$PROJECT_DIR$/system/Setting.php" />
-        <option value="$PROJECT_DIR$/views/back/setting/groups.php" />
-        <option value="$PROJECT_DIR$/views/back/setting/list.php" />
-        <option value="$PROJECT_DIR$/system/Message.php" />
-        <option value="$PROJECT_DIR$/views/back/articles/edit.php" />
-        <option value="$PROJECT_DIR$/views/back/setting/edit.php" />
-        <option value="$PROJECT_DIR$/controllers/Back/Settings.php" />
-        <option value="$PROJECT_DIR$/controllers/Test/WordTanslate.php" />
-        <option value="$PROJECT_DIR$/system/Router.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/system/Http.php" />
-        <option value="$PROJECT_DIR$/system/App.php" />
-        <option value="$PROJECT_DIR$/system/Langs/I18n.php" />
-        <option value="$PROJECT_DIR$/models/ContentModel.php" />
-        <option value="$PROJECT_DIR$/models/SettingsModel.php" />
-        <option value="$PROJECT_DIR$/models/EntityModel.php" />
         <option value="$PROJECT_DIR$/models/EntityTranslateModel.php" />
         <option value="$PROJECT_DIR$/system/I18n.php" />
         <option value="$PROJECT_DIR$/controllers/Test/WordTranslate.php" />
-        <option value="$PROJECT_DIR$/routes/back.php" />
         <option value="$PROJECT_DIR$/views/back/index.php" />
         <option value="$PROJECT_DIR$/views/back/entities/list.php" />
         <option value="$PROJECT_DIR$/system/Langs.php" />
@@ -229,18 +410,40 @@
         <option value="$PROJECT_DIR$/controllers/Back/Articles.php" />
         <option value="$PROJECT_DIR$/app/AbstractWidget.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/views/front/index.php" />
         <option value="$PROJECT_DIR$/error_log" />
         <option value="$PROJECT_DIR$/app/Widgets/WidgetTournamentTable.php" />
-        <option value="$PROJECT_DIR$/models/WidgetModel.php" />
         <option value="$PROJECT_DIR$/app/WidgetsContainer.php" />
-        <option value="$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php" />
+        <option value="$PROJECT_DIR$/controllers/Test/I18nTest.php" />
+        <option value="$PROJECT_DIR$/models/ArticleModel.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/turnamentTable.php" />
+        <option value="$PROJECT_DIR$/models/WidgetModel.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
+        <option value="$PROJECT_DIR$/views/front/content/home.php" />
+        <option value="$PROJECT_DIR$/controllers/Front.php" />
+        <option value="$PROJECT_DIR$/system/Controller.php" />
+        <option value="$PROJECT_DIR$/routes/front.php" />
+        <option value="$PROJECT_DIR$/routes/back.php" />
+        <option value="$PROJECT_DIR$/controllers/Front/Pages.php" />
         <option value="$PROJECT_DIR$/app/Widgets/AbstractWidget.php" />
         <option value="$PROJECT_DIR$/controllers/Test/Widget.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/widget/snipers.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/widget/bestPlayer.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/widget/infoBlog.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/widget/banner.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/rightTemplate.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/leftTemplate.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/widget/photoGalleries.php" />
+        <option value="$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php" />
+        <option value="$PROJECT_DIR$/app/Widgets/Widget/Banner.php" />
+        <option value="$PROJECT_DIR$/app/Widgets/Widget/BestPlayer.php" />
+        <option value="$PROJECT_DIR$/app/Widgets/Widget/InfoBlog.php" />
+        <option value="$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleries.php" />
+        <option value="$PROJECT_DIR$/app/Widgets/Widget/Snipers.php" />
         <option value="$PROJECT_DIR$/app/Widgets/WidgetsContainer.php" />
-        <option value="$PROJECT_DIR$/models/ArticleModel.php" />
-        <option value="$PROJECT_DIR$/routes/front.php" />
-        <option value="$PROJECT_DIR$/controllers/Test/I18nTest.php" />
+        <option value="$PROJECT_DIR$/app/Theme.php" />
+        <option value="$PROJECT_DIR$/views/front/content/pages/home.php" />
+        <option value="$PROJECT_DIR$/views/front/index.php" />
+        <option value="$PROJECT_DIR$/views/front/content/pages/page.php" />
       </list>
     </option>
   </component>
@@ -346,9 +549,6 @@
         </subPane>
         <subPane subId="Tests" />
       </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,7 +613,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="back" />
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,10 +688,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="back" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="articles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,7 +715,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,25 +765,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Back" />
+              <option name="myItemId" value="Front" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,6 +825,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -585,7 +840,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TransferTo" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="" />
@@ -596,746 +851,20 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\Banants\controllers\Test" />
-      <recent name="D:\OpenServer\domains\Banants\models" />
-      <recent name="D:\OpenServer\domains\Banants\app\Widgets" />
-      <recent name="D:\OpenServer\domains\Banants\app" />
-      <recent name="D:\OpenServer\domains\Banants\views\back\entity" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\Banants\system\Langs" />
-      <recent name="D:\OpenServer\domains\Banants\views\back" />
-      <recent name="D:\OpenServer\domains\Banants\system" />
-      <recent name="D:\OpenServer\domains\Banants\views\back\categories" />
-      <recent name="D:\OpenServer\domains\Banants\media\libs\bs3" />
+      <recent name="D:\OpenServer\domains\Banants\views\front\widgets\widget" />
+      <recent name="D:\OpenServer\domains\Banants\views\front\content\pages" />
+      <recent name="D:\OpenServer\domains\Banants\media\front\js\custom" />
+      <recent name="D:\OpenServer\domains\Banants\media" />
+      <recent name="D:\OpenServer\domains\Banants\media\back" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/composer.phar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/controllers/Front/Pages.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_classmap.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_files.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_psr4.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/autoload_real.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/installed.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/doctrine/inflector/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/doctrine/inflector/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/doctrine/inflector/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/doctrine/inflector/tests/Doctrine/Tests/Common/Inflector/InflectorTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/league/flysystem/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/league/flysystem/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/Ftp.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/league/flysystem/src/Adapter/NullAdapter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/league/flysystem/src/Util.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/league/flysystem/src/Util/MimeType.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Catalogue/AbstractOperation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Catalogue/DiffOperation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Catalogue/MergeOperation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Catalogue/OperationInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/DataCollector/TranslationDataCollector.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/DataCollectorTranslator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/CsvFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/FileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/IcuResFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/IniFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/JsonFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/MoFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/PhpFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/PoFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/QtFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/XliffFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Dumper/YamlFileDumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/CsvFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/IniFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/JsonFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/MoFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/PhpFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/PoFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/PluralizationRules.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Catalogue/DiffOperationTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollector/TranslationDataCollectorTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/DataCollectorTranslatorTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/CsvFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/FileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IcuResFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/IniFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/JsonFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/MoFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PhpFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/PoFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/QtFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/XliffFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Dumper/YamlFileDumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/Loader/XliffFileLoaderTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/PluralizationRulesTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorCacheTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/TranslatorTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Tests/fixtures/resources-clean.xlf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Translator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/Writer/TranslationWriter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/translation/phpunit.xml.dist</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Widgets/AbstractWidget.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Widgets/WidgetsContainer.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/AbstractWidget.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/Widgets/WidgetTournamentTable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/WidgetsContainer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/composer/include_paths.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.coveralls.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.gush.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/CHANGES.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/LICENSE.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/TODO.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryCall.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryFile.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryGenerator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryMethod.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/FactoryParameter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/GlobalFunctionFile.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/StaticMethodFile.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/parts/file_header.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/parts/functions_footer.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/parts/functions_header.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/parts/functions_imports.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/parts/matchers_footer.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/parts/matchers_header.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/parts/matchers_imports.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/generator/run.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInOrder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingKey.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingKeyValuePair.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayWithSize.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/MatchingOnce.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/SeriesMatchingOnce.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/AssertionError.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/BaseDescription.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/BaseMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsEmptyTraversable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Collection/IsTraversableWithSize.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/AllOf.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/AnyOf.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/CombinableMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/DescribedAs.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Every.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/HasToString.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Is.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsAnything.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsCollectionContaining.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsEqual.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsIdentical.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsInstanceOf.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsNot.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsNull.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsSame.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/IsTypeOf.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/Set.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Core/ShortcutCombination.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Description.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/DiagnosingMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/FeatureMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Internal/SelfDescribingValue.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Matcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/MatcherAssert.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Matchers.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/NullDescription.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/IsCloseTo.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Number/OrderingComparison.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/SelfDescribing.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/StringDescription.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/IsEmptyString.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/IsEqualIgnoringCase.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/IsEqualIgnoringWhiteSpace.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/MatchesPattern.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringContains.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringContainsIgnoringCase.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringContainsInOrder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringEndsWith.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/StringStartsWith.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Text/SubstringMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsArray.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsBoolean.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsCallable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsDouble.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsInteger.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsNumeric.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsObject.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsResource.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsScalar.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Type/IsString.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/TypeSafeDiagnosingMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/TypeSafeMatcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Util.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/hamcrest/Hamcrest/Xml/HasXPath.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/AbstractMatcherTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayContainingInAnyOrderTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayContainingInOrderTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayContainingKeyTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayContainingKeyValuePairTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayContainingTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Array/IsArrayWithSizeTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/BaseMatcherTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Collection/IsEmptyTraversableTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Collection/IsTraversableWithSizeTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AllOfTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/AnyOfTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/CombinableMatcherTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/DescribedAsTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/EveryTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/HasToStringTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsAnythingTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsCollectionContainingTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsEqualTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsIdenticalTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsInstanceOfTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNotTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsNullTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsSameTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/IsTypeOfTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleBaseClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SampleSubClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Core/SetTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/FeatureMatcherTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/MatcherAssertTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Number/IsCloseToTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Number/OrderingComparisonTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/StringDescriptionTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/IsEmptyStringTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/IsEqualIgnoringCaseTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/IsEqualIgnoringWhiteSpaceTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/MatchesPatternTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsIgnoringCaseTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsInOrderTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringContainsTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringEndsWithTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Text/StringStartsWithTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsArrayTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsBooleanTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsCallableTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsDoubleTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsIntegerTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsNumericTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsObjectTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsResourceTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsScalarTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsStringTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/UtilTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Xml/HasXPathTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/bootstrap.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/tests/phpunit.xml.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/build/travis-ci.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/phpunit.xml.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/scripts/auto_append.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/scripts/auto_prepend.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Driver.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Driver/HHVM.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Driver/Xdebug.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Exception.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Exception/UnintentionallyCoveredCode.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Filter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Clover.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Crap4j.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Factory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Dashboard.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Directory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/File.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/coverage_bar.html.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/css/nv.d3.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/css/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/dashboard.html.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/directory.html.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/directory_item.html.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/file.html.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/file_item.html.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/fonts/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/fonts/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/fonts/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/fonts/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/fonts/glyphicons-halflings-regular.woff2</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/d3.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/holder.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/html5shiv.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/jquery.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/nv.d3.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/respond.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/method_item.html.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Node.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Node/Directory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Node/File.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Node/Iterator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/PHP.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/Text.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/Directory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/File.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/File/Coverage.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/File/Method.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/File/Report.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/File/Unit.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/Node.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/Project.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/Tests.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/Totals.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Util.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Util/InvalidArgumentHelper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/PHP/CodeCoverage/FilterTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/PHP/CodeCoverage/Report/CloverTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/PHP/CodeCoverage/Report/FactoryTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/PHP/CodeCoverage/UtilTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/PHP/CodeCoverageTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/TestCase.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccount-clover.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccount.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/BankAccountTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageClassExtendedTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageClassTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageFunctionParenthesesTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageFunctionParenthesesWhitespaceTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageFunctionTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodOneLineAnnotationTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodParenthesesTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodParenthesesWhitespaceTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageMethodTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNoneTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNotPrivateTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNotProtectedTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNotPublicTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageNothingTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveragePrivateTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageProtectedTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveragePublicTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoverageTwoDefaultClassAnnotations.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveredClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/CoveredFunction.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageClassExtendedTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageClassTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageCoversClassPublicTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageCoversClassTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageMethodTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageNotPrivateTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageNotProtectedTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageNotPublicTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoveragePrivateTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoverageProtectedTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoveragePublicTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NamespaceCoveredClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/NotExistingCoveredElementTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/class-with-anonymous-function-clover.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/ignored-lines-clover.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_class_and_anonymous_function.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_ignore.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_namespace.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_with_oneline_annotations.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_without_ignore.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-code-coverage/tests/_files/source_without_namespace.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/ChangeLog.markdown</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Autoload.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Autoload.php.in</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Facade.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/File/Iterator/Factory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/README.markdown</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/ControlStructures/ControlSignatureSniff.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/Sniffs/Whitespace/ConcatenationSpacingSniff.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/PHPCS/ruleset.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/build/phpmd.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-file-iterator/package.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-text-template/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-text-template/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-text-template/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-text-template/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-text-template/src/Template.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/src/Timer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-timer/tests/TimerTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/build.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/build/phpunit.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/src/Token.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/src/Token/Stream.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/src/Token/Stream/CachingFactory.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/ClassTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/ClosureTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/FunctionTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/IncludeTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/InterfaceTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/Token/NamespaceTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/TokenTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/classExtendsNamespacedClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/classInNamespace.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/classInScopedNamespace.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/class_with_method_that_declares_anonymous_class.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/class_with_method_that_declares_anonymous_class2.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/closure.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/issue19.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/issue30.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/multipleNamespacesWithOneClassUsingBraces.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/multipleNamespacesWithOneClassUsingNonBraceSyntax.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/source.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/source2.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/source3.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/source4.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/_fixture/source5.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/php-token-stream/tests/bootstrap.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/CONTRIBUTING.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/build/travis-ci.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/phpunit.xml.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/Identity.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/InvocationMocker.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/Match.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/MethodNameMatch.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/Namespace.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/ParametersMatch.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Builder/Stub.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Exception/BadMethodCallException.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Exception/Exception.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Exception/RuntimeException.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/mocked_class.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/mocked_class_method.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/mocked_clone.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/mocked_method.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/mocked_static_method.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/proxied_method.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/trait_class.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/unmocked_clone.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/wsdl_class.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Generator/wsdl_method.tpl.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Invocation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Invocation/Object.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Invocation/Static.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/InvocationMocker.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Invokable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/AnyInvokedCount.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/AnyParameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/Invocation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/InvokedAtIndex.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/InvokedAtLeastOnce.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/InvokedCount.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/InvokedRecorder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/MethodName.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/Parameters.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Matcher/StatelessInvocation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/MockBuilder.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/MockObject.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/ConsecutiveCalls.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/Exception.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/MatcherCollection.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/Return.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/ReturnArgument.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/ReturnCallback.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/ReturnSelf.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Stub/ReturnValueMap.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/src/Framework/MockObject/Verifiable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/GeneratorTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockBuilderTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/Invocation/ObjectTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/Invocation/StaticTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_call_parent_clone.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_dont_call_parent_clone.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_dont_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_implementing_interface_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_implementing_interface_dont_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_partial.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/class_with_method_named_method.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/interface.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/invocation_object_clone_object.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class_call_parent_clone.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class_dont_call_parent_clone.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class_dont_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class_implementing_interface_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class_implementing_interface_dont_call_parent_constructor.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_class_partial.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/namespaced_interface.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/nonexistent_class.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/nonexistent_class_with_namespace.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/nonexistent_class_with_namespace_starting_with_separator.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/proxy.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/wsdl_class.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/wsdl_class_namespace.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObject/wsdl_class_partial.phpt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/MockObjectTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/ProxyObjectTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/AbstractMockTestClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/AbstractTrait.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/AnInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/AnotherInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/Bar.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/ClassThatImplementsSerializable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/ClassWithStaticMethod.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/Foo.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/FunctionCallback.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/GoogleSearch.wsdl</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/InterfaceWithStaticMethod.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/MethodCallback.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/MethodCallbackByReference.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/Mockable.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/PartialMockTestClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/SomeClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/StaticMockTestClass.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/_files/TraversableMockTestInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/autoload.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects/tests/bootstrap.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/.php_cs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/build.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/phpunit.xml.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/Chunk.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/Diff.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/Differ.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/LongestCommonSubsequence.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/MemoryEfficientLongestCommonSubsequenceImplementation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/LCS/TimeEfficientLongestCommonSubsequenceImplementation.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/Line.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/src/Parser.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/tests/DifferTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/tests/LCS/TimeEfficientImplementationTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/tests/ParserTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/tests/fixtures/patch.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/diff/tests/fixtures/patch2.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/build.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/phpunit.xml.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/src/Console.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/src/Runtime.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/tests/ConsoleTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/environment/tests/RuntimeTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/.travis.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/build.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/phpunit.xml.dist</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/src/Context.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/src/Exception.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/src/Exporter.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/exporter/tests/ExporterTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/version/.gitattributes</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/version/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/version/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/version/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/version/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/sebastian/version/src/Version.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/CHANGELOG.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Escaper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Exception/DumpException.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Exception/ExceptionInterface.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Exception/RuntimeException.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Inline.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/LICENSE</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Parser.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsAnchorAlias.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsBasicTests.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsBlockMapping.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsDocumentSeparator.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsErrorTests.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsFlowCollections.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsFoldedScalars.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsNullsAndEmpties.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsSpecificationExamples.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsTypeTransfers.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/embededPhp.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/escapedCharacters.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/index.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfComments.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfCompact.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfMergeKey.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfObjects.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfQuotes.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfTests.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/unindentedCollections.yml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/InlineTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParseExceptionTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Tests/YamlTest.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Unescaper.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/Yaml.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/composer.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/vendor/symfony/yaml/phpunit.xml.dist</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\Banants\app\Widgets\Widget" />
+      <recent name="D:\OpenServer\domains\Banants\views\front\widgets\widget" />
+      <recent name="D:\OpenServer\domains\Banants\views\front\widgets" />
+      <recent name="D:\OpenServer\domains\Banants\views\front\content\pages" />
+      <recent name="D:\OpenServer\domains\Banants\views\front\content" />
+    </key>
   </component>
   <component name="RunManager" selected="PHP Script.ContentModel.php">
     <configuration default="false" name="ContentModel.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/models/ContentModel.php">
@@ -1635,7 +1164,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456364075214</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Clean Project">
+      <created>1456368685563</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1456368685563</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1649,12 +1184,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12997903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.156875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.171875" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31462142" sideWeight="0.503125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31331593" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
@@ -1663,6 +1197,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22916667" sideWeight="0.5125969" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1744,216 +1279,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/system/Crypt/Caesar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/Crypt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8216292">
-          <caret line="1150" column="9" selection-start-line="1150" selection-start-column="9" selection-end-line="1150" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/GalleryModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33286518">
-          <caret line="1618" column="20" selection-start-line="1618" selection-start-column="20" selection-end-line="1618" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/baum/baum/src/Baum/Extensions/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.119382024">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/baum/baum/src/Baum/Node.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34550563">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/SettingsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19101124">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/EntityTranslationModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4573991">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70365167">
-          <caret line="586" column="9" selection-start-line="586" selection-start-column="9" selection-end-line="586" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/I18n.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/back/entities/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.846153">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/EntityModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/back/entities/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/back/entities/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/back/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16432585">
-          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Back/Entities.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.325112">
-          <caret line="137" column="61" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Test/NestedSets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65695065">
-          <caret line="92" column="36" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/Node.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.076233186">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1456353069384" expanded="true" signature="2104:3005" placeholder="..." />
-            <marker date="1456353069384" expanded="true" signature="2344:2966" placeholder="..." />
-            <marker date="1456353069384" expanded="true" signature="2477:2628" placeholder="..." />
-            <marker date="1456353069384" expanded="true" signature="2786:2923" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/MenuModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.153847">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/MenuItemModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Back/Menus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71348315">
-          <caret line="172" column="31" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
-          <folding>
-            <element signature="e#253#269#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/back/articles/add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4775281">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Back/Articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33426967">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/Langs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19101124">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/back.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12481858">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1961,7 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1969,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4755245">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1977,15 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46879536">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1993,7 +1311,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7648766">
           <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2001,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2009,15 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5067751">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2025,7 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2037,19 +1343,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/back/articles/edit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77106744">
           <caret line="56" column="120" selection-start-line="56" selection-start-column="120" selection-end-line="56" selection-end-column="120" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2057,31 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38202247">
           <caret line="16" column="103" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Test/Widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Widgets/AbstractWidget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/WidgetModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2089,41 +1361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.21488763">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Widgets/WidgetsContainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="e#186#202#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Test/WordTranslate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.884615">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/ArticleModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2137,8 +1374,320 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Test/I18nTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6924157">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+        <state vertical-scroll-proportion="1.4325843">
+          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Test/WordTranslate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33426967">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/front/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/front/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/libs/jquery-1.12.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/front/js/custom/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/WidgetModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42977527">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/ArticleModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.961538">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Back/Articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023876404">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66853935">
+          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/back.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78792137">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/back/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="89" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31039324">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16713484">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Test/Widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.692307">
+          <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
+          <folding>
+            <element signature="e#128#147#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/widget/banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07162921">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/rightTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07162921">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/widget/snipers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/widget/infoBlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.076923">
+          <caret line="90" column="50" selection-start-line="90" selection-start-column="50" selection-end-line="90" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/widget/bestPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/leftTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/widget/photoGalleries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07162921">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/widget/tournamentTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66853935">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/AbstractWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16713484">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/WidgetsContainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.576923">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <folding>
+            <element signature="e#186#225#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/TournamentTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#213#240#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1153846">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#213#240#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/BestPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#213#240#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/InfoBlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.923077">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#213#240#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#213#240#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Snipers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#213#240#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/front/images/bigBanner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Theme.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-45.692307">
+          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/content/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/content/pages/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.97191">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

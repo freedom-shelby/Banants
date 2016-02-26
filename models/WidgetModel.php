@@ -16,16 +16,6 @@ class WidgetModel extends Eloquent
 
     protected $fillable = ['template', 'sorting', 'position', 'status'];
 
-    // this is a recommended way to declare event handlers
-    protected static function boot() {
-        parent::boot();
-
-        static::deleting(function($entityModel) { // before delete() method call this
-
-            $entityModel->translations()->delete();
-            // do the rest of the cleanup...
-        });
-    }
 
     public function articles()
     {

@@ -13,15 +13,14 @@
 namespace Test;
 
 
+use Widgets\WidgetsContainer;
+
 class Widget extends \Controller
 {
     public function anyIndex()
     {
 
-//        \Langs::instance()->setCurrentLang('am');
-//        var_dump(function_exists('__'));
-        echo __('World :name', [':name' => 'John']);
-
+        new WidgetsContainer(\ArticleModel::find(1));
 
     }
 }

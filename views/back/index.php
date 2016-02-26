@@ -10,15 +10,15 @@
     <title>FC Banants Admin Panel</title>
 
     <link href="/media/libs/bs3/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/media/css/custom/back.style.css" rel="stylesheet">
+    <link href="/media/back/css/custom/back.style.css" rel="stylesheet">
     <link rel="stylesheet" href="/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.css">
 
     <script src="/media/libs/jquery-1.12.0.min.js"></script>
     <script src="/media/libs/bs3/js/bootstrap.min.js"></script>
-    <script src='/media/plugins/tinymce/tinymce.min.js'></script>
+    <script src='/media/back/plugins/tinymce/tinymce.min.js'></script>
 <!--    <script src="external/jquery/jquery.js"></script>-->
     <script src="/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.js"></script>
-    <script src='/media/plugins/jquery.mjs.nestedSortable.js'></script>
+    <script src='/media/back/plugins/jquery.mjs.nestedSortable.js'></script>
 
 
 </head>
@@ -98,7 +98,7 @@
 
     </div><!--/.container-->
 </div><!-- #main -->
-<script src="/media/js/custom/back.scripts.js"></script>
+<script src="/media/back/js/custom/back.scripts.js"></script>
 
 </body>
 </html>

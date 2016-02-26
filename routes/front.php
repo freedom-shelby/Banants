@@ -11,8 +11,7 @@
  * Роуты приветствия
  */
 Router::get(['/', 'as' => 'front.home'],'Front\Pages@getHome');
-
-
+Router::get(['/{page?}','rules' => ['page' => '[a-z]+'], 'as' => 'front.page'],'Front\Pages@getPage');
 
 
 /**

@@ -9,10 +9,16 @@
  */
 namespace Widgets;
 
+use Illuminate\Database\Eloquent\Model;
+use Widgets\Widget;
 use WidgetModel;
 use ArticleModel;
+use View;
+
 
 class WidgetsContainer {
+
+    const WIDGET_NAMESPACE = 'Widgets\Widget\\';
 
     /**
      * Активние Виджеты
@@ -20,45 +26,60 @@ class WidgetsContainer {
      */
     protected $_items = [];
 
+    /**
+     * Шаблон
+     */
+    protected $_template = [
+        'left' => 'front/widgets/rightTemplate',
+        'right' => 'front/widgets/leftTemplate',
+    ];
+
     protected static $_instance;
 
 
     /**
      * Возвращает объект виджета
+     * @param Model $model
      * @return WidgetsContainer
      */
-    public static function instance(){
+    public static function instance($model = null){
 
         if(self::$_instance == null){
-            self::$_instance = new self();
+            self::$_instance = new self($model);
         }
         return self::$_instance;
     }
 
-    public function __construct($articleId){
-        $items = ArticleModel::find($articleId)->widgets()->whereStatus(1)->get();
+    public function __construct($model){
+        $items = $model->widgets()->whereStatus(1)->get();
 
-//echo '<pre>';
-//print_r($items);die;
-//        if(!empty($items)){
-//            foreach($items as $i){
-//                $iso = strtolower($i->iso);
-//                $this->_items[$iso] = array(
-//                    'id' => $i->id,
-//                    'name' => $i->name,
-//                    'iso' => $iso,
-//                );
-//            }
-//        }
-//
-//        $this->_currentLang = $this->_primaryLang;
+        if(!empty($items)){
+            foreach($items as $i){
+                $class = static::WIDGET_NAMESPACE . $i->type;
+                $tmp = (new $class);
+                $tmp->init($i);
+                // todo: в админке проверять чтобы Sorting биль уникалним
+                $this->_items[$tmp->getPosition()][$tmp->getSorting()] = $tmp;
+            }
+        }
     }
+
     /**
      * Рисует виджеты для позиици
+     * $position = ['left','right']
      * @param string $position
+     * @return View
      */
     public function draw($position)
     {
+        $content = '';
+        if( ! empty($this->_items[$position])){
+            foreach($this->_items[$position] as $item){
+                $content .= $item->render() . PHP_EOL;
+            }
+        }
 
+        return View::make($this->_template[$position])
+            ->with('content', $content);
     }
 }

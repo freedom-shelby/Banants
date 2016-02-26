@@ -16,14 +16,34 @@ abstract class AbstractWidget {
 
 
     /**
-     * Тип виджета
+     * Тип страницы
      */
     protected $_type;
+
+    /**
+     * Позиция
+     */
+    protected $_position;
+
+    /**
+     * Индекс сортировки
+     */
+    protected $_sort;
+
+    /**
+     * Шаблон
+     */
+    protected $_template;
+
+    /**
+     * Параметри в виде JSON-а
+     */
+    protected $_param;
 
     public function getPosition(){}
     public function getSorting(){}
     public function render(){}
-    public function init(){}
+    public function init($model){}
 
 
 } 

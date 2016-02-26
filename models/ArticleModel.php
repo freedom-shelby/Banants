@@ -37,7 +37,7 @@ class ArticleModel extends LangModel
 
     public function widgets()
     {
-        return $this->belongsToMany('WidgetsModel', 'articles_has_widgets', 'article_id', 'widget_id');
+        return $this->belongsToMany('WidgetModel', 'articles_has_widgets', 'article_id', 'widget_id');
     }
 
 //    public function getCreatedAtAttribute($date)

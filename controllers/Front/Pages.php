@@ -10,41 +10,40 @@ namespace Front;
 
 restrictAccess();
 
+use Http\Exception;
 use View;
+use ArticleModel;
+use Widgets\WidgetsContainer;
 
 class Pages extends Front
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
 
     /**
      * Главная страница сайта
      */
-    public function getHome(){
+    public function getHome()
+    {
+        $model = ArticleModel::where('slug','=','home')->first();
+        WidgetsContainer::instance($model);
 
-        $chargerContainer = View::make('front/charge-steps/container')
-            ->with('content',View::make('front/charge-steps/step1'));
-//            ->with('content',View::make('front/charge-steps/step1',['countries' => \CountryModel::getChargableCountries()]));
-        $this->layout->content = View::make('front/home')->with('content',$chargerContainer);
+        $this->layout->content = View::make('front/content/pages/home');
     }
 
-    public function getAbout(){
-        $this->layout->content = View::make('front/about');
+    public function getPage()
+    {
+        $slug = $this->getRequestParam('page') ?: null;
+
+        $model = ArticleModel::where('slug','=',$slug)->first();
+
+        if(empty($model)){
+            throw new Exception(404);
+        }
+
+        WidgetsContainer::instance($model);
+
+        $this->layout->content = View::make('front/content/pages/page');
     }
 
-    public function getHowToTopUp(){
-        $this->layout->content = View::make('front/topup');
-    }
-
-    public function getNews(){
-        $this->layout->content = View::make('front/news');
-    }
-
-    public function getFaq(){
-        $this->layout->content = View::make('front/faq');
-    }
 
     public function getTest(){
 //        print_r(\Settings::instance()->get_all_groups());

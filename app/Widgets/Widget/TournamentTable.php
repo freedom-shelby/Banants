@@ -13,6 +13,7 @@ restrictAccess();
 
 
 use Widgets\AbstractWidget;
+use View;
 
 class TournamentTable extends AbstractWidget{
 
@@ -21,10 +22,48 @@ class TournamentTable extends AbstractWidget{
      */
     protected $_type;
 
-    public function getPosition(){}
-    public function getSorting(){}
-    public function render(){}
-    public function init(){}
+    /**
+     * Позиция
+     */
+    protected $_position;
+
+    /**
+     * Индекс сортировки
+     */
+    protected $_sort;
+
+    /**
+     * Шаблон
+     */
+    protected $_template;
+
+    /**
+     * Параметри в виде JSON-а
+     */
+    protected $_param;
 
 
+    public function getPosition()
+    {
+        return $this->_position;
+    }
+
+    public function getSorting()
+    {
+        return $this->_sort;
+    }
+
+    public function render()
+    {
+        return View::make($this->_template);
+    }
+
+    public function init($model)
+    {
+        $this->_position = $model->position;
+        $this->_sort = $model->sort;
+        $this->_template = $model->template;
+        $this->_param = $model->param;
+        $this->_type = $model->type;
+    }
 }

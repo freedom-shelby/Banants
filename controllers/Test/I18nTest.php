@@ -61,8 +61,8 @@ class I18nTest extends \Controller
         //    print_r($article->pivot);
         //}
 
-        //$contents = Article::all()->contents();
-        //print_r($contents->getAttributes());
+//        $contents = \ArticleModel::find(5)->contents()->first();
+//        print_r($contents);
         //foreach ( Article::all() as $item) {
         //    foreach ($item->contents()->get() as $content)
         //    {
@@ -97,28 +97,28 @@ class I18nTest extends \Controller
         ////    }
         //}
 
-        //$cont = Article::find(1)->belongsToMany('Content', 'articles_has_contents', 'article_id', 'content_id')->where('lang_id', '=', '2')->first();
-        //    echo $cont.'<br>';
+//        $cont = \ArticleModel::find(3)->belongsToMany('ContentModel', 'articles_has_contents', 'article_id', 'content_id')->where('lang_id', '=', '2')->first();
+//            echo $cont.'<br>';
 
-        //foreach ($cont->get() as $item) {
-        //echo $item.'<br>';
-        //    $item->contents->each(function($item){
-        //        $item->addHidden(['id']);
-        //    });
-        //    $a = $item;
-        //    echo $a.'<br>';
-        //    foreach ($item->contents as $content)
-        //    {
-        //        echo $content;
-        //        //  print_r($content->getAttributes());
-        //    }
-        //}
+//        foreach ($cont as $item) {
+//        echo $item.'<br>';
+//            $item->contents->each(function($item){
+//                $item->addHidden(['id']);
+//            });
+//            $a = $item;
+//            echo $a.'<br>';
+//            foreach ($item->contents as $content)
+//            {
+//                echo $content;
+//                //  print_r($content->getAttributes());
+//            }
+//        }
 
 //        $a = new \ArticleModel();
 //        print_r(str_replace('_model', '', $a->getForeignKey()));die;
 
-//        $article = (new \ArticleModel())->find(1);     //  ->where('article_id', '=', 3)  //  ->where('lang_id', '=', '2')
-//
+//        $article = (new \ArticleModel())->find(2);     //  ->where('article_id', '=', 3)  //  ->where('lang_id', '=', '2')
+////
 //        echo($article->title);
     }
 

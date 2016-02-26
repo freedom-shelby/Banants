@@ -16,7 +16,7 @@ Router::any(['/Admin/Articles/Add', 'as' => 'back.articles.add'],'Back\Articles@
 Router::any(['/Admin/Articles/Edit/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.articles.edit'],'Back\Articles@anyEdit');
 Router::get(['/Admin/Articles/Delete/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.articles.delete'],'Back\Articles@getDelete');
 Router::get(['/Admin/Categories', 'as' => 'back.categories.list'],'Back\Categories@getList');
-Router::any(['/Admin/Categories/Add', 'as' => 'back.categories.add'],'Back\Categories@anyAdd');
+//Router::any(['/Admin/Categories/Add', 'as' => 'back.categories.add'],'Back\Categories@anyAdd');
 Router::any(['/Admin/Categories/Save', 'as' => 'back.categories.save'],'Back\Categories@anySaveSorting');
 Router::any(['/Admin/Categories/Edit/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.categories.edit'],'Back\Categories@anyEdit');
 Router::get(['/Admin/Entities', 'as' => 'back.entities.list'],'Back\Entities@getList');
@@ -32,9 +32,3 @@ Router::get(['/Admin/Menus/List/{id?}','rules' => ['id' => '[0-9]+'],  'as' => '
 /**
  * Тесты
  */
-
-Router::any(['/viewTest', 'as' => 'test.viewTests.index'],'Test\ViewTests@anyIndex');
-Router::any(['/withLayout', 'as' => 'test.viewTests.WithLayout'],'Test\ViewTests@anyWithLayout');
-
-Router::any(['/users/{id?}','rules' => ['id' => '[0-9]+'], 'as' => 'test.routeTests.users'],'Test\RouteTests@anyUsers');
-Router::any(['/users/list/{status?}/{page?}','rules' => ['status' => '[a-zа-я]+','page' => '[0-9]+'], 'as' => 'test.routeTests.usersList'],'Test\RouteTests@anyUsersList');

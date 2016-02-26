@@ -50,7 +50,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.categories.add', 'Add')?>">Add</a></li>
+                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.articles.add', 'Add')?>">Add</a></li>
                             <li><a href="<?=Helpers\Uri::makeRouteUri('back.categories.list', 'List')?>">List</a></li>
                         </ul>
                     </li>

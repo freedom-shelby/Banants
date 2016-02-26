@@ -20,16 +20,16 @@
             <div class="best_player_content">
                 <h3>Վարազդատ Սմբատյան</h3>
                 <div class="best_player_images_wrapper">
-                    <img src="images/player1.png" alt="best_player" />
+                    <img src="/media/front/images/player1.png" alt="best_player" />
                 </div><!-- best_player_images_wrapper -->
                 <div class="best_player_right">
                     <div class="best_player_info">
                         <span>21 Տարեկան<br> 23 Գոլ</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
-                        <span><a href="#"><img src="images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                     </div><!-- best_player_multiple -->
                 </div><!-- best_player_right -->
             </div><!-- best_player_content -->
@@ -38,16 +38,16 @@
             <div class="best_player_content">
                 <h3>Ռիվալդո Վիտոր</h3>
                 <div class="best_player_images_wrapper">
-                    <img src="images/player1.png" alt="best_player" />
+                    <img src="/media/front/images/player1.png" alt="best_player" />
                 </div><!-- best_player_images_wrapper -->
                 <div class="best_player_right">
                     <div class="best_player_info">
                         <span>29 Տարեկան<br> 21 Գոլ</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
-                        <span><a href="#"><img src="images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                     </div><!-- best_player_multiple -->
                 </div><!-- best_player_right -->
             </div><!-- best_player_content -->
@@ -58,16 +58,16 @@
             <div class="best_player_content">
                 <h3>Վարազդատ Սմբատյան</h3>
                 <div class="best_player_images_wrapper">
-                    <img src="images/player1.png" alt="best_player" />
+                    <img src="/media/front/images/player1.png" alt="best_player" />
                 </div><!-- best_player_images_wrapper -->
                 <div class="best_player_right">
                     <div class="best_player_info">
                         <span>21 Տարեկան<br> 23 Գոլ</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
-                        <span><a href="#"><img src="images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                     </div><!-- best_player_multiple -->
                 </div><!-- best_player_right -->
             </div><!-- best_player_content -->
@@ -76,16 +76,16 @@
             <div class="best_player_content">
                 <h3>Ռիվալդո Վիտոր</h3>
                 <div class="best_player_images_wrapper">
-                    <img src="images/player1.png" alt="best_player" />
+                    <img src="/media/front/images/player1.png" alt="best_player" />
                 </div><!-- best_player_images_wrapper -->
                 <div class="best_player_right">
                     <div class="best_player_info">
                         <span>29 Տարեկան<br> 21 Գոլ</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
-                        <span><a href="#"><img src="images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img src="images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                        <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                     </div><!-- best_player_multiple -->
                 </div><!-- best_player_right -->
             </div><!-- best_player_content -->

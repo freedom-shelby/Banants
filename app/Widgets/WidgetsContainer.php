@@ -30,8 +30,8 @@ class WidgetsContainer {
      * Шаблон
      */
     protected $_template = [
-        'left' => 'front/widgets/rightTemplate',
-        'right' => 'front/widgets/leftTemplate',
+        'left' => 'front/widgets/leftTemplate',
+        'right' => 'front/widgets/rightTemplate',
     ];
 
     protected static $_instance;
@@ -51,7 +51,7 @@ class WidgetsContainer {
     }
 
     public function __construct($model){
-        $items = $model->widgets()->whereStatus(1)->get();
+        $items = $model->widgets()->whereStatus(1)->orderBy('sort')->get();
 
         if(!empty($items)){
             foreach($items as $i){

@@ -8,19 +8,7 @@
 ?>
 <div class="container common_page team_info_page">
     <div class="inner clearfix">
-        <div class="navigation clearfix">
-            <ul>
-                <li class="home"><a href="#"><img src="/media/front/images/homeIcon.jpg" alt="homeIcon" /></a></li>
-                <li><a href="#">Ակումբ</a></li>
-                <li><a href="#">Բանանց 1</a></li>
-                <li><a href="#">Բանանց 2</a></li>
-                <li><a href="#">Բանանց Երիտ.</a></li>
-                <li><a href="#">Ակադեմիա</a></li>
-                <li><a href="#">Երկրպագուներին</a></li>
-            </ul>
-        </div><!-- navogation -->
         <div class="container_wrapper clearfix">
-
             <div class="leftbar">
                 <div class="left_bar_menu">
                     <li><a href="#">նորություններ</a></li>

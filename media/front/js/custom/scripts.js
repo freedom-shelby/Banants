@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	if($(".container_top_slideshow").length > 0) {
 		$(".container_top_slideshow").owlCarousel({
 			navigation : true,
@@ -104,4 +105,15 @@ $(document).ready(function() {
 		});
 	}
 
+	$('.fancybox').fancybox();
+
+	var $submenu = $("#submenu");
+
+	$("#navigation_maim li a").on("click", function( e ){
+		e.preventDefault();
+		$submenu.toggleClass("hidden");
+	});
+
 })
+
+

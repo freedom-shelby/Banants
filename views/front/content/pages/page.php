@@ -35,7 +35,11 @@
                     <li><a href="#">նորություններ</a></li>
                 </div> <!---->
 
-                <?=Theme::drawWidgets('left')?>
+                <?if(!is_null(Theme::drawWidgets('right'))):?>
+                    <div class="leftbar clearfix">
+                        <?=Theme::drawWidgets('left')?>
+                    </div><!-- leftbar -->
+                <?endif?>
 
             </div>
             <div class="inner_content_wrapper">
@@ -162,7 +166,14 @@
                 </div> <!--inner_content_buttom-->
             </div><!--inner_content_wrapper-->
 
-            <?=Theme::drawWidgets('right')?>
+            <?if(!is_null(Theme::drawWidgets('right'))):?>
+                <div class="right_bar">
+                    <div class="container_top_right">
+                        <?=Theme::drawWidgets('right')?>
+                    </div><!-- container_top_right -->
+                </div> <!--right_bar-->
+            <?endif?>
+
         </div><!-- container_wrapper -->
     </div><!-- inner -->
 </div><!-- container -->

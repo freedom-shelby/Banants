@@ -26,14 +26,6 @@ class WidgetsContainer {
      */
     protected $_items = [];
 
-    /**
-     * Шаблон
-     */
-    protected $_template = [
-        'left' => 'front/widgets/leftTemplate',
-        'right' => 'front/widgets/rightTemplate',
-    ];
-
     protected static $_instance;
 
 
@@ -79,7 +71,6 @@ class WidgetsContainer {
             }
         }
 
-        return View::make($this->_template[$position])
-            ->with('content', $content);
+        return $content;
     }
 }

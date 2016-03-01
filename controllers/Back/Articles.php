@@ -129,16 +129,33 @@ class Articles extends Back
 
                     foreach ($data['content'] as $iso => $item) {
                         $lang_id = Lang::instance()->getLang($iso)['id'];
-                        $content = ContentModel::find($item['id']);
-                        $content->update([
-                            'title' => $item['title'],
-                            'crumb' => $item['crumb'],
-                            'desc' => $item['desc'],
-                            'meta_title' => $item['metaTitle'],
-                            'meta_desc' => $item['metaDesc'],
-                            'meta_keys' => $item['metaKeys'],
-                            'lang_id' => $lang_id,
-                        ]);
+
+                        if(!is_nan((int)$item['id']) && (int)$item['id'] != 0) {
+                            $content = ContentModel::find($item['id']);
+                            $content->update([
+                                'title' => $item['title'],
+                                'crumb' => $item['crumb'],
+                                'desc' => $item['desc'],
+                                'meta_title' => $item['metaTitle'],
+                                'meta_desc' => $item['metaDesc'],
+                                'meta_keys' => $item['metaKeys'],
+                                'lang_id' => $lang_id,
+                            ]);
+                        }
+                        else {
+                            $content = ContentModel::create([
+                               'article_id' => $data['content']['ru']['id'],
+                                'title' => $item['title'],
+                                'crumb' => $item['crumb'],
+                                'desc' => $item['desc'],
+                                'meta_title' => $item['metaTitle'],
+                                'meta_desc' => $item['metaDesc'],
+                                'meta_keys' => $item['metaKeys'],
+                                'lang_id' => $lang_id,
+                            ]);
+                            $article->contents()->attach($content);
+
+                        }
 //                    $article->contents()->attach($content);
                     }
                 });

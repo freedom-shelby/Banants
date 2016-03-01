@@ -59,28 +59,28 @@ use Lang\Lang;
                                     <input type="hidden" name="content[<?=$iso?>][id]" value="<?=$contents[$iso]->id?>">
                                     <div class="form-group col-sm-13">
                                         <label for="title">Title</label>
-                                        <input type="text" name="content[<?=$iso?>][title]" value="<?=$contents[$iso]->title?>" class="form-control" id="title" placeholder="Title" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                        <input type="text" name="content[<?=$iso?>][title]" value='<?=isset($contents[$iso]->title) ? $contents[$iso]->title : '' ?>' class="form-control" id="title" placeholder="Title" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="crumb">Crumb</label>
-                                        <input type="text" name="content[<?=$iso?>][crumb]" value="<?=$contents[$iso]->crumb?>" class="form-control" id="crumb" placeholder="Crumb" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                        <input type="text" name="content[<?=$iso?>][crumb]" value='<?=isset($contents[$iso]->crumb) ? $contents[$iso]->crumb : '' ?>' class="form-control" id="crumb" placeholder="Crumb" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="desc">Description</label>
-                                        <textarea name="content[<?=$iso?>][desc]" class="tinymce"><?=$contents[$iso]->desc?></textarea>
+                                        <textarea name="content[<?=$iso?>][desc]" class="tinymce"><?=isset($contents[$iso]->desc) ? $contents[$iso]->desc : '' ?></textarea>
                                     </div>
                                     <legend>Meta Content</legend>
                                     <div class="form-group col-sm-13">
                                         <label for="meta_title">Title</label>
-                                        <input type="text" name="content[<?=$iso?>][metaTitle]" value="<?=$contents[$iso]->meta_title?>" class="form-control" id="metaTitle" placeholder="Meta Title">
+                                        <input type="text" name="content[<?=$iso?>][metaTitle]" value="<?=isset($contents[$iso]->meta_title) ? $contents[$iso]->meta_title : '' ?>" class="form-control" id="metaTitle" placeholder="Meta Title">
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="meta_desc">Description</label>
-                                        <input type="text" name="content[<?=$iso?>][metaDesc]" value="<?=$contents[$iso]->meta_desc?>" class="form-control" id="metaDesc" placeholder="Meta Description">
+                                        <input type="text" name="content[<?=$iso?>][metaDesc]" value="<?=isset($contents[$iso]->meta_desc) ? $contents[$iso]->meta_desc : '' ?>" class="form-control" id="metaDesc" placeholder="Meta Description">
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="name">Keys</label>
-                                        <input type="text" name="content[<?=$iso?>][metaKeys]" value="<?=$contents[$iso]->meta_keys?>" class="form-control" id="metaKeys" placeholder="Meta Keys">
+                                        <input type="text" name="content[<?=$iso?>][metaKeys]" value="<?=isset($contents[$iso]->meta_keys) ? $contents[$iso]->meta_keys : '' ?>" class="form-control" id="metaKeys" placeholder="Meta Keys">
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <div class="btn-group" role="group" aria-label="...">

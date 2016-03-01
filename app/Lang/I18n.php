@@ -4,6 +4,9 @@ namespace Lang;
 restrictAccess();
 
 
+use EntityModel;
+use EntityTranslationModel;
+
 /**
  *
  * Typically this class would never be used directly, but used via the __()

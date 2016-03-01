@@ -20,7 +20,7 @@ $capsule = new Capsule();
 $capsule->addConnection([
     'driver'    => 'mysql',
     'host'      => 'localhost',
-    'database'  => 'banants',
+    'database'  => 'horizor0_fcbanants',
     'username'  => 'root',
     'password'  => '',
     'charset'   => 'utf8',

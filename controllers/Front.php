@@ -6,11 +6,12 @@
  * Time: 1:24
  */
 namespace Front;
+restrictAccess();
 
 
 use View;
 use \Page as Page;
-use \Langs as Lang;
+use Lang\Lang as Lang;
 
 class Front extends \Base{
 

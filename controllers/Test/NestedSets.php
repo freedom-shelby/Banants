@@ -88,8 +88,8 @@ class NestedSets extends \Controller
 //        print_r($node::getNestedList('name', 0, '.'));
 
 //        print_r($node::getNode());
-//        print_r(\Langs::instance()->getLangs());
-//        print_r(\Langs::instance()->getPrimaryLang());
+//        print_r(\Lang::instance()->getLang());
+//        print_r(\Lang::instance()->getPrimaryLang());
 //        print_r($node->contents()->get()->toArray());
 
 //        $node2->delete();

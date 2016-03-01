@@ -1,4 +1,5 @@
-<?php if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
+<?php
+restrictAccess();
 
 /**
  * Created by PhpStorm.
@@ -9,6 +10,7 @@
 
 //use Illuminate\Database\Eloquent\Model as Eloquent;
 //use Baum\Node;
+use Lang\Lang;
 
 class LangModel extends Node
 {
@@ -31,7 +33,7 @@ class LangModel extends Node
 //    {
 //        parent::__construct();
 //
-//        $this->content = ContentsModel::factory()->getContent($this, Langs::instance()->getCurrentLang()['iso']);
+//        $this->content = ContentsModel::factory()->getContent($this, Lang::instance()->getCurrentLang()['iso']);
 //
 //        $this->title = $this->content['title'];
 //        $this->desc = $this->content['desc'];
@@ -47,7 +49,7 @@ class LangModel extends Node
         if(!is_null(parent::__get($name))) return parent::__get($name);
 
         if($this->content == null){
-            $this->content = (new \ContentModel())->getContent($this, Langs::instance()->getCurrentLang()['id']);
+            $this->content = (new \ContentModel())->getContent($this, Lang::instance()->getCurrentLang()['id']);
         }
 
         return $this->content[$name];
@@ -55,6 +57,6 @@ class LangModel extends Node
 //        return $this->content[$name];
 
 //        var_dump($this->id);die;
-//        return (new ContentsModel)->getContent($this, Langs::instance()->getCurrentLang()['iso']);
+//        return (new ContentsModel)->getContent($this, Lang::instance()->getCurrentLang()['iso']);
     }
 }

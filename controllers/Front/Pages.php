@@ -7,8 +7,8 @@
  */
 
 namespace Front;
-
 restrictAccess();
+
 
 use Http\Exception;
 use View;
@@ -48,7 +48,7 @@ class Pages extends Front
 
 
     public function getTest(){
-//        print_r(\Settings::instance()->get_all_groups());
+//        print_r(\Settings::instance()->getAllGroups());
 
         //$this->layout = \CountryModel::with('PhoneInfo')->with('TopUpServices')->get();
         //$this->layout = \CountryPhoneInfoModel::where('id','=',1)->get();

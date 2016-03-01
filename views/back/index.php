@@ -1,3 +1,6 @@
+<?
+use Lang\Lang;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +26,7 @@
 
 </head>
 <body>
-<div id="main" data-base-url="<?=App::baseUrl()?>" data-current-lang-iso="<?=Langs::instance()->getCurrentLang()['iso']?>" data-uri-ext="<?=App::URI_EXT?>" data-redirect="">
+<div id="main" data-base-url="<?=App::baseUrl()?>" data-current-lang-iso="<?=Lang::instance()->getCurrentLang()['iso']?>" data-uri-ext="<?=App::URI_EXT?>" data-redirect="">
     <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">

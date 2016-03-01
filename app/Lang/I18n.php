@@ -1,4 +1,9 @@
 <?php
+
+namespace Lang;
+restrictAccess();
+
+
 /**
  *
  * Typically this class would never be used directly, but used via the __()
@@ -10,7 +15,7 @@
  *     // With parameter replacement
  *     echo __('Hello, :user', array(':user' => $username));
  */
-class I18n extends Langs{
+class I18n extends Lang{
 
 	/**
 	 * @var  array  cache of loaded languages
@@ -33,7 +38,7 @@ class I18n extends Langs{
 		if ( ! $lang)
 		{
 			// Use the global target language
-			$lang = Langs::instance()->getCurrentLang()['iso'];
+			$lang = Lang::instance()->getCurrentLang()['iso'];
 		}
 
 		// Load the translation table for this language
@@ -61,7 +66,7 @@ class I18n extends Langs{
 
 		// Возврошает масив где ключи те ж что id таблици
 		$entities = EntityModel::all()->keyBy('id')->toArray();
-		$translations = (new EntityTranslationModel())->whereLang_id(Langs::instance()->getLang($lang)['id'])->get()->toArray();
+		$translations = (new EntityTranslationModel())->whereLang_id(Lang::instance()->getLang($lang)['id'])->get()->toArray();
 
 		// New translation table
 		$table = [];
@@ -88,7 +93,7 @@ if ( ! function_exists('__'))
 	 *
 	 *    __('Welcome back, :user', array(':user' => $username));
 	 *
-	 * [!!] The target language is defined by [Langs::instance()->getCurrentLang()].
+	 * [!!] The target language is defined by [Lang::instance()->getCurrentLang()].
 	 *
 	 * @uses    I18n::get
 	 * @param   string  $string text to translate
@@ -99,10 +104,10 @@ if ( ! function_exists('__'))
 	function __($string, array $values = NULL, $lang = null)
 	{
 		if( ! $lang){
-			$lang = Langs::instance()->getCurrentLang()['iso'];
+			$lang = Lang::instance()->getCurrentLang()['iso'];
 		}
 
-		if ($lang !== Langs::DEFAULT_LANGUAGE)
+		if ($lang !== Lang::DEFAULT_LANGUAGE)
 		{
 			// The message and target languages are different
 			// Get the translation for this message

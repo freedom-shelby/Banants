@@ -18,7 +18,7 @@ class WordTranslate extends \Controller
     public function anyIndex()
     {
 
-//        \Langs::instance()->setCurrentLang('am');
+//        \Lang::instance()->setCurrentLang('am');
 //        var_dump(function_exists('__'));
         echo __('World :name', [':name' => 'John']);
 

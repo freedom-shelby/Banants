@@ -6,6 +6,7 @@
  * Time: 1:24
  */
 namespace Back;
+restrictAccess();
 
 
 class Back extends \Base{

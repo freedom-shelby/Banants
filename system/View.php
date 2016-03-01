@@ -1,11 +1,11 @@
-<?php  if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
+<?php  restrictAccess();
 
 /**
  * Created by SUR-SER.
  * User: SURO
  * Date: 02.09.2015
  * Time: 15:16
- * Класс преднозначен для создания файлов видов
+ * пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
  */
 class View
 {

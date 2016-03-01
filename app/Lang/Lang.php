@@ -1,6 +1,11 @@
 <?php
 
-class Langs {
+namespace Lang;
+restrictAccess();
+
+use Setting;
+
+class Lang {
 
     const DEFAULT_LANGUAGE = 'en';
     protected $_currentLang;
@@ -16,7 +21,7 @@ class Langs {
 
     /**
      * Возвращает объект корзины
-     * @return Langs
+     * @return Lang
      */
     public static function instance(){
 
@@ -28,8 +33,8 @@ class Langs {
 
     public function __construct(){
         $items = \LangModel::where('is_enabled', '=', '1')->get();
-        if(class_exists('Setting') and method_exists(Setting::instance(), 'get_setting_val')){
-            $primaryLangIso = strtolower(Setting::instance()->get_setting_val('language.primary_language'));
+        if(class_exists('Setting')){
+            $primaryLangIso = strtolower(Setting::instance()->getSettingVal('language.primary_language'));
         }else{
             $primaryLangIso = strtolower(static::DEFAULT_LANGUAGE);
         }
@@ -95,14 +100,14 @@ class Langs {
     /**
      * @return mixed
      */
-    public function getCurrentLangExcept($langs_iso)
+    public function getCurrentLangExcept($langIso)
     {
-        if(is_array($langs_iso)){
-            if(array_key_exists($this->_currentLang['iso'], $langs_iso)){
+        if(is_array($langIso)){
+            if(array_key_exists($this->_currentLang['iso'], $langIso)){
                 return false;
             }
         }else{
-            if($langs_iso == $this->_currentLang['iso']){
+            if($langIso == $this->_currentLang['iso']){
                 return false;
             }
         }
@@ -111,11 +116,11 @@ class Langs {
     }
 
 
-    public function getLangsExcept($lang_iso)
+    public function getLangsExcept($langIso)
     {
         $tmp = $this->_langs;
-        if(isset($tmp[$lang_iso])){
-            unset($tmp[$lang_iso]);
+        if(isset($tmp[$langIso])){
+            unset($tmp[$langIso]);
         }
 
         return $tmp;
@@ -151,7 +156,7 @@ class Langs {
     public function isPrimary($langIso)
     {
         $langIso = strtolower($langIso);
-        return ($langIso == Langs::instance()->getPrimaryLang()['iso']) ?: false;
+        return ($langIso == $this->getPrimaryLang()['iso']) ?: false;
     }
 
 }

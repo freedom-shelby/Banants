@@ -1,4 +1,5 @@
 <?php
+restrictAccess();
 
 /**
  * Created by PhpStorm.
@@ -15,7 +16,7 @@ class Base extends \Controller
     {
         parent::__construct($requestParams);
 
-//        $this->settings = \Setting::instance()->get_all_groups();
+//        $this->settings = \Setting::instance()->getAllGroups();
 //        $this->langs = \Lang::instance();
     }
 }

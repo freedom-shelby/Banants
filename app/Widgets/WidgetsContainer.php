@@ -8,6 +8,8 @@
  * по средствам его методов
  */
 namespace Widgets;
+restrictAccess();
+
 
 use Illuminate\Database\Eloquent\Model;
 use Widgets\Widget;

@@ -111,7 +111,7 @@ class Theme
      * Возвращает стили для всего сайта
      * @return string
      */
-    public static function defaulStyles(){
+    public static function defaultStyles(){
         $assets = static::_getThemeConfig('assets');
         $comments = $output = '';
         if($assets AND !empty($assets['css'])){

@@ -1,4 +1,5 @@
-<?php if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
+<?php
+restrictAccess();
 
 /**
  * Created by PhpStorm.
@@ -21,7 +22,7 @@ class ContentModel extends Eloquent
     /**
      * @param $parent
      * @param $lang
-     * response (new ContentsModel)->getContent($this, Langs::instance()->getCurrentLang()['iso']);
+     * response (new ContentsModel)->getContent($this, Lang::instance()->getCurrentLang()['iso']);
      */
     public function getContent($parent, $lang)
     {

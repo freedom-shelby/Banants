@@ -1,4 +1,4 @@
-<?php if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
+<?php restrictAccess();
 /**
  * Created by PhpStorm.
  * User: Jan
@@ -8,6 +8,8 @@
 
 //route::get('sdsdfsdfsd/{id}','Controller@action',[]);
 //route::post('dsfdsf');
+
+use Lang\Lang;
 
 
 class Route {
@@ -193,8 +195,8 @@ class Route {
      */
     public function matchURI($uri){
 
-        if(class_exists('Langs')){
-            $uri = Langs::instance()->initSiteLangFromUri(App::instance()->http()->getURI());
+        if(class_exists('Lang')){
+            $uri = Lang::instance()->initSiteLangFromUri(App::instance()->http()->getURI());
         }
         //проверяем верная ли оконцовка файла указанная в конфигах
 

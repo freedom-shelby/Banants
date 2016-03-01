@@ -7,10 +7,11 @@
  */
 
 namespace Back;
+restrictAccess();
 
-if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
 
 use Helpers\Uri;
+use Lang\Lang;
 use Http\Exception;
 use View;
 use Message;
@@ -54,7 +55,7 @@ class Menus extends Back
                 $newArticle->makeChildOf($article);
 
                 foreach($data['content'] as $iso => $item){
-                    $lang_id = \Langs::instance()->getLang($iso)['id'];
+                    $lang_id = Lang::instance()->getLang($iso)['id'];
                     $content = ContentModel::create([
                         'title' => $item['title'],
                         'crumb' => $item['crumb'],
@@ -93,7 +94,7 @@ class Menus extends Back
 
         // Загрузка контента для каждово языка
         $contents = [];
-        foreach(\Langs::instance()->getLangs() as $iso => $lang){
+        foreach(Lang::instance()->getLangs() as $iso => $lang){
             $contents[$iso] = $article->contents()->where('lang_id', '=', $lang['id'])->first();
         }
 //        echo '<pre>';
@@ -124,7 +125,7 @@ class Menus extends Back
                     ]);
 
                     foreach ($data['content'] as $iso => $item) {
-                        $lang_id = \Langs::instance()->getLang($iso)['id'];
+                        $lang_id = Lang::instance()->getLang($iso)['id'];
                         $content = ContentModel::find($item['id']);
                         $content->update([
                             'title' => $item['title'],

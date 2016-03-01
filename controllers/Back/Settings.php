@@ -6,8 +6,8 @@
  * Time: 3:23 AM
  */
 namespace Back;
+restrictAccess();
 
-if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
 
 use View;
 use Setting;
@@ -55,12 +55,12 @@ class Settings extends Back {
         $alias = $this->getRequestParam('alias') ?: null;
 
         $this->layout->content = View::make('back/setting/list')
-            ->with('items', Setting::instance()->get_group($alias));
+            ->with('items', Setting::instance()->getGroup($alias));
     }
 
     public function getGroups()
     {
         $this->layout->content = View::make('back/setting/groups')
-            ->with('items', Setting::instance()->get_all_groups());
+            ->with('items', Setting::instance()->getAllGroups());
     }
 }

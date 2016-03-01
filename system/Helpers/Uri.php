@@ -9,6 +9,8 @@
 namespace Helpers;
 
 
+use Lang\Lang;
+
 class Uri
 {
     public static function makeRouteUri($routName){
@@ -25,7 +27,7 @@ class Uri
     {
         if((strpos('http:\\', $uri) !== false) || (strpos('https:\\', $uri) !== false)) return $uri;
 
-        return implode('/', [\Langs::instance()->getCurrentLangExcept(\Langs::instance()->getPrimaryLang()['iso'])['iso'], ltrim($uri, '/')]);
+        return implode('/', [Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'], ltrim($uri, '/')]);
     }
 
     //static function to redirect to other page

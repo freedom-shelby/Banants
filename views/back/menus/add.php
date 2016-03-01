@@ -5,6 +5,7 @@
  * Date: 23.01.2015
  * Time: 12:23
  */
+use Lang\Lang;
 ?>
 <!--Begin Container-->
 <div class="container">
@@ -46,21 +47,21 @@
                     <div class="row col-sm-6 pull-left">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
-                            <?foreach(Langs::instance()->getLangs() as $iso => $lang):?>
-                                <li class="<?=(Langs::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
+                            <?foreach(Lang::instance()->getLangs() as $iso => $lang):?>
+                                <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
                             <?endforeach?>
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content">
-                            <?foreach(Langs::instance()->getLangs() as $iso => $lang):?>
-                                <div class="tab-pane <?=(Langs::instance()->isPrimary($iso)) ? 'active' : ''?>" id="<?=$iso?>">
+                            <?foreach(Lang::instance()->getLangs() as $iso => $lang):?>
+                                <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="<?=$iso?>">
                                     <div class="form-group col-sm-13">
                                         <label for="title">Title</label>
-                                        <input type="text" name="content[<?=$iso?>][title]" class="form-control" id="title" placeholder="Title" <?=((Langs::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                        <input type="text" name="content[<?=$iso?>][title]" class="form-control" id="title" placeholder="Title" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="crumb">Crumb</label>
-                                        <input type="text" name="content[<?=$iso?>][crumb]" class="form-control" id="crumb" placeholder="Crumb" <?=((Langs::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                        <input type="text" name="content[<?=$iso?>][crumb]" class="form-control" id="crumb" placeholder="Crumb" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="desc">Description</label>

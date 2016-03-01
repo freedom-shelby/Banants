@@ -7,6 +7,7 @@
  * Класс настроек приложения
  * Паттерн одиночка(Singleton)
  */
+restrictAccess();
 
 class Setting {
 
@@ -31,28 +32,28 @@ class Setting {
      * Возвращает все группи настроек в виде обекта ORM
      * @return array|null
      */
-    public function get_all_groups(){
+    public function getAllGroups(){
         return \SettingsModel::all();
     }
 
     /**
      * Возвращает группу настроек
-     * @param string $group_name имя группы
+     * @param string $groupName имя группы
      * @return array|null
      */
-    public function get_group($group_name){
-        return isset($this->_items[$group_name]) ? $this->_items[$group_name] : null;
+    public function getGroup($groupName){
+        return isset($this->_items[$groupName]) ? $this->_items[$groupName] : null;
     }
 
     /**
      * Возвращает группу настроек в виде ассоциативного массива
      * ключ => значение
-     * @param string $group_name имя группы
+     * @param string $groupName имя группы
      * @return array
      */
-    public function get_group_as_key_val($group_name){
+    public function getGroupAsKeyVal($groupName){
         $output = array();
-        $group = $this->get_group($group_name);
+        $group = $this->getGroup($groupName);
         if(!empty($group)){
             foreach($group as $g){
                 $output[$g['name']] = $g['value'];
@@ -66,15 +67,15 @@ class Setting {
      * Возвращает конкретную настройку
      * Разрешается точеная нотация например
      * до настройки setting_name array([group][setting_name] => array())
-     * можно достучаться через точку get_setting("group.setting_name")
-     * @param $setting_name
+     * можно достучаться через точку getSetting("group.setting_name")
+     * @param $settingName
      * @return mixed
      * @throws Exception
      */
-    public function get_setting($setting_name){
+    public function getSetting($settingName){
         //если есть точка, то хотим достучаться до элементы конкретной группы
-        if(strpos($setting_name,'.') !== FALSE){
-            $args = explode('.',$setting_name);
+        if(strpos($settingName,'.') !== FALSE){
+            $args = explode('.',$settingName);
             if(count($args) != 2){
                 throw new Exception('When use dot notation for getting setting, you must have dot arrounded with two aplhanum pices from right and left');
             }
@@ -83,7 +84,7 @@ class Setting {
             }
         }else{
             foreach($this->_items as $key => $val){
-                if($val['name'] == $setting_name){
+                if($val['name'] == $settingName){
                     return $val['name'];
                 }
             }
@@ -92,12 +93,12 @@ class Setting {
 
     /**
      * Возвращает определённый параметр из настройки
-     * @param $setting_name
+     * @param $settingName
      * @param $param
      */
-    public function get_setting_param($setting_name,$param){
+    public function getSettingParam($settingName,$param){
         $output = null;
-        $setting = $this->get_setting($setting_name);
+        $setting = $this->getSetting($settingName);
         if(!empty($setting) AND isset($setting[$param])){
             return $setting[$param];
         }
@@ -105,11 +106,11 @@ class Setting {
 
     /**
      * Возвращает значение настройки
-     * @param $setting_name
+     * @param $settingName
      * @return mixed
      */
-    public function get_setting_val($setting_name){
-        return $this->get_setting_param($setting_name,'value');
+    public function getSettingVal($settingName){
+        return $this->getSettingParam($settingName,'value');
     }
 
     /**

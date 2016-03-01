@@ -7,6 +7,7 @@
  * Time: 4:50
  */
 namespace Subscribers\Route;
+restrictAccess();
 
 class GlobalEventHandler
 {

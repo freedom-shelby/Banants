@@ -7,8 +7,8 @@
  */
 
 namespace Back;
+restrictAccess();
 
-if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
 
 use Helpers\Uri;
 use Http\Exception;
@@ -18,7 +18,7 @@ use Helpers\Arr;
 use Illuminate\Contracts\Validation;
 use EntityModel;
 use EntityTranslationModel;
-use Langs;
+use Lang\Lang;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
 
@@ -50,7 +50,7 @@ class Entities extends Back
                 ]);
 
                 foreach($data['content'] as $iso => $item){
-                    $lang_id = Langs::instance()->getLang($iso)['id'];
+                    $lang_id = Lang::instance()->getLang($iso)['id'];
                     EntityTranslationModel::create([
                         'text' => $item['text'],
                         'lang_id' => $lang_id,
@@ -81,7 +81,7 @@ class Entities extends Back
 
         // Загрузка контента для каждово языка
         $translations = [];
-        foreach(Langs::instance()->getLangsExcept(Langs::DEFAULT_LANGUAGE) as $iso => $lang){
+        foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang){
             $translations[$iso] = $item->translations()->where('lang_id', '=', $lang['id'])->first();
         }
 
@@ -96,7 +96,7 @@ class Entities extends Back
                         'text' => $data['entity'],
                     ]);
                     foreach ($data['content'] as $iso => $d) {
-                        $lang_id = Langs::instance()->getLang($iso)['id'];
+                        $lang_id = Lang::instance()->getLang($iso)['id'];
                         $content = EntityTranslationModel::find($d['id']);
                         $content->update([
                             'text' => $d['text'],

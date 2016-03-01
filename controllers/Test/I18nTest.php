@@ -25,7 +25,7 @@ class I18nTest extends \Controller
         echo '<pre>';
         //$article = new ArticleModel();
         //$article->hasContent();
-        \Langs::instance()->setCurrentLang('en');
+        \Lang::instance()->setCurrentLang('en');
         //print_r($article->title);
         //print_r(class_exists('LangsModel'));
 
@@ -124,7 +124,7 @@ class I18nTest extends \Controller
 
     public function anyTestLangRoute()
     {
-        var_dump( \Langs::instance()->getCurrentLang());
+        var_dump( \Lang::instance()->getCurrentLang());
         $article = (new \ArticleModel())->find(1);
         echo($article->id);echo "<br>";
         echo($article->title);echo "<br>";
@@ -160,7 +160,7 @@ class I18nTest extends \Controller
 ////    {
 ////        parent::__construct();
 ////
-////        $this->content = ContentsModel::factory()->getContent($this, Langs::instance()->getCurrentLang()['iso']);
+////        $this->content = ContentsModel::factory()->getContent($this, Lang::instance()->getCurrentLang()['iso']);
 ////
 ////        $this->title = $this->content['title'];
 ////        $this->desc = $this->content['desc'];
@@ -176,7 +176,7 @@ class I18nTest extends \Controller
 //        if(!is_null(parent::__get($name))) return parent::__get($name);
 //
 //        if($this->content == null){
-//            $this->content = ContentsModel::factory()->getContent($this, Langs::instance()->getCurrentLang()['iso']);
+//            $this->content = ContentsModel::factory()->getContent($this, Lang::instance()->getCurrentLang()['iso']);
 //        }
 //
 //        return $this->content[$name];
@@ -184,7 +184,7 @@ class I18nTest extends \Controller
 ////        return $this->content[$name];
 //
 ////        var_dump($this->id);die;
-////        return (new ContentsModel)->getContent($this, Langs::instance()->getCurrentLang()['iso']);
+////        return (new ContentsModel)->getContent($this, Lang::instance()->getCurrentLang()['iso']);
 //    }
 //
 //}
@@ -244,7 +244,7 @@ class I18nTest extends \Controller
 //    /**
 //     * @param $parent
 //     * @param $lang
-//     * response (new ContentsModel)->getContent($this, Langs::instance()->getCurrentLang()['iso']);
+//     * response (new ContentsModel)->getContent($this, Lang::instance()->getCurrentLang()['iso']);
 //     */
 //    public function getContent($parent, $lang)
 //    {

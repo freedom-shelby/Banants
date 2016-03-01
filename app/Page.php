@@ -1,4 +1,5 @@
 <?php
+restrictAccess();
 
 /**
  * Created by PhpStorm.
@@ -165,7 +166,7 @@ class Page
         $output .= $this->getTitle();
         $output .= $this->getMetaTags();
         if($withThemeSettings){
-            $output .= Theme::defaulStyles();
+            $output .= Theme::defaultStyles();
             $output .= Theme::defaultScripts();
             $output .= $this->_plainHeader;
 

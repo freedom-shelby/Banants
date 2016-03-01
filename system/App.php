@@ -53,11 +53,6 @@ class App {
         if(empty(static::$_instance)){
             static::$_instance = new static();
             static::$_messages = include_once (ROOT_PATH.'messages/errors'.EXT);
-            if( ! class_exists('I18n')){
-                include_once(ROOT_PATH.'system/Langs/I18n'.EXT);
-            }
-//            include_once(ROOT_PATH.'system/I18n'.EXT);
-//            Langs::instance();            var_dump(Langs::instance()->getCurrentLang());die;
 
         }
         return static::$_instance;

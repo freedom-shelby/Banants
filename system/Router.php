@@ -71,9 +71,12 @@ class Router {
         $route = static::getCurrentRoute();
 
         if($route){
+            Event::fire('App.beforeRouteExecute',$route);
            echo $route->execute();
+            Event::fire('App.afterRouteExecute',$route);
         }else{
-            header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");
+            Event::fire('App.invalidRoute',$route);
+
         }
     }
 

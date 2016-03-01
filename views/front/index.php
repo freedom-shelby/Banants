@@ -6,44 +6,25 @@
  * Time: 15:41
  */
 ?>
-<!DOCTYPE html>
-<html lang="<?=Langs::instance()->getCurrentLang()['iso']?>">
-<head>
-    <meta charset="UTF-8">
-    <title>FC Banants</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="">
-
-    <link rel="stylesheet" href="/media/front/css/normalize.css" />
-    <link rel="stylesheet" href="/media/front/css/owl.carousel.css" />
-    <link rel="stylesheet" href="/media/front/css/style.css" />
-
-    <script src="/media/front/js/jquery.js"></script>
-    <script src="/media/front/js/owl.carousel.min.js"></script>
-    <script src="/media/front/js/masonry.min.js"></script>
-    <script src="/media/front/js/imagesloaded.js"></script>
-    <script src="/media/front/js/custom/scripts.js"></script>
-    <script src="/media/front/js/jquery.fancybox.pack.js"></script>
-</head>
+<?Theme::drawHead()?>
 <body>
     <div class="header">
         <div class="header_top clearfix">
             <div class="inner">
                 <div class="logo_wrapper">
                     <a href="#">
-                        <img src="/media/front/images/logo.png" alt="logo" />
+                        <img src="/media/assets/images/logo.png" alt="logo" />
                     </a>
                 </div><!-- logo_wrapper -->
                 <div class="header_navigation">
                     <ul>
-                        <li><a href="#"><img src="/media/front/images/menu_icon1.png" alt="menu_icon" /> ПРЕДЫДУЩИЕ МАТЧИ</a></li>
-                        <li><a href="#"><img src="/media/front/images/menu_icon2.png" alt="menu_icon" /> СТАТИСТИКА КЛУБА</a></li>
-                        <li><a href="#"><img src="/media/front/images/menu_icon3.png" alt="menu_icon" /> РАСПИСАНИЕ ИГР</a></li>
-                        <li><a href="#"><img src="/media/front/images/menu_icon4.png" alt="menu_icon" /> ПРОГНОЗ НА СЕЗОН</a></li>
-                        <li><a href="#"><img src="/media/front/images/menu_icon5.png" alt="menu_icon" /> ИДЕО АРХИВ</a></li>
-                        <li class="header_navigation_active"><a href="#"><img src="/media/front/images/menu_icon6.png" alt="menu_icon" /> ФОТОГАЛЕРЕЯ</a></li>
-                        <li><a href="#"><img src="/media/front/images/menu_icon7.png" alt="menu_icon" /> ВАКАНСИИ</a></li>
+                        <li><a href="#"><img src="/media/assets/images/menu_icon1.png" alt="menu_icon" /> ПРЕДЫДУЩИЕ МАТЧИ</a></li>
+                        <li><a href="#"><img src="/media/assets/images/menu_icon2.png" alt="menu_icon" /> СТАТИСТИКА КЛУБА</a></li>
+                        <li><a href="#"><img src="/media/assets/images/menu_icon3.png" alt="menu_icon" /> РАСПИСАНИЕ ИГР</a></li>
+                        <li><a href="#"><img src="/media/assets/images/menu_icon4.png" alt="menu_icon" /> ПРОГНОЗ НА СЕЗОН</a></li>
+                        <li><a href="#"><img src="/media/assets/images/menu_icon5.png" alt="menu_icon" /> ИДЕО АРХИВ</a></li>
+                        <li class="header_navigation_active"><a href="#"><img src="/media/assets/images/menu_icon6.png" alt="menu_icon" /> ФОТОГАЛЕРЕЯ</a></li>
+                        <li><a href="#"><img src="/media/assets/images/menu_icon7.png" alt="menu_icon" /> ВАКАНСИИ</a></li>
                     </ul>
                 </div><!-- header_navigation -->
             </div><!-- inner -->
@@ -54,7 +35,7 @@
                     <div class="banners clearfix">
                         <div class="banner_pyunik">
                             <div class="pyunik_logo">
-                                <img src="/media/front/images/logo_pyunik.png" alt="logo_pyunik" />
+                                <img src="/media/assets/images/logo_pyunik.png" alt="logo_pyunik" />
                                 <h4>ПЮНИК</h4>
                             </div>
                             <div class="banner_pyunik_text">
@@ -62,12 +43,12 @@
                                 <p class="result"><b>1-2(0-3)</b></p>
                             </div>
                             <div class="main_logo">
-                                <img src="/media/front/images/logo_main.png" alt="logo_main" />
+                                <img src="/media/assets/images/logo_main.png" alt="logo_main" />
                             </div>
                         </div><!--banner_pyunik-->
                         <div class="banner_mika">
                             <div class="pyunik_logo">
-                                <img src="/media/front/images/logo_main.png" alt="logo_main" />
+                                <img src="/media/assets/images/logo_main.png" alt="logo_main" />
                             </div>
                             <div class="banner_pyunik_text">
                                 <p><b>в 21</b></p>
@@ -75,7 +56,7 @@
                                 <p><b>16:30</b></p>
                             </div>
                             <div class="mika_logo">
-                                <img src="/media/front/images/mika_logo.png" alt="mika_logo" />
+                                <img src="/media/assets/images/mika_logo.png" alt="mika_logo" />
                                 <h4>МИКА</h4>
                             </div>
                         </div><!--banner_pyunik-->
@@ -94,7 +75,7 @@
             </div><!-- header_right -->
             <div class="navigation clearfix">
                 <ul class="navigation_maim" id="navigation_maim" class="clearfix">
-                    <li class="home"><a href="#"><img src="/media/front/images/homeIcon.jpg" alt="homeIcon" /></a></li>
+                    <li class="home"><a href="#"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>
                     <li><a href="#">КЛУБ</a></li>
                     <li><a href="#">БАНАНЦ 1</a></li>
                     <li>
@@ -145,11 +126,7 @@
 
         </div><!-- inner -->
     </div><!-- header -->
-
-    <?if(!empty($content)):?>
-        <?=$content?>
-    <?endif?>
-
+    <?Theme::drawContent()?>
     <div class="footer">
         <div class="inner clearfix">
             <div class="footer_col">

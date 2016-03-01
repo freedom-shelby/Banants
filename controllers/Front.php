@@ -9,12 +9,30 @@ namespace Front;
 
 
 use View;
+use \Page as Page;
+use \Langs as Lang;
 
 class Front extends \Base{
 
+    protected $_page;
+
+    public function __construct(array $requestParams)
+    {
+        parent::__construct($requestParams);
+        $this->_page = new Page();
+    }
 
     public function setLayout(){
         $this->layout = View::make('front/index');
+    }
+
+    public function __destruct()
+    {
+        if($this->_page){
+            $this->_page->setLang(Lang::instance()->getCurrentLang()['iso']);
+            \Theme::setPage($this->_page);
+        }
+        parent::__destruct();
     }
 
 //    public function anyIndex(){

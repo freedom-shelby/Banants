@@ -80,7 +80,7 @@
                                 <div class="carousel_slider_item">
                                     <a href="#">
                                         <div class="carousel_slider_images">
-                                            <img src="/media/front/images/carousel_slider_images1.jpg" alt="carousel_images" />
+                                            <img src="/media/assets/images/carousel_slider_images1.jpg" alt="carousel_images" />
                                         </div><!-- carousel_slider_images -->
                                         <div class="carousel_slider_info">
                                             <span>Շատ համակարգչային տպագրական...</span>
@@ -90,7 +90,7 @@
                                 <div class="carousel_slider_item">
                                     <a href="#">
                                         <div class="carousel_slider_images">
-                                            <img src="/media/front/images/carousel_slider_images2.jpg" alt="carousel_images" />
+                                            <img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" />
                                         </div><!-- carousel_slider_images -->
                                         <div class="carousel_slider_info">
                                             <span>Ինտերնետային էջերի օգտագործում են...</span>
@@ -100,7 +100,7 @@
                                 <div class="carousel_slider_item">
                                     <a href="#">
                                         <div class="carousel_slider_images">
-                                            <img src="/media/front/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                            <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                         </div><!-- carousel_slider_images -->
                                         <div class="carousel_slider_info">
                                             <span>Բաշխում է բառերը քիչ թե շատ իրականի </span>
@@ -110,7 +110,7 @@
                                 <div class="carousel_slider_item">
                                     <a href="#">
                                         <div class="carousel_slider_images">
-                                            <img src="/media/front/images/carousel_slider_images1.jpg" alt="carousel_images" />
+                                            <img src="/media/assets/images/carousel_slider_images1.jpg" alt="carousel_images" />
                                         </div><!-- carousel_slider_images -->
                                         <div class="carousel_slider_info">
                                             <span>Շատ համակարգչային տպագրական...</span>
@@ -120,7 +120,7 @@
                                 <div class="carousel_slider_item">
                                     <a href="#">
                                         <div class="carousel_slider_images">
-                                            <img src="/media/front/images/carousel_slider_images2.jpg" alt="carousel_images" />
+                                            <img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" />
                                         </div><!-- carousel_slider_images -->
                                         <div class="carousel_slider_info">
                                             <span>Ինտերնետային էջերի օգտագործում են...</span>
@@ -130,7 +130,7 @@
                                 <div class="carousel_slider_item">
                                     <a href="#">
                                         <div class="carousel_slider_images">
-                                            <img src="/media/front/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                            <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                         </div><!-- carousel_slider_images -->
                                         <div class="carousel_slider_info">
                                             <span>Բաշխում է բառերը քիչ թե շատ իրականի </span>
@@ -142,13 +142,13 @@
                         </div><!-- carousel_slider_wrapper -->
                         <div class="slider_wrapper_adver content_top_banner">
                             <a href="#">
-                                <img src="/media/front/images/carousel_slider_item_adver.jpg">
+                                <img src="/media/assets/images/carousel_slider_item_adver.jpg">
                             </a>
                         </div>	<!--slider_wrapper_adver-->
                     </div> <!--carousel_slider_wrapper_wrapper-->
                     <div class="container_top_banner discount_banner">
                         <a href="#">
-                            <img src="/media/front/images/discount_bannerjpg.jpg">
+                            <img src="/media/assets/images/discount_bannerjpg.jpg">
                         </a>
                     </div>
                 </div> <!--inner_content_buttom-->

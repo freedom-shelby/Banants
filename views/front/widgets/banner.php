@@ -9,6 +9,6 @@
 
 <div class="content_top_right_banner">
     <a href="#">
-        <img src="/media/front/images/car.jpg" alt="">
+        <img src="/media/assets/images/car.jpg" alt="">
     </a>
 </div><!-- content_top_right_banner -->

@@ -6,8 +6,8 @@
                     <div class="container_top_header clearfix">
                         <div class="container_top_slideshow clearfix">
                             <div class="item">
-                                <a class="fancybox" href="/media/front/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
-                                    <img src="/media/front/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
+                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
                                     <div class="container_top_slider_text_inner">
@@ -16,8 +16,8 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a class="fancybox" href="/media/front/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
-                                    <img src="/media/front/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
+                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
                                     <div class="container_top_slider_text_inner">
@@ -26,8 +26,8 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a class="fancybox" href="/media/front/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
-                                    <img src="/media/front/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
+                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
                                     <div class="container_top_slider_text_inner">
@@ -36,8 +36,8 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a class="fancybox" href="/media/front/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
-                                    <img src="/media/front/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
+                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
                                     <div class="container_top_slider_text_inner">
@@ -49,7 +49,7 @@
                         <div class="container_top_aside">
                             <div class="video_wrapper">
                                 <a class="fancybox" href="http://www.w3schools.com/html/mov_bbb.mp4">
-                                    <video width="235" height="154" poster="/media/front/images/video_image.jpg" controls>
+                                    <video width="235" height="154" poster="/media/assets/images/video_image.jpg" controls>
                                         <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                                         <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
                                         Your browser does not support the video tag.
@@ -61,7 +61,7 @@
                                 <div class="news_item clearfix">
                                     <a href="#">
                                         <div class="news_item_images">
-                                            <img src="/media/front/images/news_item_images1.jpg" alt="news_item_images" />
+                                            <img src="/media/assets/images/news_item_images1.jpg" alt="news_item_images" />
                                         </div><!-- news_item_images -->
                                         <div class="news_item_info">
 												<span>
@@ -73,7 +73,7 @@
                                 <div class="news_item news_item_active clearfix">
                                     <a href="#">
                                         <div class="news_item_images">
-                                            <img src="/media/front/images/news_item_images2.jpg" alt="news_item_images" />
+                                            <img src="/media/assets/images/news_item_images2.jpg" alt="news_item_images" />
                                         </div><!-- news_item_images -->
                                         <div class="news_item_info">
 												<span>
@@ -87,7 +87,7 @@
                     </div><!-- container_top_header -->
                     <div class="container_top_banner">
                         <a href="#">
-                            <img src="/media/front/images/bigBanner.jpg" alt="bigBanner" />
+                            <img src="/media/assets/images/bigBanner.jpg" alt="bigBanner" />
                         </a>
                     </div><!-- container_top_banner -->
                 </div><!-- container_top_left -->
@@ -306,16 +306,16 @@
                         <div class="best_player_content">
                             <h3>АРЗУМАНЯН ГЕВОРГ</h3>
                             <div class="best_player_images_wrapper">
-                                <img src="/media/front/images/player1.png" alt="best player" />
+                                <img src="/media/assets/images/player1.png" alt="best player" />
                             </div><!-- best_player_images_wrapper -->
                             <div class="best_player_right">
                                 <div class="best_player_info">
                                     <span>Голы 4<br> Удары 9<br> В створ 5</span>
                                 </div><!-- best_player_info -->
                                 <div class="best_player_multiple">
-                                    <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                    <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                    <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                    <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                                    <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                                    <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                                 </div><!-- best_player_multiple -->
                             </div><!-- best_player_right -->
                         </div><!-- best_player_content -->
@@ -337,16 +337,16 @@
                                 <div class="best_player_content">
                                     <h3>ВАРАЗДАТ СМБАТЯН</h3>
                                     <div class="best_player_images_wrapper">
-                                        <img src="/media/front/images/player1.png" alt="best_player" />
+                                        <img src="/media/assets/images/player1.png" alt="best_player" />
                                     </div><!-- best_player_images_wrapper -->
                                     <div class="best_player_right">
                                         <div class="best_player_info">
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -355,16 +355,16 @@
                                 <div class="best_player_content">
                                     <h3>ВАРАЗДАТ СМБАТЯН</h3>
                                     <div class="best_player_images_wrapper">
-                                        <img src="/media/front/images/player1.png" alt="best_player" />
+                                        <img src="/media/assets/images/player1.png" alt="best_player" />
                                     </div><!-- best_player_images_wrapper -->
                                     <div class="best_player_right">
                                         <div class="best_player_info">
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -375,16 +375,16 @@
                                 <div class="best_player_content">
                                     <h3>ВАРАЗДАТ СМБАТЯН</h3>
                                     <div class="best_player_images_wrapper">
-                                        <img src="/media/front/images/player1.png" alt="best_player" />
+                                        <img src="/media/assets/images/player1.png" alt="best_player" />
                                     </div><!-- best_player_images_wrapper -->
                                     <div class="best_player_right">
                                         <div class="best_player_info">
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -393,16 +393,16 @@
                                 <div class="best_player_content">
                                     <h3>ВАРАЗДАТ СМБАТЯН</h3>
                                     <div class="best_player_images_wrapper">
-                                        <img src="/media/front/images/player1.png" alt="best_player" />
+                                        <img src="/media/assets/images/player1.png" alt="best_player" />
                                     </div><!-- best_player_images_wrapper -->
                                     <div class="best_player_right">
                                         <div class="best_player_info">
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/front/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -413,70 +413,70 @@
                         <div class="leftbar_images_slider clearfix">
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/front/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/front/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                         </div><!-- leftbar_images_slider -->
@@ -523,7 +523,7 @@
                                     <div class="carousel_slider_item">
                                         <a href="#">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images1.jpg" title="slideshow_images" rel="gallary_b"><img src="/media/front/images/carousel_slider_images1.jpg" alt="carousel_images" /></a>
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images1.jpg" title="slideshow_images" rel="gallary_b"><img src="/media/assets/images/carousel_slider_images1.jpg" alt="carousel_images" /></a>
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
                                                 <span>Бюджет бананца увеличился в 3 раза...</span>
@@ -533,7 +533,7 @@
                                     <div class="carousel_slider_item">
                                         <a href="#">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"><img src="/media/front/images/carousel_slider_images2.jpg" alt="carousel_images" /></a>
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"><img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" /></a>
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
                                                 <span>Колоссальные успехи бананца ...</span>
@@ -543,12 +543,12 @@
                                     <div class="carousel_slider_item">
                                         <a href="#">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/front/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                                 </a>
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
@@ -556,12 +556,12 @@
                                     <div class="carousel_slider_item">
                                         <a href="#">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/front/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                                 </a>
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
@@ -569,12 +569,12 @@
                                     <div class="carousel_slider_item">
                                         <a href="#">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/front/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                                 </a>
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
@@ -582,12 +582,12 @@
                                     <div class="carousel_slider_item">
                                         <a href="#">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/front/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                                 </a>
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/front/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
+                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
@@ -597,7 +597,7 @@
                             </div><!-- carousel_slider_wrapper -->
                             <div class="content_top_banner">
                                 <a href="#">
-                                    <img src="/media/front/images/content_top_banner.jpg" alt="content_top_banner" />
+                                    <img src="/media/assets/images/content_top_banner.jpg" alt="content_top_banner" />
                                 </a>
                             </div><!-- content_top_banner -->
                             <div class="news_slider_wrapper clearfix">
@@ -606,7 +606,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -625,7 +625,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -646,7 +646,7 @@
                                         <div class="news_list news_list_active clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -665,7 +665,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -686,7 +686,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -705,7 +705,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -726,7 +726,7 @@
                                         <div class="news_list news_list_active clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -745,7 +745,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/front/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -770,65 +770,65 @@
                             <div class="content_top_right_info_blog_wrapper clearfix">
                                 <div class="content_top_right_info_blog clearfix">
                                     <div class="content_top_right_info_blog_images">
-                                        <img src="/media/front/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
+                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
                                     </div><!-- content_top_right_info_blog_images -->
                                     <div class="content_top_right_info_blog_aside">
                                         <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
                                         <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
                                         <div>
-                                            <span><a href="#"><img src="/media/front/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
                                         </div>
                                         <div>
-                                            <span><a class="fancybox" href="/media/front/images/video_icon2.png" title="slideshow_images" rel="gallary_c"><img src="/media/front/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a class="fancybox" href="/media/front/images/photo_icon.png" title="slideshow_images" rel="gallary_c"><img src="/media/front/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                            <span><a class="fancybox" href="/media/assets/images/video_icon2.png" title="slideshow_images" rel="gallary_c"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
+                                            <span><a class="fancybox" href="/media/assets/images/photo_icon.png" title="slideshow_images" rel="gallary_c"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
                                         </div>
                                     </div><!-- content_top_right_info_blog_aside -->
                                 </div><!-- content_top_right_info_blog -->
                                 <div class="content_top_right_info_blog clearfix">
                                     <div class="content_top_right_info_blog_images">
-                                        <img src="/media/front/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
+                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
                                     </div><!-- content_top_right_info_blog_images -->
                                     <div class="content_top_right_info_blog_aside">
                                         <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
                                         <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
                                         <div>
-                                            <span><a href="#"><img src="/media/front/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
                                         </div>
                                         <div>
-                                            <span><a href="#"><img src="/media/front/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a href="#"><img src="/media/front/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
                                         </div>
                                     </div><!-- content_top_right_info_blog_aside -->
                                 </div><!-- content_top_right_info_blog -->
                                 <div class="content_top_right_info_blog content_top_right_info_blog_active clearfix">
                                     <div class="content_top_right_info_blog_images">
-                                        <img src="/media/front/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
+                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
                                     </div><!-- content_top_right_info_blog_images -->
                                     <div class="content_top_right_info_blog_aside">
                                         <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
                                         <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
                                         <div>
-                                            <span><a href="#"><img src="/media/front/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
                                         </div>
                                         <div>
-                                            <span><a href="#"><img src="/media/front/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a href="#"><img src="/media/front/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
                                         </div>
                                     </div><!-- content_top_right_info_blog_aside -->
                                 </div><!-- content_top_right_info_blog -->
                                 <div class="content_top_right_info_blog clearfix">
                                     <div class="content_top_right_info_blog_images">
-                                        <img src="/media/front/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
+                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
                                     </div><!-- content_top_right_info_blog_images -->
                                     <div class="content_top_right_info_blog_aside">
                                         <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
                                         <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
                                         <div>
-                                            <span><a href="#"><img src="/media/front/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
                                         </div>
                                         <div>
-                                            <span><a href="#"><img src="/media/front/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a href="#"><img src="/media/front/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
+                                            <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
                                         </div>
                                     </div><!-- content_top_right_info_blog_aside -->
                                 </div><!-- content_top_right_info_blog -->
@@ -836,12 +836,12 @@
                             <div class="content_top_right_banners">
                                 <div class="content_top_right_banner">
                                     <a href="#">
-                                        <img src="/media/front/images/youtube_banner.jpg" alt="youtube_banner" />
+                                        <img src="/media/assets/images/youtube_banner.jpg" alt="youtube_banner" />
                                     </a>
                                 </div><!-- content_top_right_banner -->
                                 <div class="content_top_right_banner">
                                     <a href="#">
-                                        <img src="/media/front/images/banner1.jpg" alt="banner" />
+                                        <img src="/media/assets/images/banner1.jpg" alt="banner" />
                                     </a>
                                 </div><!-- content_top_right_banner -->
                             </div><!-- content_top_right_banners -->
@@ -853,84 +853,84 @@
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_middle_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_big_images.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                 </div><!-- content_middle_slider_item -->
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_middle_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_big_images.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <a href="#">
-                                            <img src="/media/front/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                 </div><!-- content_middle_slider_item -->
@@ -940,7 +940,7 @@
                         <div class="content_middle_right clearfix">
                             <div class="container_top_slideshow content_middle_right_slideshow clearfix">
                                 <div class="item">
-                                    <a class="fancybox" href="/media/front/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/front/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
                                     </a>
                                     <div class="container_top_slider_text">
                                         <div class="container_top_slider_text_inner">
@@ -949,7 +949,7 @@
                                     </div><!-- container_top_slider_text -->
                                 </div><!--item-->
                                 <div class="item">
-                                    <a class="fancybox" href="/media/front/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/front/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
                                     </a>
                                     <div class="container_top_slider_text">
                                         <div class="container_top_slider_text_inner">
@@ -958,7 +958,7 @@
                                     </div><!-- container_top_slider_text -->
                                 </div><!--item-->
                                 <div class="item">
-                                    <a class="fancybox" href="/media/front/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/front/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
                                     </a>
                                     <div class="container_top_slider_text">
                                         <div class="container_top_slider_text_inner">
@@ -967,7 +967,7 @@
                                     </div><!-- container_top_slider_text -->
                                 </div><!--item-->
                                 <div class="item">
-                                    <a class="fancybox" href="/media/front/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/front/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
                                     </a>
                                     <div class="container_top_slider_text">
                                         <div class="container_top_slider_text_inner">
@@ -978,7 +978,7 @@
                             </div><!-- container_top_slideshow -->
                             <div class="content_middle_right_banner">
                                 <a href="#">
-                                    <img src="/media/front/images/forward_homePage.jpg" alt="content_middle_right_banner" />
+                                    <img src="/media/assets/images/forward_homePage.jpg" alt="content_middle_right_banner" />
                                 </a>
                             </div><!-- content_middle_right_banner -->
                         </div><!-- content_middle_right -->
@@ -987,16 +987,16 @@
             </div><!-- container_middle -->
             <div class="container_bottom clearfix">
                 <div class="container_bottom_images_wrapper">
-                    <a href="#"> <img src="/media/front/images/advertisment1.jpg" alt="advertisment"> </a>
+                    <a href="#"> <img src="/media/assets/images/advertisment1.jpg" alt="advertisment"> </a>
                 </div>
                 <div class="container_bottom_images_wrapper">
-                    <a href="#"><img src="/media/front/images/advertisment2.jpg" alt="advertisment"></a>
+                    <a href="#"><img src="/media/assets/images/advertisment2.jpg" alt="advertisment"></a>
                 </div>
                 <div class="container_bottom_images_wrapper">
-                    <a href="#"><img src="/media/front/images/aadvertisment3.jpg" alt="advertisment"></a>
+                    <a href="#"><img src="/media/assets/images/aadvertisment3.jpg" alt="advertisment"></a>
                 </div>
                 <div class="container_bottom_images_wrapper">
-                    <a href="#"><img src="/media/front/images/advertisment4.jpg" alt="advertisment"></a>
+                    <a href="#"><img src="/media/assets/images/advertisment4.jpg" alt="advertisment"></a>
                 </div>
             </div><!--container_bottom-->
         </div><!-- container_wrapper -->

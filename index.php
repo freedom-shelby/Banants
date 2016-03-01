@@ -19,6 +19,11 @@ define('EXT','.php');
 
 require_once(ROOT_PATH . 'vendor/autoload' . EXT);
 
+//Инициализация событийной модели
+Event::instance();
+
+
+Event::fire('App.beforeAppStart',null);
 //Запуск приложения
 App::start();
 

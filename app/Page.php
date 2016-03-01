@@ -1,236 +1,222 @@
 <?php
+
 /**
- * Created by SUR-SER
- * User: SURO
- * Date: 03.10.14
- * Time: 0:52
- * Класс страницы
- * Употребляется в виде для отображения элементов страницы
- * по средствам его методов
+ * Created by PhpStorm.
+ * User: SUR0
+ * Date: 01.03.2016
+ * Time: 3:19
+ * Класс для генерации HTML контента
  */
-
-class Page {
-
-    /**
-     * Мета информация описания страницы
-     * @var string
-     */
-    protected $_meta_title, $_meta_keys, $_meta_desc;
-
-    /**
-     * Скрипты и стили страницы
-     * @var array()
-     */
-    protected $_styles = array(
-
-    ),
-
-        $_scripts = array(
-
-    );
+class Page
+{
+    private $_metaTags;
+    private $_charset = "<meta charset='utf-8'>\r\n";
+    private $_title;
+    private $_links;
+    private $_lang = 'en';
+    private $_doctype = "<!DOCTYPE html>\r\n";
+    private $_plainHeader;
+    private $_content;
+    private $_breadcrumbs = [];
 
     /**
-     * Информация страницы
-     * @var string
+     * Добавление мета тега с атрибутом content
+     * @param $name
+     * @param $content
      */
-    protected $_title, $title_image_path, $_desc;
-
-    /**
-     * Баннер страницы
-     */
-    protected $_banner;
-
-    /**
-     * Слайдер страницы
-     */
-    protected $_slider;
-
-    /**
-     * Тип страницы
-     */
-    protected $_type;
-
-    /**
-     * Меню ресурса
-     * @var array
-     */
-    protected $_menus = array();
-
-    /**
-     * Виды для элементов разметки
-     * @var array
-     */
-    protected $_views = array(
-
-    );
-
-    protected $_custom_content;
-
-    /**
-     * Фабричный метод
-     * Возвращает экземпляр класса Page
-     * @return Page
-     */
-    public static function factory(){
-
-        return new Page();
-    }
-
-    public function init(){
-
-
+    public function setMetaContent($name,$content){
+        $this->_metaTags['c-'.$name] = '<meta name="'.$name.'" content="'.$content.'">'.PHP_EOL;
     }
 
     /**
-     * Добавляет скрипты
-     * @param $path mixed[string|array]
-     * @return $this
+     * Установка кодировки документа
+     * @param $charset
      */
-    public function set_scripts($path){
-
-        if(is_array($path)){
-            foreach($path as $p){
-                $this->set_scripts($p);
-            }
-        }elseif(is_string($path)){
-           $this->_scripts[] = $path;
-        }
-
-        return $this;
+    public function setMetaCharset($charset){
+        $this->_charset = '<meta charset="'.$charset.'">'.PHP_EOL;
     }
 
     /**
-     * Добавляет стили
-     * @param $path mixed[string|array]
-     * @return $this
+     * Установка тега http-equiv
+     * @param $name
+     * @param $content
      */
-    public function set_styles($path){
-
-        if(is_array($path)){
-            foreach($path as $p){
-                $this->set_styles($p);
-            }
-        }elseif(is_string($path)){
-            $this->_styles[] = $path;
-        }
-
-        return $this;
+    public function setMetaEquiv($name,$content){
+        $this->_metaTags['eq-'.$name] = '<meta http-equiv="'.$name.'" content="'.$content.'">'.PHP_EOL;
     }
 
     /**
-     * Возвращает разметку скриптов
+     * Установка мета тега
+     * @param $name
+     * @param $content
+     */
+    public function setMetaName($name,$content){
+        $this->_metaTags['n-'.$name] = '<meta name="'.$name.'" content="'.$content.'">'.PHP_EOL;
+    }
+
+    /**
+     * Возвращает мета тегив HTML формате
      * @return string
      */
-    public function get_scripts(){
-
+    public function getMetaTags(){
         $output = '';
-
-        foreach($this->_scripts as $s){
-
-            $output .= '<script type=\'text/javascript\' src=' . $s . '></script>'.PHP_EOL;
+        if(!empty($this->_metaTags)){
+            foreach($this->_metaTags as $tag){
+                $output .= $tag;
+            }
         }
-
         return $output;
     }
 
     /**
-     * Возвращает разметку стилей
-     * @return string
+     * Устанавливает заголовок документа
+     * @param $title
      */
-    public function get_styles(){
-
-        $output = '';
-
-        foreach($this->_styles as $s){
-
-            $output .= '<link rel=\'stylesheet\' href=' . $s . ' type=\'text/css\'>'.PHP_EOL;
-        }
-
-        return $output;
-    }
-
-    /**
-     * Возвращает разметку для заголовка страницы
-     * @return View
-     */
-    public function get_title(){
-
-    }
-
-    public function get_content(){
-
-    }
-
-    /**
-     * Возвращает разметку баннера
-     * @return View
-     */
-    public function get_banner(){
-
-        return $this->_banner;
-    }
-
-    /**
-     * Устонавливает баннер для страницы
-     * @param $banner
-     * @return $this
-     */
-    public function set_banner($banner){
-        $this->_banner = $banner;
-        return $this;
-    }
-
-    /**
-     * Возвращает разметку слайдера
-     * @return View
-     */
-    public function get_slider(){
-        return $this->_slider;
-    }
-
-    /**
-     * Устонавливает слайдер для страницы
-     * @param $slider
-     * @return $this
-     */
-    public function set_slider($slider){
-        $this->_slider = $slider;
-        return $this;
-    }
-
-    /**
-     * Возвращает текст мета тэга заголовка для страницы
-     * @return string
-     */
-    public function get_meta_title(){
-
-        return !empty($this->_meta_title) ? $this->_meta_title : $this->_title;
-    }
-
-    /**
-     * Возвращает текст мета тэга ключевых слов для страницы
-     * @return string
-     */
-    public function get_meta_keys(){
-
-        return $this->_meta_keys;
-    }
-
-    /**
-     * Возвращает текст мета тэга описания страницы
-     * @return string
-     */
-    public function get_meta_desc(){
-
-        return $this->_meta_desc;
-    }
-
-    public function set_custom_content($content){
-        $this->_custom_content = $content;
-    }
-
-    public function set_title($title){
+    public function setTitle($title){
         $this->_title = $title;
     }
 
-} 
+    /**
+     * Возвращает заголовок документа в HTML формате
+     * @return string
+     */
+    public function getTitle(){
+        return '<title>'.$this->_title.'</title>'.PHP_EOL;
+    }
+
+    /**
+     * Установка тега link
+     * @param null $rel
+     * @param null $href
+     * @param null $type
+     * @param null $media
+     */
+    public function setLink($rel = null,$href = null,$type = null,$media = null){
+        $output = '<link';
+        $output .= $rel ? (' rel="'.$rel.'"') : '';
+        $output .= $href ? (' href="'.$href.'"') : '';
+        $output .= $type ? (' href="'.$type.'"') : '';
+        $output .= $media ? (' href="'.$media.'"') : '';
+
+        $this->_links[] = $output.'>'.PHP_EOL;
+    }
+
+    /**
+     * Возвращает тэги link в HTML формате
+     * @return string
+     */
+    public function getLinks(){
+        $output = '';
+        if(!empty($this->_links)){
+            foreach($this->_links as $link){
+                $output .= $link;
+            }
+        }
+        return $output;
+    }
+
+    /**
+     * Устанавливает путь к иконке документа
+     * @param $path
+     */
+    public function setIcon($path){
+        $this->setLink('shortcut icon',$path);
+    }
+
+    /**
+     * Установка языка страницы
+     * @param $lang
+     */
+    public function setLang($lang){
+        $this->_lang = $lang;
+    }
+
+    /**
+     * Возвращяет язык страницы в HTML формате
+     * @return string
+     */
+    public function getLang(){
+        return 'lang="'.$this->_lang.'"';
+    }
+
+    /**
+     * Установка doctype
+     * @param $content
+     */
+    public function setDoctype($content){
+        $this->_doctype = '<!DOCTYPE '.$content.'>'.PHP_EOL;
+    }
+
+    /**
+     * Возвращает doctype в HTML формате
+     * @return string
+     */
+    public function getDoctype(){
+        return $this->_doctype;
+    }
+
+    /**
+     * Возвращает шапку документа в HTML формате
+     * @param bool $withThemeSettings
+     * @return string
+     */
+    public function getHead($withThemeSettings = false){
+        $output = '<head>'.PHP_EOL;
+        $output .= $this->getTitle();
+        $output .= $this->getMetaTags();
+        if($withThemeSettings){
+            $output .= Theme::defaulStyles();
+            $output .= Theme::defaultScripts();
+            $output .= $this->_plainHeader;
+
+        }
+        $output .= $this->getLinks();
+        return $output .'</head>'.PHP_EOL;
+    }
+
+    /**
+     * Установка параметров для шляпы в текстовом(чистом) формате
+     * @param $text
+     */
+    public function setHeaderPlain($text){
+        $this->_plainHeader = $text.PHP_EOL;
+    }
+
+    /**
+     * Возвращает контент страницы
+     * @return mixed
+     */
+    public function getContent()
+    {
+        return $this->_content;
+    }
+
+    /**
+     * Устанавливает контент для страницы
+     * @param mixed $content
+     */
+    public function setContent($content)
+    {
+        $this->_content = $content;
+    }
+
+    /**
+     * Добавляет хлебные крошки
+     * @param $crumb
+     */
+    public function appendCrumb($crumb){
+        if(is_array($crumb)){
+            $this->_breadcrumbs += $crumb;
+        }else{
+            $this->_breadcrumbs[] = $crumb;
+        }
+    }
+
+    /**
+     * Возвращает хлебные крошки в HTML формате
+     * @return mixed
+     */
+    public function getBreadcrumbs(){
+        return Breadcrumb::withLinks($this->_breadcrumbs);
+    }
+}

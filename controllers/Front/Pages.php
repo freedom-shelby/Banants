@@ -23,10 +23,12 @@ class Pages extends Front
      */
     public function getHome()
     {
-        $model = ArticleModel::where('slug','=','home')->first();
-        WidgetsContainer::instance($model);
-
-        $this->layout->content = View::make('front/content/pages/home');
+        $this->_page->setTitle('Оффициальный сайт FC Banants');
+        $this->_page->setContent('Тестовый контент');
+//        $model = ArticleModel::where('slug','=','home')->first();
+//        WidgetsContainer::instance($model);
+//
+//        $this->layout->content = View::make('front/content/pages/home');
     }
 
     public function getPage()

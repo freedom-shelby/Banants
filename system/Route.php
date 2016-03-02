@@ -267,6 +267,7 @@ class Route {
 
         ob_start();
         $response->{$method}();
+        $response->{'dispose'}();
         App::instance()->http()->fireHeaders();
        return  ob_get_clean();
 

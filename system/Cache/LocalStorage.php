@@ -19,7 +19,7 @@ class LocalStorage {
 
     protected $_data;
 
-    protected $_encKey = 'topupsecretkey';
+    protected $_encKey = 'banantssecretkey';
 
     public function save(){
         $crypt = \Crypt::Rijndahel();

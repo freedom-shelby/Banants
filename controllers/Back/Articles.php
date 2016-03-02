@@ -10,6 +10,7 @@ namespace Back;
 restrictAccess();
 
 
+use Event;
 use Helpers\Uri;
 use Http\Exception;
 use View;
@@ -95,11 +96,7 @@ class Articles extends Back
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Article']));
         }
 
-        // Загрузка контента для каждово языка
-        $contents = [];
-        foreach(Lang::instance()->getLangs() as $iso => $lang){
-            $contents[$iso] = $article->contents()->where('lang_id', '=', $lang['id'])->first();
-        }
+
 //        echo '<pre>';
 //var_dump($contents);die;
         if (null !== Arr::get($this->getPostData(),'submit')) {
@@ -110,6 +107,7 @@ class Articles extends Back
             $parent = ArticleModel::find($data['parentId']);
             // Транзакция для Записание данных в базу
             try {
+                Event::fire('Admin.beforeArticleUpdate',$article);
                 Capsule::connection()->transaction(function () use ($data, $article, $parent) {
                     if ($parent) {
                         $article->makeChildOf($parent);
@@ -159,11 +157,20 @@ class Articles extends Back
 //                    $article->contents()->attach($content);
                     }
                 });
-                Message::instance()->success('Article was successfully edited');
+                Event::fire('Admin.articleUpdate',$article);
             } catch (Exception $e) {
                 Message::instance()->warning('Article was don\'t edited');
             }
         }
+
+        // Загрузка контента для каждово языка
+        $contents = [];
+        foreach(Lang::instance()->getLangs() as $iso => $lang){
+            $contents[$iso] = $article->contents()->where('lang_id', '=', $lang['id'])->first();
+        }
+
+
+
         $this->layout->content = View::make('back/articles/edit')
             ->with('node', $article::getNode())
             ->with('article', $article)

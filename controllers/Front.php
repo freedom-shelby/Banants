@@ -27,13 +27,13 @@ class Front extends \Base{
         $this->layout = View::make('front/index');
     }
 
-    public function __destruct()
+    public function dispose()
     {
         if($this->_page){
             $this->_page->setLang(Lang::instance()->getCurrentLang()['iso']);
             \Theme::setPage($this->_page);
         }
-        parent::__destruct();
+        parent::dispose();
     }
 
 //    public function anyIndex(){

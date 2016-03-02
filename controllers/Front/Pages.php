@@ -10,10 +10,12 @@ namespace Front;
 restrictAccess();
 
 
-use Http\Exception;
+use Http\Exception as Exception;
 use View;
 use ArticleModel;
 use Widgets\WidgetsContainer;
+use Cache\LocalStorage as Cache;
+use ModelWrapper;
 
 class Pages extends Front
 {
@@ -35,15 +37,31 @@ class Pages extends Front
     {
         $slug = $this->getRequestParam('page') ?: null;
 
-        $model = ArticleModel::where('slug','=',$slug)->first();
+        $cache = new Cache();
+        $cache->setLocalPath($slug.'_article');
+        $cache->load();
+        if($cache->isValid()){
 
-        if(empty($model)){
-            throw new Exception(404);
+            $model = new ModelWrapper($cache->getData());
+        }else{
+            $model = ArticleModel::where('slug','=',$slug)->with('contents')->first();
+            if(empty($model)){
+                throw new Exception(404);
+            }
+            $cache->setData($model);
+            $cache->save();
         }
 
-        WidgetsContainer::instance($model);
+
+
+
+        //WidgetsContainer::instance($model);
 
         $this->layout->content = View::make('front/content/pages/page');
+
+
+        $this->_page->setTitle($model->meta_title);
+        $this->_page->setContent($model->desc);
     }
 
 

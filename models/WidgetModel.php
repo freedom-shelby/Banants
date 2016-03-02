@@ -26,5 +26,11 @@ class WidgetModel extends Eloquent
 //        return $this->belongsTo('EntityTranslationModel', 'entity_id');
     }
 
+    public function getWidgetsFor($slug){
+        $this->join('articles_has_widgets','widgets.id','=','articles_has_widgets.widget_id')
+            ->join('articles','articles_has_widgets.article_id','=','articles.id')
+            ->where('articles.slug','=', $slug)->get();
+    }
+
 //    protected $guarded = ['id'];
 }

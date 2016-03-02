@@ -32,7 +32,7 @@ class Controller {
         $this->_requestParams = $requestParams;
     }
 
-    public function __destruct(){
+    public function dispose(){
         if($this->layout){
             echo $this->layout;
         }

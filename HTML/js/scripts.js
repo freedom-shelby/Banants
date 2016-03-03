@@ -116,7 +116,6 @@ $(document).ready(function() {
 	}, function() {
 		$(this).find('.submenu').stop(false, true).fadeOut(100);
 		if($(this).find('.submenu:visible')) {
-			console.log('aaa');		
 			$(this).removeClass('navigation_active_item');
 		}
 	})
@@ -136,4 +135,7 @@ $(document).ready(function() {
 		openEffect	: 'none',
 		closeEffect	: 'none'
 	});
-})
+
+
+	$('.widget.widget-with-tabs').banantsTabsWidget();
+});

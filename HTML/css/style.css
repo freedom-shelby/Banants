@@ -219,8 +219,6 @@ h1, h2, h3, h4, h5, h5, h6 {
 	margin-bottom: 2px;
 }
 
-
-}
 .header_right .banner_pyunik img {
 	margin: 0  0 17px 4px;
 	font-size: 30px;
@@ -349,7 +347,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 .banners  {
 	float: left;
 }
-044980
+
 .banner {
 	width: 240px;
 	float: left;
@@ -1379,7 +1377,7 @@ div.tournament_table .tournament_table_active a {
 .content_top_right_banner img {
 	display: block;
 	max-width: 100%;
-	margin-bottom: 0 auto;
+	margin-bottom: 0;
 	border: 1px solid #66a6d1;
 }
 
@@ -2272,8 +2270,82 @@ div.tournament_table .tournament_table_active a {
 
 
 
- 
-
- 
 
 
+
+
+
+.widget{
+	background-color: #217cb8;
+}
+.widget-header{
+	background-color: #044980;
+	min-height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.widget.widget-with-tabs{
+
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div{
+	position: absolute;
+	width: 100px;
+	background-color: #217cb8;
+	border-right: 1px solid #044980;
+	bottom: 2px;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div:hover,
+.widget.widget-with-tabs .widget-header .widget-tabs > div:hover > div{
+	cursor: pointer;
+	background-color: #7ccbff!important;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter > div{
+	background-color: #3399CC;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.darken,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.darken > div{
+	background-color: #006699;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.darken > div *,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter > div *{
+	visibility: hidden;
+	font-size: 1px;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active{
+	bottom: 0;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active > div{
+	height: 100%;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter > div,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active > div
+{
+	border-left: 1px solid #006699;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div > div{
+	background-color: #217cb8;
+	margin-left: -5px;
+	border-left: 1px solid #3399CC;
+	-moz-transform:    skew(-20deg);
+	-o-transform:      skew(-20deg);
+	-webkit-transform: skew(-20deg);
+	transform:         skew(-20deg);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=-0.3639702342662026, M21=-0.3639702342662026, M22=1, SizingMethod='auto expand')";
+	filter: progid:DXImageTransform.Microsoft.Matrix(
+			M11=1,
+			M12=-0.3639702342662026,
+			M21=-0.3639702342662026,
+			M22=1,
+			SizingMethod='auto expand');
+	width: 99%;
+	height: 100%;
+	text-align: center;
+}
+.widget-tabs-body > div{
+	display: none;
+}
+.widget-tabs-body > div.active{
+	display: block;
+}

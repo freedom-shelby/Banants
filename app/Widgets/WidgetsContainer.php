@@ -17,6 +17,9 @@ use WidgetModel;
 use ArticleModel;
 use View;
 use Router;
+use Http\Exception as HttpException;
+use Cache\LocalStorage as Cache;
+use ModelWrapper;
 
 
 class WidgetsContainer {
@@ -34,7 +37,6 @@ class WidgetsContainer {
 
     /**
      * Возвращает объект виджета
-     * @param Model $model
      * @return WidgetsContainer
      */
     public static function instance(){
@@ -47,12 +49,23 @@ class WidgetsContainer {
 
     public function __construct(){
 
-        $article = Router::getCurrentRoute()->getActionVariable('page');
-        if($article)
-        {
-            $items = ArticleModel::where('slug','=',$article)->first()->widgets()->whereStatus(1)->orderBy('sort')->get();
+        $slug = Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
+
+        $cache = new Cache();
+        $cache->setLocalPath($slug.'_widgets');
+        $cache->load();
+        if($cache->isValid()){
+            $items = json_decode($cache->getData());
         }else{
-            $items = ArticleModel::where('slug','=','home')->first()->widgets()->whereStatus(1)->orderBy('sort')->get();
+            $items = ArticleModel::where('slug','=',$slug)->first();
+
+            if(empty($items)){
+                throw new HttpException(404);
+            }
+            $items = $items->widgets()->whereStatus(1)->orderBy('sort')->get();
+
+            $cache->setData($items);
+            $cache->save();
         }
 
         if(!empty($items)){

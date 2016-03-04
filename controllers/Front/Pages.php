@@ -14,10 +14,16 @@ use Http\Exception as Exception;
 use View;
 use ArticleModel;
 
+use Widgets\WidgetsContainer;
 
 class Pages extends Front
 {
 
+    public function __construct(array $requestParams)
+    {
+        parent::__construct($requestParams);
+//        WidgetsContainer::instance();
+    }
     /**
      * Главная страница сайта
      */

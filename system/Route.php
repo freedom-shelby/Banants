@@ -222,6 +222,9 @@ class Route {
         }
 
         //проверяем верная ли оконцовка файла указанная в конфигах
+
+
+//var_dump(preg_match('#\.html$#uD',$uri));die;
         if(! preg_match('#'.str_replace('.','\.',App::URI_EXT).'$#uD',$uri) && $uri != '/'){
             return empty($this->_rules) && ($this->_uri.App::URI_EXT === $uri);
         }
@@ -261,6 +264,7 @@ class Route {
         //отправляем переданные переманные в контроллер
         foreach($this->_actionVaribles as $key => $val)
             if(is_numeric($key)) unset($this->_actionVaribles[$key]);
+//var_dump($this->_actionVaribles);echo '<pre>';
 
         return $match;
 

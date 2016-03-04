@@ -25,6 +25,10 @@ Router::get(['/Admin/Entities', 'as' => 'back.entities.list'],'Back\Entities@get
 Router::any(['/Admin/Entities/Add', 'as' => 'back.entities.add'],'Back\Entities@anyAdd');
 Router::any(['/Admin/Entities/Edit/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.entities.edit'],'Back\Entities@anyEdit');
 Router::get(['/Admin/Entities/Delete/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.entities.delete'],'Back\Entities@getDelete');
+Router::get(['/Admin/Languages', 'as' => 'back.languages.list'],'Back\Languages@getList');
+Router::any(['/Admin/Languages/Add', 'as' => 'back.languages.add'],'Back\Languages@anyAdd');
+Router::any(['/Admin/Languages/Edit/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.languages.edit'],'Back\Languages@anyEdit');
+Router::get(['/Admin/Languages/Delete/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.languages.delete'],'Back\Languages@getDelete');
 Router::get(['/Admin/Settings', 'as' => 'back.settings'],'Back\Settings@getGroups');
 Router::get(['/Admin/Settings/{alias?}','rules' => ['status' => '[a-zA-Z]+'],  'as' => 'back.settings.list'],'Back\Settings@getList');
 Router::any(['/Admin/Settings/Edit/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.settings.edit'],'Back\Settings@anyEdit');

@@ -74,7 +74,9 @@ class Node extends BaumNode
                     // Если status 0 то присвоить клаас чтобы не показавыть с активноми
                     $output .= '<div class="node-item"><a href=""></a>
                                     <span class="glyphicon glyphicon-move move" aria-hidden="true"></span>
-                                    ' . $node->title . '
+                                    <a href="' . \Helpers\Uri::makeUri("Admin/Articles/Edit").'/'.$node->id . App::URI_EXT . '">
+                                        ' . $node->title . '
+                                    </a>
                                     <div class="pull-right">
                                         <a href="' . \Helpers\Uri::makeUri("Admin/Articles/Edit").'/'.$node->id . App::URI_EXT . '">
                                             <i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>

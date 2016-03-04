@@ -18,8 +18,8 @@ use Message;
 use Lang\Lang;
 use Helpers\Arr;
 use Illuminate\Contracts\Validation;
-use \ArticleModel;
-use \ContentModel;
+use ArticleModel;
+use ContentModel;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
 
@@ -128,7 +128,7 @@ class Articles extends Back
                     foreach ($data['content'] as $iso => $item) {
                         $lang_id = Lang::instance()->getLang($iso)['id'];
 
-                        if(!is_nan((int)$item['id']) && (int)$item['id'] != 0) {
+                        if(!empty((int)$item['id'])) {
                             $content = ContentModel::find($item['id']);
                             $content->update([
                                 'title' => $item['title'],
@@ -139,10 +139,10 @@ class Articles extends Back
                                 'meta_keys' => $item['metaKeys'],
                                 'lang_id' => $lang_id,
                             ]);
-                        }
-                        else {
+                        } else {
+                            //todo: надо по тестить почему без ID каждий раз создаётся все записи а не обновляются
                             $content = ContentModel::create([
-                               'article_id' => $data['content']['ru']['id'],
+                                'article_id' => $data['content']['ru']['id'],
                                 'title' => $item['title'],
                                 'crumb' => $item['crumb'],
                                 'desc' => $item['desc'],

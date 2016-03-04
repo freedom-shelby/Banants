@@ -12,7 +12,6 @@ restrictAccess();
 use View;
 use \Page as Page;
 use Lang\Lang as Lang;
-use Widgets\WidgetsContainer;
 
 class Front extends \Base{
 
@@ -22,7 +21,6 @@ class Front extends \Base{
     {
         parent::__construct($requestParams);
         $this->_page = new Page();
-        WidgetsContainer::instance();
     }
 
     public function setLayout(){

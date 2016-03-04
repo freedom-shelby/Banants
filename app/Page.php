@@ -2,6 +2,7 @@
 restrictAccess();
 
 use Cache\LocalStorage as Cache;
+use Http\Exception as HttpException;
 
 
 /**
@@ -244,7 +245,7 @@ class Page
         }else{
             $model = ArticleModel::where('slug','=',$slug)->with('contents')->first();
             if(empty($model)){
-                throw new Exception(404);
+                throw new HttpException(404);
             }
             $cache->setData($model);
             $cache->save();

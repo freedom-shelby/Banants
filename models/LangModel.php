@@ -22,26 +22,8 @@ class LangModel extends Node
 
 //    protected $guarded = ['id'];
 
-//    public $title;
-//    public $desc;
-//    public $meta_title;
-//    public $meta_desc;
-//    public $meta_keys;
-//    public $crumb;
+//    protected $fillable = ['name', 'iso_3', 'is_enabled'];
 
-//    public function __construct()
-//    {
-//        parent::__construct();
-//
-//        $this->content = ContentsModel::factory()->getContent($this, Lang::instance()->getCurrentLang()['iso']);
-//
-//        $this->title = $this->content['title'];
-//        $this->desc = $this->content['desc'];
-//        $this->meta_title = $this->content['meta_title'];
-//        $this->meta_desc = $this->content['meta_desc'];
-//        $this->meta_keys = $this->content['meta_keys'];
-//        $this->crumb = $this->content['crumb'];
-//    }
 
     public function __get($name)
     {

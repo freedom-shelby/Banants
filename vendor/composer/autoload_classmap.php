@@ -12,6 +12,7 @@ return array(
     'Back\\Back' => $baseDir . '/controllers/Back.php',
     'Back\\Categories' => $baseDir . '/controllers/Back/Categories.php',
     'Back\\Entities' => $baseDir . '/controllers/Back/Entities.php',
+    'Back\\Languages' => $baseDir . '/controllers/Back/Languages.php',
     'Back\\Menus' => $baseDir . '/controllers/Back/Menus.php',
     'Back\\Pages' => $baseDir . '/controllers/Back/Pages.php',
     'Back\\Settings' => $baseDir . '/controllers/Back/Settings.php',

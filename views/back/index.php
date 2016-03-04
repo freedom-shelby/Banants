@@ -53,8 +53,8 @@ use Lang\Lang;
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.articles.add', 'Add')?>">Add</a></li>
-                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.categories.list', 'List')?>">List</a></li>
+                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.articles.add')?>">Add</a></li>
+                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.categories.list')?>">List</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -68,8 +68,15 @@ use Lang\Lang;
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entities Translation <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.entities.add', 'Add')?>">Add</a></li>
-                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.entities.list', 'List')?>">List</a></li>
+                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.entities.add')?>">Add</a></li>
+                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.entities.list')?>">List</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages  <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.languages.add')?>">Add</a></li>
+                            <li><a href="<?=Helpers\Uri::makeRouteUri('back.languages.list')?>">List</a></li>
                         </ul>
                     </li>
                     <li><a href="<?=Helpers\Uri::makeRouteUri('back.settings')?>">Settings</a></li>

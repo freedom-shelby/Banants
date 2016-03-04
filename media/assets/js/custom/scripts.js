@@ -109,11 +109,31 @@ $(document).ready(function() {
 
 	var $submenu = $("#submenu");
 
-	$("#navigation_maim li a").on("click", function( e ){
-		e.preventDefault();
-		$submenu.toggleClass("hidden");
+	/* navigation on hover dropdown show */
+	$('.navigation li').hover(function() {
+		$(this).find('.submenu').stop(false, true).fadeIn(100);
+		$(this).addClass('navigation_active_item');
+	}, function() {
+		$(this).find('.submenu').stop(false, true).fadeOut(100);
+		if($(this).find('.submenu:visible')) {
+			console.log('aaa');		
+			$(this).removeClass('navigation_active_item');
+		}
+	})
+
+});
+
+/*Video*/
+$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
 	});
-
 })
-
-

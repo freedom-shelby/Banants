@@ -155,6 +155,29 @@ class Route {
     }
 
     /**
+     * Возвращает переданные переманные
+     * @return mixed
+     */
+    public function getActionVariables()
+    {
+        return $this->_actionVaribles;
+    }
+
+    /**
+     * Возвращает указонную переданную переманную
+     * @param $var
+     * @return mixed
+     */
+    public function getActionVariable($var)
+    {
+        if(isset($this->_actionVaribles[$var])){
+            return $this->_actionVaribles[$var];
+        }
+
+        return false;
+    }
+
+    /**
      * Устанавливает имя роута
      * @param mixed $name
      */
@@ -176,7 +199,6 @@ class Route {
 
         $this->setName($params[0]['as']);
         $this->setUri(($params[0][0] != '/') ? ($params[0][0]) : '/');
-//var_dump($this->_uri);
         $routeFuncs = explode('@',$params[1]);
         $this->setController($routeFuncs[0]);
         $this->setAction($routeFuncs[1]);
@@ -198,22 +220,21 @@ class Route {
         if(class_exists('Lang')){
             $uri = Lang::instance()->initSiteLangFromUri(App::instance()->http()->getURI());
         }
+
         //проверяем верная ли оконцовка файла указанная в конфигах
-
-
-//var_dump(preg_match('#\.html$#uD',$uri));die;
         if(! preg_match('#'.str_replace('.','\.',App::URI_EXT).'$#uD',$uri) && $uri != '/'){
             return empty($this->_rules) && ($this->_uri.App::URI_EXT === $uri);
         }
+
         //удаляем оконцовку
         $uri = preg_replace('#('.str_replace('.','\.',App::URI_EXT).')$#uD' ,'',$uri);
         $pattern = $this->_uri;
-//var_dump($uri);echo '<pre>';
+
         //находим совпадения для правил валидации
         preg_match_all('#[{]([^}?]+)([?]?)[}]#uD',$pattern,$matches);
+
         //обрабатывает страку в соответствии с правилами валидации
         if(!empty($matches)){
-
             $patterns = $replacments = [];
             for($i = 0; $i < count($matches[1]); $i++){
                 $endOfPattern = ')';
@@ -229,27 +250,17 @@ class Route {
                 $patterns[] = '#[{]'.$matches[1][$i].'[?]?[}]#uD';
             }
             $pattern = preg_replace($patterns,$replacments,$pattern);
-//var_dump($pattern);echo '<pre>';
 
             if(preg_match('#[/]\([^)]+\)[?]#uD',$pattern)){
                 $pattern = preg_replace('#([/])(\([^)]+\))([?])#uD','(?(?=/)(/$2))?',$pattern);
             }
         }
-//var_dump($pattern);echo '<pre>';
-
-        // Lang
-//var_dump($uri);
-
-//preg_match("#^\/ru(\/|\b)#uD", $uri, $lang_iso); echo "<pre>";
-//print_r($lang_iso);
 
         $match = (bool) preg_match("#^$pattern$#uD",$uri,$this->_actionVaribles);
-//var_dump($this->_actionVaribles);echo '<pre>';
 
         //отправляем переданные переманные в контроллер
         foreach($this->_actionVaribles as $key => $val)
             if(is_numeric($key)) unset($this->_actionVaribles[$key]);
-//var_dump($this->_actionVaribles);echo '<pre>';
 
         return $match;
 
@@ -269,8 +280,8 @@ class Route {
         $response->{$method}();
         $response->{'dispose'}();
         App::instance()->http()->fireHeaders();
-       return  ob_get_clean();
 
+        return  ob_get_clean();
     }
 
     /**

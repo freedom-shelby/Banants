@@ -25,7 +25,7 @@
 
                 <?if(!is_null(Theme::drawWidgets('right'))):?>
                     <div class="leftbar clearfix">
-                        <?=Theme::drawWidgets('left')?>
+                        <?Theme::drawWidgets('left')?>
                     </div><!-- leftbar -->
                 <?endif?>
 
@@ -157,7 +157,7 @@
             <?if(!is_null(Theme::drawWidgets('right'))):?>
                 <div class="right_bar">
                     <div class="container_top_right">
-                        <?=Theme::drawWidgets('right')?>
+                        <?Theme::drawWidgets('right')?>
                     </div><!-- container_top_right -->
                 </div> <!--right_bar-->
             <?endif?>

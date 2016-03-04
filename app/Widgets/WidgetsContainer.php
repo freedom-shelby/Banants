@@ -16,6 +16,7 @@ use Widgets\Widget;
 use WidgetModel;
 use ArticleModel;
 use View;
+use Router;
 
 
 class WidgetsContainer {
@@ -36,16 +37,23 @@ class WidgetsContainer {
      * @param Model $model
      * @return WidgetsContainer
      */
-    public static function instance($model = null){
+    public static function instance(){
 
         if(self::$_instance == null){
-            self::$_instance = new self($model);
+            self::$_instance = new self();
         }
         return self::$_instance;
     }
 
-    public function __construct($model){
-        $items = $model->widgets()->whereStatus(1)->orderBy('sort')->get();
+    public function __construct(){
+
+        $article = Router::getCurrentRoute()->getActionVariable('page');
+        if($article)
+        {
+            $items = ArticleModel::where('slug','=',$article)->first()->widgets()->whereStatus(1)->orderBy('sort')->get();
+        }else{
+            $items = ArticleModel::where('slug','=','home')->first()->widgets()->whereStatus(1)->orderBy('sort')->get();
+        }
 
         if(!empty($items)){
             foreach($items as $i){

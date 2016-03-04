@@ -1,6 +1,9 @@
 <?php
 restrictAccess();
 
+use Cache\LocalStorage as Cache;
+
+
 /**
  * Created by PhpStorm.
  * User: SUR0
@@ -219,5 +222,34 @@ class Page
      */
     public function getBreadcrumbs(){
         return Breadcrumb::withLinks($this->_breadcrumbs);
+    }
+
+    public function initFromSlug($slug)
+    {
+        $model = $this->getModelFromSlug($slug);
+
+        $this->setMetaContent('description', $model->meta_desc);
+        $this->setMetaContent('keywords', $model->meta_keys);
+        $this->setTitle($model->meta_title);
+        $this->setContent($model->desc);
+    }
+
+    public function getModelFromSlug($slug)
+    {
+        $cache = new Cache();
+        $cache->setLocalPath($slug.'_article');
+        $cache->load();
+        if($cache->isValid()){
+            $model = new ModelWrapper($cache->getData());
+        }else{
+            $model = ArticleModel::where('slug','=',$slug)->with('contents')->first();
+            if(empty($model)){
+                throw new Exception(404);
+            }
+            $cache->setData($model);
+            $cache->save();
+        }
+
+        return $model;
     }
 }

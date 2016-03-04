@@ -19,10 +19,10 @@ $capsule = new Capsule();
 //]);
 $capsule->addConnection([
     'driver'    => 'mysql',
-    'host'      => 'localhost',
+    'host'      => 'www.horizondvp.org',
     'database'  => 'horizor0_fcbanants',
-    'username'  => 'root',
-    'password'  => '',
+    'username'  => 'horizor0_banants',
+    'password'  => 'sKpER=e!Ph7J',
     'charset'   => 'utf8',
     'collation' => 'utf8_general_ci',
     'prefix'    => '',

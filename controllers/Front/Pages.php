@@ -13,9 +13,7 @@ restrictAccess();
 use Http\Exception as Exception;
 use View;
 use ArticleModel;
-use Widgets\WidgetsContainer;
-use Cache\LocalStorage as Cache;
-use ModelWrapper;
+
 
 class Pages extends Front
 {
@@ -25,8 +23,12 @@ class Pages extends Front
      */
     public function getHome()
     {
-        $this->_page->setTitle('Оффициальный сайт FC Banants');
-        $this->_page->setContent('Тестовый контент');
+        $slug = 'home';
+        $this->_page->initFromSlug($slug);
+
+//        $this->_page->setTitle('Оффициальный сайт FC Banants');
+//        $this->_page->setContent('Тестовый контент');
+
 //        $model = ArticleModel::where('slug','=','home')->first();
 //        WidgetsContainer::instance($model);
 //
@@ -37,31 +39,10 @@ class Pages extends Front
     {
         $slug = $this->getRequestParam('page') ?: null;
 
-        $cache = new Cache();
-        $cache->setLocalPath($slug.'_article');
-        $cache->load();
-        if($cache->isValid()){
+        $this->_page->initFromSlug($slug);
 
-            $model = new ModelWrapper($cache->getData());
-        }else{
-            $model = ArticleModel::where('slug','=',$slug)->with('contents')->first();
-            if(empty($model)){
-                throw new Exception(404);
-            }
-            $cache->setData($model);
-            $cache->save();
-        }
+//        $this->layout->content = View::make('front/content/pages/page');
 
-
-
-
-        //WidgetsContainer::instance($model);
-
-        $this->layout->content = View::make('front/content/pages/page');
-
-
-        $this->_page->setTitle($model->meta_title);
-        $this->_page->setContent($model->desc);
     }
 
 

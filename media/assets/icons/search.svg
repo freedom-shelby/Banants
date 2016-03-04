@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23" height="23" viewBox="0 0 23 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="23" height="23" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#217cb8"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="zoom" class="cls-1" d="M22.531,22l-0.559.546a1.607,1.607,0,0,1-2.236,0l-4.472-4.369a1.5,1.5,0,0,1-.223-1.856L12.6,13.93a7.981,7.981,0,0,1-4.7,1.524,7.815,7.815,0,0,1-7.9-7.723A7.816,7.816,0,0,1,7.9.008a7.816,7.816,0,0,1,7.9,7.723,7.587,7.587,0,0,1-2.034,5.159l2.392,2.337a1.587,1.587,0,0,1,1.9.218l4.472,4.369A1.52,1.52,0,0,1,22.531,22ZM13.809,7.7A5.862,5.862,0,0,0,7.88,1.906a5.985,5.985,0,0,0-2.538.577C5.755,2.9,6.377,3.516,6.41,3.516c-0.642,0-2.745,2.055-2.745,2.73,0-.033-0.669-0.653-1.107-1.056A5.627,5.627,0,0,0,1.951,7.7,5.862,5.862,0,0,0,7.88,13.491,5.862,5.862,0,0,0,13.809,7.7Z"/>
+</svg>

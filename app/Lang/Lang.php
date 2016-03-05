@@ -32,7 +32,7 @@ class Lang {
     }
 
     public function __construct(){
-        $items = \LangModel::where('is_enabled', '=', '1')->get();
+        $items = \LangModel::where('status', '=', '1')->get();
         if(class_exists('Setting')){
             $primaryLangIso = strtolower(Setting::instance()->getSettingVal('language.primary_language'));
         }else{

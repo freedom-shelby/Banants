@@ -21,6 +21,7 @@ use EntityTranslationModel;
 use Lang\Lang;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
+use Illuminate\Database\QueryException;
 
 
 class Entities extends Back
@@ -38,7 +39,7 @@ class Entities extends Back
     {
         $item = new EntityModel();
 
-        if (null !== Arr::get($this->getPostData(),'submit')) {
+        if (Arr::get($this->getPostData(),'submit') !== null) {
 
             $data = Arr::extract($this->getPostData(), ['entity', 'content']);
 
@@ -85,7 +86,7 @@ class Entities extends Back
             $translations[$iso] = $item->translations()->where('lang_id', '=', $lang['id'])->first();
         }
 
-        if (null !== Arr::get($this->getPostData(),'submit')) {
+        if (Arr::get($this->getPostData(),'submit') !== null) {
 
             $data = Arr::extract($this->getPostData(), ['entity', 'content']);
 
@@ -106,7 +107,7 @@ class Entities extends Back
                     }
                 });
                 Message::instance()->success('Entity was successfully edited');
-            } catch (Exception $e) {
+            } catch (QueryException $e) {
                 Message::instance()->warning('Entity was don\'t edited');
             }
         }

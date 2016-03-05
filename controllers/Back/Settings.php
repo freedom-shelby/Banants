@@ -15,6 +15,7 @@ use Helpers\Arr;
 use Helpers\Uri;
 use Message;
 use Exception;
+use Illuminate\Database\QueryException;
 
 class Settings extends Back {
 
@@ -38,7 +39,7 @@ class Settings extends Back {
 
                 Message::instance()->success('Setting has successfully edited');
 
-            }catch (Exception $e){
+            }catch (QueryException $e){
 //                Message::instance()->warning('Setting was don\'t edited');
 //echo '<pre>';
 //print_r($e->getMessage());die;

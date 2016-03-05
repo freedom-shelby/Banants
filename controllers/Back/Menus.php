@@ -21,6 +21,7 @@ use \ArticleModel;
 use \ContentModel;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
+use Illuminate\Database\QueryException;
 
 
 class Menus extends Back
@@ -39,7 +40,7 @@ class Menus extends Back
         $articles = new ArticleModel();
 //        $content = new ContentModel();
 
-        if (null !== Arr::get($this->getPostData(),'submit')) {
+        if (Arr::get($this->getPostData(),'submit') !== null) {
 
             $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'content']);
             $article = ArticleModel::find($data['parentId']);
@@ -99,7 +100,7 @@ class Menus extends Back
         }
 //        echo '<pre>';
 //var_dump($contents);die;
-        if (null !== Arr::get($this->getPostData(),'submit')) {
+        if (Arr::get($this->getPostData(),'submit') !== null) {
 
             $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'content']);
 //echo '<pre>'; print_r($data);die;
@@ -140,7 +141,7 @@ class Menus extends Back
                     }
                 });
                 Message::instance()->success('Article was successfully edited');
-            } catch (Exception $e) {
+            } catch (QueryException $e) {
                 Message::instance()->warning('Article was don\'t edited');
             }
         }

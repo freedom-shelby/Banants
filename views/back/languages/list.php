@@ -20,9 +20,10 @@
                     <tr>
                         <th>Name</th>
                         <th>Flag Path</th>
-                        <th>ISO 3</th>
+                        <th>ISO 2</th>
                         <th>Status</th>
                         <th>Edit</th>
+                        <th>Delete</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -40,10 +41,13 @@
                                     <?=$item['iso']?>
                                 </td>
                                 <td>
-                                    <?=$item['is_enabled']? 'Active': 'Inactive'?>
+                                    <?=$item['status']? 'Active': 'Inactive'?>
                                 </td>
                                 <td>
-                                    <a href="<?=\Helpers\Uri::makeUri('Admin/Languages/Edit').'/'.$item->id . App::URI_EXT?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+                                    <a href="<?=\Helpers\Uri::makeUri('Admin/Languages/Edit').'/'.$item['id'] . App::URI_EXT?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+                                </td>
+                                <td>
+                                    <a href="<?=\Helpers\Uri::makeUri('Admin/Languages/Delete').'/'.$item['id'] . App::URI_EXT?>"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
                                 </td>
                             </tr>
                         <?endforeach?>

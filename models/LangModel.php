@@ -16,13 +16,15 @@ class LangModel extends Node
 {
     protected $table = 'langs';
 
+    public $timestamps = false;
+
     public $content;
 
 //    protected $hidden = ['pivot'];
 
 //    protected $guarded = ['id'];
 
-//    protected $fillable = ['name', 'iso_3', 'is_enabled'];
+    protected $fillable = ['name', 'iso', 'status'];
 
 
     public function __get($name)

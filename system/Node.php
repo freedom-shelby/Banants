@@ -3,7 +3,7 @@ restrictAccess();
 
 
 use Baum\Node as BaumNode;
-
+use Illuminate\Database\Eloquent;
 
 /**
  * Node

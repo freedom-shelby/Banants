@@ -12,7 +12,6 @@ restrictAccess();
 
 use Event;
 use Helpers\Uri;
-use Http\Exception;
 use View;
 use Message;
 use Lang\Lang;
@@ -22,6 +21,7 @@ use ArticleModel;
 use ContentModel;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
+use Illuminate\Database\QueryException;
 
 
 class Articles extends Back
@@ -40,7 +40,7 @@ class Articles extends Back
         $articles = new ArticleModel();
 //        $content = new ContentModel();
 
-        if (null !== Arr::get($this->getPostData(),'submit')) {
+        if (Arr::get($this->getPostData(),'submit') !== null) {
 
             $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'content']);
             $parent = ArticleModel::find($data['parentId']);
@@ -97,12 +97,9 @@ class Articles extends Back
         }
 
 
-//        echo '<pre>';
-//var_dump($contents);die;
-        if (null !== Arr::get($this->getPostData(),'submit')) {
+        if (Arr::get($this->getPostData(),'submit') !== null) {
 
             $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'content']);
-//echo '<pre>'; print_r($data);die;
 
             $parent = ArticleModel::find($data['parentId']);
             // Транзакция для Записание данных в базу
@@ -128,7 +125,7 @@ class Articles extends Back
                     foreach ($data['content'] as $iso => $item) {
                         $lang_id = Lang::instance()->getLang($iso)['id'];
 
-                        if(!empty((int)$item['id'])) {
+                        if(((int)$item['id']) != 0) {
                             $content = ContentModel::find($item['id']);
                             $content->update([
                                 'title' => $item['title'],
@@ -158,7 +155,8 @@ class Articles extends Back
                     }
                 });
                 Event::fire('Admin.articleUpdate',$article);
-            } catch (Exception $e) {
+                Message::instance()->success('Articles has successfully saved');
+            } catch (QueryException $e) {
                 Message::instance()->warning('Article was don\'t edited');
             }
         }
@@ -168,8 +166,6 @@ class Articles extends Back
         foreach(Lang::instance()->getLangs() as $iso => $lang){
             $contents[$iso] = $article->contents()->where('lang_id', '=', $lang['id'])->first();
         }
-
-
 
         $this->layout->content = View::make('back/articles/edit')
             ->with('node', $article::getNode())

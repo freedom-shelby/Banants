@@ -83,7 +83,7 @@ use Lang\Lang;
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <div class="btn-group" role="group" aria-label="...">
-                                            <input type="submit" name="submit" value="Edit Article" class="btn btn-primary">
+                                            <input type="submit" name="submit" value="Save" class="btn btn-primary">
                                         </div>
                                     </div>
                                 </div>

@@ -10,6 +10,7 @@ namespace Back;
 restrictAccess();
 
 
+use Event;
 use Helpers\Uri;
 use Http\Exception as HttpException;
 use View;
@@ -18,8 +19,7 @@ use LangModel;
 use Helpers\Arr;
 use Illuminate\Database\QueryException;
 use Illuminate\Database\Capsule\Manager as Capsule;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\DB;
+
 
 class Languages extends Back {
 
@@ -105,7 +105,7 @@ class Languages extends Back {
                 // здесь надо использовать QueryBuilder потому-что стадартни update исползует метод Baum-а
                 Capsule::table('langs')->whereId($id)->update($data);
 
-                Message::instance()->success('Language has successfully saved');
+                Event::fire('Admin.languageUpdate');
             } catch(QueryException $e){
                 Message::instance()->warning('Language was not editing');
             }

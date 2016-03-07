@@ -47,7 +47,7 @@
                                     <a href="<?=\Helpers\Uri::makeUri('Admin/Languages/Edit').'/'.$item['id'] . App::URI_EXT?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
                                 </td>
                                 <td>
-                                    <a href="<?=\Helpers\Uri::makeUri('Admin/Languages/Delete').'/'.$item['id'] . App::URI_EXT?>"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+                                    <a class="remove-confirm" href="<?=\Helpers\Uri::makeUri('Admin/Languages/Delete').'/'.$item['id'] . App::URI_EXT?>"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
                                 </td>
                             </tr>
                         <?endforeach?>

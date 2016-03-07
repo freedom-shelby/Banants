@@ -11,15 +11,12 @@ namespace Widgets;
 restrictAccess();
 
 
-use Illuminate\Database\Eloquent\Model;
 use Widgets\Widget;
-use WidgetModel;
 use ArticleModel;
 use View;
 use Router;
 use Http\Exception as HttpException;
 use Cache\LocalStorage as Cache;
-use ModelWrapper;
 
 
 class WidgetsContainer {

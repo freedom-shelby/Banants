@@ -9,7 +9,7 @@
     width: 100%;
 }
 .glyphicon-remove-sign{
-    color: #CC0A00;
+    color: #a00a00;
 }
 
 .node-item{
@@ -18,6 +18,10 @@
 
 .invisible-article{
     display: none;
+}
+
+.remove-confirm{
+    color: #a00a00;
 }
 
 /** Sortable Node Styles **/

@@ -155,7 +155,6 @@ class Articles extends Back
                     }
                 });
                 Event::fire('Admin.articleUpdate',$article);
-                Message::instance()->success('Articles has successfully saved');
             } catch (QueryException $e) {
                 Message::instance()->warning('Article was don\'t edited');
             }

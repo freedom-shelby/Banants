@@ -91,6 +91,7 @@ return array(
     'SoftCategory' => $baseDir . '/controllers/Test/NestedSets/models/Category.php',
     'SoftCluster' => $baseDir . '/controllers/Test/NestedSets/models/Cluster.php',
     'Subscribers\\Admin\\ArticlesEventHandler' => $baseDir . '/app/Subscribers/Admin/ArticlesEventHandler.php',
+    'Subscribers\\Admin\\LanguagesEventHandler' => $baseDir . '/app/Subscribers/Admin/LanguagesEventHandler.php',
     'Subscribers\\Controller\\GlobalEventHandler' => $baseDir . '/app/Subscribers/Controller/GlobalEventHandler.php',
     'Subscribers\\Route\\GlobalEventHandler' => $baseDir . '/app/Subscribers/Route/GlobalEventHandler.php',
     'Test\\FakerTest' => $baseDir . '/controllers/Test/FakerTest.php',

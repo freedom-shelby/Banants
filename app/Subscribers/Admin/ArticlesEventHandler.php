@@ -7,16 +7,18 @@
  * Time: 5:43
  */
 namespace Subscribers\Admin;
+restrictAccess();
+
+
 use Message;
 use Cache\LocalStorage as Cache;
 
-restrictAccess();
 class ArticlesEventHandler
 {
 
     /**
      * Метод обрабатывающий событие перед обновлением материала
-     * @param $controller \ArticleModel
+     * @param $article \ArticleModel
      */
     public static function onBeforeArticleUpdate($article){
         $cache = new Cache();
@@ -27,10 +29,10 @@ class ArticlesEventHandler
 
     /**
      * Метод обрабатывающий событие обновления материала
-     * @param $controller \ArticleModel
+     * @param $article \ArticleModel
      */
     public static function onArticleUpdate($article){
-        Message::instance()->success('Article was successfully edited');
+        Message::instance()->success('Article was successfully saved');
         $cache = new Cache();
         $cache->setLocalPath($article->slug.'_article');
         $cache->clear();

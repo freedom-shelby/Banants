@@ -4,6 +4,8 @@ namespace Lang;
 restrictAccess();
 
 use Setting;
+use Cache\LocalStorage as Cache;
+use LangModel;
 
 class Lang {
 
@@ -32,7 +34,19 @@ class Lang {
     }
 
     public function __construct(){
-        $items = \LangModel::where('status', '=', '1')->get();
+        $cache = new Cache();
+        $cache->setLocalPath('languages');
+        $cache->load();
+        if($cache->isValid()){
+            $items = json_decode($cache->getData());
+        }else{
+            $items = LangModel::where('status', '=', '1')->get();
+
+            $cache->setData($items);
+            $cache->save();
+        }
+
+        // Устанавливает язык по умолчанию
         if(class_exists('Setting')){
             $primaryLangIso = strtolower(Setting::instance()->getSettingVal('language.primary_language'));
         }else{
@@ -55,7 +69,6 @@ class Lang {
         }
 
         $this->_currentLang = $this->_primaryLang;
-
     }
 
     /**

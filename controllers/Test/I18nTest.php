@@ -13,6 +13,7 @@
 namespace Test;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
+use Lang\Lang;
 
 
 class I18nTest extends \Controller
@@ -25,7 +26,7 @@ class I18nTest extends \Controller
         echo '<pre>';
         //$article = new ArticleModel();
         //$article->hasContent();
-        \Lang::instance()->setCurrentLang('en');
+        Lang::instance()->setCurrentLang('en');
         //print_r($article->title);
         //print_r(class_exists('LangsModel'));
 
@@ -124,7 +125,7 @@ class I18nTest extends \Controller
 
     public function anyTestLangRoute()
     {
-        var_dump( \Lang::instance()->getCurrentLang());
+        var_dump(Lang::instance()->getCurrentLang());
         $article = (new \ArticleModel())->find(1);
         echo($article->id);echo "<br>";
         echo($article->title);echo "<br>";

@@ -71,7 +71,7 @@ class I18n extends Lang{
 		$entities = EntityModel::all()->keyBy('id')->toArray();
 		$translations = (new EntityTranslationModel())->whereLang_id(Lang::instance()->getLang($lang)['id'])->get()->toArray();
 
-		// New translation table
+		// Новая таблица для трансляций
 		$table = [];
 
 		// Заливает масив где ключом становится entities.text а значением entities_translations.text
@@ -80,46 +80,46 @@ class I18n extends Lang{
 			$table[$entities[$trans['entity_id']]['text']] = $trans['text'];
 		}
 
-//echo '<pre>';
-//print_r($table);die;
+echo '<pre>';
+print_r($table);die;
 
 		// Cache the translation table locally
 		return I18n::$_cache[$lang] = $table;
 	}
 
 }
-if ( ! function_exists('__'))
-{
-	/**
-	 * translation/internationalization function. The PHP function
-	 * [strtr](http://php.net/strtr) is used for replacing parameters.
-	 *
-	 *    __('Welcome back, :user', array(':user' => $username));
-	 *
-	 * [!!] The target language is defined by [Lang::instance()->getCurrentLang()].
-	 *
-	 * @uses    I18n::get
-	 * @param   string  $string text to translate
-	 * @param   array   $values values to replace in the translated text
-	 * @param   string  $lang   source language
-	 * @return  string
-	 */
-	function __($string, array $values = NULL, $lang = null)
-	{
-		if( ! $lang){
-			$lang = Lang::instance()->getCurrentLang()['iso'];
-		}
-
-		if ($lang !== Lang::DEFAULT_LANGUAGE)
-		{
-			// The message and target languages are different
-			// Get the translation for this message
-			$string = I18n::get($string, $lang);
-		}
-
-//echo '<pre>';
-//var_dump($lang);
-//var_dump($string);
-		return empty($values) ? $string : strtr($string, $values);
-	}
-}
+//if ( ! function_exists('__'))
+//{
+//	/**
+//	 * translation/internationalization function. The PHP function
+//	 * [strtr](http://php.net/strtr) is used for replacing parameters.
+//	 *
+//	 *    __('Welcome back, :user', array(':user' => $username));
+//	 *
+//	 * [!!] The target language is defined by [Lang::instance()->getCurrentLang()].
+//	 *
+//	 * @uses    I18n::get
+//	 * @param   string  $string text to translate
+//	 * @param   array   $values values to replace in the translated text
+//	 * @param   string  $lang   source language
+//	 * @return  string
+//	 */
+//	function __($string, array $values = NULL, $lang = null)
+//	{
+//		if( ! $lang){
+//			$lang = Lang::instance()->getCurrentLang()['iso'];
+//		}
+//
+//		if ($lang !== Lang::DEFAULT_LANGUAGE)
+//		{
+//			// The message and target languages are different
+//			// Get the translation for this message
+//			$string = I18n::get($string, $lang);
+//		}
+//
+////echo '<pre>';
+////var_dump($lang);
+////var_dump($string);
+//		return empty($values) ? $string : strtr($string, $values);
+//	}
+//}

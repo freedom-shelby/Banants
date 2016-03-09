@@ -16,6 +16,7 @@ use Helpers\Uri;
 use Message;
 use Exception;
 use Illuminate\Database\QueryException;
+use Event;
 
 class Settings extends Back {
 
@@ -36,9 +37,7 @@ class Settings extends Back {
             try {
                 //изменения елемента по id
                 $item->save();
-
-                Message::instance()->success('Setting has successfully edited');
-
+                Event::fire('Admin.settingsUpdate');
             }catch (QueryException $e){
 //                Message::instance()->warning('Setting was don\'t edited');
 //echo '<pre>';

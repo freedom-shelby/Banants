@@ -58,6 +58,8 @@ class Languages extends Back {
 //                ->set('flag', $this->_flag);
 
             try {
+                Event::fire('Admin.beforeLanguageUpdate');
+
                 // здесь надо использовать метод insert по тому что LangModel принадлежит к деревям Baum
                 $lastId = LangModel::insertGetId($data);
 
@@ -133,6 +135,7 @@ class Languages extends Back {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Article']));
         }
 
+        Event::fire('Admin.beforeLanguageUpdate');
         $item->delete();
 
         Message::instance()->success('Articles has successfully deleted');

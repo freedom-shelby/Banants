@@ -22,6 +22,7 @@ use Lang\Lang;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
 use Illuminate\Database\QueryException;
+use Event;
 
 
 class Entities extends Back
@@ -59,7 +60,7 @@ class Entities extends Back
                     ]);
                 }
             });
-
+            Event::fire('Admin.entitiesUpdate');
             Message::instance()->success('Entity has successfully added');
 
         }
@@ -106,6 +107,7 @@ class Entities extends Back
                         ]);
                     }
                 });
+                Event::fire('Admin.entitiesUpdate');
                 Message::instance()->success('Entity was successfully edited');
             } catch (QueryException $e) {
                 Message::instance()->warning('Entity was don\'t edited');
@@ -134,6 +136,7 @@ class Entities extends Back
                 $i->translations()->delete();
             }
             $item->delete();
+            Event::fire('Admin.entitiesUpdate');
         });
 
         Message::instance()->success('Entity has successfully deleted');

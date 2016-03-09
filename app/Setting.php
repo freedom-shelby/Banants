@@ -8,12 +8,14 @@
  * Паттерн одиночка(Singleton)
  */
 restrictAccess();
+use Cache\LocalStorage as Cache;
+
 
 class Setting {
 
     public static $_instance;
 
-    protected $_items;
+    protected $_items = [];
 
     /**
      * Точка доступа
@@ -118,18 +120,31 @@ class Setting {
      */
     protected function __construct(){
 
-        $items = \SettingsModel::all();
-        if(!empty($items)){
-            foreach($items as $i){
-                $this->_items[$i->group][$i->name] = array(
-                   'id' => $i->id,
-                   'name' => $i->name,
-                   'value' => $i->value,
-                   'title' => $i->title,
-                   'desc' => $i->desc,
-                ) ;
+        // Кешировка данных
+        $cache = new Cache();
+        $cache->setLocalPath('settings');
+        $cache->load();
+        if($cache->isValid()){
+            $this->_items = json_decode($cache->getData(), true);
+        }else{
+            $data = \SettingsModel::all();
+
+            if(!empty($data)){
+                foreach($data as $i){
+                    $this->_items[$i->group][$i->name] = array(
+                        'id' => $i->id,
+                        'name' => $i->name,
+                        'value' => $i->value,
+                        'title' => $i->title,
+                        'desc' => $i->desc,
+                    ) ;
+                }
             }
+
+            $cache->setData(json_encode($this->_items));
+            $cache->save();
         }
+
     }
     protected function __sleep(){}
     protected function __clone(){}

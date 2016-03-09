@@ -11,6 +11,7 @@
 namespace Crypt;
 
 restrictAccess();
+use Exception;
 
 class Rijndael {
 

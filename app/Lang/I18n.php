@@ -6,6 +6,7 @@ restrictAccess();
 
 use EntityModel;
 use EntityTranslationModel;
+use Cache\LocalStorage as Cache;
 
 /**
  *
@@ -45,10 +46,10 @@ class I18n extends Lang{
 		}
 
 		// Load the translation table for this language
-		$table = I18n::load($lang);
+		$items = I18n::load($lang);
 
 		// Return the translated string if it exists
-		return isset($table[$string]) ? $table[$string] : $string;
+		return isset($items[$string]) ? $items[$string] : $string;
 	}
 
 	/**
@@ -67,59 +68,68 @@ class I18n extends Lang{
 			return I18n::$_cache[$lang];
 		}
 
-		// Возврошает масив где ключи те ж что id таблици
-		$entities = EntityModel::all()->keyBy('id')->toArray();
-		$translations = (new EntityTranslationModel())->whereLang_id(Lang::instance()->getLang($lang)['id'])->get()->toArray();
+		// Кешировка данных
+		$cache = new Cache();
+		$cache->setLocalPath($lang . '_I18n');
+		$cache->load();
+		if($cache->isValid()){
+			$items = json_decode($cache->getData(), true);
+		}else{
+			// Возврошает масив где ключи те ж что id таблици
+			$entities = EntityModel::all()->keyBy('id')->toArray();
+			$translations = (new EntityTranslationModel())->whereLang_id(Lang::instance()->getLang($lang)['id'])->get()->toArray();
 
-		// Новая таблица для трансляций
-		$table = [];
+			// Новая таблица для трансляций
+			$items = [];
 
-		// Заливает масив где ключом становится entities.text а значением entities_translations.text
-		foreach($translations as $trans)
-		{
-			$table[$entities[$trans['entity_id']]['text']] = $trans['text'];
+			// Заливает масив где ключом становится entities.text а значением entities_translations.text
+			foreach($translations as $trans)
+			{
+				$items[$entities[$trans['entity_id']]['text']] = $trans['text'];
+			}
+
+			$items = json_encode($items);
+			$cache->setData($items);
+			$cache->save();
 		}
 
-echo '<pre>';
-print_r($table);die;
-
 		// Cache the translation table locally
-		return I18n::$_cache[$lang] = $table;
+		return I18n::$_cache[$lang] = $items;
 	}
 
 }
-//if ( ! function_exists('__'))
-//{
-//	/**
-//	 * translation/internationalization function. The PHP function
-//	 * [strtr](http://php.net/strtr) is used for replacing parameters.
-//	 *
-//	 *    __('Welcome back, :user', array(':user' => $username));
-//	 *
-//	 * [!!] The target language is defined by [Lang::instance()->getCurrentLang()].
-//	 *
-//	 * @uses    I18n::get
-//	 * @param   string  $string text to translate
-//	 * @param   array   $values values to replace in the translated text
-//	 * @param   string  $lang   source language
-//	 * @return  string
-//	 */
-//	function __($string, array $values = NULL, $lang = null)
-//	{
-//		if( ! $lang){
-//			$lang = Lang::instance()->getCurrentLang()['iso'];
-//		}
-//
-//		if ($lang !== Lang::DEFAULT_LANGUAGE)
-//		{
-//			// The message and target languages are different
-//			// Get the translation for this message
-//			$string = I18n::get($string, $lang);
-//		}
-//
-////echo '<pre>';
-////var_dump($lang);
-////var_dump($string);
-//		return empty($values) ? $string : strtr($string, $values);
-//	}
-//}
+if ( ! function_exists('__'))
+{
+	/**
+	 * translation/internationalization function. The PHP function
+	 * [strtr](http://php.net/strtr) is used for replacing parameters.
+	 *
+	 *    __('Welcome back, :user', array(':user' => $username));
+	 *
+	 * [!!] The target language is defined by [Lang::instance()->getCurrentLang()].
+	 *
+	 * @uses    I18n::get
+	 * @param   string  $string text to translate
+	 * @param   array   $values values to replace in the translated text
+	 * @param   string  $lang   source language
+	 * @return  string
+	 */
+	function __($string, array $values = NULL, $lang = null)
+	{
+		if( ! $lang){
+			$lang = Lang::instance()->getCurrentLang()['iso'];
+		}
+
+		if ($lang !== Lang::DEFAULT_LANGUAGE)
+		{
+			// The message and target languages are different
+			// Get the translation for this message
+			$string = I18n::get($string, $lang);
+		}
+
+//echo '<pre>';
+//var_dump($lang);
+//var_dump($string);
+		return empty($values) ? $string : strtr($string, $values);
+	}
+}

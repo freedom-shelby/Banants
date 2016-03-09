@@ -38,38 +38,32 @@ function restrictAccess(){
 use Lang\Lang;
 use Lang\I18n;
 
-if ( ! function_exists('__'))
+/**
+ * translation/internationalization function. The PHP function
+ * [strtr](http://php.net/strtr) is used for replacing parameters.
+ *
+ *    __('Welcome back, :user', array(':user' => $username));
+ *
+ * [!!] The target language is defined by [Lang::instance()->getCurrentLang()].
+ *
+ * @uses    I18n::get
+ * @param   string  $string text to translate
+ * @param   array   $values values to replace in the translated text
+ * @param   string  $lang   source language
+ * @return  string
+ */
+function __($string, array $values = NULL, $lang = null)
 {
-    /**
-     * translation/internationalization function. The PHP function
-     * [strtr](http://php.net/strtr) is used for replacing parameters.
-     *
-     *    __('Welcome back, :user', array(':user' => $username));
-     *
-     * [!!] The target language is defined by [Lang::instance()->getCurrentLang()].
-     *
-     * @uses    I18n::get
-     * @param   string  $string text to translate
-     * @param   array   $values values to replace in the translated text
-     * @param   string  $lang   source language
-     * @return  string
-     */
-    function __($string, array $values = NULL, $lang = null)
-    {
-        if( ! $lang){
-            $lang = Lang::instance()->getCurrentLang()['iso'];
-        }
-
-        if ($lang !== Lang::DEFAULT_LANGUAGE)
-        {
-            // The message and target languages are different
-            // Get the translation for this message
-            $string = I18n::get($string, $lang);
-        }
-
-//echo '<pre>';
-//var_dump($lang);
-//var_dump($string);
-        return empty($values) ? $string : strtr($string, $values);
+    if( ! $lang){
+        $lang = Lang::instance()->getCurrentLang()['iso'];
     }
+
+    if ($lang !== Lang::DEFAULT_LANGUAGE)
+    {
+        // The message and target languages are different
+        // Get the translation for this message
+        $string = I18n::get($string, $lang);
+    }
+
+    return empty($values) ? $string : strtr($string, $values);
 }

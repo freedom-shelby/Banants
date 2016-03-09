@@ -21,7 +21,7 @@ class WordTranslate extends \Controller
 //        \Lang::instance()->setCurrentLang('am');
 //        var_dump(function_exists('__'));
         echo __('World :name', [':name' => 'John']);
-
-
+        echo "<pre>";
+        echo __('Club');
     }
 }

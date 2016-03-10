@@ -10,12 +10,13 @@
     }
   ],
   "require": {
-    "league/uploads": "1",
     "baum/baum": "~1.1",
     "illuminate/database": "5.0.x-dev",
     "illuminate/events": "5.0.x-dev",
     "fzaninotto/faker": "^1.5",
-    "nesbot/carbon": "^1.21"
+    "nesbot/carbon": "^1.21",
+    "league/flysystem": "^1.0",
+    "league/uploads" : "~0.1"
   },
   "autoload": {
     "classmap" : [

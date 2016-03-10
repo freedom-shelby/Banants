@@ -13,7 +13,6 @@ restrictAccess();
 use Lang\Lang;
 use Message;
 use Cache\LocalStorage as Cache;
-use LangModel;
 
 class EntitiesEventHandler
 {

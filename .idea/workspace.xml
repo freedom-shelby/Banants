@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Subscribers/Admin/EntitiesEventHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Subscribers/Admin/SettingsEventHandler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.ser" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.ser" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Banants.iml" afterPath="$PROJECT_DIR$/.idea/Banants.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Entities.php" afterPath="$PROJECT_DIR$/controllers/Back/Entities.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Languages.php" afterPath="$PROJECT_DIR$/controllers/Back/Languages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Settings.php" afterPath="$PROJECT_DIR$/controllers/Back/Settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Subscribers/Admin/EntitiesEventHandler.php" afterPath="$PROJECT_DIR$/app/Subscribers/Admin/EntitiesEventHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +48,7 @@
       <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/front.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.884615">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
@@ -50,7 +58,7 @@
       <file leaf-file-name="Articles.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/Back/Articles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="66.03846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="23" selection-end-column="39" />
               <folding />
             </state>
@@ -60,7 +68,7 @@
       <file leaf-file-name="Entities.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/Back/Entities.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-57.53846">
+            <state vertical-scroll-proportion="0.0">
               <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
               <folding />
             </state>
@@ -70,7 +78,7 @@
       <file leaf-file-name="I18n.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Lang/I18n.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="24.192308">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding>
                 <element signature="e#43#59#0#PHP" expanded="true" />
@@ -82,21 +90,31 @@
       <file leaf-file-name="ArticlesEventHandler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Subscribers/Admin/ArticlesEventHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7307692">
+            <state vertical-scroll-proportion="0.0">
               <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntitiesEventHandler.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EntitiesEventHandler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Subscribers/Admin/EntitiesEventHandler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5702247">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state vertical-scroll-proportion="-17.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#136#150#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3371901">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,13 +123,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="error_log" />
-      <command text="composer.phar diagnose" />
-      <command text="composer dump-auto" />
-      <command text="composer.json" />
-      <command text="composer dump-auto" />
-      <command text="cd domains" />
-      <command text="cd" />
       <command text="cd ../" />
       <command text="cd banants" />
       <command text="composer dump suto" />
@@ -130,6 +141,13 @@
       <command text="composer dumpautoload" />
       <command text="c dump-autoload" />
       <command text="composer dumpautoload" />
+      <command text="composer require league/uploads" />
+      <command text="composer require &quot;league/uploads&quot;" />
+      <command text="composer update &quot;league/uploads&quot;" />
+      <command text="composer require &quot;league/uploads&quot;" />
+      <command text="composer install &quot;league/uploads&quot;" />
+      <command text="composer require &quot;league/uploads&quot;" />
+      <command text="composer install &quot;league/uploads&quot;" />
     </commandsHistory>
   </component>
   <component name="Git.Rebase.Settings">
@@ -159,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/system/Event/Emmiter.php" />
         <option value="$PROJECT_DIR$/app/Subscribers/Route/Handler.php" />
         <option value="$PROJECT_DIR$/EventsList.txt" />
         <option value="$PROJECT_DIR$/system/App.php" />
@@ -208,8 +225,9 @@
         <option value="$PROJECT_DIR$/controllers/Back/Settings.php" />
         <option value="$PROJECT_DIR$/controllers/Back/Languages.php" />
         <option value="$PROJECT_DIR$/controllers/Back/Entities.php" />
-        <option value="$PROJECT_DIR$/app/Subscribers/Admin/EntitiesEventHandler.php" />
         <option value="$PROJECT_DIR$/app/Subscribers/Admin/SettingsEventHandler.php" />
+        <option value="$PROJECT_DIR$/app/Subscribers/Admin/EntitiesEventHandler.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -221,7 +239,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/illuminate/support" />
@@ -239,28 +257,15 @@
       <path value="$PROJECT_DIR$/vendor/illuminate/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/finder" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -287,37 +292,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests" />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -399,26 +373,8 @@
               <option name="myItemId" value="_I" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localstorage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="am" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_I" />
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -603,6 +559,37 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="Scratches">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -1032,15 +1019,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15677084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.159375" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3139535" sideWeight="0.503125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30417755" sideWeight="0.4975" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30338266" sideWeight="0.4975" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.59913325" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20677084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1138,13 +1125,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/front/_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/back/css/custom/back.style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37080538">
@@ -1185,7 +1165,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32399103">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1291,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57174885">
           <caret line="184" column="20" selection-start-line="184" selection-start-column="20" selection-end-line="184" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,7 +1308,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.9615383">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1415,7 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8004484">
           <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1456,7 +1431,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/front.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.884615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -1466,13 +1441,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5014045">
           <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Lang/I18n.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="24.192308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
             <element signature="e#43#59#0#PHP" expanded="true" />
@@ -1482,7 +1456,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Subscribers/Admin/ArticlesEventHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7307692">
+        <state vertical-scroll-proportion="0.0">
           <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
           <folding />
         </state>
@@ -1490,7 +1464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Back/Entities.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-57.53846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="126" column="39" selection-start-line="126" selection-start-column="39" selection-end-line="126" selection-end-column="39" />
           <folding />
         </state>
@@ -1500,13 +1474,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.65762">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Back/Articles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="66.03846">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
@@ -1516,17 +1489,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Subscribers/Admin/EntitiesEventHandler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5702247">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#136#150#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3371901">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -10,6 +10,7 @@
     }
   ],
   "require": {
+    "league/uploads": "1",
     "baum/baum": "~1.1",
     "illuminate/database": "5.0.x-dev",
     "illuminate/events": "5.0.x-dev",

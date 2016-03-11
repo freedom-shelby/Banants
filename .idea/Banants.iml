@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/vendor/baum/baum" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeguy/upload" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
@@ -51,6 +52,7 @@
       <library name="PHP">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/baum/baum" />
+          <root url="file://$MODULE_DIR$/vendor/codeguy/upload" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
@@ -71,6 +73,7 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/baum/baum" />
+          <root url="file://$MODULE_DIR$/vendor/codeguy/upload" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />

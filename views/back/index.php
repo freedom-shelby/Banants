@@ -14,15 +14,20 @@ use Lang\Lang;
 
     <link href="/media/libs/bs3/css/bootstrap.min.css" rel="stylesheet">
     <link href="/media/back/css/custom/back.style.css" rel="stylesheet">
-    <link rel="stylesheet" href="/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.css">
+    <link href="/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.css" rel="stylesheet">
+    <link href="/media/back/plugins/bootstrap-fileinput-master/css/fileinput.min.css" rel="stylesheet">
 
     <script src="/media/libs/jquery-1.12.0.min.js"></script>
     <script src="/media/libs/bs3/js/bootstrap.min.js"></script>
     <script src='/media/back/plugins/tinymce/tinymce.min.js'></script>
 <!--    <script src="external/jquery/jquery.js"></script>-->
     <script src="/media/libs/jquery-ui-1.11.4.sortable/jquery-ui.min.js"></script>
-    <script src='/media/back/plugins/jquery.mjs.nestedSortable.js'></script>
+    <!--    Скрипти для загрузки файлов-->
+    <script src='/media/back/plugins/bootstrap-fileinput-master/js/plugins/canvas-to-blob.min.js'></script>
+    <script src='/media/back/plugins/bootstrap-fileinput-master/js/fileinput.min.js'></script>
+    <script src='/media/back/plugins/bootstrap-fileinput-master/js/fileinput_locale_LANG.js'></script>
 
+    <script src='/media/back/plugins/jquery.mjs.nestedSortable.js'></script>
 
 </head>
 <body>

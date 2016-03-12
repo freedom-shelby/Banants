@@ -19,7 +19,7 @@ use LangModel;
 use Helpers\Arr;
 use Illuminate\Database\QueryException;
 use Illuminate\Database\Capsule\Manager as Capsule;
-
+use Upload\File;
 
 class Languages extends Back {
 
@@ -40,7 +40,11 @@ class Languages extends Back {
      */
     public function anyAdd(){
 
-        if (Arr::get($this->getPostData(),'submit') !== null) {
+        if (Arr::get($this->getPostData(),'submit') !== null)
+        {
+echo "<pre>";
+print_r($_FILES);die;
+
             //проверяет загрузку и тип картинки
 //            if($_FILES['flag']['error'] != UPLOAD_ERR_NO_FILE) {
 //                if (!HDVP_ImgUpload::check_one_img('flag')) {

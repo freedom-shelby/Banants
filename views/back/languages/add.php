@@ -25,7 +25,7 @@
                     </div>
                     <div class="form-group col-sm-7">
                         <label class="control-label">Select File</label>
-                        <input id="input-21" type="file" accept="image/*" class="file-loading">
+                        <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
                     </div>
                     <div class="form-group col-sm-7">
                         <label for="status">Select Status Of Language</label>
@@ -38,7 +38,6 @@
                     <div class="form-group col-sm-7">
                         <input type="submit" name="submit" value="Add Item" class="btn btn-primary">
                     </div>
-
                 </div>
             </div>
         </form>
@@ -46,7 +45,7 @@
 </div>
 <script>
     $(document).on('ready', function() {
-        $("#input-21").fileinput({
+        $("#image").fileinput({
             previewFileType: "image",
             browseClass: "btn btn-success",
             browseLabel: "Pick Image",

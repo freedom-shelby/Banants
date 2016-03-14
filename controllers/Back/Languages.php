@@ -18,8 +18,12 @@ use Message;
 use LangModel;
 use Helpers\Arr;
 use Illuminate\Database\QueryException;
+use Exception;
 use Illuminate\Database\Capsule\Manager as Capsule;
-use Upload\File;
+use Upload\File as UploadFile;
+use Upload\Storage\FileSystem;
+use Upload\Validation\Mimetype as UploadMimeType;
+use Upload\Validation\Size as UploadSize;
 
 class Languages extends Back {
 
@@ -42,27 +46,35 @@ class Languages extends Back {
 
         if (Arr::get($this->getPostData(),'submit') !== null)
         {
-echo "<pre>";
-print_r($_FILES);die;
-
-            //проверяет загрузку и тип картинки
-//            if($_FILES['flag']['error'] != UPLOAD_ERR_NO_FILE) {
-//                if (!HDVP_ImgUpload::check_one_img('flag')) {
-//                    Message::instance()->success('Images was not adding');
-//
-//                    Uri::to('admin/languages/add/');
-//                } else {
-//                    $this->_flag = HDVP_ImgUpload::one_img_from_post_request('flag');
-//                }
-//            }
-
             $data = Arr::extract($this->getPostData(), ['name', 'iso', 'status']);
-
-//            $item ->values($data)
-//                ->set('flag', $this->_flag);
 
             try {
                 Event::fire('Admin.beforeLanguageUpdate');
+
+                // Загрузка картинки
+                $file = new UploadFile('image', new FileSystem('uploads/images'));
+
+                // Optionally you can rename the file on upload
+                $file->setName(uniqid());
+
+                // Validate file upload
+                $file->addValidations(array(
+                    // Ensure file is of type image
+                    new UploadMimeType(['image/png','image/jpg','image/gif']),
+
+                    // Ensure file is no larger than 5M (use "B", "K", M", or "G")
+                    new UploadSize('50M')
+                ));
+
+                // Try to upload file
+                try {
+                    // Success!
+                    $file->upload();
+                    $data['flag'] = $file->getNameWithExtension();
+                } catch (Exception $e) {
+                    // Fail!
+                    Message::instance()->warning($file->getErrors());
+                }
 
                 // здесь надо использовать метод insert по тому что LangModel принадлежит к деревям Baum
                 $lastId = LangModel::insertGetId($data);
@@ -70,7 +82,7 @@ print_r($_FILES);die;
                 Message::instance()->success('Language was successfully added');
                 Uri::to('/Admin/Languages/Edit/' . $lastId);
             }
-            catch(QueryException $e){
+            catch(Exception $e){
                 Message::instance()->warning('Language was not adding');
                 Uri::to('/Admin/Languages/Add');
             }
@@ -92,21 +104,30 @@ print_r($_FILES);die;
             $data = Arr::extract($this->getPostData(), ['name', 'iso', 'status']);
 
             try {
-                //старт транзакции
+                // Загрузка картинки
+                $file = new UploadFile('image', new FileSystem('uploads/images'));
 
-                //проверяет загрузку и тип картинки
-//                if($_FILES['flag']['error'] != UPLOAD_ERR_NO_FILE) {
-//                    if (!HDVP_ImgUpload::check_one_img('flag')) {
-//                        Messages::factory()
-//                            ->set_alert_type('warning')
-//                            ->set_message('Images was not adding');
-//
-//                        $this->redirect('adminshop/languages/edit/'.$id);
-//                    } else {
-//                        $this->_flag = HDVP_ImgUpload::one_img_from_post_request('flag');
-//                        $item->set('flag', $this->_flag);
-//                    }
-//                }
+                // Optionally you can rename the file on upload
+                $file->setName(uniqid());
+
+                // Validate file upload
+                $file->addValidations(array(
+                    // Ensure file is of type image
+                    new UploadMimeType(['image/png','image/jpg','image/gif']),
+
+                    // Ensure file is no larger than 5M (use "B", "K", M", or "G")
+                    new UploadSize('50M')
+                ));
+
+                // Try to upload file
+                try {
+                    // Success!
+                    $file->upload();
+                    $data['flag'] = $file->getNameWithExtension();
+                } catch (Exception $e) {
+                    // Fail!
+                    Message::instance()->warning($file->getErrors());
+                }
 
                 // здесь надо использовать QueryBuilder потому-что стадартни update исползует метод Baum-а
                 Capsule::table('langs')->whereId($id)->update($data);

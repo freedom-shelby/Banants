@@ -155,7 +155,6 @@ class File extends \SplFileInfo
         if (!isset($this->name)) {
             $this->name = pathinfo($this->originalName, PATHINFO_FILENAME);
         }
-
         return $this->name;
     }
 

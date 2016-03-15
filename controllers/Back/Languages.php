@@ -20,7 +20,7 @@ use Helpers\Arr;
 use Illuminate\Database\QueryException;
 use Exception;
 use Illuminate\Database\Capsule\Manager as Capsule;
-use Upload\File as UploadFile;
+use File as UploadFile;
 use Upload\Storage\FileSystem;
 use Upload\Validation\Mimetype as UploadMimeType;
 use Upload\Validation\Size as UploadSize;
@@ -161,6 +161,9 @@ class Languages extends Back {
         }
 
         Event::fire('Admin.beforeLanguageUpdate');
+
+        // Удаления картинки из сервера
+        @unlink(ltrim(UploadFile::getImagePath($item->flag), '/'));
         $item->delete();
 
         Message::instance()->success('Articles has successfully deleted');
@@ -170,31 +173,31 @@ class Languages extends Back {
     /**
      * Удаление картинки флага
      */
-    public function actionDeleteImage(){
+    public function postImageDelete(){
 
-        $id = (int) $this->getRequestParam('id') ?: null;
+        $this->layout = null;
 
-        $item = LangModel::find($id);
+        $id = (int) Arr::get($this->getPostData(), 'key');
+
+        $item = Capsule::table('langs')->find($id);
 
         if (empty($item)) {
             Message::instance()->warning('Image was not delete');
-            Uri::to('/Admin/Languages/' . $id);
+        }else{
+            try {
+                // Удаление картинки из сервера
+                @unlink(ltrim(UploadFile::getImagePath($item['flag']), '/'));
+
+                Capsule::table('langs')->whereId($id)->update(
+                    ['flag' => null]
+                );
+
+                Message::instance()->success('Image was successfully deleted');
+            } catch (Exception $e) {
+                Message::instance()->warning('Image was not delete');
+            }
         }
 
-        try {
-            /**
-             * удаление картинки из сервера
-             */
-            @unlink($item->flag);
-
-            Capsule::table('langs')->whereId($id)->update(
-                ['flag' => null]
-            );
-
-            Message::instance()->success('Image was successfully deleted');
-            Uri::to('/Admin/Languages/' . $id);
-        } catch (QueryException $e) {
-            Uri::to('/Admin/Languages/' . $id);
-        }
+        echo json_encode(['errorMessage' => Message::instance()->flash_all()]);
     }
 }

@@ -24,8 +24,8 @@
                         <input type="text" name="iso" class="form-control" id="iso" placeholder="Iso" value="<?=$item->iso?>" required>
                     </div>
                     <div class="form-group col-sm-7">
-                        <label for="flag">Upload Image</label>
-                        <input type="file" name="flag" class="multi" accept="gif|jpg|png">
+                        <label class="control-label">Select File</label>
+                        <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
                     </div>
                     <div class="form-group col-sm-7">
                         <label for="status">Select Status Of Language</label>
@@ -44,3 +44,37 @@
     </div>
 </div>
 <!--End Container-->
+<script>
+    $(document).on('ready', function(){
+        $("#image").on("filepredelete", function(jqXHR){
+            var abort = true;
+            if (confirm("Are you sure you want to delete this image?")) {
+                abort = false;
+            }
+            return abort; // you can also send any data/object that you can receive on `filecustomerror` event
+        });
+        $("#image").fileinput({
+            previewFileType: "image",
+            browseClass: "btn btn-success",
+            browseLabel: "Pick Image",
+            browseIcon: "<i class=\"glyphicon glyphicon-picture\"></i> ",
+            removeClass: "btn btn-danger",
+            removeLabel: "Delete",
+            removeIcon: "<i class=\"glyphicon glyphicon-trash\"></i> ",
+            uploadClass: "btn btn-info",
+            uploadLabel: "Upload",
+            uploadIcon: "<i class=\"glyphicon glyphicon-upload\"></i> ",
+            allowedFileTypes: ["image"],
+            previewClass: "bg-warning",
+            initialPreview: [
+                <?=($item->flag) ? '\'<img style="height:160px" src="'.File::getImagePath($item->flag).'">\'' : ''?>
+                ],
+            initialPreviewConfig: [{
+                caption: '<?=$item->name.' Flag'?>',
+                width: "120px",
+                url: '<?=Helpers\Uri::makeRouteUri("back.languages.image.delete")?>',
+                key: <?=$item->id?>
+            }]
+        });
+    });
+</script>

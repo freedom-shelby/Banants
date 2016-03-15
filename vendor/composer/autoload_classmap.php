@@ -52,6 +52,7 @@ return array(
     'Event' => $baseDir . '/system/Event.php',
     'Event\\Emmiter' => $baseDir . '/system/Event/Emmiter.php',
     'Event\\EventHandlerInterface' => $baseDir . '/system/Event/EventHandlerInterface.php',
+    'File' => $baseDir . '/system/File.php',
     'Front\\Front' => $baseDir . '/controllers/Front.php',
     'Front\\Pages' => $baseDir . '/controllers/Front/Pages.php',
     'GalleryModel' => $baseDir . '/models/GalleryModel.php',

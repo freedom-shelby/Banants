@@ -30,7 +30,7 @@ class LangModel extends Node
     public function __get($name)
     {
 
-        if(!is_null(parent::__get($name))) return parent::__get($name);
+        if((parent::__get($name)) !== null) return parent::__get($name);
 
         if($this->content == null){
             $this->content = (new \ContentModel())->getContent($this, Lang::instance()->getCurrentLang()['id']);

@@ -17,23 +17,13 @@ class MenuItemModel extends Node
 
     protected $fillable = ['parent_id', 'lvl', 'lft', 'rgt', 'slug'];
 
-    // this is a recommended way to declare event handlers
-    protected static function boot() {
-        parent::boot();
-
-        static::deleting(function($ArticleModel) { // before delete() method call this
-
-            $ArticleModel->contents()->detach($ArticleModel->id);
-            // do the rest of the cleanup...
-        });
-    }
 
     // 'depth' column name
     protected $depthColumn = 'lvl';
 
-    public function contents()
+    public function entities()
     {
-        return $this->belongsToMany('ContentModel', 'articles_has_contents', 'article_id', 'content_id');
+        return $this->belongsTo('EntityModel', 'entity_id');
     }
 
 //    public function getCreatedAtAttribute($date)

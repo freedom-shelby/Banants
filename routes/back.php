@@ -33,7 +33,7 @@ Router::post(['/Admin/Languages/Image/Delete', 'as' => 'back.languages.image.del
 Router::get(['/Admin/Settings', 'as' => 'back.settings'],'Back\Settings@getGroups');
 Router::get(['/Admin/Settings/{alias?}','rules' => ['status' => '[a-zA-Z]+'],  'as' => 'back.settings.list'],'Back\Settings@getList');
 Router::any(['/Admin/Settings/Edit/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.settings.edit'],'Back\Settings@anyEdit');
-Router::get(['/Admin/Menus/List/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.menus.edit'],'Back\Menus@getList');
+Router::get(['/Admin/Menus/List/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.menus.list'],'Back\Menus@getList');
 
 
 /**

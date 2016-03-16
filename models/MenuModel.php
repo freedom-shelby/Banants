@@ -15,7 +15,7 @@ class MenuModel extends Eloquent
 
     protected $table = 'menus';
 
-    protected $fillable = ['text'];
+    protected $fillable = ['title'];
 
     // this is a recommended way to declare event handlers
     protected static function boot() {

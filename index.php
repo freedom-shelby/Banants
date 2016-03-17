@@ -35,9 +35,6 @@ function restrictAccess(){
     if(!defined('ROOT_PATH')){header('HTTP/1.0 404 Not Found'); die("<h1>404 Not Found</h1>The page that you have requested could not be found.");}
 }
 
-use Lang\Lang;
-use Lang\I18n;
-
 /**
  * translation/internationalization function. The PHP function
  * [strtr](http://php.net/strtr) is used for replacing parameters.
@@ -52,6 +49,9 @@ use Lang\I18n;
  * @param   string  $lang   source language
  * @return  string
  */
+use Lang\Lang;
+use Lang\I18n;
+
 function __($string, array $values = NULL, $lang = null)
 {
     if( ! $lang){

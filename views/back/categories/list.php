@@ -13,13 +13,13 @@
         </div>
 		<div class="panel-body">
             <a class="btn btn-primary" href="<?=\Helpers\Uri::makeRouteUri('back.articles.add')?>">Add Article</a>
-            <button name="save" class="btn btn-primary">Save</button>
+            <button name="article-node-save" class="btn btn-primary">Save</button>
             <div>
-                <label for="show-invisible-articles">Show Invisible Articles</label>
-                <input class="checkbox-inline" type="checkbox" id="show-invisible-articles"/>
+                <label for="show-invisible-items">Show Invisible Articles</label>
+                <input class="checkbox-inline" type="checkbox" id="show-invisible-items"/>
             </div>
             <?if($categories->count()):?>
-                <?=$categories::getSortableNode()?>
+                <?=$categories::getArticleSortableNode()?>
             <?endif?>
 		</div>
 	</div>

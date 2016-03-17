@@ -36,14 +36,12 @@ $(document).ready(function(){
         excludeRoot: true
     });
 
-
-    $('#show-invisible-articles').change(function() {
+    $('#show-invisible-items').change(function() {
         if($(this).is(":checked")) {
-            $(document).find('.invisible-article').show();
+            $(document).find('.invisible-item').show();
         }else{
-            $(document).find('.invisible-article').hide();
+            $(document).find('.invisible-item').hide();
         }
-
     });
 
 //        $('.expandEditor').attr('title','Click to show/hide item editor');
@@ -80,7 +78,21 @@ $(document).ready(function(){
             $('#toArrayOutput')[0].textContent = arraied : $('#toArrayOutput')[0].innerText = arraied;
     });
 
-    $(document).on('click','button[name="save"]',function(){
+    $(document).on('click','button[name="article-node-save"]',function(){
+        var data = $('ol.sortable').nestedSortable('toArray', {startDepthCount: 0});
+        $.ajax({
+            type: 'POST',
+            //url: '/Admin/Categories/Save.html',
+            url: App.URL('Admin/Categories/Save'),
+            data: {data: JSON.stringify(data)},
+            //data: {data: data},
+            async: false
+        }).success(function(response){
+            $(document).find('#messages').html(response);
+        });
+    });
+
+    $(document).on('click','button[name="menu-node-save"]',function(){
         var data = $('ol.sortable').nestedSortable('toArray', {startDepthCount: 0});
         $.ajax({
             type: 'POST',

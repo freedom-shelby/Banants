@@ -14,12 +14,13 @@ use View;
 use Helpers\Arr;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Message;
+use ArticleModel;
 
 class Categories extends Back
 {
     public function getList()
     {
-        $categories = new \ArticleModel();
+        $categories = new ArticleModel();
         $this->layout->content = View::make('back/categories/list')
             ->with('categories', $categories);
 
@@ -38,7 +39,7 @@ class Categories extends Back
         if(!empty($data))
         {
             $data = json_decode($data, true);
-            $article = new \ArticleModel();
+            $article = new ArticleModel();
 
             if(!empty($data))
             {

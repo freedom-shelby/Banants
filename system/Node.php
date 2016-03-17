@@ -4,6 +4,7 @@ restrictAccess();
 
 use Baum\Node as BaumNode;
 use Illuminate\Database\Eloquent;
+use Helpers\Uri;
 
 /**
  * Node
@@ -47,7 +48,7 @@ class Node extends BaumNode
         return $nodes;
     }
 
-    public static function getSortableNode()
+    public static function getArticleSortableNode()
     {
         $instance = new static;
 
@@ -58,30 +59,30 @@ class Node extends BaumNode
 //print_r($nodes);
 //die;
         $output = '<ol class="sortable ui-sortable">';
-            $output .= static::renderSortableNode($nodes);
+            $output .= static::renderArticleSortableNode($nodes);
         $output .= '</ol>';
 
         return $output;
     }
 
-    public static function renderSortableNode($nodes)
+    public static function renderArticleSortableNode($nodes)
     {
         $output = '';
         if(isset($nodes)){
             foreach($nodes as $node){
-                $output .= '<li class="' . ((!$node->status) ? 'invisible-article' : '') . '"id="node_' . $node->id . '">';
+                $output .= '<li class="' . ((!$node->status) ? 'invisible-item' : '') . '"id="node_' . $node->id . '">';
 
                     // Если status 0 то присвоить клаас чтобы не показавыть с активноми
                     $output .= '<div class="node-item"><a href=""></a>
                                     <span class="glyphicon glyphicon-move move" aria-hidden="true"></span>
-                                    <a href="' . \Helpers\Uri::makeUri("Admin/Articles/Edit").'/'.$node->id . App::URI_EXT . '">
+                                    <a href="' . Helpers\Uri::makeUri("Admin/Articles/Edit").'/'.$node->id . App::URI_EXT . '">
                                         ' . $node->title . '
                                     </a>
                                     <div class="pull-right">
-                                        <a href="' . \Helpers\Uri::makeUri("Admin/Articles/Edit").'/'.$node->id . App::URI_EXT . '">
+                                        <a href="' . Helpers\Uri::makeUri("Admin/Articles/Edit").'/'.$node->id . App::URI_EXT . '">
                                             <i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>
                                         </a>
-                                        <a class="remove-confirm" href="' . \Helpers\Uri::makeUri("Admin/Articles/Delete").'/'.$node->id . App::URI_EXT . '">
+                                        <a class="remove-confirm" href="' . Helpers\Uri::makeUri("Admin/Articles/Delete").'/'.$node->id . App::URI_EXT . '">
                                             <i class="glyphicon glyphicon-remove-sign"></i>
                                         </a>
                                     </div>
@@ -89,7 +90,60 @@ class Node extends BaumNode
 
                     if(isset($node->children)) {
                         $output .= '<ol>';
-                            $output .= static::renderSortableNode($node->children);
+                            $output .= static::renderArticleSortableNode($node->children);
+                        $output .= '</ol>';
+                    }
+
+                $output .= '</li>';
+            }
+        }
+
+        return $output;
+    }
+
+    public static function getMenuSortableNode()
+    {
+        $instance = new static;
+
+        $nodes = $instance->newNestedSetQuery();
+        $nodes = $nodes->get()->toHierarchy();
+//        $nodes = $nodes->whereStatus(1)->get()->toHierarchy();
+//echo '<pre>';
+//print_r($nodes);
+//die;
+        $output = '<ol class="sortable ui-sortable">';
+            $output .= static::renderMenuSortableNode($nodes);
+        $output .= '</ol>';
+
+        return $output;
+    }
+
+    public static function renderMenuSortableNode($nodes)
+    {
+        $output = '';
+        if(isset($nodes)){
+            foreach($nodes as $node){
+
+                // Если 'status' 0 то присвоить клаас 'invisible-item' чтобы не показавыть с активноми
+                $output .= '<li data-menu-id="'. $node->menu_id .'" class="menu-node-item ' . ((!$node->status) ? 'invisible-item' : '') . '"id="node_' . $node->id . '">';
+                    $output .= '<div class="node-item"><a href=""></a>
+                                    <span class="glyphicon glyphicon-move move" aria-hidden="true"></span>
+                                    <a href="' . Helpers\Uri::makeUriFromId("Admin/Menus/Edit/".$node->id) . '">
+                                        ' . __($node->text()) . '
+                                    </a>
+                                    <div class="pull-right">
+                                        <a href="' . Helpers\Uri::makeUriFromId("Admin/Menus/Edit/".$node->id) . '">
+                                            <i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="remove-confirm" href="' . Helpers\Uri::makeUriFromId("Admin/Menus/Delete/".$node->id) . '">
+                                            <i class="glyphicon glyphicon-remove-sign"></i>
+                                        </a>
+                                    </div>
+                                </div>';
+
+                    if(isset($node->children)) {
+                        $output .= '<ol>';
+                            $output .= static::renderMenuSortableNode($node->children);
                         $output .= '</ol>';
                     }
 

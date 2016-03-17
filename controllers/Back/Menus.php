@@ -17,8 +17,8 @@ use View;
 use Message;
 use Helpers\Arr;
 use Illuminate\Contracts\Validation;
-use \ArticleModel;
-use \ContentModel;
+use MenuModel;
+use MenuItemModel;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
 use Illuminate\Database\QueryException;
@@ -27,9 +27,14 @@ use Illuminate\Database\QueryException;
 class Menus extends Back
 {
     public function getList(){
-        $articles = ArticleModel::all();
-        $this->layout->content = View::make('back/articles/list')
-            ->with('articles', $articles);
+
+        $id = (int) $this->getRequestParam('id') ?: null;
+
+        $items = new MenuItemModel();
+
+        $this->layout->content = View::make('back/menus/list')
+            ->with('items', $items)
+            ->with('id', $id);
     }
 
     /**

@@ -26,6 +26,11 @@ class MenuItemModel extends Node
         return $this->belongsTo('EntityModel', 'entity_id');
     }
 
+    public function text()
+    {
+        return $this->entities()->first()->text;
+    }
+
 //    public function getCreatedAtAttribute($date)
 //    {
 //        return Carbon\Carbon::createFromTimestamp($date)->format('Y-m-d H:i:s');

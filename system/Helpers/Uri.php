@@ -10,6 +10,7 @@ namespace Helpers;
 
 
 use Lang\Lang;
+use App;
 
 class Uri
 {
@@ -28,6 +29,13 @@ class Uri
         if((strpos('http:\\', $uri) !== false) || (strpos('https:\\', $uri) !== false)) return $uri;
 
         return implode('/', [Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'], ltrim($uri, '/')]);
+    }
+
+    public static function makeUriFromId($uri)
+    {
+        if((strpos('http:\\', $uri) !== false) || (strpos('https:\\', $uri) !== false)) return $uri;
+
+        return implode('/', [Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'], ltrim($uri, '/')]) . App::URI_EXT;
     }
 
     //static function to redirect to other page

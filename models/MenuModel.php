@@ -17,20 +17,10 @@ class MenuModel extends Eloquent
 
     protected $fillable = ['title'];
 
-    // this is a recommended way to declare event handlers
-    protected static function boot() {
-        parent::boot();
 
-        static::deleting(function($entityModel) { // before delete() method call this
-
-            $entityModel->translations()->delete();
-            // do the rest of the cleanup...
-        });
-    }
-
-    public function translations()
+    public function items()
     {
-        return $this->hasMany('EntityTranslationModel', 'entity_id');
+        return $this->hasMany('MenuItemModel', 'menu_id');
 //        return $this->belongsTo('EntityTranslationModel', 'entity_id');
     }
 

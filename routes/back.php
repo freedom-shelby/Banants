@@ -34,7 +34,10 @@ Router::get(['/Admin/Settings', 'as' => 'back.settings'],'Back\Settings@getGroup
 Router::get(['/Admin/Settings/{alias?}','rules' => ['status' => '[a-zA-Z]+'],  'as' => 'back.settings.list'],'Back\Settings@getList');
 Router::any(['/Admin/Settings/Edit/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.settings.edit'],'Back\Settings@anyEdit');
 Router::get(['/Admin/Menus/List/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.menus.list'],'Back\Menus@getList');
-
+Router::any(['/Admin/Menus/Save', 'as' => 'back.menus.save'],'Back\Menus@anySaveSorting');
+Router::any(['/Admin/Menus/Add/{id?}', 'as' => 'back.menus.add'],'Back\Menus@anyAdd');
+Router::any(['/Admin/Menus/Edit/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.menus.edit'],'Back\Menus@anyEdit');
+Router::get(['/Admin/Menus/Delete/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.menus.delete'],'Back\Menus@getDelete');
 
 /**
  * Тесты

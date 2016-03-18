@@ -97,7 +97,7 @@ $(document).ready(function(){
         $.ajax({
             type: 'POST',
             //url: '/Admin/Categories/Save.html',
-            url: App.URL('Admin/Categories/Save'),
+            url: App.URL('Admin/Menus/Save'),
             data: {data: JSON.stringify(data)},
             //data: {data: data},
             async: false

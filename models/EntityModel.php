@@ -15,7 +15,7 @@ class EntityModel extends Eloquent
 
     protected $table = 'entities';
 
-    protected $fillable = ['text'];
+    protected $fillable = ['text', 'is_bound'];
 
     // this is a recommended way to declare event handlers
     protected static function boot() {

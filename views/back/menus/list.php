@@ -25,25 +25,6 @@
     </div>
 </div>
 
-<div>
-    <h3>Response Examples</h3>
-    <p>
-        <br>
-        <input id="serialize" name="serialize" type="submit" value="Serialize">
-    </p>
-    <pre id="serializeOutput"></pre>
-
-    <p>
-        <input id="toArray" name="toArray" type="submit" value="To array">
-    </p>
-    <pre id="toArrayOutput"></pre>
-
-    <p>
-        <input id="toHierarchy" name="toHierarchy" type="submit" value="To hierarchy">
-    </p>
-    <pre id="toHierarchyOutput"></pre>
-</div>
-
 <script>
     $(document).ready(function(){
         // Показать толко те елементи которие принедлежат текущему меню

@@ -38,6 +38,7 @@ Router::any(['/Admin/Menus/Save', 'as' => 'back.menus.save'],'Back\Menus@anySave
 Router::any(['/Admin/Menus/Add/{id?}', 'as' => 'back.menus.add'],'Back\Menus@anyAdd');
 Router::any(['/Admin/Menus/Edit/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.menus.edit'],'Back\Menus@anyEdit');
 Router::get(['/Admin/Menus/Delete/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.menus.delete'],'Back\Menus@getDelete');
+Router::post(['/Admin/Menus/Image/Delete', 'as' => 'back.menus.image.delete'],'Back\Menus@postImageDelete');
 
 /**
  * Тесты

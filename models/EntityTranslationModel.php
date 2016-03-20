@@ -17,17 +17,6 @@ class EntityTranslationModel extends Eloquent
 
     protected $fillable = ['text', 'lang_id', 'entity_id'];
 
-    // this is a recommended way to declare event handlers
-    protected static function boot() {
-        parent::boot();
-
-        static::deleting(function($entityModel) { // before delete() method call this
-
-            $entityModel->translations()->delete();
-            // do the rest of the cleanup...
-        });
-    }
-
     public function entity()
     {
 //        return $this->hasMany('EntityTranslationModel', 'entity_id');

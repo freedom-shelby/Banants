@@ -12,7 +12,6 @@ restrictAccess();
 
 use Helpers\Uri;
 use Lang\Lang;
-use Http\Exception;
 use View;
 use Message;
 use Helpers\Arr;
@@ -29,6 +28,7 @@ use File as UploadFile;
 use Upload\Storage\FileSystem;
 use Upload\Validation\Mimetype as UploadMimeType;
 use Upload\Validation\Size as UploadSize;
+use Exception;
 
 class Menus extends Back
 {
@@ -52,7 +52,7 @@ class Menus extends Back
 
         if (Arr::get($this->getPostData(),'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'entity', 'content']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'icon', 'status', 'entity', 'content']);
             $parent = MenuItemModel::find($data['parentId']);
 
             // Транзакция для Записание данных в базу
@@ -130,21 +130,15 @@ class Menus extends Back
         $id = (int) $this->getRequestParam('id') ?: null;
 
         $model = MenuItemModel::find($id);
-        $entityModel = $model->entities();
+        $entityModel = $model->entities()->first();
 
         if (empty($model)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Article']));
         }
 
-        // Загрузка контента для каждово языка
-        $contents = [];
-        foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang){
-            $contents[$iso] = $entityModel->translations()->where('lang_id', '=', $lang['id'])->first();
-        }
-
         if (Arr::get($this->getPostData(),'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'entity', 'content']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'icon', 'parentId', 'status', 'entity', 'content']);
 
             $parent = MenuItemModel::find($data['parentId']);
             // Транзакция для Записание данных в базу
@@ -180,12 +174,11 @@ class Menus extends Back
                     ]);
                     foreach ($data['content'] as $iso => $d) {
                         $lang_id = Lang::instance()->getLang($iso)['id'];
-                        $content = EntityTranslationModel::find($d['id']);
-                        $content->update([
-                            'text' => $d['text'],
-                            'lang_id' => $lang_id,
-                            'entity_id' => $entityModel->id,
-                        ]);
+                        EntityTranslationModel::updateOrCreate(['id' => $d['id']], [
+                                                                    'text' => $d['text'],
+                                                                    'lang_id' => $lang_id,
+                                                                    'entity_id' => $entityModel->id,
+                                                                ]);
                     }
 
                     Event::fire('Admin.entitiesUpdate');
@@ -211,6 +204,16 @@ class Menus extends Back
                 Message::instance()->warning('Menu Item was don\'t edited');
             }
         }
+
+        $model = MenuItemModel::find($id);
+        $entityModel = $model->entities()->first();
+
+        // Загрузка контента для каждово языка
+        $contents = [];
+        foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang){
+            $contents[$iso] = $entityModel->translations()->where('lang_id', '=', $lang['id'])->first();
+        }
+
         $this->layout->content = View::make('back/menus/edit')
             ->with('node', $model::getNode())
             ->with('item', $model)
@@ -261,25 +264,54 @@ class Menus extends Back
 
         $id = (int) $this->getRequestParam('id') ?: null;
 
-        $article = ArticleModel::find($id);
+        $item = MenuItemModel::find($id);
 
-        if (empty($article)) {
+        if (empty($item)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Article']));
         }
 
         // Транзакция для Записание данных в базу
-        Capsule::connection()->transaction(function() use ($article){
+        Capsule::connection()->transaction(function() use ($item){
 
-            // Заодно удаляет и пункты меню привязанные к slug-у
-            (new \MenuItemModel)->whereSlug($article->slug)->delete();
-
-            foreach($article->getDescendantsAndSelf() as $desc){
+            foreach($item->getDescendantsAndSelf() as $desc){
                 $desc->contents()->delete();
             }
-            $article->delete();
+            @unlink(ltrim(UploadFile::getImagePath($item->flag), '/'));
+            $item->delete();
         });
 
         Message::instance()->success('Menu Item has successfully deleted');
-        Uri::to('/Admin/Categories');
+        Uri::to('/Admin');
+    }
+
+    /**
+     * Удаление иконки
+     */
+    public function postImageDelete(){
+
+        $this->layout = null;
+
+        $id = (int) Arr::get($this->getPostData(), 'key');
+
+        $item = Capsule::table('menu_items')->find($id);
+
+        if (empty($item)) {
+            Message::instance()->warning('Image was not delete');
+        }else{
+            try {
+                // Удаление картинки из сервера
+                @unlink(ltrim(UploadFile::getImagePath($item['icon']), '/'));
+
+                Capsule::table('menu_items')->whereId($id)->update(
+                    ['icon' => null]
+                );
+
+                Message::instance()->success('Image was successfully deleted');
+            } catch (Exception $e) {
+                Message::instance()->warning('Image was not delete');
+            }
+        }
+
+        echo json_encode(['errorMessage' => Message::instance()->flash_all()]);
     }
 }

@@ -24,6 +24,7 @@ class Pages extends Front
         parent::__construct($requestParams);
 //        WidgetsContainer::instance();
     }
+
     /**
      * Главная страница сайта
      */

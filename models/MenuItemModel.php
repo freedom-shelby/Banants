@@ -31,6 +31,16 @@ class MenuItemModel extends Node
         return $this->entities()->first()->text;
     }
 
+    // this is a recommended way to declare event handlers
+    protected static function boot() {
+        parent::boot();
+
+        static::deleting(function($model) { // before delete() method call this
+
+            $model->entities()->delete();
+            // do the rest of the cleanup...
+        });
+    }
 //    public function getCreatedAtAttribute($date)
 //    {
 //        return Carbon\Carbon::createFromTimestamp($date)->format('Y-m-d H:i:s');

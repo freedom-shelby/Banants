@@ -21,9 +21,9 @@ class EntityModel extends Eloquent
     protected static function boot() {
         parent::boot();
 
-        static::deleting(function($entityModel) { // before delete() method call this
+        static::deleting(function($model) { // before delete() method call this
 
-            $entityModel->translations()->delete();
+            $model->translations()->delete();
             // do the rest of the cleanup...
         });
     }

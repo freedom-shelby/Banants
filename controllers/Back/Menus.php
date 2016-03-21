@@ -274,10 +274,17 @@ class Menus extends Back
         Capsule::connection()->transaction(function() use ($item){
 
             foreach($item->getDescendantsAndSelf() as $desc){
-                $desc->contents()->delete();
+                $a = $desc->entities();
+                foreach($a as $b){
+                    $c = $b->translations();
+                    $c->delete();
+                    $b->delete();
+                }
+//                $desc->entities()->translations()->delete();
+                $a->delete();
             }
-            @unlink(ltrim(UploadFile::getImagePath($item->flag), '/'));
-            $item->delete();
+            @unlink(ltrim(UploadFile::getImagePath($item->icon), '/'));
+//            $item->delete();
         });
 
         Message::instance()->success('Menu Item has successfully deleted');

@@ -174,11 +174,7 @@ class Menus extends Back
                     ]);
                     foreach ($data['content'] as $iso => $d) {
                         $lang_id = Lang::instance()->getLang($iso)['id'];
-                        EntityTranslationModel::updateOrCreate(['id' => $d['id']], [
-                                                                    'text' => $d['text'],
-                                                                    'lang_id' => $lang_id,
-                                                                    'entity_id' => $entityModel->id,
-                                                                ]);
+                        EntityTranslationModel::updateOrCreate(['id' => $d['id']], ['text' => $d['text'], 'lang_id' => $lang_id, 'entity_id' => $entityModel->id]);
                     }
 
                     Event::fire('Admin.entitiesUpdate');

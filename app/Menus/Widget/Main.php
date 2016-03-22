@@ -8,11 +8,14 @@
  * по средствам его методов
  */
 
-namespace Widgets;
+namespace Menus\Menu;
 restrictAccess();
 
 
-abstract class AbstractWidget {
+use Menus\AbstractMenu;
+use View;
+
+class Main extends AbstractMenu{
 
     /**
      * Тип страницы
@@ -39,10 +42,28 @@ abstract class AbstractWidget {
      */
     protected $_param;
 
-    public function getPosition(){}
-    public function getSorting(){}
-    public function render(){}
-    public function init($model){}
 
+    public function getPosition()
+    {
+        return $this->_position;
+    }
 
-} 
+    public function getSorting()
+    {
+        return $this->_sort;
+    }
+
+    public function render()
+    {
+        return View::make($this->_template);
+    }
+
+    public function init($model)
+    {
+        $this->_position = $model->position;
+        $this->_sort = $model->sort;
+        $this->_template = $model->template;
+        $this->_param = $model->param;
+        $this->_type = $model->type;
+    }
+}

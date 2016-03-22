@@ -8,11 +8,11 @@
  * по средствам его методов
  */
 
-namespace Widgets;
+namespace Menus;
 restrictAccess();
 
 
-abstract class AbstractWidget {
+abstract class AbstractMenu {
 
     /**
      * Тип страницы

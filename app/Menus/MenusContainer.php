@@ -21,8 +21,6 @@ use Cache\LocalStorage as Cache;
 
 class MenusContainer {
 
-    const MENU_NAMESPACE = 'Menus\Menu\\';
-
     /**
      * Активние Виджеты
      * @var array
@@ -53,28 +51,48 @@ class MenusContainer {
         $cache->setLocalPath($slug.'_menus');
         $cache->load();
         if($cache->isValid()){
-            $items = json_decode($cache->getData());
+            $this->_items = json_decode($cache->getData(), true);
         }else{
             $items = MenuModel::all();
 
             if(empty($items)){
                 throw new HttpException(404);
             }
-            $items = $items->menus()->whereStatus(1)->get();
 
-            $cache->setData($items);
+            if(!empty($items)){
+                foreach($items as $i){
+//                    echo "<pre>";
+//                    print_r($i->pos);
+//                    echo "<pre>";
+//                    print_r($i->items()->whereStatus(1)->get()->toHierarchy()->toArray());
+
+                    $class = __NAMESPACE__ . '\\' . $i->type;
+                    $tmp = (new $class);
+                    $tmp->init($i->items()->whereStatus(1));
+                    $this->_items[$tmp->getPosition()] = $tmp;
+                }
+//                $class = __NAMESPACE__ . '\\' . 'SubCategory';
+//
+//                $this->_items['sub_category'] = (new $class);
+            }
+
+//            $items = $items->menus()->whereStatus(1)->get();
+
+//            if(!empty($items)){
+//                foreach($items as $i){
+//                    $class = static::MENU_NAMESPACE . $i->type;
+//                    $tmp = (new $class);
+//                    $tmp->init($i);
+//                    // todo: в админке проверять чтобы Sorting биль уникалним
+//                    $this->_items[$tmp->getPosition()][$tmp->getSorting()] = $tmp;
+//                }
+//            }
+
+            $cache->setData(json_encode($this->_items));
             $cache->save();
         }
 
-        if(!empty($items)){
-            foreach($items as $i){
-                $class = static::MENU_NAMESPACE . $i->type;
-                $tmp = (new $class);
-                $tmp->init($i);
-                // todo: в админке проверять чтобы Sorting биль уникалним
-                $this->_items[$tmp->getPosition()][$tmp->getSorting()] = $tmp;
-            }
-        }
+
     }
 
     public function isActive($slug)
@@ -84,19 +102,14 @@ class MenusContainer {
 
     /**
      * Рисует меню по позиций
-     * $position = ['left','right']
+     * $position = ['Top','Bottom','Category']
      * @param string $position
      * @return View
      */
     public function draw($position)
     {
-        $content = '';
         if( ! empty($this->_items[$position])){
-            foreach($this->_items[$position] as $item){
-                $content .= $item->render() . PHP_EOL;
-            }
+            return $this->_items[$position]->render() . PHP_EOL;
         }
-
-        return $content;
     }
 }

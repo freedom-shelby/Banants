@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="Интеграция Меню в Админку">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Menus/Menu/Bottom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Menus/Menu/SubMenu/SubCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Menus/Menu/Top.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menus/MenusContainer.php" afterPath="$PROJECT_DIR$/app/Menus/MenusContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test/NestedSets.php" afterPath="$PROJECT_DIR$/controllers/Test/NestedSets.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Menus/Widget/Main.php" afterPath="$PROJECT_DIR$/app/Menus/Widget/Category.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Menus/Widget/Category.php" afterPath="$PROJECT_DIR$/app/Menus/Menu/Category.php" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="front.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/front.php">
+      <file leaf-file-name="NestedSets.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/Test/NestedSets.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="29" />
+            <state vertical-scroll-proportion="-18.384615">
+              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -46,31 +49,19 @@
       <file leaf-file-name="Node.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/Node.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.538462">
+            <state vertical-scroll-proportion="-0.65384614">
               <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding>
-                <marker date="1458211793653" expanded="true" signature="2191:3263" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="2441:2543" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="2604:3224" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="2736:2887" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="3044:3181" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="4560:5592" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="4795:4902" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="4963:5553" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="5080:5231" placeholder="..." />
-                <marker date="1458211793653" expanded="true" signature="5373:5510" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pages.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.769231">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#128#160#0#PHP" expanded="true" />
+                <marker date="1458498488556" expanded="true" signature="2191:3263" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="2441:2543" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="2604:3224" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="2736:2887" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="3044:3181" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="4560:5592" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="4795:4902" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="4963:5553" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="5080:5231" placeholder="..." />
+                <marker date="1458498488556" expanded="true" signature="5373:5510" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -79,7 +70,7 @@
       <file leaf-file-name="Page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="135.6923">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -97,10 +88,10 @@
         </entry>
       </file>
       <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Menus/Widget/Category.php">
+        <entry file="file://$PROJECT_DIR$/app/Menus/Menu/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state vertical-scroll-proportion="-9.730769">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
                 <element signature="e#209#232#0#PHP" expanded="true" />
               </folding>
@@ -108,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MenusContainer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MenusContainer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Menus/MenusContainer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.576923">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.59410113">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding>
                 <element signature="e#203#218#0#PHP" expanded="true" />
               </folding>
@@ -120,12 +111,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NestedSets.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/Test/NestedSets.php">
+      <file leaf-file-name="SubCategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Menus/Menu/SubMenu/SubCategory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7903587">
-              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-5.8846154">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#217#241#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,10 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/back/articles/edit.php" />
-        <option value="$PROJECT_DIR$/views/back/entities/edit.php" />
-        <option value="$PROJECT_DIR$/controllers/Back/Articles.php" />
-        <option value="$PROJECT_DIR$/app/Lang/Lang.php" />
         <option value="$PROJECT_DIR$/app/Subscribers/Admin/LanguagesEventHandler.php" />
         <option value="$PROJECT_DIR$/app/Subscribers/Admin/ArticlesEventHandler.php" />
         <option value="$PROJECT_DIR$/system/Route.php" />
@@ -234,8 +223,12 @@
         <option value="$PROJECT_DIR$/app/Menus/AbstractMenu.php" />
         <option value="$PROJECT_DIR$/app/Menus/Widget/Main.php" />
         <option value="$PROJECT_DIR$/app/Menus/Widget/Category.php" />
-        <option value="$PROJECT_DIR$/app/Menus/MenusContainer.php" />
+        <option value="$PROJECT_DIR$/app/Menus/Widget/Top.php" />
+        <option value="$PROJECT_DIR$/app/Menus/Widget/SubCategory.php" />
+        <option value="$PROJECT_DIR$/app/Menus/Widget/Bottom.php" />
         <option value="$PROJECT_DIR$/controllers/Test/NestedSets.php" />
+        <option value="$PROJECT_DIR$/app/Menus/Menu/SubMenu/SubCategory.php" />
+        <option value="$PROJECT_DIR$/app/Menus/MenusContainer.php" />
       </list>
     </option>
   </component>
@@ -273,8 +266,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -377,6 +370,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -649,42 +673,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Widget" />
+              <option name="myItemId" value="Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubMenu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests" />
       </pane>
     </panes>
   </component>
@@ -726,19 +745,19 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\Banants\app\Menus" />
-      <recent name="D:\OpenServer\domains\Banants\views\back\menus" />
-      <recent name="D:\OpenServer\domains\Banants\media\back\plugins\bootstrap-fileinput-master\examples" />
-      <recent name="D:\OpenServer\domains\Banants\uploads\images" />
-      <recent name="D:\OpenServer\domains\Banants\system" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\Banants\app\Menus\Menu\SubMenu" />
       <recent name="D:\OpenServer\domains\Banants\HTML" />
       <recent name="D:\OpenServer\domains\Banants\media\front" />
       <recent name="D:\OpenServer\domains\Banants\media\front\js\custom" />
       <recent name="D:\OpenServer\domains\Banants\views\front\widgets" />
-      <recent name="D:\OpenServer\domains\Banants\views\front\widgets\widget" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\Banants\app\Menus\Widget" />
+      <recent name="D:\OpenServer\domains\Banants\app\Menus" />
+      <recent name="D:\OpenServer\domains\Banants\views\back\menus" />
+      <recent name="D:\OpenServer\domains\Banants\media\back\plugins\bootstrap-fileinput-master\examples" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.ContentModel.php">
@@ -1115,11 +1134,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14583333" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15375" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3139535" sideWeight="0.503125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1227,34 +1246,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/illuminate/database/Query/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34304932">
-          <caret line="1314" column="20" selection-start-line="1314" selection-start-column="20" selection-end-line="1314" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34304932">
-          <caret line="662" column="9" selection-start-line="662" selection-start-column="9" selection-end-line="662" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/SPL_c1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34304932">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4764574">
-          <caret line="887" column="30" selection-start-line="887" selection-start-column="30" selection-end-line="887" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/Message.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6491032">
@@ -1525,14 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="135.6923">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Widgets/WidgetsContainer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.56278026">
@@ -1549,13 +1532,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.650281">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Menus/Menu/Bottom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26264045">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Menus/Menu/Top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26264045">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Menus/Menu/SubMenu/SubCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#217#241#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Menus/Menu/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.730769">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#209#232#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Test/NestedSets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.384615">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/Node.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <marker date="1458498488556" expanded="true" signature="2191:3263" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="2441:2543" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="2604:3224" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="2736:2887" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="3044:3181" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="4560:5592" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="4795:4902" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="4963:5553" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="5080:5231" placeholder="..." />
+            <marker date="1458498488556" expanded="true" signature="5373:5510" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.769231">
+        <state vertical-scroll-proportion="-3.8461537">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#128#160#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1567,50 +1629,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Menus/Widget/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="e#209#232#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/Node.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.538462">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding>
-            <marker date="1458211793653" expanded="true" signature="2191:3263" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="2441:2543" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="2604:3224" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="2736:2887" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="3044:3181" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="4560:5592" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="4795:4902" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="4963:5553" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="5080:5231" placeholder="..." />
-            <marker date="1458211793653" expanded="true" signature="5373:5510" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Menus/MenusContainer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.576923">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.59410113">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding>
             <element signature="e#203#218#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Test/NestedSets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7903587">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

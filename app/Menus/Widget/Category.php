@@ -15,7 +15,7 @@ restrictAccess();
 use Menus\AbstractMenu;
 use View;
 
-class Main extends AbstractMenu{
+class Category extends AbstractMenu{
 
     /**
      * Тип страницы

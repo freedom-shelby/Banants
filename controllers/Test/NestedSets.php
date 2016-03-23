@@ -20,6 +20,9 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class NestedSets extends \Controller
 {
+    /**
+     *
+     */
     public function anyIndex()
     {
         echo "<pre>";
@@ -54,7 +57,7 @@ class NestedSets extends \Controller
 
 //        $node2 = Category::find(2);
 
-
+        $node = \MenuModel::all();
 //        $node2 = \ArticleModel::find(1);
 //        $node3 = \ArticleModel::find(3);
 //        $node54 = \ArticleModel::find(54);
@@ -65,7 +68,13 @@ class NestedSets extends \Controller
 //        print_r( $node2->ancestors()->find(6)->toArray());
 
 //        print_r( $node2->getAncestorsWithoutRoot()->toArray());
-
+        foreach($node as $n)
+        {
+            echo "<pre>";
+            print_r($n->pos);
+            echo "<pre>";
+            print_r($n->items()->get()->toHierarchy()->toArray());
+        }
 //        $node = Category::find(41);
 //        foreach($node->getDescendantsAndSelf() as $descendant) {
 //            echo "{$descendant->name} <br>";

@@ -12,7 +12,7 @@ restrictAccess();
 
 
 use Menus\Menu;
-use ArticleModel;
+use MenuModel;
 use View;
 use Router;
 use Http\Exception as HttpException;
@@ -28,6 +28,8 @@ class MenusContainer {
      * @var array
      */
     protected $_items = [];
+
+    protected $_active;
 
     protected static $_instance;
 
@@ -53,12 +55,12 @@ class MenusContainer {
         if($cache->isValid()){
             $items = json_decode($cache->getData());
         }else{
-            $items = ArticleModel::where('slug','=',$slug)->first();
+            $items = MenuModel::all();
 
             if(empty($items)){
                 throw new HttpException(404);
             }
-            $items = $items->menus()->whereStatus(1)->orderBy('sort')->get();
+            $items = $items->menus()->whereStatus(1)->get();
 
             $cache->setData($items);
             $cache->save();
@@ -75,8 +77,13 @@ class MenusContainer {
         }
     }
 
+    public function isActive($slug)
+    {
+        return ($slug == $this->_active);
+    }
+
     /**
-     * Рисует виджеты для позиици
+     * Рисует меню по позиций
      * $position = ['left','right']
      * @param string $position
      * @return View

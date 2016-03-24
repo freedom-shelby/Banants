@@ -9,6 +9,7 @@
  * некоторые вещи сделанны не верно (нет времени хернёй страдать)
  */
 use Widgets\WidgetsContainer as WgtContainer;
+use Menus\MenusContainer;
 
 restrictAccess();
 class Theme
@@ -20,6 +21,15 @@ class Theme
      */
     public static function drawWidgets($position){
         echo WgtContainer::instance()->draw($position);
+    }
+
+    /**
+     * Отрисовывыет меню для заданной позиции
+     * @param string $position позиция виджетов
+     * @return mixed
+     */
+    public static function drawMenus($position){
+        echo MenusContainer::instance()->draw($position);
     }
 
     /**

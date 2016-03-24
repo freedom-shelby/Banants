@@ -6,6 +6,7 @@
  * Time: 15:41
  */
 ?>
+<?Theme::drawMenus('category')?>
 <?Theme::drawHead()?>
 <body>
     <div class="header">

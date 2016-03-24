@@ -22,12 +22,21 @@ use Cache\LocalStorage as Cache;
 class MenusContainer {
 
     /**
-     * Активние Виджеты
+     * Активние Пункти меню
      * @var array
      */
     protected $_items = [];
 
-    protected $_active;
+    const CATEGORY_LEVEL = 0;
+    /**
+     * Активние Пункти суб меню
+     * @var array
+     */
+    protected $_subMenuItems = [];
+
+    const MENU_NAMESPACE = 'Menus\Menu\\';
+
+    protected $_current;
 
     protected static $_instance;
 
@@ -45,10 +54,10 @@ class MenusContainer {
 
     public function __construct(){
 
-        $slug = Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
+        $this->_current= Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
 
         $cache = new Cache();
-        $cache->setLocalPath($slug.'_menus');
+        $cache->setLocalPath($this->_current.'_menus');
         $cache->load();
         if($cache->isValid()){
             $this->_items = json_decode($cache->getData(), true);
@@ -66,9 +75,10 @@ class MenusContainer {
 //                    echo "<pre>";
 //                    print_r($i->items()->whereStatus(1)->get()->toHierarchy()->toArray());
 
-                    $class = __NAMESPACE__ . '\\' . $i->type;
+                    $class = static::MENU_NAMESPACE . $i->type;
+                    var_dump($i->type);die;
                     $tmp = (new $class);
-                    $tmp->init($i->items()->whereStatus(1));
+                    $tmp->init($i);
                     $this->_items[$tmp->getPosition()] = $tmp;
                 }
 //                $class = __NAMESPACE__ . '\\' . 'SubCategory';
@@ -95,14 +105,20 @@ class MenusContainer {
 
     }
 
-    public function isActive($slug)
+    public function getCurrent()
     {
-        return ($slug == $this->_active);
+        return $this->_current;
+    }
+
+
+    public function isCurrent($slug)
+    {
+        return ($slug == $this->_current);
     }
 
     /**
      * Рисует меню по позиций
-     * $position = ['Top','Bottom','Category']
+     * $position = ['top','bottom','category']
      * @param string $position
      * @return View
      */
@@ -110,6 +126,19 @@ class MenusContainer {
     {
         if( ! empty($this->_items[$position])){
             return $this->_items[$position]->render() . PHP_EOL;
+        }
+    }
+
+    /**
+     * Рисует суб меню по позиций
+     * $position = ['sub_category']
+     * @param string $position
+     * @return View
+     */
+    public function drawSubMenu($position)
+    {
+        if( ! empty($this->_subMenuItems[$position])){
+            return $this->_subMenuItems[$position]->render() . PHP_EOL;
         }
     }
 }

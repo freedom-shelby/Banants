@@ -43,6 +43,7 @@ abstract class AbstractMenu {
     public function getSorting(){}
     public function render(){}
     public function init($model){}
+    public function initSubMenu($model){}
 
 
 } 

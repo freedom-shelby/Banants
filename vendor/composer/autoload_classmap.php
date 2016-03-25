@@ -97,6 +97,7 @@ return array(
     'SettingsModel' => $baseDir . '/models/SettingsModel.php',
     'SoftCategory' => $baseDir . '/controllers/Test/NestedSets/models/Category.php',
     'SoftCluster' => $baseDir . '/controllers/Test/NestedSets/models/Cluster.php',
+    'SubMenuModel' => $baseDir . '/models/SubMenuModel.php',
     'Subscribers\\Admin\\ArticlesEventHandler' => $baseDir . '/app/Subscribers/Admin/ArticlesEventHandler.php',
     'Subscribers\\Admin\\EntitiesEventHandler' => $baseDir . '/app/Subscribers/Admin/EntitiesEventHandler.php',
     'Subscribers\\Admin\\LanguagesEventHandler' => $baseDir . '/app/Subscribers/Admin/LanguagesEventHandler.php',

@@ -31,6 +31,11 @@ class MenuItemModel extends Node
         return $this->entities()->first()->text;
     }
 
+    public function menu()
+    {
+        return $this->belongsTo('MenuModel', 'menu_id')->first();
+    }
+
     // this is a recommended way to declare event handlers
     protected static function boot() {
         parent::boot();

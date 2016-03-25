@@ -13,14 +13,9 @@ restrictAccess();
 
 
 use Menus\Menu\Category;
-use View;
+use Menus\MenusContainer;
 
 class SubCategory extends Category{
-
-    /**
-     * Тип страницы
-     */
-    protected $_type;
 
     /**
      * Позиция
@@ -28,19 +23,15 @@ class SubCategory extends Category{
     protected $_position;
 
     /**
-     * Индекс сортировки
+     * Активний пункт
+     * @var
      */
-    protected $_sort;
+    protected $_active;
 
     /**
-     * Шаблон
+     * Пункти меню
      */
-    protected $_template;
-
-    /**
-     * Параметри в виде JSON-а
-     */
-    protected $_param;
+    protected $_items;
 
 
     public function getPosition()
@@ -48,22 +39,48 @@ class SubCategory extends Category{
         return $this->_position;
     }
 
-    public function getSorting()
+    public function setPosition($pos)
     {
-        return $this->_sort;
+        $this->_position = $pos;
     }
 
     public function render()
     {
-        return View::make($this->_template);
+        $output = '<div id="accordion" class="left_bar_menu">';
+
+        foreach($this->_items as $item){
+            $output .= '<span class="accordion_title">' . __($item->title()) . '</span>';
+
+            if(isset($item->children)) {
+                $output .= $this->subMenuRender($item->children);
+            }
+        }
+
+        $output .= '</div>';
+
+        return $output . PHP_EOL;
+    }
+
+    public function subMenuRender($items)
+    {
+        $output = '<div>
+                        <ul class="accordion-submenu">';
+
+        foreach($items as $item)
+        {
+            $output .= '<li><a href="#">' . __($item->title()) . '</a></li>';
+        }
+
+        $output .=    '</ul>
+                  </div>';
+
+        return $output;
     }
 
     public function init($model)
     {
-        $this->_position = $model->position;
-        $this->_sort = $model->sort;
-        $this->_template = $model->template;
-        $this->_param = $model->param;
-        $this->_type = $model->type;
+        $this->_items = $model->descendants()->whereStatus(1)->get()->toHierarchy();
+        // Устанавлиает Активни пункт и суб-меню
+        $this->_active = MenusContainer::getCurrent();
     }
 }

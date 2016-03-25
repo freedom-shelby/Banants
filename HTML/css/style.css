@@ -7,9 +7,9 @@ body {
 	background-image: url(../images/body-bg.jpg);
 	background-repeat: no-repeat;
 	background-color: #000012;
-	-webkit-background-size: 100% 100%;
-	-moz-background-size: 100% 100%;
-	background-size: 100% 100%;
+	-webkit-background-position: top center;
+	-moz-background-position: top center;
+	background-position: top center;
 	min-width: 1200px;
 }
 
@@ -69,6 +69,44 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/*UI Dialog_Start*/
+
+.ui-dialog{
+    padding:0;
+    -webkit-box-shadow: 0px 10px 27px 0px rgba(52, 45, 45, 0.75);
+    box-shadow: 0px 10px 27px 0px rgba(52, 45, 45, 0.75);
+    box-shadow: 0px 10px 27px 0px rgba(52, 45, 45, 0.75);
+    min-width: 320px;
+}
+
+.ui-resizable-handle{
+    display: none!important;
+}
+
+.ui-dialog .ui-icon,.ui-dialog .ui-button{
+    background: none;
+    border:0;
+    outline:0;
+    width: 19px;
+    height: 19px;
+}
+
+.ui-dialog .ui-resizable-handle{
+    background: #fff;
+    width: 100%;
+}
+
+.ui-dialog-titlebar .ui-icon{
+    background-image:url(../images/dialog_close.png);   
+}
+
+.ui-dialog-title{
+    font-size:20px;
+}
+/*UI Dialog_End*/
+
+
 
 .icon-cal1_hover:before {
     content: "\e900";
@@ -414,6 +452,8 @@ h1, h2, h3, h4, h5, h5, h6 {
 	color: #044980;
 	font-size: 30px;
 	margin: 0;
+	font-family: arial;
+	font-weight: bold;
 }
 
 .header_right .banner_team1 .banner_team1_text .result{
@@ -537,19 +577,38 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2 .banner_team1_text{
-    margin: -88px 1px 1px 95px;
-	color: #044980;
+   	margin: 18px 1px 1px 10px;
+    color: #044980;
+    font-size: 18px;
+    float: left;
+    line-height: 21px;
+    font-weight: bold;
+    text-align: center;
+    width: 55px;
+    line-height: 0.8;
+    font-family: arial;
+}
+
+.header_right .banner_team2 .banner_team1_text i {
+	font-style: normal;
+}
+
+.header_right .banner_team2 .banner_team1_text i:first-child {
 	font-size: 18px;
-	line-height: 3px;
+}
+
+.header_right .banner_team2 .banner_team1_text i:last-child {
+	font-size: 24px;
 }
 
 .header_right .banner_team2 .team1_logo{
-	margin: -11px 164px 0 10px;
+	margin: -11px 0 0 10px;
+    float: left;
 }
 
 
-.header_right .banner_team2 .team2_logo{
-	margin: -104px 3px 0 0;
+.header_right .banner_team2 .team2_logo{	
+    margin: -10px 3px 0 0;
     float: right;
 }
 
@@ -592,6 +651,16 @@ h1, h2, h3, h4, h5, h5, h6 {
 	margin-top: 10px;
 }
 
+.header .header_bottom form:hover input{
+	background-color: #d7def1;]
+}
+
+.header_bottom form input {
+	-webkit-transition: 0.5s all ease-in-out;
+	-moz-transition: 0.56s all ease-in-out;
+	transition: 0.5s all ease-in-out;
+}
+
 .header_bottom form input[type="text"]{
     width: 168px;
     font-size: 12px;
@@ -601,9 +670,9 @@ h1, h2, h3, h4, h5, h5, h6 {
     padding: 7px 6px 7px 10px;
 }
 
-.header_bottom form input[type="text"]:hover{
-    background-color: #fff;
-}
+/*.header_bottom form input[type="text"]:hover{
+    background-color: #a0b6ee;
+}*/
 
 .header_bottom form input[type="text"]::-webkit-input-placeholder {
 	color:#044980;
@@ -674,11 +743,21 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .navigation_main li a {    
-	color:#217cb8;
+	color:#217cb8;	
 	text-decoration: none;
 	display: block;
-	padding: 11px 20px;
+	padding: 6px 11px 5px 11px;
 	position: relative;
+	font-size: 16px;
+}
+
+.navigation_main li.club a{
+	font-size: 30px;
+	letter-spacing: 0px;
+}
+
+.navigation .navigation_main .submenu_top ul li a{
+	font-size: 16px;
 }
 
 .navigation .navigation_main li.home a{
@@ -739,9 +818,10 @@ h1, h2, h3, h4, h5, h5, h6 {
 	font-size: 29px;
 	line-height: 39px;
 	color:#fff;
-	font-weight: bold;
 	background: rgba(1, 38, 68, 0.51);
 	padding: 15px 30px 15px 15px;
+	font-family: Impact Regular;
+    letter-spacing: 0px;
 }
 
 .container_top_aside {
@@ -855,8 +935,9 @@ h1, h2, h3, h4, h5, h5, h6 {
 	font-size: 12px;
 	line-height: 14px;
 	padding: 12px 5px 0 5px;
-	margin-top: 5px;
+	margin-top: 8px;
 	color:#024072;
+    background: #fff;
 }
 
 .news_wrapper a {
@@ -1098,7 +1179,7 @@ div.tournament_table .tournament_table_active a {
 }
 
 .best_player_multiple .shooter_icons:hover{
-    color: #fff;
+    color: #3C3C3C;
 }
 
 
@@ -1234,14 +1315,18 @@ div.tournament_table .tournament_table_active a {
 	margin-top: 5px;
 }
 
-.leftbar_images_slider_wrapper {
-	padding: 5px;
+.leftbar_images_slider_wrapper {	
 	border: 1px solid #66a6d1;
 	margin-top: 4px;
 	background-color: #fff;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.leftbar_images_slider_wrapper .leftbar_images_slider{
+    width: auto;
+    padding: 5px;
 }
 
 .leftbar_images_slider_item > div {
@@ -1661,6 +1746,10 @@ div.news_list h3 {
 	display: block;
 }
 
+.content_slider_images img:hover{
+	opacity: 0.8;
+}
+
 .photo_dark_blue{
 	width: 22px;
 	height: 19px;
@@ -1727,9 +1816,12 @@ div.news_list h3 {
 }
 
 .content_middle_right_slideshow .container_top_slider_text {
-	top: 140px;
-	font-weight: bold;
+	top: 140px;	
 	line-height: 29px;
+	text-transform: uppercase;
+	font-size: 28px;
+    font-family: Impact Regular;
+    letter-spacing: 1px;
 }
 
 .content_middle_right_banner {
@@ -1756,8 +1848,14 @@ div.news_list h3 {
 
 .footer_col{
 	float: left;
-    width: 14.6%;
-    padding: 0 1% 5px 1%;
+    /*width: 14.6%;
+    padding: 0 1% 5px 1%;*/
+    width: 16.6%;
+    padding: 0 -1% 5px 1%;
+}
+
+.footer .inner:first-child{
+	padding-left: 20px;
 }
 
 .footer_col_title {
@@ -1969,7 +2067,6 @@ div.news_list h3 {
 }
 
 .inner_content{
-	border: 1px solid #66a6d1;
 	margin-bottom: 6px;
 }
 
@@ -2041,7 +2138,7 @@ div.news_list h3 {
 }
 
 .content_top_right_info_blog_aside .icon_hover:hover{
-    color: #fff;
+    color: #3C3C3C;
 }
 .content_top_right_info_blog_aside .photo_video{
     float: left;
@@ -2090,7 +2187,6 @@ div.news_list h3 {
 
 .personal_info{
 	background-color: #fff;
-	border-bottom: 1px solid #b4b4b4;
 }
 
 .person {
@@ -2265,6 +2361,10 @@ div.news_list h3 {
 }
 
 
+.news_slider.homepage .owl-controls{
+	margin-top: 15px;
+}
+
 /*Form*/
 .form_page .inner_content {
 	padding: 0 0;
@@ -2273,8 +2373,20 @@ div.news_list h3 {
 	background-color: #044980;
 	color: #ffe000;
 	text-align: left;
-	padding: 11px 0 11px 10px;
+	padding: 6px 0 6px 10px;
 	margin: 0;
+}
+.form_page .content_top_right_info_blog_wrapper{
+    background-color: #fff;
+    padding-bottom: 5px;
+}
+
+.form_page .content_top_right_info_blog_wrapper h3{
+    color: #ffe000;
+    background-color: #044980;
+    margin: 0;
+    padding: 7px 5px 8px 12px;
+    font-size: 18px;
 }
 
 .form_page .inner_content .choose{
@@ -2284,7 +2396,10 @@ div.news_list h3 {
 	font-size: 17px;
 	color: #044980;
 	margin: 23px 27px  14px;
+}
 
+.container.form_page .inner_content{
+    background-color: #fff;
 }
 
 .form_page select{
@@ -2293,6 +2408,10 @@ div.news_list h3 {
 	border-radius: 5px;
 	color: #044980;
 	border: none;
+}
+
+.form_page .form_adver img{
+    border: 1px solid #66a6d1;
 }
 
 .job_wrapper {
@@ -2341,7 +2460,7 @@ div.news_list h3 {
 	line-height: 18px;
 	color:#021951;
 	background-color: #fff;
-	padding: 8px 0;
+	/*padding: 8px 0;*/
 }
 
 .job_body span {
@@ -2408,7 +2527,7 @@ div.news_list h3 {
 }
 
 .form_page .inner_content .choose .personal_info input{
-	margin: 12px 0 0 10px;
+	margin: -10px 0 20px 10px;
 	float: left;
 	background-color: #f6f6f6;
 	border: 1px solid #66a6d1;
@@ -2420,7 +2539,7 @@ div.news_list h3 {
 	width: 289px;
 	padding: 11px 97px;
 	background-color: #044980;
-	margin: 15px 0 0 171px;
+	margin: 2px 0 0 157px;
 	color: #fff;
 }
 
@@ -2430,7 +2549,7 @@ div.news_list h3 {
 
 .form_page .inner_content .personal_info .wrapper .required_info{
 	text-align: right;
-	margin: 12px 12px 0 0;
+	margin: -3px 3px 0 -5px;
 	font-family: 'Segoe UI Regular';
 }
 
@@ -2440,11 +2559,12 @@ div.news_list h3 {
 	width: 150px;
 }
   .form_page textarea{
-  	margin: 15px 0 0 10px;
+    margin: -10px 0 0 10px;
   	border: 1px solid #66a6d1;
   	width: 279px;
   	min-height: 139px;
   	resize: vertical;
+    background-color: #f6f6f6;
   }
 
   .form_page .inner_content .personal_info .wrapper .text{
@@ -2589,12 +2709,12 @@ div.news_list h3 {
     line-height: 17px;
 }
 
-.management_page .content_top_right_info_blog_wrapper{
+.content_top_right_info_blog_wrapper.sponsors{
 	background-color: #fff;
 	padding-bottom: 5px;
 }
 
-.management_page .content_top_right_info_blog_wrapper h3{
+ .content_top_right_info_blog_wrapper.sponsors h3{
 	color: #ffe000;
 	background-color: #044980;
 	margin: 0;
@@ -2602,11 +2722,11 @@ div.news_list h3 {
 	font-size: 18px;
 }
 
-.management_page .content_top_right_info_blog_wrapper .sport_brands{
+.content_top_right_info_blog_wrapper.sponsors .sport_brands{
 	margin: 11px 2px 4px 4px;
 }
 
-.management_page .content_top_right_info_blog_wrapper .sport_brands.differ{
+.content_top_right_info_blog_wrapper.sponsors .sport_brands.differ{
 	margin: 0 2px 3px 4px;
 }
 
@@ -2615,7 +2735,7 @@ div.news_list h3 {
 	margin: 0 2px 0 2px;
 }
 
-.management_page .content_top_right_info_blog_wrapper .sport_brands img{
+.content_top_right_info_blog_wrapper.sponsors .sport_brands img{
 	border: 1px solid #66a6d1;
 }
 
@@ -2698,6 +2818,10 @@ div.news_list h3 {
 }
 .team_members .inner_content .inner_content_menua a:hover {
 	color: #ffe000;
+}
+
+.team_members .inner_content .team_item .team_item_title h3:hover{
+    color: red;
 }
 
 .team_wrapper_container {
@@ -3041,12 +3165,12 @@ div.news_list h3 {
 
 .stadion_page h3{
 	font-size: 18px;
-	margin: 10px 0 15px 9px;
+	margin: 17px 0 10px 9px;
 }
 
 .stadion_page span{
 	display: block;
-	margin-bottom: 31px;
+	margin-bottom: 20px;
 }
 
 .stadion_page .stadion_photos{
@@ -3127,7 +3251,8 @@ div.news_list h3 {
 .inner_content.history{
 	background: #fff;
 	padding: 10px 11px 22px 9px;
-	min-height: 712px;
+	/*min-height: 712px;*/
+    height: 816px;
 }
 
 .history_page .history_bananc h1{
@@ -3207,22 +3332,123 @@ div.news_list h3 {
 	font-weight: bold;
 }
 
-/*Best Moments Photo*/
+/*Best Moments Video*/
 
-/*.inner_content.best_moments .picture_wrapper{
-	border: 1px solid #72acd3;
-	width: 290px;
-	float: left;
+div.dialog{
+    max-width: 850px;
 }
 
-.inner_content.best_moments .picture_wrapper:first-child{
-	margin: 0 4px 6px 0px;
+.dialog_slider{
+	width: 800px;
 }
 
-.inner_content.best_moments .picture_wrapper img{
-	padding: 5px 5px;
-} */
+.dialog_window_text{
+    display: block;
+    margin-top: 29px;
+    font-size: 16px;
+    color: #021951;
+    line-height: 16px;
+    text-align: justify;
+}
 
+.dialog_window_text:last-child{
+    margin-top: 10px;
+}
+
+.best_moments_page .leftbar_images_slider_wrapper{
+    width: 278px;
+}
+
+.best_moments_page .leftbar_images_slider_wrapper{
+    float: left;
+}
+
+.best_moments_page .leftbar_images_slider_wrapper{
+    margin-right: 6px;
+}
+
+.best_moments_page .pagination_wrapper{
+    float: right;
+}
+
+.best_moments_page .inner_content_wrapper.best_moments {
+    border: hidden;
+} 
+/*best_moments_photo_page*/
+
+.inner_content.best_moments_photo{
+    background-color: #d8dde6;
+    border: none;
+}
+
+.inner_content.best_moments_photo .best_moments_photo_page .stadion_photos_wrapper .stadions_photos .photo1{
+    background-color: #fff;
+    height: 185px;
+    margin-bottom: 5px;
+}
+
+.inner_content.best_moments_photo .best_moments_photo_page .stadion_photos_wrapper .stadions_photos .photo1 img{
+    padding: 5px 5px;
+    border: 1px solid #6daad3;
+}
+
+.inner_content.best_moments_photo .best_moments_photo_page .stadion_photos_wrapper .stadions_photos .photo1:first-child{
+    margin-right: 6px;
+    height: 185px}
+
+.inner_content.best_moments_photo .best_moments_photo_page .stadion_photos_wrapper .stadions_photos .photo1{
+    float: left;
+}
+
+.inner_content.best_moments_photo .best_moments_photo_page .stadion_photos_wrapper h3{
+    color: #ffe000;;
+
+    margin-bottom: 7px;
+    padding: 6px 0 6px 9px;
+    background-color: #044980;
+    width: 579px;
+}
+
+.inner_content.best_moments_photo .best_moments_photo_page .pagination_wrapper{
+    background-color: #d6d6d9;
+}
+
+/*News*/
+
+.container_top_slideshow.news{
+    width: 590px;
+}
+
+.news_slider_item_text{
+    background: #044980;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffe000;
+    padding: 8px 0 11px 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.pagination_wrapper.team_member1.news{
+    padding-top: 8px;
+    padding-bottom: 5px;
+    background: #fff;
+}
+
+/*--------------------Coaches------------------*/
+
+.team_wrapper.coaches{
+
+    background: #fff;
+}
+
+.inner_content_wrapper.coaches{
+     background: #fff;
+}
+
+.team_wrapper.coaches{   
+    margin-top: 5px;
+}
 
 
 

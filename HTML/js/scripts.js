@@ -1,6 +1,41 @@
 $(document).ready(function() {
 
-   if($(".container_top_slideshow").length > 0) {
+  /* dialog */
+$(function() {
+  $( ".dialog1").dialog({
+    autoOpen: false,
+    draggable:false,
+    modal:true,
+    width: 'auto',
+    height: 'auto',
+    dialogClass: "loadingDialog",
+    autoReposition: true,
+    maxWidth: 480,
+      position: {
+      my: "center",
+      at: "center",
+      of: window
+    },
+    
+     open: function(){
+      jQuery('.ui-widget-overlay').bind('click',function(){
+        jQuery('#dialog,#login').dialog('close');
+      })
+    }
+
+  });
+ 
+  $( ".photo1" ).click(function() {
+    var calldialog = $(this).data().calldialog;
+    $('.' + calldialog).dialog( "open" );
+  });
+
+  $(window).resize(function() {
+    $("#login").dialog("option", "position", {my: "center", at: "center", of: window});
+  });
+});
+
+  if($(".container_top_slideshow").length > 0) {
       $(".container_top_slideshow").owlCarousel({
          navigation : true,
          pagination: true,
@@ -46,7 +81,7 @@ $(document).ready(function() {
       });
    }
 
-   if($('.shooter_slider').length > 0) {
+  if($('.shooter_slider').length > 0) {
       $(".shooter_slider").owlCarousel({
          navigation : true,
          pagination: true,
@@ -77,10 +112,21 @@ $(document).ready(function() {
          navigationText: false,
          responsive: false
       });
-   }     
+   }  
+
+   if($('.dialog_slider').length) {
+        $('.dialog_slider').owlCarousel({
+            //autoPlay: 3000,
+            items : 6,
+            navigation : false,
+            pagination: true,
+            navigationText: false,
+            responsive: false
+        });
+    }
 
 
-   if($( "#accordion" ).length) {
+  if($( "#accordion" ).length) {
       $(function() {
          $( "#accordion" ).accordion({
             autoHeight:false,
@@ -172,4 +218,11 @@ $(document).ready(function() {
             }
         });
     }
+
+     $('.photo1 a').click(function(e){
+      e.preventDefault();
+    })
 })
+
+
+

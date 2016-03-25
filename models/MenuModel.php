@@ -17,10 +17,15 @@ class MenuModel extends Eloquent
 
     protected $fillable = ['title'];
 
-
     public function items()
     {
         return $this->hasMany('MenuItemModel', 'menu_id');
+//        return $this->belongsTo('EntityTranslationModel', 'entity_id');
+    }
+
+    public function subMenus()
+    {
+        return $this->hasMany('SubMenuModel', 'menu_id');
 //        return $this->belongsTo('EntityTranslationModel', 'entity_id');
     }
 

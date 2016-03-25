@@ -6,7 +6,6 @@
  * Time: 15:41
  */
 ?>
-<?//Theme::drawMenus('category')?>
 <?Theme::drawHead()?>
 <body>
     <div class="header">
@@ -18,17 +17,9 @@
                     </a>
                 </div><!-- logo_wrapper -->
                 <div class="header_navigation">
+
                     <?Theme::drawMenus('top')?>
 
-                    <!--                    <ul>-->
-<!--                        <li><a class="icon"  href="#">ПРЕДЫДУЩИЕ МАТЧИ</a></li>-->
-<!--                        <li><a class="statistic" href="#">СТАТИСТИКА КЛУБА</a></li>-->
-<!--                        <li><a class="cal1" href="#">РАСПИСАНИЕ ИГР</a></li>-->
-<!--                        <li><a class="prediction" href="#">ПРОГНОЗ НА СЕЗОН</a></li>-->
-<!--                        <li><a class="video" href="#">ВИДЕО АРХИВ</a></li>-->
-<!--                        <li><a class="photo" href="#">ФОТОГАЛЕРЕЯ</a></li>-->
-<!--                        <li><a class="vacancies" href="#">ВАКАНСИИ</a></li>-->
-<!--                    </ul>-->
                 </div><!-- header_navigation -->
             </div><!-- inner -->
         </div><!-- header_top -->
@@ -80,128 +71,11 @@
                     </div><!-- header_info -->
                 </div><!-- header_bottom -->
             </div><!-- header_right -->
+
             <div class="navigation clearfix">
-                <ul class="navigation_main" id="navigation_main" class="clearfix">
-                    <li class="home"><a href="#"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>
-                    <li><a href="#">КЛУБ</a></li>
-                    <li><a href="#">БАНАНЦ 1</a></li>
-                    <li class="submenu_parent">
-                        <a href="#">БАНАНЦ 2</a>
-                        <ul class="submenu hidden">
-                            <li>
-                                <div class="submenu_top clearfix">
-                                    <ul>
-                                        <li><a href="#">НОВОСТИ</a></li>
-                                        <li><a href="#">СОСТАВ</a></li>
-                                        <li><a href="#">ТРЕНЕРСКИЙ ШТАБ</a></li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="#">ТУРНИРНАЯ ТАБЛИЦА</a></li>
-                                        <li><a href="#">РАСПИСАНИЕ ИГР</a></li>
-                                        <li><a href="#">ФОТО ГАЛЕРЕЯ</a></li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="#">ВИДЕО ГАЛЕРЕЯ</a></li>
-                                    </ul>
-                                </div><!-- submenu_top -->
-                                <div class="submenu_bottom clearfix">
-                                    <div class="submenu_bottom_col clearfix">
-                                        <a href="#">
-                                            <div class="submenu_bottom_col_images pictures_wrapper">
-                                                <img src="/media/assets/images/submenu_pic1.jpg" alt="submenu_pic1">
-                                            </div><!-- submenu_bottom_col_images -->
-                                            <div class="submenu_bottom_col_info">
-                                                <h3>НЕВЕРОЯТНЫЙ<br> СЕЙВ<br> ВРАТАРЯ</h3>
-                                                <span>БАНАНЦ - ПЮНИК</span>
-                                            </div><!-- images/menu_icon1.png_col_info -->
-                                        </a>
-                                    </div><!-- submenu_bottom_col -->
-                                    <div class="submenu_bottom_col clearfix">
-                                        <a href="#">
-                                            <div class="submenu_bottom_col_images pictures_wrapper">
-                                                <img src="/media/assets/images/submenu_pic1.jpg" alt="submenu_pic1">
-                                            </div><!-- submenu_bottom_col_images -->
-                                            <div class="submenu_bottom_col_info">
-                                                <h3>НЕВЕРОЯТНЫЙ<br> СЕЙВ<br> ВРАТАРЯ</h3>
-                                                <span>БАНАНЦ - ПЮНИК</span>
-                                            </div><!-- images/menu_icon1.png_col_info -->
-                                        </a>
-                                    </div><!-- submenu_bottom_col -->
-                                    <div class="submenu_bottom_col clearfix">
-                                        <a href="#">
-                                            <div class="submenu_bottom_col_images pictures_wrapper">
-                                                <img src="/media/assets/images/submenu_pic1.jpg" alt="submenu_pic1">
-                                            </div><!-- submenu_bottom_col_images -->
-                                            <div class="submenu_bottom_col_info">
-                                                <h3>НЕВЕРОЯТНЫЙ<br> СЕЙВ<br> ВРАТАРЯ</h3>
-                                                <span>БАНАНЦ - ПЮНИК</span>
-                                            </div><!-- images/menu_icon1.png_col_info -->
-                                        </a>
-                                    </div><!-- submenu_bottom_col -->
-                                </div><!-- submenu_bottom -->
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="submenu_parent"><a href="#">БАНАНЦ МОЛ.</a>
-                        <ul class="submenu hidden">
-                            <li>
-                                <div class="submenu_top clearfix">
-                                    <ul>
-                                        <li><a href="#">НОВОСТИ</a></li>
-                                        <li><a href="#">СОСТАВ</a></li>
-                                        <li><a href="#">ТРЕНЕРСКИЙ ШТАБ</a></li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="#">ТУРНИРНАЯ ТАБЛИЦА</a></li>
-                                        <li><a href="#">РАСПИСАНИЕ ИГР</a></li>
-                                        <li><a href="#">ФОТО ГАЛЕРЕЯ</a></li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="#">ВИДЕО ГАЛЕРЕЯ</a></li>
-                                    </ul>
-                                </div><!-- submenu_top -->
-                                <div class="submenu_bottom clearfix">
-                                    <div class="submenu_bottom_col clearfix">
-                                        <a href="#">
-                                            <div class="submenu_bottom_col_images pictures_wrapper">
-                                                <img src="/media/assets/images/submenu_pic1.jpg" alt="submenu_pic1">
-                                            </div><!-- submenu_bottom_col_images -->
-                                            <div class="submenu_bottom_col_info">
-                                                <h3>НЕВЕРОЯТНЫЙ<br> СЕЙВ<br> ВРАТАРЯ</h3>
-                                                <span>БАНАНЦ - ПЮНИК</span>
-                                            </div><!-- images/menu_icon1.png_col_info -->
-                                        </a>
-                                    </div><!-- submenu_bottom_col -->
-                                    <div class="submenu_bottom_col clearfix">
-                                        <a href="#">
-                                            <div class="submenu_bottom_col_images pictures_wrapper">
-                                                <img src="/media/assets/images/submenu_pic1.jpg" alt="submenu_pic1">
-                                            </div><!-- submenu_bottom_col_images -->
-                                            <div class="submenu_bottom_col_info">
-                                                <h3>НЕВЕРОЯТНЫЙ<br> СЕЙВ<br> ВРАТАРЯ</h3>
-                                                <span>БАНАНЦ - ПЮНИК</span>
-                                            </div><!-- images/menu_icon1.png_col_info -->
-                                        </a>
-                                    </div><!-- submenu_bottom_col -->
-                                    <div class="submenu_bottom_col clearfix">
-                                        <a href="#">
-                                            <div class="submenu_bottom_col_images pictures_wrapper">
-                                                <img src="/media/assets/images/submenu_pic1.jpg" alt="submenu_pic1">
-                                            </div><!-- submenu_bottom_col_images -->
-                                            <div class="submenu_bottom_col_info">
-                                                <h3>НЕВЕРОЯТНЫЙ<br> СЕЙВ<br> ВРАТАРЯ</h3>
-                                                <span>БАНАНЦ - ПЮНИК</span>
-                                            </div><!-- images/menu_icon1.png_col_info -->
-                                        </a>
-                                    </div><!-- submenu_bottom_col -->
-                                </div><!-- submenu_bottom -->
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">АКАДЕМИЯ</a></li>
-                    <li><a href="#">БОЛЕЛЬЩИКУ</a></li>
-                </ul>
+                <?Theme::drawMenus('category')?>
             </div><!-- navogation -->
+
         </div><!-- inner -->
     </div><!-- header -->
 

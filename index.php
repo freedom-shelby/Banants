@@ -57,7 +57,6 @@ function __($string, array $values = NULL, $lang = null)
     if( ! $lang){
         $lang = Lang::instance()->getCurrentLang()['iso'];
     }
-
     if ($lang !== Lang::DEFAULT_LANGUAGE)
     {
         // The message and target languages are different

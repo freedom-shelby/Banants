@@ -14,6 +14,8 @@ restrictAccess();
 
 abstract class AbstractMenu {
 
+    const SUB_MENU_NAMESPACE = 'Menus\Menu\SubMenu\\';
+
     /**
      * Тип страницы
      */
@@ -35,6 +37,11 @@ abstract class AbstractMenu {
     protected $_template;
 
     /**
+     * Пункти суб-меню
+     */
+    protected $_subMenuItems;
+
+    /**
      * Параметри в виде JSON-а
      */
     protected $_param;
@@ -42,6 +49,7 @@ abstract class AbstractMenu {
     public function getPosition(){}
     public function getSorting(){}
     public function render(){}
+    public function subMenuRender($children){}
     public function init($model){}
     public function initSubMenu($model){}
 

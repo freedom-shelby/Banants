@@ -64,7 +64,7 @@ class Top extends AbstractMenu{
         $output = '<ul>';
 
         foreach($this->_items as $item){
-            $output .= '<li><a class="icon clearfix" href="' . $item->slug . '"><span class="icon ' . $item->icon . '"></span><span class="icon_text">' . __($item->text()) . '</span></a></li>';
+            $output .= '<li><a class="' . $item->icon . ' clearfix" href="' . $item->slug . '"><span class="icon icon-last_matches_hover"></span><span class="icon_text">' . __($item->text()) . '</span></a></li>';
         }
 
         $output .= '</ul>';

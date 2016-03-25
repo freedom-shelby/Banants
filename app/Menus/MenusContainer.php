@@ -28,6 +28,8 @@ class MenusContainer {
     protected $_items = [];
 
     const CATEGORY_LEVEL = 0;
+
+    const SUB_CATEGORY_LEVEL = 1;
     /**
      * Активние Пункти суб меню
      * @var array
@@ -36,7 +38,7 @@ class MenusContainer {
 
     const MENU_NAMESPACE = 'Menus\Menu\\';
 
-    protected $_current;
+    protected static $_current;
 
     protected static $_instance;
 
@@ -54,14 +56,13 @@ class MenusContainer {
 
     public function __construct(){
 
-        $this->_current= Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
+        self::$_current = Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
 
         $cache = new Cache();
-        $cache->setLocalPath($this->_current.'_menus');
+        $cache->setLocalPath(self::$_current.'_menus');
         $cache->load();
         if($cache->isValid()){
             $this->_items = unserialize(base64_decode($cache->getData()));
-//            var_dump(unserialize(base64_decode($cache->getData())));die;
 
         }else{
             $items = MenuModel::all();
@@ -72,36 +73,22 @@ class MenusContainer {
 
             if(!empty($items)){
                 foreach($items as $i){
-//                    echo "<pre>";
-//                    print_r($i->pos);
-//                    echo "<pre>";
-//                    print_r($i->items()->whereStatus(1)->get()->toHierarchy()->toArray());
+//echo "<pre>";
+//print_r($i->pos);
+//echo "<pre>";
+//print_r($i->items()->whereStatus(1)->get()->toHierarchy()->toArray());
 
                     $class = static::MENU_NAMESPACE . $i->type;
-//var_dump($i->type);die;
                     $tmp = (new $class);
                     $tmp->init($i);
                     $this->_items[$tmp->getPosition()] = $tmp;
                 }
+
 //                $class = __NAMESPACE__ . '\\' . 'SubCategory';
-//
 //                $this->_items['sub_category'] = (new $class);
             }
 
 //            $items = $items->menus()->whereStatus(1)->get();
-
-//            if(!empty($items)){
-//                foreach($items as $i){
-//                    $class = static::MENU_NAMESPACE . $i->type;
-//                    $tmp = (new $class);
-//                    $tmp->init($i);
-//                    // todo: в админке проверять чтобы Sorting биль уникалним
-//                    $this->_items[$tmp->getPosition()][$tmp->getSorting()] = $tmp;
-//                }
-//            }
-//echo "<pre>";
-//print_r(serialize($this->_items));
-//die;
 
             $cache->setData(base64_encode(serialize($this->_items)));
             $cache->save();
@@ -110,9 +97,9 @@ class MenusContainer {
 
     }
 
-    public function getCurrent()
+    public static function getCurrent()
     {
-        return $this->_current;
+        return self::$_current;
     }
 
 

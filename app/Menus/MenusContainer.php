@@ -60,7 +60,9 @@ class MenusContainer {
         $cache->setLocalPath($this->_current.'_menus');
         $cache->load();
         if($cache->isValid()){
-            $this->_items = json_decode($cache->getData(), true);
+            $this->_items = unserialize(base64_decode($cache->getData()));
+//            var_dump(unserialize(base64_decode($cache->getData())));die;
+
         }else{
             $items = MenuModel::all();
 
@@ -76,7 +78,7 @@ class MenusContainer {
 //                    print_r($i->items()->whereStatus(1)->get()->toHierarchy()->toArray());
 
                     $class = static::MENU_NAMESPACE . $i->type;
-                    var_dump($i->type);die;
+//var_dump($i->type);die;
                     $tmp = (new $class);
                     $tmp->init($i);
                     $this->_items[$tmp->getPosition()] = $tmp;
@@ -97,8 +99,11 @@ class MenusContainer {
 //                    $this->_items[$tmp->getPosition()][$tmp->getSorting()] = $tmp;
 //                }
 //            }
+//echo "<pre>";
+//print_r(serialize($this->_items));
+//die;
 
-            $cache->setData(json_encode($this->_items));
+            $cache->setData(base64_encode(serialize($this->_items)));
             $cache->save();
         }
 

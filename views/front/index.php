@@ -6,7 +6,7 @@
  * Time: 15:41
  */
 ?>
-<?Theme::drawMenus('category')?>
+<?//Theme::drawMenus('category')?>
 <?Theme::drawHead()?>
 <body>
     <div class="header">
@@ -18,15 +18,17 @@
                     </a>
                 </div><!-- logo_wrapper -->
                 <div class="header_navigation">
-                    <ul>
-                        <li><a class="icon"  href="#">ПРЕДЫДУЩИЕ МАТЧИ</a></li>
-                        <li><a class="statistic" href="#">СТАТИСТИКА КЛУБА</a></li>
-                        <li><a class="cal1" href="#">РАСПИСАНИЕ ИГР</a></li>
-                        <li><a class="prediction" href="#">ПРОГНОЗ НА СЕЗОН</a></li>
-                        <li><a class="video" href="#">ВИДЕО АРХИВ</a></li>
-                        <li><a class="photo" href="#">ФОТОГАЛЕРЕЯ</a></li>
-                        <li><a class="vacancies" href="#">ВАКАНСИИ</a></li>
-                    </ul>
+                    <?Theme::drawMenus('top')?>
+
+                    <!--                    <ul>-->
+<!--                        <li><a class="icon"  href="#">ПРЕДЫДУЩИЕ МАТЧИ</a></li>-->
+<!--                        <li><a class="statistic" href="#">СТАТИСТИКА КЛУБА</a></li>-->
+<!--                        <li><a class="cal1" href="#">РАСПИСАНИЕ ИГР</a></li>-->
+<!--                        <li><a class="prediction" href="#">ПРОГНОЗ НА СЕЗОН</a></li>-->
+<!--                        <li><a class="video" href="#">ВИДЕО АРХИВ</a></li>-->
+<!--                        <li><a class="photo" href="#">ФОТОГАЛЕРЕЯ</a></li>-->
+<!--                        <li><a class="vacancies" href="#">ВАКАНСИИ</a></li>-->
+<!--                    </ul>-->
                 </div><!-- header_navigation -->
             </div><!-- inner -->
         </div><!-- header_top -->

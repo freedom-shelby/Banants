@@ -73,8 +73,8 @@ class NestedSets extends \Controller
             echo "<pre>";
             print_r($n->pos);
             echo "<pre>";
-//            print_r($n->items()->whereStatus(1)->get()->toHierarchy()->toArray());
-            print_r($n->items()->whereStatus(1));
+            print_r($n->items()->whereStatus(1)->get()->toHierarchy());
+//            print_r($n->items()->whereStatus(1));
         }
 //        $node = Category::find(41);
 //        foreach($node->getDescendantsAndSelf() as $descendant) {

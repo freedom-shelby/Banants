@@ -70,24 +70,24 @@ class Category extends AbstractMenu{
         $this->_position = $model->pos;
         $this->_title = $model->title;
 
-        $model = $model->newNestedSetQuery()->items()->whereStatus(1);
+        $model = $model->items()->whereStatus(1);
 
         // Устанавлиает Активни пункт и суб меню
-        foreach($model->get() as $item)
-        {
-            if($item->_slug == MenusContainer::instance()->getCurrent()){
-                if($item->lvl == MenusContainer::CATEGORY_LEVEL){
-                    $this->initSubMenu($item);
-                    $this->_active = $item->_slug;
-                }else{
-                    $tmpModel = $item->newNestedSetQuery()->ancestors()->whereLvl(MenusContainer::CATEGORY_LEVEL)->first();
-                    $this->initSubMenu($tmpModel);
-                    $this->_active = $tmpModel->_slug;
-                }
-            }
-        }
+//        foreach($model->get() as $item)
+//        {
+//            if($item->_slug == MenusContainer::instance()->getCurrent()){
+//                if($item->lvl == MenusContainer::CATEGORY_LEVEL){
+//                    $this->initSubMenu($item);
+//                    $this->_active = $item->_slug;
+//                }else{
+//                    $tmpModel = $item->ancestors()->whereLvl(MenusContainer::CATEGORY_LEVEL)->first();
+//                    $this->initSubMenu($tmpModel);
+//                    $this->_active = $tmpModel->_slug;
+//                }
+//            }
+//        }
 
-        $this->_items = $model->toHierarchy()->get();
+        $this->_items = $model->get()->toHierarchy();
     }
 
     public function initSubMenu($model)

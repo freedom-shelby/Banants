@@ -28,9 +28,9 @@ class Top extends AbstractMenu{
     protected $_position;
 
     /**
-     * Индекс сортировки
+     * Загаловок меню
      */
-    protected $_sort;
+    protected $_title;
 
     /**
      * Шаблон
@@ -38,9 +38,15 @@ class Top extends AbstractMenu{
     protected $_template;
 
     /**
-     * Параметри в виде JSON-а
+     * Активний пункт
+     * @var
      */
-    protected $_param;
+    protected $_active;
+
+    /**
+     * Пункти меню
+     */
+    protected $_items;
 
 
     public function getPosition()
@@ -48,22 +54,53 @@ class Top extends AbstractMenu{
         return $this->_position;
     }
 
-    public function getSorting()
+    public function getTitle()
     {
-        return $this->_sort;
+        return $this->_title;
     }
 
     public function render()
     {
-        return View::make($this->_template);
+        $output = '<ul>';
+
+        foreach($this->_items as $item){
+            $output .= '<li><a class="icon clearfix" href="' . $item->slug . '"><span class="icon ' . $item->icon . '"></span><span class="icon_text">' . __($item->text()) . '</span></a></li>';
+        }
+
+        $output .= '</ul>';
+
+        return $output . PHP_EOL;
     }
 
     public function init($model)
     {
-        $this->_position = $model->position;
-        $this->_sort = $model->sort;
-        $this->_template = $model->template;
-        $this->_param = $model->param;
-        $this->_type = $model->type;
+        $this->_position = $model->pos;
+        $this->_title = $model->title;
+
+        $model = $model->items()->whereStatus(1);
+
+        // Устанавлиает Активни пункт и суб меню
+//        foreach($model->get() as $item)
+//        {
+//            if($item->_slug == MenusContainer::instance()->getCurrent()){
+//                if($item->lvl == MenusContainer::CATEGORY_LEVEL){
+//                    $this->initSubMenu($item);
+//                    $this->_active = $item->_slug;
+//                }else{
+//                    $tmpModel = $item->ancestors()->whereLvl(MenusContainer::CATEGORY_LEVEL)->first();
+//                    $this->initSubMenu($tmpModel);
+//                    $this->_active = $tmpModel->_slug;
+//                }
+//            }
+//        }
+
+        $this->_items = $model->get()->toHierarchy();
+    }
+
+    public function initSubMenu($model)
+    {
+        $this->_position = $model->pos;
+        $this->_title = $model->title;
+        $this->_items = $model->items()->whereStatus(1);
     }
 }

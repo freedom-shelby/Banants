@@ -14,6 +14,7 @@ restrictAccess();
 
 use Menus\Menu\Category;
 use Menus\MenusContainer;
+use App;
 
 class SubCategory extends Category{
 
@@ -49,7 +50,7 @@ class SubCategory extends Category{
         $output = '<div id="accordion" class="left_bar_menu">';
 
         foreach($this->_items as $item){
-            $output .= '<span class="accordion_title">' . __($item->title()) . '</span>';
+            $output .= '<span class="accordion_title">' . __($item->text()) . '</span>';
 
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);
@@ -68,7 +69,7 @@ class SubCategory extends Category{
 
         foreach($items as $item)
         {
-            $output .= '<li><a href="#">' . __($item->title()) . '</a></li>';
+            $output .= '<li><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
         }
 
         $output .=    '</ul>

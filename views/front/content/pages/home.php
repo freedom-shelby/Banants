@@ -48,14 +48,8 @@
                         </div><!-- container_top_slideshow -->
                         <div class="container_top_aside">
                             <div class="video_wrapper">
-                                <a class="fancybox" href="http://www.w3schools.com/html/mov_bbb.mp4">
-                                    <video width="235" height="154" poster="/media/assets/images/video_image.jpg" controls>
-                                        <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                                        <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
-                                        Your browser does not support the video tag.
-                                    </video>
-                                    <a/>
-                                    <span>Роман Асхабадзе вывел Бананц на первое место в лиге Армении </span>
+                                <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/video_image.jpg" alt="video_image"></a>
+                                <span>Роман Асхабадзе вывел Бананц на первое место в лиге Армении </span>
                             </div><!-- video_wrapper -->
                             <div class="news_wrapper">
                                 <div class="news_item clearfix">
@@ -92,114 +86,129 @@
                     </div><!-- container_top_banner -->
                 </div><!-- container_top_left -->
                 <div class="container_top_right">
+
                     <div class="tournament_table">
-                        <div class="tournament_slider_title_wrapper clearfix">
-                            <div class="tournament_slider_title">
-                                <span class="tournament_slider_title_text" title="Հայաստանի առաջնություն">ЛИГА АРМЕНИИ</span>
-                                <span class="tournament_slider_prev"></span>
-                                <span class="tournament_slider_next"></span>
-                            </div><!-- tournament_slider_title -->
-                        </div><!-- tournament_slider_title_wrapper -->
                         <div class="tournament_slider">
                             <div class="tournament_slider_item">
+                                <div class="tournament_slider_title_wrapper clearfix">
+                                    <div class="tournament_slider_title">
+                                        <span class="tournament_slider_title_text" title="Հայաստանի առաջնություն">ЛИГА АРМЕНИИ</span>
+                                        <span class="tournament_slider_prev"></span>
+                                        <span class="tournament_slider_next"></span>
+                                    </div><!-- tournament_slider_title -->
+                                </div><!-- tournament_slider_title_wrapper -->
                                 <table>
                                     <tr>
                                         <th></th>
                                         <th>ИГР</th>
                                         <th>ОЧК</th>
-                                    </tr>
-                                    <tr class="tournament_table_active">
-                                        <td><span class="team_name"><a href="#">Бананц</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>33</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Алашкерт </a></span></td>
-                                        <td><span>10</span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>38</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Пюник</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>34</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Ширак</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>28</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Арарат</a></span></td>
+                                        <td><span>18</span></td>
                                         <td><span>27</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Гандзасар</a></span></td>
-                                        <td><span>10</span></td>
-                                        <td><span>24</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Пюник</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>24</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Арарат</a></span></td>
-                                        <td><span>11</span></td>
                                         <td><span>18</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Ширак</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>14</span></td>
+                                        <td><span>25</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Мика</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>8</span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>21</span></td>
+                                    </tr>
+                                    <tr class="tournament_table_active">
+                                        <td><span class="team_name"><a href="#">Бананц</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>21</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Улисс</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>5</span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>2</span></td>
                                     </tr>
                                 </table>
                             </div><!-- tournament_slider_item -->
                             <div class="tournament_slider_item">
+                                <div class="tournament_slider_title_wrapper clearfix">
+                                    <div class="tournament_slider_title">
+                                        <span class="tournament_slider_title_text" title="Հայաստանի առաջնություն">ЛИГА АРМЕНИИ0</span>
+                                        <span class="tournament_slider_prev"></span>
+                                        <span class="tournament_slider_next"></span>
+                                    </div><!-- tournament_slider_title -->
+                                </div><!-- tournament_slider_title_wrapper -->
                                 <table>
                                     <tr>
                                         <th></th>
                                         <th>ИГР</th>
                                         <th>ОЧК</th>
                                     </tr>
-                                    <tr class="tournament_table_active">
-                                        <td><span class="team_name"><a href="#">Бананц</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>33</span></td>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Алашкерт </a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>38</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span class="team_name"><a href="#">Алашкерт</a></span></td>
-                                        <td><span>10</span></td>
+                                        <td><span class="team_name"><a href="#">Пюник</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>34</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Ширак</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>28</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Арарат</a></span></td>
+                                        <td><span>18</span></td>
                                         <td><span>27</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Гандзасар</a></span></td>
-                                        <td><span>10</span></td>
-                                        <td><span>24</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Пюник</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>24</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Арарат</a></span></td>
-                                        <td><span>11</span></td>
                                         <td><span>18</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Ширак</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>14</span></td>
+                                        <td><span>25</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Мика</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>8</span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>21</span></td>
+                                    </tr>
+                                    <tr class="tournament_table_active">
+                                        <td><span class="team_name"><a href="#">Бананц</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>21</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Улисс</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>5</span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>2</span></td>
                                     </tr>
                                 </table>
                             </div><!-- tournament_slider_item -->
                             <div class="tournament_slider_item">
+                                <div class="tournament_slider_title_wrapper clearfix">
+                                    <div class="tournament_slider_title">
+                                        <span class="tournament_slider_title_text" title="Հայաստանի առաջնություն">ЛИГА АРМЕНИИ1</span>
+                                        <span class="tournament_slider_prev"></span>
+                                        <span class="tournament_slider_next"></span>
+                                    </div><!-- tournament_slider_title -->
+                                </div><!-- tournament_slider_title_wrapper -->
                                 <table>
                                     <tr>
                                         <th></th>
@@ -249,51 +258,58 @@
                                 </table>
                             </div><!-- tournament_slider_item -->
                             <div class="tournament_slider_item">
+                                <div class="tournament_slider_title_wrapper clearfix">
+                                    <div class="tournament_slider_title">
+                                        <span class="tournament_slider_title_text" title="Հայաստանի առաջնություն">ЛИГА АРМЕНИИ2</span>
+                                        <span class="tournament_slider_prev"></span>
+                                        <span class="tournament_slider_next"></span>
+                                    </div><!-- tournament_slider_title -->
+                                </div><!-- tournament_slider_title_wrapper -->
                                 <table>
                                     <tr>
                                         <th></th>
                                         <th>ИГР</th>
                                         <th>ОЧК</th>
                                     </tr>
-                                    <tr class="tournament_table_active">
-                                        <td><span class="team_name"><a href="#">Бананц</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>33</span></td>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Алашкерт </a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>38</span></td>
                                     </tr>
                                     <tr>
-                                        <td><span class="team_name"><a href="#">Алашкерт</a></span></td>
-                                        <td><span>10</span></td>
+                                        <td><span class="team_name"><a href="#">Пюник</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>34</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Ширак</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>28</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="team_name"><a href="#">Арарат</a></span></td>
+                                        <td><span>18</span></td>
                                         <td><span>27</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Гандзасар</a></span></td>
-                                        <td><span>10</span></td>
-                                        <td><span>24</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Пюник</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>24</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Арарат</a></span></td>
-                                        <td><span>11</span></td>
                                         <td><span>18</span></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span class="team_name"><a href="#">Ширак</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>14</span></td>
+                                        <td><span>25</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Мика</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>8</span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>21</span></td>
+                                    </tr>
+                                    <tr class="tournament_table_active">
+                                        <td><span class="team_name"><a href="#">Бананц</a></span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>21</span></td>
                                     </tr>
                                     <tr>
                                         <td><span class="team_name"><a href="#">Улисс</a></span></td>
-                                        <td><span>11</span></td>
-                                        <td><span>5</span></td>
+                                        <td><span>18</span></td>
+                                        <td><span>2</span></td>
                                     </tr>
                                 </table>
                             </div><!-- tournament_slider_item -->
@@ -312,10 +328,10 @@
                                 <div class="best_player_info">
                                     <span>Голы 4<br> Удары 9<br> В створ 5</span>
                                 </div><!-- best_player_info -->
-                                <div class="best_player_multiple">
-                                    <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                    <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                    <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                <div class="best_player_multiple clearfix">
+                                    <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                                    <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
+                                    <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
                                 </div><!-- best_player_multiple -->
                             </div><!-- best_player_right -->
                         </div><!-- best_player_content -->
@@ -337,16 +353,16 @@
                                 <div class="best_player_content">
                                     <h3>ВАРАЗДАТ СМБАТЯН</h3>
                                     <div class="best_player_images_wrapper">
-                                        <img src="/media/assets/images/player1.png" alt="best_player" />
+                                        <img src="/media/assets/images/best_player2.png" alt="best_player" />
                                     </div><!-- best_player_images_wrapper -->
                                     <div class="best_player_right">
                                         <div class="best_player_info">
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -362,9 +378,9 @@
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -375,16 +391,16 @@
                                 <div class="best_player_content">
                                     <h3>ВАРАЗДАТ СМБАТЯН</h3>
                                     <div class="best_player_images_wrapper">
-                                        <img src="/media/assets/images/player1.png" alt="best_player" />
+                                        <img src="/media/assets/images/best_player2.png" alt="best_player" />
                                     </div><!-- best_player_images_wrapper -->
                                     <div class="best_player_right">
                                         <div class="best_player_info">
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img class="cal_blue" src="icons/cal2.svg" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img class="photo_dark_blue" src="file:///E:/sunrise/photoshop/icons/photo_dark_blue.svg" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img class="changable" src="icons/video_archive_blue.svg" alt="best_player_multiple_icon"></a></span>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -400,9 +416,9 @@
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon1.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon2.png" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img src="/media/assets/images/best_player_multiple_icon3.png" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img class="cal_blue" src="icons/cal2.svg" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img class="photo_dark_blue" src="icons/photo_dark_blue.svg" alt="best_player_multiple_icon"></a></span>
+                                            <span><a href="#"><img class="changable" src="icons/video_archive_blue.svg" alt="best_player_multiple_icon"></a></span>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -521,9 +537,9 @@
                             <div class="carousel_slider_wrapper clearfix">
                                 <div class="carousel_slider">
                                     <div class="carousel_slider_item">
-                                        <a href="#">
+                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images1.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images1.jpg" title="slideshow_images" rel="gallary_b"><img src="/media/assets/images/carousel_slider_images1.jpg" alt="carousel_images" /></a>
+                                                <img src="/media/assets/images/carousel_slider_images1.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
                                                 <span>Бюджет бананца увеличился в 3 раза...</span>
@@ -531,9 +547,9 @@
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a href="#">
+                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"><img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" /></a>
+                                                <img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
                                                 <span>Колоссальные успехи бананца ...</span>
@@ -541,53 +557,41 @@
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a href="#">
+                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
-                                                </a>
+                                                <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a href="#">
+                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
-                                                </a>
+                                                <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a href="#">
+                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
-                                                </a>
+                                                <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a href="#">
+                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
-                                                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
-                                                </a>
+                                                <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b"></a>
                                                 <span>Победа юношеской сборной в финале </span>
                                             </div>
                                         </a>
@@ -601,7 +605,7 @@
                                 </a>
                             </div><!-- content_top_banner -->
                             <div class="news_slider_wrapper clearfix">
-                                <div class="news_slider clearfix">
+                                <div class="news_slider homepage clearfix">
                                     <div class="news_slider_item">
                                         <div class="news_list clearfix">
                                             <a href="#">
@@ -625,7 +629,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images2.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -635,18 +639,16 @@
 																<span><i class="watch_icon"></i>1427</span>
 															</span><!-- news_list_watch -->
                                                     </div><!-- news_list_middle -->
-
-
 														<span>
 															Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...
 														</span>
                                                 </div><!-- news_list_info -->
                                             </a>
                                         </div><!-- news_list -->
-                                        <div class="news_list news_list_active clearfix">
+                                        <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images3.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -665,7 +667,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images4.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -705,7 +707,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images2.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -723,10 +725,10 @@
                                                 </div><!-- news_list_info -->
                                             </a>
                                         </div><!-- news_list -->
-                                        <div class="news_list news_list_active clearfix">
+                                        <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images3.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -745,7 +747,7 @@
                                         <div class="news_list clearfix">
                                             <a href="#">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/media/assets/images/news_list_images4.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
                                                     <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
@@ -770,68 +772,137 @@
                             <div class="content_top_right_info_blog_wrapper clearfix">
                                 <div class="content_top_right_info_blog clearfix">
                                     <div class="content_top_right_info_blog_images">
-                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
+                                        <img src="/media/assets/images/content_top_right_info_blog_images1.jpg" alt="content_top_right_info_blog_images" />
                                     </div><!-- content_top_right_info_blog_images -->
                                     <div class="content_top_right_info_blog_aside">
                                         <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
                                         <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
                                         <div>
-                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-statistic_hover"></span>
+                                                        <span>Статистика матча</span>
+                                                    </a>
+												</span>
                                         </div>
-                                        <div>
-                                            <span><a class="fancybox" href="/media/assets/images/video_icon2.png" title="slideshow_images" rel="gallary_c"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a class="fancybox" href="/media/assets/images/photo_icon.png" title="slideshow_images" rel="gallary_c"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-video_rightbar"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
+                                        </div>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-photo_hover"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
                                         </div>
                                     </div><!-- content_top_right_info_blog_aside -->
                                 </div><!-- content_top_right_info_blog -->
                                 <div class="content_top_right_info_blog clearfix">
                                     <div class="content_top_right_info_blog_images">
-                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
+                                        <img src="/media/assets/images/content_top_right_info_blog_images2.jpg" alt="content_top_right_info_blog_images" />
                                     </div><!-- content_top_right_info_blog_images -->
                                     <div class="content_top_right_info_blog_aside">
                                         <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
                                         <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
                                         <div>
-                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-statistic_hover"></span>
+                                                        <span>Статистика матча</span>
+                                                    </a>
+												</span>
                                         </div>
-                                        <div>
-                                            <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-video_rightbar"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
                                         </div>
-                                    </div><!-- content_top_right_info_blog_aside -->
-                                </div><!-- content_top_right_info_blog -->
-                                <div class="content_top_right_info_blog content_top_right_info_blog_active clearfix">
-                                    <div class="content_top_right_info_blog_images">
-                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
-                                    </div><!-- content_top_right_info_blog_images -->
-                                    <div class="content_top_right_info_blog_aside">
-                                        <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
-                                        <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
-                                        <div>
-                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
-                                        </div>
-                                        <div>
-                                            <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-photo_hover"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
                                         </div>
                                     </div><!-- content_top_right_info_blog_aside -->
                                 </div><!-- content_top_right_info_blog -->
                                 <div class="content_top_right_info_blog clearfix">
                                     <div class="content_top_right_info_blog_images">
-                                        <img src="/media/assets/images/content_top_right_info_blog_images.jpg" alt="content_top_right_info_blog_images" />
+                                        <img src="/media/assets/images/content_top_right_info_blog_images3.jpg" alt="content_top_right_info_blog_images" />
                                     </div><!-- content_top_right_info_blog_images -->
                                     <div class="content_top_right_info_blog_aside">
                                         <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
                                         <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
                                         <div>
-                                            <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="statistics_icon">Статистика матча</a></span>
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-statistic_hover"></span>
+                                                        <span>Статистика матча</span>
+                                                    </a>
+												</span>
                                         </div>
-                                        <div>
-                                            <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="video icon">Видео</a></span>
-                                            <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="photo icon">Фото</a></span>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-video_rightbar"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
+                                        </div>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-photo_hover"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
                                         </div>
                                     </div><!-- content_top_right_info_blog_aside -->
                                 </div><!-- content_top_right_info_blog -->
+                                <div class="content_top_right_info_blog clearfix">
+                                    <div class="content_top_right_info_blog_images">
+                                        <img src="/media/assets/images/content_top_right_info_blog_images4.jpg" alt="content_top_right_info_blog_images" />
+                                    </div><!-- content_top_right_info_blog_images -->
+                                    <div class="content_top_right_info_blog_aside">
+                                        <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
+                                        <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
+                                        <div>
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-statistic_hover"></span>
+                                                        <span>Статистика матча</span>
+                                                    </a>
+												</span>
+                                        </div>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-video_rightbar"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
+                                        </div>
+                                        <div class="photo_video">
+												<span>
+													<a href="#">
+                                                        <span class="icon_hover icon-photo_hover"></span>
+                                                        <span>Видео</span>
+                                                    </a>
+												</span>
+                                        </div>
+                                    </div><!-- content_top_right_info_blog_aside -->
+                                </div><!-- content_top_right_info_blog -->
+
                             </div><!-- content_top_right_info_blog_wrapper -->
                             <div class="content_top_right_banners">
                                 <div class="content_top_right_banner">
@@ -852,84 +923,80 @@
                             <div class="content_middle_slider">
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
-                                        <a href="#">
-                                            <img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_middle_images1"></a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
-                                        <a href="#">
-                                            <img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_big_images"></a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                 </div><!-- content_middle_slider_item -->
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a href="#">
+                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
                                             <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
                                         </a>
                                     </div><!-- content_middle_slider -->

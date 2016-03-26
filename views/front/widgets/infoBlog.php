@@ -9,83 +9,135 @@
 <div class="content_top_right_info_blog_wrapper clearfix">
     <div class="content_top_right_info_blog clearfix">
         <div class="content_top_right_info_blog_images">
-            <img src="/media/assets/images/content_top_right_info_blog_images_small.jpg" alt="content_top_right_info_blog_images" />
+            <img src="/media/assets/images/content_top_right_info_blog_images1.jpg" alt="content_top_right_info_blog_images" />
         </div><!-- content_top_right_info_blog_images -->
         <div class="content_top_right_info_blog_aside">
-            <h4>Բանանց - Ալաշկերտ 2:0</h4>
-            <span class="small_size_span">Կայացել է՝ 12.06.2015 ժամը՝ 16:00</span>
+            <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
+            <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
             <div>
-                <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="">Խաղի վիճակագրություն</a></span>
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-statistic_hover"></span>
+                        <span>Статистика матча</span>
+                    </a>
+                </span>
             </div>
-            <div class="content_top_right_info_blog_aside_media">
-                <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="">Վիդեո</a></span>
-                <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="">Ֆոտո</a></span>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-video_rightbar"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
+            </div>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-photo_hover"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
             </div>
         </div><!-- content_top_right_info_blog_aside -->
     </div><!-- content_top_right_info_blog -->
     <div class="content_top_right_info_blog clearfix">
         <div class="content_top_right_info_blog_images">
-            <img src="/media/assets/images/content_top_right_info_blog_images_small.jpg" alt="content_top_right_info_blog_images" />
+            <img src="/media/assets/images/content_top_right_info_blog_images2.jpg" alt="content_top_right_info_blog_images" />
         </div><!-- content_top_right_info_blog_images -->
         <div class="content_top_right_info_blog_aside">
-            <h4>Բանանց - Ալաշկերտ 2:0</h4>
-            <span class="small_size_span">Կայացել է՝ 12.06.2015 ժամը՝ 16:00</span>
+            <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
+            <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
             <div>
-                <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="">Խաղի վիճակագրություն</a></span>
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-statistic_hover"></span>
+                        <span>Статистика матча</span>
+                    </a>
+                </span>
             </div>
-            <div class="content_top_right_info_blog_aside_media">
-                <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="">Վիդեո</a></span>
-                <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="">Ֆոտո</a></span>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-video_rightbar"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
             </div>
-        </div><!-- content_top_right_info_blog_aside -->
-    </div><!-- content_top_right_info_blog -->
-    <div class="content_top_right_info_blog content_top_right_info_blog_active clearfix">
-        <div class="content_top_right_info_blog_images">
-            <img src="/media/assets/images/content_top_right_info_blog_images_small.jpg" alt="content_top_right_info_blog_images" />
-        </div><!-- content_top_right_info_blog_images -->
-        <div class="content_top_right_info_blog_aside">
-            <h4>Բանանց - Ալաշկերտ 2:0</h4>
-            <span class="small_size_span">Կայացել է՝ 12.06.2015 ժամը՝ 16:00</span>
-            <div>
-                <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="">Խաղի վիճակագրություն</a></span>
-            </div>
-            <div class="content_top_right_info_blog_aside_media">
-                <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="">Վիդեո</a></span>
-                <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="">Ֆոտո</a></span>
-            </div>
-        </div><!-- content_top_right_info_blog_aside -->
-    </div><!-- content_top_right_info_blog -->
-    <div class="content_top_right_info_blog clearfix">
-        <div class="content_top_right_info_blog_images">
-            <img src="/media/assets/images/content_top_right_info_blog_images_small.jpg" alt="content_top_right_info_blog_images" />
-        </div><!-- content_top_right_info_blog_images -->
-        <div class="content_top_right_info_blog_aside">
-            <h4>Բանանց - Ալաշկերտ 2:0</h4>
-            <span class="small_size_span">Կայացել է՝ 12.06.2015 ժամը՝ 16:00</span>
-            <div>
-                <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="">Խաղի վիճակագրություն</a></span>
-            </div>
-            <div class="content_top_right_info_blog_aside_media">
-                <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="">Վիդեո</a></span>
-                <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="">Ֆոտո</a></span>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-photo_hover"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
             </div>
         </div><!-- content_top_right_info_blog_aside -->
     </div><!-- content_top_right_info_blog -->
     <div class="content_top_right_info_blog clearfix">
         <div class="content_top_right_info_blog_images">
-            <img src="/media/assets/images/content_top_right_info_blog_images_small.jpg" alt="content_top_right_info_blog_images" />
+            <img src="/media/assets/images/content_top_right_info_blog_images3.jpg" alt="content_top_right_info_blog_images" />
         </div><!-- content_top_right_info_blog_images -->
         <div class="content_top_right_info_blog_aside">
-            <h4>Բանանց - Ալաշկերտ 2:0</h4>
-            <span class="small_size_span">Կայացել է՝ 12.06.2015 ժամը՝ 16:00</span>
+            <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
+            <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
             <div>
-                <span><a href="#"><img src="/media/assets/images/statistics_icon.png" alt="">Խաղի վիճակագրություն</a></span>
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-statistic_hover"></span>
+                        <span>Статистика матча</span>
+                    </a>
+                </span>
             </div>
-            <div class="content_top_right_info_blog_aside_media">
-                <span><a href="#"><img src="/media/assets/images/video_icon2.png" alt="">Վիդեո</a></span>
-                <span><a href="#"><img src="/media/assets/images/photo_icon.png" alt="">Ֆոտո</a></span>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-video_rightbar"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
+            </div>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-photo_hover"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
             </div>
         </div><!-- content_top_right_info_blog_aside -->
+    </div><!-- content_top_right_info_blog -->
+    <div class="content_top_right_info_blog clearfix">
+        <div class="content_top_right_info_blog_images">
+            <img src="/media/assets/images/content_top_right_info_blog_images4.jpg" alt="content_top_right_info_blog_images" />
+        </div><!-- content_top_right_info_blog_images -->
+        <div class="content_top_right_info_blog_aside">
+            <h4>БАНАНЦ - АЛАШКЕРТ 2:0</h4>
+            <span class="small_size_span">Состоялясь 12.06.2015 в 16:00</span>
+            <div>
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-statistic_hover"></span>
+                        <span>Статистика матча</span>
+                    </a>
+                </span>
+            </div>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-video_rightbar"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
+            </div>
+            <div class="photo_video">
+                <span>
+                    <a href="#">
+                        <span class="icon_hover icon-photo_hover"></span>
+                        <span>Видео</span>
+                    </a>
+                </span>
+            </div>
+        </div><!-- content_top_right_info_blog_aside -->
+    </div><!-- content_top_right_info_blog -->
 
-    </div><!-- content_top_right_info_blog -->
 </div><!-- content_top_right_info_blog_wrapper -->

@@ -14,7 +14,7 @@ restrictAccess();
 
 use Menus\AbstractMenu;
 use Menus\MenusContainer;
-use View;
+use App;
 
 class Category extends AbstractMenu{
 
@@ -65,6 +65,16 @@ class Category extends AbstractMenu{
         return $this->_title;
     }
 
+    public function getSubMenuItem($position)
+    {
+        return $this->_subMenuItems[$position];
+    }
+
+    public function hasSubMenu($position)
+    {
+        return isset($this->_subMenuItems[$position]);
+    }
+
     public function render()
     {
         // todo: Ндо добавить картинки к суб меню
@@ -107,10 +117,10 @@ class Category extends AbstractMenu{
         $output = '<ul class="navigation_main clearfix" id="navigation_main">';
 
         // Иконка для Home
-        $output .= '<li class="home"><a href="#"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
+        $output .= '<li class="home"><a href="/"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
 
         foreach($this->_items as $item){
-            $output .= '<li class="submenu_parent"><a href="' . $item->slug . '">' . __($item->text()) . '</a>';
+            $output .= '<li class="club submenu_parent"><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a>';
 
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);
@@ -141,7 +151,7 @@ class Category extends AbstractMenu{
                 $output .= '<ul>';
             }
 
-            $output .= '<li><a href="' . $item->slug . '">' . __($item->text()) . '</a></li>';
+            $output .= '<li><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
 
             $i++;
         }

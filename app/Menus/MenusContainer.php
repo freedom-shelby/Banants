@@ -73,28 +73,16 @@ class MenusContainer {
 
             if(!empty($items)){
                 foreach($items as $i){
-//echo "<pre>";
-//print_r($i->pos);
-//echo "<pre>";
-//print_r($i->items()->whereStatus(1)->get()->toHierarchy()->toArray());
-
                     $class = static::MENU_NAMESPACE . $i->type;
                     $tmp = (new $class);
                     $tmp->init($i);
                     $this->_items[$tmp->getPosition()] = $tmp;
                 }
-
-//                $class = __NAMESPACE__ . '\\' . 'SubCategory';
-//                $this->_items['sub_category'] = (new $class);
             }
-
-//            $items = $items->menus()->whereStatus(1)->get();
 
             $cache->setData(base64_encode(serialize($this->_items)));
             $cache->save();
         }
-
-
     }
 
     public static function getCurrent()
@@ -129,8 +117,12 @@ class MenusContainer {
      */
     public function drawSubMenu($position)
     {
-        if( ! empty($this->_subMenuItems[$position])){
-            return $this->_subMenuItems[$position]->render() . PHP_EOL;
+        if( ! empty($this->_items)){
+            foreach($this->_items as $item){
+                if($item->hasSubMenu($position)){
+                    return $item->getSubMenuItem($position)->render() . PHP_EOL;
+                }
+            }
         }
     }
 }

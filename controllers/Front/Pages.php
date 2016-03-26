@@ -30,16 +30,17 @@ class Pages extends Front
      */
     public function getHome()
     {
-        $slug = 'home';
-        $this->_page->initFromSlug($slug);
+//        $slug = 'home';
+//        $this->_page->initFromSlug($slug);
 
-//        $this->_page->setTitle('Оффициальный сайт FC Banants');
+        $this->_page->setTitle('Оффициальный сайт FC Banants');
 //        $this->_page->setContent('Тестовый контент');
 
 //        $model = ArticleModel::where('slug','=','home')->first();
 //        WidgetsContainer::instance($model);
 //
-//        $this->layout->content = View::make('front/content/pages/home');
+        $this->layout = View::make('front/home');
+        $this->layout->content = View::make('front/content/pages/home');
     }
 
     public function getPage()

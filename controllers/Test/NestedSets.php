@@ -16,6 +16,7 @@ use \Category;
 use Baum\Node;
 use Helpers\Uri;
 use Illuminate\Database\Eloquent\Model as Eloquent;
+use League\Flysystem\Exception;
 
 
 class NestedSets extends \Controller
@@ -57,7 +58,7 @@ class NestedSets extends \Controller
 
 //        $node2 = Category::find(2);
 
-        $node = \MenuModel::all();
+//        $node = \MenuModel::all();
 //        $node2 = \ArticleModel::find(1);
 //        $node3 = \ArticleModel::find(3);
 //        $node54 = \ArticleModel::find(54);
@@ -68,14 +69,14 @@ class NestedSets extends \Controller
 //        print_r( $node2->ancestors()->find(6)->toArray());
 
 //        print_r( $node2->getAncestorsWithoutRoot()->toArray());
-        foreach($node as $n)
-        {
-            echo "<pre>";
-            print_r($n->pos);
-            echo "<pre>";
-            print_r($n->items()->whereStatus(1)->get()->toHierarchy());
-//            print_r($n->items()->whereStatus(1));
-        }
+//        foreach($node as $n)
+//        {
+//            echo "<pre>";
+//            print_r($n->pos);
+//            echo "<pre>";
+//            print_r($n->items()->whereStatus(1)->get()->toHierarchy());
+////            print_r($n->items()->whereStatus(1));
+//        }
 //        $node = Category::find(41);
 //        foreach($node->getDescendantsAndSelf() as $descendant) {
 //            echo "{$descendant->name} <br>";
@@ -113,6 +114,21 @@ class NestedSets extends \Controller
 //            $node3->makeChildOf($node2);
 //        }else{
 //            $node3->makeRoot();
+//        }
+
+
+//        for($i=50; $i < 54; $i++){
+//            for($j=1; $j <= 6; $j++){
+//                try{
+//                    \ArticleHasWidgetModel::create([
+//                        'article_id' => $i,
+//                        'widget_id' => $j,
+//                    ]);
+//                }catch (\PDOException $e){
+//                    continue;
+//                }
+//
+//            }
 //        }
 
     }

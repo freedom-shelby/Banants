@@ -28,8 +28,17 @@ class Theme
      * @param string $position позиция виджетов
      * @return mixed
      */
-    public static function drawMenus($position){
+    public static function drawMenu($position){
         echo MenusContainer::instance()->draw($position);
+    }
+
+    /**
+     * Отрисовывыет суб-меню для заданной позиции
+     * @param string $position позиция виджетов
+     * @return mixed
+     */
+    public static function drawSubMenu($position){
+        echo MenusContainer::instance()->drawSubMenu($position);
     }
 
     /**
@@ -43,9 +52,10 @@ class Theme
     }
 
     public static function drawContent(){
-        echo static::$_page->getContent();
-    }
 
+        echo static::$_page->getContent();
+
+    }
 
     /**
      * Возвращает тег для скрипта
@@ -94,7 +104,6 @@ class Theme
         }
 
     }
-
 
     /**
      * Возвращает скрипты для всего сайта

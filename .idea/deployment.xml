@@ -9,6 +9,17 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="BanantsTest">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/config/database.php" />
+            <excludedPath path="/localstorage" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
       <paths name="IVR">
         <serverdata>
           <mappings>
@@ -17,6 +28,13 @@
         </serverdata>
       </paths>
       <paths name="IVRProd">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="MailTest">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -37,6 +55,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="bullpay">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="israelsim">
         <serverdata>
           <mappings>
@@ -45,6 +70,13 @@
         </serverdata>
       </paths>
       <paths name="mzone2.0">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="regiscard">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

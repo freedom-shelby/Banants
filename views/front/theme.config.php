@@ -15,9 +15,11 @@ return array(
             array('file' => 'normalize.css'),
             array('file' => 'owl.carousel.css'),
             array('file' => 'style.css'),
+            array('file' => 'jquery.fancybox.css'),
         ),
         'js' => array(
             array('file' => 'jquery.js'),
+            array('file' => 'jquery.banants.tabs.widget.js'),
             array('file' => 'owl.carousel.min.js'),
             array('file' => 'masonry.min.js'),
             array('file' => 'imagesloaded.js'),

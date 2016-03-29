@@ -88,8 +88,7 @@ class I18n extends Lang{
 				$items[$entities[$trans['entity_id']]['text']] = $trans['text'];
 			}
 
-			$items = json_encode($items);
-			$cache->setData($items);
+			$cache->setData(json_encode($items));
 			$cache->save();
 		}
 

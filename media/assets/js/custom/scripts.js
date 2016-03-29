@@ -172,4 +172,6 @@ $(document).ready(function() {
             }
         });
     }
-})
+
+    $('.widget.widget-with-tabs').banantsTabsWidget();
+});

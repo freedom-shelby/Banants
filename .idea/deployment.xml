@@ -17,6 +17,10 @@
           <excludedPaths>
             <excludedPath path="/config/database.php" />
             <excludedPath path="/localstorage" />
+            <excludedPath path="/vendor" />
+            <excludedPath path="/system" />
+            <excludedPath path="/HTML" />
+            <excludedPath path="/views/test" />
           </excludedPaths>
         </serverdata>
       </paths>

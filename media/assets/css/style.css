@@ -1,15 +1,15 @@
 html, body {
     height: 100%;
 }
-
+html{
+    background: url(../images/body-bg.jpg) no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 body {
 	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-	background-image: url(../images/body-bg.jpg);
-	background-repeat: no-repeat;
-	background-color: #000012;
-	-webkit-background-position: top center;
-	-moz-background-position: top center;
-	background-position: top center;
 	min-width: 1200px;
 }
 
@@ -3452,3 +3452,177 @@ div.dialog{
 
 
 
+/*:-)-:-)*/
+.news_wrapper .news_item{
+    background-color: #f6f6f6;
+}
+
+
+
+.widget{
+    background-color: #217cb8;
+    margin-bottom: 5px;
+
+}
+.widget-header{
+    background-color: #044980;
+    min-height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.widget.widget-with-tabs{
+    min-height: 309px;
+    position: relative;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div{
+    position: absolute;
+    width: 100px;
+    background-color: #217cb8;
+    border-right: 1px solid #044980;
+    bottom: 0;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div:hover,
+.widget.widget-with-tabs .widget-header .widget-tabs > div:hover > div{
+    cursor: pointer;
+    background-color: #2c92d1 !important;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter > div{
+    background-color: #3399CC;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.darken,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.darken > div{
+    background-color: #006699;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.darken > div *,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter > div *{
+    visibility: hidden;
+    font-size: 1px;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active{
+    bottom: 0;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active span{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    -moz-transform:    skew(20deg);
+    -o-transform:      skew(20deg);
+    -webkit-transform: skew(20deg);
+    transform:         skew(20deg);
+    display: block;
+    padding-top: 5px;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active > div{
+    height: 100%;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div.lighter > div,
+.widget.widget-with-tabs .widget-header .widget-tabs > div.active > div
+{
+    border-left: 1px solid #006699;
+}
+.widget.widget-with-tabs .widget-header .widget-tabs > div > div{
+    background-color: #217cb8;
+    margin-left: -5px;
+    border-left: 1px solid #3399CC;
+    -moz-transform:    skew(-20deg);
+    -o-transform:      skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    transform:         skew(-20deg);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1, M12=-0.3639702342662026, M21=-0.3639702342662026, M22=1, SizingMethod='auto expand')";
+    filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=1,
+            M12=-0.3639702342662026,
+            M21=-0.3639702342662026,
+            M22=1,
+            SizingMethod='auto expand');
+    width: 99%;
+    height: 100%;
+    text-align: center;
+}
+.widget-tabs-body > div{
+    display: none;
+}
+.widget.widget-with-tabs .widget-body{
+    min-height: 247px;
+}
+.widget-tabs-body > div.active{
+    display: block;
+}
+
+.widget-pagination{
+    height: 22px;
+    padding: 5px 0;
+}
+
+.score-table-widget  {
+    counter-reset: rowNumber;
+    font-size: 16px;
+    color:#fff;
+    width:100%;
+}
+
+.score-table-widget  td {
+    text-align: center;
+    padding: 3px 0;
+}
+
+.score-table-widget  span {
+    color:#fff;
+}
+
+.score-table-widget  a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.score-table-widget tr {
+    color:#f5da19;
+}
+
+.score-table-widget tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.score-table-widget  tr td:first-child {
+    text-align: left;
+}
+
+.score-table-widget  tr:not(:first-child) {
+    counter-increment: rowNumber;
+}
+
+.score-table-widget  tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+    padding-left: 10px;
+}
+
+.score-table-widget  th {
+    color:#ffe000;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.score-table-widget .active {
+    background-color: rgba(255, 255, 255, 0.5)!important;
+}
+
+.score-table-widget .active a {
+    color:#f5da19;
+    text-decoration: none;
+}
+
+.score-table-widget .active .team {
+    color:#f5da19;
+}
+
+.score-table-widget tr:hover {
+    background-color: rgba(255, 230, 73, 0.34);
+}
+
+.score-table-widget tr:first-child:hover {
+    background-color: transparent;
+}

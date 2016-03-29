@@ -6,7 +6,7 @@
                     <div class="container_top_header clearfix">
                         <div class="container_top_slideshow clearfix">
                             <div class="item">
-                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                <a href="http://news.am/arm/" title="slideshow_images" rel="gallery">
                                     <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
@@ -16,7 +16,7 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                <a href="http://news.am/arm/" title="slideshow_images" rel="gallery">
                                     <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
@@ -26,7 +26,7 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                <a href="http://news.am/arm/" title="slideshow_images" rel="gallery">
                                     <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
@@ -36,7 +36,7 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a class="fancybox" href="/media/assets/images/container_top_slideshow_images1.jpg" title="slideshow_images" rel="gallery">
+                                <a href="http://www.news.am" title="slideshow_images" rel="gallery">
                                     <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
@@ -47,8 +47,16 @@
                             </div><!--item-->
                         </div><!-- container_top_slideshow -->
                         <div class="container_top_aside">
+<!--                            <div class="video_wrapper">-->
+<!--                                <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="http://img.youtube.com/vi/L9szn1QQfas/3.jpg" alt="video_image"></a>-->
+<!--                                <span>Роман Асхабадзе вывел Бананц на первое место в лиге Армении </span>-->
+<!--                            </div>-->
                             <div class="video_wrapper">
-                                <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/video_image.jpg" alt="video_image"></a>
+                                <div class="videoimage_wrapper">
+                                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"> <img src="http://img.youtube.com/vi/L9szn1QQfas/2.jpg" alt="video_image">
+                                        <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                    </a>
+                                </div>
                                 <span>Роман Асхабадзе вывел Бананц на первое место в лиге Армении </span>
                             </div><!-- video_wrapper -->
                             <div class="news_wrapper">
@@ -64,7 +72,7 @@
                                         </div><!-- news_item_info -->
                                     </a>
                                 </div><!-- news_item -->
-                                <div class="news_item clearfix">
+                                <div class="news_item news_item_active clearfix">
                                     <a href="#">
                                         <div class="news_item_images">
                                             <img src="/media/assets/images/news_item_images2.jpg" alt="news_item_images" />
@@ -263,9 +271,9 @@
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img class="cal_blue" src="icons/cal2.svg" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img class="photo_dark_blue" src="file:///E:/sunrise/photoshop/icons/photo_dark_blue.svg" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img class="changable" src="icons/video_archive_blue.svg" alt="best_player_multiple_icon"></a></span>
+                                            <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -281,9 +289,9 @@
                                             <span>21 Год<br> 23 Гола</span>
                                         </div><!-- best_player_info -->
                                         <div class="best_player_multiple">
-                                            <span><a href="#"><img class="cal_blue" src="icons/cal2.svg" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img class="photo_dark_blue" src="icons/photo_dark_blue.svg" alt="best_player_multiple_icon"></a></span>
-                                            <span><a href="#"><img class="changable" src="icons/video_archive_blue.svg" alt="best_player_multiple_icon"></a></span>
+                                            <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
+                                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
                                         </div><!-- best_player_multiple -->
                                     </div><!-- best_player_right -->
                                 </div><!-- best_player_content -->
@@ -369,27 +377,27 @@
                         </h3>
                         <form action="#" method="post">
                             <div class="quizzes_list">
-                                <input type="checkbox" name="check1" id="check1" checked="checked" />
+                                <input type="radio" name="check1" id="check1" checked="checked" />
                                 <label for="check1">Арустамян Гагик</label>
                             </div><!-- quizzes_list -->
                             <div class="quizzes_list">
-                                <input type="checkbox" name="check2" id="check2" />
+                                <input type="radio" name="check1" id="check2" />
                                 <label for="check2">Тадевосян Манвел</label>
                             </div><!-- quizzes_list -->
                             <div class="quizzes_list">
-                                <input type="checkbox" name="check3" id="check3" />
+                                <input type="radio" name="check1" id="check3" />
                                 <label for="check3">Леонель Месси</label>
                             </div><!-- quizzes_list -->
                             <div class="quizzes_list">
-                                <input type="checkbox" name="check4" id="check4" />
+                                <input type="radio" name="check1" id="check4" />
                                 <label for="check4">Вараздат Гегамян</label>
                             </div><!-- quizzes_list -->
                             <div class="quizzes_list">
-                                <input type="checkbox" name="check5" id="check5" />
+                                <input type="radio" name="check1" id="check5" />
                                 <label for="check5">Рафаель Галустян</label>
                             </div><!-- quizzes_list -->
                             <div class="quizzes_list">
-                                <input type="checkbox" name="check6" id="check6" />
+                                <input type="radio" name="check1" id="check6" />
                                 <label for="check6">Егише Чаренц</label>
                             </div><!-- quizzes_list -->
                             <input type="submit" value="Ответить"/>
@@ -788,83 +796,130 @@
                             <div class="content_middle_slider">
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_middle_images1"></a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_middle_images1">
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_big_images"></a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_big_images"></a>
+                                            <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images2.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images4.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                 </div><!-- content_middle_slider_item -->
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_middle_images1">
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_big_images"></a>
+                                            <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images2.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
-                                        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                            <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
-                                        </a>
+                                        <div class="videoimage_wrapper">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="/media/assets/images/content_slider_small_images4.jpg" alt="content_slider_images" />
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
+                                        </div>
                                     </div><!-- content_middle_slider -->
+
                                 </div><!-- content_middle_slider_item -->
                             </div><!-- content_middle_slider -->
                             <span class="all_news_link"><a href="#">Видео архив. Лудшие моменты.</a></span>
@@ -910,7 +965,7 @@
                             </div><!-- container_top_slideshow -->
                             <div class="content_middle_right_banner">
                                 <a href="#">
-                                    <img src="/media/assets/images/forward_homePage.jpg" alt="content_middle_right_banner" />
+                                    <img src="images/forward_homePage.jpg" alt="content_middle_right_banner" />
                                 </a>
                             </div><!-- content_middle_right_banner -->
                         </div><!-- content_middle_right -->

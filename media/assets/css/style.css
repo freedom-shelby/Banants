@@ -15,10 +15,10 @@ body {
 
 @font-face{
     font-family:'Segoe UI';
-    src:url('../fonts/segoeui-webfont.eot');
-    src:url('../fonts/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/segoeui-webfont.woff') format('woff'),
-        url('../fonts/segoeui-webfont.ttf') format('truetype');
+    src:url('../fonts/ru/segoeui-webfont.eot');
+    src:url('../fonts/ru/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ru/segoeui-webfont.woff') format('woff'),
+        url('../fonts/ru/segoeui-webfont.ttf') format('truetype');
     font-weight:normal;
     font-style:normal;  
 }
@@ -35,10 +35,10 @@ body {
 
 @font-face{
     font-family:'Segoe UI Regular';
-    src:url('../fonts/ru/Segoe UI Regular.eot');
-    src:url('../fonts/ru/Segoe UI Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ru/Segoe UI Regular.woff') format('woff'),
-        url('../fonts/ru/Segoe UI Regular.ttf') format('truetype');
+    src:url('../fonts/ru/SegoeUI.eot');
+    src:url('../fonts/ru/SegoeUI.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ru/SegoeUI.woff') format('woff'),
+        url('../fonts/ru/SegoeUI.ttf') format('truetype');
     font-weight:normal;
     font-style:normal;  
 }
@@ -48,9 +48,8 @@ body {
 @font-face {
     font-family: 'icomoon';
     src:
-        url('fonts/icomoon.ttf?49mnhm') format('truetype'),
-        url('fonts/icomoon.woff?49mnhm') format('woff'),
-        url('fonts/icomoon.svg?49mnhm#icomoon') format('svg');
+        url('../fonts/ru/icomoon.ttf?49mnhm') format('truetype'),
+        url('../fonts/ru/icomoon.woff?49mnhm') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -76,12 +75,11 @@ body {
     padding:0;
     -webkit-box-shadow: 0px 10px 27px 0px rgba(52, 45, 45, 0.75);
     box-shadow: 0px 10px 27px 0px rgba(52, 45, 45, 0.75);
-    box-shadow: 0px 10px 27px 0px rgba(52, 45, 45, 0.75);
     min-width: 320px;
 }
 
 .ui-resizable-handle{
-    display: none!important;
+    display: none !important;
 }
 
 .ui-dialog .ui-icon,.ui-dialog .ui-button{
@@ -140,15 +138,15 @@ body {
 }
 .icon-video_rightbar:before {
     content: "\e90a";
-}@font-face {
+}
+/*@font-face {
     font-family: 'icomoon';
     src:
-        url('fonts/icomoon.ttf?49mnhm') format('truetype'),
-        url('fonts/icomoon.woff?49mnhm') format('woff'),
-        url('fonts/icomoon.svg?49mnhm#icomoon') format('svg');
+        url('..fonts/ru/icomoon.ttf?49mnhm') format('truetype'),
+        url('..fonts/ru/icomoon.woff?49mnhm') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -197,6 +195,10 @@ body {
 }
 .icon-video_rightbar:before {
     content: "\e90a";
+}
+
+#accordion .accordion_title:hover{
+	color: #ffe000;
 }
 
 /*IconMoon End*/
@@ -426,12 +428,12 @@ h1, h2, h3, h4, h5, h5, h6 {
 .header_right .banner_team1 .team1_logo{
 	width:  88px;
 	float: left;
-	margin-top: -7px;
+	margin-top: -11px;
 	margin-left: 4px;
 }
 
 .header_right .banner_team1 h4{
-	margin-top: -23px;
+	margin-top: -19px;
     margin-left: 19px;
     color: #044980;
     font-size: 14px;
@@ -542,6 +544,10 @@ h1, h2, h3, h4, h5, h5, h6 {
 	min-height: 50px;
 }
 
+.submenu_bottom_col:hover h3{
+	text-decoration: underline;
+}
+
 .navigation div.submenu_bottom h3 a {
 	padding: 0;
 }
@@ -561,6 +567,13 @@ h1, h2, h3, h4, h5, h5, h6 {
 	display: block;
     max-width: 100%;
     margin: 0 auto;
+}
+.submenu_bottom_col:hover img{
+	opacity: 0.8;
+}
+
+.submenu_bottom_col  h3:hover{
+	text-decoration: 1px solid red;
 }
 
 .header_right .banner_team2{
@@ -652,7 +665,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header .header_bottom form:hover input{
-	background-color: #d7def1;]
+	background-color: #90BDDB;
 }
 
 .header_bottom form input {
@@ -667,7 +680,7 @@ h1, h2, h3, h4, h5, h5, h6 {
     color:#044980;
     background-color: #217cb8;
     border: 0;
-    padding: 7px 6px 7px 10px;
+    padding: 7px 6px 6px 10px;
 }
 
 /*.header_bottom form input[type="text"]:hover{
@@ -822,6 +835,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 	padding: 15px 30px 15px 15px;
 	font-family: Impact Regular;
     letter-spacing: 0px;
+    cursor: pointer;
 }
 
 .container_top_aside {
@@ -878,6 +892,8 @@ h1, h2, h3, h4, h5, h5, h6 {
     margin-top: -2px;
 }
 
+/*various fancybox.iframe*/
+
 .owl-pagination .owl-page.active{
 	background-color: #ffe000;
 }
@@ -917,6 +933,14 @@ h1, h2, h3, h4, h5, h5, h6 {
 	padding: 0 5px;
 }
 
+.videoimage_wrapper{
+	position: relative;
+}
+
+.videoimage_wrapper a:hover img{
+	opacity: 0.8;
+}
+
 .video_wrapper {
 	background-color: #fff;
 	border: 1px solid #66a6d1;
@@ -925,9 +949,19 @@ h1, h2, h3, h4, h5, h5, h6 {
 	line-height: 14px;
 	color:#024072;
 	text-align: center;
+	cursor: pointer;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.container img.videoplayer_icon{
+	width: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -22px;
 }
 
 .news_wrapper {
@@ -966,13 +1000,13 @@ h1, h2, h3, h4, h5, h5, h6 {
 	padding: 4px;
 }
 
-.news_item_active {
-	background-image: url(../images/news_wrapper_bg.jpg);
-}
+/*.news_item_active {*/
+	/*background-image: url(../images/news_wrapper_bg.jpg);*/
+/*}*/
 
 .news_item_active span {
 	color:#021951;
-	border-bottom: 1px solid #021951;
+	/*border-bottom: 1px solid #021951;*/
 }
 
 .news_item:hover {
@@ -995,6 +1029,11 @@ h1, h2, h3, h4, h5, h5, h6 {
 	width: 100%;
     position: relative;
 }
+
+/* todo: unused*/
+/*.tournament_table.home{*/
+	/*margin-bottom: 22px;*/
+/*}*/
 
 .tournament_slider_item {
 	padding: 0 0 7px 0;
@@ -1179,7 +1218,7 @@ div.tournament_table .tournament_table_active a {
 }
 
 .best_player_multiple .shooter_icons:hover{
-    color: #3C3C3C;
+    color: #ffe000;
 }
 
 
@@ -1335,6 +1374,10 @@ div.tournament_table .tournament_table_active a {
 	margin-left: 1px;
 }
 
+.leftbar_images_slider_item img:hover{
+	opacity: 0.8;
+}
+
 .leftbar_images_slider img {
 	display: block;
 	margin: 0 auto;
@@ -1366,9 +1409,9 @@ div.tournament_table .tournament_table_active a {
 }
 
 .photogalery_link, .all_news_link {
+	margin-left: 10px;
 	font-size: 11px;
 	color:#ababab;
-	border-bottom: 1px solid #ababab;
 	float: left;
     position: relative;
     z-index: 9;
@@ -1380,7 +1423,6 @@ div.tournament_table .tournament_table_active a {
 
 .photogalery_link a, .all_news_link a {
 	color:#ababab;
-	text-decoration: none;
 }
 
 .all_news_link {
@@ -1408,6 +1450,10 @@ div.tournament_table .tournament_table_active a {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
+}
+
+.home.quizzes{
+	margin-top: 24px;
 }
 
 .quizzes {
@@ -1827,7 +1873,7 @@ div.news_list h3 {
 .content_middle_right_banner {
 	width: 440px;
     clear: both;
-    padding-top: 7px;
+    padding-top: 9px;
 }
 
 .content_middle_right_banner img {
@@ -2138,7 +2184,7 @@ div.news_list h3 {
 }
 
 .content_top_right_info_blog_aside .icon_hover:hover{
-    color: #3C3C3C;
+    color: #0F6CA8;
 }
 .content_top_right_info_blog_aside .photo_video{
     float: left;
@@ -2366,10 +2412,10 @@ div.news_list h3 {
 }
 
 /*Form*/
-.form_page .inner_content {
+.inner_content.form_page {
 	padding: 0 0;
 }
-.form_page .inner_content .apply{
+.inner_content.form_page .apply{
 	background-color: #044980;
 	color: #ffe000;
 	text-align: left;
@@ -2381,7 +2427,7 @@ div.news_list h3 {
     padding-bottom: 5px;
 }
 
-.form_page .content_top_right_info_blog_wrapper h3{
+.content_top_right_info_blog_wrapper.form h3{
     color: #ffe000;
     background-color: #044980;
     margin: 0;
@@ -2389,20 +2435,19 @@ div.news_list h3 {
     font-size: 18px;
 }
 
-.form_page .inner_content .choose{
+.inner_content.form_page .choose{
 	margin: 18px 107px 43px 14px;
 }
-.form_page .inner_content .choose .aplic_type{
+.inner_content.form_page .choose .aplic_type{
 	font-size: 17px;
 	color: #044980;
 	margin: 23px 27px  14px;
 }
 
-.container.form_page .inner_content{
+.inner_content.form_page .inner_content{
     background-color: #fff;
 }
-
-.form_page select{
+.inner_content.form_page select{
 	background-color: #e6eff3;
 	padding: 8px 13px;
 	border-radius: 5px;
@@ -2410,17 +2455,33 @@ div.news_list h3 {
 	border: none;
 }
 
-.form_page .form_adver img{
+.form_adver.form img{
     border: 1px solid #66a6d1;
 }
 
-.job_wrapper {
+.job_wrapper.form h3{
+	width: 100%;
+	display: block;
+	color: #ffe000;
+	background-color: #044980;
+	padding: 9px 0 8px 10px;
+	margin: 0;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+ .job_wrapper.form a{
+	text-decoration: none;
+}
+
+.job_wrapper.form {
 	border: 1px solid #66a6d1;
 	border-top: 0;
 	margin-top: 8px;
 }
 
-.job_wrapper h3{
+.job_wrapper.form h3{
 	width: 100%;
 	display: block;
 	color: #ffe000;
@@ -2435,23 +2496,7 @@ div.news_list h3 {
 	box-sizing: border-box;
 }
 
-.job_wrapper a{
-	text-decoration: none;
-}
-
-.form_page .leftbar_images_slider .job_wrapper h3{
-	width: 100%;
-	display: block;
-	color: #ffe000;
-	background-color: #044980;
-	padding: 9px 0 8px 10px;
-	margin: 0;
-	font-size: 18px;
-	text-transform: uppercase;
-	text-decoration: none;
-}
-
-.form_page .leftbar_images_slider .job_wrapper a{
+.job_wrapper.form a{
 	text-decoration: none;
 }
 
@@ -2512,21 +2557,21 @@ div.news_list h3 {
 }
 
 
-.form_page .inner_content .choose .application{
+.inner_content.form_page .choose .application{
 	background-color: #e6eff3;
 	color: #044980;
 }
 
-.form_page .inner_content .personal_info{
-	margin: 42px 0 28px 26px;
+.inner_content.form_page .personal_info{
+	margin: 42px 0 -37px 26px;
 }
 
-.form_page .inner_content .personal_info form{
+.inner_content.form_page .personal_info form{
 	font-size: 17px;
 	color: #044980;
 }
 
-.form_page .inner_content .choose .personal_info input{
+.inner_content.form_page .choose .personal_info input{
 	margin: -10px 0 20px 10px;
 	float: left;
 	background-color: #f6f6f6;
@@ -2535,30 +2580,31 @@ div.news_list h3 {
 	height: 35px;
 }
 
-.form_page .inner_content .choose .personal_info button{
+.inner_content.form_page .choose .personal_info button{
 	width: 289px;
 	padding: 11px 97px;
 	background-color: #044980;
 	margin: 2px 0 0 157px;
 	color: #fff;
+	margin-bottom: 49px;
 }
 
-.form_page .inner_content .personal_info .wrapper{
+.inner_content.form_page .personal_info .wrapper{
 	width: 458px;
 }
 
-.form_page .inner_content .personal_info .wrapper .required_info{
+.inner_content.form_page .personal_info .wrapper .required_info{
 	text-align: right;
 	margin: -3px 3px 0 -5px;
 	font-family: 'Segoe UI Regular';
 }
 
-.form_page .inner_content .personal_info .wrapper .required_info{
+.inner_content.form_page .personal_info .wrapper .required_info{
 	display: block;
 	float: left;
 	width: 150px;
 }
-  .form_page textarea{
+  .inner_content.form_page textarea{
     margin: -10px 0 0 10px;
   	border: 1px solid #66a6d1;
   	width: 279px;
@@ -2567,8 +2613,12 @@ div.news_list h3 {
     background-color: #f6f6f6;
   }
 
-  .form_page .inner_content .personal_info .wrapper .text{
+  .inner_content.form_page .personal_info .wrapper .text{
   	float: left;
+  }
+
+  .inner_content.form_page{
+  	background-color: #fff;
   }
 
   /*Cups page*/

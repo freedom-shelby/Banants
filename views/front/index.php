@@ -41,7 +41,7 @@
                         </div>
                         <div class="main_logo">
                             <img src="/media/assets/images/team_logo/fc-ararat-yerevan.png" alt="logo_team1" />
-                            <h4 style="margin-top: -8px;">АРАРАТ</h4>
+                            <h4>АРАРАТ</h4>
                         </div>
                     </div><!--banner_team1-->
                     <div class="banner_team2">

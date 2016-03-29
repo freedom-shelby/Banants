@@ -797,7 +797,8 @@
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_middle_images1">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/L9szn1QQfas/3.jpg" alt="content_slider_middle_images1">
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -965,7 +966,7 @@
                             </div><!-- container_top_slideshow -->
                             <div class="content_middle_right_banner">
                                 <a href="#">
-                                    <img src="images/forward_homePage.jpg" alt="content_middle_right_banner" />
+                                    <img src="/media/assets/images/forward_homePage.jpg" alt="content_middle_right_banner" />
                                 </a>
                             </div><!-- content_middle_right_banner -->
                         </div><!-- content_middle_right -->

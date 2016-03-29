@@ -433,8 +433,8 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team1 h4{
-	margin-top: -19px;
-    margin-left: 19px;
+	margin-top: -11px;
+    margin-left: 22px;
     color: #044980;
     font-size: 14px;
 }
@@ -626,7 +626,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2 h4{
-	margin: -6px 1px 0px 22px;
+	margin: -7px 0px 0px 19px;
 	font-size: 14px;
 	color: #044980;
 }
@@ -639,7 +639,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 	width: 240px;
 	float: left;
 	margin-right: 10px;
-  }
+}
 
 .banner img {
 	display: block;

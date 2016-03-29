@@ -13,7 +13,7 @@ restrictAccess();
  * Роуты приветствия
  */
 Router::get(['/', 'as' => 'front.home'],'Front\Pages@getHome');
-Router::get(['/{page?}','rules' => ['page' => '[a-z_-]+'], 'as' => 'front.page'],'Front\Pages@getPage');
+Router::get(['/{page?}','rules' => ['page' => '[a-z0-9_-]+'], 'as' => 'front.page'],'Front\Pages@getPage');
 
 
 /**

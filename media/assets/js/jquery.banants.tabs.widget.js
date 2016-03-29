@@ -44,8 +44,8 @@
             $(this).find('.widget-pagination .wgt-prev').click({obj:$(this)},function(e){
                 var tabsCount = e.data.obj.find('.widget-tabs > div').length-1;
                 var currentIndex = e.data.obj.find('.widget-tabs > div.active').index();
-                if( tabsCount == currentIndex || tabsCount == 1){
-                    actionTabs(e.data.obj, 0);
+                if(currentIndex == 0 && tabsCount > 1){
+                    actionTabs(e.data.obj, tabsCount);
                 }else{
                     actionTabs(e.data.obj, --currentIndex);
                 }

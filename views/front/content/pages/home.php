@@ -16,35 +16,35 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
-                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
+                                <a href="/ararat_ulis_03_12_15.html" title="slideshow_images" rel="gallery">
+                                    <img src="/uploads/images/ararat_banants/0e09527b0f5edaa60cf5702119e6a0a2_L.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
                                     <div class="container_top_slider_text_inner">
-                                        Нвероятный ГОЛ<br> Мовсисяна потряс<br> ПУБЛИКУ!
+                                        Фоторепортаж матча <br>Арарат - Улисс
                                     </div>
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
-                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
+                                <a href="/banants_nachal_god_s_kruponoj_pobedoj.html" title="slideshow_images" rel="gallery">
+                                    <img src="/uploads/images/banants_nachal_god_s_kruponoj_pobedoj/8f704c6e91e045c72378c71d940a59ce_XL.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
                                     <div class="container_top_slider_text_inner">
-                                        Нвероятный ГОЛ<br> Мовсисяна потряс<br> ПУБЛИКУ!
+                                        "Бананц" начал год <br> с крупной победой
                                     </div>
-                                </div><!-- container_top_slider_text -->
-                            </div><!--item-->
-                            <div class="item">
-                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
-                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
-                                </a>
-                                <div class="container_top_slider_text">
-                                    <div class="container_top_slider_text_inner">
-                                        Нвероятный ГОЛ<br> Мовсисяна потряс<br> ПУБЛИКУ!
-                                    </div>
-                                </div><!-- container_top_slider_text -->
-                            </div><!--item-->
+                                </div>
+                            </div>
+<!--                            <div class="item">-->
+<!--                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">-->
+<!--                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />-->
+<!--                                </a>-->
+<!--                                <div class="container_top_slider_text">-->
+<!--                                    <div class="container_top_slider_text_inner">-->
+<!--                                        Нвероятный ГОЛ<br> Мовсисяна потряс<br> ПУБЛИКУ!-->
+<!--                                    </div>-->
+<!--                                </div><!-- container_top_slider_text -->
+<!--                            </div><!--item-->
                         </div><!-- container_top_slideshow -->
                         <div class="container_top_aside">
 <!--                            <div class="video_wrapper">-->
@@ -53,33 +53,33 @@
 <!--                            </div>-->
                             <div class="video_wrapper">
                                 <div class="videoimage_wrapper">
-                                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"> <img src="http://img.youtube.com/vi/L9szn1QQfas/2.jpg" alt="video_image">
+                                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/PyvDXwmTEkE?autoplay=1"> <img src="http://img.youtube.com/vi/PyvDXwmTEkE/0.jpg" alt="video_image">
                                         <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                     </a>
                                 </div>
-                                <span>Роман Асхабадзе вывел Бананц на первое место в лиге Армении </span>
+                                <span>Завен Бадоян: В эпизоде с голом все спланировал заранее</span>
                             </div><!-- video_wrapper -->
                             <div class="news_wrapper">
                                 <div class="news_item clearfix">
-                                    <a href="#">
+                                    <a href="/banants_vernulsya_v_erevan.html">
                                         <div class="news_item_images">
-                                            <img src="/media/assets/images/news_item_images1.jpg" alt="news_item_images" />
+                                            <img src="/uploads/images/banants_vernulssya_v_erevan/abc7c98b4ddfae4816b74e0d2fd932d2_M.jpg" alt="news_item_images" />
                                         </div><!-- news_item_images -->
                                         <div class="news_item_info">
 												<span>
-													Главный тренер выразил своё восхищение матчем
+													"Бананц" вернулся в Ереван
 												</span>
                                         </div><!-- news_item_info -->
                                     </a>
                                 </div><!-- news_item -->
                                 <div class="news_item news_item_active clearfix">
-                                    <a href="#">
+                                    <a href="/banants_nachal_sbor_v_kipre.html">
                                         <div class="news_item_images">
-                                            <img src="/media/assets/images/news_item_images2.jpg" alt="news_item_images" />
+                                            <img src="/uploads/images/banants-nachal-sbor-v-turtsii/c5949b98a954ba20a6a6d17790280cde_M_2.jpg" alt="news_item_images" />
                                         </div><!-- news_item_images -->
                                         <div class="news_item_info">
 												<span>
-													Бананц закончил построение нового стадиона
+													"Бананц" начал сбор на Кипре
 												</span>
                                         </div><!-- news_item_info -->
                                     </a>
@@ -107,52 +107,51 @@
                             <div class="widget-tabs-body">
                                 <div class="tab1">tab desc1</div>
                                 <div class="tab2 active">
-
                                     <table class="score-table-widget">
                                         <tbody><tr>
                                             <th></th>
                                             <th>ИГР</th>
                                             <th>ОЧК</th>
                                         </tr>
-                                        <tr class="active">
-                                            <td><a class="team" href="#">Бананц</a></td>
-                                            <td><span>11</span></td>
-                                            <td><span>33</span></td>
+                                        <tr>
+                                            <td><a class="team" href="#">Алашкерт</a></td>
+                                            <td><span>18</span></td>
+                                            <td><span>38</span></td>
                                         </tr>
                                         <tr>
-                                            <td><a class="team" href="#">Алашкерт </a></td>
-                                            <td><span>10</span></td>
+                                            <td><a class="team" href="#">Пюник </a></td>
+                                            <td><span>18</span></td>
+                                            <td><span>34</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a class="team" href="#">Ширак</a></td>
+                                            <td><span>18</span></td>
+                                            <td><span>28</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a class="team" href="#">Арарат</a></td>
+                                            <td><span>18</span></td>
                                             <td><span>27</span></td>
                                         </tr>
                                         <tr>
                                             <td><a class="team" href="#">Гандзасар</a></td>
-                                            <td><span>10</span></td>
-                                            <td><span>24</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Пюник</a></td>
-                                            <td><span>11</span></td>
-                                            <td><span>24</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Арарат</a></td>
-                                            <td><span>11</span></td>
                                             <td><span>18</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Ширак</a></td>
-                                            <td><span>11</span></td>
-                                            <td><span>14</span></td>
+                                            <td><span>25</span></td>
                                         </tr>
                                         <tr>
                                             <td><a class="team" href="#">Мика</a></td>
-                                            <td><span>11</span></td>
-                                            <td><span>8</span></td>
+                                            <td><span>18</span></td>
+                                            <td><span>21</span></td>
+                                        </tr>
+                                        <tr class="active">
+                                            <td><a class="team" href="#">Бананц</a></td>
+                                            <td><span>18</span></td>
+                                            <td><span>21</span></td>
                                         </tr>
                                         <tr>
                                             <td><a class="team" href="#">Улисс</a></td>
-                                            <td><span>11</span></td>
-                                            <td><span>5</span></td>
+                                            <td><span>18</span></td>
+                                            <td><span>2</span></td>
                                         </tr>
                                         </tbody></table>
 
@@ -420,9 +419,9 @@
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b">
+                                        <a class="fancybox" href="/nairi_minasyan_izmeneniya_pomogut_nam_podnyatsya_v_turnirnoj_tablitse.html" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" />
+                                                <img src="/uploads/images/nairi_minasyan_izmeneniya_pomogut_nam_podnyatsya_v_turnirnoj_tablitse/9cb6e71fd379c0a6d58ef216f9910ae9_M_2.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
                                                 <span>Колоссальные успехи бананца ...</span>
@@ -430,9 +429,9 @@
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+                                        <a class="fancybox" href="/press_konferentsiya_posle_matcha_banants_mika.html" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                                <img src="/uploads/images/press_konferentsiya_posle_matcha_banants_mika/f7abac252ae5ed68121b92ba7a669d87_M_2.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
                                                 <span>Победа юношеской сборной в финале </span>
@@ -440,19 +439,19 @@
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+                                        <a class="fancybox" href="/s_dnem_rozhdeniya_roman_guramovich.html" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                                <img src="/uploads/images/s_dnem_rozhdeniya_roman_guramovich/5003d452a8da016f3ed02a6385cf54e8_M_2.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <span>Победа юношеской сборной в финале </span>
+                                                <span>С днем рождения, Роман Гурамович! </span>
                                             </div>
                                         </a>
                                     </div><!-- carousel_slider_item -->
                                     <div class="carousel_slider_item">
-                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+                                        <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                                                <img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
                                                 <span>Победа юношеской сборной в финале </span>
@@ -481,12 +480,12 @@
                                 <div class="news_slider homepage clearfix">
                                     <div class="news_slider_item">
                                         <div class="news_list clearfix">
-                                            <a href="#">
+                                            <a href="/banants_nachal_sbor_v_kipre.html">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images1.jpg" alt="news_list_images" />
+                                                    <img src="/uploads/images/banants-nachal-sbor-v-turtsii/c5949b98a954ba20a6a6d17790280cde_M_3.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
-                                                    <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
+                                                    <h3>"Бананц" начал сбор на Кипре</h3>
                                                     <div class="news_list_middle">
                                                         <span>17:46 Сегодня</span>
 															<span class="news_list_watch">
@@ -494,18 +493,18 @@
 															</span><!-- news_list_watch -->
                                                     </div><!-- news_list_middle -->
 														<span>
-															Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...
+					                                        Ереванский "Бананц" начал свой второй учебно-тренировочный сбор, который проходит в кипрском городе Айия-Напа. В составе "Бананца" на Остров Афродите отправились 25 игрока...
 														</span>
                                                 </div><!-- news_list_info -->
                                             </a>
                                         </div><!-- news_list -->
                                         <div class="news_list clearfix">
-                                            <a href="#">
+                                            <a href="/nairi_minasyan_izmeneniya_pomogut_nam_podnyatsya_v_turnirnoj_tablitse.html">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images2.jpg" alt="news_list_images" />
+                                                    <img src="/uploads/images/nairi_minasyan_izmeneniya_pomogut_nam_podnyatsya_v_turnirnoj_tablitse/9cb6e71fd379c0a6d58ef216f9910ae9_M_2.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
-                                                    <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
+                                                    <h3>Наири Минасян. "Изменения помогут нам подняться в турнирной таблице"</h3>
                                                     <div class="news_list_middle">
                                                         <span>17:46 Сегодня</span>
 															<span class="news_list_watch">
@@ -513,18 +512,19 @@
 															</span><!-- news_list_watch -->
                                                     </div><!-- news_list_middle -->
 														<span>
-															Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...
+                                                            Ереванский "Бананц" завершил учебно-тренировочный сбор на Кипре.
+                                                            Подопечные Тито Рамальо провели три матча. В первом матче "Бананц"...
 														</span>
                                                 </div><!-- news_list_info -->
                                             </a>
                                         </div><!-- news_list -->
                                         <div class="news_list clearfix">
-                                            <a href="#">
+                                            <a href="/press_konferentsiya_posle_matcha_banants_mika.html">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images3.jpg" alt="news_list_images" />
+                                                    <img src="/uploads/images/press_konferentsiya_posle_matcha_banants_mika/f7abac252ae5ed68121b92ba7a669d87_M_2.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
-                                                    <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
+                                                    <h3>Пресс-конференция после матча Бананц – Мика</h3>
                                                     <div class="news_list_middle">
                                                         <span>17:46 Сегодня</span>
 															<span class="news_list_watch">
@@ -532,27 +532,29 @@
 															</span><!-- news_list_watch -->
                                                     </div><!-- news_list_middle -->
 														<span>
-															Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...
+                                                            осле матча 25-го тура Высшей лиги «Бананц» - «Мика» (0:0) главные тренеры команд поделились мнениями об игре, передает armsport.am.
+                                                            Жолт Хорняк («Бананц»): «Я благодарен своей команде за эту игру...
 														</span>
                                                 </div><!-- news_list_info -->
                                             </a>
                                         </div><!-- news_list -->
                                         <div class="news_list clearfix">
-                                            <a href="#">
+                                            <a href="/s_dnem_rozhdeniya_roman_guramovich.html">
                                                 <div class="news_list_images">
-                                                    <img src="/media/assets/images/news_list_images4.jpg" alt="news_list_images" />
+                                                    <img src="/uploads/images/s_dnem_rozhdeniya_roman_guramovich/5003d452a8da016f3ed02a6385cf54e8_M_2.jpg" alt="news_list_images" />
                                                 </div><!-- news_list_images -->
                                                 <div class="news_list_info">
-                                                    <h3>Амбардзум Карапетян получил красную карточку за оскорбление судьи!</h3>
+                                                    <h3>С днем рождения, Роман Гурамович!</h3>
                                                     <div class="news_list_middle">
                                                         <span>17:46 Сегодня</span>
 															<span class="news_list_watch">
 																<span><i class="watch_icon"></i> 1427</span>
 															</span><!-- news_list_watch -->
                                                     </div><!-- news_list_middle -->
-														<span>
-															Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...
-														</span>
+                                                    <span>
+                                                        25 января исполняется 33 года геральному директору ФК «Бананц» Роману Гурамовичу Асхабадзе.
+                                                        Роман Асхабадзе занял должность руководителя "Бананцаа" всего четыре месяца...
+                                                    </span>
                                                 </div><!-- news_list_info -->
                                             </a>
                                         </div><!-- news_list -->
@@ -590,8 +592,6 @@
 																<span><i class="watch_icon"></i>1427</span>
 															</span><!-- news_list_watch -->
                                                     </div><!-- news_list_middle -->
-
-
 														<span>
 															Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...
 														</span>
@@ -779,7 +779,7 @@
                             </div><!-- content_top_right_info_blog_wrapper -->
                             <div class="content_top_right_banners">
                                 <div class="content_top_right_banner">
-                                    <a href="#">
+                                    <a href="https://www.youtube.com/channel/UC5BkqVAiqYqWLZVnS1obe-g">
                                         <img src="/media/assets/images/youtube_banner.jpg" alt="youtube_banner" />
                                     </a>
                                 </div><!-- content_top_right_banner -->
@@ -797,29 +797,30 @@
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/L9szn1QQfas/3.jpg" alt="content_slider_middle_images1">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/ZmaQ0JtT3KU?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/ZmaQ0JtT3KU/0.jpg" alt="content_slider_middle_images1">
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/342pmVkE_tY?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_big_images"></a>
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yuCleRreMV0?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_big_images"></a>
                                             <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yuCleRreMV0?autoplay=1">
                                                 <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
@@ -827,32 +828,32 @@
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/eHv-2ofB78A?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/eHv-2ofB78A/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images2.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/Pl_EAU-a-z8?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/Pl_EAU-a-z8/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/zrhijjNzQBg?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/zrhijjNzQBg/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images4.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/m7SfyG-njzI?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/m7SfyG-njzI/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -861,29 +862,31 @@
                                 <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_middle_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_middle_images1.jpg" alt="content_slider_middle_images1">
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/OGT8RTAzFu8?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/OGT8RTAzFu8/0.jpg" alt="content_slider_middle_images1">
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_middle_images2">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_middle_images2.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/IrljqEjcZ38?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/IrljqEjcZ38/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_big_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="/media/assets/images/content_slider_big_images.jpg" alt="content_slider_big_images"></a>
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/tfdP5hyofxA?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/tfdP5hyofxA/0.jpg" alt="content_slider_big_images"></a>
                                             <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/1LoXfMHU7xA?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/1LoXfMHU7xA/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -891,7 +894,7 @@
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -899,7 +902,7 @@
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images2.jpg" alt="content_slider_images" />
+                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -907,7 +910,7 @@
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images1.jpg" alt="content_slider_images" />
+                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -915,7 +918,7 @@
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_images4.jpg" alt="content_slider_images" />
+                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>

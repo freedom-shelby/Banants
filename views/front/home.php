@@ -48,6 +48,8 @@
                         <div class="team1_logo">
                             <img src="/media/assets/images/team_logo/FC_Shirak_Logo.png" alt="team2_logo" />
                             <h4>ШИРАК</h4>
+<!--                            <img src="/media/assets/images/team_logo/fc-gandzasar-kapan.png" alt="team2_logo" />-->
+<!--                            <h4>ГАНДЗАСАР</h4>-->
                         </div>
                         <div class="banner_team1_text">
 

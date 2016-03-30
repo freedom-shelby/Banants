@@ -117,19 +117,19 @@ class NestedSets extends \Controller
 //        }
 
 
-//        for($i=50; $i < 54; $i++){
-//            for($j=1; $j <= 6; $j++){
-//                try{
-//                    \ArticleHasWidgetModel::create([
-//                        'article_id' => $i,
-//                        'widget_id' => $j,
-//                    ]);
-//                }catch (\PDOException $e){
-//                    continue;
-//                }
-//
-//            }
-//        }
+        for($i=54; $i < 62; $i++){
+            for($j=1; $j <= 6; $j++){
+                try{
+                    \ArticleHasWidgetModel::create([
+                        'article_id' => $i,
+                        'widget_id' => $j,
+                    ]);
+                }catch (\PDOException $e){
+                    continue;
+                }
+
+            }
+        }
 
     }
 }

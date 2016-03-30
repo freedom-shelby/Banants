@@ -18,7 +18,7 @@
             </div><!-- logo_wrapper -->
             <div class="header_navigation">
 
-                    <?Theme::drawMenu('top')?>
+                    <?//Theme::drawMenu('top')//todo:unused?>
 
             </div><!-- header_navigation -->
         </div><!-- inner -->

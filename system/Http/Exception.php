@@ -12,7 +12,7 @@ namespace Http {
         public function __construct($code, $message = null, Exception $previous = null){
             // убедитесь, что все передаваемые параметры верны
             parent::__construct($message, $code, $previous);
-            $this->detectException($code,$message);
+            $this->DetectException($code,$message);
         }
 
         /**
@@ -34,7 +34,9 @@ namespace Http {
          * @param $message
          */
         public function Exc404($message){
-            $this->message = $message ?: "<h1>404 Not Found</h1>The page that you have requested could not be found.";
+            $this->message = $message ?: \View::make('front/content/error_404'); // todo: исползовать если есть картинка
+//            $this->message = $message ?: "<h1>404 Not Found</h1>The page that you have requested could not be found.";
+
             header('HTTP/1.0 404 Not Found'); die($this->message);
         }
 

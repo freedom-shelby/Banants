@@ -941,6 +941,11 @@ h1, h2, h3, h4, h5, h5, h6 {
 	opacity: 0.8;
 }
 
+.video_wrapper img:first-child{
+    width: 236px;
+    height: 152px;
+}
+
 .video_wrapper {
 	background-color: #fff;
 	border: 1px solid #66a6d1;

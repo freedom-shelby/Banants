@@ -1,0 +1,1 @@
+<img style="top: 17%;left: 32%;position: absolute;" src='/media/assets/images/1415657345_construction.jpg' alt=''>

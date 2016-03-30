@@ -12,7 +12,7 @@
     <div class="header_top clearfix">
         <div class="inner">
             <div class="logo_wrapper">
-                <a href="#">
+                <a href="/">
                     <img src="/media/assets/images/logo.png" alt="logo" />
                 </a>
             </div><!-- logo_wrapper -->

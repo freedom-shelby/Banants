@@ -6,7 +6,17 @@
                     <div class="container_top_header clearfix">
                         <div class="container_top_slideshow clearfix">
                             <div class="item">
-                                <a href="http://news.am/arm/" title="slideshow_images" rel="gallery">
+                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
+                                    <img src="/uploads/images/pyunik_banants/25415800476_778949c3d9_o_2.jpg" alt="slideshow_images" />
+                                </a>
+                                <div class="container_top_slider_text">
+                                    <div class="container_top_slider_text_inner">
+                                        ПЮНИК - БАНАНЦ 1:2 <br> (ФОТО И ВИДЕО)
+                                    </div>
+                                </div><!-- container_top_slider_text -->
+                            </div><!--item-->
+                            <div class="item">
+                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
                                     <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
@@ -16,7 +26,7 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a href="http://news.am/arm/" title="slideshow_images" rel="gallery">
+                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
                                     <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
@@ -26,17 +36,7 @@
                                 </div><!-- container_top_slider_text -->
                             </div><!--item-->
                             <div class="item">
-                                <a href="http://news.am/arm/" title="slideshow_images" rel="gallery">
-                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
-                                </a>
-                                <div class="container_top_slider_text">
-                                    <div class="container_top_slider_text_inner">
-                                        Нвероятный ГОЛ<br> Мовсисяна потряс<br> ПУБЛИКУ!
-                                    </div>
-                                </div><!-- container_top_slider_text -->
-                            </div><!--item-->
-                            <div class="item">
-                                <a href="http://www.news.am" title="slideshow_images" rel="gallery">
+                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
                                     <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />
                                 </a>
                                 <div class="container_top_slider_text">
@@ -412,10 +412,10 @@
                                     <div class="carousel_slider_item">
                                         <a class="fancybox" href="/media/assets/images/carousel_slider_images1.jpg" title="slideshow_images" rel="gallary_b">
                                             <div class="carousel_slider_images">
-                                                <img src="/media/assets/images/carousel_slider_images1.jpg" alt="carousel_images" />
+                                                <img src="/uploads/images/pyunik_banants/25415800476_778949c3d9_o_3.jpg" alt="carousel_images" />
                                             </div><!-- carousel_slider_images -->
                                             <div class="carousel_slider_info">
-                                                <span>Бюджет бананца увеличился в 3 раза...</span>
+                                                <span>Пюник - Бананц 1:2 (Фото и Видео)</span>
                                             </div>
                                         </a>
                                     </div><!-- carousel_slider_item -->

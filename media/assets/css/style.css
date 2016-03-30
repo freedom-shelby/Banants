@@ -3676,3 +3676,58 @@ div.dialog{
 .score-table-widget tr:first-child:hover {
     background-color: transparent;
 }
+/* OWN**/
+.gallery_photos img {
+    width: 170px;
+}
+
+.inner_content.news_and_gallery{
+    padding: 0 10px 0 10px;
+    background-color: #fff;
+}
+
+.news_page{
+    text-align: justify;
+    color: #545864;
+    font-size: 15px;
+}
+.news_page .stadion_info .stadion_info_wrapper a{
+    text-decoration: none;
+    color: #044980;
+}
+
+.news_page h3{
+    font-size: 18px;
+    margin: 17px 0 10px 9px;
+}
+
+.news_page span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.news_page .stadion_photos{
+    width: 193px;
+    float: left;
+    margin-bottom: 12px;
+}
+.news_page .stadions_photos{
+    margin-bottom: 10px;
+}
+
+.news_page .stadion{
+    float: left;
+    min-width: 183px;
+    border: 1px solid #66a6d1;
+    margin-right: 7px;
+}
+
+.news_page .stadion:last-child{
+    margin-right: 0;
+}
+
+.news_page .stadion_photos_wrapper .stadion img{
+    margin: 6px 6px;
+
+}
+

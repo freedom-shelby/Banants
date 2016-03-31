@@ -15,7 +15,7 @@ restrictAccess();
 use Widgets\AbstractWidget;
 use View;
 
-class PhotoGalleries extends AbstractWidget{
+class TopNews extends AbstractWidget{
 
     /**
      * Тип страницы

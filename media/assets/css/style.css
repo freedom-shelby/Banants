@@ -43,6 +43,10 @@ body {
     font-style:normal;  
 }
 
+.hidden{
+	display: none !important;
+}
+
 /*IconMoon*/
 
 @font-face {
@@ -474,7 +478,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team1 img {
-	margin: 0  0 17px 4px;
+	margin: 0  0 13px 4px;
 	font-size: 30px;
 	color: #044980;
 }
@@ -624,6 +628,17 @@ h1, h2, h3, h4, h5, h5, h6 {
     margin: -10px 3px 0 0;
     float: right;
 }
+
+
+.header_right .banner_team1 .main_logo img,
+.header_right .banner_team2 .team1_logo img,
+.header_right .banner_team1 .team1_logo img,
+.header_right .banner_team2 .team2_logo img{
+	max-width: 82px;
+	max-height: 82px;
+}
+
+
 
 .header_right .banner_team2 h4{
 	margin: -7px 0px 0px 19px;
@@ -1461,6 +1476,10 @@ div.tournament_table .tournament_table_active a {
 	margin-top: 24px;
 }
 
+.home_thanks{
+	height: 309px;
+}
+
 .quizzes {
     padding: 9px 15px 15px 15px;
 	background-color: #217cb8;
@@ -1787,7 +1806,7 @@ div.news_list h3 {
 }
 
 .content_slider_images {
-	margin-bottom: 2px;
+	margin-bottom: 3px;
 	margin-left: 1px;
 }
 
@@ -1807,24 +1826,48 @@ div.news_list h3 {
 }
 
 .content_slider_middle_images {
-	width: 54%;
+	width: 231px;
+	height: 145px;
+	float: left;
 }
 
 .content_slider_middle_images2 {
-	width: 45%;
+	width: 192px;
+	height: 145px;
+	float: right;
 }
 
 .content_slider_big_images {
-	width: 69.2%;
-	min-height: 164px;
+	width: 296px;
+	height: 162px;
+	float: left;
 }
 
 .content_slider_small_long_images {
-	width: 29.4%;
+	width: 127px;
+	height: 162px;
+	float: right;
 }
 
 .content_slider_small_images {
-	width: 24.6%;
+	height: 69px;
+	float: left;
+}
+
+.small_images1{
+	width: 108px;
+}
+
+.small_images2{
+	width: 98px;
+}
+
+.small_images3{
+	width: 123px;
+}
+
+.small_images4{
+	width: 95px;
 }
 
 .container_bottom{
@@ -1878,7 +1921,7 @@ div.news_list h3 {
 .content_middle_right_banner {
 	width: 440px;
     clear: both;
-    padding-top: 9px;
+    padding-top: 7px;
 }
 
 .content_middle_right_banner img {

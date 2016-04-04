@@ -370,11 +370,11 @@
                         </div><!-- leftbar_images_slider -->
                         <span class="photogalery_link"><a href="#">Фото Галерея</a></span>
                     </div><!-- leftbar_images_slider_wrapper -->
-                    <div class="quizzes">
+                    <div id="home" class="home quizzes">
                         <h3>
                             Кто из перечисленных футболистов окажется бомбардиром в следующем месяце?
                         </h3>
-                        <form action="#" method="post">
+                        <form id="quizzes" action="#" method="post">
                             <div class="quizzes_list">
                                 <input type="radio" name="check1" id="check1" checked="checked" />
                                 <label for="check1">Арустамян Гагик</label>
@@ -399,8 +399,13 @@
                                 <input type="radio" name="check1" id="check6" />
                                 <label for="check6">Егише Чаренц</label>
                             </div><!-- quizzes_list -->
-                            <input type="submit" value="Ответить"/>
+                            <input  type="submit" value="Ответить"/>
                         </form>
+                    </div>
+                    <div id="home_thanks" class=" home quizzes home_thanks hidden">
+                        <h3>
+                            Thank you
+                        </h3>
                     </div><!-- quizzes -->
                 </div><!-- leftbar -->
                 <div class="content">
@@ -821,7 +826,7 @@
                                     <div class="content_slider_images content_slider_small_long_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yuCleRreMV0?autoplay=1">
-                                                <img src="/media/assets/images/content_slider_small_long_images2.jpg" alt="content_slider_images" />
+                                                <img src="http://img.youtube.com/vi/yuCleRreMV0/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -885,8 +890,8 @@
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
                                         <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/1LoXfMHU7xA?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/1LoXfMHU7xA/0.jpg" alt="content_slider_images" />
+                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
+                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>

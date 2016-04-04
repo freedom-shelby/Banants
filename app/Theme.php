@@ -24,6 +24,15 @@ class Theme
     }
 
     /**
+     * Отрисовывыет виджет по типу
+     * @param string $type позиция виджетов
+     * @return mixed
+     */
+    public static function drawWidgetByType($type){
+        echo WgtContainer::instance()->drawWidgetByType($type);
+    }
+
+    /**
      * Отрисовывыет меню для заданной позиции
      * @param string $position позиция виджетов
      * @return mixed

@@ -7,35 +7,40 @@
  */
 ?>
 
-<div class="quizzes">
+<div id="home" class="home quizzes">
     <h3>
         Кто из перечисленных футболистов окажется бомбардиром в следующем месяце?
     </h3>
-    <form action="#" method="post">
+    <form id="quizzes" action="#" method="post">
         <div class="quizzes_list">
-            <input type="checkbox" name="check1" id="check1" checked="checked" />
+            <input type="radio" name="check1" id="check1" checked="checked" />
             <label for="check1">Арустамян Гагик</label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
-            <input type="checkbox" name="check2" id="check2" />
+            <input type="radio" name="check1" id="check2" />
             <label for="check2">Тадевосян Манвел</label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
-            <input type="checkbox" name="check3" id="check3" />
+            <input type="radio" name="check1" id="check3" />
             <label for="check3">Леонель Месси</label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
-            <input type="checkbox" name="check4" id="check4" />
+            <input type="radio" name="check1" id="check4" />
             <label for="check4">Вараздат Гегамян</label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
-            <input type="checkbox" name="check5" id="check5" />
+            <input type="radio" name="check1" id="check5" />
             <label for="check5">Рафаель Галустян</label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
-            <input type="checkbox" name="check6" id="check6" />
+            <input type="radio" name="check1" id="check6" />
             <label for="check6">Егише Чаренц</label>
         </div><!-- quizzes_list -->
-        <input type="submit" value="Ответить"/>
+        <input  type="submit" value="Ответить"/>
     </form>
+</div>
+<div id="home_thanks" class=" home quizzes home_thanks hidden">
+    <h3>
+        Thank you
+    </h3>
 </div><!-- quizzes -->

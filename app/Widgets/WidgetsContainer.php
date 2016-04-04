@@ -29,6 +29,12 @@ class WidgetsContainer {
      */
     protected $_items = [];
 
+    /**
+     * Активние Виджеты по типу
+     * @var array
+     */
+    protected $_widgets = [];
+
     protected static $_instance;
 
 
@@ -72,6 +78,7 @@ class WidgetsContainer {
                 $tmp->init($i);
                 // todo: в админке проверять чтобы Sorting биль уникалним
                 $this->_items[$tmp->getPosition()][$tmp->getSorting()] = $tmp;
+                $this->_widgets[$i->type] = $tmp;
             }
         }
     }
@@ -89,6 +96,23 @@ class WidgetsContainer {
             foreach($this->_items[$position] as $item){
                 $content .= $item->render() . PHP_EOL;
             }
+        }
+
+        return $content;
+    }
+
+    /**
+     * Рисует виджет по типу
+     * $type = тип виджета
+     * @param string $type
+     * @return View
+     */
+    public function drawWidgetByType($type)
+    {
+
+        $content = '';
+        if( ! empty($this->_widgets[$type])){
+            $content .= $this->_widgets[$type]->render() . PHP_EOL;
         }
 
         return $content;

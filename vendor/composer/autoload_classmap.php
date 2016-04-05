@@ -119,6 +119,7 @@ return array(
     'Widgets\\Widget\\AcademyAnons' => $baseDir . '/app/Widgets/Widget/AcademyAnons.php',
     'Widgets\\Widget\\Anons' => $baseDir . '/app/Widgets/Widget/Anons.php',
     'Widgets\\Widget\\BestPlayer' => $baseDir . '/app/Widgets/Widget/BestPlayer.php',
+    'Widgets\\Widget\\BottomBanner' => $baseDir . '/app/Widgets/Widget/BottomBanner.php',
     'Widgets\\Widget\\ContentPanoramaBanner' => $baseDir . '/app/Widgets/Widget/ContentPanoramaBanner.php',
     'Widgets\\Widget\\InfoBlog' => $baseDir . '/app/Widgets/Widget/InfoBlog.php',
     'Widgets\\Widget\\LastMatch' => $baseDir . '/app/Widgets/Widget/LastMatch.php',

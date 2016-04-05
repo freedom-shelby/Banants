@@ -18,7 +18,7 @@
             </div><!-- logo_wrapper -->
             <div class="header_navigation">
 
-                <?//Theme::drawMenu('top')//todo:unused?>
+                <?Theme::drawMenu('top')//todo:unused?>
 
             </div><!-- header_navigation -->
         </div><!-- inner -->
@@ -28,53 +28,12 @@
             <div class="header_bottom clearfix">
                 <div class="banners clearfix">
 
-                    <?Theme::drawWidgetByType('TournamentTable')?>
+<!--                    --><?//Theme::drawWidgetByType('LastMatch')?>
+<!--                    --><?//Theme::drawWidgetByType('NextMatch')?>
+<!--                    --><?//Theme::drawWidgetByType('NextMatchInfo')?>
+                    <?Theme::drawWidgets('top')?>
 
-                    <!--                    <div class="banner_team1">-->
-<!--                        <div class="team1_logo">-->
-<!--                            <img src="/media/assets/images/logo_main.png" alt="logo_main" />-->
-<!--                        </div>-->
-<!--                        <div class="banner_team1_text">-->
-<!--                            <p>-->
-<!--                                <b>-->
-<!--                                    <span>2</span> <span>-</span>  <span>2</span>-->
-<!--                                </b>-->
-<!--                            </p>-->
-<!--                            <p class="result"><b>0-0(3-0)</b></p>-->
-<!--                        </div>-->
-<!--                        <div class="main_logo">-->
-<!--                            <img src="/media/assets/images/team_logo/fc-ararat-yerevan.png" alt="logo_team1" />-->
-<!--                            <h4>АРАРАТ</h4>-->
-<!--                        </div>-->
-<!--                    </div><!--banner_team1-->-->
-<!--                    <div class="banner_team2">-->
-<!--                        <div class="team1_logo">-->
-<!--                            <img src="/media/assets/images/team_logo/FC_Shirak_Logo.png" alt="team2_logo" />-->
-<!--                            <h4>ШИРАК</h4>-->
-<!--<!--                            <img src="/media/assets/images/team_logo/fc-gandzasar-kapan.png" alt="team2_logo" />-->-->
-<!--<!--                            <h4>ГАНДЗАСАР</h4>-->-->
-<!--                        </div>-->
-<!--                        <div class="banner_team1_text">-->
-<!---->
-<!--                            <span>в 26 марта</span>-->
-<!--                            <span style="margin-top: 10px; display: block">15:00</span>-->
-<!---->
-<!--                        </div>-->
-<!--                        <div class="team2_logo">-->
-<!--                            <img src="/media/assets/images/logo_main.png" alt="logo_main" />-->
-<!--                        </div>-->
-<!--                    </div><!--banner_team1-->-->
-<!--                </div><!-- banners -->-->
-                <div class="header_info">
-						<span>
-							Игра пройдёт в г.Ереван на стадионе Бананца в четверг.<br> Трансляцию можно посмотреть на канале Армения в 19:40.
-							<br> Призы, как и обычно будут для тех кто придёт на матч.
-						</span>
-                    <form action="#" method="post">
-                        <input name="search" type="text" placeholder="ПОИСК ПО САЙТУ"/>
-                        <input type="submit" />
-                    </form>
-                </div><!-- header_info -->
+                </div>
             </div><!-- header_bottom -->
         </div><!-- header_right -->
 
@@ -92,6 +51,9 @@
 
 
 <div class="footer">
+
+<!--    --><?//Theme::drawMenu('bottom')?>
+
     <div class="inner clearfix">
         <div class="footer_col">
             <div class="footer_col_title">

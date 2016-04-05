@@ -60,17 +60,41 @@ class WidgetsContainer {
         if($cache->isValid()){
             $items = json_decode($cache->getData());
         }else{
-            $items = ArticleModel::where('slug','=',$slug)->first();
+            $article = ArticleModel::where('slug','=',$slug)->first();
 
-            if(empty($items)){
+            if(empty($article)){
                 throw new HttpException(404);
             }
-            $items = $items->widgets()->whereStatus(1)->orderBy('sort')->get();
 
-            $cache->setData($items);
+//            $items = $items->widgets()->whereStatus(1)->orderBy('sort')->get();
+
+            $data = $article->ancestorsAndSelf()->whereStatus(1)->get();
+//                ->widgets()->whereStatus(1)->orderBy('sort')->get();
+            $items = [];
+//            $a = [];
+//            $a += ['1' , '2'];
+////            array_merge($a , ['1' , '2']);
+//            echo "<pre>";
+//            print_r($a);
+//            die;
+            foreach($data as $item){
+                echo "<pre>";
+                print_r(json_decode($item->widgets()->whereStatus(1)->orderBy('sort')->get()));
+                die;
+//                array_merge($items, json_decode($item->widgets()->whereStatus(1)->orderBy('sort')->get()));
+                $items += json_decode($item->widgets()->whereStatus(1)->orderBy('sort')->get());
+//                $item->widgets()->whereStatus(1)->orderBy('sort')->get();
+            }
+
+echo "<pre>";
+print_r($items);
+die;
+            $cache->setData(json_encode($items));
             $cache->save();
         }
-
+echo "<pre>";
+print_r($items);
+die;
         if(!empty($items)){
             foreach($items as $i){
                 $class = static::WIDGET_NAMESPACE . $i->type;

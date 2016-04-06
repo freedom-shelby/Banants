@@ -1419,7 +1419,7 @@ div.tournament_table .tournament_table_active a {
 }
 
 
-.leftbar_slider_middle_images {
+.leftbar_slider_middle_images {	
 	width: 166px;
 	height: 94px;
 }
@@ -1427,7 +1427,7 @@ div.tournament_table .tournament_table_active a {
 .leftbar_slider_middle_images .image2{
 	width: 166px;
 	height: 170px;
-}
+} 
 
 .leftbar_slider_small_images {
 	width: 108px;
@@ -1522,7 +1522,7 @@ div.tournament_table .tournament_table_active a {
 	font-size: 15px;
 	line-height: 20px;
 	color:#fff;
-	margin: 0 0 15px 0;
+	margin: 0 0 15px 0;	
 }
 
 .quizzes .tahnks_text{
@@ -1914,7 +1914,7 @@ div.news_list h3 {
 	height: 225px;
 }
 
-.content_slider_small_images {
+.content_slider_small_images {	
 	height: 69px;
 	float: left;
 }
@@ -3579,6 +3579,13 @@ div.dialog{
 
 .inner_content.best_moments_photo .best_moments_photo_page .pagination_wrapper{
     background-color: #d6d6d9;
+}
+
+.widget-header {
+	background-color: #044980;
+	min-height: 30px;
+	position: relative;
+	overflow: hidden;
 }
 
 /*News*/

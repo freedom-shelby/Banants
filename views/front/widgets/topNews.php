@@ -7,45 +7,29 @@
  */
 ?>
 
-<div class="container_top_slideshow clearfix">
-    <div class="item">
-        <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
-            <img src="/uploads/images/pyunik_banants/25415800476_778949c3d9_o_2.jpg" alt="slideshow_images" />
+<div class="news_wrapper">
+    <div class="news_item clearfix">
+        <a href="/banants_vernulsya_v_erevan.html">
+            <div class="news_item_images">
+                <img src="/uploads/images/banants_vernulssya_v_erevan/abc7c98b4ddfae4816b74e0d2fd932d2_M.jpg" alt="news_item_images" />
+            </div><!-- news_item_images -->
+            <div class="news_item_info">
+												<span>
+													"Бананц" вернулся в Ереван
+												</span>
+            </div><!-- news_item_info -->
         </a>
-        <div class="container_top_slider_text">
-            <div class="container_top_slider_text_inner">
-                ПЮНИК - БАНАНЦ 1:2 <br> (ФОТО И ВИДЕО)
-            </div>
-        </div><!-- container_top_slider_text -->
-    </div><!--item-->
-    <div class="item">
-        <a href="/ararat_ulis_03_12_15.html" title="slideshow_images" rel="gallery">
-            <img src="/uploads/images/ararat_banants/0e09527b0f5edaa60cf5702119e6a0a2_L.jpg" alt="slideshow_images" />
+    </div><!-- news_item -->
+    <div class="news_item news_item_active clearfix">
+        <a href="/banants_nachal_sbor_v_kipre.html">
+            <div class="news_item_images">
+                <img src="/uploads/images/banants-nachal-sbor-v-turtsii/c5949b98a954ba20a6a6d17790280cde_M_2.jpg" alt="news_item_images" />
+            </div><!-- news_item_images -->
+            <div class="news_item_info">
+												<span>
+													"Бананц" начал сбор на Кипре
+												</span>
+            </div><!-- news_item_info -->
         </a>
-        <div class="container_top_slider_text">
-            <div class="container_top_slider_text_inner">
-                Фоторепортаж матча <br>Арарат - Улисс
-            </div>
-        </div><!-- container_top_slider_text -->
-    </div><!--item-->
-    <div class="item">
-        <a href="/banants_nachal_god_s_kruponoj_pobedoj.html" title="slideshow_images" rel="gallery">
-            <img src="/uploads/images/banants_nachal_god_s_kruponoj_pobedoj/8f704c6e91e045c72378c71d940a59ce_XL.jpg" alt="slideshow_images" />
-        </a>
-        <div class="container_top_slider_text">
-            <div class="container_top_slider_text_inner">
-                "Бананц" начал год <br> с крупной победой
-            </div>
-        </div>
-    </div>
-    <!--                            <div class="item">-->
-    <!--                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">-->
-    <!--                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />-->
-    <!--                                </a>-->
-    <!--                                <div class="container_top_slider_text">-->
-    <!--                                    <div class="container_top_slider_text_inner">-->
-    <!--                                        Нвероятный ГОЛ<br> Мовсисяна потряс<br> ПУБЛИКУ!-->
-    <!--                                    </div>-->
-    <!--                                </div><!-- container_top_slider_text -->
-    <!--                            </div><!--item-->
-</div>
+    </div><!-- news_item -->
+</div><!-- news_wrapper -->

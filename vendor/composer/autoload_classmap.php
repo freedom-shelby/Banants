@@ -132,6 +132,7 @@ return array(
     'Widgets\\Widget\\RightBanner' => $baseDir . '/app/Widgets/Widget/RightBanner.php',
     'Widgets\\Widget\\SecondaryRightBanner' => $baseDir . '/app/Widgets/Widget/SecondaryRightBanner.php',
     'Widgets\\Widget\\Snipers' => $baseDir . '/app/Widgets/Widget/Snipers.php',
+    'Widgets\\Widget\\SponsorsInfo' => $baseDir . '/app/Widgets/Widget/SponsorsInfo.php',
     'Widgets\\Widget\\TopNews' => $baseDir . '/app/Widgets/Widget/TopNews.php',
     'Widgets\\Widget\\TopVideo' => $baseDir . '/app/Widgets/Widget/TopVideo.php',
     'Widgets\\Widget\\TournamentTable' => $baseDir . '/app/Widgets/Widget/TournamentTable.php',

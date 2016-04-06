@@ -18,7 +18,7 @@
             </div><!-- logo_wrapper -->
             <div class="header_navigation">
 
-                <?Theme::drawMenu('top')//todo:unused?>
+                <?//Theme::drawMenu('top')//todo:unused?>
 
             </div><!-- header_navigation -->
         </div><!-- inner -->
@@ -28,9 +28,9 @@
             <div class="header_bottom clearfix">
                 <div class="banners clearfix">
 
-<!--                    --><?//Theme::drawWidgetByType('LastMatch')?>
-<!--                    --><?//Theme::drawWidgetByType('NextMatch')?>
-<!--                    --><?//Theme::drawWidgetByType('NextMatchInfo')?>
+                    <?//Theme::drawWidgetByType('LastMatch')?>
+                    <?//Theme::drawWidgetByType('NextMatch')?>
+                    <?//Theme::drawWidgetByType('NextMatchInfo')?>
                     <?Theme::drawWidgets('top')?>
 
                 </div>

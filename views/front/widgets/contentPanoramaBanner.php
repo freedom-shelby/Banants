@@ -11,4 +11,4 @@
     <a href="#">
         <img src="/media/assets/images/bigBanner.jpg" alt="bigBanner" />
     </a>
-</div>
+</div><!-- container_top_banner -->

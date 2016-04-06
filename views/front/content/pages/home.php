@@ -4,210 +4,29 @@
             <div class="container_top clearfix">
                 <div class="container_top_left">
                     <div class="container_top_header clearfix">
-                        <div class="container_top_slideshow clearfix">
-                            <div class="item">
-                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">
-                                    <img src="/uploads/images/pyunik_banants/25415800476_778949c3d9_o_2.jpg" alt="slideshow_images" />
-                                </a>
-                                <div class="container_top_slider_text">
-                                    <div class="container_top_slider_text_inner">
-                                        ПЮНИК - БАНАНЦ 1:2 <br> (ФОТО И ВИДЕО)
-                                    </div>
-                                </div><!-- container_top_slider_text -->
-                            </div><!--item-->
-                            <div class="item">
-                                <a href="/ararat_ulis_03_12_15.html" title="slideshow_images" rel="gallery">
-                                    <img src="/uploads/images/ararat_banants/0e09527b0f5edaa60cf5702119e6a0a2_L.jpg" alt="slideshow_images" />
-                                </a>
-                                <div class="container_top_slider_text">
-                                    <div class="container_top_slider_text_inner">
-                                        Фоторепортаж матча <br>Арарат - Улисс
-                                    </div>
-                                </div><!-- container_top_slider_text -->
-                            </div><!--item-->
-                            <div class="item">
-                                <a href="/banants_nachal_god_s_kruponoj_pobedoj.html" title="slideshow_images" rel="gallery">
-                                    <img src="/uploads/images/banants_nachal_god_s_kruponoj_pobedoj/8f704c6e91e045c72378c71d940a59ce_XL.jpg" alt="slideshow_images" />
-                                </a>
-                                <div class="container_top_slider_text">
-                                    <div class="container_top_slider_text_inner">
-                                        "Бананц" начал год <br> с крупной победой
-                                    </div>
-                                </div>
-                            </div>
-<!--                            <div class="item">-->
-<!--                                <a href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallery">-->
-<!--                                    <img src="/media/assets/images/container_top_slideshow_images1.jpg" alt="slideshow_images" />-->
-<!--                                </a>-->
-<!--                                <div class="container_top_slider_text">-->
-<!--                                    <div class="container_top_slider_text_inner">-->
-<!--                                        Нвероятный ГОЛ<br> Мовсисяна потряс<br> ПУБЛИКУ!-->
-<!--                                    </div>-->
-<!--                                </div><!-- container_top_slider_text -->
-<!--                            </div><!--item-->
-                        </div><!-- container_top_slideshow -->
+
+                        <?Theme::drawWidgetByType('Anons')?>
+
                         <div class="container_top_aside">
 <!--                            <div class="video_wrapper">-->
 <!--                                <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1"><img src="http://img.youtube.com/vi/L9szn1QQfas/3.jpg" alt="video_image"></a>-->
 <!--                                <span>Роман Асхабадзе вывел Бананц на первое место в лиге Армении </span>-->
 <!--                            </div>-->
-                            <div class="video_wrapper">
-                                <div class="videoimage_wrapper">
-                                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/PyvDXwmTEkE?autoplay=1"> <img src="http://img.youtube.com/vi/PyvDXwmTEkE/0.jpg" alt="video_image">
-                                        <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                    </a>
-                                </div>
-                                <span>Завен Бадоян: В эпизоде с голом все спланировал заранее</span>
-                            </div><!-- video_wrapper -->
-                            <div class="news_wrapper">
-                                <div class="news_item clearfix">
-                                    <a href="/banants_vernulsya_v_erevan.html">
-                                        <div class="news_item_images">
-                                            <img src="/uploads/images/banants_vernulssya_v_erevan/abc7c98b4ddfae4816b74e0d2fd932d2_M.jpg" alt="news_item_images" />
-                                        </div><!-- news_item_images -->
-                                        <div class="news_item_info">
-												<span>
-													"Бананц" вернулся в Ереван
-												</span>
-                                        </div><!-- news_item_info -->
-                                    </a>
-                                </div><!-- news_item -->
-                                <div class="news_item news_item_active clearfix">
-                                    <a href="/banants_nachal_sbor_v_kipre.html">
-                                        <div class="news_item_images">
-                                            <img src="/uploads/images/banants-nachal-sbor-v-turtsii/c5949b98a954ba20a6a6d17790280cde_M_2.jpg" alt="news_item_images" />
-                                        </div><!-- news_item_images -->
-                                        <div class="news_item_info">
-												<span>
-													"Бананц" начал сбор на Кипре
-												</span>
-                                        </div><!-- news_item_info -->
-                                    </a>
-                                </div><!-- news_item -->
-                            </div><!-- news_wrapper -->
+
+                            <?Theme::drawWidgetByType('TopVideo')?>
+                            <?Theme::drawWidgetByType('TopNews')?>
+
                         </div><!-- container_top_aside -->
                     </div><!-- container_top_header -->
-                    <div class="container_top_banner">
-                        <a href="#">
-                            <img src="/media/assets/images/bigBanner.jpg" alt="bigBanner" />
-                        </a>
-                    </div><!-- container_top_banner -->
+
+                    <?Theme::drawWidgetByType('ContentPanoramaBanner')?>
+
                 </div><!-- container_top_left -->
                 <div class="container_top_right">
-                    <div class="widget widget-with-tabs">
-                        <div class="widget-header">
-                            <div class="widget-tabs">
-                                <div class="tab1"><div><span>text1</span></div></div>
-                                <div class="tab2 active"><div><span>Лига Армении</span></div></div>
-                                <div class="tab3"><div><span>text3</span></div></div>
-                                <div class="tab4"><div><span>text4</span></div></div>
-                            </div>
-                        </div>
-                        <div class="widget-body">
-                            <div class="widget-tabs-body">
-                                <div class="tab1">tab desc1</div>
-                                <div class="tab2 active">
-                                    <table class="score-table-widget">
-                                        <tbody><tr>
-                                            <th></th>
-                                            <th>ИГР</th>
-                                            <th>ОЧК</th>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Алашкерт</a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>38</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Пюник </a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>34</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Ширак</a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>28</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Арарат</a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>27</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Гандзасар</a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>25</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Мика</a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>21</span></td>
-                                        </tr>
-                                        <tr class="active">
-                                            <td><a class="team" href="#">Бананц</a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>21</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="team" href="#">Улисс</a></td>
-                                            <td><span>18</span></td>
-                                            <td><span>2</span></td>
-                                        </tr>
-                                        </tbody></table>
 
-                                </div>
-                                <div class="tab3">tab desc3</div>
-                                <div class="tab4">tab desc4</div>
-                            </div>
-                        </div>
-                        <div class="widget-footer">
-                            <div class="widget-pagination">
-                                <div class="owl-controls clickable">
-                                    <div class="owl-pagination">
-                                        <div class="owl-page circle">
-                                            <span class=""></span>
-                                        </div>
-                                        <div class="owl-page circle">
-                                            <span class=""></span>
-                                        </div>
-                                        <div class="owl-page circle">
-                                            <span class=""></span>
-                                        </div>
-                                        <div class="owl-page circle">
-                                            <span class=""></span>
-                                        </div>
-                                    </div>
-                                    <div class="owl-buttons">
-                                        <div class="owl-prev wgt-prev"></div>
-                                        <div class="owl-next wgt-next"></div>
-                                    </div>
-                                </div>
-                            </div>
+                    <?Theme::drawWidgetByType('TournamentTable')?>
+                    <?Theme::drawWidgetByType('BestPlayer')?>
 
-                        </div>
-                    </div>
-
-                    <div class="best_player">
-                        <div class="best_player_title">
-                            <h2>ИГРОК МАТЧА</h2>
-                        </div><!-- best_player_title -->
-                        <div class="best_player_content">
-                            <h3>АРЗУМАНЯН ГЕВОРГ</h3>
-                            <div class="best_player_images_wrapper">
-                                <img src="/media/assets/images/player1.png" alt="best player" />
-                            </div><!-- best_player_images_wrapper -->
-                            <div class="best_player_right">
-                                <div class="best_player_info">
-                                    <span>Голы 4<br> Удары 9<br> В створ 5</span>
-                                </div><!-- best_player_info -->
-                                <div class="best_player_multiple clearfix">
-                                    <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
-                                    <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
-                                    <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
-                                </div><!-- best_player_multiple -->
-                            </div><!-- best_player_right -->
-                        </div><!-- best_player_content -->
-                    </div><!-- best_player -->
                 </div><!-- container_top_right -->
             </div><!-- container_top -->
             <div class="container_middle clearfix">
@@ -301,70 +120,58 @@
                         <div class="leftbar_images_slider clearfix">
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                             <div class="leftbar_images_slider_item">
                                 <div class="leftbar_slider_images leftbar_slider_big_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_big_images -->
                                 <div class="leftbar_slider_images leftbar_slider_middle_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                                 <div class="leftbar_slider_images leftbar_slider_small_images">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_small_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-                                </div><!-- leftbar_slider_small_images -->
-                                <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                                    <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
                                 </div><!-- leftbar_slider_small_images -->
                             </div><!-- leftbar_images_slider_item -->
                         </div><!-- leftbar_images_slider -->
@@ -803,7 +610,7 @@
                                     <div class="content_slider_images content_slider_middle_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/ZmaQ0JtT3KU?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/ZmaQ0JtT3KU/0.jpg" alt="content_slider_middle_images1">
+                                                <img class="image1" src="http://img.youtube.com/vi/ZmaQ0JtT3KU/0.jpg" alt="content_slider_middle_images1">
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -811,7 +618,7 @@
                                     <div class="content_slider_images content_slider_middle_images2">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/342pmVkE_tY?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
+                                                <img class="image2" src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -819,22 +626,25 @@
                                     <div class="content_slider_images content_slider_big_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yuCleRreMV0?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_big_images"></a>
-                                            <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                                <img class="image3" src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_big_images">
+                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+                                            </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
                                     <div class="content_slider_images content_slider_small_long_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yuCleRreMV0?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/yuCleRreMV0/0.jpg" alt="content_slider_images" />
+                                                <img class="image4" src="http://img.youtube.com/vi/yuCleRreMV0/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
+                                </div><!-- content_middle_slider_item -->
+                                <div class="content_middle_slider_item">
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/eHv-2ofB78A?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/eHv-2ofB78A/0.jpg" alt="content_slider_images" />
+                                                <img class="image1" src="http://img.youtube.com/vi/eHv-2ofB78A/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -842,7 +652,7 @@
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/Pl_EAU-a-z8?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/Pl_EAU-a-z8/0.jpg" alt="content_slider_images" />
+                                                <img class="image2" src="http://img.youtube.com/vi/Pl_EAU-a-z8/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -850,7 +660,7 @@
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/zrhijjNzQBg?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/zrhijjNzQBg/0.jpg" alt="content_slider_images" />
+                                                <img class="image3" src="http://img.youtube.com/vi/zrhijjNzQBg/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
@@ -858,77 +668,11 @@
                                     <div class="content_slider_images content_slider_small_images">
                                         <div class="videoimage_wrapper">
                                             <a class="various fancybox.iframe" href="http://www.youtube.com/embed/m7SfyG-njzI?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/m7SfyG-njzI/0.jpg" alt="content_slider_images" />
+                                                <img class="image4" src="http://img.youtube.com/vi/m7SfyG-njzI/0.jpg" alt="content_slider_images" />
                                                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                                             </a>
                                         </div>
                                     </div><!-- content_middle_slider -->
-                                </div><!-- content_middle_slider_item -->
-                                <div class="content_middle_slider_item">
-                                    <div class="content_slider_images content_slider_middle_images">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/OGT8RTAzFu8?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/OGT8RTAzFu8/0.jpg" alt="content_slider_middle_images1">
-                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                            </a>
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-                                    <div class="content_slider_images content_slider_middle_images2">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/IrljqEjcZ38?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/IrljqEjcZ38/0.jpg" alt="content_slider_images" />
-                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                            </a>
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-                                    <div class="content_slider_images content_slider_big_images">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/tfdP5hyofxA?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/tfdP5hyofxA/0.jpg" alt="content_slider_big_images"></a>
-                                            <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-                                    <div class="content_slider_images content_slider_small_long_images">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
-                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                            </a>
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-                                    <div class="content_slider_images content_slider_small_images">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
-                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                            </a>
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-                                    <div class="content_slider_images content_slider_small_images">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
-                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                            </a>
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-                                    <div class="content_slider_images content_slider_small_images">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
-                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                            </a>
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-                                    <div class="content_slider_images content_slider_small_images">
-                                        <div class="videoimage_wrapper">
-                                            <a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-                                                <img src="http://img.youtube.com/vi/342pmVkE_tY/0.jpg" alt="content_slider_images" />
-                                                <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
-                                            </a>
-                                        </div>
-                                    </div><!-- content_middle_slider -->
-
                                 </div><!-- content_middle_slider_item -->
                             </div><!-- content_middle_slider -->
                             <span class="all_news_link"><a href="#">Видео архив. Лудшие моменты.</a></span>
@@ -936,47 +680,42 @@
                         <div class="content_middle_right clearfix">
                             <div class="container_top_slideshow content_middle_right_slideshow clearfix">
                                 <div class="item">
-                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                        <div class="container_top_slider_text">
+                                            <div class="container_top_slider_text_inner">
+                                                Детско-юношеский<br>футбол
+                                            </div>
+                                        </div><!-- container_top_slider_text -->
                                     </a>
-                                    <div class="container_top_slider_text">
-                                        <div class="container_top_slider_text_inner">
-                                            Детско-юношеский<br>футбол
-                                        </div>
-                                    </div><!-- container_top_slider_text -->
                                 </div><!--item-->
                                 <div class="item">
-                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                        <div class="container_top_slider_text">
+                                            <div class="container_top_slider_text_inner">
+                                                Детско-юношеский<br>футбол
+                                            </div>
+                                        </div><!-- container_top_slider_text -->
                                     </a>
-                                    <div class="container_top_slider_text">
-                                        <div class="container_top_slider_text_inner">
-                                            Детско-юношеский<br>футбол
-                                        </div>
-                                    </div><!-- container_top_slider_text -->
                                 </div><!--item-->
                                 <div class="item">
-                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                        <div class="container_top_slider_text">
+                                            <div class="container_top_slider_text_inner">
+                                                Детско-юношеский<br>футбол
+                                            </div>
+                                        </div><!-- container_top_slider_text -->
                                     </a>
-                                    <div class="container_top_slider_text">
-                                        <div class="container_top_slider_text_inner">
-                                            Детско-юношеский<br>футбол
-                                        </div>
-                                    </div><!-- container_top_slider_text -->
                                 </div><!--item-->
                                 <div class="item">
-                                    <a class="fancybox" href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                    <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+                                        <div class="container_top_slider_text">
+                                            <div class="container_top_slider_text_inner">
+                                                Детско-юношеский<br>футбол
+                                            </div>
+                                        </div><!-- container_top_slider_text -->
                                     </a>
-                                    <div class="container_top_slider_text">
-                                        <div class="container_top_slider_text_inner">
-                                            Детско-юношеский<br>футбол
-                                        </div>
-                                    </div><!-- container_top_slider_text -->
                                 </div><!--item-->
                             </div><!-- container_top_slideshow -->
-                            <div class="content_middle_right_banner">
-                                <a href="#">
-                                    <img src="/media/assets/images/forward_homePage.jpg" alt="content_middle_right_banner" />
-                                </a>
-                            </div><!-- content_middle_right_banner -->
                         </div><!-- content_middle_right -->
                     </div><!-- content_middle -->
                 </div><!-- content -->

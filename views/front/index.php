@@ -64,6 +64,12 @@
 
                     </div><!-- container_top_right -->
                 </div> <!--right_bar-->
+
+                <div class="container_bottom clearfix">
+
+                    <?Theme::drawWidgets('bottom')?>
+
+                </div>
             </div><!-- container_wrapper -->
         </div><!-- inner -->
     </div><!-- container -->

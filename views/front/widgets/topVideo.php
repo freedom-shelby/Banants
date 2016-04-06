@@ -6,20 +6,12 @@
  * Time: 3:20 PM
  */
 ?>
-<div class="banner_team1">
-    <div class="team1_logo">
-        <img src="/media/assets/images/logo_main.png" alt="logo_main" />
+
+<div class="video_wrapper">
+    <div class="videoimage_wrapper">
+        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/PyvDXwmTEkE?autoplay=1"> <img src="http://img.youtube.com/vi/PyvDXwmTEkE/0.jpg" alt="video_image">
+            <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
+        </a>
     </div>
-    <div class="banner_team1_text">
-        <p>
-            <b>
-                <span>2</span> <span>-</span>  <span>2</span>
-            </b>
-        </p>
-        <p class="result"><b>0-0(3-0)</b></p>
-    </div>
-    <div class="main_logo">
-        <img src="/media/assets/images/team_logo/fc-ararat-yerevan.png" alt="logo_team1" />
-        <h4>АРАРАТ</h4>
-    </div>
-</div>
+    <span>Завен Бадоян: В эпизоде с голом все спланировал заранее</span>
+</div><!-- video_wrapper -->

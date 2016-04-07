@@ -56,7 +56,7 @@ class Theme
      */
     public static function drawHead(){
         echo static::$_page->getDoctype(),PHP_EOL,
-               '<html '.static::$_page->getLang(),PHP_EOL,
+               '<html '.static::$_page->getLang(),PHP_EOL.'>',
                static::$_page->getHead(true),PHP_EOL;
     }
 

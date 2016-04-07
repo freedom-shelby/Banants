@@ -15,7 +15,7 @@ restrictAccess();
 use Widgets\AbstractWidget;
 use View;
 
-class Quizze extends AbstractWidget{
+class RandomNews extends AbstractWidget{
 
     /**
      * Тип страницы

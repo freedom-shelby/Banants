@@ -7,15 +7,9 @@
  */
 ?>
 
-<div class="content_top_right_banners">
-    <div class="content_top_right_banner">
-        <a href="#">
-            <img src="/media/assets/images/youtube_banner.jpg" alt="youtube_banner" />
-        </a>
-    </div><!-- content_top_right_banner -->
-    <div class="content_top_right_banner">
-        <a href="#">
-            <img src="/media/assets/images/banner1.jpg" alt="banner" />
-        </a>
-    </div><!-- content_top_right_banner -->
+<div class="content_top_right_banner">
+    <a href="https://www.youtube.com/channel/UC5BkqVAiqYqWLZVnS1obe-g">
+        <img src="/media/assets/images/youtube_banner.jpg" alt="youtube_banner" />
+    </a>
 </div><!-- content_top_right_banner -->
+

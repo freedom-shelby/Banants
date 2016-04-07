@@ -64,9 +64,9 @@
                         <span>21 Год<br> 23 Гола</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
-                        <span><a href="#"><img class="cal_blue" src="icons/cal2.svg" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img class="photo_dark_blue" src="file:///E:/sunrise/photoshop/icons/photo_dark_blue.svg" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img class="changable" src="icons/video_archive_blue.svg" alt="best_player_multiple_icon"></a></span>
+                        <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                        <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
+                        <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
                     </div><!-- best_player_multiple -->
                 </div><!-- best_player_right -->
             </div><!-- best_player_content -->
@@ -82,9 +82,9 @@
                         <span>21 Год<br> 23 Гола</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
-                        <span><a href="#"><img class="cal_blue" src="icons/cal2.svg" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img class="photo_dark_blue" src="icons/photo_dark_blue.svg" alt="best_player_multiple_icon"></a></span>
-                        <span><a href="#"><img class="changable" src="icons/video_archive_blue.svg" alt="best_player_multiple_icon"></a></span>
+                        <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                        <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
+                        <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
                     </div><!-- best_player_multiple -->
                 </div><!-- best_player_right -->
             </div><!-- best_player_content -->

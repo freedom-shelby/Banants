@@ -11,70 +11,58 @@
     <div class="leftbar_images_slider clearfix">
         <div class="leftbar_images_slider_item">
             <div class="leftbar_slider_images leftbar_slider_big_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_big_images -->
             <div class="leftbar_slider_images leftbar_slider_middle_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
             <div class="leftbar_slider_images leftbar_slider_small_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_small_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
         </div><!-- leftbar_images_slider_item -->
         <div class="leftbar_images_slider_item">
             <div class="leftbar_slider_images leftbar_slider_big_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_big_images -->
             <div class="leftbar_slider_images leftbar_slider_middle_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
             <div class="leftbar_slider_images leftbar_slider_small_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_small_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
         </div><!-- leftbar_images_slider_item -->
         <div class="leftbar_images_slider_item">
             <div class="leftbar_slider_images leftbar_slider_big_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_big_images -->
             <div class="leftbar_slider_images leftbar_slider_middle_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
             <div class="leftbar_slider_images leftbar_slider_small_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_small_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
         </div><!-- leftbar_images_slider_item -->
         <div class="leftbar_images_slider_item">
             <div class="leftbar_slider_images leftbar_slider_big_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_big_images -->
             <div class="leftbar_slider_images leftbar_slider_middle_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
             <div class="leftbar_slider_images leftbar_slider_small_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_small_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images4.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images4.jpg" alt="leftbar_images_slider_images"></a>
-            </div><!-- leftbar_slider_small_images -->
-            <div class="leftbar_slider_images leftbar_slider_middle_images2">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images5.jpg" title="slideshow_images" rel="gallary_a"><img src="/media/assets/images/leftbar_images_slider_images5.jpg" alt="leftbar_images_slider_images"></a>
+                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images"></a>
             </div><!-- leftbar_slider_small_images -->
         </div><!-- leftbar_images_slider_item -->
     </div><!-- leftbar_images_slider -->

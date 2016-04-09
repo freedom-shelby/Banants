@@ -24,6 +24,15 @@ class Theme
     }
 
     /**
+     * Отрисовывыет виджет по типу
+     * @param string $type позиция виджетов
+     * @return mixed
+     */
+    public static function drawWidgetByType($type){
+        echo WgtContainer::instance()->drawWidgetByType($type);
+    }
+
+    /**
      * Отрисовывыет меню для заданной позиции
      * @param string $position позиция виджетов
      * @return mixed
@@ -47,7 +56,7 @@ class Theme
      */
     public static function drawHead(){
         echo static::$_page->getDoctype(),PHP_EOL,
-               '<html '.static::$_page->getLang(),PHP_EOL,
+               '<html '.static::$_page->getLang(),PHP_EOL.'>',
                static::$_page->getHead(true),PHP_EOL;
     }
 

@@ -29,6 +29,12 @@ class WidgetsContainer {
      */
     protected $_items = [];
 
+    /**
+     * Активние Виджеты по типу
+     * @var array
+     */
+    protected $_widgets = [];
+
     protected static $_instance;
 
 
@@ -54,14 +60,25 @@ class WidgetsContainer {
         if($cache->isValid()){
             $items = json_decode($cache->getData());
         }else{
-            $items = ArticleModel::where('slug','=',$slug)->first();
+            $article = ArticleModel::where('slug','=',$slug)->first();
 
-            if(empty($items)){
+            if(empty($article)){
                 throw new HttpException(404);
             }
-            $items = $items->widgets()->whereStatus(1)->orderBy('sort')->get();
 
-            $cache->setData($items);
+//            $items = $items->widgets()->whereStatus(1)->orderBy('sort')->get();
+
+            $data = $article->ancestorsAndSelf()->whereStatus(1)->get();
+            $items = [];
+
+            foreach($data as $item)
+            {
+                // todo: надо добавить и "articles_hast_not_widgets"
+//                array_merge($items, json_decode($item->widgets()->whereStatus(1)->orderBy('sort')->get()->keyBy('id')));
+                $items += $item->widgets()->whereStatus(1)->orderBy('sort')->get()->getDictionary();
+            }
+
+            $cache->setData(json_encode($items));
             $cache->save();
         }
 
@@ -72,6 +89,7 @@ class WidgetsContainer {
                 $tmp->init($i);
                 // todo: в админке проверять чтобы Sorting биль уникалним
                 $this->_items[$tmp->getPosition()][$tmp->getSorting()] = $tmp;
+                $this->_widgets[$i->type] = $tmp;
             }
         }
     }
@@ -89,6 +107,23 @@ class WidgetsContainer {
             foreach($this->_items[$position] as $item){
                 $content .= $item->render() . PHP_EOL;
             }
+        }
+
+        return $content;
+    }
+
+    /**
+     * Рисует виджет по типу
+     * $type = тип виджета
+     * @param string $type
+     * @return View
+     */
+    public function drawWidgetByType($type)
+    {
+
+        $content = '';
+        if( ! empty($this->_widgets[$type])){
+            $content .= $this->_widgets[$type]->render() . PHP_EOL;
         }
 
         return $content;

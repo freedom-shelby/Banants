@@ -1,8 +1,15 @@
 $(document).ready(function() {
 
+  $( "#quizzes" ).submit(function( event ) {
+    event.preventDefault();
+    $("#home").addClass("hidden");
+    $("#home_thanks").removeClass("hidden");
+});
+
   /* dialog */
 $(function() {
-  $( ".dialog1").dialog({
+  $('.dialog').each(function(i, item){
+    $( ".dialog" + i).dialog({
     autoOpen: false,
     draggable:false,
     modal:true,
@@ -22,18 +29,19 @@ $(function() {
         jQuery('#dialog,#login').dialog('close');
       })
     }
+  })
 
-  });
+      });
 
-  $( ".photo1" ).click(function() {
-    var calldialog = $(this).data().calldialog;
-    $('.' + calldialog).dialog( "open" );
-  });
+      $( ".photo1" ).click(function() {
+        var calldialog = $(this).data().calldialog;
+        $('.' + calldialog).dialog( "open" );
+      });
 
-  $(window).resize(function() {
-    $("#login").dialog("option", "position", {my: "center", at: "center", of: window});
-  });
-});
+      $(window).resize(function() {
+        $("#login").dialog("option", "position", {my: "center", at: "center", of: window});
+      });
+    });
 
   if($(".container_top_slideshow").length > 0) {
       $(".container_top_slideshow").owlCarousel({
@@ -149,7 +157,7 @@ $(function() {
       });
    }
 
-   if($('.leftbar_images_slider_item').length && $('.content_middle_slider_item').length) {         
+   /*if($('.leftbar_images_slider_item').length && $('.content_middle_slider_item').length) {
       var $container = ['.leftbar_images_slider_item', '.content_middle_slider_item'];
       var itemSelector = ['.leftbar_slider_images', '.content_slider_images'];
 
@@ -161,7 +169,7 @@ $(function() {
              });
           });
       });           
-   }     
+   }     */
 
 
    if($(".content_middle_slider").length > 0) {
@@ -233,4 +241,16 @@ $(document).ready(function() {
     /*  Video  */
 
     $('.widget.widget-with-tabs').banantsTabsWidget();
+
+    //"http://img.youtube.com/vi/"+vid+"/0.jpg";
+
+    /*--------------------------------------------- Form Validation ---------------------------------*/
+
+    function validateForm() {
+        var x = document.forms["clearfix"]["username"].value;
+        if (x == null || x == "") {
+            alert("Fill out the form");
+            return ("Registration is done successfully");
+        }
+    }
 });

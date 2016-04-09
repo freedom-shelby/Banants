@@ -15,7 +15,7 @@ restrictAccess();
 use Widgets\AbstractWidget;
 use View;
 
-class PhotoGalleries extends AbstractWidget{
+class LastMatch extends AbstractWidget{
 
     /**
      * Тип страницы

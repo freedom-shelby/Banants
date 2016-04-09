@@ -11,7 +11,7 @@
 	<script src="js/jquery.js"></script>
 	<script src="http://www.youtube.com/player_api"></script>
 	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/masonry.min.js"></script>
+	<!--<script src="js/masonry.min.js"></script>
 	<script src="js/imagesloaded.js"></script>
 	<!--fancybox js-->
 	<script src="js/jquery.fancybox.pack.js"></script>
@@ -715,11 +715,11 @@
 							</div><!-- leftbar_images_slider -->
 							<span class="photogalery_link"><a href="#">Фото Галерея</a></span>
 						</div><!-- leftbar_images_slider_wrapper -->
-						<div class="home quizzes">
+						<div id="home" class="home quizzes">
 							<h3>
 								Кто из перечисленных футболистов окажется бомбардиром в следующем месяце?
 							</h3>
-							<form action="#" method="post">
+							<form id="quizzes" action="#" method="post">
 								<div class="quizzes_list">
 									<input type="radio" name="check1" id="check1" checked="checked" />
 									<label for="check1">Арустамян Гагик</label>
@@ -747,6 +747,11 @@
 								<input type="submit" value="Ответить"/>
 							</form>
 						</div><!-- quizzes -->
+						<div id="home_thanks" class=" home quizzes home_thanks hidden">
+							<h3>
+								Thank you
+							</h3>
+						</div><!-- quizzes -->
 					</div><!-- leftbar -->
 					<div class="content">
 						<div class="content_top clearfix">
@@ -754,7 +759,7 @@
 								<div class="carousel_slider_wrapper clearfix">
 									<div class="carousel_slider">
 										<div class="carousel_slider_item">
-											<a class="fancybox" href="images/carousel_slider_images1.jpg" title="slideshow_images" rel="gallary_b">
+											<a hraf="#">
 												<div class="carousel_slider_images">
 													<img src="images/carousel_slider_images1.jpg" alt="carousel_images" />
 												</div><!-- carousel_slider_images -->
@@ -764,7 +769,7 @@
 											</a>
 										</div><!-- carousel_slider_item -->
 										<div class="carousel_slider_item">
-											<a class="fancybox" href="images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b">
+											<a href="#">
 												<div class="carousel_slider_images">
 													<img src="images/carousel_slider_images2.jpg" alt="carousel_images" />
 												</div><!-- carousel_slider_images -->
@@ -774,7 +779,7 @@
 											</a>
 										</div><!-- carousel_slider_item -->
 										<div class="carousel_slider_item">
-											<a class="fancybox" href="images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+											<a hraf="#">
 												<div class="carousel_slider_images">
 													<img src="images/carousel_slider_images3.jpg" alt="carousel_images" />
 												</div><!-- carousel_slider_images -->
@@ -1168,7 +1173,7 @@
 											</a>
 											</div>
 										</div><!-- content_middle_slider -->
-										<div class="content_slider_images content_slider_small_images">
+										<div class="content_slider_images content_slider_small_images small_images1">
 											<div class="videoimage_wrapper">
 												<a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
 													<img src="images/content_slider_small_images1.jpg" alt="content_slider_images" />
@@ -1176,7 +1181,7 @@
 												</a>
 											</div>
 										</div><!-- content_middle_slider -->
-										<div class="content_slider_images content_slider_small_images">
+										<div class="content_slider_images content_slider_small_images small_images2">
 											<div class="videoimage_wrapper">
 												<a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
 													<img src="images/content_slider_small_images2.jpg" alt="content_slider_images" />
@@ -1184,15 +1189,15 @@
 												</a>
 											</div>
 										</div><!-- content_middle_slider -->
-										<div class="content_slider_images content_slider_small_images">
+										<div class="content_slider_images content_slider_small_images small_images3">
 											<div class="videoimage_wrapper">
 												<a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-													<img src="images/content_slider_small_images1.jpg" alt="content_slider_images" />
+													<img src="images/content_slider_small_images7.jpg" alt="content_slider_images" />
 													<img class="videoplayer_icon" src="images/videoplayer_icon.png" alt="videoplayer_icon">
 												</a>
 											</div>
 										</div><!-- content_middle_slider -->
-										<div class="content_slider_images content_slider_small_images">
+										<div class="content_slider_images content_slider_small_images small_images4">
 											<div class="videoimage_wrapper">
 												<a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
 													<img src="images/content_slider_small_images4.jpg" alt="content_slider_images" />
@@ -1250,7 +1255,7 @@
 										<div class="content_slider_images content_slider_small_images">
 											<div class="videoimage_wrapper">
 												<a class="various fancybox.iframe" href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1">
-													<img src="images/content_slider_small_images1.jpg" alt="content_slider_images" />
+													<img src="images/content_slider_small_images7.jpg" alt="content_slider_images" />
 													<img class="videoplayer_icon" src="images/videoplayer_icon.png" alt="videoplayer_icon">
 												</a>
 											</div>

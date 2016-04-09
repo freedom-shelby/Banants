@@ -15,7 +15,7 @@ restrictAccess();
 use Widgets\AbstractWidget;
 use View;
 
-class Banner extends AbstractWidget{
+class MainNews extends AbstractWidget{
 
     /**
      * Тип страницы

@@ -26,48 +26,48 @@
                         <th>ИГР</th>
                         <th>ОЧК</th>
                     </tr>
-                    <tr class="active">
-                        <td><a class="team" href="#">Бананц</a></td>
-                        <td><span>11</span></td>
-                        <td><span>33</span></td>
+                    <tr>
+                        <td><a class="team" href="#">Алашкерт</a></td>
+                        <td><span>18</span></td>
+                        <td><span>38</span></td>
                     </tr>
                     <tr>
-                        <td><a class="team" href="#">Алашкерт </a></td>
-                        <td><span>10</span></td>
+                        <td><a class="team" href="#">Пюник </a></td>
+                        <td><span>18</span></td>
+                        <td><span>34</span></td>
+                    </tr>
+                    <tr>
+                        <td><a class="team" href="#">Ширак</a></td>
+                        <td><span>18</span></td>
+                        <td><span>28</span></td>
+                    </tr>
+                    <tr>
+                        <td><a class="team" href="#">Арарат</a></td>
+                        <td><span>18</span></td>
                         <td><span>27</span></td>
                     </tr>
                     <tr>
                         <td><a class="team" href="#">Гандзасар</a></td>
-                        <td><span>10</span></td>
-                        <td><span>24</span></td>
-                    </tr>
-                    <tr>
-                        <td><a class="team" href="#">Пюник</a></td>
-                        <td><span>11</span></td>
-                        <td><span>24</span></td>
-                    </tr>
-                    <tr>
-                        <td><a class="team" href="#">Арарат</a></td>
-                        <td><span>11</span></td>
                         <td><span>18</span></td>
-                    </tr>
-                    <tr>
-                        <td><a class="team" href="#">Ширак</a></td>
-                        <td><span>11</span></td>
-                        <td><span>14</span></td>
+                        <td><span>25</span></td>
                     </tr>
                     <tr>
                         <td><a class="team" href="#">Мика</a></td>
-                        <td><span>11</span></td>
-                        <td><span>8</span></td>
+                        <td><span>18</span></td>
+                        <td><span>21</span></td>
+                    </tr>
+                    <tr class="active">
+                        <td><a class="team" href="#">Бананц</a></td>
+                        <td><span>18</span></td>
+                        <td><span>21</span></td>
                     </tr>
                     <tr>
                         <td><a class="team" href="#">Улисс</a></td>
-                        <td><span>11</span></td>
-                        <td><span>5</span></td>
+                        <td><span>18</span></td>
+                        <td><span>2</span></td>
                     </tr>
-                    </tbody>
-                </table>
+                    </tbody></table>
+
             </div>
             <div class="tab3">tab desc3</div>
             <div class="tab4">tab desc4</div>
@@ -96,5 +96,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div><!-- tournament_table -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsTest" persistUploadOnCheckin="false">
     <serverData>
       <paths name="Banants">
         <serverdata>
@@ -9,16 +9,15 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="BanantsDEMO">
+      <paths name="BanantsTest">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
-            <excludedPath path="/HTML" />
-            <excludedPath path="/localstorage" />
             <excludedPath path="/config" />
             <excludedPath path="/vendor" />
+            <excludedPath path="/views/test" />
             <excludedPath path="/system" />
           </excludedPaths>
         </serverdata>
@@ -31,6 +30,13 @@
         </serverdata>
       </paths>
       <paths name="IVRProd">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="MailTest">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -51,6 +57,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="bullpay">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="israelsim">
         <serverdata>
           <mappings>
@@ -65,6 +78,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="regiscard">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="shop">
         <serverdata>
           <mappings>
@@ -73,5 +93,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

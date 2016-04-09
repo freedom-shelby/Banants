@@ -43,6 +43,14 @@ body {
     font-style:normal;  
 }
 
+.hidden{
+	display: none;
+}
+
+.scale{
+	width: 100% !important;
+}
+
 /*IconMoon*/
 
 @font-face {
@@ -474,7 +482,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team1 img {
-	margin: 0  0 17px 4px;
+	margin: 0  0 13px 4px;
 	font-size: 30px;
 	color: #044980;
 }
@@ -624,6 +632,17 @@ h1, h2, h3, h4, h5, h5, h6 {
     margin: -10px 3px 0 0;
     float: right;
 }
+
+
+.header_right .banner_team1 .main_logo img,
+.header_right .banner_team2 .team1_logo img,
+.header_right .banner_team1 .team1_logo img,
+.header_right .banner_team2 .team2_logo img{
+	max-width: 82px;
+	max-height: 82px;
+}
+
+
 
 .header_right .banner_team2 h4{
 	margin: -7px 0px 0px 19px;
@@ -939,6 +958,11 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .videoimage_wrapper a:hover img{
 	opacity: 0.8;
+}
+
+.video_wrapper img:first-child{
+    width: 236px;
+    height: 152px;
 }
 
 .video_wrapper {
@@ -1384,16 +1408,35 @@ div.tournament_table .tournament_table_active a {
 	max-width: 100%;
 }
 
-.leftbar_slider_big_images {
-	width: 100%;
+.leftbar_slider_big_images {	/*---------*/
+	width: 278px;
+	height: 171px;
 }
 
+.leftbar_slider_big_images .image1{
+	width: 278px;
+	height: 171px;
+}
+
+
 .leftbar_slider_middle_images {
-	width: 60%;
+	width: 166px;
+	height: 94px;
+}
+
+.leftbar_slider_middle_images .image2{
+	width: 166px;
+	height: 170px;
 }
 
 .leftbar_slider_small_images {
-	width: 39%;
+	width: 108px;
+	height: 95px;
+}
+
+.leftbar_slider_small_images .image3{
+	width: 108px;
+	height: 170px;
 }
 
 .leftbar_slider_middle_images2 {
@@ -1401,7 +1444,13 @@ div.tournament_table .tournament_table_active a {
 }
 
 .leftbar_slider_small_images2 {
-	width: 45%;
+	width: 125px;
+	height: 85px;
+}
+
+.leftbar_slider_small_images2 .image4{
+	width: 125px;
+	height: 85px;
 }
 
 .leftbar_images_slider .owl-controls {
@@ -1456,6 +1505,10 @@ div.tournament_table .tournament_table_active a {
 	margin-top: 24px;
 }
 
+.home_thanks{
+	height: 309px;
+}
+
 .quizzes {
     padding: 9px 15px 15px 15px;
 	background-color: #217cb8;
@@ -1470,6 +1523,11 @@ div.tournament_table .tournament_table_active a {
 	line-height: 20px;
 	color:#fff;
 	margin: 0 0 15px 0;
+}
+
+.quizzes .tahnks_text{
+	margin: 130px 0 0 17px;
+    font-size: 22px;
 }
 
 .quizzes_list {
@@ -1518,7 +1576,9 @@ div.tournament_table .tournament_table_active a {
 	z-index: 10;
 }
 
-
+.carousel_slider_wrapper.sizing{
+	width: 100%;
+}
 
 .carousel_slider_wrapper .owl-controls {
 	margin-top: 3px;
@@ -1580,6 +1640,10 @@ div.tournament_table .tournament_table_active a {
     background-color: #fff;
     clear: both;
    	padding-bottom: 2px;
+}
+
+.news_slider_wrapper.sizing{
+	width: 100%;
 }
 
 div.news_list h3 {
@@ -1678,6 +1742,10 @@ div.news_list h3 {
 	float: left;
 	width: 342px;
 	margin-left: 5px;
+}
+
+.content_top_right.sizing{
+	width: 100%;
 }
 
 .content_top_right_info_blog_images {
@@ -1782,12 +1850,11 @@ div.news_list h3 {
 }
 
 .content_slider_images {
-	margin-bottom: 2px;
+	margin-bottom: 3px;
 	margin-left: 1px;
 }
 
 .content_slider_images img {
-	max-width: 100%;
 	margin: 0 auto;
 	display: block;
 }
@@ -1802,24 +1869,70 @@ div.news_list h3 {
 }
 
 .content_slider_middle_images {
-	width: 54%;
+	width: 231px;
+	height: 145px;
+	float: left;
+}
+
+.content_slider_middle_images .videoimage_wrapper .image1{  /*--------04.04.2016------------*/
+	width: 231px;
+	height: 145px;
 }
 
 .content_slider_middle_images2 {
-	width: 45%;
+	width: 192px;
+	height: 145px;
+	float: right;
+}
+
+.content_slider_middle_images2 .videoimage_wrapper .image2{ /*--------04.04.2016------------*/
+	width: 231px;
+	width: 192px;
+	height: 145px;
 }
 
 .content_slider_big_images {
-	width: 69.2%;
-	min-height: 164px;
+	width: 296px;
+	height: 162px;
+	float: left;
+}
+
+.content_slider_big_images .videoimage_wrapper .image3{  /*--------04.04.2016------------*/
+	width: 296px;
+	height: 225px;
 }
 
 .content_slider_small_long_images {
-	width: 29.4%;
+	width: 127px;
+	height: 162px;
+	float: right;
+}
+
+.content_slider_small_long_images .videoimage_wrapper .image4{   /*--------04.04.2016------------*/
+	width: 296px;
+	width: 128px;
+	height: 225px;
 }
 
 .content_slider_small_images {
-	width: 24.6%;
+	height: 69px;
+	float: left;
+}
+
+.small_images1{
+	width: 108px;
+}
+
+.small_images2{
+	width: 98px;
+}
+
+.small_images3{
+	width: 123px;
+}
+
+.small_images4{
+	width: 95px;
 }
 
 .container_bottom{
@@ -1870,10 +1983,15 @@ div.news_list h3 {
     letter-spacing: 1px;
 }
 
+.container_top_slider_text .container_top_slider_text_inner a{
+	color: #fff;
+	text-decoration: none;
+}
+
 .content_middle_right_banner {
 	width: 440px;
     clear: both;
-    padding-top: 9px;
+    padding-top: 7px;
 }
 
 .content_middle_right_banner img {

@@ -10,7 +10,7 @@
 <div class="carousel_slider_wrapper clearfix">
     <div class="carousel_slider">
         <div class="carousel_slider_item">
-            <a class="fancybox" href="/media/assets/images/carousel_slider_images1.jpg" title="slideshow_images" rel="gallary_b">
+            <a class="fancybox" href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallary_b">
                 <div class="carousel_slider_images">
                     <img src="/uploads/images/pyunik_banants/25415800476_778949c3d9_o_3.jpg" alt="carousel_images" />
                 </div><!-- carousel_slider_images -->
@@ -50,22 +50,22 @@
             </a>
         </div><!-- carousel_slider_item -->
         <div class="carousel_slider_item">
-            <a class="fancybox" href="/media/assets/images/carousel_slider_images2.jpg" title="slideshow_images" rel="gallary_b">
+            <a class="fancybox" href="/pyunik_banants_03_02_16.html" title="slideshow_images" rel="gallary_b">
                 <div class="carousel_slider_images">
-                    <img src="/media/assets/images/carousel_slider_images2.jpg" alt="carousel_images" />
+                    <img src="/uploads/images/pyunik_banants/25415800476_778949c3d9_o_3.jpg" alt="carousel_images" />
                 </div><!-- carousel_slider_images -->
                 <div class="carousel_slider_info">
-                    <span>Победа юношеской сборной в финале </span>
+                    <span>Пюник - Бананц 1:2 (Фото и Видео)</span>
                 </div>
             </a>
         </div><!-- carousel_slider_item -->
         <div class="carousel_slider_item">
-            <a class="fancybox" href="/media/assets/images/carousel_slider_images3.jpg" title="slideshow_images" rel="gallary_b">
+            <a class="fancybox" href="/nairi_minasyan_izmeneniya_pomogut_nam_podnyatsya_v_turnirnoj_tablitse.html" title="slideshow_images" rel="gallary_b">
                 <div class="carousel_slider_images">
-                    <img src="/media/assets/images/carousel_slider_images3.jpg" alt="carousel_images" />
+                    <img src="/uploads/images/nairi_minasyan_izmeneniya_pomogut_nam_podnyatsya_v_turnirnoj_tablitse/9cb6e71fd379c0a6d58ef216f9910ae9_M_2.jpg" alt="carousel_images" />
                 </div><!-- carousel_slider_images -->
                 <div class="carousel_slider_info">
-                    <span>Победа юношеской сборной в финале </span>
+                    <span>Колоссальные успехи бананца ...</span>
                 </div>
             </a>
         </div><!-- carousel_slider_item -->

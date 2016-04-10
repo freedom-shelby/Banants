@@ -23,8 +23,9 @@ return array(
             array('file' => 'owl.carousel.min.js'),
             array('file' => 'masonry.min.js'),
             array('file' => 'imagesloaded.js'),
-            array('file' => 'custom/scripts.js'),
+            array('file' => 'jquery-ui-1.10.4.custom.min.js'),
             array('file' => 'jquery.fancybox.pack.js'),
+            array('file' => 'custom/scripts.js'),
         )
     )
 );

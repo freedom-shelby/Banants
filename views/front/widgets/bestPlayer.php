@@ -11,13 +11,13 @@
         <h2>ИГРОК МАТЧА</h2>
     </div><!-- best_player_title -->
     <div class="best_player_content">
-        <h3>АРЗУМАНЯН ГЕВОРГ</h3>
+        <h3>ЛАЕРСИО ГОМЕС КОСТА</h3>
         <div class="best_player_images_wrapper">
             <img src="/media/assets/images/player1.png" alt="best player" />
         </div><!-- best_player_images_wrapper -->
         <div class="best_player_right">
             <div class="best_player_info">
-                <span>Голы 4<br> Удары 9<br> В створ 5</span>
+                <span>Голы 1<br> Удары 4<br> В створ 2</span>
             </div><!-- best_player_info -->
             <div class="best_player_multiple clearfix">
                 <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

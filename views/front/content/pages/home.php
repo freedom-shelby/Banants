@@ -5,7 +5,9 @@
                 <div class="container_top_left">
                     <div class="container_top_header clearfix">
 
-                        <?Theme::drawWidgetByType('Anons')?>
+                        <div class="home-anons">
+                            <?Theme::drawWidgetByType('Anons')?>
+                        </div>
 
                         <div class="container_top_aside">
 <!--                            <div class="video_wrapper">-->

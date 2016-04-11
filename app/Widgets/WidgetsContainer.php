@@ -78,6 +78,9 @@ class WidgetsContainer {
                 $items += $item->widgets()->whereStatus(1)->orderBy('sort')->get()->getDictionary();
             }
 
+            // Загрузка толкп тех виджетов которие принедлежат именно этому
+            $items += $article->onlySelfWidgets()->whereStatus(1)->get()->getDictionary();
+
             $cache->setData(json_encode($items));
             $cache->save();
         }

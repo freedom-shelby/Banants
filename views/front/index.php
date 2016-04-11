@@ -50,13 +50,15 @@
                 <div class="leftbar clearfix">
 
                     <?Theme::drawSubMenu('subCategory')?>
-
                     <?Theme::drawWidgets('left')?>
 
                 </div><!-- leftbar -->
+                <div id="content">
 
-                <?Theme::drawContent()?>
+                    <?Theme::drawContent()?>
+                    <?Theme::drawWidgets('content')?>
 
+                </div>
                 <div class="right_bar">
                     <div class="container_top_right">
 

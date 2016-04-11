@@ -41,6 +41,12 @@ class ArticleModel extends LangModel
         return $this->belongsToMany('WidgetModel', 'articles_has_widgets', 'article_id', 'widget_id');
     }
 
+    // Загрузка толкп тех виджетов которие принедлежат именно этому
+    public function onlySelfWidgets()
+    {
+        return $this->belongsToMany('WidgetModel', 'articles_has_only_self_widgets', 'article_id', 'widget_id');
+    }
+
 //    public function getCreatedAtAttribute($date)
 //    {
 //        return Carbon\Carbon::createFromTimestamp($date)->format('Y-m-d H:i:s');

@@ -120,7 +120,7 @@ class Category extends AbstractMenu{
         $output .= '<li class="home"><a href="/"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
 
         foreach($this->_items as $item){
-            $output .= '<li class="club submenu_parent"><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a>';
+            $output .= '<li class="club ' . (($this->_active == $item->slug) ? "active" : "") . ' submenu_parent"><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a>';
 
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);

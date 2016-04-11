@@ -47,33 +47,33 @@ class SubCategory extends Category{
 
     public function render()
     {
-        $output = '<div id="accordion" class="left_bar_menu">';
+        $output = '<div id="accordion" class="left_bar_menu">
+                        <ul>';
 
         foreach($this->_items as $item){
-            $output .= '<span class="accordion_title">' . __($item->text()) . '</span>';
+            $output .= '<li ' . (($this->_active == $item->slug) ? 'class="active"' : "") . '><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
 
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);
             }
         }
 
-        $output .= '</div>';
+        $output .=    '</ul>
+                  </div>';
 
         return $output . PHP_EOL;
     }
 
     public function subMenuRender($items)
     {
-        $output = '<div>
-                        <ul class="accordion-submenu">';
+        $output = '<ul class="accordion-submenu">';
 
         foreach($items as $item)
         {
-            $output .= '<li><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
+            $output .= '<li ' . (($this->_active == $item->slug) ? 'class="active"' : "") . '><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
         }
 
-        $output .=    '</ul>
-                  </div>';
+        $output .= '</ul>';
 
         return $output;
     }

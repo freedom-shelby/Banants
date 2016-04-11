@@ -122,7 +122,6 @@ return array(
     'Widgets\\Widget\\BottomBanner' => $baseDir . '/app/Widgets/Widget/BottomBanner.php',
     'Widgets\\Widget\\ContentBanner' => $baseDir . '/app/Widgets/Widget/ContentBanner.php',
     'Widgets\\Widget\\ContentPanoramaBanner' => $baseDir . '/app/Widgets/Widget/ContentPanoramaBanner.php',
-    'Widgets\\Widget\\InfoBlog' => $baseDir . '/app/Widgets/Widget/InfoBlog.php',
     'Widgets\\Widget\\LastMatch' => $baseDir . '/app/Widgets/Widget/LastMatch.php',
     'Widgets\\Widget\\LastMatchesAnons' => $baseDir . '/app/Widgets/Widget/LastMatchesAnons.php',
     'Widgets\\Widget\\MainNews' => $baseDir . '/app/Widgets/Widget/MainNews.php',

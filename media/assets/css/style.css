@@ -805,6 +805,10 @@ h1, h2, h3, h4, h5, h5, h6 {
 	color:#ffe000;
 }
 
+.navigation > ul > li.active > a {
+	color:#ffe000;
+}
+
 .navigation_active_item a {
 	position: relative;
 }
@@ -838,9 +842,13 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .container_top_slideshow {
-	width: 640px;
+	width: 100%;
 	float: left;
 	position: relative;
+}
+
+.home-anons {
+	width: 640px;
 }
 
 .container_top_slider_text {
@@ -1557,6 +1565,15 @@ div.tournament_table .tournament_table_active a {
 	margin-left: 5px;
 }
 
+#content {
+    width: 592px;
+    float: left;
+    margin: 0 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 .content_top_left {
 	width: 545px;
 	float: left;
@@ -2056,42 +2073,40 @@ div.news_list h3 {
 }
 
 #accordion li a{
-    color:#000;
     line-height: 20px;
     text-decoration: none;
-    padding:7px 20px 4px 20px;
     display: block;
     background-repeat:no-repeat;
     background-position:5px 14px;
-	color:#fff;
+    color:#fff;
 }
 
-#accordion li a:hover{
-    color:#0099cc;
-    text-decoration: underline;
+#accordion .accordion-submenu li a{
+    padding: 8px 0 7px 40px;
 }
 
-#accordion li.accordion-submenu-active a{
+/*#accordion li a:hover{*/
+    /*color:#0099cc;*/
+    /*text-decoration: underline;*/
+/*}*/
+
+#accordion .active a{
+    background-color: #044980;
     color:#ffe000;
 }
 
-#accordion .accordion-submenu li a:hover {
+#accordion li a:hover {
 	color:#ffe000;
 	text-decoration: none;
 }
 
-#accordion li.accordion-submenu-active a:hover{
+#accordion li.active a:hover{
     text-decoration: none;
 }
 
-.accordion-submenu li {
+#accordion li {
 	font-size: 16px;
 	color:#fff;
-}
-
-#accordion li a {
-	color:#fff;
-	padding: 8px 0 7px 40px;
 }
 
 #accordion > span{
@@ -2220,15 +2235,14 @@ div.news_list h3 {
 	background-color: #fff;
 }
 
-
-.inner_content_wrapper{
-	width: 592px;
-	float: left;
-	margin: 0 8px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+/*.inner_content_wrapper{*/
+	/*width: 592px;*/
+	/*float: left;*/
+	/*margin: 0 8px;*/
+	/*-webkit-box-sizing: border-box;*/
+	/*-moz-box-sizing: border-box;*/
+	/*box-sizing: border-box;*/
+/*}*/
 
 .inner_content{
 	margin-bottom: 6px;

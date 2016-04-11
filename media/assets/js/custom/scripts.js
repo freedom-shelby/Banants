@@ -134,20 +134,21 @@ $(function() {
     }
 
 
-  if($( "#accordion" ).length) {
-      $(function() {
-         $( "#accordion" ).accordion({
-            autoHeight:false,
-            heightStyle: "content",
-            collapsible: true,
-            alwaysOpen: false,
-            header: 'span',
-            active:2,
-            header: '.accordion_title'
-            //active: false
-         });
-      });
-   }
+  //if($( "#accordion" ).length) {
+  //    $(function() {
+  //       $( "#accordion" ).accordion({
+  //          event: "mouseover",
+  //          autoHeight:false,
+  //          heightStyle: "content",
+  //          collapsible: true,
+  //          alwaysOpen: false,
+  //          header: 'span',
+  //          active:2,
+  //          header: '.accordion_title'
+  //          //active: false
+  //       });
+  //    });
+  // }
 
    if($( "#item_tabs" ).length) {
       $(document).ready(function() {

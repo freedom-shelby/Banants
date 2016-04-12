@@ -829,8 +829,8 @@ h1, h2, h3, h4, h5, h5, h6 {
     border-bottom: 10px solid;
     border-right: 10px solid transparent;
     bottom: -2px;
-				    position: absolute;
-				    border-left: 10px solid transparent;
+    position: absolute;
+    border-left: 10px solid transparent;
     color: #ffe000;
     left: 50%;
     margin-left: -10px;

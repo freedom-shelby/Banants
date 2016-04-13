@@ -42,11 +42,19 @@ class ArticleModel extends LangModel
     }
 
     /**
-     * Загрузка толкп тех виджетов которие принедлежат именно этому
+     * Загрузка толко тех виджетов которие принедлежат именно этому
      */
     public function onlySelfWidgets()
     {
         return $this->belongsToMany('WidgetModel', 'articles_has_only_self_widgets', 'article_id', 'widget_id');
+    }
+
+    /**
+     * Загрузка картинки по-умолчанию
+     */
+    public function defaultImage()
+    {
+        return $this->belongsTo('PhotoModel', 'menu_id');
     }
 
 //    public function getCreatedAtAttribute($date)

@@ -14,6 +14,8 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use Setting;
+use ArticleModel;
 
 class Anons extends AbstractWidget{
 
@@ -42,6 +44,12 @@ class Anons extends AbstractWidget{
      */
     protected $_param;
 
+    /**
+     * Матеряли
+     * @type array[ArticleModel]
+     */
+    protected $_items = [];
+
 
     public function getPosition()
     {
@@ -55,11 +63,24 @@ class Anons extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('items', $this->_items);
     }
 
     public function init($model)
     {
+        // Матерялов из клуба
+        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_id'))->descendants()->limit(Setting::instance()->getSettingVal('widgets.anons_club_articles_count'))->get();
+        foreach ($data as $item) {
+            $this->_items[] = $item;
+        }
+
+        // Матерялов из Бананца
+        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_id'))->descendants()->limit(Setting::instance()->getSettingVal('widgets.anons_banants_articles_count'))->get();
+        foreach ($data as $item) {
+            $this->_items[] = $item;
+        }
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

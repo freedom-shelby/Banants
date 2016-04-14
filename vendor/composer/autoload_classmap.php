@@ -88,6 +88,7 @@ return array(
     'OrderedScopedCategory' => $baseDir . '/controllers/Test/NestedSets/models/Category.php',
     'OrderedScopedCategorySeeder' => $baseDir . '/controllers/Test/NestedSets/seeders/CategorySeeder.php',
     'Page' => $baseDir . '/app/Page.php',
+    'PhotoModel' => $baseDir . '/models/PhotoModel.php',
     'QueryBuilderExtensionTest' => $baseDir . '/controllers/Test/NestedSets/suite/QueryBuilderExtensionTest.php',
     'Route' => $baseDir . '/system/Route.php',
     'Router' => $baseDir . '/system/Router.php',

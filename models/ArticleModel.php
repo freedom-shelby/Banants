@@ -54,7 +54,7 @@ class ArticleModel extends LangModel
      */
     public function defaultImage()
     {
-        return $this->belongsTo('PhotoModel', 'menu_id');
+        return $this->belongsTo('PhotoModel', 'photo_id')->first();
     }
 
 //    public function getCreatedAtAttribute($date)

@@ -12,8 +12,15 @@
       <paths name="BanantsTest">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/HTML" />
+            <excludedPath path="/config/database.php" />
+            <excludedPath path="/config/__database.php" />
+            <excludedPath path="/error_log" />
+            <excludedPath path="/views/test" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="IVR">

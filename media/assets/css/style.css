@@ -2005,6 +2005,10 @@ div.news_list h3 {
 	text-decoration: none;
 }
 
+.container_top_slider_text .container_top_slider_text_inner {
+    width: 240px;
+}
+
 .content_middle_right_banner {
 	width: 440px;
     clear: both;

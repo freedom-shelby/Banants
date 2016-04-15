@@ -14,11 +14,8 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
-use Setting;
-use ArticleModel;
-use Router;
 
-class MainNews extends AbstractWidget{
+class NextMatch extends AbstractWidget{
 
     /**
      * Тип страницы
@@ -45,12 +42,6 @@ class MainNews extends AbstractWidget{
      */
     protected $_param;
 
-    /**
-     * Матеряли
-     * @type array[ArticleModel]
-     */
-    protected $_items = [];
-
 
     public function getPosition()
     {
@@ -64,32 +55,15 @@ class MainNews extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template)
-            ->with('items', $this->_items);
-
+        return View::make($this->_template);
     }
 
     public function init($model)
     {
-        $this->_param = json_decode($model->param, true);
-
-        self::$_current = Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
-
-        // Матерялов из клуба
-        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))->descendants()->limit($this->_param['settings']['anons_club_articles_count'])->get();
-        foreach ($data as $item) {
-            $this->_items[] = $item;
-        }
-
-        // Матерялов из Бананца
-        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))->descendants()->limit($this->_param['settings']['anons_banants_articles_count'])->get();
-        foreach ($data as $item) {
-            $this->_items[] = $item;
-        }
-
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
+        $this->_param = $model->param;
         $this->_type = $model->type;
     }
 }

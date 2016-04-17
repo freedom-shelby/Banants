@@ -31,6 +31,12 @@ class App {
      */
     private $_http;
 
+    /**
+     * Текуший Слуг для УРЛ
+     * @var Router
+     */
+    private $_current;
+
 
     private static $_config = [
         'base_url' => '/', //базовый урл
@@ -53,9 +59,17 @@ class App {
         if(empty(static::$_instance)){
             static::$_instance = new static();
             static::$_messages = include_once (ROOT_PATH.'messages/errors'.EXT);
-
         }
         return static::$_instance;
+    }
+
+    /**
+     * Текуший Слуг для УРЛ
+     * @return string
+     */
+    public function getCurrentSlug()
+    {
+        return $this->_current = Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
     }
 
     /**

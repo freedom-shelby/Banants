@@ -72,7 +72,7 @@
             <div class="news_list clearfix">
                 <a href="/s_dnem_rozhdeniya_roman_guramovich.html">
                     <div class="news_list_images">
-                        <img src="/uploads/images/s_dnem_rozhdeniya_roman_guramovich/5003d452a8da016f3ed02a6385cf54e8_M_2.jpg" alt="news_list_images" />
+                            <img src="/uploads/images/s_dnem_rozhdeniya_roman_guramovich/5003d452a8da016f3ed02a6385cf54e8_M_2.jpg" alt="news_list_images" />
                     </div><!-- news_list_images -->
                     <div class="news_list_info">
                         <h3>С днем рождения, Роман Гурамович!</h3>

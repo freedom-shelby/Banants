@@ -14,6 +14,10 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use Setting;
+use ArticleModel;
+use WidgetModel;
+use App;
 
 class RandomNews extends AbstractWidget{
 
@@ -42,6 +46,11 @@ class RandomNews extends AbstractWidget{
      */
     protected $_param;
 
+    /**
+     * Матеряли
+     * @type array[ArticleModel]
+     */
+    protected $_items = [];
 
     public function getPosition()
     {
@@ -55,15 +64,50 @@ class RandomNews extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('items', $this->_items);
     }
 
     public function init($model)
     {
+        $this->_param = json_decode($model->param, true);
+
+        if(App::instance()->getCurrentSlug() == 'home'){
+            // Матерялов из клуба
+            $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))
+                ->descendants()
+                ->where('photo_id', '!=' , 1)
+                ->limit($this->_param['settings']['home_page_club_articles_limit'] + $this->_param['settings']['anons_club_articles_limit'])
+                ->offset($this->_param['settings']['anons_club_articles_limit'])->get();
+            foreach ($data as $item) {
+                $this->_items[] = $item;
+            }
+            // Матерялов из Бананца
+            $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))
+                ->descendants()
+                ->where('photo_id', '!=' , 1)
+                ->limit($this->_param['settings']['home_page_banants_articles_limit'] + $this->_param['settings']['anons_banants_articles_limit'])
+                ->offset($this->_param['settings']['anons_banants_articles_limit'])->get();
+            foreach ($data as $item) {
+                $this->_items[] = $item;
+            }
+
+        }else{
+            $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+                ->ancestorsAndSelf()
+                ->whereLvl(Setting::instance()->getSettingVal('main_articles.category_level'))->first()
+                ->descendants()
+                ->where('photo_id', '!=' , 1)
+                ->limit($this->_param['settings']['max_news_limit'])->get();
+            foreach ($data as $item) {
+                $this->_items[] = $item;
+            }
+//        $data = ArticleModel::whereStatus(1)->has('defaultImages');
+        }
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
-        $this->_param = $model->param;
         $this->_type = $model->type;
     }
 }

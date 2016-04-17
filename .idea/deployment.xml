@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsTest" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" autoUpload="On explicit save action" persistUploadOnCheckin="false">
     <serverData>
       <paths name="Banants">
         <serverdata>
@@ -9,18 +9,11 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="BanantsTest">
+      <paths name="BanantsDEMO">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
-          <excludedPaths>
-            <excludedPath path="/HTML" />
-            <excludedPath path="/config/database.php" />
-            <excludedPath path="/config/__database.php" />
-            <excludedPath path="/error_log" />
-            <excludedPath path="/views/test" />
-          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="IVR">
@@ -31,13 +24,6 @@
         </serverdata>
       </paths>
       <paths name="IVRProd">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="MailTest">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -58,13 +44,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="bullpay">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="israelsim">
         <serverdata>
           <mappings>
@@ -73,13 +52,6 @@
         </serverdata>
       </paths>
       <paths name="mzone2.0">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="regiscard">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

@@ -60,6 +60,7 @@ return array(
     'HTML' => $baseDir . '/app/HTML.php',
     'Helpers\\Arr' => $baseDir . '/system/Helpers/Arr.php',
     'Helpers\\Date' => $baseDir . '/system/Helpers/Date.php',
+    'Helpers\\Strings' => $baseDir . '/system/Helpers/Strings.php',
     'Helpers\\Uri' => $baseDir . '/system/Helpers/Uri.php',
     'Http' => $baseDir . '/system/Http.php',
     'Http\\Exception' => $baseDir . '/system/Http/Exception.php',

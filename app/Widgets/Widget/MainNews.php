@@ -16,7 +16,7 @@ use Widgets\AbstractWidget;
 use View;
 use Setting;
 use ArticleModel;
-use Router;
+use App;
 
 class MainNews extends AbstractWidget{
 
@@ -73,19 +73,33 @@ class MainNews extends AbstractWidget{
     {
         $this->_param = json_decode($model->param, true);
 
-        self::$_current = Router::getCurrentRoute()->getActionVariable('page') ?: 'home';
+        if(App::instance()->getCurrentSlug() == 'home'){
+            $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
+                ->descendants()
+                ->where('photo_id', '!=' , 1)
+                ->orderBy('created_at', 'desc')
+                ->limit($this->_param['settings']['max_news_limit'])->get();
+        }else{
+            $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+                ->ancestorsAndSelf()
+                ->whereLvl(Setting::instance()->getSettingVal('main_articles.category_level'))->first()
+                ->descendants()
+                ->where('photo_id', '!=' , 1)
+                ->orderBy('created_at', 'desc')
+                ->limit($this->_param['settings']['max_news_limit'])->get();
+//        $data = ArticleModel::whereStatus(1)->has('defaultImages');
+        }
 
-        // Матерялов из клуба
-        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))->descendants()->limit($this->_param['settings']['anons_club_articles_count'])->get();
+
+//echo "<pre>";
+//print_r($data->toArray());
+//die;
         foreach ($data as $item) {
             $this->_items[] = $item;
         }
 
-        // Матерялов из Бананца
-        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))->descendants()->limit($this->_param['settings']['anons_banants_articles_count'])->get();
-        foreach ($data as $item) {
-            $this->_items[] = $item;
-        }
+        // todo: надо сделать Pagination
+        $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true);
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

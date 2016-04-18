@@ -7,27 +7,27 @@
  */
 ?>
 <div class="content_top_right_info_blog_wrapper sponsors clearfix">
-    <h3><b> <strong>Спонсоры и партнёры</strong></b></h3>
+    <h3><b> <strong><?=__('Sponsors and partners')?></strong></b></h3>
     <div class="sport_brands clearfix">
         <div class="sport_brands_images_wrapper pictures_wrapper">
-            <a href="#"><img src="images/sport_brand_img.jpg"></a>
+            <a href="#"><img src="/media/assets/images/sport_brand_img.jpg"></a>
         </div><!-- sport_brands_images_wrapper -->
         <div class="sport_brands_images_wrapper pictures_wrapper">
-            <a href="#"><img src="images/sport_brand_img.jpg"></a>
+            <a href="#"><img src="/media/assets/images/sport_brand_img.jpg"></a>
         </div><!-- sport_brands_images_wrapper -->
         <div class="sport_brands_images_wrapper pictures_wrapper">
-            <a href="#"><img src="images/sport_brand_img.jpg"></a>
+            <a href="#"><img src="/media/assets/images/sport_brand_img.jpg"></a>
         </div><!-- sport_brands_images_wrapper -->
     </div> <!--sport_brands-->
     <div class="sport_brands differ clearfix">
         <div class="sport_brands_images_wrapper pictures_wrapper">
-            <a href="#"><img src="images/sport_brand_img.jpg"></a>
+            <a href="#"><img src="/media/assets/images/sport_brand_img.jpg"></a>
         </div><!-- sport_brands_images_wrapper -->
         <div class="sport_brands_images_wrapper pictures_wrapper">
-            <a href="#"><img src="images/sport_brand_img.jpg"></a>
+            <a href="#"><img src="/media/assets/images/sport_brand_img.jpg"></a>
         </div><!-- sport_brands_images_wrapper -->
         <div class="sport_brands_images_wrapper pictures_wrapper">
-            <a href="#"><img src="images/sport_brand_img.jpg"></a>
+            <a href="#"><img src="/media/assets/images/sport_brand_img.jpg"></a>
         </div><!-- sport_brands_images_wrapper -->
     </div> <!--sport_brands-->
     <div class="pagination_wrapper">

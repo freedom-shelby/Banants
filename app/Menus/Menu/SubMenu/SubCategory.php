@@ -15,6 +15,7 @@ restrictAccess();
 use Menus\Menu\Category;
 use Menus\MenusContainer;
 use App;
+use Helpers\Uri;
 
 class SubCategory extends Category{
 
@@ -51,7 +52,7 @@ class SubCategory extends Category{
                         <ul>';
 
         foreach($this->_items as $item){
-            $output .= '<li ' . (($this->_active == $item->slug) ? 'class="active"' : "") . '><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
+            $output .= '<li ' . (($this->_active == $item->slug) ? 'class="active"' : "") . '><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a></li>';
 
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);

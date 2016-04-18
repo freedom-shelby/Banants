@@ -14,6 +14,7 @@ restrictAccess();
 
 use Menus\AbstractMenu;
 use App;
+use Helpers\Uri;
 
 class Top extends AbstractMenu{
 
@@ -64,7 +65,7 @@ class Top extends AbstractMenu{
         $output = '<ul>';
 
         foreach($this->_items as $item){
-            $output .= '<li><a class="icon clearfix" href="' . $item->slug.App::URI_EXT . '"><span class="icon ' . $item->icon . '"></span><span class="icon_text">' . __($item->text()) . '</span></a></li>';
+            $output .= '<li><a class="icon clearfix" href="' . Uri::makeUriFromId($item->slug) . '"><span class="icon ' . $item->icon . '"></span><span class="icon_text">' . __($item->text()) . '</span></a></li>';
         }
 
         $output .= '</ul>';

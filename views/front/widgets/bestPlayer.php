@@ -8,16 +8,16 @@
 ?>
 <div class="best_player">
     <div class="best_player_title">
-        <h2>ИГРОК МАТЧА</h2>
+        <h2><?=__('BEST PLAYER')?></h2>
     </div><!-- best_player_title -->
     <div class="best_player_content">
-        <h3>ЛАЕРСИО ГОМЕС КОСТА</h3>
+        <h3><?=__('LAERSIO GOMES COSTA')?></h3>
         <div class="best_player_images_wrapper">
             <img src="/uploads/images/players/laersio.png" alt="best player" />
         </div><!-- best_player_images_wrapper -->
         <div class="best_player_right">
             <div class="best_player_info">
-                <span>Голы 1<br> Удары 4<br> В створ 2</span>
+                <span><?=__('Goals')?> 1<br> <?=__('Shots')?> 4<br> <?=__('On target')?> 2</span>
             </div><!-- best_player_info -->
             <div class="best_player_multiple clearfix">
                 <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

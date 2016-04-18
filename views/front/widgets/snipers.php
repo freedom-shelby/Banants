@@ -8,22 +8,23 @@
 ?>
 <div class="tournament_slider_title_wrapper clearfix">
     <div class="tournament_slider_title">
-        <span class="tournament_slider_title_text">БОМБАРДИРЫ</span>
-        <span class="tournament_slider_prev"></span>
-        <span class="tournament_slider_next"></span>
+        <span class="tournament_slider_title_text"><?=__('TOP SCORERS')?></span>
+<!--        <span class="tournament_slider_prev">--><?//=__('PASSES')?><!--</span>-->
+<!--        <span class="tournament_slider_next">--><?//=__('GOAL+PASS')?><!--</span>-->
+<!--        <span class="tournament_slider_next">--><?//=__('PLAYING TIME')?><!--</span>-->
     </div><!-- tournament_slider_title -->
 </div><!-- tournament_slider_title_wrapper -->
 <div class="shooter_slider clearfix">
     <div class="shooter_slider_item">
         <div class="best_player clearfix">
             <div class="best_player_content">
-                <h3>ЛАЕРСИО ГОМЕС КОСТА</h3>
+                <h3><?=__('LAERSIO GOMES COSTA')?></h3>
                 <div class="best_player_images_wrapper">
                     <img src="/uploads/images/players/laersio.png" alt="best_player" />
                 </div><!-- best_player_images_wrapper -->
                 <div class="best_player_right">
                     <div class="best_player_info">
-                        <span>26 Год<br> 10 Гола</span>
+                        <span> <?=__('Years')?> 26<br> <?=__('Goals')?> 10</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
                         <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
@@ -35,13 +36,13 @@
         </div><!-- best_player -->
         <div class="best_player clearfix">
             <div class="best_player_content">
-                <h3>ДЖЕРЕМИЯ ДЖОН</h3>
+                <h3> <?=__('JEREMY JOHN')?></h3>
                 <div class="best_player_images_wrapper">
                     <img src="/uploads/images/players/jhon.png" alt="best_player" />
                 </div><!-- best_player_images_wrapper -->
                 <div class="best_player_right">
                     <div class="best_player_info">
-                        <span>23 Год<br> 4 Гола</span>
+                        <span><?=__('Years')?> 23<br> <?=__('Goals')?> 4 </span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
                         <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

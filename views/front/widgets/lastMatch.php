@@ -13,13 +13,13 @@
     <div class="banner_team1_text">
         <p>
             <b>
-                <span>2</span> <span>-</span>  <span>2</span>
+                <span>0</span> <span>-</span>  <span>0</span>
             </b>
         </p>
         <p class="result"><b>0-0(3-0)</b></p>
     </div>
     <div class="main_logo">
-        <img src="/media/assets/images/team_logo/fc-ararat-yerevan.png" alt="logo_team1" />
-        <h4>АРАРАТ</h4>
+        <img src="/media/assets/images/team_logo/Mika-logo.png" alt="logo_team1" />
+        <h4><?=__('MIKA')?></h4>
     </div>
 </div>

@@ -15,6 +15,7 @@ restrictAccess();
 use Menus\AbstractMenu;
 use Menus\MenusContainer;
 use App;
+use Helpers\Uri;
 
 class Category extends AbstractMenu{
 
@@ -117,11 +118,10 @@ class Category extends AbstractMenu{
         $output = '<ul class="navigation_main clearfix" id="navigation_main">';
 
         // Иконка для Home
-        $output .= '<li class="home"><a href="/"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
+        $output .= '<li class="home"><a href="' . Uri::makeUriFromId('/') . '"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
 
         foreach($this->_items as $item){
-            $output .= '<li class="club ' . (($this->_active == $item->slug) ? "active" : "") . ' submenu_parent"><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a>';
-
+            $output .= '<li class="club ' . (($this->_active == $item->slug) ? "active" : "") . ' submenu_parent"><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a>';
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);
             }
@@ -151,7 +151,7 @@ class Category extends AbstractMenu{
                 $output .= '<ul>';
             }
 
-            $output .= '<li><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
+            $output .= '<li><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a></li>';
 
             $i++;
         }

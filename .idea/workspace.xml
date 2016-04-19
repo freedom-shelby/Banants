@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/Logo-Alashkert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/MIKA-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/Pyunik-Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/Ulisses-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/Banants_arm/_+Index_arm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/+Index_arm.html" afterPath="$PROJECT_DIR$/HTML/Banants_arm/+Index_arm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menus/Menu/Category.php" afterPath="$PROJECT_DIR$/app/Menus/Menu/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menus/Menu/SubMenu/SubCategory.php" afterPath="$PROJECT_DIR$/app/Menus/Menu/SubMenu/SubCategory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menus/Menu/Top.php" afterPath="$PROJECT_DIR$/app/Menus/Menu/Top.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/css/style.css" afterPath="$PROJECT_DIR$/media/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Helpers/Uri.php" afterPath="$PROJECT_DIR$/system/Helpers/Uri.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/home.php" afterPath="$PROJECT_DIR$/views/front/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/index.php" afterPath="$PROJECT_DIR$/views/front/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/bestPlayer.php" afterPath="$PROJECT_DIR$/views/front/widgets/bestPlayer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php" afterPath="$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" afterPath="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/quizzes.php" afterPath="$PROJECT_DIR$/views/front/widgets/quizzes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/snipers.php" afterPath="$PROJECT_DIR$/views/front/widgets/snipers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/sponsorsInfo.php" afterPath="$PROJECT_DIR$/views/front/widgets/sponsorsInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" afterPath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/images/team_logo/FC_Shirak_Logo.png" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/Shirak-Logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/images/team_logo/fc-ararat-yerevan.png" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/Ararat-yerevan-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/images/team_logo/fc-gandzasar-kapan.png" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/gandzasar-kapan-logo.png" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,20 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Uri.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Uri.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/Helpers/Uri.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5562372">
+            <state vertical-scroll-proportion="-20.923077">
               <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lang.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Lang.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Lang/Lang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-69.73077">
+            <state vertical-scroll-proportion="1.8537832">
               <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
               <folding />
             </state>
@@ -673,12 +644,6 @@
       <option name="number" value="Default" />
       <updated>1450187047253</updated>
     </task>
-    <task id="LOCAL-00024" summary="First upload Befor Faker">
-      <created>1455890056708</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1455890056708</updated>
-    </task>
     <task id="LOCAL-00025" summary="First upload Befor Faker">
       <created>1455968347653</created>
       <option name="number" value="00025" />
@@ -967,7 +932,13 @@
       <option name="project" value="LOCAL" />
       <updated>1460643233095</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Интеграция Меню в Админку">
+      <created>1460993412734</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1460993412735</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TodoView">
@@ -986,6 +957,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31338027" sideWeight="0.503125" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30135658" sideWeight="0.4975" order="13" side_tool="false" content_ui="tabs" />
@@ -996,7 +968,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22916667" sideWeight="0.5125969" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1458,22 +1429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Lang/Lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-69.73077">
-          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/front/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-22.884615">
@@ -1523,10 +1478,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/system/Helpers/Uri.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5562372">
+        <state vertical-scroll-proportion="-20.923077">
           <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Lang/Lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8537832">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
           <folding />
         </state>
       </provider>

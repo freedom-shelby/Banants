@@ -34,7 +34,9 @@ use Helpers\Strings;
                                     </span><!-- news_list_watch -->
                                 </div><!-- news_list_middle -->
                                 <span>
+
                                     <?=Strings::limitWords($item->desc, 20)?>...
+
                                 </span>
                             </div><!-- news_list_info -->
                         </a>

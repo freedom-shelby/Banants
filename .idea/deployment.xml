@@ -19,19 +19,8 @@
             <excludedPath path="/config/_database.php" />
             <excludedPath path="/config/database.php" />
             <excludedPath path="/HTML" />
-            <excludedPath path="/vendor/danielstjules" />
-            <excludedPath path="/vendor/doctrine" />
-            <excludedPath path="/vendor/codeguy" />
-            <excludedPath path="/vendor/services" />
-            <excludedPath path="/vendor/fzaninotto" />
-            <excludedPath path="/vendor/nesbot" />
-            <excludedPath path="/vendor/league" />
-            <excludedPath path="/vendor/baum" />
-            <excludedPath path="/vendor/symfony" />
-            <excludedPath path="/vendor/illuminate" />
             <excludedPath path="/media/back" />
             <excludedPath path="/views/test" />
-            <excludedPath path="/localstorage" />
           </excludedPaths>
         </serverdata>
       </paths>

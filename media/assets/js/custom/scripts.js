@@ -1,12 +1,17 @@
 $(document).ready(function() {
 
   $( "#quizzes" ).submit(function( event ) {
-    event.preventDefault();
-    $("#home").addClass("hidden");
-    $("#home_thanks").removeClass("hidden");
+      event.preventDefault();
+      $("#home").addClass("hidden");
+      $("#home_thanks").removeClass("hidden");
+      });
+
+  // При вибора языка делает редирект по языку
+  $('#language').on('change', function () {
+      window.location.replace(this.value);
 });
 
-  /* dialog */
+/* dialog */
 $(function() {
   $('.dialog').each(function(i, item){
     $( ".dialog" + i).dialog({

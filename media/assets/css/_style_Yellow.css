@@ -206,7 +206,7 @@ body {
 }
 
 #accordion .accordion_title:hover{
-	color: #e17a00;
+	color: #ffe000;
 }
 
 /*IconMoon End*/
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 .header .navigation .submenu{
 	background-image: url(../images/submenu_back.jpg);
     background-repeat: no-repeat;
-    background-color: #e17a00;
+    background-color: #ffe64e;
     position: absolute;
     z-index: 100;
     left: 0;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 .navigation .submenu_top ul li{
     list-style-type: none;
     font-size: 16px;
-    color: #e17a00;
+    color: #ffe547;
     float: none;
 }
 
@@ -332,13 +332,13 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_navigation a:hover {
-	color:#e17a00;
+	color:#ffe649;
 }
 
 .header_navigation ul li a span.icon{
     float: left;
     font-size: 18px;
-    color: #e17a00;
+    color: #ffe649;
 }
 
 .header_navigation ul li a:hover span.icon{
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 
 .header_navigation .header_navigation_active a {
-	color:#e17a00;
+	color:#ffe649;
 }
 
 .header_navigation img{
@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .submenu_bottom .submenu_bottom_col_images{
-	border: 1px solid #e17a00;
+	border: 1px solid #ffe31c;
 	width: 110px;
 	float: left;
 }
@@ -802,11 +802,11 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .navigation > ul > li.navigation_active_item > a {
-	color:#e17a00;
+	color:#ffe000;
 }
 
 .navigation > ul > li.active > a {
-	color:#e17a00;
+	color:#ffe000;
 }
 
 .navigation_active_item a {
@@ -824,14 +824,14 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .submenu_parent.navigation_active_item > a:after {
 	content: '';
-    border-color: #e17a00;
+    border-color: #ffe000;
     border-top: 10px solid transparent;
     border-bottom: 10px solid;
     border-right: 10px solid transparent;
     bottom: -2px;
     position: absolute;
     border-left: 10px solid transparent;
-    color: #e17a00;
+    color: #ffe000;
     left: 50%;
     margin-left: -10px;
 }
@@ -922,7 +922,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 /*various fancybox.iframe*/
 
 .owl-pagination .owl-page.active{
-	background-color: #e17a00;
+	background-color: #ffe000;
 }
 
 .container_top_banner {
@@ -1105,7 +1105,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .tournament_table tr {
-	color:#e17a00;
+	color:#f5da19;
 }
 
 .tournament_table tr:nth-child(even) {
@@ -1128,7 +1128,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .tournament_table table th {
-	color:#e17a00;
+	color:#ffe000;
 	text-align: center;
 	padding: 5px 0;
 }
@@ -1175,12 +1175,12 @@ div.tournament_table .tournament_table_active {
 }
 
 div.tournament_table .tournament_table_active a {
-	color:#e17a00;
+	color:#f5da19;
 	text-decoration: none;
 }
 
 .tournament_table .tournament_table_active .team_name {
-	color:#e17a00;
+	color:#f5da19;
 }
 
 .tournament_table table tr:hover {
@@ -1250,7 +1250,7 @@ div.tournament_table .tournament_table_active a {
 }
 
 .best_player_multiple .shooter_icons:hover{
-    color: #e17a00;
+    color: #ffe000;
 }
 
 
@@ -1285,7 +1285,7 @@ div.tournament_table .tournament_table_active a {
 .best_player h3 {
 	margin: 0;
 	font-size: 16px;
-	color:#e17a00;
+	color:#fedf00;
 	text-transform: uppercase;
 	text-align: right;
 	padding-right: 10px;
@@ -1510,11 +1510,11 @@ div.tournament_table .tournament_table_active a {
 }
 
 .home.quizzes{
-	margin-top: 14px;
+	margin-top: 24px;
 }
 
 .home_thanks{
-	height: 289px;
+	height: 309px;
 }
 
 .quizzes {
@@ -1569,7 +1569,6 @@ div.tournament_table .tournament_table_active a {
     width: 592px;
     float: left;
     margin: 0 8px;
-    min-height: 1px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1841,7 +1840,7 @@ div.news_list h3 {
 }
 
 .content_top_right_banner {
-    margin-top: 4px;
+    margin-top: 6px;
 	float: left;
 }
 
@@ -2097,11 +2096,11 @@ div.news_list h3 {
 
 #accordion .active a{
     background-color: #044980;
-    color:#e17a00;
+    color:#ffe000;
 }
 
 #accordion li a:hover {
-	color:#e17a00;
+	color:#ffe000;
 	text-decoration: none;
 }
 
@@ -2134,7 +2133,7 @@ div.news_list h3 {
 
 #accordion .ui-accordion-header-active{
     background-color: #044980;
-    color:#e17a00;
+    color:#ffe000;
 }
 
 .left_bar_menu{
@@ -2164,7 +2163,7 @@ div.news_list h3 {
 }
 
 .left_bar_menu a:hover{
-	color: #e17a00;
+	color: #ffe000;
 }
 
 .sliders{
@@ -2223,7 +2222,7 @@ div.news_list h3 {
 }
 
 .left_bar_menu a:hover{
-	color: #e17a00;
+	color: #ffe000;
 }
 
 .left_bar_menu .left_bar_menu_active {
@@ -2231,7 +2230,7 @@ div.news_list h3 {
 }
 
 .left_bar_menu .left_bar_menu_active a{
-	color: #e17a00;
+	color: #ffe000;
 }
 
 .common_page .sliders{
@@ -2525,11 +2524,11 @@ div.news_list h3 {
 }
 
 .pagination li a:hover {
-	color:#e17a00;
+	color:#ffe002;
 }
 
 .pagination .pagination_active a {
-	color:#e17a00;
+	color:#ffe002;
 }
 
 .pagination:after {
@@ -2554,7 +2553,7 @@ div.news_list h3 {
 }
 .inner_content.form_page .apply{
 	background-color: #044980;
-	color: #e17a00;
+	color: #ffe000;
 	text-align: left;
 	padding: 6px 0 6px 10px;
 	margin: 0;
@@ -2565,7 +2564,7 @@ div.news_list h3 {
 }
 
 .content_top_right_info_blog_wrapper.form h3{
-    color: #e17a00;
+    color: #ffe000;
     background-color: #044980;
     margin: 0;
     padding: 7px 5px 8px 12px;
@@ -2599,7 +2598,7 @@ div.news_list h3 {
 .job_wrapper.form h3{
 	width: 100%;
 	display: block;
-	color: #e17a00;
+	color: #ffe000;
 	background-color: #044980;
 	padding: 9px 0 8px 10px;
 	margin: 0;
@@ -2621,7 +2620,7 @@ div.news_list h3 {
 .job_wrapper.form h3{
 	width: 100%;
 	display: block;
-	color: #e17a00;
+	color: #ffe000;
 	background-color: #044980;
 	padding: 7px 0 7px 10px;
 	margin: 0;
@@ -2902,7 +2901,7 @@ div.news_list h3 {
 }
 
  .content_top_right_info_blog_wrapper.sponsors h3{
-	color: #e17a00;
+	color: #ffe000;
 	background-color: #044980;
 	margin: 0;
 	padding: 7px 5px 8px 12px;
@@ -2928,7 +2927,7 @@ div.news_list h3 {
 
 .management_page .leftbar_images_slider .job p{
 	height: 40px;
-	color: #e17a00;
+	color: #ffe000;
 	background-color: #044980;
 	margin: 0;
 	padding: 12px 0 0 12px;
@@ -3004,6 +3003,7 @@ div.news_list h3 {
 	padding: 5px 0;
 }
 .team_members .inner_content .inner_content_menua a:hover {
+	color: #ffe000;
 }
 
 .team_members .inner_content .team_item .team_item_title h3:hover{
@@ -3064,7 +3064,7 @@ div.news_list h3 {
 }
 
 #item_tabs .ui-tabs-active a {
-	color:#e17a00;
+	color:#ffe000;
 }
 
 .team_item {
@@ -3289,7 +3289,7 @@ div.news_list h3 {
 }
 
 .inner_content.partners ul li a:hover{
-	color: #e17a00;
+	color: #ffe000;
 }
 
 .inner_content.partners .sponsors_nav{
@@ -3587,7 +3587,7 @@ div.dialog{
 }
 
 .inner_content.best_moments_photo .best_moments_photo_page .stadion_photos_wrapper h3{
-    color: #e17a00;
+    color: #ffe000;;
 
     margin-bottom: 7px;
     padding: 6px 0 6px 9px;
@@ -3609,7 +3609,7 @@ div.dialog{
     background: #044980;
     font-size: 20px;
     text-transform: uppercase;
-    color: #e17a00;
+    color: #ffe000;
     padding: 8px 0 11px 16px;
     font-weight: bold;
     margin: 5px 0;
@@ -3764,7 +3764,7 @@ div.dialog{
 }
 
 .score-table-widget tr {
-    color:#e17a00;
+    color:#f5da19;
 }
 
 .score-table-widget tr:nth-child(even) {
@@ -3787,7 +3787,7 @@ div.dialog{
 }
 
 .score-table-widget  th {
-    color:#e17a00;
+    color:#ffe000;
     text-align: center;
     padding: 5px 0;
 }
@@ -3797,12 +3797,12 @@ div.dialog{
 }
 
 .score-table-widget .active a {
-    color:#e17a00;
+    color:#f5da19;
     text-decoration: none;
 }
 
 .score-table-widget .active .team {
-    color:#e17a00;
+    color:#f5da19;
 }
 
 .score-table-widget tr:hover {
@@ -3877,6 +3877,3 @@ div.dialog{
     color: #217cb8;
 }
 
-#home_thanks .thanks_line{
-    margin: 150px 5px 5px 38px;
-}

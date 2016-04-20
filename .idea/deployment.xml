@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsTest" persistUploadOnCheckin="false">
     <serverData>
       <paths name="Banants">
         <serverdata>
@@ -9,11 +9,30 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="BanantsDEMO">
+      <paths name="BanantsTest">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/config/__database.php" />
+            <excludedPath path="/config/_database.php" />
+            <excludedPath path="/config/database.php" />
+            <excludedPath path="/HTML" />
+            <excludedPath path="/vendor/danielstjules" />
+            <excludedPath path="/vendor/doctrine" />
+            <excludedPath path="/vendor/codeguy" />
+            <excludedPath path="/vendor/services" />
+            <excludedPath path="/vendor/fzaninotto" />
+            <excludedPath path="/vendor/nesbot" />
+            <excludedPath path="/vendor/league" />
+            <excludedPath path="/vendor/baum" />
+            <excludedPath path="/vendor/symfony" />
+            <excludedPath path="/vendor/illuminate" />
+            <excludedPath path="/media/back" />
+            <excludedPath path="/views/test" />
+            <excludedPath path="/localstorage" />
+          </excludedPaths>
         </serverdata>
       </paths>
       <paths name="IVR">
@@ -24,6 +43,13 @@
         </serverdata>
       </paths>
       <paths name="IVRProd">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="MailTest">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -44,6 +70,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="bullpay">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="israelsim">
         <serverdata>
           <mappings>
@@ -52,6 +85,13 @@
         </serverdata>
       </paths>
       <paths name="mzone2.0">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="regiscard">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

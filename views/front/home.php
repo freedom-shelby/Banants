@@ -39,9 +39,14 @@ use Helpers\Uri;
                 </div>
 
                 <div style="float: right;">
-                    <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
-                        <a href="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>"><?=$lang['iso']?></a>
-                    <?endforeach?>
+                    <select name="language" id="language">
+
+                        <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
+                            <option value="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?><?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? '' : 'selected'?>"><?=$lang['name']?></option>
+                        <?endforeach?>
+
+                    </select>
+                    <!--                        <a href="--><?//= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?><!--">--><?//=$lang['iso']?><!--</a>-->
                 </div>
 
             </div><!-- header_bottom -->

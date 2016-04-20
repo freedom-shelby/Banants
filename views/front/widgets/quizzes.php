@@ -40,7 +40,7 @@
     </form>
 </div>
 <div id="home_thanks" class=" home quizzes home_thanks hidden">
-    <h3>
+    <h3 class="thanks_line">
         <?=__('Thank you, your answer is accepted !')?>
     </h3>
 </div><!-- quizzes -->

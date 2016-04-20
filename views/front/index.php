@@ -34,6 +34,13 @@ use Helpers\Uri;
                     <?Theme::drawWidgets('top')?>
 
                 </div><!-- banners -->
+
+                <div style="float: right;">
+                    <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
+                        <a href="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>"><?=$lang['iso']?></a>
+                    <?endforeach?>
+                </div>
+
             </div><!-- header_bottom -->
         </div><!-- header_right -->
 
@@ -41,7 +48,7 @@ use Helpers\Uri;
 
             <?Theme::drawMenu('category')?>
 
-        </div><!-- navogation -->
+        </div><!-- navigation -->
 
         </div><!-- inner -->
     </div><!-- header -->

@@ -57,6 +57,29 @@ class Route {
     protected $_actionVaribles;
 
     /**
+     * УРИ без префикса ИСО яхыка
+     * @var
+     */
+    protected $_whiteUri;
+
+    /**
+     * Возврошает УРИ без префикса ИСО яхыка
+     * @return mixed
+     */
+    public function getWhiteUri()
+    {
+        return $this->_whiteUri;
+    }
+
+    /**
+     * @param mixed $whiteUri
+     */
+    public function setWhiteUri($whiteUri)
+    {
+        $this->_whiteUri = $whiteUri;
+    }
+
+    /**
      * @return mixed
      */
     public function getUri()
@@ -218,7 +241,12 @@ class Route {
     public function matchURI($uri){
 
         if(class_exists('Lang\Lang')){
-            $uri = Lang::instance()->initSiteLangFromUri(App::instance()->http()->getURI());
+            $uri = Lang::instance()->initSiteLangFromUri($uri);
+
+            // Инициадизут УРИ без префикса ИСО яхыка
+            if( ! $this->_whiteUri){
+                $this->_whiteUri = $uri;
+            }
         }
 
         //проверяем верная ли оконцовка файла указанная в конфигах

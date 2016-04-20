@@ -9,7 +9,7 @@
 <div class="banner_team2">
     <div class="team1_logo">
         <img src="/media/assets/images/team_logo/Pyunik-Logo.png" alt="team2_logo" />
-        <h4><?=__('PYUNIK')?></h4>
+<!--        <h4>--><?//=__('PYUNIK')?><!--</h4>-->
         <!--                            <img src="/media/assets/images/team_logo/fc-gandzasar-kapan.png" alt="team2_logo" />-->
         <!--                            <h4>ГАНДЗАСАР</h4>-->
     </div>

@@ -80,9 +80,7 @@ class Lang {
     public function initSiteLangFromUri($uri)
     {
         preg_match('#^\/[a-z]{2}(\/|\b)#uD', $uri, $lang_iso);
-//print_r('<pre>');
-//print_r($uri);
-//print_r($this->_primaryLang);die;
+
         if(!empty($lang_iso)){
             $iso = str_replace('/', '', $lang_iso[0]);
             if(array_key_exists($iso, $this->_langs) and $iso != $this->_primaryLang['iso']){
@@ -96,8 +94,7 @@ class Lang {
                 $this->setCurrentLang($iso);
             }
         }
-//print_r('<pre>');
-//print_r($uri);die;
+
         return $uri;
 
     }

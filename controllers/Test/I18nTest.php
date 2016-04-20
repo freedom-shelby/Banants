@@ -13,6 +13,7 @@
 namespace Test;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
+use Illuminate\Support\Facades\Route;
 use Lang\Lang;
 
 
@@ -144,6 +145,15 @@ class I18nTest extends \Controller
             ->with('c','local var c')
             ->d = 'local var d';
         echo $view;
+    }
+
+    public function anyChangeLang(){
+
+        var_dump(\Router::getCurrentRoute()->getUri());
+        var_dump(\Router::getCurrentRoute()->getWhiteUri());
+        var_dump($this->getCurrentUri());
+
+//        var_dump(\Router::getCurrentRoute());
     }
 }
 //class LangModel extends Eloquent{

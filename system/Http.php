@@ -44,7 +44,7 @@ class Http {
      * установленные вручную
      * @var array
      */
-    private$_responceHeaders = array();
+    private $_responceHeaders = array();
 
     /**
      * Необработанные POST данные

@@ -20,6 +20,6 @@
     </div>
     <div class="main_logo">
         <img src="/media/assets/images/team_logo/Mika-logo.png" alt="logo_team1" />
-        <h4><?=__('MIKA')?></h4>
+<!--        <h4>--><?//=__('MIKA')?><!--</h4>-->
     </div>
 </div>

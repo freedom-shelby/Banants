@@ -35,6 +35,8 @@ Router::any(['/TestFaker', 'as' => 'test.faker'],'Test\FakerTest@anyIndex');
 Router::any(['/TestFaker2', 'as' => 'test.faker2'],'Test\FakerTest@anyIndex2');
 Router::any(['/TestWord', 'as' => 'test.word'],'Test\WordTranslate@anyIndex');
 Router::any(['/TestWidget', 'as' => 'test.widget'],'Test\Widget@anyIndex');
+Router::any(['/TestLangChange','rules' => ['page' => '[a-z0-9_-]+'], 'as' => 'test.lang.change'],'Test\I18nTest@anyChangeLang');
+
 
 //Router::get(['/test', 'as' => 'front.getTest'],'Front\Main@getTest');
 //Router::any(['/test2', 'as' => 'front.anyTest'],'Front\Main@anyTest2');

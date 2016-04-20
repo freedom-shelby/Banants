@@ -47,4 +47,8 @@ class Controller {
         if(!$param) return $postData;
         return isset($postData[$param]) ? $postData[$param]  : $default;
     }
+
+    protected function getCurrentUri(){
+        return $this->_app->http()->getURI();
+    }
 }

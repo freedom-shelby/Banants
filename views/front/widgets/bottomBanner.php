@@ -8,16 +8,16 @@
 ?>
 <div>
     <div class="container_bottom_images_wrapper">
-        <a href="#"> <img src="/media/assets/images/twitter_logo.jpg" alt="advertisment"> </a>
+        <a href="https://twitter.com/banantsfc/" target="_blank"> <img src="/media/assets/images/twitter_logo.jpg" alt="advertisment"> </a>
 <!--        <a href="#"> <img src="/media/assets/images/twitter_logo_blue.jpg" alt="advertisment"> </a>-->
     </div>
     <div class="container_bottom_images_wrapper">
-        <a href="#"><img src="/media/assets/images/facebook-logo.jpg" alt="advertisment"></a>
+        <a href="https://www.facebook.com/fcbanantsyerevan/" target="_blank"><img src="/media/assets/images/facebook-logo.jpg" alt="advertisment"></a>
     </div>
     <div class="container_bottom_images_wrapper">
-        <a href="#"><img src="/media/assets/images/aadvertisment3.jpg" alt="advertisment"></a>
+        <a href="http://fcbanants.am/" target="_blank"><img src="/uploads/images/banners/fc-banants.jpg" alt="advertisment"></a>
     </div>
     <div class="container_bottom_images_wrapper">
-        <a href="#"><img src="/media/assets/images/advertisment4.jpg" alt="advertisment"></a>
+        <a href="http://www.horizondvp.com/" target="_blank"><img src="/uploads/images/banners/sunrise-logo.jpg" alt="advertisment"></a>
     </div>
 </div>

@@ -8,15 +8,26 @@ html{
     -o-background-size: cover;
     background-size: cover;
 }
-body {
-	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+
+body.ru {
+	font-family: 'Segoe UI', Arial, Helvetica, 'sans-serif';
 	min-width: 1200px;
+}
+
+body.en {
+	font-family: 'Segoe UI', Arial, Helvetica, 'sans-serif';
+	min-width: 1200px;
+}
+
+body.am {
+    font-family: 'Segoe UI Bold', 'Segoe UI Regular', Arial, 'sans-serif';
+    min-width: 1200px;
 }
 
 @font-face{
     font-family:'Segoe UI';
-    src:url('../fonts/ru/segoeui-webfont.eot');
-    src:url('../fonts/ru/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
+    src:url('../fonts/ru/segoeui-webfont.eot'),
+        url('../fonts/ru/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
         url('../fonts/ru/segoeui-webfont.woff') format('woff'),
         url('../fonts/ru/segoeui-webfont.ttf') format('truetype');
     font-weight:normal;
@@ -25,8 +36,8 @@ body {
 
 @font-face{
     font-family:'Impact Regular';
-    src:url('../fonts/ru/Impact.eot');
-    src:url('../fonts/ru/Impact.eot?#iefix') format('embedded-opentype'),
+    src:url('../fonts/ru/Impact.eot'),
+        url('../fonts/ru/Impact.eot?#iefix') format('embedded-opentype'),
         url('../fonts/ru/Impact.woff') format('woff'),
         url('../fonts/ru/Impact.ttf') format('truetype');
     font-weight:normal;
@@ -35,13 +46,327 @@ body {
 
 @font-face{
     font-family:'Segoe UI Regular';
-    src:url('../fonts/ru/SegoeUI.eot');
-    src:url('../fonts/ru/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    src:url('../fonts/ru/SegoeUI.eot'),
+        url('../fonts/ru/SegoeUI.eot?#iefix') format('embedded-opentype'),
         url('../fonts/ru/SegoeUI.woff') format('woff'),
         url('../fonts/ru/SegoeUI.ttf') format('truetype');
     font-weight:normal;
-    font-style:normal;  
+    font-style:normal;
 }
+
+@font-face{
+    font-family:'Segoe UI Bold';
+    src:url('../fonts/am/SegoeUI-Bold.eot'),
+        url('../fonts/am/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/am/SegoeUI-Bold.woff') format('woff'),
+        url('../fonts/am/SegoeUI-Bold.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'Arial';
+    src:url('../fonts/am/Arial-BoldMT.eot'),
+        url('../fonts/am/Arial-BoldMT.woff') format('woff'),
+        url('../fonts/am/SARM-B.TTF') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/** Fonts For AM Language **/
+body.am .navigation .navigation_main li{
+    font-family: "Segoe UI Bold";
+}
+
+/*body.am .banners  {*/
+    /*font-family: "Segoe UI Regular";*/
+/*}*/
+
+body.am .navigation > ul > li {
+    font-family: 'Segoe UI Bold';
+}
+
+body.am .container_top_slider_text {
+    position: absolute;
+    top:75px;
+    left:0;
+    font-size: 29px;
+    line-height: 39px;
+    color:#fff;
+    background: rgba(1, 38, 68, 0.51);
+    padding: 15px 30px 15px 15px;
+    font-family: "Segoe UI Regular";
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+body.am .container_top_aside {
+    float: left;
+    margin-left: 8px;
+    width: 240px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .widget-with-tabs table {
+    counter-reset: rowNumber;
+    font-size: 16px;
+    color:#fff;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .best_player {
+    background-image: url(../images/tournament_table_bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    width: 100%;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .quizzes {
+    padding: 9px 15px 15px 15px;
+    background-color: #217cb8;
+    margin-top: 5px;
+    background-image: url(../images/ball.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .carousel_slider_item span {
+    padding: 7px;
+    display: inline-block;
+    height: 37px;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+    font-family: "Segoe UI Regular";
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body.am .news_slider_wrapper {
+    border: 1px solid #66a6d1;
+    background-color: #fff;
+    clear: both;
+    padding-bottom: 2px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .content_middle_right_slideshow .container_top_slider_text {
+    top: 140px;
+    line-height: 29px;
+    /*text-transform: uppercase;*/
+    font-size: 28px;
+    font-family: "Segoe UI Regular";
+    letter-spacing: 1px;
+}
+
+body.am .container_top_slider_text .container_top_slider_text_inner a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Segoe UI Bold";
+}
+
+body.am .footer .inner{
+    background-image: url(../images/container_footer_back.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    font-family: "Segoe UI Regular";
+}
+
+body.am #accordion{
+    margin:0 0 10px 0;
+    font-family: 'Segoe UI Regular';
+}
+
+body.am .common_page .carousel_slider_wrapper_wrapper {
+    margin-top: 6px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .inner_content_wrapper{
+    width: 592px;
+    float: left;
+    margin: 0 8px;
+    font-family: "Segoe UI Regular";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body.am .daily_news_page .personal_info .person .person_contacts .person_contacts_info p{
+    color: #044980;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 5px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .inner_content.form_page .personal_info .wrapper .required_info{
+    text-align: right;
+    margin: -3px 3px 0 -5px;
+    font-family: 'Segoe UI Regular';
+}
+
+body.am .cups_page .inner_content{
+    padding: 0 0;
+    border: none;
+    font-family: "Segoe UI Semibold";
+}
+
+body.am .management_page .inner_content .manager_info .info_text p{
+    font-size: 15px;
+    font-family: "Segoe UI Regular";
+    text-align: justify;
+    color: #545864;
+    word-spacing: 5px;
+    line-height: 17px;
+}
+
+body.am .team_container {
+    background-color: #fff;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .team_wrapper_top h3 {
+    font-family:'Segoe UI Regular';
+    font-size: 20px;
+    color:#044980;
+    margin-bottom: 18px;
+}
+
+body.am #item_tabs li {
+    font-family: "Segoe UI Regular";
+    font-size: 15px;
+    color:#fff;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+body.am .player_number {
+    font-family:'Segoe UI Regular';
+    line-height: 31px;
+    text-align: center;
+    width: 33px;
+    height: 33px;
+    background-image: url('../images/player_numbers.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: 14px;
+    color:#fff;
+}
+
+body.am .team_wrapper_body .team_wrapper h3{
+    background-color: #217cb8;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Segoe UI Regular";
+    padding: 11px 0 11px 0;
+    text-align: center;
+    margin: 0;
+}
+
+body.am .old_logo h3{
+    color: #044980;
+    font-weight: bold;
+    min-width: 184px;
+    text-align: center;
+    margin-bottom: 14px;
+    font-size: 18px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .logo_club_text{
+    display: block;
+    text-align: justify;
+    line-height: 20px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .inner_content.partners ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .sponsors_page .sponsor .sponsor_info_wrapper h3{
+    font-size: 17px;
+    color: #3b86bd;
+    text-transform: none;
+    font-family: "Segoe UI Semibold";
+}
+
+body.am .sponsors_page .sponsor .sponsor_info_wrapper span{
+    display: block;
+    color: #044980;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .stadion_page{
+    text-align: justify;
+    color: #545864;
+    font-size: 15px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .stadion_page .stadion_info{
+    font-family: "Segoe UI Regular";
+}
+
+body.am .history_page .history_bananc h1{
+    font-size: 18px;
+    color: #044980;
+    font-family: "Segoe UI Regular";
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body.am .history_page .history_bananc span{
+    display: block;
+    line-height: 20px;
+    color: #545864;
+    word-spacing: 4px;
+    text-align: justify;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .inner_content.vacancy{
+    background: #fff;
+    padding: 10px 11px 22px 9px;
+    min-height: 712px;
+    font-family: "Segoe UI Regular";
+}
+
+body.am .vacancy_bananc{
+    font-family: "Segoe UI Regular";
+}
+
+body.am .inner_content.vacancy .vacancy_page .vacancy_bananc h1{
+    font-size: 18px;
+    color: #044980;
+    font-family: "Segoe UI Regular";
+    margin-bottom: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/** #Fonts For Languages  **/
 
 .hidden{
 	display: none;
@@ -54,7 +379,8 @@ body {
 /*IconMoon*/
 
 @font-face {
-    font-family: 'icomoon';
+
+ font-family: 'icomoon';
     src:
         url('../fonts/ru/icomoon.ttf?49mnhm') format('truetype'),
         url('../fonts/ru/icomoon.woff?49mnhm') format('woff');
@@ -112,8 +438,6 @@ body {
 }
 /*UI Dialog_End*/
 
-
-
 .icon-cal1_hover:before {
     content: "\e900";
 }
@@ -147,14 +471,6 @@ body {
 .icon-video_rightbar:before {
     content: "\e90a";
 }
-/*@font-face {
-    font-family: 'icomoon';
-    src:
-        url('..fonts/ru/icomoon.ttf?49mnhm') format('truetype'),
-        url('..fonts/ru/icomoon.woff?49mnhm') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}*/
 
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -260,6 +576,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 .header_top {
 	background-color: #000;
 	position: relative;
+	font-family: "Segoe UI Regular";
 }
 
 .header .navigation .submenu{
@@ -581,7 +898,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .submenu_bottom_col  h3:hover{
-	text-decoration: 1px solid red;
+    text-decoration: underline;
 }
 
 .header_right .banner_team2{
@@ -1199,7 +1516,6 @@ div.tournament_table .tournament_table_active a {
 	cursor: pointer;
 	margin-left: 1px;
     z-index: 99;
-    position: relative;
 }
 
 .tournament_slider_next:hover, .tournament_slider_prev:hover, .tournament_slider_next:active, .tournament_slider_prev:active {
@@ -1848,7 +2164,7 @@ div.news_list h3 {
 .content_top_right_banner img {
 	display: block;
 	max-width: 100%;
-	margin-bottom: 0 auto;
+	margin-bottom: 0;
 	border: 1px solid #66a6d1;
 }
 
@@ -3124,6 +3440,14 @@ div.news_list h3 {
 	position: relative;
 }
 
+.player_wrapper img{
+    margin-right: 0;
+}
+
+.team_item_images.pictures_wrapper .player_wrapper{
+    background-image: url("../images/player_background.jpg");
+}
+
 .flag_icon {
 	position: absolute;
 	top:10px;
@@ -3588,7 +3912,6 @@ div.dialog{
 
 .inner_content.best_moments_photo .best_moments_photo_page .stadion_photos_wrapper h3{
     color: #e17a00;
-
     margin-bottom: 7px;
     padding: 6px 0 6px 9px;
     background-color: #044980;
@@ -3875,6 +4198,10 @@ div.dialog{
     margin-top: 25px;
     padding: 0 0px 0 10px;
     color: #217cb8;
+}
+
+.language-select{
+    float: right;
 }
 
 #home_thanks .thanks_line{

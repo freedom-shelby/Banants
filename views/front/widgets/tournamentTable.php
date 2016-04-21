@@ -88,8 +88,8 @@
                             <td><span>21</span></td>
                             <td><span>39</span></td>
                         </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Banants-2')?></a></td>
+                        <tr class="active">
+                            <td><a class="active" href="#"><?=__('Banants-2')?></a></td>
                             <td><span>21</span></td>
                             <td><span>37</span></td>
                         </tr>

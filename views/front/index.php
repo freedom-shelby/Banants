@@ -10,7 +10,7 @@ use Helpers\Uri;
 
 ?>
 <?Theme::drawHead()?>
-<body>
+<body class="<?=Lang\Lang::instance()->getCurrentLang()['iso']?>">
 <div class="header">
     <div class="header_top clearfix">
         <div class="inner">
@@ -35,11 +35,11 @@ use Helpers\Uri;
 
                 </div><!-- banners -->
 
-                <div style="float: right;">
+                <div class="language-select">
                     <select name="language" id="language">
 
                         <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
-                            <option value="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>" <?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? 'selected' : ''?>><?=$lang['name']?></option>
+                            <option lang="<?=$lang['iso']?>" value="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>" <?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? 'selected' : ''?>><?=$lang['name']?></option>
                         <?endforeach?>
 
                     </select>

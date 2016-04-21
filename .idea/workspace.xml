@@ -2,14 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/facebook-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/twitter_logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/twitter_logo_blue.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/Arial-BoldMT.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/Arial-BoldMT.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/SARM-B.TTF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/SegoeUI.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/SegoeUI.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/icomoon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/icomoon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/icomoon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/fonts/am/segoeui_0.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/player_background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banners/fc-banants.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banners/sunrise-logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flags/flag-argentina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flags/flag-brazil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flags/flag-macedonia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flags/flag-peru.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flags/flag-russia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flags/flag-spain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/banants_squad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/banants_squad_2.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/jquery-ui-1.11.4.custom.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/images/player1.png" afterPath="$PROJECT_DIR$/media/assets/images/player1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/1coaches.html" afterPath="$PROJECT_DIR$/HTML/1coaches.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/1team_members_1-1999.html" afterPath="$PROJECT_DIR$/HTML/1team_members_1-1999.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/0+coaches_arm.html" afterPath="$PROJECT_DIR$/HTML/Banants_arm/0+coaches_arm.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/css/style.css" afterPath="$PROJECT_DIR$/HTML/Banants_arm/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/css/style.css" afterPath="$PROJECT_DIR$/media/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/home.php" afterPath="$PROJECT_DIR$/views/front/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/index.php" afterPath="$PROJECT_DIR$/views/front/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/ContentBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/ContentBanner.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/mainNews.php" afterPath="$PROJECT_DIR$/views/front/widgets/mainNews.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/rightBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/rightBanner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/secondaryRightBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/secondaryRightBanner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" afterPath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/fonts/arm/SARM-B.TTF" afterPath="$PROJECT_DIR$/media/assets/fonts/am/Arial-BoldMT.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/fonts/arm/SegoeUI-Bold.eot" afterPath="$PROJECT_DIR$/media/assets/fonts/am/SegoeUI-Bold.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/fonts/arm/SegoeUI-Bold.ttf" afterPath="$PROJECT_DIR$/media/assets/fonts/am/SegoeUI-Bold.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/fonts/arm/SegoeUI-Bold.woff" afterPath="$PROJECT_DIR$/media/assets/fonts/am/SegoeUI-Bold.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/fonts/arm/segoeui_0.ttf" afterPath="$PROJECT_DIR$/media/assets/fonts/am/SegoeUI.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/fonts/arm/segoeuib_0.ttf" afterPath="$PROJECT_DIR$/media/assets/fonts/am/segoeuib_0.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/fonts/arm/segoeuii_0.ttf" afterPath="$PROJECT_DIR$/media/assets/fonts/am/segoeuii_0.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/media/assets/images/flag.jpg" afterPath="$PROJECT_DIR$/uploads/images/flags/flag-armenia.jpg" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,31 +73,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bestPlayer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/front/widgets/bestPlayer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/front/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.384615">
-              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bottomBanner.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/front/widgets/bottomBanner.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32399103">
-              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/front/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.73077">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="42" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.33026585">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,24 +151,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/+Index_arm.html" />
-        <option value="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" />
-        <option value="$PROJECT_DIR$/app/Menus/Menu/Top.php" />
-        <option value="$PROJECT_DIR$/app/Menus/Menu/Category.php" />
-        <option value="$PROJECT_DIR$/app/Menus/Menu/SubMenu/SubCategory.php" />
-        <option value="$PROJECT_DIR$/routes/front.php" />
         <option value="$PROJECT_DIR$/system/Http.php" />
         <option value="$PROJECT_DIR$/system/Helpers/Uri.php" />
         <option value="$PROJECT_DIR$/system/Controller.php" />
         <option value="$PROJECT_DIR$/controllers/Test/I18nTest.php" />
         <option value="$PROJECT_DIR$/system/Route.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php" />
         <option value="$PROJECT_DIR$/views/front/__home.php" />
         <option value="$PROJECT_DIR$/app/Lang/Lang.php" />
         <option value="$PROJECT_DIR$/media/assets/css/style(1).css" />
-        <option value="$PROJECT_DIR$/views/front/index.php" />
         <option value="$PROJECT_DIR$/media/assets/js/custom/scripts.js" />
         <option value="$PROJECT_DIR$/HTML/Banants_arm/+coaches_arm.html" />
         <option value="$PROJECT_DIR$/HTML/Banants_arm/0+coaches_arm.html" />
@@ -167,14 +184,24 @@
         <option value="$PROJECT_DIR$/HTML/Banants_arm/0+contacts_arm.html" />
         <option value="$PROJECT_DIR$/HTML/Banants_arm/0+cups_arm.html" />
         <option value="$PROJECT_DIR$/HTML/Banants_arm/+all_teams_arm.html" />
-        <option value="$PROJECT_DIR$/views/front/widgets/contentBanner.php" />
-        <option value="$PROJECT_DIR$/media/assets/css/style.css" />
         <option value="&lt;308eb825-764b-448a-9e83-a1cf5fed5a97&gt;/_.htaccess" />
         <option value="&lt;308eb825-764b-448a-9e83-a1cf5fed5a97&gt;/views/front/widgets/mainNews.php" />
         <option value="&lt;308eb825-764b-448a-9e83-a1cf5fed5a97&gt;/.htaccess" />
         <option value="$PROJECT_DIR$/views/front/widgets/mainNews.php" />
+        <option value="$PROJECT_DIR$/views/front/index.php" />
+        <option value="$PROJECT_DIR$/HTML/Banants_arm/css/style.css" />
+        <option value="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
+        <option value="$PROJECT_DIR$/HTML/banants_squad.html" />
+        <option value="$PROJECT_DIR$/HTML/banants_squad_2.html" />
         <option value="$PROJECT_DIR$/views/front/home.php" />
+        <option value="$PROJECT_DIR$/media/assets/css/style.css" />
         <option value="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/contentBanner.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/secondaryRightBanner.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/rightBanner.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
       </list>
     </option>
   </component>
@@ -210,10 +237,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -429,6 +454,10 @@
               <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -494,21 +523,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,7 +558,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/front/style(2).css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/banants_squad_2.html" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="" />
@@ -564,7 +579,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="979" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="SearchEverywhereHistoryKey" value="item&#9;null&#9;null" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/views/front/style(2).css" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/HTML/banants_squad_2.html" />
   </component>
   <component name="Push.Settings">
     <excluded-roots>
@@ -573,18 +588,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\banners" />
+      <recent name="D:\OpenServer\domains\Banants\HTML" />
       <recent name="D:\OpenServer\domains\Banants\media\assets\images" />
       <recent name="D:\OpenServer\domains\Banants\media\assets\css" />
-      <recent name="D:\OpenServer\domains\Banants\views\front" />
-      <recent name="D:\OpenServer\domains\Banants\views\front\widgets" />
-      <recent name="D:\OpenServer\domains\Banants\HTML\Banants_arm" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\flags" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\banners" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\players" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\press_konferentsiya_posle_matcha_banants_mika" />
       <recent name="D:\OpenServer\domains\Banants\views\front\widgets\am" />
-      <recent name="D:\OpenServer\domains\Banants\app\Menus\Menu\SubMenu" />
-      <recent name="D:\OpenServer\domains\Banants\HTML" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.ContentModel.php">
@@ -653,12 +668,6 @@
       <created>1450187047253</created>
       <option name="number" value="Default" />
       <updated>1450187047253</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Menu ADD&#10;">
-      <created>1456147679656</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1456147679656</updated>
     </task>
     <task id="LOCAL-00027" summary="Menu ADD&#10;">
       <created>1456175433716</created>
@@ -948,7 +957,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461169540688</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Интеграция Меню в Админку">
+      <created>1461175426710</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1461175426710</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TodoView">
@@ -961,21 +976,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1484375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31338027" sideWeight="0.503125" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3012685" sideWeight="0.4975" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24207188" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5976214" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.151875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33550915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1484375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.4874031" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30338266" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.151875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22916667" sideWeight="0.5125969" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -983,11 +1001,8 @@
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33550915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3039906" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -1102,12 +1117,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/views/front/home.php</url>
-          <line>23</line>
+          <line>25</line>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/views/front/home.php</url>
-          <line>36</line>
+          <line>38</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1122,132 +1137,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/views/front/home.php</url>
-          <line>43</line>
+          <line>45</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/views/front/home.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="52" />
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/secondaryRightBanner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/js/custom/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20318726">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Lang/Lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8200409">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/0+coaches_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37024972">
-          <caret line="237" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="285" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+coaches_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3329821">
-          <caret line="486" column="59" selection-start-line="486" selection-start-column="16" selection-end-line="771" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+Index_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.153847">
-          <caret line="574" column="66" selection-start-line="574" selection-start-column="66" selection-end-line="574" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+vacancy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7454543">
-          <caret line="515" column="0" selection-start-line="515" selection-start-column="0" selection-end-line="515" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+daily_news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.61445785">
-          <caret line="3" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="200" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/images/form_page_adver.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/images/carousel_slider_item_adver.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/images/carousel_slider_images3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/0+history_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5562372">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+history_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6257669">
-          <caret line="504" column="54" selection-start-line="504" selection-start-column="20" selection-end-line="582" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/images/old_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/0+logoClub_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+logoClub_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29533115">
-          <caret line="430" column="36" selection-start-line="430" selection-start-column="36" selection-end-line="430" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+management_arm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.945455">
-          <caret line="434" column="0" selection-start-line="434" selection-start-column="0" selection-end-line="434" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/images/executive_dir.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/0+management_arm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.759036">
@@ -1393,32 +1296,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/bestPlayer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/contentBanner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24335378">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/assets/css/_style_Yellow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40919283">
-          <caret line="1571" column="20" selection-start-line="1571" selection-start-column="20" selection-end-line="1571" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1460,31 +1341,187 @@
         <state vertical-scroll-proportion="0.5908072">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#88#104#0#PHP" expanded="true" />
+            <element signature="e#88#104#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/images/banner1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/css/style -main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3329821">
+          <caret line="1072" column="17" selection-start-line="1072" selection-start-column="1" selection-end-line="1072" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+Index_arm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.03374233">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/nextMatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12167689">
+          <caret line="12" column="127" selection-start-line="12" selection-start-column="127" selection-end-line="13" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/tournamentTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45194274">
+          <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/flags/flag-brazil.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/flags/flag-armenia.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/banants_squad_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9652352">
+          <caret line="500" column="6" selection-start-line="500" selection-start-column="6" selection-end-line="500" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/banants_squad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46932516">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/images/facebook-logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/images/twitter_logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/images/aadvertisment3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.961538">
+          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/front/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.73077">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="42" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.384615">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.5562372">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/front/widgets/bottomBanner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32399103">
+        <state vertical-scroll-proportion="0.29550102">
           <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/contentBanner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.086912066">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.086912066">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/secondaryRightBanner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.086912066">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/rightBanner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.086912066">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/bestPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/lastMatch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20858896">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33026585">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,7 +8,7 @@
 ?>
 
 <div class="content_top_banner">
-    <a href="#">
+    <a href="https://www.facebook.com/BJNI.NOY" target="_blank">
         <img src="/uploads/images/banners/bjni_content_green.jpg" alt="content_top_banner" />
         <!--        <img src="/uploads/images/banners/bjni_noy_content_blue.jpg" alt="content_top_banner" />-->
         <!--        <img src="/uploads/images/banners/bjni_noy_content.jpg" alt="content_top_banner" />-->

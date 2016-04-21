@@ -8,7 +8,7 @@
 ?>
 
 <div class="content_top_right_banner">
-    <a href="#">
+    <a href="https://www.instagram.com/fcbanants/" target="_blank">
         <img src="/media/assets/images/banner1.jpg" alt="banner" />
     </a>
 </div><!-- content_top_right_banner -->

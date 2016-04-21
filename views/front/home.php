@@ -9,8 +9,10 @@
 use Helpers\Uri;
 
 ?>
+
 <?Theme::drawHead()?>
-<body>
+
+<body class="<?=Lang\Lang::instance()->getCurrentLang()['iso']?>">
 <div class="header">
     <div class="header_top clearfix">
         <div class="inner">
@@ -38,15 +40,15 @@ use Helpers\Uri;
 
                 </div>
 
-                <div style="float: right;">
+                <div class="language-select">
                     <select name="language" id="language">
 
                         <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
-                            <option value="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>" <?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? 'selected' : ''?>><?=$lang['name']?></option>
+                            <option lang="<?=$lang['iso']?>" value="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>" <?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? 'selected' : ''?>><?=$lang['name']?></option>
                         <?endforeach?>
 
                     </select>
-<!--                        <a href="--><?//= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?><!--">--><?//=$lang['iso']?><!--</a>-->
+<!--                        <a lang="fr" hreflang="fr" href="--><?//= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?><!--">--><?//=$lang['iso']?><!--</a>-->
                 </div>
 
             </div><!-- header_bottom -->

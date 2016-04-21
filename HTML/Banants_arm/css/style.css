@@ -104,8 +104,6 @@ body {
 }
 /*UI Dialog_End*/
 
-
-
 .icon-cal1_hover:before {
     content: "\e900";
 }
@@ -3343,10 +3341,10 @@ div.news_list h3 {
 	font-family: "Segoe UI Regular";
 }
 
-.stadion_page .stadion_info{ 
-
-font-family: "Segoe UI Regular";
+.stadion_page .stadion_info{
+    font-family: "Segoe UI Regular";
 }
+
 .stadion_page .stadion_info .stadion_info_wrapper a{
 	text-decoration: none;
 	color: #044980;

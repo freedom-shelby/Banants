@@ -753,8 +753,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 .header_right .banner_team1 .team1_logo{
 	width:  88px;
 	float: left;
-	margin-top: -11px;
-	margin-left: 4px;
+    margin: auto;
 }
 
 .header_right .banner_team1 h4{
@@ -766,12 +765,12 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .header_right .banner_team1 .main_logo{
 	float: right;
-	margin: -12px 9px 2px 0;
+    margin: auto;
 }
 
 .header_right .banner_team1_text{
 	float: left;
-	margin: 30px 30px -83px -1px;
+	margin: 21px -3px;
 	line-height: 26px;
 }
 
@@ -911,15 +910,14 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .main_logo{
-	margin: -12px 169px 0 0;
+    margin: auto;
 }
 
 .header_right .banner_team2 .banner_team1_text{
-   	margin: 18px 1px 1px 10px;
+   	margin: 21px 13px;
     color: #044980;
     font-size: 18px;
     float: left;
-    line-height: 21px;
     font-weight: bold;
     text-align: center;
     width: 55px;
@@ -940,13 +938,13 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2 .team1_logo{
-	margin: -11px 0 0 10px;
+    margin: auto;
     float: left;
 }
 
 
-.header_right .banner_team2 .team2_logo{	
-    margin: -10px 3px 0 0;
+.header_right .banner_team2 .team2_logo{
+    margin: auto;
     float: right;
 }
 
@@ -3446,6 +3444,8 @@ div.news_list h3 {
 
 .team_item_images.pictures_wrapper .player_wrapper{
     background-image: url("../images/player_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .flag_icon {

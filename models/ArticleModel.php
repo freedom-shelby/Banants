@@ -57,6 +57,14 @@ class ArticleModel extends LangModel
         return $this->belongsTo('PhotoModel', 'photo_id')->first();
     }
 
+    /**
+     * Загрузка картинки по-умолчанию
+     */
+    public function team()
+    {
+        return $this->hasOne('TeamModel', 'article_id')->first();
+    }
+
 //    public function getCreatedAtAttribute($date)
 //    {
 //        return Carbon\Carbon::createFromTimestamp($date)->format('Y-m-d H:i:s');

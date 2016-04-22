@@ -89,7 +89,7 @@
                             <td><span>39</span></td>
                         </tr>
                         <tr class="active">
-                            <td><a class="active" href="#"><?=__('Banants-2')?></a></td>
+                            <td><a class="team" href="#"><?=__('Banants-2')?></a></td>
                             <td><span>21</span></td>
                             <td><span>37</span></td>
                         </tr>
@@ -108,7 +108,7 @@
                             <td><span>21</span></td>
                             <td><span>31</span></td>
                         </tr>
-                        <tr class="active">
+                        <tr>
                             <td><a class="team" href="#"><?=__('Gandzasar-Kapan-2')?></a></td>
                             <td><span>21</span></td>
                             <td><span>12</span></td>

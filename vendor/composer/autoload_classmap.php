@@ -55,6 +55,8 @@ return array(
     'Event\\Emmiter' => $baseDir . '/system/Event/Emmiter.php',
     'Event\\EventHandlerInterface' => $baseDir . '/system/Event/EventHandlerInterface.php',
     'File' => $baseDir . '/system/File.php',
+    'Football\\Player' => $baseDir . '/app/Football/Player.php',
+    'Football\\Team' => $baseDir . '/app/Football/Team.php',
     'Front\\Front' => $baseDir . '/controllers/Front.php',
     'Front\\Pages' => $baseDir . '/controllers/Front/Pages.php',
     'GalleryModel' => $baseDir . '/models/GalleryModel.php',

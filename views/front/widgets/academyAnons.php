@@ -5,45 +5,31 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+use \Helpers\Uri;
 ?>
 
 <div class="container_top_slideshow content_middle_right_slideshow clearfix">
     <div class="item">
-        <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
+        <a href="<?=Uri::makeUriFromId('banants_players_vs_israel_match')?>" title="slideshow_images" rel="gallary_d">
+            <img src="/uploads/images/academy/IMG_2280.JPG" alt="container_top_slideshow_images" />
             <div class="container_top_slider_text">
                 <div class="container_top_slider_text_inner">
-                    Детско-юношеский<br>футбол
+                    Футболисты U-19. «Бананца» <br>
+                    приняли участие в игре против сборной Израеля.
                 </div>
-            </div><!-- container_top_slider_text -->
+            </div>
         </a>
-    </div><!--item-->
-    <div class="item">
-        <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
-            <div class="container_top_slider_text">
-                <div class="container_top_slider_text_inner">
-                    Детско-юношеский<br>футбол
-                </div>
-            </div><!-- container_top_slider_text -->
-        </a>
-    </div><!--item-->
-    <div class="item">
-        <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
-            <div class="container_top_slider_text">
-                <div class="container_top_slider_text_inner">
-                    Детско-юношеский<br>футбол
-                </div>
-            </div><!-- container_top_slider_text -->
-        </a>
-    </div><!--item-->
-    <div class="item">
-        <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />
-            <div class="container_top_slider_text">
-                <div class="container_top_slider_text_inner">
-                    Детско-юношеский<br>футбол
-                </div>
-            </div><!-- container_top_slider_text -->
-        </a>
-    </div><!--item-->
+    </div>
+<!--    <div class="item">-->
+<!--        <a href="/media/assets/images/content_middle_right_slideshow_images1.jpg" title="slideshow_images" rel="gallary_d"><img src="/media/assets/images/content_middle_right_slideshow_images1.jpg" alt="container_top_slideshow_images" />-->
+<!--            <div class="container_top_slider_text">-->
+<!--                <div class="container_top_slider_text_inner">-->
+<!--                    Детско-юношеский<br>футбол-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </a>-->
+<!--    </div>-->
 </div>
 
 <!--<div class="content_middle_right_banner">-->

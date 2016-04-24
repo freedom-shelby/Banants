@@ -5,21 +5,23 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+//todo: Здес надо 4 табов
 ?>
 
 <div class="widget widget-with-tabs">
     <div class="widget-header">
         <div class="widget-tabs">
-            <div class="tab1"><div><span>text1</span></div></div>
-            <div class="tab2 active"><div><span><?=__('Premier League')?></span></div></div>
-            <div class="tab3"><div><span><?=__('First League')?></span></div></div>
-            <div class="tab4"><div><span>text4</span></div></div>
+<!--            <div class="tab1"><div><span>text1</span></div></div>-->
+            <div class="tab1 active"><div><span><?=__('Premier League')?></span></div></div>
+            <div class="tab2"><div><span><?=__('First League')?></span></div></div>
+<!--            <div class="tab4"><div><span>text4</span></div></div>-->
         </div>
     </div>
     <div class="widget-body">
         <div class="widget-tabs-body">
-            <div class="tab1">tab desc1</div>
-            <div class="tab2 active">
+<!--            <div class="tab1">tab desc1</div>-->
+            <div class="tab1 active">
                 <table class="score-table-widget">
                     <tbody>
                         <tr>
@@ -70,7 +72,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="tab3">
+            <div class="tab2">
                 <table class="score-table-widget">
                     <tbody>
                         <tr>
@@ -121,7 +123,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="tab4">tab desc4</div>
+<!--            <div class="tab4">tab desc4</div>-->
         </div>
     </div>
     <div class="widget-footer">
@@ -134,17 +136,17 @@
                     <div class="owl-page circle">
                         <span class=""></span>
                     </div>
-                    <div class="owl-page circle">
-                        <span class=""></span>
-                    </div>
-                    <div class="owl-page circle">
-                        <span class=""></span>
-                    </div>
+<!--                    <div class="owl-page circle">-->
+<!--                        <span class=""></span>-->
+<!--                    </div>-->
+<!--                    <div class="owl-page circle">-->
+<!--                        <span class=""></span>-->
+<!--                    </div>-->
                 </div>
-                <div class="owl-buttons">
-                    <div class="owl-prev wgt-prev"></div>
-                    <div class="owl-next wgt-next"></div>
-                </div>
+<!--                <div class="owl-buttons">-->
+<!--                    <div class="owl-prev wgt-prev"></div>-->
+<!--                    <div class="owl-next wgt-next"></div>-->
+<!--                </div>-->
             </div>
         </div>
 

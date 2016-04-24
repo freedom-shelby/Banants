@@ -9,9 +9,10 @@
 
 <div class="video_wrapper">
     <div class="videoimage_wrapper">
-        <a class="various fancybox.iframe" href="http://www.youtube.com/embed/PyvDXwmTEkE?autoplay=1"> <img src="http://img.youtube.com/vi/PyvDXwmTEkE/0.jpg" alt="video_image">
+        <a class="various fancybox.iframe" href="https://www.youtube.com/watch?v=xLQr5dLt1hQ?autoplay=1">
+            <img src="http://img.youtube.com/vi/xLQr5dLt1hQ/0.jpg" alt="video_image">
             <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
         </a>
     </div>
-    <span>Завен Бадоян: В эпизоде с голом все спланировал заранее</span>
+    <span>Mika - Banants 0:0</span>
 </div><!-- video_wrapper -->

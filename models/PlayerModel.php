@@ -43,4 +43,12 @@ class PlayerModel extends Eloquent
         return $this->belongsTo('PositionModel', 'position_id')->first();
     }
 
+    /**
+     * Загрузка картинки по-умолчанию
+     */
+    public function defaultImage()
+    {
+        return $this->belongsTo('PhotoModel', 'photo_id')->first();
+    }
+
 }

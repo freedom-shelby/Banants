@@ -14,7 +14,7 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
-use Setting;
+use Football\Team;
 use ArticleModel;
 use App;
 
@@ -47,9 +47,11 @@ class Teams extends AbstractWidget{
 
     /**
      * Матеряли
-     * @type array[Player]
+     * @type Team
      */
-    protected $_items = [];
+    protected $_item;
+
+    protected $_title;
 
 
     public function getPosition()
@@ -65,26 +67,19 @@ class Teams extends AbstractWidget{
     public function render()
     {
         return View::make($this->_template)
-            ->with('items', $this->_items);
+            ->with('title', $this->_title)
+            ->with('items', $this->_item->getPlayers());
     }
 
     public function init($model)
     {
         $this->_param = json_decode($model->param, true);
 
-        $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
-            ->team()
-            ->get();
+        $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first();
 
-echo "<pre>";
-print_r($data->toArray());
-die;
-        foreach ($data as $item) {
-            $this->_items[] = $item;
-        }
-
-        // todo: надо сделать Pagination
-        $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true);
+        $this->_title = $data->title;
+        $this->_item = new Team;
+        $this->_item->init($data->team());
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

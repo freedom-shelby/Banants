@@ -25,6 +25,6 @@ class TeamModel extends Eloquent
 
     public function players()
     {
-        return $this->hasMany('PlayerModel', 'team_id')->first();
+        return $this->hasMany('PlayerModel', 'team_id');
     }
 }

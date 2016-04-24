@@ -11,17 +11,296 @@ use Helpers\Uri;
 
 ?>
 
-<div class="container_top_slideshow clearfix">
-    <? foreach ($items as $item):?>
-        <div class="item">
-            <a href="<?=Uri::makeUriFromId($item->slug)?>" title="slideshow_images" rel="gallery">
-                <img src="<?=$item->defaultImage()->path?>" alt="slideshow_images" />
-                <div class="container_top_slider_text">
-                    <div class="container_top_slider_text_inner">
-                        <?=$item->title?>
-                    </div>
-                </div><!-- container_top_slider_text -->
-            </a>
-        </div><!--item-->
-    <? endforeach ?>
-</div><!-- container_top_slideshow -->
+<div class="inner_content_wrapper">
+    <div class="inner_content">
+        <div class="team_wrapper clearfix">
+            <div class="team_wrapper_top">
+                <h3><?=$title?></h3>
+                <span>
+
+                </span>
+            </div><!-- team_wrapper_top -->
+            <div class="team_wrapper_body clearfix">
+                <div id="item_tabs">
+                    <ul>
+                        <li><a href="#item_tabs_list1"><?=__('Players')?></a></li>
+                        <li><a href="#item_tabs_list1"><?=__('Goalkeepers')?></a></li>
+                        <li><a href="#item_tabs_list1"><?=__('Defenders')?></a></li>
+                        <li><a href="#item_tabs_list1"><?=__('Midfielders')?></a></li>
+                        <li><a href="#item_tabs_list1"><?=__('Forwards')?></a></li>
+                    </ul>
+                    <div id="item_tabs_list1" class="item_tabs_list">
+
+                        <?foreach ($items as $item):?>
+                            <div class="team_item">
+                                <div class="team_item_images pictures_wrapper">
+                                    <img class="flag_icon" src="<?=$item->getCountry()->flag?>" alt="flag">
+                                    <div class="player_number"><?=$item->getNumber()?></div>
+                                    <div class="player_wrapper">
+                                        <img src="<?=$item->getDefaultImage()?>" alt="player">
+                                    </div>
+                                </div><!-- team_item_images -->
+                                <div class="team_item_title">
+                                    <h3><?=__($item->getFullName())?></h3>
+                                </div><!-- team_item_title -->
+                                <div class="team_item_bottom">
+                                    <h4><?=__($item->getPosition()->title())?></h4>
+                                    <img src="<?=$item->getPosition()->icon?>" alt="goalkeeper icon">
+                                </div><!-- team_item_bottom -->
+                            </div><!-- team_item -->
+                        <?endforeach ?>
+
+                    </div><!--item_tabs_list1-->
+                    <div id="item_tabs_list2" class="item_tabs_list ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-2" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">1</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">2</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">3</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">4</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                    </div><!--item_tabs_list1-->
+                    <div id="item_tabs_list3" class="item_tabs_list ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-3" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">1</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">2</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                    </div><!--item_tabs_list1-->
+                    <div id="item_tabs_list4" class="item_tabs_list ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-4" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">1</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">2</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">3</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">4</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                    </div><!--item_tabs_list1-->
+                    <div id="item_tabs_list5" class="item_tabs_list ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-5" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">1</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">2</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">3</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                    </div><!--item_tabs_list1-->
+                    <div id="item_tabs_list6" class="item_tabs_list ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-6" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">1</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">2</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">3</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag">
+                                <div class="player_number">4</div>
+                                <img src="/media/assets/images/player1.jpg" alt="player">
+                            </div><!-- team_item_images -->
+                            <div class="team_item_title">
+                                <h3>Сурен Алоян</h3>
+                            </div><!-- team_item_title -->
+                            <div class="team_item_bottom">
+                                <h4>Вратарь</h4>
+                                <img src="/media/assets/images/player_position_icon3.png" alt="goalkeeper icon">
+                            </div><!-- team_item_bottom -->
+                        </div><!-- team_item -->
+                    </div><!--item_tabs_list1-->
+                </div><!--item_tabs-->
+            </div><!-- team_wrapper_body -->
+        </div><!-- team_wrapper -->
+    </div>	<!--inner_content-->
+</div>

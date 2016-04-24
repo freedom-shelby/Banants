@@ -11,35 +11,69 @@
     <div class="leftbar_images_slider clearfix">
         <div class="leftbar_images_slider_item">
             <div class="leftbar_slider_images leftbar_slider_big_images">
-                <a class="fancybox" href="/uploads/images/photoGallery/1f927a512a9909833c7b57ab40062fc5_XL.jpg" title="slideshow_images" rel="gallary_a">
-                    <img class="image1" src="/uploads/images/photoGallery/1f927a512a9909833c7b57ab40062fc5_XL.jpg" alt="leftbar_images_slider_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13092078_984422451610781_1414446361437228427_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/uploads/images/banants_pyunik_1_1/13092078_984422451610781_1414446361437228427_n.jpg" alt="leftbar_images_slider_images">
                 </a>
             </div><!-- leftbar_slider_big_images -->
             <div class="leftbar_slider_images leftbar_slider_middle_images">
-                <a class="fancybox" href="/uploads/images/photoGallery/b3404be4ce8e34f9427382fa15263dea_XL.jpg" title="slideshow_images" rel="gallary_a">
-                    <img class="image2" src="/uploads/images/photoGallery/b3404be4ce8e34f9427382fa15263dea_XL.jpg" alt="leftbar_images_slider_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13012752_984422558277437_2800421137993247459_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/uploads/images/banants_pyunik_1_1/13012752_984422558277437_2800421137993247459_n.jpg" alt="leftbar_images_slider_images">
                 </a>
             </div><!-- leftbar_slider_small_images -->
             <div class="leftbar_slider_images leftbar_slider_small_images">
-                <a class="fancybox" href="/uploads/images/photoGallery/f3fa6960b52e3c842fd94fee5eb122ab_XL.jpg" title="slideshow_images" rel="gallary_a">
-                    <img class="image3" src="/uploads/images/photoGallery/f3fa6960b52e3c842fd94fee5eb122ab_XL.jpg" alt="leftbar_images_slider_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13041021_984422048277488_1761990438700138312_o.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/uploads/images/banants_pyunik_1_1/13041021_984422048277488_1761990438700138312_o.jpg" alt="leftbar_images_slider_images">
                 </a>
             </div><!-- leftbar_slider_small_images -->
         </div><!-- leftbar_images_slider_item -->
         <div class="leftbar_images_slider_item">
             <div class="leftbar_slider_images leftbar_slider_big_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images1.jpg" title="slideshow_images" rel="gallary_a">
-                    <img class="image1" src="/media/assets/images/leftbar_images_slider_images1.jpg" alt="leftbar_images_slider_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13043285_984422481610778_8239429953192068171_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/uploads/images/banants_pyunik_1_1/13043285_984422481610778_8239429953192068171_n.jpg" alt="leftbar_images_slider_images">
                 </a>
             </div><!-- leftbar_slider_big_images -->
             <div class="leftbar_slider_images leftbar_slider_middle_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images2.jpg" title="slideshow_images" rel="gallary_a">
-                    <img class="image2" src="/media/assets/images/leftbar_images_slider_images2.jpg" alt="leftbar_images_slider_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13043784_984422288277464_6232056122409870244_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/uploads/images/banants_pyunik_1_1/13043784_984422288277464_6232056122409870244_n.jpg" alt="leftbar_images_slider_images">
                 </a>
             </div><!-- leftbar_slider_small_images -->
             <div class="leftbar_slider_images leftbar_slider_small_images">
-                <a class="fancybox" href="/media/assets/images/leftbar_images_slider_images3.jpg" title="slideshow_images" rel="gallary_a">
-                    <img class="image3" src="/media/assets/images/leftbar_images_slider_images3.jpg" alt="leftbar_images_slider_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13051599_984422164944143_5136962063920085279_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/uploads/images/banants_pyunik_1_1/13051599_984422164944143_5136962063920085279_n.jpg" alt="leftbar_images_slider_images">
+                </a>
+            </div><!-- leftbar_slider_small_images -->
+        </div><!-- leftbar_images_slider_item -->
+        <div class="leftbar_images_slider_item">
+            <div class="leftbar_slider_images leftbar_slider_big_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13055437_984422044944155_4149565672015071232_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/uploads/images/banants_pyunik_1_1/13055437_984422044944155_4149565672015071232_n.jpg" alt="leftbar_images_slider_images">
+                </a>
+            </div><!-- leftbar_slider_big_images -->
+            <div class="leftbar_slider_images leftbar_slider_middle_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13055437_984422501610776_1756834896457732019_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/uploads/images/banants_pyunik_1_1/13055437_984422501610776_1756834896457732019_n.jpg" alt="leftbar_images_slider_images">
+                </a>
+            </div><!-- leftbar_slider_small_images -->
+            <div class="leftbar_slider_images leftbar_slider_small_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13055544_984422178277475_8377665554559763603_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/uploads/images/banants_pyunik_1_1/13055544_984422178277475_8377665554559763603_n.jpg" alt="leftbar_images_slider_images">
+                </a>
+            </div><!-- leftbar_slider_small_images -->
+        </div><!-- leftbar_images_slider_item -->
+        <div class="leftbar_images_slider_item">
+            <div class="leftbar_slider_images leftbar_slider_big_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13062265_984422041610822_1856444941477603547_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image1" src="/uploads/images/banants_pyunik_1_1/13062265_984422041610822_1856444941477603547_n.jpg" alt="leftbar_images_slider_images">
+                </a>
+            </div><!-- leftbar_slider_big_images -->
+            <div class="leftbar_slider_images leftbar_slider_middle_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13083249_984422308277462_4421147567923215308_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image2" src="/uploads/images/banants_pyunik_1_1/13083249_984422308277462_4421147567923215308_n.jpg" alt="leftbar_images_slider_images">
+                </a>
+            </div><!-- leftbar_slider_small_images -->
+            <div class="leftbar_slider_images leftbar_slider_small_images">
+                <a class="fancybox" href="/uploads/images/banants_pyunik_1_1/13087382_984422181610808_7553782136427447546_n.jpg" title="slideshow_images" rel="gallary_a">
+                    <img class="image3" src="/uploads/images/banants_pyunik_1_1/13087382_984422181610808_7553782136427447546_n.jpg" alt="leftbar_images_slider_images">
                 </a>
             </div><!-- leftbar_slider_small_images -->
         </div><!-- leftbar_images_slider_item -->

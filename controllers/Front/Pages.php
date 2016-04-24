@@ -55,15 +55,17 @@ class Pages extends Front
 
 
     public function getTest(){
-//        print_r(\Settings::instance()->getAllGroups());
+//        $slug = 'home';
+//        $this->_page->initFromSlug($slug);
 
-        //$this->layout = \CountryModel::with('PhoneInfo')->with('TopUpServices')->get();
-        //$this->layout = \CountryPhoneInfoModel::where('id','=',1)->get();
-        //$this->layout = \TopupServiceModel::get();
-        $this->layout = null;
-        //var_dump(\CountryModel::getChargableCountries()->toJson());
-        //var_dump(\CountryModel::getChargableCountries()[0]->phoneInfo->code);
-        //var_dump(\CountryModel::getCountryWithApiData(1)->toJson());
+        $this->_page->setTitle('Оффициальный сайт FC Banants');
+//        $this->_page->setContent('Тестовый контент');
+
+//        $model = ArticleModel::where('slug','=','home')->first();
+//        WidgetsContainer::instance($model);
+//
+        $this->layout = View::make('test/index');
+        $this->layout->content = View::make('test/Test_1');
 
     }
 }

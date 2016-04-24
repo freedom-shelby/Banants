@@ -133,6 +133,10 @@ body.am .quizzes {
     font-family: "Segoe UI Regular";
 }
 
+body.am #item_tabs li a {
+    padding: 8px 5px;
+}
+
 body.am .carousel_slider_item span {
     padding: 7px;
     display: inline-block;
@@ -193,7 +197,8 @@ body.am .common_page .carousel_slider_wrapper_wrapper {
 body.am .inner_content_wrapper{
     width: 592px;
     float: left;
-    margin: 0 8px;
+    /*margin: 0 8px;*/
+    margin: 0;
     font-family: "Segoe UI Regular";
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -376,6 +381,11 @@ body.am .inner_content.vacancy .vacancy_page .vacancy_bananc h1{
 	width: 100% !important;
 }
 
+.wall{
+    background: #fff;
+    padding: 10px 11px 22px 9px;
+    margin-bottom: 8px;
+}
 /*IconMoon*/
 
 @font-face {
@@ -920,7 +930,7 @@ h1, h2, h3, h4, h5, h5, h6 {
     float: left;
     font-weight: bold;
     text-align: center;
-    width: 55px;
+    width: 65px;
     line-height: 0.8;
     font-family: arial;
 }
@@ -1164,6 +1174,14 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .home-anons {
 	width: 640px;
+}
+
+.home-anons .container_top_slideshow{
+    height: 360px;
+}
+
+.home-anons .owl-carousel .owl-wrapper-outer{
+    height: 100%;
 }
 
 .container_top_slider_text {
@@ -1961,6 +1979,7 @@ div.tournament_table .tournament_table_active a {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
+    max-height: 96px;
 }
 
 .news_slider {
@@ -2303,6 +2322,7 @@ div.news_list h3 {
 }
 
 .content_middle_right_slideshow img {
+    width: 519px;
 	border: 1px solid #6aa8d1;
 }
 
@@ -2718,7 +2738,7 @@ div.news_list h3 {
 .daily_news_page .personal_info .person .person_contacts .person_contacts_info  h3{
 	font-size: 13px;
 	color: #021951;
-	line-height: 5px;
+	line-height: 12px;
 	text-transform: uppercase;
 	margin-top: 7px;
 	/*font-family: Segoe UI Semibold;*/
@@ -2728,7 +2748,7 @@ div.news_list h3 {
 		color: #044980;
 		font-size: 14px;
 		font-style: italic;
-		line-height: 5px;
+		line-height: 12px;
 		font-family: 'Segoe UI Italic';
 }
 
@@ -3113,14 +3133,14 @@ div.news_list h3 {
 }
 
 .cup_img_wrapper{
-	min-height: 174px;
+	/*min-height: 174px;*/
 }
 
 .cups_page .inner_content .cup img{
 	display: block;
 	margin: 0 auto;
 	padding-top: 8px;
-
+    max-width: 182px;
 }
 
 
@@ -3177,7 +3197,7 @@ div.news_list h3 {
 }
 .management_page .inner_content .manager_info .info_text{
 	float:left;
-	width: 342px;
+	max-width: 330px;
 }
 .management_page .inner_content .manager_info .info_text.differ{
 	float:left;
@@ -3481,12 +3501,16 @@ div.news_list h3 {
 	font-size: 13px;
 	color:#fff;
 	margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 .team_item_title {
 	background-color: #00345e;
 	text-align: center;
-	padding: 4px 0; 
+	padding: 3px 0;
+    height: 33px;
 }
 
 .item_tabs_list{
@@ -3673,9 +3697,13 @@ div.news_list h3 {
 	color: #044980;
 }
 
+.stadion_page .stadion_photos_wrapper{
+    margin-top: 20px;
+}
+
 .stadion_page h3{
 	font-size: 18px;
-	margin: 17px 0 10px 9px;
+	margin: 0 0 10px 9px;
 }
 
 .stadion_page span{
@@ -3705,7 +3733,7 @@ div.news_list h3 {
 
 .stadion_page .stadion_photos_wrapper .stadion img{
 	margin: 6px 6px;
-
+    width: 170px;
 }
 
 	/*Tshirts*/
@@ -3757,12 +3785,23 @@ div.news_list h3 {
 	padding: 7px 5px 6px 5px;
 }
 
+/** Fan Page**/
+.fans .history_page .history_bananc .photo_wrapper {
+    width: 278px;
+}
+
+.inner_content.fans.history {
+    background: #fff;
+    padding: 10px 11px 22px 9px;
+    min-height: 1000px;
+}
+
 /*History page*/
 .inner_content.history{
 	background: #fff;
 	padding: 10px 11px 22px 9px;
-	/*min-height: 712px;*/
-    height: 816px;
+	min-height: 816px;
+    /*height: 816px;*/
 }
 
 .history_page .history_bananc h1{
@@ -4206,4 +4245,34 @@ div.dialog{
 
 #home_thanks .thanks_line{
     margin: 150px 5px 5px 38px;
+}
+
+/** Articles TEMP **/
+.inner_content.article {
+    background: #fff;
+    padding: 10px 11px 22px 9px;
+    min-height: 864px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.inner_content.article h1{
+    font-size: 18px;
+    color: #044980;
+    font-family: Impact Regular;
+    margin-bottom: 8px;
+}
+
+.inner_content.article .photo_wrapper {
+    width: 218px;
+    float: left;
+    margin: 0 7px 8px 0;
+}
+
+.flickr img{
+    width: 573px;
+}
+
+.last-match-anons a {
+    text-decoration: none;
 }

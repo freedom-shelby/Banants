@@ -84,6 +84,7 @@ use Lang\Lang;
                             <li><a href="<?=Helpers\Uri::makeRouteUri('back.languages.list')?>">List</a></li>
                         </ul>
                     </li>
+                    <li><a href="<?=Helpers\Uri::makeRouteUri('back.quiz')?>">Quiz</a></li>
                     <li><a href="<?=Helpers\Uri::makeRouteUri('back.settings')?>">Settings</a></li>
                 </ul>
     <!--            <ul class="nav navbar-nav navbar-right">-->

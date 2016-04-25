@@ -35,15 +35,18 @@ class Server extends Front
         $this->layout = null;
 
         $quiz = (new Quiz)->setQuizId(1)->setUserId(1)->find();
-
         $data = (int) Arr::get($this->getPostData(), 'quiz');
-var_dump($this->getPostData());die;
+
         if(isset($data))
         {
-            $quiz->addResponse($data);
+            if(\UserModel::whereIp(\App::instance()->http()->getIpAddress())->first()){
+                echo 'nok';
+            }else{
+                $quiz->addResponse($data);
+                echo 'ok';
+            }
         }
 
-        echo 'ok';
 
     }
 

@@ -16,6 +16,7 @@ return array(
     'Back\\Languages' => $baseDir . '/controllers/Back/Languages.php',
     'Back\\Menus' => $baseDir . '/controllers/Back/Menus.php',
     'Back\\Pages' => $baseDir . '/controllers/Back/Pages.php',
+    'Back\\Quiz' => $baseDir . '/controllers/Back/Quiz.php',
     'Back\\Settings' => $baseDir . '/controllers/Back/Settings.php',
     'Base' => $baseDir . '/controllers/Base.php',
     'BaumTestCase' => $baseDir . '/controllers/Test/NestedSets/suite/BaumTestCase.php',

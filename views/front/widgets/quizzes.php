@@ -29,3 +29,9 @@
         <?=__('Thank you, your answer is accepted !')?>
     </h3>
 </div><!-- quizzes -->
+
+<div id="home_error" class=" home quizzes home_thanks hidden">
+    <h3 class="thanks_line">
+        <?=__('Sorry but you have already answered this question')?>
+    </h3>
+</div><!-- quizzes -->

@@ -4251,6 +4251,9 @@ div.dialog{
 #home_thanks .thanks_line{
     margin: 150px 5px 5px 38px;
 }
+#home_error .thanks_line{
+    margin: 150px 5px 5px 38px;
+}
 
 /** Articles TEMP **/
 .inner_content.article {

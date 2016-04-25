@@ -1,27 +1,28 @@
 <div class="inner_content_wrapper">
-	<div class="inner_content stadion">
-		<div class="stadion_page">
-			<div class="stadion_info clearfix">
-				<div class="stadion_info_wrapper">
-					<h3><a href="#"><strong>Ենթակառուցվածք</strong></a></h3>
-					&laquo;Բանանցի&raquo; մարզադաշտը տեղակայված է Երևանի Մալաթիա-Սեբաստիա վարչական շրջանում՝ Ջիվանու 2 հասցեում: Այն տեղակայված է ակումբի մարզաբազայում և տեղավորում է 4860 հանդիսական: Զուտ ֆուտբոլային մարզադաշտում տրիբունաները տեղակայված են մարզադաշտի անմիջական հարևանությամբ, ինչը հնարավորություն է տալիս երկրպագուներին առավելագույն լավ կերպով տեսնել խաղադաշտը և զգալ հանդիպման մթնոլորտը: Մարզադաշտի տրիբունաներից մեկն ունի ծածկ: Մարզադաշտն ունի բարձր որակի խոտածածկ և ժամանակակից լուսատախտակ:</div>
-				<div class="stadion_photos_wrapper clearfix">
-					<div class="stadions_photos clearfix">
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/001.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/001.jpg" alt="Banants Stadium" /> </a></div>
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/002.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/002.jpg" alt="Banants Stadium" /> </a></div>
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/010.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/010.jpg" alt="Banants Stadium" /> </a></div>
-					</div>
-					<div class="stadions_photos clearfix">
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/011.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/011.jpg" alt="Banants Stadium" /> </a></div>
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/012.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/012.jpg" alt="Banants Stadium" /> </a></div>
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/023.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/023.jpg" alt="Banants Stadium" /> </a></div>
-					</div>
-					<div class="stadions_photos clearfix">
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/024.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/024.jpg" alt="Banants Stadium" /> </a></div>
-						<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/025.jpg" rel="gallary_a"> <img class="image" src="../../../uploads/images/stadiums/025.jpg" alt="Banants Stadium" /> </a></div>
-					</div>
+	<div class="inner_content history">
+		<div class="history_page">
+			<div class="history_bananc">
+				<h1>Ստեղծվեց &laquo;հպարտ արծիվ&raquo;` &laquo;Բանանց&raquo; անունով</h1>
+				<div class="photo_wrapper"><img src="../../../media/assets/images/old_team.jpg" alt="old_team.jpg" />
+					<p>Բանանց ֆուտբոլային ակումբը հիմնադրել է 1992 թվականի հունվարի 20-ին` ներկայացնելով Կոտայքի մարզը: &laquo;Բանանցն&raquo; անվանակոչվել հիմնադրի` Սարգիս Իսրաելյանի հարազատ գյուղի անունով:</p>
+					<p>Առաջին մրցաշրջանում թիմը նվաճել է Հայաստանի գավաթը, իսկ առաջնությունում զբաղեցրել է երրորդ հորիզոնականը:</p>
+					<p>1995 թվականից Բանանցը դուրս է եկել Հայաստանի առաջնությունից, սակայն ակումբը վերածնունդ է ապրել 2001 թվականից:</p>
+					<p>2005 թվականին &laquo;Բանանց&raquo; ֆուտբոլային ակումբը ունեցավ իր մարզաբազան: Հայաստանի ֆուտբոլի ֆեդերացիան Էդուարդ Գրիգորյանի անվան ֆուտբոլի հանրապետական մարզադպրոցը իր ամբողջ տարածքով ու խաղադաշտերով վարձավճարով տրամադրեց &laquo;Բանանց&raquo; ֆուտբոլային ակումբին:</p>
+					<p>2007 թվականին &laquo;Բանանցն&raquo; իր պատմության ընթացքում երկրորդ անգամ է նվաճել Հայաստանի գավաթը՝ եզրափակիչ խաղում 3-1 հաշվով առավելության հասնելով &laquo;Արարատի&raquo; նկատմամբ:</p>
+					<p>2013/14 մրցաշրջանում Բանանցն առաջին անգամ արժանացավ Հայատանի չեմպիոնի տիտղոսին: Մրցաշրջանի 28 տուրերում Բանանցը վաստակեց 50 միավոր և երեք միավորով գերազանցեց մոտակա հետապնդող թիմերին:</p>
+					<p>Բանանցը բազմիցս Հայաստանը ներկայացրել է եվրագավաթներում և ֆուտբոլիստներ է ունեցել Հայաստանի հավաքականներում:&nbsp;</p>
+					<p><strong>&laquo;</strong><strong>Բանանցը</strong><strong>&raquo;&nbsp; </strong><strong>ՀՀ&nbsp; առաջնություններում</strong></p>
+					<p>2013/14թթ. Հայաստանի չեմպիոն, 2003, 2006, 2007, 2010թթ. առաջնությունների արծաթե մրցանակակիր, 1992, 1993, 2002, 2004, 2005թթ. բրոնզե մեդալակիր:</p>
+					<p>ՀՀ բարձրագույն խմբի առաջնություններին մասնակցում է 1992թ. (բացառությամբ` 1995-2000թթ.):</p>
+					<p><strong>Ամենախոշոր հաշվով հաղթանակները</strong>` <br /><br />&nbsp; &nbsp; 13:1 (1993թ.` &laquo;Քասախ&raquo;):</p>
+					<p>&nbsp; &nbsp; 12:0 (1992թ.` &laquo;Կիլիկիա&raquo;):</p>
+					<p><strong>Ամենախոշոր հաշվով պարտությունը</strong>` 1:8 (1994թ.` ՀՄԸՄ):</p>
+					<p>Թիմի կազմում բոլորից շատ խաղ է անցկացրել <strong>Սամվել Մելքոնյանը</strong>` <strong>172:</strong></p>
+					<p>Լավագույն ռմբարկուն <strong>Արամ Հակոբյանն է` 62 գոլ:</strong></p>
+					Մեկ մրցաշրջանի արդյունավետության ռեկորդը պատկանում է <strong>Արա Հակոբյանին՝ </strong>&nbsp;<strong>45 գոլ (2003թ.):</strong>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
+				<!--photo_wrapper--></div>
+			<div class="history_bananc">&nbsp;</div>
+			<!--histor_bananc--></div>
+		<!-- history_page --></div>
+	<!--inner_content--></div>

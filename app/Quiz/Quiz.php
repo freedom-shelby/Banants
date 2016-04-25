@@ -8,6 +8,10 @@
  * Date: 31.10.2015
  * Time: 13:42
  */
+
+//todo: amen User-i hamar mta&el vor konkret et harcin patasxana& chlini, ete mi qani hat harc lini sxala ashxatelu, mek el quiz-i himikva ID-in settingsneric vercni
+
+
 class Quiz
 {
     private $_question;
@@ -94,6 +98,11 @@ class Quiz
             $modelAnswer = QuizAnswerModel::find($id);
             $modelAnswer->responses_count = $this->_answers[$id]['count'] + 1;
             $modelAnswer->save();
+
+            UserModel::create([
+                'user_name' => 'TEST',
+                'ip' => \App::instance()->http()->getIpAddress()
+            ]);
 
             // ��������� ������ ������
             QuizResponsesModel::create([

@@ -1,10 +1,29 @@
 $(document).ready(function() {
 
+    /**
+     * Функции для Quiz
+     */
     $( "#quizzes" ).submit(function( event ) {
         event.preventDefault();
-        $("#home").addClass("hidden");
-        $("#home_thanks").removeClass("hidden");
+
+        $.ajax({
+            method:'POST',
+            data: 'quiz=' + $(document).find('input[name="quiz"]:checked').val(),
+            url: '/server/quiz.html',
+            async: false
+        }).success(function(data){
+            if(data == 'ok'){
+                $("#home").addClass("hidden");
+                $("#home_thanks").removeClass("hidden");
+            }else{
+                //alert('Ответ не принят');
+                console.log('Ответ не принят');
+            }
+        });
+
     });
+
+
 
     // При вибора языка делает редирект по языку
     $('#language').on('change', function () {

@@ -13,6 +13,7 @@ restrictAccess();
  * Роуты приветствия
  */
 Router::get(['/', 'as' => 'front.home'],'Front\Pages@getHome');
+Router::get(['/server/quiz/{id?}','rules' => ['id' => '[0-9]+'], 'as' => 'front.server'],'Front\Server@anyQuizResponse');
 Router::get(['/{page?}','rules' => ['page' => '[a-z0-9_-]+'], 'as' => 'front.page'],'Front\Pages@getPage');
 
 
@@ -36,6 +37,8 @@ Router::any(['/TestFaker2', 'as' => 'test.faker2'],'Test\FakerTest@anyIndex2');
 Router::any(['/TestWord', 'as' => 'test.word'],'Test\WordTranslate@anyIndex');
 Router::any(['/TestWidget', 'as' => 'test.widget'],'Test\Widget@anyIndex');
 Router::any(['/TestLangChange','rules' => ['page' => '[a-z0-9_-]+'], 'as' => 'test.lang.change'],'Test\I18nTest@anyChangeLang');
+Router::any(['/TestQuiz','rules' => ['id' => '[0-9]+'], 'as' => 'test.quiz.change'],'Test\Quiz\Test@anyIndex');
+Router::any(['/TestQuizResult','rules' => ['id' => '[0-9]+'], 'as' => 'test.result'],'Test\Quiz\Test@anyResult');
 
 
 //Router::get(['/test', 'as' => 'front.getTest'],'Front\Main@getTest');

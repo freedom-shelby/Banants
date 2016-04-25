@@ -14,6 +14,7 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use Quiz;
 
 class Quizzes extends AbstractWidget{
 
@@ -42,6 +43,11 @@ class Quizzes extends AbstractWidget{
      */
     protected $_param;
 
+    /**
+     * Матеряли
+     * @type Quiz
+     */
+    protected $_item;
 
     public function getPosition()
     {
@@ -55,11 +61,16 @@ class Quizzes extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('quiz', $this->_item);
     }
 
     public function init($model)
     {
+        //todo: PARAM -ic stana ID -ner@
+        //todo: Quic ID -n Settings-ic
+        $this->_item = (new Quiz)->setQuizId(1)->setUserId(1)->find();
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

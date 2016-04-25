@@ -23,7 +23,7 @@ $(function() {
       at: "center",
       of: window
     },
-    
+
      open: function(){
       jQuery('.ui-widget-overlay').bind('click',function(){
         jQuery('#dialog,#login').dialog('close');
@@ -32,7 +32,7 @@ $(function() {
   })
 
   });
- 
+
   $( ".photo1" ).click(function() {
     var calldialog = $(this).data().calldialog;
     $('.' + calldialog).dialog( "open" );
@@ -46,24 +46,16 @@ $(function() {
 
   if($(".container_top_slideshow").length > 0) {
       $(".container_top_slideshow").owlCarousel({
-         //autoPlay: 3000,
-         //navigation : true,
-         //pagination: true,
-         //slideSpeed : 300,
-         //paginationSpeed : 400,
-         //navigationText: false,
-         //singleItem: true,
-
-          items: 3,
-          autoplay: true,
-          autoPlaySpeed: 5000,
-          autoPlayTimeout: 5000,
-          autoplayHoverPause: true
-
+         navigation : true,
+         pagination: true,
+         slideSpeed : 300,
+         paginationSpeed : 400,
+         navigationText: false,
+         singleItem: true
       });
    }
 
-   
+
    if($('.leftbar_images_slider').length > 0) {
       $(".leftbar_images_slider").owlCarousel({
          navigation : false,
@@ -118,7 +110,7 @@ $(function() {
       elem.parent().find('.tournament_slider_prev').on('click',function(){
          elem.trigger('owl.prev')
       })
-   }     
+   }
 
    if($('.carousel_slider').length) {
       $('.carousel_slider').owlCarousel({
@@ -129,7 +121,7 @@ $(function() {
          navigationText: false,
          responsive: false
       });
-   }  
+   }
 
    if($('.dialog_slider').length) {
         $('.dialog_slider').owlCarousel({
@@ -166,7 +158,7 @@ $(function() {
       });
    }
 
-   /*if($('.leftbar_images_slider_item').length && $('.content_middle_slider_item').length) {         
+   /*if($('.leftbar_images_slider_item').length && $('.content_middle_slider_item').length) {
       var $container = ['.leftbar_images_slider_item', '.content_middle_slider_item'];
       var itemSelector = ['.leftbar_slider_images', '.content_slider_images'];
 
@@ -177,7 +169,7 @@ $(function() {
                  columnWidth: 1
              });
           });
-      });           
+      });
    }     */
 
 

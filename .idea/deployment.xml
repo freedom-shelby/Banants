@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsDEMO" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsDEMO" uploadOnCheckin="05f8481b-70d1-4559-a825-b457b4aafd5b">
     <serverData>
       <paths name="Banants">
         <serverdata>
@@ -24,6 +24,7 @@
             <excludedPath path="/media/back" />
             <excludedPath path="/media/libs" />
             <excludedPath path="/media/assets/fancyapps-fancyBox-v2.1.5-0-ge2248f4" />
+            <excludedPath path="/controllers/Back.php" />
           </excludedPaths>
         </serverdata>
       </paths>
@@ -77,6 +78,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="BanantsDEMO" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

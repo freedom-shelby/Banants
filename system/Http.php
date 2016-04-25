@@ -101,6 +101,14 @@ class Http {
     }
 
     /**
+     * Возвращает IP аддрес
+     * @return mixed
+     */
+    public function getIpAddress(){
+        return $this->_server['REMOTE_ADDR'];
+    }
+
+    /**
      * ВОзвращает строку запроса
      * @return string
      */

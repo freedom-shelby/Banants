@@ -9,7 +9,7 @@
 
 <div class="header_info">
     <span>
-        <?=__('The game will take place in Yerevan Banants Stadium on Saturday. Prizes, as will usually be for those who will come to the match.')?>
+<!--        --><?//=__('The game will take place in Yerevan Banants Stadium on Saturday. Prizes, as will usually be for those who will come to the match.')?>
     </span>
 <!--    <form action="#" method="post">-->
 <!--        <input name="search" type="text" placeholder="ПОИСК ПО САЙТУ"/>-->

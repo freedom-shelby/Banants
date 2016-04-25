@@ -137,6 +137,11 @@ body.am #item_tabs li a {
     padding: 8px 5px;
 }
 
+body.am .navigation_main li.club a{
+    font-size: 22px;
+    letter-spacing: 0px;
+}
+
 body.am .carousel_slider_item span {
     padding: 7px;
     display: inline-block;
@@ -4254,6 +4259,45 @@ div.dialog{
     min-height: 864px;
     font-size: 15px;
     line-height: 20px;
+}
+
+.inner_content.article.photo-gallery {
+    background: #fff;
+    padding: 10px 11px 22px 9px;
+    min-height: 864px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.inner_content.article.photo-gallery .leftbar_images_slider_item > div {
+    float: left;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    width: 279px;
+}
+
+.inner_content.article.photo-gallery .stadion_page .stadion {
+    float: left;
+    min-width: 183px;
+    border: 1px solid #66a6d1;
+    margin-right: 7px;
+    width: 274px;
+    margin-bottom: 4px;
+}
+
+.inner_content.article.photo-gallery .content_middle_slider_wrapper {
+    width: 574px;
+}
+
+.inner_content.article.photo-gallery .content_slider_images img.video-img {
+    width: 271px;
+}
+
+.inner_content.article.photo-gallery .content_slider_images {
+    margin-bottom: 3px;
+    margin-left: 1px;
+    float: left;
+    width: 279px;
 }
 
 .inner_content.article h1{

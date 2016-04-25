@@ -46,12 +46,20 @@ $(function() {
 
   if($(".container_top_slideshow").length > 0) {
       $(".container_top_slideshow").owlCarousel({
-         navigation : true,
-         pagination: true,
-         slideSpeed : 300,
-         paginationSpeed : 400,
-         navigationText: false,
-         singleItem: true         
+         //autoPlay: 3000,
+         //navigation : true,
+         //pagination: true,
+         //slideSpeed : 300,
+         //paginationSpeed : 400,
+         //navigationText: false,
+         //singleItem: true,
+
+          items: 3,
+          autoplay: true,
+          autoPlaySpeed: 5000,
+          autoPlayTimeout: 5000,
+          autoplayHoverPause: true
+
       });
    }
 
@@ -63,7 +71,7 @@ $(function() {
          slideSpeed : 300,
          paginationSpeed : 400,
          navigationText: false,
-         singleItem: true         
+         singleItem: true
       });
    }
 
@@ -74,7 +82,7 @@ $(function() {
          slideSpeed : 300,
          paginationSpeed : 400,
          navigationText: false,
-         singleItem: true         
+         singleItem: true
       });
    }
 
@@ -180,7 +188,7 @@ $(function() {
          slideSpeed : 300,
          paginationSpeed : 400,
          navigationText: false,
-         singleItem: true         
+         singleItem: true
       });
    }
 

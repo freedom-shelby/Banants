@@ -11,9 +11,17 @@ restrictAccess();
 
 class Back extends \Base{
 
+    public function __construct(array $requestParams)
+    {
+        if(\App::instance()->http()->getIpAddress() != '37.157.222.35' and \App::instance()->http()->getIpAddress() != '91.204.190.4') die('Error 404');
+
+        parent::__construct($requestParams);
+    }
+
     public function setLayout(){
         $this->layout = \View::make('back/index');
     }
+
 
 //    public function anyIndex(){
 //

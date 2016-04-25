@@ -9,7 +9,7 @@
 
 <div id="home" class="home quizzes">
     <h3>
-        <?=__('Which of these players would scorer in the next month?')?>
+        <?=__('Which of these players is the best in the team?')?>
     </h3>
     <form id="quizzes" action="#" method="post">
         <div class="quizzes_list">
@@ -18,23 +18,23 @@
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
             <input type="radio" name="check1" id="check2" />
-            <label for="check2"><?=__('Davit Arshakyan')?></label>
+            <label for="check2"><?=__('Atsamaz')?> <?=__('Buraev')?></label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
             <input type="radio" name="check1" id="check3" />
-            <label for="check3"><?=__('Ghukas Poghosyan')?></label>
+            <label for="check3"><?=__('Laercio')?> <?=__('Gomes')?></label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
             <input type="radio" name="check1" id="check4" />
-            <label for="check4"><?=__('Davit Hakobyan')?></label>
+            <label for="check4"><?=__('Claudio')?> <?=__('Torrejon')?></label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
             <input type="radio" name="check1" id="check5" />
-            <label for="check5"><?=__('Tigran Barseghyan')?></label>
+            <label for="check5"><?=__('Layonel')?> <?=__('Adams')?></label>
         </div><!-- quizzes_list -->
         <div class="quizzes_list">
             <input type="radio" name="check1" id="check6" />
-            <label for="check6"><?=__('Benik Hovhannisyan')?></label>
+            <label for="check6"><?=__('Vlatko')?> <?=__('Drobarov')?></label>
         </div><!-- quizzes_list -->
         <input  type="submit" value="Ответить"/>
     </form>

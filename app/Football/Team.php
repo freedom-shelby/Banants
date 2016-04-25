@@ -25,7 +25,7 @@ class Team
 
     public function init($model)
     {
-        $data = $model->players()->whereStatus(1)->get();
+        $data = $model->players()->whereStatus(1)->orderBy('position_id')->get();
 
         foreach ($data as $item) {
 

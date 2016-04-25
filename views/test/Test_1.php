@@ -1,31 +1,62 @@
 <div class="inner_content_wrapper">
-	<div class="inner_content article">
-		<div>
-			<div>
-				<h1>“Спорт Кафе”</h1>
-				<div class="photo_wrapper" style="width: 265px;">
-					<a class="fancybox" href="/uploads/images/cafe/sport-cafe-banner.jpg" title="Спорт Кафе" rel="gallary_p">
-						<img class="image" src="/uploads/images/cafe/sport-cafe-banner.jpg" style="max-width: 264px;" alt="banants">
-					</a>
+	<div class="inner_content clearfix">
+		<div class="team_container clearfix">
+			<div class="team_wrapper_top">&nbsp;</div>
+			<!-- team_wrapper_top -->
+			<div class="team_wrapper_body clearfix">
+				<!--				<div class="photo_wrapper" style="width: 265px;">--> <!--
+				<a class="fancybox" href="/uploads/images/academy_personal/Alvard_Hambardzumyan.jpg" title="slideshow_images" rel="gallary_p">--> <!--
+	<img class="image" src="/uploads/images/academy_personal/Alvard_Hambardzumyan.jpg" alt="banants">--> <!--
+	</a>--> <!--/div>-->
+				<div class="team_wrapper">
+					<h3>U - 17</h3>
+					<div>
+						<div class="photo_wrapper" style="width: 313px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_1.html" rel="gallary_p">
+							<img style="width: 313px;" src="/uploads/images/players/U-17/buferizacia.jpg" alt="team1_photo" /> </a>
+						</div>
+					</div>
 				</div>
-				<p>На территории спорткомплекса “Бананц” действует маленькое и уютное кафе. В “Спорт Кафе” у родителей есть возможность в удобных условиях ждать и наблюдать за тренировками своих детей. На мониторах в онлайн режиме можно следить за тренировкой с помощю установленных в полях видеокамер.</p>
-				<p>“Спорт Кафе” “Бананца” за очень короткый срок стал приятным местом для всех гостей спорткомплекса. Здесь родители и гости за чашечкой чая, кофе и других напитков приятно проводят время.</p>
+				<div class="team_wrapper">
+					<h3>U - 16</h3>
+					<div>
+						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_2.html" rel="gallary_p">
+							<img style="width: 299px;" src="/uploads/images/players/U-16/u16.jpg" alt="team1_photo" /> </a>
+						</div>
+					</div>
+				</div>
+				<div class="team_wrapper">
+					<h3>U - 15</h3>
+					<div>
+						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-15/u15.jpg" rel="gallary_p">
+							<img style="width: 299px;" src="/uploads/images/players/U-15/u15.jpg" alt="team1_photo" /> </a>
+						</div>
+					</div>
+				</div>
+				<div class="team_wrapper">
+					<h3>U - 14</h3>
+					<div>
+						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-14/IMG_2043.JPG" rel="gallary_p">
+							<img style="width: 450px;" src="/uploads/images/players/U-14/IMG_2043.JPG" alt="team1_photo" /> </a>
+						</div>
+					</div>
+				</div>
+				<div class="team_wrapper">
+					<h3>U - 13-2</h3>
+					<div>
+						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-13-2/IMG_0491.JPG" rel="gallary_p">
+							<img style="width: 299px;" src="/uploads/images/players/U-13-2/IMG_0491.JPG" alt="team1_photo" /> </a>
+						</div>
+					</div>
+				</div>
+				<div class="team_wrapper">
+					<h3>U - 13</h3>
+					<div>
+						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-16/u16.jpg" rel="gallary_p">
+							<img style="width: 313px;" src="/uploads/images/players/U-13/IMG_0370.jpg" alt="team1_photo" /> </a>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="photo_wrapper" style="width: 281px;">
-				<a class="fancybox" href="/uploads/images/cafe/003.jpg" title="slideshow_images" rel="gallary_p">
-					<img style="width: 281px;" class="image" src="/uploads/images/cafe/003.jpg" alt="banants">
-				</a>
-			</div>
-			<div class="photo_wrapper" style="width: 265px;">
-				<a class="fancybox" href="/uploads/images/cafe/004.jpg" title="slideshow_images" rel="gallary_p">
-					<img style="width: 281px;" class="image" src="/uploads/images/cafe/004.jpg" alt="banants">
-				</a>
-			</div>
-			<div class="photo_wrapper" style="width: 265px;">
-				<a class="fancybox" href="/uploads/images/cafe/005.jpg" title="slideshow_images" rel="gallary_p">
-					<img style="width: 281px;" class="image" src="/uploads/images/cafe/005.jpg" alt="banants">
-				</a>
-			</div>
-		</div>
-	</div>
-</div>
+			<!-- team_wrapper --></div>
+		<!-- team_container --></div>
+	<!--inner_content--></div>

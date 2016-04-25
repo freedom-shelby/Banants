@@ -9,6 +9,7 @@
 
 use Helpers\Uri;
 
+//todo: Надо включить сортировку
 ?>
 
 <div class="inner_content_wrapper">
@@ -22,13 +23,13 @@ use Helpers\Uri;
             </div><!-- team_wrapper_top -->
             <div class="team_wrapper_body clearfix">
                 <div id="item_tabs">
-                    <ul>
-                        <li><a href="#item_tabs_list1"><?=__('Players')?></a></li>
-                        <li><a href="#item_tabs_list1"><?=__('Goalkeepers')?></a></li>
-                        <li><a href="#item_tabs_list1"><?=__('Defenders')?></a></li>
-                        <li><a href="#item_tabs_list1"><?=__('Midfielders')?></a></li>
-                        <li><a href="#item_tabs_list1"><?=__('Forwards')?></a></li>
-                    </ul>
+<!--                    <ul>-->
+<!--                        <li><a href="#item_tabs_list1">--><?//=__('Players')?><!--</a></li>-->
+<!--                        <li><a href="#item_tabs_list1">--><?//=__('Goalkeepers')?><!--</a></li>-->
+<!--                        <li><a href="#item_tabs_list1">--><?//=__('Defenders')?><!--</a></li>-->
+<!--                        <li><a href="#item_tabs_list1">--><?//=__('Midfielders')?><!--</a></li>-->
+<!--                        <li><a href="#item_tabs_list1">--><?//=__('Forwards')?><!--</a></li>-->
+<!--                    </ul>-->
                     <div id="item_tabs_list1" class="item_tabs_list">
 
                         <?foreach ($items as $item):?>

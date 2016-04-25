@@ -150,7 +150,6 @@ class Category extends AbstractMenu{
                 }
                 $output .= '<ul>';
             }
-
             $output .= '<li><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a></li>';
 
             $i++;

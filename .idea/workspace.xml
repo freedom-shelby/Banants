@@ -2,153 +2,406 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="Интеграция Меню в Админку">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/dialog_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/documents/last_match_anons/2016-04-23 Gandzasar 1-1 Banants (07.11.2015).pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/documents/last_match_anons/2016-04-23 Mika 0-0 Banants (17.04.2016).pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/documents/last_match_anons/2016-04-23 Shirak 3-1 Banants (06.04.2016).pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/documents/last_match_anons/2016-04-23_Alashkert_1-2_Banants_(12.04.2016).pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy/IMG_2280.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy_personal/Alvard_Hambardzumyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy_personal/Artur_Muradyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy_personal/Carlos_Luengo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy_personal/Levon_Arshakyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy_personal/Mane_Avetisyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy_personal/Razmik_Saribekyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/1_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/2_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/background_flags/Argentina-flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/background_flags/Armenian-flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/background_flags/brazil-flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/background_flags/macedonian-flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/background_flags/peru-flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/background_flags/russian-flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/background_flags/spain-Flag.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13012735_984422114944148_5314420102537801807_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13012752_984422558277437_2800421137993247459_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13041021_984422048277488_1761990438700138312_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13043285_984422481610778_8239429953192068171_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13043784_984422288277464_6232056122409870244_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13051599_984422164944143_5136962063920085279_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13055437_984422044944155_4149565672015071232_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13055437_984422501610776_1756834896457732019_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13055544_984422178277475_8377665554559763603_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13062265_984422041610822_1856444941477603547_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13083249_984422308277462_4421147567923215308_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13087382_984422181610808_7553782136427447546_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13087753_984422271610799_6621510026582052492_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13092078_984422451610781_1414446361437228427_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13092126_984422128277480_8602453227541089855_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13095803_984422118277481_6991066407555083175_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cafe/003.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cafe/004.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cafe/005.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cafe/sport-cafe-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cafe/sport-cafe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cups/arajnutyun.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cups/gavat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/cups/supergavat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/fans/10403969_708785139257782_1193196387414855513_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/fans/1078698_767886543347641_3227895049611498781_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/fans/12194701_714080795394883_6073724671276823677_o.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/fans/12985415_788018438001118_6641980727092382976_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/fans/12985473_788554251280870_5877678869510261717_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/form/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/form/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/governance/Ashot_Kyureghyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/governance/Davit_Galstyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/governance/Hrach_Aghabekyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/governance/Karen_Davtyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/governance/Roman_Ashkabadze.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Acamaz_Burayev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Albert_Ohanyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Aslan_Kalmanov.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Denis_Mahmudov.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Hakob_Hakobyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Klaudio_Torexon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Laenel_Adams.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Laersio_Gomes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Magomed_Muzayev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Migel_Lopez.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Nairi_Minasyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Petros_Avetisyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Soslan_Kalmanov.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Soslan_Kochmazov.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Stepan_Khazaryan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Vahagn_Ayvazyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Valter_Poxosyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Vladimir_Babayan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Vlatko_Drobarov.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Yasmin_Mecinovich.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/Zaven_Badoyan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/zaven_badoyan_with_flag.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/sponsores/28690_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/sponsores/28690_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/sponsores/28690_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/sponsores/NOY-LOGO.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/002.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/010.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/011.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/012.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/023.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/024.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/025.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/staff/Edward_Shahnazaryan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/staff/Gohar_Vardanyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/staff/Ishkhan_Hovakimyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/staff/Manuk_Tutyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/staff/Marine_Avagyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/staff/Onik_Enokyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/__1management.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/__1stadion_new.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Player.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Team.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/test/Plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/test/Test_1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/test/Test_2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/test/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/1management.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/1stadion_new.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Banants.iml" afterPath="$PROJECT_DIR$/.idea/Banants.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Arsen_Hambaryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Artur_Hovhannisyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Artur_Voskanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Hovhannes_Gevorgyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Karen_Stepanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Vilyam_gevorgyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Vladimir_Vardanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/Xoakin_Garsia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Aram_Voskanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Arman_Exikyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Davit_Shaxbagyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Eduard_Gevorgyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Harutyun_Jangchyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Hrant_Gevorgyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Karen_Stepanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Lois_Rodriges.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Luis_Paskual.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Nando.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Pablo_de_la_Tore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/TIto_Ramalio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Xose_Migel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/academy/capello2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/anons/img483.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/articles/101.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news2/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news2/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news2/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news2/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news2/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news2/06 (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news2/07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/002.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/003.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/004.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/005.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/006.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/007.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/008.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/009.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/010.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/011.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/012.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/013.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/014.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/015.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/016.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/017.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/019.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/022.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/Andranik Hovhannisyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/Vaghinak Aslanyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Abraham Totolyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Andranik Avetisyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Andranik Hovhannisyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Aram Hunanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Artashes Muradyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Artur Khechumyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Artur Stepanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Ashot Manasyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Davit Avagyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Edgar Tonoyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Gor Abrahamyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Hrach Sargsyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/IMG_0296.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Karen Zakaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Manuk Manukyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Pargev Terteryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Stepan Ohanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Tigran Ghazaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Vaghinak Aslanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/Vahe Elamiryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Armen Yeranosyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Arsen Turvandyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Davit Sukiasyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Edik Vardanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Erik Martirosyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Ervand Sukiasyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Garnik Minasyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Gor Asatryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Hayk Miskaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Hayk Narimanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Hovik Grigoryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/IMG_1991.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Khachik Margaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Misha Ghazaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Mishel Ayvazyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Narek Sargsyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Narek Vardanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Sipan Petrosyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Suren Ghazaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Tigran Davtyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/Vahe Vardanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Alik Mkrtchyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Ara Zolakyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Aram Mikaelyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Artyom Gabrielyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Davit Kirakosyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/ERik Khalatyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Emil Ghazaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Gevorg Ghazaryan (2).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Gevorg Mkrtchyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Gor Tokhyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Grigor Chilingaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Hakob Harutyunyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Hovhannes Ghazaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Hrachya Aloyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/IMG_0445.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Leo Asatryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/MIkael Haydardzyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Narek Khachatryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Samvel Adamyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Vahagn Gevorgyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Vardan Azizyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Volodya Melkonyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/Yurik Hovhannisyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/ARman Baghramyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/ARman Stepanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Arayik Eloyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Arman Tevosyan (2).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Artur Isrealyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Davit Talalyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Edgar Piloyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Edgar Torosyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Frunze Melkonyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Garik Poghosyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Gevorg Asatryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Gevorg Yezagelyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Gor Matinyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Gor Mkrtchyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Hamlet Sargsyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Hovhannes Kirakosyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Hovhannes Topalyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/IMG_0491.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Karen Hakobyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Manvel Varshamyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Mkhitar Umreyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Narek Hovsepyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/Ruben Yengibaryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Arman Malintsyan (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Arman Martirosyan (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Armen Afrikyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Armen Kocharyan (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Arsen Galstyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Edgar Dulinyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Edgar Khechumyan (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Emil Simonyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Erik Simonyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Gagik Mkrtchyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Gor Lulukyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Harutyun Stepanyan (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Hrach Mnatsakanyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Hrach Sahakyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Hrant Mkrtichyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/IMG_0370.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Karen Arakelyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Karen Galstyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Khariton Ayvazyan (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Misha Ghlijyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Narek Davtyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Narek Grigoryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Samvel Hakobyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/Vladimir Muradyan (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Aramayis-Khachatryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Arman-Yeghiazaryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Armen-Andreasyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Davit-Aghajanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Erik-Aynajyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Gevorg-Manukyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/IMG_2043.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/IMG_2047.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/IMG_2061.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/IMG_2064.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/IMG_2066.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/IMG_2068.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Karen-Arakelyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Karen-Nalbandyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Koryun-Gevorgyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Levon-Ter-Minasyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Norayr-Nikoghosyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Ruben-Gapoyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Ruben-Tigran-Yesayan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Samvel-Manvelyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Tigran-Danielyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Vahe-Gevorgyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Volodya-Atoyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Yunusliyaz-Mashalov.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/001.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/002.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/003.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/004.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/005.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/006.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/007.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/008.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/009.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/010.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/011.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/012.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/013.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/014.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/015.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/016.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/017.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/018.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/019.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/020.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/021.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/022.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/023.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-15/u15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Baghramyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Margaryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Zanazanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Arman-Avanesyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Arman-Badalyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Artur-Miroyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Davit-Paremuzyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Davit-Sargsyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Edgar-Voskerchyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Lyova-Grigoryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Mher-Sukiasyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Narek-Karapetyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Roman-Amzaryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Samvel-Khachatryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Sargis-Sargsyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Sergey-Harutyunyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Vardges-Qananyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/u16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/1. Խաչատուր Մանուկյան.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Abraham-Portugalyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/ArmanKhachatryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Arsen-Sadoyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Ashot-Frangyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Ashot-Kocharyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Carlos-Luengo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/David-Babayan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Edgr-Grigoryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Erik-Gharibyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Gurgen-Matevosyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Hayk-Sargsyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Hrachya-Geghamyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/KarenMelkonyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Levon-Grigoryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Levon-Voskanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/MIkhail-Muradyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Narek-Avagyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Nelson-Harutyunyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Pargev-Abrahamyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Patvakan-Mahtesyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Rafik-Poghosyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Vardan-Babakhanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Vlad-Aslanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/Xachatur-Manukyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/arturkhachatryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/buferizacia.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/personal/RomanSimonyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/personal/Screenshot_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/personal/Tigran-Aslanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/019.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Artak Karamyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Artur Aghayan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Artyom Aleksanyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Eduard Petrosyn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Garik Ghazaryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Harutyun Margaryna.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Hrant Sargsyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Levon Ayvazyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Mesrop Krbashyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Narek Gasparyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Petros Babujyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Samvel Davtyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Samvel Movsisyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Sargis Gasparyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Tigran Harutyunyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Vahe Soghomonyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/Valeri Mkrtchyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Aram Avagyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Armen Manukyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Arsen Manukyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Artyusha Manukyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Davit Tagvoryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Edgar Hayrapetyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Eduard Arakelyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Eduard Hakobyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Garik Nalbandyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Gor Manukyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Hayk Avetisyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Hovhannes Arushanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/IMG_0166.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Norik Sahakyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Sargis Nazaretyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Seyran Stepanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Sos Davtyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Tagvor Tagvoryan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Tigran Aslanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/019.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Aram Hakobyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Arayik Terteryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Arman Badoyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Edgar Sahakyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Edmond Yengibaryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Erik Asatryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Erik Gevorgyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Gagik Hovhannisyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Gor Harutyunyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Gor Sirekanyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Hayk Davtyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Hayk Norikyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Karen Ghazaryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Khosrov Ghazaryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Mikael Aghayan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Ruben Hovhannisyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Suren Varderesyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/U-9-2/Vahan Petrosyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/Valeri Aleksanyan.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/020.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Abraham Simonyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Albert Harutyunyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Albert Martoyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Aleksandr Khachatryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Alen Grigoryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Arman Arakelyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Armen Karapetyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Davit Harutyunyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Gegham Harutyunyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Gor Kasparov.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Hayk Ghazaryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Hayk Hovhannisyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Hayk Petrosyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Karen Khachatryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Khachatur Saryan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Narek Qaraqeeyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Razmik Stepanyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Sergey Armenakyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/Valeri Aleksanyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Alex_Hovhannisyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Andrey_Shaxgeldyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Ararat_Eganyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Axavard_Petrosyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Edgar_Movsisyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Emil_Exiazaryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Gagik_Maxaqyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Gevorg_Xuloyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Grigor_Axekyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Grigor_Makaryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Hakob_Hambardzumyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Hovhannes_Ilangyozyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Jirayr_Margaryan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Narek_Petrosyan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Narek_Petrosyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Orbeli_Hambardzumyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Stepan_Harutyunyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/banants_2/Suren_Aloyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/014.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/015.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/017.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/018.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/020.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/021.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/022.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/11182790_915634361822924_7429852942942243148_o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/1606353_915634365156257_2740259977770882815_o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/IMG_9054.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/stadiums/IMG_9057.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/tsitsernakaberd/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/tsitsernakaberd/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/tsitsernakaberd/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/tsitsernakaberd/tsitsernakabert.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/2+best_moments_photo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/__+best_moments_photo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/test/Test_3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/articles/1_1.jpg" afterPath="$PROJECT_DIR$/uploads/images/articles/1_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/articles/3.jpg" afterPath="$PROJECT_DIR$/uploads/images/articles/3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/stadiums/023.jpg" afterPath="$PROJECT_DIR$/uploads/images/stadiums/023.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/stadiums/025.jpg" afterPath="$PROJECT_DIR$/uploads/images/stadiums/025.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/1history.html" afterPath="$PROJECT_DIR$/HTML/1history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/TEST/Test_1.html" afterPath="$PROJECT_DIR$/HTML/TEST/Test_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/banants_squad.html" afterPath="$PROJECT_DIR$/HTML/banants_squad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/Teams.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/Teams.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Front/Pages.php" afterPath="$PROJECT_DIR$/controllers/Front/Pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/31.03.2016/js/scripts.js" afterPath="$PROJECT_DIR$/HTML/31.03.2016/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Football/Team.php" afterPath="$PROJECT_DIR$/app/Football/Team.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menus/Menu/Category.php" afterPath="$PROJECT_DIR$/app/Menus/Menu/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back.php" afterPath="$PROJECT_DIR$/controllers/Back.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Pages.php" afterPath="$PROJECT_DIR$/controllers/Back/Pages.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/css/style.css" afterPath="$PROJECT_DIR$/media/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PlayerModel.php" afterPath="$PROJECT_DIR$/models/PlayerModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/TeamModel.php" afterPath="$PROJECT_DIR$/models/TeamModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Helpers/Uri.php" afterPath="$PROJECT_DIR$/system/Helpers/Uri.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Http.php" afterPath="$PROJECT_DIR$/system/Http.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/academyAnons.php" afterPath="$PROJECT_DIR$/views/front/widgets/academyAnons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php" afterPath="$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/photoGallery.php" afterPath="$PROJECT_DIR$/views/front/widgets/photoGallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" afterPath="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/quizzes.php" afterPath="$PROJECT_DIR$/views/front/widgets/quizzes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/snipers.php" afterPath="$PROJECT_DIR$/views/front/widgets/snipers.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/teams.php" afterPath="$PROJECT_DIR$/views/front/widgets/teams.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/topNews.php" afterPath="$PROJECT_DIR$/views/front/widgets/topNews.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/topVideo.php" afterPath="$PROJECT_DIR$/views/front/widgets/topVideo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" afterPath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_1.php" afterPath="$PROJECT_DIR$/views/test/Test_1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_2.php" afterPath="$PROJECT_DIR$/views/test/Test_2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/uploads/images/articles/3.jpg" afterPath="$PROJECT_DIR$/uploads/images/articles/_3.jpg" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -175,21 +428,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
+      <file leaf-file-name="Back.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/Back.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.038462">
-              <caret line="4253" column="22" selection-start-line="4253" selection-start-column="22" selection-end-line="4253" selection-end-column="22" />
+            <state vertical-scroll-proportion="-7.769231">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bottomBanner.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/front/widgets/bottomBanner.php">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/31.03.2016/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.7949791">
+              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Football/Player.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Football/Team.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615">
+              <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/test/plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,40 +481,46 @@
       <file leaf-file-name="Test_1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="29" selection-end-column="10" />
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1461556731880" expanded="true" signature="988:1006" placeholder="..." />
+                <marker date="1461556731880" expanded="true" signature="1336:1354" placeholder="..." />
+                <marker date="1461556731880" expanded="true" signature="1699:1717" placeholder="..." />
+                <marker date="1461556731880" expanded="true" signature="2074:2092" placeholder="..." />
+                <marker date="1461556731880" expanded="true" signature="2451:2469" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test/Test_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5014045">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/test/plugin.php">
+      <file leaf-file-name="Test_3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/test/Test_3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
+            <state vertical-scroll-proportion="-6.5094337">
+              <caret line="62" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -289,21 +578,12 @@
       </GitPushTagMode>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/0+team_info_arm.html" />
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/0+tshirt_new_arm.html" />
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/+vacancy_arm.html" />
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/0+contacts_arm.html" />
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/0+cups_arm.html" />
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/+all_teams_arm.html" />
-        <option value="&lt;308eb825-764b-448a-9e83-a1cf5fed5a97&gt;/_.htaccess" />
-        <option value="&lt;308eb825-764b-448a-9e83-a1cf5fed5a97&gt;/views/front/widgets/mainNews.php" />
-        <option value="&lt;308eb825-764b-448a-9e83-a1cf5fed5a97&gt;/.htaccess" />
-        <option value="$PROJECT_DIR$/views/front/widgets/mainNews.php" />
-        <option value="$PROJECT_DIR$/views/front/index.php" />
-        <option value="$PROJECT_DIR$/HTML/Banants_arm/css/style.css" />
         <option value="$PROJECT_DIR$/HTML/banants_squad_2.html" />
         <option value="$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/contentBanner.php" />
@@ -317,10 +597,8 @@
         <option value="$PROJECT_DIR$/app/Team/Team.php" />
         <option value="$PROJECT_DIR$/app/Football/Team/Team.php" />
         <option value="$PROJECT_DIR$/models/PlayerModel.php" />
-        <option value="$PROJECT_DIR$/app/Football/Team.php" />
         <option value="$PROJECT_DIR$/app/Football/Player.php" />
         <option value="$PROJECT_DIR$/app/Widgets/Widget/Teams.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/teams.php" />
         <option value="$PROJECT_DIR$/HTML/TEST/Test_1.html" />
         <option value="$PROJECT_DIR$/views/front/test.php" />
         <option value="$PROJECT_DIR$/controllers/Front/Pages.php" />
@@ -328,21 +606,35 @@
         <option value="$PROJECT_DIR$/HTML/1stadion_new.html" />
         <option value="$PROJECT_DIR$/views/test/Plugin.php" />
         <option value="$PROJECT_DIR$/HTML/1history.html" />
-        <option value="$PROJECT_DIR$/views/front/widgets/snipers.php" />
         <option value="$PROJECT_DIR$/views/test/plugin.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/academyAnons.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/topNews.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/topVideo.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/photoGallery.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
         <option value="$PROJECT_DIR$/views/front/home.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php" />
-        <option value="$PROJECT_DIR$/media/assets/css/style.css" />
         <option value="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" />
-        <option value="$PROJECT_DIR$/views/test/Test_1.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/quizzes.php" />
+        <option value="$PROJECT_DIR$/HTML/2+best_moments_photo.html" />
+        <option value="$PROJECT_DIR$/HTML/__+best_moments_photo.html" />
+        <option value="$PROJECT_DIR$/views/front/widgets/teams.php" />
+        <option value="$PROJECT_DIR$/media/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/academyAnons.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/topVideo.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/snipers.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/topNews.php" />
+        <option value="$PROJECT_DIR$/app/Widgets/Widget/MainNews.php" />
+        <option value="$PROJECT_DIR$/views/test/Test_3.php" />
         <option value="$PROJECT_DIR$/views/test/Test_2.php" />
+        <option value="$PROJECT_DIR$/controllers/Back/Pages.php" />
+        <option value="$PROJECT_DIR$/system/Http.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
+        <option value="$PROJECT_DIR$/app/Football/Team.php" />
+        <option value="$PROJECT_DIR$/views/test/Test_1.php" />
+        <option value="$PROJECT_DIR$/app/Menus/Menu/Category.php" />
+        <option value="$PROJECT_DIR$/system/Helpers/Uri.php" />
+        <option value="$PROJECT_DIR$/controllers/Back.php" />
+        <option value="$PROJECT_DIR$/HTML/31.03.2016/js/scripts.js" />
       </list>
     </option>
   </component>
@@ -380,7 +672,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1604" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -615,11 +907,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -633,29 +921,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cafe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -669,7 +943,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -715,7 +993,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,7 +1105,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/HTML/banants_squad_2.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BanantsPROD" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="" />
@@ -781,18 +1135,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\Banants\uploads\images\cafe" />
-      <recent name="D:\OpenServer\domains\Banants\media\assets\images" />
-      <recent name="D:\OpenServer\domains\Banants\uploads\documents" />
-      <recent name="D:\OpenServer\domains\Banants\uploads\images" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-17\personal" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-17" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\articles" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-13-2" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-14" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-17\personal" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-15" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-16" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-17" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\academy" />
-      <recent name="D:\OpenServer\domains\Banants\views\test" />
-      <recent name="D:\OpenServer\domains\Banants\app\Football" />
-      <recent name="D:\OpenServer\domains\Banants\app\Football\Team" />
-      <recent name="D:\OpenServer\domains\Banants\uploads\images\flags" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.ContentModel.php">
@@ -861,12 +1215,6 @@
       <created>1450187047253</created>
       <option name="number" value="Default" />
       <updated>1450187047253</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Menu ADD&#10;">
-      <created>1456247714458</created>
-      <option name="number" value="00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1456247714458</updated>
     </task>
     <task id="LOCAL-00029" summary="Menu ADD&#10;">
       <created>1456351686048</created>
@@ -1156,7 +1504,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461245134476</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Интеграция Меню в Админку">
+      <created>1461483229218</created>
+      <option name="number" value="00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1461483229273</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1169,33 +1523,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1604" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14798489" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23866498" sideWeight="0.48239437" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31338027" sideWeight="0.503125" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30156657" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3002611" sideWeight="0.4975" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24151435" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5976214" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.151875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33550915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.155625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20375" sideWeight="0.48239437" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30156657" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.151875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19125" sideWeight="0.51760566" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3003876" sideWeight="0.4975" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24207188" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33550915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1364,91 +1718,127 @@
           <line>12</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/views/front/widgets/quizzes.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/controllers/Back.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="53" />
+      <option name="time" value="56" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/assets/js/jquery.fancybox.pack.js">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/bottomBanner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72968197">
-          <caret line="42" column="479" selection-start-line="42" selection-start-column="479" selection-end-line="42" selection-end-column="479" />
+        <state vertical-scroll-proportion="0.61290324">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/stadiums/011.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/__1stadion_new.html">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/quizzes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.320802">
-          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.07162921">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/cups/arajnutyun.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/HTML/2+best_moments_photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.35955">
+          <caret line="473" column="47" selection-start-line="473" selection-start-column="12" selection-end-line="2158" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
+    <entry file="file://$PROJECT_DIR$/HTML/__+best_moments_photo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8082707">
-          <caret line="65" column="2" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
+        <state vertical-scroll-proportion="0.119382024">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/photoGallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4564607">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/photoGallery/1f927a512a9909833c7b57ab40062fc5_XL.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/1history.html">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/teams.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="6" />
+        <state vertical-scroll-proportion="-0.023876404">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/fans/10403969_708785139257782_1193196387414855513_o.jpg">
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/banants_2/Ararat_Eganyan.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/Banants_arm/+contacts_arm.html">
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/banants_2/Gevorg_Xuloyan.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/banants_2/Andrey_Shaxgeldyan.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6177945">
-          <caret line="431" column="40" selection-start-line="431" selection-start-column="37" selection-end-line="431" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.19101124">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/players/laersio.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/flags/flag-armenia.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/background_flags/armenian-flag.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/snipers.php">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5491573">
-          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.28651685">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/academy/IMG_2280.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/academyAnons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38202247">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/tsitsernakaberd/tsitsernakabert.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/topVideo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28651685">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1458,206 +1848,164 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/2_1.jpg">
+    <entry file="file://$PROJECT_DIR$/uploads/images/articles/101.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/4.jpg">
+    <entry file="file://$PROJECT_DIR$/uploads/images/anons/img483.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/6.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/8.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/articles/7.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/academyAnons.php">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/snipers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31039324">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.38202247">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/banants_vernulssya_v_erevan/abc7c98b4ddfae4816b74e0d2fd932d2_M.jpg">
+    <entry file="file://$PROJECT_DIR$/uploads/images/news2/02.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/MainNews.php">
+    <entry file="file://$PROJECT_DIR$/uploads/images/news2/03.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/news2/04.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/news2/05.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/topNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.384615">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/RandomNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
+        <state vertical-scroll-proportion="-15.961538">
           <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/topNews.php">
+    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/MainNews.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31039324">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="79" column="45" selection-start-line="79" selection-start-column="41" selection-end-line="79" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/nextMatch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28651685">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/lastMatch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31039324">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Anons.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/mainNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.19382022">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/randomNews.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07162921">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/topVideo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26264045">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uploads/images/banants_pyunik_1_1/13092078_984422451610781_1414446361437228427_n.jpg">
+    <entry file="file://$PROJECT_DIR$/uploads/images/Coaches/Arsen_Hambaryan.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/photoGallery.php">
+    <entry file="file://$PROJECT_DIR$/uploads/images/Coaches/Artur_Hovhannisyan.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/U-13-2/IMG_0491.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21488763">
-          <caret line="14" column="130" selection-start-line="14" selection-start-column="130" selection-end-line="14" selection-end-column="130" />
+        <state vertical-scroll-proportion="0.28651685">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/js/jquery.banants.tabs.widget.js">
+    <entry file="file://$PROJECT_DIR$/system/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7422037">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3180873">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/front/widgets/tournamentTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07162921">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.4985955">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML/+best_moments_photo.html">
+    <entry file="file://$PROJECT_DIR$/system/Http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35135135">
-          <caret line="439" column="61" selection-start-line="439" selection-start-column="61" selection-end-line="439" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.2942899">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/home.php">
+    <entry file="file://$PROJECT_DIR$/system/App.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19101124">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6896067">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/js/custom/scripts.js">
+    <entry file="file://$PROJECT_DIR$/controllers/Back/Pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22899729">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.33426967">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/LastMatchesAnons.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.35814607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/videoGallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09550562">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="64" />
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test/Test_2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test/Test_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5094337">
+          <caret line="62" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1670,7 +2018,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/test/layout.php">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/bestPlayer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1678,55 +2026,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/bottomBanner.php">
+    <entry file="file://$PROJECT_DIR$/system/Helpers/Uri.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.619382">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/test/plugin.php">
+    <entry file="file://$PROJECT_DIR$/app/Menus/Menu/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.038462">
-          <caret line="4253" column="22" selection-start-line="4253" selection-start-column="22" selection-end-line="4253" selection-end-column="22" />
-          <folding />
+        <state vertical-scroll-proportion="0.40308988">
+          <caret line="145" column="59" selection-start-line="145" selection-start-column="59" selection-end-line="145" selection-end-column="59" />
+          <folding>
+            <marker date="1461557289824" expanded="true" signature="4116:4208" placeholder="..." />
+            <marker date="1461557289824" expanded="true" signature="4145:4208" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="29" selection-end-column="10" />
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1461556731880" expanded="true" signature="988:1006" placeholder="..." />
+            <marker date="1461556731880" expanded="true" signature="1336:1354" placeholder="..." />
+            <marker date="1461556731880" expanded="true" signature="1699:1717" placeholder="..." />
+            <marker date="1461556731880" expanded="true" signature="2074:2092" placeholder="..." />
+            <marker date="1461556731880" expanded="true" signature="2451:2469" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/test/Test_2.php">
+    <entry file="file://$PROJECT_DIR$/views/test/plugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5014045">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Football/Team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.384615">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Football/Player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/js/owl.carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Back.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.769231">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/31.03.2016/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7949791">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>

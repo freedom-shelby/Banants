@@ -24,7 +24,7 @@
                 </div><!-- best_player_images_wrapper -->
                 <div class="best_player_right">
                     <div class="best_player_info">
-                        <span> <?=__('Years')?> 26<br> <?=__('Goals')?> 10</span>
+                        <span> <?=__('Age')?> 26<br> <?=__('Goals')?> 10</span>
                     </div><!-- best_player_info -->
                     <div class="best_player_multiple">
                         <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="best_player_right">
                     <div class="best_player_info">
-                        <span><?=__('Years')?> 26<br> <?=__('Goals')?> 3 </span>
+                        <span><?=__('Age')?> 26<br> <?=__('Goals')?> 4 </span>
                     </div>
                     <div class="best_player_multiple">
                         <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

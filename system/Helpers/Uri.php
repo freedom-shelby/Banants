@@ -34,7 +34,8 @@ class Uri
     public static function makeUriFromId($uri)
     {
         // Если это внешний УРЛ
-        if((strpos('http:\\', $uri) !== false) || (strpos('https:\\', $uri) !== false)) return $uri;
+        if((strpos($uri, 'http:\\') !== false) || (strpos($uri, 'https:\\') !== false)) return $uri;
+        if((strpos($uri, 'http://') !== false) || (strpos($uri, 'https://') !== false)) return $uri;
 
         // Если это Домашная страница
         if($uri == '/'){

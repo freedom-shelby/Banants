@@ -18,7 +18,7 @@ class Pages extends Back
      * Главная страница сайта
      */
     public function getHome(){
-       $this->layout->content = View::make('back/home');
+        $this->layout->content = View::make('back/home');
     }
 
     public function getTest(){

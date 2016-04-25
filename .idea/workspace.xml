@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Zanazanyan.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/u16.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Baghramyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Baghramyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Margaryan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Andranik-Margaryan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Arman-Avanesyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Arman-Avanesyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Arman-Badalyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Arman-Badalyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Artur-Miroyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Artur-Miroyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Davit-Paremuzyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Davit-Paremuzyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Davit-Sargsyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Davit-Sargsyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Edgar-Voskerchyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Edgar-Voskerchyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Lyova-Grigoryan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Lyova-Grigoryan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Mher-Sukiasyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Mher-Sukiasyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Narek-Karapetyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Narek-Karapetyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Roman-Amzaryan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Roman-Amzaryan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Samvel-Khachatryan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Samvel-Khachatryan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Sargis-Sargsyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Sargis-Sargsyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Sergey-Harutyunyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Sergey-Harutyunyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-16/Vardges-Qananyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/Vardges-Qananyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/bufer/Andranik-Zanazanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-16/bufer/u16.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/31.03.2016/js/scripts.js" afterPath="$PROJECT_DIR$/HTML/31.03.2016/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Football/Team.php" afterPath="$PROJECT_DIR$/app/Football/Team.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back.php" afterPath="$PROJECT_DIR$/controllers/Back.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/js/custom/scripts.js" afterPath="$PROJECT_DIR$/media/assets/js/custom/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_1.php" afterPath="$PROJECT_DIR$/views/test/Test_1.php" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -533,6 +511,36 @@
               <option name="myItemId" value="uploads" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="players" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="U-16" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bufer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -853,12 +861,6 @@
       <option name="number" value="Default" />
       <updated>1450187047253</updated>
     </task>
-    <task id="LOCAL-00030" summary="Menu ADD&#10;">
-      <created>1456352564809</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1456352564809</updated>
-    </task>
     <task id="LOCAL-00031" summary="Menu ADD&#10;">
       <created>1456353330426</created>
       <option name="number" value="00031" />
@@ -1147,7 +1149,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461564740741</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="Интеграция Меню в Админку">
+      <created>1461573948978</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1461573948978</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1172,7 +1180,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5976214" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33550915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.155625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.155625" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20375" sideWeight="0.48239437" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30156657" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />

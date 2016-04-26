@@ -20,7 +20,7 @@ class TeamModel extends Eloquent
 
     public function article()
     {
-        return $this->belongsTo('EntityModel', 'article_id')->first();
+        return $this->belongsTo('ArticleModel', 'article_id')->first();
     }
 
     public function players()

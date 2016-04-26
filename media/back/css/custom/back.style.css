@@ -100,3 +100,11 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
     cursor: pointer;
 }
 /** #Sortable Node **/
+
+.table.list-items img{
+    max-width: 100px;
+}
+
+.table.list-items .second-item{
+    min-width: 910px;
+}

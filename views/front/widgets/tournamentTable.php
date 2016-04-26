@@ -82,42 +82,42 @@
                         </tr>
                         <tr>
                             <td><a class="team" href="#"><?=__('Alashkert-2')?></a></td>
-                            <td><span>21</span></td>
-                            <td><span>50</span></td>
+                            <td><span>23</span></td>
+                            <td><span>56</span></td>
                         </tr>
                         <tr>
                             <td><a class="team" href="#"><?=__('Mika-2')?></a></td>
-                            <td><span>21</span></td>
-                            <td><span>39</span></td>
+                            <td><span>23</span></td>
+                            <td><span>42</span></td>
                         </tr>
                         <tr class="active">
                             <td><a class="team" href="#"><?=__('Banants-2')?></a></td>
-                            <td><span>21</span></td>
-                            <td><span>37</span></td>
+                            <td><span>23</span></td>
+                            <td><span>38</span></td>
                         </tr>
                         <tr>
                             <td><a class="team" href="#"><?=__('Pyunik-2')?></a></td>
-                            <td><span>21</span></td>
-                            <td><span>34</span></td>
-                        </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Ararat-2')?></a></td>
-                            <td><span>21</span></td>
-                            <td><span>32</span></td>
+                            <td><span>23</span></td>
+                            <td><span>35</span></td>
                         </tr>
                         <tr>
                             <td><a class="team" href="#"><?=__('Shirak-2')?></a></td>
-                            <td><span>21</span></td>
-                            <td><span>31</span></td>
+                            <td><span>23</span></td>
+                            <td><span>35</span></td>
+                        </tr>
+                        <tr>
+                            <td><a class="team" href="#"><?=__('Ararat-2')?></a></td>
+                            <td><span>23</span></td>
+                            <td><span>35</span></td>
                         </tr>
                         <tr>
                             <td><a class="team" href="#"><?=__('Gandzasar-Kapan-2')?></a></td>
-                            <td><span>21</span></td>
-                            <td><span>12</span></td>
+                            <td><span>23</span></td>
+                            <td><span>13</span></td>
                         </tr>
                         <tr>
                             <td><a class="team" href="#"><?=__('Ulisses-2')?></a></td>
-                            <td><span>21</span></td>
+                            <td><span>23</span></td>
                             <td><span>11</span></td>
                         </tr>
                     </tbody>

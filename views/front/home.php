@@ -19,6 +19,10 @@ use Helpers\Uri;
             <div class="logo_wrapper">
                 <a href="<?=Uri::makeUriFromId('/')?>">
                     <img src="/media/assets/images/logo.png" alt="logo" />
+                    <div>
+                        <h1><?=__('BANANTS')?></h1>
+                        <h2><?=__('FOOTBALL CLUB')?></h2>
+                    </div>
                 </a>
             </div><!-- logo_wrapper -->
             <div class="header_navigation">

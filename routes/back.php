@@ -40,6 +40,8 @@ Router::any(['/Admin/Menus/Edit/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => '
 Router::get(['/Admin/Menus/Delete/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.menus.delete'],'Back\Menus@getDelete');
 Router::post(['/Admin/Menus/Image/Delete', 'as' => 'back.menus.image.delete'],'Back\Menus@postImageDelete');
 Router::any(['/Admin/Quiz', 'as' => 'back.quiz'],'Back\Quiz@anyIndex');
+Router::get(['/Admin/Team/List/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.teams.list'],'Back\Teams@getList');
+Router::any(['/Admin/Player/Add/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.player.add'],'Back\Players@anyAdd');
 
 /**
  * Тесты

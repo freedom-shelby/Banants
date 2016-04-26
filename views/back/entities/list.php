@@ -9,7 +9,7 @@
 <div class="container-fluid">
     <div class="panel panel-primary">
         <div class="panel-heading">
-			<h3>Articles List</h3>
+			<h3>Entities List</h3>
         </div>
 		<div class="panel-body">
             <a class="btn btn-primary" href="<?=Helpers\Uri::makeRouteUri('back.entities.add')?>">Add Entity</a>

@@ -79,7 +79,7 @@ $(document).ready(function() {
             paginationSpeed : 400,
             navigationText: false,
             singleItem: true,
-            autoPlay : 5000
+            autoPlay : 8000
         });
     }
 
@@ -92,7 +92,7 @@ $(document).ready(function() {
             paginationSpeed : 400,
             navigationText: false,
             singleItem: true,
-            autoPlay : 5000
+            autoPlay : 8000
         });
     }
 
@@ -104,7 +104,7 @@ $(document).ready(function() {
             paginationSpeed : 400,
             navigationText: false,
             singleItem: true,
-            autoPlay : 5000
+            autoPlay : 8000
         });
     }
 
@@ -150,7 +150,7 @@ $(document).ready(function() {
             pagination: true,
             navigationText: false,
             responsive: false,
-            autoPlay : 5000
+            autoPlay : 3000
         });
     }
 
@@ -162,7 +162,7 @@ $(document).ready(function() {
             pagination: true,
             navigationText: false,
             responsive: false,
-            autoPlay : 5000
+            autoPlay : 8000
         });
     }
 
@@ -214,7 +214,7 @@ $(document).ready(function() {
             paginationSpeed : 400,
             navigationText: false,
             singleItem: true,
-            autoPlay : 5000
+            autoPlay : 8000
         });
     }
 

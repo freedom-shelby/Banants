@@ -78,6 +78,14 @@ use Lang\Lang;
                         </ul>
                     </li>
                     <li class="dropdown">
+                        <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Players <span class="caret"></span></a>
+                        <ul role="menu" class="dropdown-menu">
+                            <?foreach(TeamModel::orderBy('id')->get() as $item):?>
+                                <li><a href="<?=Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id)?>"><?=$item->article()->title?></a></li>
+                            <?endforeach?>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages  <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<?=Helpers\Uri::makeRouteUri('back.languages.add')?>">Add</a></li>
@@ -103,6 +111,11 @@ use Lang\Lang;
         <div class="row row-offcanvas row-offcanvas-right">
             <?if(!empty($content)):?>
                 <?=$content?>
+<!--                --><?//foreach(TeamModel::all() as $item):?>
+<!--                    --><?//echo "<pre>";
+//                    print_r($item->article());
+//                    die;?>
+<!--                --><?//endforeach?>
             <?endif?>
         </div><!--/row-->
 

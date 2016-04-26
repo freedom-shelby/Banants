@@ -9,21 +9,44 @@
 <div class="best_player">
     <div class="best_player_title">
         <h2><?=__('BEST PLAYER')?></h2>
-    </div><!-- best_player_title -->
+    </div>
     <div class="best_player_content">
-        <h3><?=__('LAERSIO GOMES COSTA')?></h3>
+        <h3> <?=__('Zaven Badoyan')?></h3>
         <div class="best_player_images_wrapper">
-            <img src="/uploads/images/players/laersio.png" alt="best player" />
-        </div><!-- best_player_images_wrapper -->
+            <img src="/uploads/images/players/zaven_badoyan_with_flag.png" alt="best_player" />
+        </div>
         <div class="best_player_right">
             <div class="best_player_info">
-                <span><?=__('Goals')?> 1<br> <?=__('Shots')?> 4<br> <?=__('On target')?> 2</span>
-            </div><!-- best_player_info -->
+                <span><?=__('Goals')?> 1<br> <?=__('Shots')?> 1<br> <?=__('On target')?> 1</span>
+            </div>
             <div class="best_player_multiple clearfix">
                 <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
                 <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
                 <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
-            </div><!-- best_player_multiple -->
-        </div><!-- best_player_right -->
-    </div><!-- best_player_content -->
-</div><!-- best_player -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="best_player">-->
+<!--    <div class="best_player_title">-->
+<!--        <h2>--><?//=__('BEST PLAYER')?><!--</h2>-->
+<!--    </div>-->
+<!--    <div class="best_player_content">-->
+<!--        <h3>--><?//=__('LAERSIO GOMES COSTA')?><!--</h3>-->
+<!--        <div class="best_player_images_wrapper">-->
+<!--            <img src="/uploads/images/players/laersio.png" alt="best player" />-->
+<!--        </div>-->
+<!--        <div class="best_player_right">-->
+<!--            <div class="best_player_info">-->
+<!--                <span>--><?//=__('Goals')?><!-- 1<br> --><?//=__('Shots')?><!-- 4<br> --><?//=__('On target')?><!-- 2</span>-->
+<!--            </div>-->
+<!--            <div class="best_player_multiple clearfix">-->
+<!--                <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>-->
+<!--                <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>-->
+<!--                <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->

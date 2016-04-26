@@ -5,13 +5,15 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+use Helpers\Uri;
 ?>
 
 <div class="news_wrapper">
     <div class="news_item clearfix">
-        <a href="/article_we_look_true.html">
+        <a href="<?=Uri::makeUriFromId('one_day_on_banants')?>">
             <div class="news_item_images">
-                <img src="/uploads/images/news2/02.jpg" alt="news_item_images" />
+                <img src="/uploads/images/news_3/3.jpg" alt="news_item_images" />
             </div><!-- news_item_images -->
             <div class="news_item_info">
                 <span>
@@ -21,7 +23,7 @@
         </a>
     </div><!-- news_item -->
     <div class="news_item news_item_active clearfix">
-        <a href="/article_banants_pyunik_1_1.html">
+        <a href="<?=Uri::makeUriFromId('article_banants_pyunik_1_1')?>">
             <div class="news_item_images">
                 <img src="/uploads/images/news2/03.jpg" alt="news_item_images" />
             </div><!-- news_item_images -->

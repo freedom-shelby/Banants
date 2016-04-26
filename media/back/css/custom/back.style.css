@@ -108,3 +108,10 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 .table.list-items .second-item{
     min-width: 910px;
 }
+
+.bordered {
+    border: 1px solid #337AB7;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

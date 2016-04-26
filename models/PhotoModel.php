@@ -13,6 +13,8 @@ class PhotoModel extends Eloquent
 {
     protected $table = 'photos';
 
+    public $timestamps = false;
+
 //    protected $hidden = ['pivot'];
 
 //    protected $guarded = ['id'];

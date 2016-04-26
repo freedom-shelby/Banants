@@ -15,7 +15,7 @@ class PlayerModel extends Eloquent
 
     protected $table = 'players';
 
-    protected $fillable = ['first_name_id', 'last_name_id', 'full_name_id', 'country_id', 'position_id'];
+    protected $fillable = ['first_name_id', 'last_name_id', 'team_id', 'country_id', 'position_id', 'photo_id', 'status', 'place'];
 
 
     public function firstName()

@@ -250,7 +250,9 @@ class Players extends Back
             $contents[$iso]['firstName'] = $firstNameModel->translations()->whereLang_id($lang['id'])->first();
             $contents[$iso]['lastName'] = $lastNameModel->translations()->whereLang_id($lang['id'])->first();
         }
-
+//echo "<pre>";
+//print_r($contents);
+//die;
         $this->layout->content = View::make('back/players/edit')
             ->with('item', $model)
             ->with('contents', $contents);

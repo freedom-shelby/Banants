@@ -62,13 +62,13 @@ use Lang\Lang;
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist">
                                     <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
-                                        <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
+                                        <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#first-name-<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
                                     <?endforeach?>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
-                                        <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="<?=$iso?>">
+                                        <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="first-name-<?=$iso?>">
                                             <div class="form-group col-sm-13">
                                                 <label for="text">Translated Name</label>
                                                 <input type="text" name="content[<?=$iso?>][first_name]" class="form-control" id="text" placeholder="Player Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
@@ -85,13 +85,13 @@ use Lang\Lang;
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist">
                                     <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
-                                        <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
+                                        <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#last-name-<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
                                     <?endforeach?>
                                 </ul>
                                 <!-- Tab panes -->
                                 <div class="tab-content">
                                     <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
-                                        <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="<?=$iso?>">
+                                        <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="last-name-<?=$iso?>">
                                             <div class="form-group col-sm-13">
                                                 <label for="text">Translated Name</label>
                                                 <input type="text" name="content[<?=$iso?>][last_name]" class="form-control" id="text" placeholder="Player Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
@@ -107,7 +107,7 @@ use Lang\Lang;
                         </div>
                         <div class="form-group col-sm-13">
                             <div class="btn-group" role="group" aria-label="...">
-                                <input type="submit" name="submit" value="Add Menu" class="btn btn-primary">
+                                <input type="submit" name="submit" value="Add Player" class="btn btn-primary">
                             </div>
                         </div>
                     </div>

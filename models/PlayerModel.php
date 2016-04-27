@@ -15,7 +15,7 @@ class PlayerModel extends Eloquent
 
     protected $table = 'players';
 
-    protected $fillable = ['first_name_id', 'last_name_id', 'team_id', 'country_id', 'position_id', 'photo_id', 'status', 'place'];
+    protected $fillable = ['first_name_id', 'last_name_id', 'team_id', 'country_id', 'position_id', 'photo_id', 'status', 'number', 'place', 'slug'];
 
 
     public function firstName()
@@ -28,9 +28,14 @@ class PlayerModel extends Eloquent
         return $this->belongsTo('EntityModel', 'last_name_id')->first()->text;
     }
 
-    public function fullName()
+    public function firstNameModel()
     {
-        return $this->belongsTo('EntityModel', 'full_name_id')->first()->text;
+        return $this->belongsTo('EntityModel', 'first_name_id');
+    }
+
+    public function lastNameModel()
+    {
+        return $this->belongsTo('EntityModel', 'last_name_id');
     }
 
     public function country()

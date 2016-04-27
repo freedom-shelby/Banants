@@ -23,7 +23,6 @@
             <excludedPath path="/views/test" />
             <excludedPath path="/media/libs" />
             <excludedPath path="/media/assets/fancyapps-fancyBox-v2.1.5-0-ge2248f4" />
-            <excludedPath path="/controllers/Back.php" />
           </excludedPaths>
         </serverdata>
       </paths>

@@ -30,6 +30,7 @@ use Upload\File as UploadFile;
 use Upload\Storage\FileSystem;
 use Upload\Validation\Mimetype as UploadMimeType;
 use Upload\Validation\Size as UploadSize;
+use Upload\Exception\UploadException;
 use Exception;
 
 class Players extends Back
@@ -48,7 +49,7 @@ class Players extends Back
 
         if (Arr::get($this->getPostData(), 'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'position', 'country', 'status', 'content', 'image']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'position', 'country', 'number', 'status', 'content', 'image']);
 
             try {
                 // Транзакция для Записание данных в базу
@@ -73,14 +74,22 @@ class Players extends Back
                         // Success!
                         $file->upload();
                         $image = '/' . static::IMAGE_PATH . '/' . $file->getNameWithExtension();
+                    } catch (UploadException $e) {
+                        // Fail!
+                        $image = null;
+                        Message::instance()->warning($file->getErrors());
                     } catch (Exception $e) {
                         // Fail!
+                        $image = null;
                         Message::instance()->warning($file->getErrors());
                     }
-                    $imageId = PhotoModel::create([
-                        'path' => $image,
-                        'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
-                    ])->id;
+                    if($image) {
+                        $imageId = PhotoModel::create([
+                            'path' => $image,
+                            'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                        ])->id;
+                    }
+
                     $firstNameEntity = EntityModel::create([
                         'text' => $data['first_name'],
                         'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
@@ -116,6 +125,7 @@ class Players extends Back
                         'country_id' => $data['country'],
                         'position_id' => $data['position'],
                         'slug' => $data['slug'],
+                        'number' => $data['number'],
                         'status' => $data['status'],
                         'photo_id' => $imageId,
                         'first_name_id' => $firstNameEntity->id,
@@ -134,91 +144,115 @@ class Players extends Back
     }
 
     /**
-     * Редактирование материалов
+     * Редактирование
      */
     public function anyEdit()
     {
-        $id = (int)$this->getRequestParam('id') ?: null;
+        $id = (int) $this->getRequestParam('id') ?: null;
 
-        $article = ArticleModel::find($id);
+        $model = PlayerModel::find($id);
+        $firstNameModel = $model->firstNameModel()->first();
+        $lastNameModel = $model->lastNameModel()->first();
 
-        if (empty($article)) {
-            throw new HttpException(404, json_encode(['errorMessage' => 'Incorrect Article']));
+        if (empty($model)) {
+            throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Player']));
         }
 
+        if (Arr::get($this->getPostData(),'submit') !== null) {
 
-        if (Arr::get($this->getPostData(), 'submit') !== null) {
+            $data = Arr::extract($this->getPostData(), ['slug', 'image', 'country', 'position', 'status', 'number', 'team', 'first_name', 'last_name', 'content']);
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'content']);
-
-            $parent = ArticleModel::find($data['parentId']);
             // Транзакция для Записание данных в базу
             try {
-                Event::fire('Admin.beforeArticleUpdate', $article);
-                Capsule::connection()->transaction(function () use ($data, $article, $parent) {
-                    if ($parent) {
-                        $article->makeChildOf($parent);
-                    } else {
-                        $article->makeRoot();
+                Capsule::connection()->transaction(function () use ($data, $model, $firstNameModel, $lastNameModel) {
+                    // Загрузка картинки
+
+                    $file = new UploadFile('image', new FileSystem('uploads/images'));
+ 
+                    // Optionally you can rename the file on upload
+                    $file->setName(uniqid());
+
+//                    // Validate file upload
+//                    $file->addValidations(array(
+//                        // Ensure file is of type image
+//                        new UploadMimeType(['image/png','image/jpg','image/gif']),
+//
+//                        // Ensure file is no larger than 5M (use "B", "K", M", or "G")
+//                        new UploadSize('50M')
+//                    ));
+
+                    // Try to upload file
+                    try {
+                        // Success!
+                        $file->upload();
+                        $image = '/' . static::IMAGE_PATH . '/' . $file->getNameWithExtension();
+                    } catch (UploadException $e) {
+                        // Fail!
+                        $image = null;
+                        Message::instance()->warning($file->getErrors());
+                    } catch (Exception $e) {
+                        // Fail!
+                        $image = null;
+                        Message::instance()->warning($file->getErrors());
                     }
 
-                    // Заодно обновляет и пункты меню привязанные к slug-у
-                    (new \MenuItemModel)->whereSlug($article->slug)->update([
-                        'slug' => $data['slug'],
+                    $firstNameModel->updateOrCreate([
+                        'text' => $data['first_name'],
+                    ]);
+                    $lastNameModel->updateOrCreate([
+                        'text' => $data['last_name'],
                     ]);
 
-                    $article->update([
-                        'slug' => $data['slug'],
-                        'status' => $data['status'],
-                    ]);
-
-                    foreach ($data['content'] as $iso => $item) {
+                    foreach ($data['content'] as $iso => $d) {
                         $lang_id = Lang::instance()->getLang($iso)['id'];
 
-                        if (((int)$item['id']) != 0) {
-                            $content = ContentModel::find($item['id']);
-                            $content->update([
-                                'title' => $item['title'],
-                                'crumb' => $item['crumb'],
-                                'desc' => $item['desc'],
-                                'meta_title' => $item['metaTitle'],
-                                'meta_desc' => $item['metaDesc'],
-                                'meta_keys' => $item['metaKeys'],
-                                'lang_id' => $lang_id,
-                            ]);
-                        } else {
-                            //todo: надо по тестить почему без ID каждий раз создаётся все записи а не обновляются
-                            $content = ContentModel::create([
-                                'article_id' => $data['content']['ru']['id'],
-                                'title' => $item['title'],
-                                'crumb' => $item['crumb'],
-                                'desc' => $item['desc'],
-                                'meta_title' => $item['metaTitle'],
-                                'meta_desc' => $item['metaDesc'],
-                                'meta_keys' => $item['metaKeys'],
-                                'lang_id' => $lang_id,
-                            ]);
-                            $article->contents()->attach($content);
-
-                        }
-//                    $article->contents()->attach($content);
+                        EntityTranslationModel::updateOrCreate(['id' => $d['first_name_id']], ['text' => $d['first_name'], 'lang_id' => $lang_id, 'entity_id' => $firstNameModel->id]);
+                        EntityTranslationModel::updateOrCreate(['id' => $d['last_name_id']], ['text' => $d['last_name'], 'lang_id' => $lang_id, 'entity_id' => $lastNameModel->id]);
                     }
+
+                    Event::fire('Admin.entitiesUpdate');
+
+                    // если нету нового изображения оставить прежний
+                    if($image){
+                        $imageId = PhotoModel::create([
+                            'path' => $image,
+                            'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                        ])->id;
+                        $model->update([
+                            'image_id' => $imageId,
+                        ]);
+                    }
+
+                    $model->update([
+                        'team_id' => $data['team'],
+                        'slug' => $data['slug'],
+                        'number' => $data['number'],
+                        'status' => $data['status'],
+                        'country_id' => $data['country'],
+                        'position_id' => $data['position'],
+                        'first_name_id' => $firstNameModel->id,
+                        'last_name_id' => $lastNameModel->id,
+                    ]);
                 });
-                Event::fire('Admin.articleUpdate', $article);
-            } catch (QueryException $e) {
-                Message::instance()->warning('Article was don\'t edited');
+                Message::instance()->success('Menu Item was successfully saved');
+            } catch (Exception $e) {
+                Message::instance()->warning('Menu Item was don\'t saved');
             }
         }
 
+        $model = PlayerModel::find($id);
+        $firstNameModel = $model->firstNameModel()->first();
+        $lastNameModel = $model->lastNameModel()->first();
+
         // Загрузка контента для каждово языка
         $contents = [];
-        foreach (Lang::instance()->getLangs() as $iso => $lang) {
-            $contents[$iso] = $article->contents()->where('lang_id', '=', $lang['id'])->first();
+        foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang){
+            $contents[$iso]['firstName'] = $firstNameModel->translations()->whereLang_id($lang['id'])->first();
+            $contents[$iso]['lastName'] = $lastNameModel->translations()->whereLang_id($lang['id'])->first();
         }
 
-        $this->layout->content = View::make('back/articles/edit')
-            ->with('node', $article::getNode())
-            ->with('article', $article)
+        $this->layout->content = View::make('back/players/edit')
+            ->with('item', $model)
             ->with('contents', $contents);
     }
 

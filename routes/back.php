@@ -42,6 +42,7 @@ Router::post(['/Admin/Menus/Image/Delete', 'as' => 'back.menus.image.delete'],'B
 Router::any(['/Admin/Quiz', 'as' => 'back.quiz'],'Back\Quiz@anyIndex');
 Router::get(['/Admin/Team/List/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.teams.list'],'Back\Teams@getList');
 Router::any(['/Admin/Player/Add/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.player.add'],'Back\Players@anyAdd');
+Router::any(['/Admin/Player/Edit/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.player.edit'],'Back\Players@anyEdit');
 
 /**
  * Тесты

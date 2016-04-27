@@ -89,10 +89,10 @@ class Menus extends Back
                 ]);
 
                 foreach($data['content'] as $iso => $item){
-                    $lang_id = Lang::instance()->getLang($iso)['id'];
+                    $langId = Lang::instance()->getLang($iso)['id'];
                     EntityTranslationModel::create([
                         'text' => $item['text'],
-                        'lang_id' => $lang_id,
+                        'lang_id' => $langId,
                         'entity_id' => $newEntity->id,
                     ]);
                 }
@@ -173,8 +173,8 @@ class Menus extends Back
                         'text' => $data['entity'],
                     ]);
                     foreach ($data['content'] as $iso => $d) {
-                        $lang_id = Lang::instance()->getLang($iso)['id'];
-                        EntityTranslationModel::updateOrCreate(['id' => $d['id']], ['text' => $d['text'], 'lang_id' => $lang_id, 'entity_id' => $entityModel->id]);
+                        $langId = Lang::instance()->getLang($iso)['id'];
+                        EntityTranslationModel::updateOrCreate(['id' => $d['id']], ['text' => $d['text'], 'lang_id' => $langId, 'entity_id' => $entityModel->id]);
                     }
 
                     Event::fire('Admin.entitiesUpdate');

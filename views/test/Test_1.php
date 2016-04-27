@@ -35,8 +35,8 @@
 					<h3>U - 13-2</h3>
 					<div>
 						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-13-2/IMG_0491.JPG" rel="gallary_p"> <img style="width: 299px;" src="/uploads/images/players/U-13-2/IMG_0491.JPG" alt="team1_photo" /> </a></div>
-					</div>22
-				</div>
+					</div>
+					22</div>
 				<div class="team_wrapper">
 					<h3>U - 13</h3>
 					<div>

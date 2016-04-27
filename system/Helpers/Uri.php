@@ -26,7 +26,8 @@ class Uri
 
     public static function makeUri($uri)
     {
-        if((strpos('http:\\', $uri) !== false) || (strpos('https:\\', $uri) !== false)) return $uri;
+        if((strpos($uri, 'http:\\') !== false) || (strpos($uri, 'https:\\') !== false)) return $uri;
+        if((strpos($uri, 'http://') !== false) || (strpos($uri, 'https://') !== false)) return $uri;
 
         return implode('/', [Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'], ltrim($uri, '/')]);
     }

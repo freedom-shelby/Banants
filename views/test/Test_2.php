@@ -1,24 +1,198 @@
 <div class="inner_content_wrapper">
-	<div class="inner_content article">
-		<div style="min-height: 173px;">
-			<div>
-				<h1>Գոլառատ ոչ-ոքի. Բանանց-2 - Փյունիկ-2 2:2</h1>
-				<div class="photo_wrapper" style="width: 265px;">
-					<a class="fancybox" href="/uploads/images/news_3/26036371483_d89b0947f4_b.jpg" title="Спорт Кафе" rel="gallary_p">
-						<img class="image" src="/uploads/images/news_3/26036371483_d89b0947f4_b.jpg" style="max-width: 264px;" alt="banants">
-					</a>
+	<div class="inner_content stadion">
+		<div class="stadion_page">
+			<div class="stadion_info clearfix">
+				<div class="stadion_info_wrapper">
+					<h3><strong><a href="#">Ենթակառուցվածք</a></strong></h3>
+					<div class="stadion_photos_wrapper clearfix">
+						<span>
+							«Բանանցի» մարզադաշտը տեղակայված է Երևանի Մալաթիա-Սեբաստիա վարչական շրջանում՝ Ջիվանու 2 հասցեում:
+							Այն տեղակայված է ակումբի մարզաբազայում և տեղավորում է 4860 հանդիսական:
+							Զուտ ֆուտբոլային մարզադաշտում տրիբունաները տեղակայված են մարզադաշտի անմիջական հարևանությամբ, ինչը
+							հնարավորություն է տալիս երկրպագուներին առավելագույն լավ կերպով տեսնել խաղադաշտը և զգալ հանդիպման
+							մթնոլորտը:
+							Մրզադաշտի տրիբունաներից մեկն ունի ծածկ: Մարզադաշտն ունի բարձր որակի խոտածածկ և ժամանակակից
+							լուսատախտակ:
+						</span>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/001.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/001.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/002.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/002.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/010.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/010.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/011.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/011.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/012.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/012.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/023.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/023.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/014.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/014.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/015.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/015.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/017.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/017.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/018.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/018.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/020.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/020.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/021.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/021.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/022.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/022.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/1606353_915634365156257_2740259977770882815_o.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/1606353_915634365156257_2740259977770882815_o.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/11182790_915634361822924_7429852942942243148_o.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/11182790_915634361822924_7429852942942243148_o.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/IMG_9054.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/IMG_9054.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/IMG_9057.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/IMG_9057.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/001.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/001.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/004.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/004.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/005.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/005.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/006.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/006.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/007.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/007.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/008.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/008.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/009.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/009.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/012.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/012.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/013.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/013.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/015.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/015.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/016.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/016.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/019.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/019.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion">
+								<a class="fancybox" title="slideshow_images" href="/uploads/images/stadiums/new/020.jpg" rel="gallary_s">
+									<img class="image" src="/uploads/images/stadiums/new/020.jpg" alt="Banants Stadium" />
+								</a>
+							</div>
+						</div>
+					</div>
 				</div>
-				<p>Հայաստանի առաջնության առաջին խմբի 23-րդ տուրի խաղում գոլազուրկ ոչ-ոքի գրանցվեց «Բանանցի» և «Փյունիկի» փոխարինող թիմերի մրցավեճում:</p>
-				<p>«Բանանցի» մարզադաշտում կայացած հանդիպումն անհաջող մեկնարկ ունեցավ մեր թիմի համար: Արդեն 20-րդ րոպեին «Բանանցը» հայտնվեց հետապնդողի դերում: Սակայն խաղակեսի ավարտից երկու րոպե առաջ Աղավարդ Պետրոսյանի խփած գնդակի արդյունքում թիմերն ընդմիջման գնացին հավասար հաշվի պայմաններում: «Բանանցի» պաշտպանը գոլի հեղինակ դարձավ հեռահար հարվածի արդյունքում:</p>
-				<p>Երկրորդ կեսում «Բանանցը» առաջ անցավ հաշվի մեջ: Գրիգոր Աղեկյանը մրցակցի դարպասապահի դեմ մեն-մենակ դուրս գալուց հետո բաց չթողեց իր հնարավորությունը և «Բանանցն» առաջ անցավ հաշվի մեջ: Թվում էր, թե «Բանանցը» կամային հաղթանակ կտանի, սակայն խաղավարտից հինգ րոպե առաջ հետևեց հեռահար հարված «Բանանցի» դարպասին: Սուրեն Ալոյանի հետ մղած գնդակին առաջինը հասավ փյունիկցի Էրիկ Պետրոսյանը և հավասարեցրեց հաշիվը:</p>
-				<p>«Բանանց-2»-ը 23 խաղում վաստակել է 38 միավոր և գտնվում է երրորդ հորիզոնականում:</p>
-				<p>-----------------------</p>
-				<p>25.04.2016, Հայաստանի առաջնություն, Առաջին խումբ</p>
-				<p>«Բանանց-2» - «Փյունիկ-2» 2:2</p>
-				<p>Գոլերը՝ Աղավարդ Պետրոսյան 43, Գրիգոր Աղեկյան 72 -  Արամ Ադամյան 20, Էրիկ Պետրոսյան 85</p>
-				<p>«Բանանց-2» - Ալբերտ Օհանյան (Սուրեն Ալոյան 46), Հակոբ Համբարձումյան, Աղավարդ Պետրոսյան, Գևորգ Խուլոյան, Արթուր Խաչատրյան, Ժիրայր Մարգարյան, Անդրեյ Շահգելդյան, Վլադիմիր Բաբայան (Գրիգոր Աղեկյան 61), Էմիլ Եղիազարյան (Ստեփան Հարությունյան 69), Էդգար Մովսիսյան (Լևոն Գևորգյան 84), Հովհաննես Իլանգյոզյան (Արարատ Եգանյան 78):</p>
-				<p>«Փյունիկ-2» - Գոռ Մանուկյան, Դավիթ Տերտերյան, Արմեն Խարբության, Կարեն Հարությունյան, Սամվել Խաչիկյան, Վահագն Հայրապետյան (Հովհաննես Նազարյան 87), Նորիկ Մկրտչյան (Վահե Մուրադյան 78), Արամ Ադամյան (Հովհաննես Հարությունյան 70), Հովհաննես Փանոսյան (Արամ Մովսիսյան 46), Էրիկ Վարդանյան (Սամվել Սպերցյան 60), Վիգեն Բեգոյան (Էրիկ Պետրոսյան 46):</p>
-				<p>Զգուշացումներ - Գևորգ Խուլոյան 53 - Էրիկ Վարդանյան 40, Դավիթ Տերտերյան 73, Արամ Մովսիսյան 90+3</p>
 			</div>
 		</div>
 	</div>

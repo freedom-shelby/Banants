@@ -34,6 +34,8 @@ use Exception;
 
 class Players extends Back
 {
+    const IMAGE_PATH = 'uploads/images/players';
+
     /**
      * Добавления материалов
      */
@@ -52,7 +54,7 @@ class Players extends Back
                 // Транзакция для Записание данных в базу
                 Capsule::connection()->transaction(function () use ($data, $id) {
                     // Загрузка картинки
-                    $file = new UploadFile('image', new FileSystem('uploads/images/players')); // todo: Avelacnel tmi annun@
+                    $file = new UploadFile('image', new FileSystem(static::IMAGE_PATH)); // todo: Avelacnel tmi annun@
 
                     // Optionally you can rename the file on upload
                     $file->setName(uniqid());
@@ -70,7 +72,7 @@ class Players extends Back
                     try {
                         // Success!
                         $file->upload();
-                        $image = $file->getNameWithExtension();
+                        $image = '/' . static::IMAGE_PATH . '/' . $file->getNameWithExtension();
                     } catch (Exception $e) {
                         // Fail!
                         Message::instance()->warning($file->getErrors());

@@ -3485,9 +3485,21 @@ div.news_list h3 {
 
 .player_wrapper img{
     margin-right: 0;
+    max-height: 140px;
 }
 
 .team_item_images.pictures_wrapper .player_wrapper{
+    background-image: url("../images/player_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.manager_wrapper img{
+    margin-right: 0;
+    max-height: 140px;
+}
+
+.team_item_images.pictures_wrapper .manager_wrapper{
     background-image: url("../images/player_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;

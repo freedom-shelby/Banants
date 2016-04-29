@@ -1,66 +1,34 @@
 <div class="inner_content_wrapper">
-	<div class="inner_content clearfix">
-		<div class="team_container clearfix">
-			<div class="team_wrapper_top">&nbsp;</div>
-			<!-- team_wrapper_top -->
-			<div class="team_wrapper_body clearfix"><!--				<div class="photo_wrapper" style="width: 265px;">--> <!--
-				<a class="fancybox" href="/uploads/images/academy_personal/Alvard_Hambardzumyan.jpg" title="slideshow_images" rel="gallary_p">--> <!--
-	<img class="image" src="/uploads/images/academy_personal/Alvard_Hambardzumyan.jpg" alt="banants">--> <!--
-	</a>--> <!--/div>-->
-				<div class="team_wrapper">
-					<h3>U - 17</h3>
-					<div>
-						<div class="photo_wrapper" style="width: 313px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_1.html" rel="gallary_p">
-								<img style="width: 313px;" src="/uploads/images/players/U-17/buferizacia.jpg" alt="team1_photo" />
-							</a>
-						</div>
-					</div>
+	<div class="inner_content article">
+		<div style="min-height: 173px;">
+			<div>
+				<h1>Ստեփան Ղազարյան. Ամեն ինչ անելու ենք, որ «Բանանցը» հիշվի ոչ թե որպես ֆինալիստ, այլ` գավաթակիր</h1>
+				<div class="photo_wrapper" style="width: 265px;">
+					<a class="fancybox" title="Спорт Кафе" href="/uploads/images/news_4/stepan.jpg" rel="gallary_p">
+						<img class="image" style="max-width: 264px;" src="/uploads/images/news_4/stepan.jpg" alt="banants" />
+					</a>
 				</div>
-				<div class="team_wrapper">
-					<h3>U - 16</h3>
-					<div>
-						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_2.html" rel="gallary_p">
-								<img style="width: 299px;" src="/uploads/images/players/U-16/buffer/u16.jpg" alt="team1_photo" />
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="team_wrapper">
-					<h3>U - 15</h3>
-					<div>
-						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_3.html" rel="gallary_p">
-								<img style="width: 299px;" src="/uploads/images/players/U-15/buffer/025.jpg" alt="team1_photo" />
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="team_wrapper">
-					<h3>U - 14</h3>
-					<div>
-						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_4.html" rel="gallary_p">
-								<img style="width: 450px;" src="/uploads/images/players/U-14/buffer/IMG_2043.JPG" alt="team1_photo" />
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="team_wrapper">
-					<h3>U - 13-2</h3>
-					<div>
-						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_5.html" rel="gallary_p">
-								<img style="width: 299px;" src="/uploads/images/players/U-13-2/IMG_0491.JPG" alt="team1_photo" />
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="team_wrapper">
-					<h3>U - 13</h3>
-					<div>
-						<div class="photo_wrapper" style="width: 265px;"><a class="fancybox" title="slideshow_images" href="/academy_squad_6.html" rel="gallary_p">
-								<img style="width: 313px;" src="/uploads/images/players/U-13/buffer/IMG_0370.jpg" alt="team1_photo" />
-							</a>
-						</div>
-					</div>
-				</div>
+				<p>«Բանանցին» հաջողվեց ՀՀ Գավաթի կիսաեզրափակչի պատասխան խաղում ռևանշի հասնել «Ալաշկերտի» նկատմամբ և վեցամյա ընդմիջումից հետո իր պատմության մեջ 8-րդ անգամ եզրափակչի ուղեգիր նվաճել: Թիմի դարպասապահ Ստեփան Ղազարյանի համար ողջ մրցաշարի ամենալարված խաղը հենց դա էր: Եզրափակչի մրցակցի մասին խոսելիս` նա թվում է լավ կողմերը, բայց վստահություն հայտնում, որ հաղթողը իրենք են լինելու:</p>
+				<p>-«Բանանցի» համար ինչպիսի՞ն էր եզրափակիչ հասնելու ճանապարհը:</p>
+				<p>-Շատ բարդ ու դժվար, բայց միաժամանակ նաև ուրախալի, որովհետև սեփական հարկի տակ «Ալաշկերտից» կրած պարտությունից հետո կարողացանք թիմային ճիշտ աշխատանք տանելու շնորհիվ մրցակցի դաշտում առավելության հասնել և դուրս գալ եզրափակիչ:</p>
+				<p>-Գավաթի խաղարկությունում ամենալարված և դինամիկ հանդիպումը ո՞րն էր քեզ համար և ինչու՞:</p>
+				<p>-Կիսաեզրափակչի պատասխան հանդիպումը «Ալաշկերտի» դաշտում: Ամբողջ հանդիպումը շատ լարված անցավ, նույնիսկ վերջին րոպեներին հնարավոր էր հաղթանակը ձեռքից բաց թողնեինք, բայց փառք Աստծո, խաղը մեզ ձեռնտու հաշվով ավարտվեց:</p>
+				<p>-Ինչպիսի՞ն է «Միկան» որպես մրցակից, առհասարակ  ձեր թիմերի միջև դիմակայություններն ինչպե՞ս են անցնում, և ի՞նչ է պետք նրանց դեմ եզրափակչում հաջողության հասնելու համար:</p>
+				<p>-Ինձ համար «Միկան» լավ թիմ է: Որակյալ ֆուտբոլիստներ ունեն: Նրանց դեմ խաղերը շատ հետաքրքիր են ստացվում, քանի որ «Միկան» ևս սիրում է գնդակ պահել: Ինչպես յուրաքանչյուր խաղում, այնպես էլ այս եզրափակչում հաղթանակի հասնելու համար անհրաժեշտ է ցույց տալ մեծ նվիրվածություն և լավ խաղ:</p>
+				<p>-«Միկայի» կազմում մեծ թվով փոփոխություններ են կատարվել, հասցրե՞լ եք ամբողջովին ծանոթանալ ու պատկերացում կազմել թիմի խաղի վերաբերյալ:</p>
+				<p>-Որոշ չափով` այո: Նկատվում է, որ կազմակերպված թիմ է, փորձում են խաղալ երկրորդ համարով:</p>
+				<p>- Մինչ այժմ «Միկան» ու «Բանանցը» Գավաթի խաղարկության եզրափակիչներում հանդիպել են մեկ անգամ` 2003 թվականին և գավաթակիր դարձել է «Միկան»: Ի՞նչ կարելի է սպասել այս հանդիպումից:</p>
+				<p>-Ամեն ինչ անելու ենք, որ Հայաստանի Գավաթի պատմության մեջ 2016 թվականին «Բանանցը» նշվի ոչ թե եզրափակչի մասնակից, այլ` գավաթակիր:</p>
+				<p>-«Բանանցը» անկախ Հայաստանի առաջին գավաթակիրն է, սա ինչ-որ առումով կարևորո՞ւմ ես եզրափակչում:</p>
+				<p>-Դա շատ լավ է ու ես այն շատ եմ կարևորում: Պետք է ամեն ինչ անենք, որ Գավաթը նվաճելով` մենք ևս մեր ներդրումն ունենանք «Բանանցի» պատմության մեջ:</p>
+				<p>-Բացառությամբ նախորդ տարվա`«Միկան» միշտ հաղթել է Գավաթի եզրափակիչներում. այս վիճակագրական տվյալներին ուշադրություն դարձնո՞ւմ ես:</p>
+				<p>-Վիճակագրական տվյալներին հետևել չեմ սիրում, կենտրոնանում եմ միայն մեր թիմի խաղի վրա:</p>
+				<p>-Ընդհանրապես, եզրափակիչներում հաղթելու համար ի՞նչ է անհրաժեշտ, ո՞րն է ամենակարևոր նախապայմանը մեկ խաղից բաղկացած հանդիպումներում:</p>
+				<p>-Երկու անգամ խաղացել եմ եզրափակչում, բայց ցավոք, Գավաթը նվաճել չի հաջողվել: Այս հարցին կպատասխանեմ մայիսի 4-ին հաղթելուց հետո:</p>
+				<p>-Ձեր թիմի համար գավաթային մրցաշարն այս տարի շատ կարևոր է, դա չի՞ խանգարում առաջնության խաղերի վրա կենտրոնանալուն:</p>
+				<p>- Ոչ, որովհետև մենք այս պահին չենք մտածում եզրափակիչ խաղի մասին, դրա ժամանակը դեռ կգա: Յուրաքանչյուր մարզման ժամանակ ամենայն լրջությամբ պատրաստվում ենք մոտակա խաղին:</p>
+
+				<p>Ստելլա Բաբլոյան</p>
 			</div>
 		</div>
 	</div>

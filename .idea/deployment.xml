@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsTest" uploadOnCheckin="05f8481b-70d1-4559-a825-b457b4aafd5b">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsTest">
     <serverData>
       <paths name="Banants">
         <serverdata>
@@ -93,7 +93,6 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="BanantsDEMO" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

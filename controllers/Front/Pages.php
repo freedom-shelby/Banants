@@ -33,7 +33,7 @@ class Pages extends Front
 //        $slug = 'home';
 //        $this->_page->initFromSlug($slug);
 
-        $this->_page->setTitle('Оффициальный сайт FC Banants');
+        $this->_page->setTitle('Официальный сайт FC Banants');
 //        $this->_page->setContent('Тестовый контент');
 
 //        $model = ArticleModel::where('slug','=','home')->first();
@@ -58,7 +58,7 @@ class Pages extends Front
 //        $slug = 'home';
 //        $this->_page->initFromSlug($slug);
 
-        $this->_page->setTitle('Оффициальный сайт FC Banants');
+        $this->_page->setTitle('Официальный сайт FC Banants');
 //        $this->_page->setContent('Тестовый контент');
 
 //        $model = ArticleModel::where('slug','=','home')->first();

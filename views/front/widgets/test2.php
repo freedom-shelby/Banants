@@ -54,7 +54,7 @@ use Helpers\Uri;
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Xoakin')?> <?=__('Garsia')?></h3>
+                                <h3><?=__('Xoakin')?> <?=__('Garcia Herrera')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Physical trainer')?></h4>

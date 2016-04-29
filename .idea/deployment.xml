@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsDEMO" uploadOnCheckin="05f8481b-70d1-4559-a825-b457b4aafd5b">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsTest" uploadOnCheckin="05f8481b-70d1-4559-a825-b457b4aafd5b">
     <serverData>
       <paths name="Banants">
         <serverdata>
@@ -9,30 +9,16 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="BanantsDEMO">
+      <paths name="BanantsTest">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
-            <excludedPath path="/config/__database.php" />
-            <excludedPath path="/config/_database.php" />
-            <excludedPath path="/config/database.php" />
+            <excludedPath path="/config" />
             <excludedPath path="/HTML" />
             <excludedPath path="/localstorage" />
             <excludedPath path="/views/test" />
-            <excludedPath path="/media/libs" />
-            <excludedPath path="/media/assets/fancyapps-fancyBox-v2.1.5-0-ge2248f4" />
-            <excludedPath path="/vendor/doctrine" />
-            <excludedPath path="/vendor/illuminate" />
-            <excludedPath path="/vendor/nesbot" />
-            <excludedPath path="/vendor/baum" />
-            <excludedPath path="/vendor/symfony" />
-            <excludedPath path="/vendor/codeguy" />
-            <excludedPath path="/vendor/services" />
-            <excludedPath path="/vendor/fzaninotto" />
-            <excludedPath path="/vendor/danielstjules" />
-            <excludedPath path="/vendor/league" />
           </excludedPaths>
         </serverdata>
       </paths>
@@ -44,6 +30,13 @@
         </serverdata>
       </paths>
       <paths name="IVRProd">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="MailTest">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -64,6 +57,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="bullpay">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="israelsim">
         <serverdata>
           <mappings>
@@ -72,6 +72,13 @@
         </serverdata>
       </paths>
       <paths name="mzone2.0">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="regiscard">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

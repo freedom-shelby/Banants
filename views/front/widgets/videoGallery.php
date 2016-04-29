@@ -37,7 +37,7 @@
             <div class="content_slider_images content_slider_small_long_images">
                 <div class="videoimage_wrapper">
                     <a class="various fancybox.iframe" href="http://www.youtube.com/embed/hSl-DpHz8ZI?autoplay=1">
-                        <img class="image4" src="http://img.youtube.com/vi/hSl-DpHz8ZI/0.jpg" alt="content_slider_images" />
+                        <img class="image4" src="http://img.youtube.com/vi/aOX_gKDeSbU/0.jpg" alt="content_slider_images" />
                         <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                     </a>
                 </div>

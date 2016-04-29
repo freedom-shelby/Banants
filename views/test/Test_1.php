@@ -1,16 +1,12 @@
 <div class="inner_content_wrapper">
-	<div class="inner_content article">
-		<div style="min-height: 173px;">
+	<div class="inner_content">
+		<div class="team_wrapper">
 			<div>
-				<h1>Заработала новая версия официального сайта "Бананца"</h1>
-				<div class="photo_wrapper" style="width: 265px;">
-					<a class="fancybox" title="Спорт Кафе" href="/uploads/images/news_4/newsite.jpg" rel="gallary_p">
-						<img class="image" style="max-width: 264px;" src="/uploads/images/news_4/newsite.jpg" alt="banants" />
+				<div class="photo_wrapper" style="width: 100%;">
+					<a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-13/buffer/IMG_0370.jpg" rel="gallary_p">
+						<img style="width: 100%;" src="/uploads/images/players/U-13/buffer/IMG_0370.jpg" alt="team1_photo" />
 					</a>
 				</div>
-				<p>С 24-го апреля заработала новая версия официального сайта "Бананца". На сайте с новым дизайном болельщики смогут познакомиться с новостями клуба на армянском и русском языках, в будущем планируется запустить и английскую версию.</p>
-				<p>В ближайшее время сайт предоставит возможность, помимо обычных новостей в виде текстов, фото, видео, также  познакомиться с подробной статистикой футболистов и отдельными новостями Академии "Бананца".</p>
-				<p>Сайт еще находится в стадии разработки, в ближайшем будущем будут работать все функции.</p>
 			</div>
 		</div>
 	</div>

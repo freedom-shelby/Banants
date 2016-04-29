@@ -23,6 +23,16 @@
             <excludedPath path="/views/test" />
             <excludedPath path="/media/libs" />
             <excludedPath path="/media/assets/fancyapps-fancyBox-v2.1.5-0-ge2248f4" />
+            <excludedPath path="/vendor/doctrine" />
+            <excludedPath path="/vendor/illuminate" />
+            <excludedPath path="/vendor/nesbot" />
+            <excludedPath path="/vendor/baum" />
+            <excludedPath path="/vendor/symfony" />
+            <excludedPath path="/vendor/codeguy" />
+            <excludedPath path="/vendor/services" />
+            <excludedPath path="/vendor/fzaninotto" />
+            <excludedPath path="/vendor/danielstjules" />
+            <excludedPath path="/vendor/league" />
           </excludedPaths>
         </serverdata>
       </paths>

@@ -22,109 +22,117 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/banants_2/Arsen_Hambaryan.png" alt="coach1" />
+                                    <img src="/uploads/images/Coaches/banants_2/Artur_Voskanyan.png" alt="player" />
                                 </div>
-                            </div><!-- team_item_images -->
+                            </div>
                             <div class="team_item_title">
-                                <h3><?=('Arsen')?> <?=__('Hambaryan')?></h3>
-                            </div><!-- team_item_title -->
+                                <h3><?=__('Artur')?> <?=__('Voskanyan')?></h3>
+                            </div>
                             <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
+                                <h4><?=__('Head coach')?></h4>
+                            </div>
+                        </div>
                         <div class="team_item">
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
                                     <img src="/uploads/images/Coaches/banants_2/Artur_Hovhannisyan.png" alt="player" />
                                 </div>
-                            </div><!-- team_item_images -->
+                            </div>
                             <div class="team_item_title">
-                                <h3><?=('Artur')?> <?=__('Hovhannisyan')?></h3>
-                            </div><!-- team_item_title -->
+                                <h3><?=__('Artur')?> <?=__('Hovhannisyan')?></h3>
+                            </div>
                             <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/banants_2/Artur_Voskanyan.png" alt="player" />
-                                </div>
-                            </div><!-- team_item_images -->
-                            <div class="team_item_title">
-                                <h3><?=('Artur')?> <?=__('Voskanyan')?></h3>
-                            </div><!-- team_item_title -->
-                            <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/banants_2/Hovhannes_Gevorgyan.png" alt="player" />
-                                </div>
-                            </div><!-- team_item_images -->
-                            <div class="team_item_title">
-                                <h3><?=('Hovhannes')?> <?=__('Gevorgyan')?></h3>
-                            </div><!-- team_item_title -->
-                            <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/banants_2/Karen_Stepanyan.png" alt="player" />
-                                </div>
-                            </div><!-- team_item_images -->
-                            <div class="team_item_title">
-                                <h3><?=('Karen')?> <?=__('Stepanyan')?></h3>
-                            </div><!-- team_item_title -->
-                            <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/banants_2/Vilyam_gevorgyan.png" alt="player" />
-                                </div>
-                            </div><!-- team_item_images -->
-                            <div class="team_item_title">
-                                <h3><?=('Vilyam')?> <?=__('Gevorgyan')?></h3>
-                            </div><!-- team_item_title -->
-                            <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/banants_2/Vladimir_Vardanyan.png" alt="player" />
-                                </div>
-                            </div><!-- team_item_images -->
-                            <div class="team_item_title">
-                                <h3><?=('Vladimir')?> <?=__('Vardanyan')?></h3>
-                            </div><!-- team_item_title -->
-                            <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
+                                <h4><?=__('Coach')?></h4>
+                            </div>
+                        </div>
                         <div class="team_item">
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
                                 <div class="manager_wrapper">
                                     <img src="/uploads/images/Coaches/banants_2/Xoakin_Garsia.png" alt="player" />
                                 </div>
-                            </div><!-- team_item_images -->
+                            </div>
                             <div class="team_item_title">
-                                <h3><?=('Xoakin')?> <?=__('Garsia')?></h3>
-                            </div><!-- team_item_title -->
+                                <h3><?=__('Xoakin')?> <?=__('Garsia')?></h3>
+                            </div>
                             <div class="team_item_bottom">
-                            </div><!-- team_item_bottom -->
-                        </div><!-- team_item -->
-                    </div><!--item_tabs_list1-->
-                </div><!--item_tabs-->
-            </div><!-- team_wrapper_body -->
-        </div><!-- team_wrapper -->
-    </div>	<!--inner_content-->
+                                <h4><?=__('Physical trainer')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="/uploads/images/Coaches/banants_2/Vladimir_Vardanyan.png" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Vladimir')?> <?=__('Vardanyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Goalkeeper coach')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="/uploads/images/Coaches/banants_2/Karen_Stepanyan.png" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Karen')?> <?=__('Stepanyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Doctor')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="/uploads/images/Coaches/banants_2/Arsen_Hambaryan.png" alt="coach1" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Arsen')?> <?=__('Hambaryan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Doctor')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="/uploads/images/Coaches/banants_2/Hovhannes_Gevorgyan.png" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Hovhannes')?> <?=__('Gevorgyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Massage therapist')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="/uploads/images/Coaches/banants_2/Vilyam_gevorgyan.png" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Vilyam')?> <?=__('Gevorgyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Administrator')?></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

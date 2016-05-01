@@ -1767,6 +1767,10 @@ div.tournament_table .tournament_table_active a {
 	opacity: 0.8;
 }
 
+.leftbar_slider_images{
+    overflow: hidden;
+}
+
 .leftbar_images_slider img {
 	display: block;
 	margin: 0 auto;
@@ -1779,8 +1783,8 @@ div.tournament_table .tournament_table_active a {
 }
 
 .leftbar_slider_big_images .image1{
-	width: 278px;
-	height: 171px;
+    width: 100%;
+    min-height: 171px;
 }
 
 
@@ -1790,8 +1794,11 @@ div.tournament_table .tournament_table_active a {
 }
 
 .leftbar_slider_middle_images .image2{
-	width: 166px;
-	height: 170px;
+	/*width: 166px;*/
+	/*height: 170px;*/
+    width: 100%;
+    min-height: 111px;
+    margin-top: -4%;
 }
 
 .leftbar_slider_small_images {
@@ -1800,8 +1807,10 @@ div.tournament_table .tournament_table_active a {
 }
 
 .leftbar_slider_small_images .image3{
-	width: 108px;
-	height: 170px;
+	/*width: 108px;*/
+	/*height: 170px;*/
+    width: 100%;
+    min-height: 94px;
 }
 
 .leftbar_slider_middle_images2 {
@@ -2228,6 +2237,11 @@ div.news_list h3 {
 .content_slider_images {
 	margin-bottom: 3px;
 	margin-left: 1px;
+    overflow: hidden;
+}
+
+.content_slider_images .video-images{
+    width: auto;
 }
 
 .content_slider_images img {
@@ -2251,8 +2265,10 @@ div.news_list h3 {
 }
 
 .content_slider_middle_images .videoimage_wrapper .image1{  /*--------04.04.2016------------*/
-	width: 231px;
+	/*width: 231px;*/
 	height: 145px;
+    width: auto;
+    margin-left: -4%;
 }
 
 .content_slider_middle_images2 {
@@ -2262,9 +2278,10 @@ div.news_list h3 {
 }
 
 .content_slider_middle_images2 .videoimage_wrapper .image2{ /*--------04.04.2016------------*/
-	width: 231px;
-	width: 192px;
-	height: 145px;
+	/*width: 192px;*/
+    height: 145px;
+    width: auto;
+    margin-left: -20%;
 }
 
 .content_slider_big_images {
@@ -2274,8 +2291,10 @@ div.news_list h3 {
 }
 
 .content_slider_big_images .videoimage_wrapper .image3{  /*--------04.04.2016------------*/
-	width: 296px;
-	height: 225px;
+	/*width: 296px;*/
+	/*height: 225px;*/
+    width: 100%;
+    height: 163px;
 }
 
 .content_slider_small_long_images {
@@ -2285,15 +2304,19 @@ div.news_list h3 {
 }
 
 .content_slider_small_long_images .videoimage_wrapper .image4{   /*--------04.04.2016------------*/
-	width: 296px;
-	width: 128px;
-	height: 225px;
+	/*width: 128px;*/
+	/*height: 225px;*/
+    margin-left: -50%;
+    width: auto;
+    height: 163px;
 }
 
 .content_slider_small_images {
 	height: 69px;
 	float: left;
 }
+
+
 
 .small_images1{
 	width: 108px;

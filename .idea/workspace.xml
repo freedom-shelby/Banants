@@ -2,128 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Arsen_Hambaryan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/572082d816ba1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b100804c9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b17ac56a0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b1c913c2e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b2140b0be.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b266f068c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b2a58a758.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b5ea7674f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b62ae74e2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b6a30c4df.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b6db34656.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b73f5e240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b79702f8e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b7c3ea559.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b7ef96b3b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b82456ca2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b88b72755.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b9518bf9d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b98b00be6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b9b062280.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721b9f157f88.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721ba194df3f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721bb8bcf00f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721bbd65c39e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721bc18f41ba.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721bc636fe9a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721bc9830f01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721bcdbb97b7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721bddb5d477.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/5721be23ef68d.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/Arial-BoldMT.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/Arial-BoldMT.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/Arial-BoldMT.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/Arial-BoldMT.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/Arial-BoldMT.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/Arial-BoldMT.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SARM-B.TTF" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SARM-B.TTF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI-Bold.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI-Bold.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI-Bold.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI-Bold.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI-Bold.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/SegoeUI.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/icomoon.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/icomoon.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/icomoon.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/segoeui_0.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/segoeui_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/segoeuib_0.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/segoeuib_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/segoeuii_0.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/arm/segoeuii_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Arial-BoldMT.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Arial-BoldMT.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Arial-BoldMT.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Arial-BoldMT.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Arial-BoldMT.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Arial-BoldMT.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Impact.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Impact.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Impact.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Impact.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Impact.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/Impact.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SARM-B.TTF" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SARM-B.TTF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SegoeUI.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SegoeUI.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SegoeUI.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SegoeUI.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SegoeUI.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/SegoeUI.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/icomoon.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/icomoon.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/icomoon.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/impact_0.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/impact_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui-webfont.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui-webfont.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui-webfont.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui_0.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeui_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeuii_0.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/segoeuii_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/seguisb_0.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/seguisb_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/icomoon.eot" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/icomoon.ttf" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/icomoon.woff" afterPath="$PROJECT_DIR$/HTML/Banants_arm/fonts/ru/transfonter.org-20160328-111051/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/arm/SARM-B.TTF" afterPath="$PROJECT_DIR$/HTML/fonts/arm/SARM-B.TTF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/arm/SegoeUI-Bold.eot" afterPath="$PROJECT_DIR$/HTML/fonts/arm/SegoeUI-Bold.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/arm/SegoeUI-Bold.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/arm/SegoeUI-Bold.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/arm/SegoeUI-Bold.woff" afterPath="$PROJECT_DIR$/HTML/fonts/arm/SegoeUI-Bold.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/arm/segoeui_0.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/arm/segoeui_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/arm/segoeuib_0.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/arm/segoeuib_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/arm/segoeuii_0.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/arm/segoeuii_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/Arial-BoldMT.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/Arial-BoldMT.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/Arial-BoldMT.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/Arial-BoldMT.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/Arial-BoldMT.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/Arial-BoldMT.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/Impact.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/Impact.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/Impact.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/Impact.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/Impact.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/Impact.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/SARM-B.TTF" afterPath="$PROJECT_DIR$/HTML/fonts/ru/SARM-B.TTF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/SegoeUI.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/SegoeUI.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/SegoeUI.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/SegoeUI.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/SegoeUI.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/SegoeUI.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/icomoon.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/icomoon.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/icomoon.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/impact_0.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/impact_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/segoeui-webfont.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/segoeui-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/segoeui-webfont.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/segoeui-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/segoeui-webfont.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/segoeui-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/segoeui_0.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/segoeui_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/segoeuii_0.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/segoeuii_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/seguisb_0.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/seguisb_0.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/SegoeUI_1.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/icomoon.eot" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/icomoon.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/icomoon.ttf" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/icomoon.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/icomoon.woff" afterPath="$PROJECT_DIR$/HTML/fonts/ru/transfonter.org-20160328-111051/icomoon.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/images/bm_dialog_photo.jpg" afterPath="$PROJECT_DIR$/HTML/images/bm_dialog_photo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/images/body-bg.jpg" afterPath="$PROJECT_DIR$/HTML/images/body-bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/images/homePa_ru.jpg" afterPath="$PROJECT_DIR$/HTML/images/homePa_ru.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Arsen Mirzakhanyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Samvel Harutyunyan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/players/U-14/Vahe Ghukasyan.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back.php" afterPath="$PROJECT_DIR$/controllers/Back.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/test1.php" afterPath="$PROJECT_DIR$/views/front/widgets/test1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/test2.php" afterPath="$PROJECT_DIR$/views/front/widgets/test2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/css/style.css" afterPath="$PROJECT_DIR$/media/assets/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/back/css/custom/back.style.css" afterPath="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/videoGallery.php" afterPath="$PROJECT_DIR$/views/front/widgets/videoGallery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_1.php" afterPath="$PROJECT_DIR$/views/test/Test_1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_2.php" afterPath="$PROJECT_DIR$/views/test/Test_2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_3.php" afterPath="$PROJECT_DIR$/views/test/Test_3.php" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -153,19 +41,31 @@
       <file leaf-file-name="Test_1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="63" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/test/Test_2.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.023876404">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.41135573">
+              <caret line="1812" column="21" selection-start-line="1812" selection-start-column="21" selection-end-line="1812" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="videoGallery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/front/widgets/videoGallery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.769231">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="48" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,11 +122,12 @@
       </GitPushTagMode>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/test/quiz/result.php" />
-        <option value="$PROJECT_DIR$/views/test/quiz/test.php" />
         <option value="$PROJECT_DIR$/models/QuizAnswerModel.php" />
         <option value="$PROJECT_DIR$/models/QuizResponsesModel.php" />
         <option value="$PROJECT_DIR$/models/UserModel.php" />
@@ -243,14 +144,12 @@
         <option value="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/topNews.php" />
         <option value="$PROJECT_DIR$/media/assets/js/custom/scripts.js" />
-        <option value="$PROJECT_DIR$/views/front/widgets/videoGallery.php" />
         <option value="$PROJECT_DIR$/views/front/home.php" />
         <option value="$PROJECT_DIR$/views/front/index.php" />
         <option value="$PROJECT_DIR$/views/back/index.php" />
         <option value="$PROJECT_DIR$/views/back/entities/list.php" />
         <option value="$PROJECT_DIR$/controllers/Back/Teams.php" />
         <option value="$PROJECT_DIR$/views/back/team/list.php" />
-        <option value="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
         <option value="$PROJECT_DIR$/models/PhotoModel.php" />
         <option value="$PROJECT_DIR$/system/Helpers/Uri.php" />
         <option value="$PROJECT_DIR$/routes/back.php" />
@@ -269,13 +168,17 @@
         <option value="$PROJECT_DIR$/app/Football/Team.php" />
         <option value="$PROJECT_DIR$/app/Widgets/Widget/Test1.php" />
         <option value="$PROJECT_DIR$/app/Widgets/Widget/Test2.php" />
-        <option value="$PROJECT_DIR$/media/assets/css/style.css" />
         <option value="$PROJECT_DIR$/views/test/sql/test.php" />
-        <option value="$PROJECT_DIR$/views/front/widgets/test2.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/test1.php" />
         <option value="$PROJECT_DIR$/controllers/Back.php" />
-        <option value="$PROJECT_DIR$/views/test/Test_1.php" />
+        <option value="$PROJECT_DIR$/controllers/Front/Pages.php" />
+        <option value="$PROJECT_DIR$/views/front/widgets/test2.php" />
+        <option value="$PROJECT_DIR$/views/test/Test_3.php" />
         <option value="$PROJECT_DIR$/views/test/Test_2.php" />
+        <option value="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
+        <option value="$PROJECT_DIR$/views/front/widgets/videoGallery.php" />
+        <option value="$PROJECT_DIR$/views/test/Test_1.php" />
+        <option value="$PROJECT_DIR$/media/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -313,8 +216,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -420,6 +323,34 @@
       <pane id="Scratches">
         <subPane />
       </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -453,28 +384,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,11 +451,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,15 +465,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="players" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,21 +483,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -611,28 +506,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Front" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Back" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -728,34 +601,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Tests" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -768,7 +613,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../regiscard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IVR" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="nodejs_interpreter_path" value="" />
@@ -797,19 +642,19 @@
     </excluded-roots>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OpenServer\domains\Banants\uploads\images\Coaches\premier" />
-      <recent name="D:\OpenServer\domains\Banants\uploads\images\Coaches" />
-      <recent name="D:\OpenServer\domains\Banants\views\front\widgets" />
-      <recent name="D:\OpenServer\domains\Banants\app\Widgets\Widget" />
-      <recent name="D:\OpenServer\domains\Banants\models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\OpenServer\domains\Banants\controllers\Back" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-17\personal" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-15" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-16" />
       <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-17" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\players\U-12" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\news_4" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\banners" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\sponsores" />
+      <recent name="D:\OpenServer\domains\Banants\uploads\images\Coaches\premier" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.ContentModel.php">
@@ -878,24 +723,6 @@
       <created>1450187047253</created>
       <option name="number" value="Default" />
       <updated>1450187047253</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Pages Widgets Integretion, bug fixed">
-      <created>1456499771028</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1456499771028</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Pages Widgets Integretion, bug fixed">
-      <created>1456501097439</created>
-      <option name="number" value="00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1456501097439</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Pages Widgets Integretion, bug fixed">
-      <created>1456619893710</created>
-      <option name="number" value="00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1456619893710</updated>
     </task>
     <task id="LOCAL-00045" summary="Удалены папка Menus и все файлы в ней&#10;Переименованна папка ресурсов&#10;Добавленна событийная модель, тепер у нас есть события&#10;Изменён клас Router, добавлены события на срабатывании роута, удален вывод 404 в роуте&#10;Создан глобальный обработчик роута, в нём выводится 404 ошибка&#10;Добавленны конфиги для темы&#10;Изменён вывод HTML в теме (во view index.php)&#10;Изменен класс Theme&#10;Удалён класс Page и создан новый класс Page отвечающий за весь документ&#10;Добавлен класс HTML из Kohana фреймворка и не много изменён&#10;">
       <created>1456796824661</created>
@@ -1173,7 +1000,25 @@
       <option name="project" value="LOCAL" />
       <updated>1461830608273</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Интеграция Меню в Админку">
+      <created>1461911396333</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1461911396333</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Интеграция Меню в Админку">
+      <created>1461918032719</created>
+      <option name="number" value="00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1461918032719</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Интеграция Меню в Админку">
+      <created>1461922922916</created>
+      <option name="number" value="00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1461922922916</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1186,28 +1031,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15375" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.48239437" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31338027" sideWeight="0.503125" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29915434" sideWeight="0.4975" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23995772" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5976214" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.151875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15364583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15625" sideWeight="0.48239437" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.151875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19125" sideWeight="0.51760566" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="92" y="92" width="1416" height="676" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29929578" sideWeight="0.4975" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24020888" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33550915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3004695" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
@@ -1400,42 +1245,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/back/css/custom/back.style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9044944">
-          <caret line="111" column="9" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/MenuModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/EntityModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38345864">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Lang/Lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19172932">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/back/menus/add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.575188">
@@ -1561,13 +1370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/ManagerModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/TeamModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.692307">
@@ -1582,39 +1384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Widgets/Widget/Managers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.653846">
-          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Football/Team.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.615385">
           <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31954888">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3503" column="33" selection-start-line="3503" selection-start-column="33" selection-end-line="3503" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/test/sql/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6378446">
-          <caret line="310" column="31" selection-start-line="310" selection-start-column="31" selection-end-line="310" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1660,65 +1433,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Football/Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/managers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023876404">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/test1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023876404">
-          <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/front/widgets/test2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023876404">
-          <caret line="99" column="34" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Back/Players.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023876404">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/test/Test_3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uploads/images/players/U-14/buffer/IMG_2043.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/topVideo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Lang/Lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36210763">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4955157">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Front/Pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73318386">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/sponsores/28690_8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/sponsores/28690_7.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5448431">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/test1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33256084">
+          <caret line="175" column="54" selection-start-line="175" selection-start-column="53" selection-end-line="175" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Back/Players.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76793724">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/U-13/IMG_0370.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/U-13-2/IMG_0491.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/U-12/IMG_0445.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/U-14/IMG_2047.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/U-14/IMG_2064.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uploads/images/players/U-14/IMG_2061.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test/Test_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32399103">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/test/Test_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023876404">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.20964126">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/back/css/custom/back.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55269057">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/front/widgets/videoGallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.769231">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41135573">
+          <caret line="1812" column="21" selection-start-line="1812" selection-start-column="21" selection-end-line="1812" selection-end-column="21" />
           <folding />
         </state>
       </provider>

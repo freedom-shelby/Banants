@@ -12,8 +12,8 @@
         <div class="content_middle_slider_item">
             <div class="content_slider_images content_slider_middle_images">
                 <div class="videoimage_wrapper">
-                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/SAuBrEsitUs?autoplay=1">
-                        <img class="video-images image1" src="http://img.youtube.com/vi/SAuBrEsitUs/mqdefault.jpg" alt="content_slider_middle_images1">
+                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yKQS5WpBnhk?autoplay=1">
+                        <img class="video-images image1" src="http://img.youtube.com/vi/yKQS5WpBnhk/mqdefault.jpg" alt="content_slider_middle_images1">
                         <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                     </a>
                 </div>
@@ -46,8 +46,8 @@
         <div class="content_middle_slider_item">
             <div class="content_slider_images content_slider_middle_images">
                 <div class="videoimage_wrapper">
-                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/eHv-2ofB78A?autoplay=1">
-                        <img class="video-images image1" src="http://img.youtube.com/vi/eHv-2ofB78A/mqdefault.jpg" alt="content_slider_images" />
+                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/SAuBrEsitUs?autoplay=1">
+                        <img class="video-images image1" src="http://img.youtube.com/vi/SAuBrEsitUs/mqdefault.jpg" alt="content_slider_images" />
                         <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                     </a>
                 </div>

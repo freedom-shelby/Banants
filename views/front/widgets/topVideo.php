@@ -9,8 +9,8 @@
 
 <div class="video_wrapper">
     <div class="videoimage_wrapper">
-        <a class="various fancybox.iframe" href="https://www.youtube.com/embed/BfpHLX-6ww0?autoplay=1">
-            <img src="http://img.youtube.com/vi/BfpHLX-6ww0/0.jpg" alt="video_image">
+        <a class="various fancybox.iframe" href="https://www.youtube.com/embed/XKmFbX3cQIo?autoplay=1">
+            <img src="http://img.youtube.com/vi/XKmFbX3cQIo/mqdefault.jpg" alt="video_image">
             <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
         </a>
     </div>

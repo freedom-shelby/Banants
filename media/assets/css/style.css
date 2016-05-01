@@ -797,7 +797,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .header_right .banner_team1_text{
 	float: left;
-	margin: 21px -3px;
+	margin: 21px 10px;
 	line-height: 26px;
 }
 
@@ -947,7 +947,7 @@ h1, h2, h3, h4, h5, h5, h6 {
     float: left;
     font-weight: bold;
     text-align: center;
-    width: 65px;
+    width: 69px;
     line-height: 0.8;
     font-family: arial;
 }
@@ -1328,7 +1328,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .video_wrapper img:first-child{
     width: 236px;
-    height: 152px;
+    /*height: 152px;*/
 }
 
 .video_wrapper {

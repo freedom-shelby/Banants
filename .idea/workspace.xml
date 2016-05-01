@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="Интеграция Меню в Админку">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26458846880_8b99beec50_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26458848660_747c2b2346_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26458849600_eabe4afdf3_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26458851890_471cd70ec1_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26638355802_d4a2bb61f2_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26638356502_2248af0031_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26638357932_727db1e676_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/flickr_fc-alashkert-vs-fc-banants-2-1_72157665414277984/26665294911_58bfaef3eb_z.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news_5/TitoAlashkert.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news_5/alashkertbanants.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news_5/opros.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news_5/tito_interview.jpg" />
+    <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/css/style.css" afterPath="$PROJECT_DIR$/media/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/photoGallery.php" afterPath="$PROJECT_DIR$/views/front/widgets/photoGallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/topVideo.php" afterPath="$PROJECT_DIR$/views/front/widgets/topVideo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" afterPath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/videoGallery.php" afterPath="$PROJECT_DIR$/views/front/widgets/videoGallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_1.php" afterPath="$PROJECT_DIR$/views/test/Test_1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_2.php" afterPath="$PROJECT_DIR$/views/test/Test_2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/back/css/custom/back.style.css" afterPath="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,11 +41,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test_2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test/Test_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22049287">
-              <caret line="10" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
+            <state vertical-scroll-proportion="-5.1320753">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="back.style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/media/back/css/custom/back.style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76404494">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -176,7 +170,6 @@
         <option value="$PROJECT_DIR$/controllers/Back.php" />
         <option value="$PROJECT_DIR$/controllers/Front/Pages.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/test2.php" />
-        <option value="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
         <option value="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
         <option value="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
@@ -187,6 +180,7 @@
         <option value="$PROJECT_DIR$/views/test/Test_3.php" />
         <option value="$PROJECT_DIR$/views/test/Test_1.php" />
         <option value="$PROJECT_DIR$/views/test/Test_2.php" />
+        <option value="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
       </list>
     </option>
   </component>
@@ -222,8 +216,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1600" />
-    <option name="height" value="900" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -480,6 +476,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Banants" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="back" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -885,12 +939,6 @@
       <option name="number" value="Default" />
       <updated>1450187047253</updated>
     </task>
-    <task id="LOCAL-00045" summary="Удалены папка Menus и все файлы в ней&#10;Переименованна папка ресурсов&#10;Добавленна событийная модель, тепер у нас есть события&#10;Изменён клас Router, добавлены события на срабатывании роута, удален вывод 404 в роуте&#10;Создан глобальный обработчик роута, в нём выводится 404 ошибка&#10;Добавленны конфиги для темы&#10;Изменён вывод HTML в теме (во view index.php)&#10;Изменен класс Theme&#10;Удалён класс Page и создан новый класс Page отвечающий за весь документ&#10;Добавлен класс HTML из Kohana фреймворка и не много изменён&#10;">
-      <created>1456796824661</created>
-      <option name="number" value="00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1456796824661</updated>
-    </task>
     <task id="LOCAL-00046" summary="abc">
       <created>1456869958876</created>
       <option name="number" value="00046" />
@@ -1179,7 +1227,13 @@
       <option name="project" value="LOCAL" />
       <updated>1461922922916</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Интеграция Меню в Админку">
+      <created>1462087812236</created>
+      <option name="number" value="00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1462087812236</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1192,7 +1246,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="900" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780612" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1406,13 +1460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Lang/Lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19172932">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/back/menus/add.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.575188">
@@ -1750,8 +1797,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/test/Test_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22049287">
-          <caret line="10" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="6" />
+        <state vertical-scroll-proportion="-5.1320753">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/back/css/custom/back.style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76404494">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
           <folding />
         </state>
       </provider>

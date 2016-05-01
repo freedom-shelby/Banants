@@ -17,7 +17,6 @@
           <excludedPaths>
             <excludedPath path="/HTML" />
             <excludedPath path="/config" />
-            <excludedPath path="/uploads" />
             <excludedPath path="/vendor" />
             <excludedPath path="/views/test" />
             <excludedPath path="/localstorage" />

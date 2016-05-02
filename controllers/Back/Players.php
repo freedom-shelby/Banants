@@ -196,11 +196,13 @@ class Players extends Back
                         Message::instance()->warning($file->getErrors());
                     }
 
-                    $firstNameModel->updateOrCreate([
-                        'text' => $data['first_name'],
+                    $firstNameModel->updateOrCreate(
+                        ['id' => $firstNameModel->id,],
+                        ['text' => $data['first_name'],
                     ]);
-                    $lastNameModel->updateOrCreate([
-                        'text' => $data['last_name'],
+                    $lastNameModel->updateOrCreate(
+                        ['id' => $lastNameModel->id,],
+                        ['text' => $data['last_name'],
                     ]);
 
                     foreach ($data['content'] as $iso => $d) {
@@ -234,9 +236,9 @@ class Players extends Back
                         'last_name_id' => $lastNameModel->id,
                     ]);
                 });
-                Message::instance()->success('Menu Item was successfully saved');
+                Message::instance()->success('Player was successfully saved');
             } catch (Exception $e) {
-                Message::instance()->warning('Menu Item was don\'t saved');
+                Message::instance()->warning('Player was don\'t saved');
             }
         }
 

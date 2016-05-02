@@ -93,7 +93,7 @@ use Helpers\Uri;
                             <div>
                                 <div class="form-group col-sm-13">
                                     <label for="entity">Last Name</label>
-                                    <input type="text" value="<?=$item->firstName()?>" name="last_name" class="form-control" id="entity" placeholder="Primary Language" required>
+                                    <input type="text" value="<?=$item->lastName()?>" name="last_name" class="form-control" id="entity" placeholder="Primary Language" required>
                                 </div>
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist" id="last-name">

@@ -3,8 +3,8 @@
 		<div class="team_wrapper">
 			<div>
 				<div class="photo_wrapper" style="width: 100%;">
-					<a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-8-2/buffer/U-8-2.jpg" rel="gallary_p">
-						<img style="width: 100%;" src="/uploads/images/players/U-8-2/buffer/U-8-2.jpg" alt="team1_photo" />
+					<a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-8/buffer/U-8.jpg" rel="gallary_p">
+						<img style="width: 100%;" src="/uploads/images/players/U-8/buffer/U-8.jpg" alt="team1_photo" />
 					</a>
 				</div>
 			</div>

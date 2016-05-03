@@ -14,7 +14,7 @@
         <!--                            <h4>ГАНДЗАСАР</h4>-->
     </div>
     <div class="banner_team1_text">
-        <span>4 МАЙ</span>
+        <span>4 МАЯ</span>
         <span style="margin-top: 10px; display: block">в 19:00</span>
     </div>
     <div class="team2_logo">

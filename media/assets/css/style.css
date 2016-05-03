@@ -1199,6 +1199,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .home-anons .item img{
 	max-width: 800px;
+    min-height: 360px;
 }
 
 .home-anons .container_top_slideshow{

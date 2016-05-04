@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="Интеграция Меню в Админку">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news_6/copa.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/images/news_6/jasmin.jpg" />
+    <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back.php" afterPath="$PROJECT_DIR$/controllers/Back.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_1.php" afterPath="$PROJECT_DIR$/views/test/Test_1.php" />
     </list>
     <ignored path="Banants.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,21 +30,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test_1.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test_1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32262772">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state vertical-scroll-proportion="-5.1320753">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Back.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Back.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/Back.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.40589887">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -177,8 +174,8 @@
         <option value="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
         <option value="$PROJECT_DIR$/views/test/Test_2.php" />
         <option value="$PROJECT_DIR$/media/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/controllers/Back.php" />
         <option value="$PROJECT_DIR$/views/test/Test_1.php" />
+        <option value="$PROJECT_DIR$/controllers/Back.php" />
       </list>
     </option>
   </component>
@@ -473,78 +470,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news_6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Banants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -777,12 +702,6 @@
       <created>1450187047253</created>
       <option name="number" value="Default" />
       <updated>1450187047253</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Для язиков добавлён поля для добавление флага&#10;В переводе контента исправлен ошибка катории влиял на LangModel &#10;В системе добавился новий класс File каторий в основном работает как Helper для файлов&#10;По тестировани плагини для работий с файломи&#10;">
-      <created>1458064149671</created>
-      <option name="number" value="00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1458064149671</updated>
     </task>
     <task id="LOCAL-00055" summary="Изменеён база для галлериев и для меню&#10;Введени изменеия и в моделях">
       <created>1458147738899</created>
@@ -1072,7 +991,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462289636398</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Интеграция Меню в Админку">
+      <created>1462361570693</created>
+      <option name="number" value="00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1462361570693</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1603,14 +1528,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/Back.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/test/Test_3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.115385">
@@ -1629,8 +1546,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/test/Test_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32262772">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state vertical-scroll-proportion="-5.1320753">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Back.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40589887">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>

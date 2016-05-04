@@ -8,12 +8,18 @@
 namespace Back;
 restrictAccess();
 
+use App;
 
 class Back extends \Base{
 
     public function __construct(array $requestParams)
     {
-        if(\App::instance()->http()->getIpAddress() != '37.157.222.35' and \App::instance()->http()->getIpAddress() != '91.204.190.4' and \App::instance()->http()->getIpAddress() != '127.0.0.1' and \App::instance()->http()->getIpAddress() != '109.75.44.36' and \App::instance()->http()->getIpAddress() != '46.71.102.213' and \App::instance()->http()->getIpAddress() != '37.157.219.14') die('Error 404');
+//        if( App::instance()->http()->getIpAddress() != '127.0.0.1' and
+//            App::instance()->http()->getIpAddress() != '37.157.222.35' and
+//            App::instance()->http()->getIpAddress() != '91.204.190.4' and
+//            App::instance()->http()->getIpAddress() != '109.75.44.36' and
+//            App::instance()->http()->getIpAddress() != '46.71.102.213' and
+//            App::instance()->http()->getIpAddress() != '37.157.219.14') die('Error 404');
 
         parent::__construct($requestParams);
     }

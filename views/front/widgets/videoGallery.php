@@ -12,8 +12,8 @@
         <div class="content_middle_slider_item">
             <div class="content_slider_images content_slider_middle_images">
                 <div class="videoimage_wrapper">
-                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yKQS5WpBnhk?autoplay=1">
-                        <img class="video-images image1" src="http://img.youtube.com/vi/yKQS5WpBnhk/mqdefault.jpg" alt="content_slider_middle_images1">
+                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/50PQPI2v2MA?autoplay=1">
+                        <img class="video-images image1" src="http://img.youtube.com/vi/50PQPI2v2MA/mqdefault.jpg" alt="content_slider_middle_images1">
                         <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                     </a>
                 </div>
@@ -36,8 +36,8 @@
             </div>
             <div class="content_slider_images content_slider_small_long_images">
                 <div class="videoimage_wrapper">
-                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/aOX_gKDeSbU?autoplay=1">
-                        <img class="video-images image4" src="http://img.youtube.com/vi/aOX_gKDeSbU/mqdefault.jpg" alt="content_slider_images" />
+                    <a class="various fancybox.iframe" href="http://www.youtube.com/embed/yKQS5WpBnhk?autoplay=1">
+                        <img class="video-images image4" src="http://img.youtube.com/vi/yKQS5WpBnhk/mqdefault.jpg" alt="content_slider_images" />
                         <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
                     </a>
                 </div>

@@ -11,9 +11,9 @@
         <h2><?=__('BEST PLAYER')?></h2>
     </div>
     <div class="best_player_content">
-        <h3> <?=__('Vahagn')?> <?=__('Ayvazyan')?></h3>
+        <h3> <?=__('Atsamaz')?> <?=__('Buraev')?></h3>
         <div class="best_player_images_wrapper">
-            <img src="/uploads/tmp/VahagnAyvazyanWithFlag.png" alt="best_player" />
+            <img src="/uploads/tmp/AcamazWithRusFlag.png" alt="best_player" />
         </div>
         <div class="best_player_right">
             <div class="best_player_info">

@@ -11,9 +11,9 @@ use Helpers\Uri;
 
 <div class="news_wrapper">
     <div class="news_item clearfix">
-        <a href="<?=Uri::makeUriFromId('one_day_on_banants')?>">
+        <a href="<?=Uri::makeUriFromId('article_roman_about_cup')?>">
             <div class="news_item_images">
-                <img src="/uploads/images/news_3/3.jpg" alt="news_item_images" />
+                <img src="/uploads/images/news_6/romanasxabadze.jpg" alt="news_item_images" />
             </div><!-- news_item_images -->
             <div class="news_item_info">
                 <span>

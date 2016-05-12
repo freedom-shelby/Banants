@@ -1,16 +1,13 @@
 <div class="inner_content_wrapper">
-	<div class="inner_content article">
-		<div style="min-height: 173px;">
+	<div class="inner_content">
+		<div class="team_wrapper">
 			<div>
-				<h1>Այսօր` մայիսի 4-ին, 19:00-ին «Հանրապետական» մարզադաշտում «Բանանցն» ու «Միկան» կվիճարկեն Հայաստանի գավաթը` հայաստանյան առաջին եվրագավաթային ուղեգիրը:</h1>
-				<div class="photo_wrapper" style="width: 265px;">
-					<a class="fancybox" title="Бананц" href="/uploads/images/news_6/jasmin.jpg" rel="gallary_p">
-						<img class="image" style="max-width: 264px;" src="/uploads/images/news_6/jasmin.jpg" alt="banants" />
-					</a>
+				<div class="photo_wrapper" style="width: 100%;">
+					<!--					<a class="fancybox" title="slideshow_images" href="/uploads/images/players/U-8/buffer/U-8.jpg" rel="gallary_p">-->
+					<!--						<img style="width: 100%;" src="/uploads/images/players/U-8/buffer/U-8.jpg" alt="team1_photo" />-->
+					<!--					</a>-->
+					<img src="/Test2.html" alt="">
 				</div>
-				<p>«Բանանցի» մակեդոնացի պաշտպան Յասմին Մեցինովիչը «Ֆուտբոլ 365»-ի հետ զրույցում խոսել է սպասվելիք հակամարտության մասին.</p>
-				<p>«Հիմա ակումբում ամեն ինչ դեռ այնպես է, ինչպես ես էի ակնկալում, բայց որպեսզի այն ամբողջական դառնա, պետք է չորեքշաբթի օրը նվաճենք Գավաթը, որպեսզի խաղանք Եվրոպա լիգայում: Մեր հիմնական նպատակը դա է:</p>
-				<p>Որքան գիտեմ «Միկայում» հիմա շատ ռուս խաղացողներ կան, ու ես մի անգամ խաղացել եմ նրանց դեմ: Նրանք ագրեսիվ ու բաց ֆուտբոլ են խաղում, բայց կարծում եմ` մենք ավելի լավ թիմ ենք, սակայն դա պետք է չորեքշաբթի օրը ցույց տանք, որովհետև եզրափակիչը մի խաղից է բաղկացած. ամեն ինչ կարող է պատահել»:</p>
 			</div>
 		</div>
 	</div>

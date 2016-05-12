@@ -5,6 +5,8 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+//todo: Неактивен
 ?>
 <div class="content_top_right_info_blog_wrapper sponsors clearfix">
     <h3><b> <strong><?=__('Sponsors and partners')?></strong></b></h3>

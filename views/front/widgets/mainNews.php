@@ -8,6 +8,7 @@
 
 use Helpers\Uri;
 use Helpers\Strings;
+use Ivliev\Imagefly\Imagefly;
 
 //todo: Дату Матеряла вывадить при помоши Carbon -а
 //todo: Нужен функционал для сколко раз смотрели
@@ -23,7 +24,7 @@ use Helpers\Strings;
                     <div class="news_list clearfix">
                         <a href="<?=Uri::makeUriFromId($item->slug)?>">
                             <div class="news_list_images">
-                                <img src="<?=$item->defaultImage()->path?>" alt="news_list_images" />
+                                <img src="<?=Imagefly::imagePath($item->defaultImage()->path, 'w138-q52')?>" alt="news_list_images" />
                             </div><!-- news_list_images -->
                             <div class="news_list_info">
                                 <h3><?=$item->title?></h3>

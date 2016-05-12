@@ -14,6 +14,7 @@ restrictAccess();
  */
 Router::get(['/', 'as' => 'front.home'],'Front\Pages@getHome');
 Router::any(['/server/quiz', 'as' => 'front.server'],'Front\Server@anyQuizResponse');
+Router::get(['/image/{params}/{imagePath}','rules' => ['imagePath' => '[/\\a-z0-9_-]+', 'params' => '[a-z0-9-]+'], 'as' => 'imagefly'],'Ivliev\Imagefly\ImageflyController@getIndex');
 Router::get(['/{page?}','rules' => ['page' => '[a-z0-9_-]+'], 'as' => 'front.page'],'Front\Pages@getPage');
 
 
@@ -28,6 +29,9 @@ Router::get(['/{page?}','rules' => ['page' => '[a-z0-9_-]+'], 'as' => 'front.pag
  */
 
 Router::get(['/Test', 'as' => 'front.test'],'Front\Pages@getTest');
+Router::get(['/ImageTest/{imagePath}','rules' => ['imagePath' => '[/\\a-z0-9_-]+'], 'as' => 'front.test.image'],'Test\Imagefly@getImageTest');
+Router::get(['/ImageTest2', 'as' => 'front.image.2'],'Test\Imagefly@getTest2');
+Router::get(['/ImageTest3', 'as' => 'front.image.3'],'Test\Imagefly@getTest3');
 Router::any(['/TestLang', 'as' => 'test.lang'],'Test\I18nTest@anyLang');
 Router::any(['/Tests', 'as' => 'test.index'],'Test\I18nTest@anyIndex');
 Router::any(['/TestLangRoute', 'as' => 'test.langroute'],'Test\I18nTest@anyTestLangRoute');

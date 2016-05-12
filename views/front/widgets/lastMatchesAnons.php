@@ -5,13 +5,16 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+use Ivliev\Imagefly\Imagefly;
+
 ?>
 
 <div class="content_top_right_info_blog_wrapper last-match-anons clearfix">
     <div class="content_top_right_info_blog clearfix">
         <a href="/uploads/documents/last_match_anons/2016-04-23 Mika 0-0 Banants (17.04.2016).pdf" target="_blank">
             <div class="content_top_right_info_blog_images">
-                <img src="/uploads/images/last_matches_anons/29852.jpg" alt="content_top_right_info_blog_images" />
+                <img src="<?=Imagefly::imagePath('/uploads/images/last_matches_anons/29852.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
             </div><!-- content_top_right_info_blog_images -->
             <div class="content_top_right_info_blog_aside">
                 <h4><?=__('MIKA')?> - <?=__('BANANTS')?> 0:0</h4>
@@ -46,7 +49,7 @@
     <div class="content_top_right_info_blog clearfix">
         <a href="/uploads/documents/last_match_anons/2016-04-23_Alashkert_1-2_Banants_(12.04.2016).pdf" target="_blank">
             <div class="content_top_right_info_blog_images">
-                <img src="/media/assets/images/content_top_right_info_blog_images2.jpg" alt="content_top_right_info_blog_images" />
+                <img src="<?=Imagefly::imagePath('/media/assets/images/content_top_right_info_blog_images2.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
             </div><!-- content_top_right_info_blog_images -->
             <div class="content_top_right_info_blog_aside">
                 <h4><?=__('ALASHKERT')?> - <?=__('BANANTS')?> 1:2</h4>
@@ -81,7 +84,7 @@
     <div class="content_top_right_info_blog clearfix">
         <a href="/uploads/documents/last_match_anons/2016-04-23 Shirak 3-1 Banants (06.04.2016).pdf" target="_blank">
             <div class="content_top_right_info_blog_images">
-                <img src="/uploads/images/last_matches_anons/1gABfLO1euI.jpg" alt="content_top_right_info_blog_images" />
+                <img src="<?=Imagefly::imagePath('/uploads/images/last_matches_anons/1gABfLO1euI.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
             </div><!-- content_top_right_info_blog_images -->
             <div class="content_top_right_info_blog_aside">
                 <h4><?=__('SHIRAK')?> - <?=__('BANANTS')?> 3:1</h4>
@@ -116,7 +119,7 @@
     <div class="content_top_right_info_blog clearfix">
         <a href="/uploads/documents/last_match_anons/2016-04-23 Gandzasar 1-1 Banants (07.11.2015).pdf" target="_blank">
             <div class="content_top_right_info_blog_images">
-                <img src="/uploads/images/last_matches_anons/7ec5bb5cb1361b2751afd0629459cde6-w-thumb.jpg" alt="content_top_right_info_blog_images" />
+                <img src="<?=Imagefly::imagePath('/uploads/images/last_matches_anons/7ec5bb5cb1361b2751afd0629459cde6-w-thumb.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
             </div><!-- content_top_right_info_blog_images -->
             <div class="content_top_right_info_blog_aside">
                 <h4><?=__('GANDZASAR')?> - <?=__('BANANTS')?> 1:1</h4>

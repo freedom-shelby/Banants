@@ -7,7 +7,7 @@ restrictAccess();
  * Date: 11/19/2015
  * Time: 3:02 PM
  */
-class Base extends \Controller
+class Base extends Controller
 {
     public $settings;
     public $langs;

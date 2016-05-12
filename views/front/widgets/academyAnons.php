@@ -7,12 +7,14 @@
  */
 
 use \Helpers\Uri;
+use Ivliev\Imagefly\Imagefly;
+
 ?>
 
 <div class="container_top_slideshow content_middle_right_slideshow clearfix">
     <div class="item">
         <a href="<?=Uri::makeUriFromId('academy_squads')?>" title="slideshow_images" rel="gallary_d">
-            <img src="/uploads/images/academy/capello2.jpg" alt="container_top_slideshow_images" />
+            <img src="<?=Imagefly::imagePath('/uploads/images/academy/capello2.jpg', 'w521-q52')?>" alt="container_top_slideshow_images" />
             <div class="container_top_slider_text">
                 <div class="container_top_slider_text_inner">
                     Новости Академии <br>

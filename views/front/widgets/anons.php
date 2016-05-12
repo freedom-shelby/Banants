@@ -8,6 +8,7 @@
  */
 
 use Helpers\Uri;
+use Ivliev\Imagefly\Imagefly;
 
 ?>
 
@@ -15,13 +16,13 @@ use Helpers\Uri;
     <? foreach ($items as $item):?>
         <div class="item">
             <a href="<?=Uri::makeUriFromId($item->slug)?>" title="slideshow_images" rel="gallery">
-                <img src="<?=$item->defaultImage()->path?>" alt="slideshow_images" />
+                <img src="<?=Imagefly::imagePath($item->defaultImage()->path, 'w640-q52')?>" alt="slideshow_images" />
                 <div class="container_top_slider_text">
                     <div class="container_top_slider_text_inner">
                         <?=$item->title?>
                     </div>
-                </div><!-- container_top_slider_text -->
+                </div>
             </a>
-        </div><!--item-->
+        </div>
     <? endforeach ?>
-</div><!-- container_top_slideshow -->
+</div>

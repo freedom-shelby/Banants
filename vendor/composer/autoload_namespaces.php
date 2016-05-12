@@ -9,6 +9,7 @@ return array(
     'Upload' => array($vendorDir . '/codeguy/upload/src'),
     'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
     'Symfony\\Component\\Console\\' => array($vendorDir . '/symfony/console'),
+    'Ivliev\\Imagefly\\' => array($vendorDir . '/ivliev/imagefly/src'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
     'Baum' => array($vendorDir . '/baum/baum/src'),
 );

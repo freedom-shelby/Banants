@@ -9,7 +9,8 @@ return array(
     '65fec9ebcfbb3cbb4fd0d519687aea01' => $vendorDir . '/danielstjules/stringy/src/Create.php',
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
     '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
-    '21e5fe9e3447fd509d76724235f80917' => $baseDir . '/config/database.php',
+    'a0edc8309cc5e1d60e3047b5df6b7052' => $vendorDir . '/guzzlehttp/psr7/src/functions_include.php',
+    'bd9634f2d41831496de0d3dfe4c94881' => $vendorDir . '/symfony/polyfill-php56/bootstrap.php',
     'af45600eb379ca2231d37ebe5aef1097' => $baseDir . '/routes/back.php',
     '8e1126fdb56b2e34cd39d610dc92c6f8' => $baseDir . '/routes/front.php',
 );

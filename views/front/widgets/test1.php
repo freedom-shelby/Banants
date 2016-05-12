@@ -8,6 +8,7 @@
  */
 
 use Helpers\Uri;
+use Ivliev\Imagefly\Imagefly;
 
 //todo: Надо включить сортировку
 ?>
@@ -22,7 +23,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/TIto_Ramalio.png" alt="coach1" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/TIto_Ramalio.png', 'w140-q52')?>" alt="coach1" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -36,7 +37,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Nando.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Nando.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -50,7 +51,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Aram_Voskanyan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Aram_Voskanyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -64,7 +65,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Lois_Rodriges.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Lois_Rodriges.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -78,7 +79,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Luis_Paskual.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Luis_Paskual.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -92,7 +93,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Xose_Migel.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Xose_Migel.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -106,7 +107,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Karen_Stepanyan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Karen_Stepanyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -120,7 +121,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Arsen_Hambaryan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Arsen_Hambaryan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -134,7 +135,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Pablo_de_la_Tore.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Pablo_de_la_Tore.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -148,7 +149,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Eduard_Gevorgyan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Eduard_Gevorgyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -162,7 +163,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Arman_Exikyan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Arman_Exikyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -176,7 +177,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Davit_Shaxbagyan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Davit_Shaxbagyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -190,7 +191,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Harutyun_Jangchyan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Harutyun_Jangchyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
@@ -204,7 +205,7 @@ use Helpers\Uri;
 <!--                            <div class="team_item_images pictures_wrapper">-->
 <!--                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />-->
 <!--                                <div class="manager_wrapper">-->
-<!--                                    <img src="/uploads/images/Coaches/premier/Harutyun_Jangchyan.png" alt="player" />-->
+<!--                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Harutyun_Jangchyan.png', 'w140-q52')?>" alt="player" />-->
 <!--                                </div>-->
 <!--                            </div>-->
 <!--                            <div class="team_item_title">-->
@@ -218,7 +219,7 @@ use Helpers\Uri;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="/uploads/images/Coaches/premier/Hrant_Gevorgyan.png" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Hrant_Gevorgyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">

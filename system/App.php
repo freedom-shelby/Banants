@@ -6,6 +6,8 @@
  * Time: 7:07
  * Ядро API CCN - Currency Clearing Network
  */
+use \Illuminate\Filesystem\Filesystem;
+
 
 class App {
 
@@ -53,6 +55,15 @@ class App {
     private function __wakeup(){}
     private function __construct(){
         $this->_http = new Http();
+
+        // Инициализация конфигов
+        $fileSystem = new Filesystem();
+        $files = $fileSystem->allFiles('config');
+        foreach ($files as $file) {
+            if(is_array($fileSystem->getRequire($file))){
+                $this->setConfig($fileSystem->getRequire($file), $fileSystem->name($file));
+            }
+        }
     }
 
     public static function instance(){
@@ -91,10 +102,40 @@ class App {
     /**
      * Возвращает заданный параметр конфигурации
      */
-    public static function getConfig($key){
-        return static::$_config[$key];
+    public static function getConfig($key, $default = null){
+        return array_get(static::$_config, $key, $default);
     }
 
+    /**
+     * Установить заданное значение конфигурации.
+     *
+     * @param  array|string  $key
+     * @param  mixed   $value
+     * @return void
+     */
+    public static function setConfig($key, $value = null)
+    {
+        if (is_array($key))
+        {
+            if(!empty($value))
+            {
+                foreach ($key as $innerKey => $innerValue)
+                {
+                    array_set(static::$_config[$value], $innerKey, $innerValue);
+                }
+            } else {
+                foreach ($key as $innerKey => $innerValue)
+                {
+                    array_set(static::$_config, $innerKey, $innerValue);
+                }
+            }
+        }
+        else
+        {
+            array_set(static::$_config, $key, $value);
+        }
+
+    }
     /**
      * Возвращает объект http
      * @return \Http

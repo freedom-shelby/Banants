@@ -2484,14 +2484,7 @@
       <workItem from="1475484945373" duration="7518000" />
       <workItem from="1475566968432" duration="31527000" />
       <workItem from="1475732956189" duration="26471000" />
-      <workItem from="1476083964321" duration="21993000" />
-    </task>
-    <task id="LOCAL-00060" summary="Интеграция Меню в Админку">
-      <created>1459289424500</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1459289424549</updated>
+      <workItem from="1476083964321" duration="22007000" />
     </task>
     <task id="LOCAL-00061" summary="Интеграция Меню в Админку">
       <created>1459349670022</created>
@@ -2829,11 +2822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476174302825</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Интеграция Меню в Админку">
+      <created>1476174331363</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1476174331363</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381256000" />
+    <option name="totallyTimeSpent" value="381270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

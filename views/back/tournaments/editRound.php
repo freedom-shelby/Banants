@@ -171,8 +171,6 @@ use Helpers\Uri;
                 '<option value="' + teams[i] + '">'  + teams[i] +  '</option>'
             );
         }
-
-
         $('.select-team').on('change', function () {
             var selected_team = $(this).val();
             $(this).find(':selected').addClass('selected')

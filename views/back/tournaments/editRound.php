@@ -173,7 +173,6 @@ use Helpers\Uri;
         }
 
 
-
         $('.select-team').on('change', function () {
             var selected_team = $(this).val();
             $(this).find(':selected').addClass('selected')

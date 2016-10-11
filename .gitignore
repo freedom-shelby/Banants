@@ -225,3 +225,6 @@ uploads/
 config/
 config
 ./config
+localstorage
+/localstorage/*
+!/localstorage/*

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1ae56c-707a-400e-8564-55c687495522" name="Default" comment="Интеграция Меню в Админку">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/images/03/bc/03bc61a40b51c6c27cd33ffe47f50c54" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/images/0a/b9/0ab9fd2fecfd98adb4da81a5782ec867" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/images/15/8c/158cdf3ddbddcb5ebd70df93b6c9e0e3" />
@@ -506,50 +505,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/images/imageflyff04aa0563203b13cfa864db1161b712-1467882053.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/images/imageflyff6296fd95ee3a4d535b0a31c05d2361-1475483131.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/images/imageflyffc7c70cd42e479107ac11e623d57705-1472472001.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/Football_Federation_Islamic_Republic_of_Iran.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/Omonia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/erebuni-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/kotayk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_0_0.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_0_0.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_0_0.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_0_0.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_1_0.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_1_0.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_1_0.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_1_0.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_0_0.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_0_0.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_0_0.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_0_0.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_1_0.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_1_0.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_1_0.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_1_0.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_2_0.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_2_0.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_2_0.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2D5240_2_0.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Reg-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Reg-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Reg-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Sbold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Sbold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Sbold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/images/swis-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/screenshots/jquery-contextMenu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/screenshots/jquery-contextMenu.subs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/screenshots/native.firefox-9.0a1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/images/ui-icons_444444_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/images/ui-icons_555555_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/images/ui-icons_777620_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/images/ui-icons_777777_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/images/ui-icons_cc0000_256x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/images/ui-icons_ffffff_256x240.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/doc/doctrees/config.doctree" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/doc/doctrees/copyright.doctree" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/doc/doctrees/credits.doctree" />
@@ -1037,30 +992,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/themes/pmahomme/jquery/images/ui-icons_888888_256x240.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/themes/pmahomme/jquery/images/ui-icons_cd0a0a_256x240.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/themes/pmahomme/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.user.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/+best_moments_photo (2).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/+best_moments_photo (3).html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/_+best_moments_photo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML/js/_scripts_BestPhotos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Tournaments/Tournament.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Tournaments/Types/AbstractType.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Tournaments/Types/DoubleEliminationKnockout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Tournaments/Types/DoubleRoundRobin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Tournaments/Types/EliminationKnockout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Tournaments/Types/MultiStage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Football/Tournaments/Types/RoundRobin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleriesPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/PhotoGalleryPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Widgets/Widget/VideoGalleryPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Back/Leagues.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Back/PhotoGalleries.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Back/Photos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Back/Server.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Back/Tournaments.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/Back/Videos.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/am/_I/18/am_I18n" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/ho/me/_m/home_menus" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/ho/me/_w/home_widgets" />
@@ -1069,180 +1000,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/sp/or/t_/sport_cafe_article" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/sp/or/t_/sport_cafe_menus" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/localstorage/sp/or/t_/sport_cafe_widgets" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/assets/js/custom/check.incognito.mode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/css/bootstrap-datetimepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/bootstrap-datetimepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/contextMenu.jquery.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/CONTRIBUTE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/couscous.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/accesskeys.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/accesskeys_test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/async-create.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/callback.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/callback_test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/custom-command.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/custom-command_test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/disabled-callback.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/disabled-callback_test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/disabled-changing.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/disabled-changing_test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/disabled-menu.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/disabled.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/disabled_test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/dynamic-create.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/dynamic.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/html5-import.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/html5-polyfill-firefox8.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/html5-polyfill.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/input.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/keeping-contextmenu-open.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/menu-title.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/on-dom-element.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/sub-menus.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/sub-menus_test.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/trigger-custom.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/trigger-hover-autohide.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/trigger-hover.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/trigger-left-click.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/demo/trigger-swipe.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/custom-command-types.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/customize.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/events.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/font-awesome.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/html5-polyfill.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/input-helpers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/items.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/plugin-commands.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/docs/runtime-options.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/couscous.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/css/screen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/css/theme-fixes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/css/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/default.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_0_0.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/2C6A5F_1_0.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Reg-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/ProximaNova-Sbold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/js/theme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/css/badge_only.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_badge.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_badge_fa.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_breadcrumbs.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_font_awesome_compatibility.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_layout.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_mathjax.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_rst.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/_theme_variables.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/badge_only.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/documentation/website/original-theme/sass/theme.sass" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/.csscomb.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/icons/add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/icons/copy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/icons/cut.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/icons/delete.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/icons/edit.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/icons/paste.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/icons/quit.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/jquery.contextMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/jquery.ui.position.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/jquery.ui.position.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/sass/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/sass/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/sass/icons/_icon_classes.scss.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/sass/icons/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/sass/icons/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/sass/icons/_variables.scss.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/src/sass/jquery.contextMenu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/accesskeys.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/async-create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/callback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/custom-command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/disabled-callback.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/disabled-changing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/disabled-menu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/disabled.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/dynamic-create.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/dynamic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/accesskeys.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/accesskeys_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/async-create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/callback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/callback_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/custom-command.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/custom-command_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/disabled-callback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/disabled-callback_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/disabled-changing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/disabled-changing_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/disabled-menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/disabled.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/disabled_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/dynamic-create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/dynamic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/html5-import.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/html5-polyfill-firefox8.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/html5-polyfill.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/keeping-contextmenu-open.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/menu-title.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/on-dom-element.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/sub-menus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/sub-menus_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/trigger-custom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/trigger-hover-autohide.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/trigger-hover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/trigger-left-click.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/html/trigger-swipe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/input.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/keeping-contextmenu-open.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/on-dom-element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/sub-menus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/trigger-custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/trigger-left-click.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration/trigger-right-click.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/integration_test_helper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/context-menu/test/unit/test-events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/back/plugins/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/external/jquery/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.structure.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.structure.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/media/libs/jquery-ui-1.11.4/jquery-ui.theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/ArticleHasOnlySelfWidgetModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/FormationModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/LeagueModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/PhotoGalleryModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/TeamHasTournamentModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/TournamentModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/TournamentTypeModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/VideoModel.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/ChangeLog" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/LICENSE" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/README" />
@@ -1862,213 +1619,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/view_create.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/view_operations.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/webapp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/ArrayPaginator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/Files.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/system/Search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/AbstractPaginator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/BootstrapThreeNextPreviousButtonRendererTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/BootstrapThreePresenter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/LengthAwarePaginator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/PaginationServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/Paginator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/SimpleBootstrapThreePresenter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/UrlWindow.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/UrlWindowPresenterTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/illuminate/pagination/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/leagues/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/leagues/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/leagues/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/photoGalleries/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/photoGalleries/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/photoGalleries/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/photos/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/quiz/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/quiz/answer/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/quiz/answer/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/quiz/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/quiz/response.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/server/photoGalleryPaginate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/server/photoPaginate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/teams/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/teams/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/teams/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/teams/listAll.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/tournaments/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/tournaments/editRound.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/tournaments/editTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/tournaments/editTeam.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/tournaments/list.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/tournaments/listRounds.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/back/videos/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/server/quizzes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/_test1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/_test2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/photoGalleriesPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/photoGalleryPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/front/widgets/videoGalleryPage.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/_database.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/models/GalleryModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/images/players/U-17/1. Խաչատուր Մանուկյան.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/uploads/images/players/zaven_badoyan_with_flag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/back/players/list.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/back/team/list.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/images/banner_top1_ru.png" afterPath="$PROJECT_DIR$/media/assets/images/banner_top1_ru.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/images/homeIcon.jpg" afterPath="$PROJECT_DIR$/media/assets/images/homeIcon.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/images/news_wrapper_bg.jpg" afterPath="$PROJECT_DIR$/media/assets/images/news_wrapper_bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/images/submenu_back.jpg" afterPath="$PROJECT_DIR$/media/assets/images/submenu_back.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/images/team_logo/gandzasar-kapan-logo.png" afterPath="$PROJECT_DIR$/media/assets/images/team_logo/gandzasar-kapan-logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Arsen_Hambaryan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Arsen_Hambaryan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Artur_Hovhannisyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Artur_Hovhannisyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Artur_Voskanyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Artur_Voskanyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Hovhannes_Gevorgyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Hovhannes_Gevorgyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Karen_Stepanyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Karen_Stepanyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Vladimir_Vardanyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/banants_2/Vladimir_Vardanyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Aram_Voskanyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Aram_Voskanyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Arman_Exikyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Arman_Exikyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Arsen_Hambaryan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Arsen_Hambaryan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Davit_Shaxbagyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Davit_Shaxbagyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Eduard_Gevorgyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Eduard_Gevorgyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Harutyun_Jangchyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Harutyun_Jangchyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Hrant_Gevorgyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Hrant_Gevorgyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Karen_Stepanyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Karen_Stepanyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Lois_Rodriges.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Lois_Rodriges.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Luis_Paskual.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Luis_Paskual.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Nando.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Nando.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Pablo_de_la_Tore.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Pablo_de_la_Tore.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/TIto_Ramalio.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/TIto_Ramalio.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches/premier/Xose_Migel.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches/premier/Xose_Migel.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Aram_Voskanyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Aram_Voskanyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Arman_Exikyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Arman_Exikyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Davit_Shaxbagyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Davit_Shaxbagyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Harutyun_Jangchyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Harutyun_Jangchyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Hrant_Gevorgyan.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Hrant_Gevorgyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Lois_Rodriges.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Lois_Rodriges.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Luis_Paskual.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Luis_Paskual.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Nando.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Nando.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Pablo_de_la_Tore.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/Pablo_de_la_Tore.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/Coaches_Premier/TIto_Ramalio.png" afterPath="$PROJECT_DIR$/uploads/images/Coaches_Premier/TIto_Ramalio.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Acamaz_Burayev.png" afterPath="$PROJECT_DIR$/uploads/images/players/Acamaz_Burayev.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Aslan_Kalmanov.png" afterPath="$PROJECT_DIR$/uploads/images/players/Aslan_Kalmanov.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Hakob_Hakobyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/Hakob_Hakobyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Klaudio_Torexon.png" afterPath="$PROJECT_DIR$/uploads/images/players/Klaudio_Torexon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Laenel_Adams.png" afterPath="$PROJECT_DIR$/uploads/images/players/Laenel_Adams.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Laersio_Gomes.png" afterPath="$PROJECT_DIR$/uploads/images/players/Laersio_Gomes.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Nairi_Minasyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/Nairi_Minasyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Soslan_Kochmazov.png" afterPath="$PROJECT_DIR$/uploads/images/players/Soslan_Kochmazov.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Stepan_Khazaryan.png" afterPath="$PROJECT_DIR$/uploads/images/players/Stepan_Khazaryan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-10/buffer/U-10.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-10/buffer/U-10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-11-2/buffer/U-11-2.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-11-2/buffer/U-11-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-11/buffer/U-11.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-11/buffer/U-11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-12/IMG_0445.JPG" afterPath="$PROJECT_DIR$/uploads/images/players/U-12/IMG_0445.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-13-2/IMG_0491.JPG" afterPath="$PROJECT_DIR$/uploads/images/players/U-13-2/IMG_0491.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-13/buffer/IMG_0370.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-13/buffer/IMG_0370.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-17/buferizacia.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-17/buferizacia.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-8-2/buffer/U-8-2.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-8-2/buffer/U-8-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-8/buffer/U-8.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-8/buffer/U-8.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-9-2/buffer/U-9-2.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-9-2/buffer/U-9-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U-9/buffer/U-9.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U-9/buffer/U-9.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/U10-2/buffer/U-10-2.jpg" afterPath="$PROJECT_DIR$/uploads/images/players/U10-2/buffer/U-10-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Vahagn_Ayvazyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/Vahagn_Ayvazyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Valter_Poxosyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/Valter_Poxosyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Vlatko_Drobarov.png" afterPath="$PROJECT_DIR$/uploads/images/players/Vlatko_Drobarov.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Yasmin_Mecinovich.png" afterPath="$PROJECT_DIR$/uploads/images/players/Yasmin_Mecinovich.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/images/players/Zaven_Badoyan.png" afterPath="$PROJECT_DIR$/uploads/images/players/Zaven_Badoyan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ftpquota" afterPath="$PROJECT_DIR$/.ftpquota" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Banants.iml" afterPath="$PROJECT_DIR$/.idea/Banants.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EventsList.txt" afterPath="$PROJECT_DIR$/EventsList.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/+best_moments_photo.html" afterPath="$PROJECT_DIR$/HTML/+best_moments_photo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/js/scripts.js" afterPath="$PROJECT_DIR$/HTML/js/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Football/Team.php" afterPath="$PROJECT_DIR$/app/Football/Team.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Lang/I18n.php" afterPath="$PROJECT_DIR$/app/Lang/I18n.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Page.php" afterPath="$PROJECT_DIR$/app/Page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Quiz/Quiz.php" afterPath="$PROJECT_DIR$/app/Quiz/Quiz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Setting.php" afterPath="$PROJECT_DIR$/app/Setting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Subscribers/Route/GlobalEventHandler.php" afterPath="$PROJECT_DIR$/app/Subscribers/Route/GlobalEventHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/Anons.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/Anons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/MainNews.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/MainNews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/PhotoGallery.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/PhotoGallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/Quizzes.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/Quizzes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/RandomNews.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/RandomNews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/TopNews.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/TopNews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/TopVideo.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/TopVideo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Widgets/Widget/VideoGallery.php" afterPath="$PROJECT_DIR$/app/Widgets/Widget/VideoGallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back.php" afterPath="$PROJECT_DIR$/controllers/Back.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Articles.php" afterPath="$PROJECT_DIR$/controllers/Back/Articles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Players.php" afterPath="$PROJECT_DIR$/controllers/Back/Players.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Quiz.php" afterPath="$PROJECT_DIR$/controllers/Back/Quiz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Back/Teams.php" afterPath="$PROJECT_DIR$/controllers/Back/Teams.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Base.php" afterPath="$PROJECT_DIR$/controllers/Base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Front/Pages.php" afterPath="$PROJECT_DIR$/controllers/Front/Pages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Front/Server.php" afterPath="$PROJECT_DIR$/controllers/Front/Server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/Test/Quiz/Test.php" afterPath="$PROJECT_DIR$/controllers/Test/Quiz/Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error_log" afterPath="$PROJECT_DIR$/error_log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/css/style.css" afterPath="$PROJECT_DIR$/media/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/assets/js/custom/scripts.js" afterPath="$PROJECT_DIR$/media/assets/js/custom/scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/back/css/custom/back.style.css" afterPath="$PROJECT_DIR$/media/back/css/custom/back.style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/back/js/custom/back.scripts.js" afterPath="$PROJECT_DIR$/media/back/js/custom/back.scripts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/back/plugins/jquery.mjs.nestedSortable.js" afterPath="$PROJECT_DIR$/media/back/plugins/jquery.mjs.nestedSortable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/ArticleModel.php" afterPath="$PROJECT_DIR$/models/ArticleModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PhotoModel.php" afterPath="$PROJECT_DIR$/models/PhotoModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/QuizAnswerModel.php" afterPath="$PROJECT_DIR$/models/QuizAnswerModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/QuizModel.php" afterPath="$PROJECT_DIR$/models/QuizModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/TeamModel.php" afterPath="$PROJECT_DIR$/models/TeamModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/back.php" afterPath="$PROJECT_DIR$/routes/back.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/front.php" afterPath="$PROJECT_DIR$/routes/front.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Event/Emmiter.php" afterPath="$PROJECT_DIR$/system/Event/Emmiter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Http.php" afterPath="$PROJECT_DIR$/system/Http.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/Node.php" afterPath="$PROJECT_DIR$/system/Node.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ivliev/imagefly/src/Imagefly.php" afterPath="$PROJECT_DIR$/vendor/ivliev/imagefly/src/Imagefly.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/articles/add.php" afterPath="$PROJECT_DIR$/views/back/articles/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/articles/edit.php" afterPath="$PROJECT_DIR$/views/back/articles/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/entities/add.php" afterPath="$PROJECT_DIR$/views/back/entities/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/entities/edit.php" afterPath="$PROJECT_DIR$/views/back/entities/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/home.php" afterPath="$PROJECT_DIR$/views/back/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/index.php" afterPath="$PROJECT_DIR$/views/back/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/players/edit.php" afterPath="$PROJECT_DIR$/views/back/players/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/back/quiz/list.php" afterPath="$PROJECT_DIR$/views/back/quiz/list.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/content/pages/page.php" afterPath="$PROJECT_DIR$/views/front/content/pages/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/theme.config.php" afterPath="$PROJECT_DIR$/views/front/theme.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/ContentBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/ContentBanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/academyAnons.php" afterPath="$PROJECT_DIR$/views/front/widgets/academyAnons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/anons.php" afterPath="$PROJECT_DIR$/views/front/widgets/anons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/bestPlayer.php" afterPath="$PROJECT_DIR$/views/front/widgets/bestPlayer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/bottomBanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/contentPanoramaBanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/lastMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php" afterPath="$PROJECT_DIR$/views/front/widgets/lastMatchesAnons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/mainNews.php" afterPath="$PROJECT_DIR$/views/front/widgets/mainNews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/managers.php" afterPath="$PROJECT_DIR$/views/front/widgets/managers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" afterPath="$PROJECT_DIR$/views/front/widgets/nextMatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" afterPath="$PROJECT_DIR$/views/front/widgets/nextMatchInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/photoGallery.php" afterPath="$PROJECT_DIR$/views/front/widgets/photoGallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/quizzes.php" afterPath="$PROJECT_DIR$/views/front/widgets/quizzes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/randomNews.php" afterPath="$PROJECT_DIR$/views/front/widgets/randomNews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/rightBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/rightBanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/secondaryRightBanner.php" afterPath="$PROJECT_DIR$/views/front/widgets/secondaryRightBanner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/snipers.php" afterPath="$PROJECT_DIR$/views/front/widgets/snipers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/sponsorsInfo.php" afterPath="$PROJECT_DIR$/views/front/widgets/sponsorsInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/teams.php" afterPath="$PROJECT_DIR$/views/front/widgets/teams.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/test1.php" afterPath="$PROJECT_DIR$/views/front/widgets/test1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/test2.php" afterPath="$PROJECT_DIR$/views/front/widgets/test2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/topNews.php" afterPath="$PROJECT_DIR$/views/front/widgets/topNews.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/topVideo.php" afterPath="$PROJECT_DIR$/views/front/widgets/topVideo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" afterPath="$PROJECT_DIR$/views/front/widgets/tournamentTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/front/widgets/videoGallery.php" afterPath="$PROJECT_DIR$/views/front/widgets/videoGallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_1.php" afterPath="$PROJECT_DIR$/views/test/Test_1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_2.php" afterPath="$PROJECT_DIR$/views/test/Test_2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/test/Test_3.php" afterPath="$PROJECT_DIR$/views/test/Test_3.php" />
     </list>
     <list id="d08a7e40-bf66-43d8-a26e-9288a7320c11" name="New changelist" comment="" />
     <ignored path="Banants.iws" />
@@ -2245,8 +1798,8 @@
           <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3808">
-                  <caret line="224" column="7" selection-start-line="224" selection-start-column="7" selection-end-line="224" selection-end-column="7" />
+                <state relative-caret-position="476">
+                  <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -2933,14 +2486,7 @@
       <workItem from="1475484945373" duration="7518000" />
       <workItem from="1475566968432" duration="31527000" />
       <workItem from="1475732956189" duration="26471000" />
-      <workItem from="1476083964321" duration="19499000" />
-    </task>
-    <task id="LOCAL-00058" summary="Интеграция Меню в Админку">
-      <created>1459246725885</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1459246725885</updated>
+      <workItem from="1476083964321" duration="21954000" />
     </task>
     <task id="LOCAL-00059" summary="Интеграция Меню в Админку">
       <created>1459246730070</created>
@@ -3278,11 +2824,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463054456881</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Интеграция Меню в Админку">
+      <created>1476172707188</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1476172707189</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378762000" />
+    <option name="totallyTimeSpent" value="381217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3665,6 +3218,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3672,6 +3226,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-142">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3679,6 +3234,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="164" column="62" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3917,8 +3473,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3808">
-          <caret line="224" column="7" selection-start-line="224" selection-start-column="7" selection-end-line="224" selection-end-column="7" />
+        <state relative-caret-position="476">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
           <folding />
         </state>
       </provider>

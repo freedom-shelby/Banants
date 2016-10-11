@@ -172,14 +172,6 @@ use Helpers\Uri;
             );
         }
 
-            //<option value="team-1">team-1</option>
-            //<option value="team-2">team-2</option>
-            //<option value="team-3">team-3</option>
-            //<option value="team-4">team-4</option>
-            //<option value="team-5">team-5</option>
-            //<option value="team-6">team-6</option>
-            //<option value="team-7">team-7</option>
-            //<option value="team-8">team-8</option>
 
 
         $('.select-team').on('change', function () {

@@ -15,7 +15,7 @@ class ArticleModel extends LangModel
 
     protected $table = 'articles';
 
-    protected $fillable = ['parent_id', 'lvl', 'lft', 'rgt', 'slug'];
+    protected $fillable = ['parent_id', 'status', 'photo_id', 'lvl', 'lft', 'rgt', 'slug'];
 
     // this is a recommended way to declare event handlers
     protected static function boot() {

@@ -14,6 +14,10 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use Setting;
+use ArticleModel;
+use WidgetModel;
+use App;
 
 class TopNews extends AbstractWidget{
 
@@ -55,15 +59,42 @@ class TopNews extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('items', $this->_items);
+
     }
 
     public function init($model)
     {
+        $this->_param = json_decode($model->param, true);
+
+        // Матерялов из клуба (получет те которте не входили в Анонсе)
+        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))
+            ->descendants()
+            ->where('photo_id', '!=' , 1)
+            ->get()
+            ->offsetGet($this->_param['settings']['club_articles_start']);
+
+        $this->_items[] = $data;
+
+        // Матерялов из Бананца (получет те которте не входили в Анонсе)
+        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))
+            ->descendants()
+            ->where('photo_id', '!=' , 1)
+            ->get()
+            ->offsetGet($this->_param['settings']['banants_articles_start']);
+
+        $this->_items[] = $data;
+
+
+//foreach ($this->_items as $item) {
+//    echo "<pre>";
+//    print_r($item->toArray());
+//}die;
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
-        $this->_param = $model->param;
         $this->_type = $model->type;
     }
 }

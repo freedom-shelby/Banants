@@ -73,25 +73,24 @@ class RandomNews extends AbstractWidget{
         $this->_param = json_decode($model->param, true);
 
         if(App::instance()->getCurrentSlug() == 'home'){
-            // Матерялов из клуба
+            // Матерялов из клуба (получет те которте не входили в Анонсе)
             $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
-                ->limit($this->_param['settings']['home_page_club_articles_limit'] + $this->_param['settings']['anons_club_articles_limit'])
-                ->offset($this->_param['settings']['anons_club_articles_limit'])->get();
+                ->limit($this->_param['settings']['home_page_club_articles_limit'] + $this->_param['settings']['club_articles_start'])
+                ->offset($this->_param['settings']['club_articles_start'])->get();
             foreach ($data as $item) {
                 $this->_items[] = $item;
             }
-            // Матерялов из Бананца
+            // Матерялов из Бананца (получет те которте не входили в Анонсе)
             $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
-                ->limit($this->_param['settings']['home_page_banants_articles_limit'] + $this->_param['settings']['anons_banants_articles_limit'])
-                ->offset($this->_param['settings']['anons_banants_articles_limit'])->get();
+                ->limit($this->_param['settings']['home_page_banants_articles_limit'] + $this->_param['settings']['banants_articles_start'])
+                ->offset($this->_param['settings']['banants_articles_start'])->get();
             foreach ($data as $item) {
                 $this->_items[] = $item;
             }
-
         }else{
             $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
                 ->ancestorsAndSelf()
@@ -104,6 +103,11 @@ class RandomNews extends AbstractWidget{
             }
 //        $data = ArticleModel::whereStatus(1)->has('defaultImages');
         }
+
+//foreach ($this->_items as $item) {
+//    echo "<pre>";
+//    print_r($item->toArray());
+//}die;
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

@@ -17,6 +17,8 @@ use ArticleModel;
 use Widgets\WidgetsContainer;
 use Helpers\Arr;
 use Quiz;
+use User;
+use Setting;
 
 class Server extends Front
 {
@@ -33,21 +35,25 @@ class Server extends Front
     public function anyQuizResponse()
     {
         $this->layout = null;
-
-        $quiz = (new Quiz)->setQuizId(1)->setUserId(1)->find();
+//echo "<pre>";
+//print_r($this->getPostData());
+//die;
+        $quiz = (new Quiz)->setQuizId(Setting::instance()->getSettingVal('widgets.quizz'))->setUserId(User::instance()->getId())->find();
         $data = (int) Arr::get($this->getPostData(), 'quiz');
+
+        $result['status'] = 'nok';
 
         if(isset($data))
         {
-            if(\UserModel::whereIp(\App::instance()->http()->getIpAddress())->first()){
-                echo 'nok';
-            }else{
+            if( ! $quiz->isAnswered()){
                 $quiz->addResponse($data);
-                echo 'ok';
+
+                $result['html'] = View::make('front/server/quizzes')
+                    ->with('quiz', $quiz)->render();
+                $result['status'] = 'ok';
             }
+
+            echo json_encode($result);
         }
-
-
     }
-
 }

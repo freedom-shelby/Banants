@@ -14,6 +14,7 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use VideoModel;
 
 class VideoGallery extends AbstractWidget{
 
@@ -41,7 +42,12 @@ class VideoGallery extends AbstractWidget{
      * Параметри в виде JSON-а
      */
     protected $_param;
-
+    
+    /**
+     * Видео
+     * @type array(VideoModel)
+     */
+    protected $_items = [];
 
     public function getPosition()
     {
@@ -55,15 +61,24 @@ class VideoGallery extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('items', $this->_items);
     }
 
     public function init($model)
     {
+        $this->_param = json_decode($model->param, true);
+
+        // Последние добавлённие видео начиная с второго
+        $this->_items = VideoModel::orderBy('id', 'desc')->limit(8)->offset(1)->get()->toArray();
+
+        $this->_items = array_chunk($this->_items, 4, true);
+//echo "<pre>";
+//print_r($this->_items);
+//die;
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
-        $this->_param = $model->param;
         $this->_type = $model->type;
     }
 }

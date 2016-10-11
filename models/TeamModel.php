@@ -15,7 +15,7 @@ class TeamModel extends Eloquent
 
     protected $table = 'teams';
 
-    protected $fillable = ['article_id'];
+    protected $fillable = ['entity_id', 'photo_id', 'status', 'slug', 'is_own', 'formation_id', 'league_id'];
 
 
     public function article()
@@ -26,5 +26,33 @@ class TeamModel extends Eloquent
     public function players()
     {
         return $this->hasMany('PlayerModel', 'team_id');
+    }
+
+    /**
+     * Загрузка картинки по-умолчанию
+     */
+    public function defaultImage()
+    {
+        return $this->belongsTo('PhotoModel', 'photo_id')->first();
+    }
+
+    public function formation()
+    {
+        return $this->belongsTo('FormationModel', 'formation_id')->first();
+    }
+
+    public function league()
+    {
+        return $this->belongsTo('LeagueModel', 'league_id')->first();
+    }
+
+    public function text()
+    {
+        return $this->belongsTo('EntityModel', 'entity_id')->first()->text;
+    }
+
+    public function entity()
+    {
+        return $this->belongsTo('EntityModel', 'entity_id');
     }
 }

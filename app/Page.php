@@ -232,7 +232,6 @@ class Page
         $this->setMetaContent('description', $model->meta_desc);
         $this->setMetaContent('keywords', $model->meta_keys);
         $this->setTitle($model->meta_title);
-//        var_dump(addcslashes($model->desc, 'asasfaf'));die;
         $this->setContent($model->desc);
     }
 

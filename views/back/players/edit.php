@@ -16,8 +16,8 @@ use Helpers\Uri;
         <div class="panel-heading">
             <h1>Edit Player</h1>
         </div>
-        <form method="post" enctype="multipart/form-data" id="form">
-            <div class="panel-body">
+        <div class="panel-body">
+            <form method="post" enctype="multipart/form-data" id="form">
                 <div class="group container-fluid">
                     <div class="row col-sm-6 pull-right">
                         <div class="form-group col-sm-13">
@@ -126,8 +126,8 @@ use Helpers\Uri;
                         </div>
                     </div>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
 </div>
 <!--End Container-->
@@ -147,7 +147,7 @@ use Helpers\Uri;
             allowedFileTypes: ["image"],
             previewClass: "bg-warning",
             initialPreview: [
-                <?=($item->icon) ? '\'<img style="height:160px" src="'.File::getImagePath($item->icon).'">\'' : ''?>
+                <?=($item->defaultImage()) ? '\'<img style="height:160px" src="'.$item->defaultImage()->path.'">\'' : ''?>
             ],
             initialPreviewConfig: [{
                 caption: '<?=$item->firstName().' Icon'?>',

@@ -12,7 +12,7 @@ use Lang\Lang;
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h1>Edit Article</h1>
+            <h1>Edit Entity</h1>
         </div>
         <form method="post" action="<?=Helpers\Uri::makeUri('Admin/Entities/Edit').'/'.$item->id . App::URI_EXT?>" enctype="multipart/form-data" id="form">
             <div class="panel-body">

@@ -48,6 +48,21 @@ class Node extends BaumNode
         return $nodes;
     }
 
+    /**
+     * Возвращает иерархии категорий по уровню
+     * @return mixed
+     */
+    public static function getCategoryNode()
+    {
+        $instance = new static;
+
+        $nodes = $instance->newNestedSetQuery();
+        $nodes = $nodes->where('lvl','<=',Setting::MAX_CATEGORY_LEVEL)->get();
+        $nodes = $nodes->getDictionary();
+
+        return $nodes;
+    }
+
     public static function getArticleSortableNode()
     {
         $instance = new static;

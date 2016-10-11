@@ -510,7 +510,7 @@ class Imagefly
 
     public static function imagePath($filepath,$dimensions = 'w200-h200-c-q52')
     {
-        return 'image/'.$dimensions.'/'.ltrim($filepath,'/').App::URI_EXT;
+        return '/image/'.$dimensions.'/'.ltrim($filepath,'/').App::URI_EXT;
 //        return 'ImageTest/'.ltrim($filepath,'/').App::URI_EXT; // todo: intervention/image -clasov karelia Imagefly nman stanal aveli arag
     }
 }

@@ -64,11 +64,10 @@ class Quiz
     /**
      * ��������� �� �������� �� �� ������ ������� �����������
      * @return bool
-     * @throws Kohana_Exception
      */
     public function isAnswered()
     {
-        return (bool) QuizAnswerModel::find($this->_quizId)->where('user_id', '=', $this->_userId)->first();
+        return (bool) QuizResponsesModel::whereQuiz_id($this->_quizId)->whereUser_id($this->_userId)->first();
     }
 
     /**
@@ -84,7 +83,6 @@ class Quiz
     /**
      * ��������� ������ ������ ������
      * @param $id
-     * @throws Kohana_Exception
      */
     public function addResponse($id)
     {
@@ -98,11 +96,6 @@ class Quiz
             $modelAnswer = QuizAnswerModel::find($id);
             $modelAnswer->responses_count = $this->_answers[$id]['count'] + 1;
             $modelAnswer->save();
-
-            UserModel::create([
-                'user_name' => 'TEST',
-                'ip' => \App::instance()->http()->getIpAddress()
-            ]);
 
             // ��������� ������ ������
             QuizResponsesModel::create([

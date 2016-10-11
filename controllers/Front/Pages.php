@@ -39,7 +39,7 @@ class Pages extends Front
 
 //        $model = ArticleModel::where('slug','=','home')->first();
 //        WidgetsContainer::instance($model);
-//
+
         $this->layout = View::make('front/home');
         $this->layout->content = View::make('front/content/pages/home');
     }
@@ -56,42 +56,40 @@ class Pages extends Front
 
 
     public function getTest(){
+        error_reporting(E_ALL);
+        ini_set('display_errors', 'On');
+//        $img = Image::make('uploads/images/5721fc06d139a.jpg')->resize(300, 300)->greyscale();
 
+//        $img = Image::cache(function($image) {
+//            $image->make('uploads/images/5721fc06d139a.jpg')->fit(300)->encode(null, 52);
+//        }, 12000, true);
+//
+//        echo $img->response();
+
+
+//echo "<pre>";
+//print_r(phpinfo());
+
+//var_dump(class_exists('Intervention\Image\ImageManager'));
+//ini_set('display_errors', 'Off');
+//die;
 //        $slug = 'home';
 //        $this->_page->initFromSlug($slug);
 
-        $this->_page->setTitle('Официальный сайт FC Banants');
-//        $this->_page->setContent('Тестовый контент');
-
-//        $model = ArticleModel::where('slug','=','home')->first();
-//        WidgetsContainer::instance($model);
+//        $this->_page->setTitle('Официальный сайт FC Banants');
+////        $this->_page->setContent('Тестовый контент');
 //
+////        $model = ArticleModel::where('slug','=','home')->first();
+////        WidgetsContainer::instance($model);
+////
         $this->layout = View::make('test/index');
         $this->layout->content = View::make('test/Test_1');
     }
 
 
     public function getTest2(){
-        $this->layout = null;
-
-        $img = Image::cache(function($image) {
-            $image->make('5721fc06d139a.jpg')->fit(300)->encode(null, 52);
-//            $image->make('5721fc06d139a.jpg')->resize(300)->encode(null, 52);
-        }, 12000, true);
-
-//        $img = Image::make('5721fc06d139a.jpg')->resize(300, 300)->greyscale();
-
-
-//        $img = Image::make('5721fc06d139a.jpg')->crop(300, 300, 200, 600);
-//        $img = Image::make('5721fc06d139a.jpg')->fit(400, 200);
-
-//        echo $img->response(null, 10);
-//        echo $img->fit(100,100)->response(null, 52);
-        echo $img->response();
-
-//        echo "<pre>";
-//        print_r($img);
-//        die;
+        $this->layout = View::make('test/index');
+        $this->layout->content = View::make('test/Test_2');
     }
 
     public function getTest3(){

@@ -167,8 +167,8 @@ class Players extends Back
                 Capsule::connection()->transaction(function () use ($data, $model, $firstNameModel, $lastNameModel) {
                     // Загрузка картинки
 
-                    $file = new UploadFile('image', new FileSystem('uploads/images'));
- 
+                    $file = new UploadFile('image', new FileSystem(static::IMAGE_PATH));
+
                     // Optionally you can rename the file on upload
                     $file->setName(uniqid());
 
@@ -221,7 +221,7 @@ class Players extends Back
                             'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
                         ])->id;
                         $model->update([
-                            'image_id' => $imageId,
+                            'photo_id' => $imageId,
                         ]);
                     }
 
@@ -284,7 +284,7 @@ class Players extends Back
             $article->delete();
         });
 
-        Message::instance()->success('Articles has successfully deleted');
+        Message::instance()->success('Player has successfully deleted');
         Uri::to('/Admin/Categories');
     }
 }

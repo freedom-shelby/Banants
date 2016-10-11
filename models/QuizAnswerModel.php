@@ -15,6 +15,16 @@ class QuizAnswerModel extends Eloquent {
 
     protected $guarded = ['id'];
 
+    // this is a recommended way to declare event handlers
+    protected static function boot() {
+        parent::boot();
+
+        static::deleting(function($model) { // before delete() method call this
+
+            $model->entities()->delete();
+            // do the rest of the cleanup...
+        });
+    }
 
     public function quiz()
     {

@@ -219,3 +219,9 @@ pip-log.txt
 ## PhpStorm
 #############
 .idea
+.idea/
+uploads
+uploads/
+config/
+config
+./config

@@ -187,6 +187,14 @@ class Http {
     }
 
     /**
+     * Позвращает данные из $_REQUEST
+     * @return array
+     */
+    public function getRequestData(){
+        return $this->_request;
+    }
+
+    /**
      * Устанавливает заголовок статуса ошибки
      * @param string $msg
      */

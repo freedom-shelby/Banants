@@ -74,12 +74,14 @@ class MainNews extends AbstractWidget{
         $this->_param = json_decode($model->param, true);
 
         if(App::instance()->getCurrentSlug() == 'home'){
+            // Матерялов из клуба (от 1-го до 8-го матеряла)
             $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
                 ->orderBy('created_at', 'desc')
                 ->limit($this->_param['settings']['max_news_limit'])->get();
         }else{
+            // Матерялов из slug-а (от 1-го до 8-го матеряла)
             $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
                 ->ancestorsAndSelf()
                 ->whereLvl(Setting::instance()->getSettingVal('main_articles.category_level'))->first()
@@ -90,13 +92,14 @@ class MainNews extends AbstractWidget{
 //        $data = ArticleModel::whereStatus(1)->has('defaultImages');
         }
 
-
-//echo "<pre>";
-//print_r($data->toArray());
-//die;
         foreach ($data as $item) {
             $this->_items[] = $item;
         }
+
+//foreach ($data as $item) {
+//    echo "<pre>";
+//    print_r($item->toArray());
+//}die;
 
         // todo: надо сделать Pagination
         $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true);

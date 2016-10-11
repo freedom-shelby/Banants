@@ -17,6 +17,8 @@ class Setting {
 
     protected $_items = [];
 
+    const MAX_CATEGORY_LEVEL = 2;
+
     /**
      * Точка доступа
      * @return Setting

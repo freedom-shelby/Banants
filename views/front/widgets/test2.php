@@ -2,7 +2,7 @@
 /**
  *
  * Created by PhpStorm.
- * User: Rob
+ * User: Arsen
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
@@ -23,11 +23,11 @@ use Ivliev\Imagefly\Imagefly;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Artur_Voskanyan.png', 'w140-q52')?>" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Vahe_Gevorgyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Artur')?> <?=__('Voskanyan')?></h3>
+                                <h3><?=__('Vahe')?> <?=__('Gevorgyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Head coach')?></h4>
@@ -37,11 +37,11 @@ use Ivliev\Imagefly\Imagefly;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Artur_Hovhannisyan.png', 'w140-q52')?>" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Karen_Simonyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Artur')?> <?=__('Hovhannisyan')?></h3>
+                                <h3><?=__('Karen')?> <?=__('Simonian')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Coach')?></h4>
@@ -49,27 +49,13 @@ use Ivliev\Imagefly\Imagefly;
                         </div>
                         <div class="team_item">
                             <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Xoakin_Garsia.png', 'w140-q52')?>" alt="player" />
-                                </div>
-                            </div>
-                            <div class="team_item_title">
-                                <h3><?=__('Xoakin')?> <?=__('Garcia Herrera')?></h3>
-                            </div>
-                            <div class="team_item_bottom">
-                                <h4><?=__('Physical trainer')?></h4>
-                            </div>
-                        </div>
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Vladimir_Vardanyan.png', 'w140-q52')?>" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Vaghinak_Aslanyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Vladimir')?> <?=__('Vardanyan')?></h3>
+                                <h3><?=__('Vahinak')?> <?=__('Shahnazaryan')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Goalkeeper coach')?></h4>

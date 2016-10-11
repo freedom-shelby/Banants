@@ -3,20 +3,31 @@ $(document).ready(function() {
     /**
      * Функции для Quiz
      */
-    $( "#quizzes" ).submit(function( event ) {
-        event.preventDefault();
+    $( "#quizzes" ).submit(function(e) {
+        e.preventDefault();
 
+        var isPrivate = detectPrivateMode(
+            function(is_private) {
+                var a = typeof is_private === 'undefined' ? 2 : is_private ? true : false;
+            }
+        );
+
+// console.log(a)
         $.ajax({
             type: 'POST',
-            data: {'quiz': $(document).find('input[name="quiz"]:checked').val()},
+            data: {'quiz': $(document).find('#home input[name="quiz"]:checked').val(), 'is_private': isPrivate},
             url: '/server/quiz.html',
-            async: false
+            dataType: 'json',
+            async: true
         }).success(function(data){
-            if(data == 'ok'){
-                $("#home").addClass("hidden");
-                $("#home_thanks").removeClass("hidden");
+            //console.log(data);
+            if(data.status == 'ok'){
+                // $("#home").addClass("hidden");
+                // $("#home_thanks").removeClass("hidden");
+                $("#home #quizzes").html(data.html);
+                quizPercentage();
             }else {
-                if(data == 'nok'){
+                if(data.status == 'nok'){
                     $("#home").addClass("hidden");
                     $("#home_error").removeClass("hidden");
                 }else{
@@ -24,9 +35,19 @@ $(document).ready(function() {
                 }
             }
         });
-
     });
 
+    if($('#home #quizzes').length > 0) {
+        quizPercentage();
+    }
+
+    // Нарисовка статистики Опроса по процентам
+    function quizPercentage() {
+        $("#quizzes div.percent").each(function() {
+            var s = $(this).text() + ' 100%';
+            $(this).css({"background-size": s});
+        });
+    }
 
 
     // При вибора языка делает редирект по языку
@@ -39,7 +60,7 @@ $(document).ready(function() {
         $('.dialog').each(function(i, item){
             $( ".dialog" + i).dialog({
                 autoOpen: false,
-                draggable:false,
+                draggable: false,
                 modal:true,
                 width: 'auto',
                 height: 'auto',
@@ -79,7 +100,7 @@ $(document).ready(function() {
             paginationSpeed : 400,
             navigationText: false,
             singleItem: true,
-            autoPlay : 8000
+            autoPlay : 4000
         });
     }
 

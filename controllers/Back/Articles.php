@@ -12,6 +12,8 @@ restrictAccess();
 
 use Event;
 use Helpers\Uri;
+use Illuminate\Pagination\AbstractPaginator;
+use Illuminate\Pagination\Paginator;
 use View;
 use Message;
 use Lang\Lang;
@@ -22,7 +24,8 @@ use ContentModel;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
 use Illuminate\Database\QueryException;
-
+use PhotoModel;
+use MenuItemModel;
 
 class Articles extends Back
 {
@@ -42,7 +45,7 @@ class Articles extends Back
 
         if (Arr::get($this->getPostData(),'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'content']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'photo-id', 'content']);
             $parent = ArticleModel::find($data['parentId']);
 
             // Транзакция для Записание данных в базу
@@ -51,6 +54,7 @@ class Articles extends Back
                 $newArticle = ArticleModel::create([
                     'slug' => $data['slug'],
                     'status' => $data['status'],
+                    'photo_id' => $data['photo-id'],
                 ]);
                 if ($parent) {
                     $newArticle->makeChildOf($parent);
@@ -80,7 +84,7 @@ class Articles extends Back
         }
 
         $this->layout->content = View::make('back/articles/add')
-            ->with('node', $articles::getNode());
+            ->with('node', $articles::getCategoryNode());
     }
 
     /**
@@ -95,11 +99,10 @@ class Articles extends Back
         if (empty($article)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Article']));
         }
-
-
+        
         if (Arr::get($this->getPostData(),'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'content']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'parentId', 'status', 'photo-id', 'content']);
 
             $parent = ArticleModel::find($data['parentId']);
             // Транзакция для Записание данных в базу
@@ -113,13 +116,14 @@ class Articles extends Back
                     }
 
                     // Заодно обновляет и пункты меню привязанные к slug-у
-                    (new \MenuItemModel)->whereSlug($article->slug)->update([
+                    (new MenuItemModel)->whereSlug($article->slug)->update([
                         'slug' => $data['slug'],
                     ]);
 
                     $article->update([
                         'slug' => $data['slug'],
                         'status' => $data['status'],
+                        'photo_id' => $data['photo-id'],
                     ]);
 
                     foreach ($data['content'] as $iso => $item) {
@@ -167,7 +171,7 @@ class Articles extends Back
         }
 
         $this->layout->content = View::make('back/articles/edit')
-            ->with('node', $article::getNode())
+            ->with('node', $article::getCategoryNode())
             ->with('article', $article)
             ->with('contents', $contents);
     }
@@ -194,6 +198,7 @@ class Articles extends Back
                 $desc->contents()->delete();
             }
             $article->delete();
+            Event::fire('Admin.articleUpdate',$article);
         });
 
         Message::instance()->success('Articles has successfully deleted');

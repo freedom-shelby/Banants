@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Rob
+ * User: Arsen
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
@@ -30,45 +30,45 @@
                             <th><?=__('PTS')?></th>
                         </tr>
                         <tr>
-                            <td><a class="team" href="#"><?=__('Alashkert')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>52</span></td>
-                        </tr>
-                        <tr>
                             <td><a class="team" href="#"><?=__('Shirak')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>43</span></td>
+                            <td><span>8</span></td>
+                            <td><span>17</span></td>
                         </tr>
                         <tr>
-                            <td><a class="team" href="#"><?=__('Pyunik')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>41</span></td>
-                        </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Gandzasar-Kapan')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>40</span></td>
-                        </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Ararat')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>34</span></td>
-                        </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Mika')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>29</span></td>
+                            <td><a class="team" href="#"><?=__('Alashkert')?></a></td>
+                            <td><span>8</span></td>
+                            <td><span>15</span></td>
                         </tr>
                         <tr class="active">
                             <td><a class="team" href="#"><?=__('Banants')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>29</span></td>
+                            <td><span>8</span></td>
+                            <td><span>12</span></td>
                         </tr>
                         <tr>
-                            <td><a class="team" href="#"><?=__('Ulisses')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>2</span></td>
+                            <td><a class="team" href="#"><?=__('Gandzasar-Kapan')?></a></td>
+                            <td><span>8</span></td>
+                            <td><span>10</span></td>
                         </tr>
+                        <tr>
+                            <td><a class="team" href="#"><?=__('Pyunik')?></a></td>
+                            <td><span>8</span></td>
+                            <td><span>9</span></td>
+                        </tr>
+                        <tr>
+                            <td><a class="team" href="#"><?=__('Ararat')?></a></td>
+                            <td><span>8</span></td>
+                            <td><span>4</span></td>
+                        </tr>
+<!--                        <tr>-->
+<!--                            <td><a class="team" href="#">--><?//=__('Mika')?><!--</a></td>-->
+<!--                            <td><span>1</span></td>-->
+<!--                            <td><span>32</span></td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td><a class="team" href="#">--><?//=__('Ulisses')?><!--</a></td>-->
+<!--                            <td><span>1</span></td>-->
+<!--                            <td><span>2</span></td>-->
+<!--                        </tr>-->
                     </tbody>
                 </table>
             </div>
@@ -80,46 +80,56 @@
                             <th><?=__('GP')?></th>
                             <th><?=__('PTS')?></th>
                         </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Alashkert-2')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>56</span></td>
-                        </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Mika-2')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>42</span></td>
-                        </tr>
                         <tr class="active">
                             <td><a class="team" href="#"><?=__('Banants-2')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>38</span></td>
+                            <td><span>8</span></td>
+                            <td><span>24</span></td>
                         </tr>
                         <tr>
-                            <td><a class="team" href="#"><?=__('Pyunik-2')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>35</span></td>
-                        </tr>
-                        <tr>
-                            <td><a class="team" href="#"><?=__('Shirak-2')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>35</span></td>
+                            <td><a class="team" href="#"><?=__('Kotayk')?></a></td>
+                            <td><span>7</span></td>
+                            <td><span>16</span></td>
                         </tr>
                         <tr>
                             <td><a class="team" href="#"><?=__('Ararat-2')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>35</span></td>
+                            <td><span>8</span></td>
+                            <td><span>14</span></td>
                         </tr>
                         <tr>
-                            <td><a class="team" href="#"><?=__('Gandzasar-Kapan-2')?></a></td>
-                            <td><span>25</span></td>
+                            <td><a class="team" href="#"><?=__('Pyunik-2')?></a></td>
+                            <td><span>8</span></td>
                             <td><span>13</span></td>
                         </tr>
                         <tr>
-                            <td><a class="team" href="#"><?=__('Ulisses-2')?></a></td>
-                            <td><span>25</span></td>
-                            <td><span>11</span></td>
+                            <td><a class="team" href="#"><?=__('Gandzasar-Kapan-2')?></a></td>
+                            <td><span>7</span></td>
+                            <td><span>10</span></td>
                         </tr>
+                        <tr>
+                            <td><a class="team" href="#"><?=__('Alashkert-2')?></a></td>
+                            <td><span>8</span></td>
+                            <td><span>7</span></td>
+                        </tr>
+                        <tr>
+                            <td><a class="team" href="#"><?=__('Shirak-2')?></a></td>
+                            <td><span>8</span></td>
+                            <td><span>6</span></td>
+                        </tr>
+                        <tr>
+                            <td><a class="team" href="#"><?=__('Erebuni')?></a></td>
+                            <td><span>8</span></td>
+                            <td><span>0</span></td>
+                        </tr>
+<!--                        <tr>-->
+<!--                            <td><a class="team" href="#">--><?//=__('Mika-2')?><!--</a></td>-->
+<!--                            <td><span>1</span></td>-->
+<!--                            <td><span>0</span></td>-->
+<!--                        </tr>-->
+<!--                        <tr>-->
+<!--                            <td><a class="team" href="#">--><?//=__('Ulisses-2')?><!--</a></td>-->
+<!--                            <td><span>0</span></td>-->
+<!--                            <td><span>0</span></td>-->
+<!--                        </tr>-->
                     </tbody>
                 </table>
             </div>

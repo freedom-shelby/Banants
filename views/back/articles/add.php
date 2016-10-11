@@ -17,12 +17,12 @@ use Lang\Lang;
         <form method="post" enctype="multipart/form-data" id="form">
             <div class="panel-body">
                 <div class="group container-fluid">
-                    <div class="row col-sm-6 pull-right">
+                    <div class="row col-sm-5 pull-right">
                         <div class="form-group col-sm-13">
                             <label for="alias">Slug</label>
                             <input type="text" name="slug" class="form-control" id="slug" placeholder="Slug" required>
                         </div>
-                        <div class="form-group col-sm-9">
+                        <div class="form-group col-sm-7">
                             <label for="parentId">Select Parent</label>
                             <select name="parentId">
                                 <option value="0">
@@ -38,14 +38,31 @@ use Lang\Lang;
                                     <?endforeach?>
                                 <?endif?>
                             </select>
+                            <div class="checkbox form-group col-sm-13">
+                                <label>
+                                    <input type="checkbox" name="status" value="1" checked> Status
+                                </label>
+                            </div>
                         </div>
-                        <div class="checkbox-inline form-group col-sm-13">
+                        <div class="checkbox-inline form-group col-sm-5">
                             <label>
-                                <input type="checkbox" name="status" value="1"> Status
+                                <label>
+                                    <span>Default Image</span>
+                                    <img id="article-photo-url" src="" class="img-thumbnail" alt="Not Selected">
+                                    <input id="article-photo-id" type="text" name="photo-id" value="1" hidden>
+                                </label>
                             </label>
                         </div>
+                        <div class="row article-thumbnail">
+                            <div class="col-lg-12">
+                                <h1 class="page-header">Last Uploaded Images</h1>
+                            </div>
+                            <div id="photo-paginate" data-server-url="<?= \Helpers\Uri::makeRouteUri('back.server.photo')?>">
+                                <!-- отрисовка View для картинок с постраницей -->
+                            </div>
+                        </div>
                     </div>
-                    <div class="row col-sm-6 pull-left">
+                    <div class="row col-sm-7 pull-left">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
                             <?foreach(Lang::instance()->getLangs() as $iso => $lang):?>
@@ -96,18 +113,3 @@ use Lang\Lang;
     </div>
 </div>
 <!--End Container-->
-<script>
-    tinymce.init({
-        selector: '.tinymce',
-        height: 500,
-        plugins: [
-            'advlist autolink lists link image charmap print preview anchor',
-            'searchreplace visualblocks code fullscreen',
-            'insertdatetime media table contextmenu paste code'
-        ],
-        toolbar: 'insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image',
-        content_css: [
-
-        ]
-    });
-</script>

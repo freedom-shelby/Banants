@@ -71,7 +71,7 @@ class I18n extends Lang{
 		// Кешировка данных
 		$cache = new Cache();
 		$cache->setLocalPath($lang . '_I18n');
-//		$cache->load();
+		$cache->load();
 		if($cache->isValid()){
 			$items = json_decode($cache->getData(), true);
 		}else{
@@ -88,9 +88,8 @@ class I18n extends Lang{
 				$items[$entities[$trans['entity_id']]['text']] = $trans['text'];
 			}
 
-			//todo: Cacher@ miacnel
-//			$cache->setData(json_encode($items));
-//			$cache->save();
+			$cache->setData(json_encode($items));
+			$cache->save();
 		}
 
 		// Cache the translation table locally
@@ -127,9 +126,6 @@ if ( ! function_exists('__'))
 			$string = I18n::get($string, $lang);
 		}
 
-//echo '<pre>';
-//var_dump($lang);
-//var_dump($string);
 		return empty($values) ? $string : strtr($string, $values);
 	}
 }

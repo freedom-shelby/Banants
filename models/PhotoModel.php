@@ -13,12 +13,12 @@ class PhotoModel extends Eloquent
 {
     protected $table = 'photos';
 
-    public $timestamps = false;
+    public $timestamps = true;
 
 //    protected $hidden = ['pivot'];
 
 //    protected $guarded = ['id'];
 
-    protected $fillable = ['path'];
+    protected $fillable = ['path', 'title', 'desc', 'is_bound'];
 
 }

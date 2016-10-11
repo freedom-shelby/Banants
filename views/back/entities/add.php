@@ -12,7 +12,7 @@ use Lang\Lang;
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h1>Add Article</h1>
+            <h1>Add Entity</h1>
         </div>
         <form method="post" enctype="multipart/form-data" id="form">
             <div class="panel-body">

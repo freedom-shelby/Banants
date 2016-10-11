@@ -71,17 +71,24 @@ class Anons extends AbstractWidget{
     {
         $this->_param = json_decode($model->param, true);
 
-        // Матерялов из клуба
+        // Матерялов из клуба (1 ий матерял)
         $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))->descendants()->limit($this->_param['settings']['club_articles_count'])->get();
         foreach ($data as $item) {
             $this->_items[] = $item;
         }
 
-        // Матерялов из Бананца
+        // Матерялов из Бананца (1 ий и 2 ой матерял)
         $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))->descendants()->limit($this->_param['settings']['banants_articles_count'])->get();
         foreach ($data as $item) {
             $this->_items[] = $item;
         }
+
+
+//foreach ($this->_items as $item) {
+//    echo "<pre>";
+//    print_r($item->toArray());
+//}die;
+
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

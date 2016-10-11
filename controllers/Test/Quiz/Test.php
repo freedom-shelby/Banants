@@ -6,6 +6,7 @@ use Controller;
 use Quiz;
 use View;
 use Helpers\Arr;
+use User;
 
 class Test extends Controller {
 
@@ -14,8 +15,15 @@ class Test extends Controller {
 
 	public function anyIndex()
 	{
-		$quiz = (new Quiz)->setQuizId(self::CurrentQuizId)->setUserId(self::CurrentUserId)->find();
-
+//		$quiz = (new Quiz)->setQuizId(self::CurrentQuizId)->setUserId(self::CurrentUserId)->find();
+		$quiz = (new Quiz)->setQuizId(self::CurrentQuizId)->setUserId(User::instance()->getId())->find();
+		echo "<pre>";
+		print_r(User::instance()->getId());
+		echo "<pre>";
+		print_r(User::instance()->getIp());
+		echo "<pre>";
+		var_dump($quiz->isAnswered());
+//		die;
 //		if($quiz->isAnswered()){
 //			$this->redirect('http://banantstest/result');
 //		}
@@ -27,7 +35,7 @@ class Test extends Controller {
 
 	public function anyResult()
 	{
-		$quiz = (new Quiz)->setQuizId(self::CurrentQuizId)->setUserId(self::CurrentUserId)->find();
+		$quiz = (new Quiz)->setQuizId(self::CurrentQuizId)->setUserId(User::instance()->getId())->find();
 
 		$data = (int) Arr::get($this->getPostData(), 'quiz');
 

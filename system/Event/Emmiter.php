@@ -257,7 +257,7 @@ class Emmiter
             if(is_array($val)){
                 $this->getListOfAutoSubscribers($val,$data);
             }else{
-                $data[] = str_replace(EXT,'',str_replace('Subscribers'.DIRECTORY_SEPARATOR,'',$key));
+                $data[] = str_replace('/','\\',str_replace(EXT,'',str_replace('Subscribers'.DIRECTORY_SEPARATOR,'',$key)));
 
             }
         }

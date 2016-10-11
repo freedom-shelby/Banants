@@ -20,13 +20,24 @@ $capsule = new Capsule();
 $capsule->addConnection([
     'driver'    => 'mysql',
     'host'      => 'localhost',
-    'database'  => 'horizor0_fcbanants',
+    'database'  => 'banancam_bananc',
     'username'  => 'root',
     'password'  => '',
     'charset'   => 'utf8',
     'collation' => 'utf8_general_ci',
     'prefix'    => '',
 ],'default');
+
+//$capsule->addConnection([
+//    'driver'    => 'mysql',
+//    'host'      => 'www.horizondvp.org',
+//    'database'  => 'horizor0_fcbanants',
+//    'username'  => 'horizor0_banants',
+//    'password'  => 'sKpER=e!Ph7J',
+//    'charset'   => 'utf8',
+//    'collation' => 'utf8_general_ci',
+//    'prefix'    => '',
+//],'default');
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;

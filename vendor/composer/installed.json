@@ -1201,7 +1201,7 @@
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/ivliev/imagefly/zipball/b3373ae8ea776baaf68b95f37f9186fdfcf4f657",
+            "url": "https://api.github.com/repos/ivliev/imagefly/zipball/1e19ddd9118cb8acfa2812aa0e709400dfd28cab",
             "reference": "b3373ae8ea776baaf68b95f37f9186fdfcf4f657",
             "shasum": ""
         },
@@ -1559,5 +1559,51 @@
             "imagick",
             "laravel"
         ]
+    },
+    {
+        "name": "illuminate/pagination",
+        "version": "v5.0.33",
+        "version_normalized": "5.0.33.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/illuminate/pagination.git",
+            "reference": "cb0a9730ae986c4b343eaa59ab3f179447c6b308"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/illuminate/pagination/zipball/cb0a9730ae986c4b343eaa59ab3f179447c6b308",
+            "reference": "cb0a9730ae986c4b343eaa59ab3f179447c6b308",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/contracts": "5.0.*",
+            "illuminate/support": "5.0.*",
+            "php": ">=5.4.0"
+        },
+        "time": "2015-03-26 17:28:59",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Illuminate\\Pagination\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylorotwell@gmail.com"
+            }
+        ],
+        "description": "The Illuminate Pagination package.",
+        "homepage": "http://laravel.com"
     }
 ]

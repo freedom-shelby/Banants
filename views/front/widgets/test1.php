@@ -2,7 +2,7 @@
 /**
  *
  * Created by PhpStorm.
- * User: Rob
+ * User: Arsen
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
@@ -21,13 +21,13 @@ use Ivliev\Imagefly\Imagefly;
                     <div id="item_tabs_list1">
                         <div class="team_item">
                             <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/TIto_Ramalio.png', 'w140-q52')?>" alt="coach1" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Artur_Voskanyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Tito')?> <?=__('Ramalio')?></h3>
+                                <h3><?=__('Artur')?> <?=__('Voskanyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Head coach')?></h4>
@@ -35,13 +35,13 @@ use Ivliev\Imagefly\Imagefly;
                         </div>
                         <div class="team_item">
                             <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Nando.png', 'w140-q52')?>" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Vahe_Gevorgyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Nando')?></h3>
+                                <h3><?=__('Vahe')?> <?=__('Gevorgyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Coach')?></h4>
@@ -51,25 +51,11 @@ use Ivliev\Imagefly\Imagefly;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Aram_Voskanyan.png', 'w140-q52')?>" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Artur_Hovhannisyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Aram')?> <?=__('Voskanyan')?></h3>
-                            </div>
-                            <div class="team_item_bottom">
-                                <h4><?=__('Coach')?></h4>
-                            </div>
-                        </div>
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Lois_Rodriges.png', 'w140-q52')?>" alt="player" />
-                                </div>
-                            </div>
-                            <div class="team_item_title">
-                                <h3><?=__('Lois')?> <?=__('Rodriges')?></h3>
+                                <h3><?=__('Artur')?> <?=__('Hovhannisyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Physical trainer')?></h4>
@@ -77,30 +63,16 @@ use Ivliev\Imagefly\Imagefly;
                         </div>
                         <div class="team_item">
                             <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Luis_Paskual.png', 'w140-q52')?>" alt="player" />
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Vladimir_Vardanyan.png', 'w140-q52')?>" alt="player" />
                                 </div>
                             </div>
                             <div class="team_item_title">
-                                <h3><?=__('Luis')?> <?=__('Paskual')?></h3>
+                                <h3><?=__('Vladimir')?> <?=__('Vardanyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
                                 <h4><?=__('Goalkeeper coach')?></h4>
-                            </div>
-                        </div>
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Xose_Migel.png', 'w140-q52')?>" alt="player" />
-                                </div>
-                            </div>
-                            <div class="team_item_title">
-                                <h3><?=__('Xose')?> <?=__('Migel')?></h3>
-                            </div>
-                            <div class="team_item_bottom">
-                                <h4><?=__('Analyst')?></h4>
                             </div>
                         </div>
                         <div class="team_item">
@@ -129,20 +101,6 @@ use Ivliev\Imagefly\Imagefly;
                             </div>
                             <div class="team_item_bottom">
                                 <?=__('Doctor')?>
-                            </div>
-                        </div>
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-spain.png" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Pablo_de_la_Tore.png', 'w140-q52')?>" alt="player" />
-                                </div>
-                            </div>
-                            <div class="team_item_title">
-                                <h3><?=__('Pablo')?> <?=__('de la Tore')?></h3>
-                            </div>
-                            <div class="team_item_bottom">
-                                <h4><?=__('Restoring coach')?></h4>
                             </div>
                         </div>
                         <div class="team_item">
@@ -215,20 +173,6 @@ use Ivliev\Imagefly\Imagefly;
 <!--                                <h4>--><?//=__('')?><!--</h4>-->
 <!--                            </div>-->
 <!--                        </div>-->
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
-                                <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/premier/Hrant_Gevorgyan.png', 'w140-q52')?>" alt="player" />
-                                </div>
-                            </div>
-                            <div class="team_item_title">
-                                <h3><?=__('Hrant')?> <?=__('Gevorgyan')?></h3>
-                            </div>
-                            <div class="team_item_bottom">
-                                <h4><?=__('Translator')?></h4>
-                            </div>
-                        </div>
                     </div><!--item_tabs_list1-->
                 </div><!--item_tabs-->
             </div>

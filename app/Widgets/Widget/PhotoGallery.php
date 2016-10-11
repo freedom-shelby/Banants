@@ -14,6 +14,7 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use PhotoGalleryModel;
 
 class PhotoGallery extends AbstractWidget{
 
@@ -42,6 +43,12 @@ class PhotoGallery extends AbstractWidget{
      */
     protected $_param;
 
+    /**
+     * Галерий
+     * @type array[PhotoGalleryModel]
+     */
+    protected $_items = [];
+
 
     public function getPosition()
     {
@@ -55,11 +62,20 @@ class PhotoGallery extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('items', $this->_items);
     }
 
     public function init($model)
     {
+        $data = PhotoGalleryModel::orderBy('id', 'desc')->limit(6)->get();
+
+        foreach ($data as $item) {
+            $this->_items[] = $item;
+        }
+
+        $this->_items = array_chunk($this->_items, 3, true);
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

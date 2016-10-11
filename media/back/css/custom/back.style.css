@@ -16,6 +16,10 @@
     background: #EBEBEB;
 }
 
+.article-node select{
+    width: 250px;
+}
+
 .invisible-article{
     display: none;
 }
@@ -58,7 +62,8 @@ ol.sortable,ol.sortable ol {
     padding: 3px;
 }
 
-.sortable li div span.move{
+.sortable li div span.move,
+.sortable-table li div span.move{
     cursor: move;
 }
 
@@ -103,6 +108,11 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
 
 .table.list-items img{
     max-width: 100px;
+    background-color: #eeeeee;
+}
+
+.team-list .table.list-items img{
+    width: 30px;
 }
 
 .table.list-items .second-item{
@@ -114,4 +124,254 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+div.mce-fullscreen {
+    margin-top: 50px;
+}
+
+.article-thumbnail{
+    width: 450px;
+}
+
+.article-thumbnail .col-lg-4{
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+/** Loader **/
+.loader {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+    url('http://i.stack.imgur.com/FhHRx.gif')
+    50% 50%
+    no-repeat;
+}
+
+body.loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .loader {
+    display: block;
+}
+
+/* Dropdown */
+.dropdown-submenu{
+    position:relative;
+}
+
+.dropdown-submenu>.dropdown-menu{
+    top:0;
+    left:100%;
+    margin-top:-6px;
+    margin-left:-1px;
+    -webkit-border-radius:0 6px 6px 6px;
+    -moz-border-radius:0 6px 6px 6px;
+    border-radius:0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu{
+    display:block;
+}
+
+.dropdown-submenu>a:after{
+    display:block;
+    content:" ";
+    float:right;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+    border-width:5px 0 5px 5px;
+    border-left-color:#cccccc;
+    margin-top:5px;
+    margin-right:-10px;
+}
+
+.dropdown-submenu:hover>a:after{
+    border-left-color:#ffffff;
+}
+
+.dropdown-submenu.pull-left{
+    float:none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;
+     margin-left:10px;
+     -webkit-border-radius:6px 0 6px 6px;
+     -moz-border-radius:6px 0 6px 6px;
+     border-radius:6px 0 6px 6px;
+ }
+/* #Dropdown */
+/** Photo Gallery **/
+.photo-gallery #photo-paginate{
+    float: left;
+    width: 65%;
+    min-height: 12em;
+}
+
+.gallery.custom-state-active {
+    background: #eee;
+}
+.gallery li {
+    float: left;
+    width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center;
+}
+.gallery li h5 {
+    margin: 0 0 0.4em;
+    cursor: move;
+}
+.gallery li a {
+    float: right;
+}
+.gallery li a.ui-icon-zoomin {
+    float: left;
+}
+.gallery li img {
+    width: 100%;
+    cursor: move;
+}
+
+#photo-gallery {
+    float: right;
+    width: 32%;
+    min-height: 18em;
+    padding: 1%;
+}
+#photo-gallery h4 {
+    line-height: 16px;
+    margin: 0 0 0.4em;
+}
+#photo-gallery h4 .ui-icon {
+    float: left;
+}
+#photo-gallery .gallery h5 {
+    display: none;
+}
+/** #Photo Gallery **/
+
+/** Round-robin Table**/
+.round-robin table {
+    background: #FFF;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+.round-robin table thead tr {
+    border-bottom: 1px solid #ccc;
+}
+.round-robin table tr {
+    vertical-align: middle !important;
+    line-height: 2rem !important;
+    margin-bottom: 3px;
+}
+
+.round-robin table th, .round-robin table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.round-robin table th {
+    padding: 5px 10px;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: linear-gradient(to bottom, #fff, #eee);
+}
+
+.round-robin table tr {
+    vertical-align: middle !important;
+    line-height: 2rem !important;
+    margin-bottom: 3px;
+}
+
+.round-robin table tr td input{
+    width: 42px;
+}
+/** #Round-robin Table**/
+
+
+/* Hovik */
+
+.scores{
+    overflow: hidden;
+}
+.scores > input,
+.show-inputs > input{
+    height: 34px;
+    width: 48%;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.scores span{
+    width: 4%;
+    float: left;
+}
+
+.dates{
+    margin: 10px 0;
+}
+.scores-additional{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+}
+.scores-additional.add{
+    padding:  0 3px 0 0;
+}
+.scores-additional.pen{
+    margin-left: -4px;
+    padding:  0 0 0 3px;
+}
+.scores-additional .call{
+    font-size: 10px;
+    padding: 6px 3px;
+    display: block;
+}
+.show-add, .show-pen{
+    display: none;
+}
+.show-inputs{
+    margin: 10px 0;
+}
+.scores-additional .show-inputs > input{
+    height: 34px;
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+@media (min-width: 320px) and (max-width: 992px) {
+
+    .scores{
+        margin-bottom: 10px;
+    }
+    .select-team{
+        margin-bottom: 10px;
+    }
+    .scores-additional{
+        margin-bottom: 10px;
+    }
+    .scores > input,
+    .show-inputs > input{
+        width: 48%;
+    }
+    .scores span{
+        text-align: center;
+        width: 4%;
+    }
 }

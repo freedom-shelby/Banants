@@ -11,10 +11,26 @@ class QuizModel extends Eloquent {
 
     protected $table = 'quizs';
 
-    public $timestamps = false;
+    public $timestamps = true;
 
     protected $guarded = ['id'];
 
+    // this is a recommended way to declare event handlers
+    protected static function boot() {
+        parent::boot();
+
+        static::deleting(function($model) { // before delete() method call this
+
+            foreach ($model->answers()->get() as $item) {
+                $item->entities()->delete();
+            }
+
+            $model->answers()->delete();
+            $model->responses()->delete();
+            $model->entities()->delete();
+            // do the rest of the cleanup...
+        });
+    }
 
     public function answers()
     {

@@ -14,6 +14,11 @@ class Base extends Controller
 
     public function __construct(array $requestParams = [])
     {
+//        error_reporting(E_ALL);
+//        ini_set('display_errors', 'On');
+//
+//        if( App::instance()->http()->getIpAddress() != '91.204.190.4') throw new \Http\Exception(404);
+
         parent::__construct($requestParams);
 
 //        $this->settings = \Setting::instance()->getAllGroups();

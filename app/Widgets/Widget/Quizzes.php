@@ -15,6 +15,8 @@ restrictAccess();
 use Widgets\AbstractWidget;
 use View;
 use Quiz;
+use User;
+use Setting;
 
 class Quizzes extends AbstractWidget{
 
@@ -67,9 +69,7 @@ class Quizzes extends AbstractWidget{
 
     public function init($model)
     {
-        //todo: PARAM -ic stana ID -ner@
-        //todo: Quic ID -n Settings-ic
-        $this->_item = (new Quiz)->setQuizId(1)->setUserId(1)->find();
+        $this->_item = (new Quiz)->setQuizId(Setting::instance()->getSettingVal('widgets.quizz'))->setUserId(User::instance()->getId())->find();
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

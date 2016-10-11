@@ -15,7 +15,7 @@
     </div>
     <div class="banner_team1_text">
         <span>15.10</span>
-        <span style="margin-top: 10px; display: block">15:00</span>
+        <span style="margin-top: 10px; display: block">14:00</span>
     </div>
     <div class="team2_logo">
         <img src="/media/assets/images/logo_main.png" alt="logo_main" />

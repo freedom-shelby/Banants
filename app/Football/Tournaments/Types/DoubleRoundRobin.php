@@ -131,4 +131,6 @@ class DoubleRoundRobin extends AbstractType {
     {
         // todo::
     }
+
+    // todo:: Add match and generateTable()
 } 

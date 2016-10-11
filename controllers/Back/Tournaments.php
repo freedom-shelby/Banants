@@ -289,7 +289,9 @@ class Tournaments extends Back
         }
 
         if (Arr::get($this->getPostData(),'submit') !== null) {
-
+echo "<pre>";
+print_r($this->getPostData());
+die;
             $data = Arr::extract($this->getPostData(), ['team', 'current_round']);
             // Транзакция для Записание данных в базу
             try {

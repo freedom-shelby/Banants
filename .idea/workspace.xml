@@ -1619,8 +1619,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/view_create.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/view_operations.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpmyadmin/webapp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="d08a7e40-bf66-43d8-a26e-9288a7320c11" name="New changelist" comment="" />
@@ -1798,8 +1796,8 @@
           <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+                <state relative-caret-position="816">
+                  <caret line="226" column="8" selection-start-line="226" selection-start-column="8" selection-end-line="226" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -2486,14 +2484,7 @@
       <workItem from="1475484945373" duration="7518000" />
       <workItem from="1475566968432" duration="31527000" />
       <workItem from="1475732956189" duration="26471000" />
-      <workItem from="1476083964321" duration="21954000" />
-    </task>
-    <task id="LOCAL-00059" summary="Интеграция Меню в Админку">
-      <created>1459246730070</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1459246730070</updated>
+      <workItem from="1476083964321" duration="21993000" />
     </task>
     <task id="LOCAL-00060" summary="Интеграция Меню в Админку">
       <created>1459289424500</created>
@@ -2831,11 +2822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476172707189</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="Интеграция Меню в Админку">
+      <created>1476174302825</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1476174302825</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="381217000" />
+    <option name="totallyTimeSpent" value="381256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3473,8 +3471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+        <state relative-caret-position="816">
+          <caret line="226" column="8" selection-start-line="226" selection-start-column="8" selection-end-line="226" selection-end-column="8" />
           <folding />
         </state>
       </provider>

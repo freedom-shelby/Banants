@@ -12,8 +12,10 @@ namespace Widgets\Widget;
 restrictAccess();
 
 
+use Football\Tournaments\Tournament;
 use Widgets\AbstractWidget;
 use View;
+use TournamentModel;
 
 class TournamentTable extends AbstractWidget{
 
@@ -42,6 +44,11 @@ class TournamentTable extends AbstractWidget{
      */
     protected $_param;
 
+    /**
+     * Матеряли
+     * @type array[Tournament]
+     */
+    protected $_items = [];
 
     public function getPosition()
     {
@@ -55,12 +62,22 @@ class TournamentTable extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('items', $this->_items);
     }
 
     public function init($model)
     {
         $this->_param = json_decode($model->param, true);
+
+        foreach ($this->_param['items'] as $item)
+        {
+            $tmp = TournamentModel::find($item);
+            $this->_items[] = Tournament::factory($tmp);
+
+            unset($tmp);
+        }
+
 
 
         $this->_position = $model->position;
@@ -68,8 +85,5 @@ class TournamentTable extends AbstractWidget{
         $this->_template = $model->template;
 
         $this->_type = $model->type;
-        echo "<pre>";
-        print_r($this->_param);
-        die;
     }
 }

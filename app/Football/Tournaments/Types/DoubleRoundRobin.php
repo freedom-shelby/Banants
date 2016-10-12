@@ -13,6 +13,7 @@ restrictAccess();
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Helpers\Arr;
+use View;
 
 class DoubleRoundRobin extends AbstractType {
 
@@ -34,9 +35,11 @@ class DoubleRoundRobin extends AbstractType {
      * @param $current_round
      * @param $max_rounds
      */
-    public function __construct($model,$id,$type,$teams,$current_round,$max_rounds){
+    public function __construct($model,$id,$name,$fullName,$type,$teams,$current_round,$max_rounds){
         $this->_model = $model;
         $this->_id = $id;
+        $this->_name = $name;
+        $this->_fullName = $fullName;
         $this->_type = $type;
         $this->_teams = $teams;
         $this->_current_round = $current_round;
@@ -50,7 +53,7 @@ class DoubleRoundRobin extends AbstractType {
      */
     public static function factory($model){
 
-        $item = new self($model,$model->id,$model->type(),$model->tableTeams(),$model->current_round,$model->max_rounds);
+        $item = new self($model,$model->id,$model->name(),$model->fullName(),$model->type(),$model->tableTeams(),$model->current_round,$model->max_rounds);
         return $item;
     }
 
@@ -115,6 +118,12 @@ class DoubleRoundRobin extends AbstractType {
 //            $optimized = $this->optimizeTeamStatistic($value);
 //            $this->getTeams()->find($key)->update($optimized);
 //        }
+    }
+
+    public function renderBasicWidget()
+    {
+        return View::make('front/content/football/tournaments/basic')
+            ->with('items', $this->getTeams());
     }
 
     public function sortPositions()

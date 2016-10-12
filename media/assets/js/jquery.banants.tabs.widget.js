@@ -136,7 +136,7 @@
             }
 
             obj.find('.widget-tabs-body > div').removeClass('active');
-            obj.find('.widget-tabs-body > div.tab' + (activeItemIndex+1)).addClass('active');
+            obj.find('.widget-tabs-body > div.tab-' + (activeItemIndex+1)).addClass('active');
 
             if(options.autoHidePagination && tabs.length == 1){
                 obj.find('.widget-pagination').css('display','none');

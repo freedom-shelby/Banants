@@ -29,6 +29,8 @@ abstract class AbstractType {
 
     protected $_model;
     protected $_id;
+    protected $_name;
+    protected $_fullName;
     protected $_teams;
     protected $_current_round;
     protected $_max_rounds;
@@ -51,6 +53,22 @@ abstract class AbstractType {
     public function getId()
     {
         return $this->_id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->_name;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFullName()
+    {
+        return $this->_fullName;
     }
 
     /**

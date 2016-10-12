@@ -66,28 +66,6 @@ use Helpers\Uri;
                         </select>
                     </div>
                 </form>
-<!--                <ol class="sortable-table ui-sortable">-->
-<!---->
-<!--                    --><?// foreach($teams as $team): ?>
-<!--                        <li id="node_--><?//= $team->id ?><!--">-->
-<!--                            <div class="node-item"><a href=""></a>-->
-<!--                                <span class="glyphicon glyphicon-move move" aria-hidden="true"></span>-->
-<!--                                <a href="">-->
-<!--                                    --><?//= __($team->team()->text()) ?>
-<!--                                </a>-->
-<!--                                <div class="pull-right">-->
-<!--                                    <a href="">-->
-<!--                                    <i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>-->
-<!--                                    </a>-->
-<!--                                    <a class="remove-confirm" href="">-->
-<!--                                    <i class="glyphicon glyphicon-remove-sign"></i>-->
-<!--                                    </a>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </li>-->
-<!--                    --><?// endforeach; ?>
-<!---->
-<!--                </ol>-->
             </div>
             <div class="panel-footer form-group col-sm-9">
                 <button type="submit" class="btn btn-primary" form="submit" name="submit">Save</button>

@@ -17,7 +17,9 @@ use Helpers\Uri;
 
                 <div class="team-line row">
                     <div class="col-md-5">
-                        <select name="" id="home-team-1" class="select-team form-control"></select>
+                        <select name="" id="home-team-1" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
 
                     <div class="col-md-2">
@@ -55,13 +57,17 @@ use Helpers\Uri;
                     </div>
 
                     <div class="col-md-5">
-                        <select name="" id="away-team-1" class="select-team form-control"></select>
+                        <select name="" id="away-team-1" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
                 </div>
             <hr>
         <div class="team-line row">
                     <div class="col-md-5">
-                        <select name="" id="" class="select-team form-control"></select>
+                        <select name="" id="home-team-2" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
 
                     <div class="col-md-2">
@@ -99,13 +105,17 @@ use Helpers\Uri;
                     </div>
 
                     <div class="col-md-5">
-                        <select name="" id="" class="select-team form-control"></select>
+                        <select name="" id="home-away-2" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
                 </div>
             <hr>
             <div class="team-line row">
                     <div class="col-md-5">
-                        <select name="" id="" class="select-team form-control"></select>
+                        <select name="" id="home-team-3" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
 
                     <div class="col-md-2">
@@ -143,7 +153,9 @@ use Helpers\Uri;
                     </div>
 
                     <div class="col-md-5">
-                        <select name="" id="" class="select-team form-control"></select>
+                        <select name="" id="home-away-3" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
                 </div>
             <hr>
@@ -151,10 +163,9 @@ use Helpers\Uri;
         </div>
 	</div>
 
-
 <script type="text/javascript">
     $(function () {
-        console.log("ready");
+        console.log("ready!!!");
         $('#datetimepicker1').datetimepicker();
 
         $('.call-additional').on('click', function(){
@@ -165,29 +176,62 @@ use Helpers\Uri;
         });
 
         var teams = ['team-1', 'team-2', 'team-3', 'team-4', 'team-5', 'team-6', 'team-7', 'team-8'];
-
+        var hidden_teams = [];
         for(var i = 0; i < teams.length; i++){
             $('.select-team').append(
                 '<option value="' + teams[i] + '">'  + teams[i] +  '</option>'
             );
         }
-        $('.select-team').on('change', function () {
-            var selected_team = $(this).val();
-            $(this).find(':selected').addClass('selected')
-                .siblings('option').removeClass('selected');
 
-            $(this).find("option:not(.selected)").show();
-            console.log($(this).find("option:not(.selected)").val());
+            $('.select-team').on('change', function () {
 
+                var selected_team = $(this).val();
 
-            $('.select-team').not(this).find("option").each(function() {
+                // store selected team in array
+                hidden_teams.push(selected_team);
 
-                if($(this).val() == selected_team){
-                    console.log($(this).val());
-                    $(this).hide();
+                // add 'selected' class to selected element
+                $(this).find(':selected').addClass('selected')
+                    .siblings('option').removeClass('selected');
+
+                // hide selected element from all elements
+                // except the current one
+                $('.select-team').not(this).each(function(){
+
+                    $(this).find("option").each(function(){
+                        if($(this).val() == selected_team){
+                            $(this).hide();
+                        }
+                    });
+                });
+
+                // check all 'option' elements in other 'select' tags
+                $('.select-team').not(this).find("option").each(function(i, el){
+                    var self = $(el);
+                    if(self.hasClass("selected")){
+                        self.hide();
+                    }
+                    if($.inArray($(this).val(), hidden_teams) == -1){//if not in array 'hidden_teams' show
+                        $('[value=' + self.val()+']').show();
+                    }
+                    if($.inArray($(this).val(), hidden_teams) != -1){//if not in array 'hidden_teams' hide
+                        $('[value=' + self.val()+']').hide();
+                    }
+
+                });
+                var selected_teams =[];
+                $('.selected').each(function(i, el){
+                    var self = $(el);
+                    selected_teams[i] = self.val();
+                });
+                for(var j = 0; j < hidden_teams.length; j++) {
+                    if($.inArray(hidden_teams[j], selected_teams) == -1){
+                        $('[value=' + hidden_teams[j]+']').show();
+                        hidden_teams.splice($.inArray(hidden_teams[j],hidden_teams) , 1 );
+                    }
                 }
+
             });
 
-        });
     });
 </script>

@@ -60,10 +60,16 @@ class TournamentTable extends AbstractWidget{
 
     public function init($model)
     {
+        $this->_param = json_decode($model->param, true);
+
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
-        $this->_param = $model->param;
+
         $this->_type = $model->type;
+        echo "<pre>";
+        print_r($this->_param);
+        die;
     }
 }

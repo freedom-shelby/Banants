@@ -20,8 +20,6 @@
                 </div>
             <? endforeach ?>
 
-<!--            <div class="tab0 active"><div><span>--><?//=__('Premier League')?><!--</span></div></div>-->
-<!--            <div class="tab1"><div><span>--><?//=__('First League')?><!--</span></div></div>-->
         </div>
     </div>
     <div class="widget-body">
@@ -57,4 +55,4 @@
         </div>
 
     </div>
-</div><!-- tournament_table -->
+</div>

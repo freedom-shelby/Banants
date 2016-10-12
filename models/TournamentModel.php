@@ -66,4 +66,12 @@ class TournamentModel extends Eloquent
         return $this->belongsTo('PhotoModel', 'photo_id')->first();
     }
 
+    /**
+     * Туры
+     */
+    public function events()
+    {
+        return $this->hasMany('EventModel', 'tournament_id');
+    }
+
 }

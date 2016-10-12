@@ -284,7 +284,7 @@ class Tournaments extends Back
 
         $model = TournamentModel::find($id);
         $item = Tournament::factory($model);
-//        $round = Tournament::factory($model);
+        $round = $item->events()->whereRound($roundNumber);
 
         if (empty($item)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Model']));

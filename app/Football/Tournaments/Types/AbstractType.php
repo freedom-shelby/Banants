@@ -114,6 +114,8 @@ abstract class AbstractType {
 
         $this->_model = $model;
         $this->_id = $model->id;
+        $this->_name = $model->name();
+        $this->_fullName = $model->fullName();
         $this->_type = $model->type();
         $this->_teams = $model->tableTeams();
         $this->_current_round = $model->current_round;

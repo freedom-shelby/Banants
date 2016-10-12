@@ -78,12 +78,9 @@ class TournamentTable extends AbstractWidget{
             unset($tmp);
         }
 
-
-
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
-
         $this->_type = $model->type;
     }
 }

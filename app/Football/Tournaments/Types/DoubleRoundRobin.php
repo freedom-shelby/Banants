@@ -29,21 +29,9 @@ class DoubleRoundRobin extends AbstractType {
     /**
      * Конструктор
      * @param $model
-     * @param $id
-     * @param $teams
-     * @param $type
-     * @param $current_round
-     * @param $max_rounds
      */
-    public function __construct($model,$id,$name,$fullName,$type,$teams,$current_round,$max_rounds){
-        $this->_model = $model;
-        $this->_id = $id;
-        $this->_name = $name;
-        $this->_fullName = $fullName;
-        $this->_type = $type;
-        $this->_teams = $teams;
-        $this->_current_round = $current_round;
-        $this->_max_rounds = $max_rounds;
+    public function __construct($model){
+        $this->init($model);
     }
 
     /**
@@ -53,7 +41,7 @@ class DoubleRoundRobin extends AbstractType {
      */
     public static function factory($model){
 
-        $item = new self($model,$model->id,$model->name(),$model->fullName(),$model->type(),$model->tableTeams(),$model->current_round,$model->max_rounds);
+        $item = new self($model);
         return $item;
     }
 

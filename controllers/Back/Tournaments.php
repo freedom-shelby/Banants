@@ -280,9 +280,11 @@ class Tournaments extends Back
     public function anyEditRound()
     {
         $id = (int) $this->getRequestParam('id') ?: null;
+        $roundNumber = (int) $this->getRequestParam('number') ?: null;
 
         $model = TournamentModel::find($id);
         $item = Tournament::factory($model);
+//        $round = Tournament::factory($model);
 
         if (empty($item)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Model']));

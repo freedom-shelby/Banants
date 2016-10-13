@@ -221,13 +221,13 @@ use Helpers\Uri;
             $(this).closest('.scores-additional').siblings('.show-pen').slideToggle();
         });
 
-        var teamModelss = <?= $teams ?>;
+        var teamModels = <?= $teams ?>;
         var teams = {};
         var hidden_teams = [];
 //        var teamCounts = Object.keys(teams).length;
 
-        for (var key in teamModelss) {
-            teams[key]= teamModelss[key]["entity"]["text"] ;
+        for (var key in teamModels) {
+            teams[key]= teamModels[key]["entity"]["text"] ;
         }
 
         for (var key in teams) {

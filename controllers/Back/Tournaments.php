@@ -326,7 +326,7 @@ die;
             }
         }
 
-        $teams = $item->getLazyTeamModels();
+        $teams = $item->getLazyModelForTeams();
 
         $this->layout->content = View::make('back/tournaments/editRound')
             ->with('item', $item)

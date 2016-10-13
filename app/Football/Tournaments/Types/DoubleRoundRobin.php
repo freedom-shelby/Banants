@@ -50,7 +50,7 @@ class DoubleRoundRobin extends AbstractType {
         return $this->_teams->orderBy('pos')->get()->keyBy('id');
     }
 
-    public function getLazyTeamModels()
+    public function getLazyModelForTeams()
     {
         return $this->_teamModels->with('entity')->orderBy('pos')->get()->keyBy('id');
     }

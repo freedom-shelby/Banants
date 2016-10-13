@@ -19,200 +19,204 @@ use Helpers\Uri;
 <?//=  print_r($teams->toArray(), true); ?>
 <?=  $teams ?>
 </pre>
-
-        <? for ($i = 0; $i < $item->maxEventsPerRound(); $i++): ?>
-            <!--            --><?//= $events[$i] ?>
-            <div class="team-line row">
-                <div class="col-md-5">
-                    <select name="" id="home-team-1" class="select-team form-control">
-                        <option value="0">Select Team</option>
-                    </select>
-                </div>
-
-                <div class="col-md-2">
-                    <div class="scores">
-                        <input type="number" value="" min="0">
-                        <span> - </span>
-                        <input type="number" value="" min="0">
+        <form action="" method="post" id="submit">
+            <? for ($i = 0; $i < $item->maxEventsPerRound(); $i++): ?>
+                <?//= $events[$i] ?>
+                <div class="team-line row">
+                    <div class="col-md-5">
+                        <select name="events[<?= $i ?>][home][id]" id="home-team-1" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
-                    <div class="dates">
-                        <div class='input-group date' id='datetimepicker1'>
-                            <input type='text' class="form-control" />
-                            <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
+                    <div class="col-md-2">
+                        <div class="scores">
+                            <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
+                            <span> - </span>
+                            <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
+                        </div>
+                        <div class="dates">
+                            <div class='input-group date datetimepicker'>
+                                <input type='text' name="events[<?= $i ?>][date]" class="form-control" />
+                                <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                            </div>
+                        </div>
+                        <div class="scores-additional add">
+                            <a href="#" class="call call-additional btn btn-primary">Additional Time</a>
+                        </div>
+                        <div class="scores-additional pen">
+                            <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
+                        </div>
+                        <div class="show-inputs show-add">
+                            <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                            <span> - </span>
+                            <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                        </div>
+                        <div class="show-inputs show-pen">
+                            <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                            <span> - </span>
+                            <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
                         </div>
                     </div>
-                    <div class="scores-additional add">
-                        <a href="#" class="call call-additional btn btn-primary">Additional Time</a>
-                    </div>
-                    <div class="scores-additional pen">
-                        <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
-                    </div>
-                    <div class="show-inputs show-add">
-                        <input type="number" value="" min="0">
-                        <span> - </span>
-                        <input type="number" value="" min="0">
-                    </div>
-                    <div class="show-inputs show-pen">
-                        <input type="number" value="" min="0">
-                        <span> - </span>
-                        <input type="number" value="" min="0">
-                    </div>
-                </div>
 
-                <div class="col-md-5">
-                    <select name="" id="away-team-1" class="select-team form-control">
-                        <option value="0">Select Team</option>
-                    </select>
-                </div>
-            </div>
-        <? endfor ?>
-
-        <div class="team-line row">
-            <div class="col-md-5">
-                <select name="" id="home-team-1" class="select-team form-control">
-                    <option value="0">Select Team</option>
-                </select>
-            </div>
-
-            <div class="col-md-2">
-                <div class="scores">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-                <div class="dates">
-                    <div class='input-group date' id='datetimepicker1'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
+                    <div class="col-md-5">
+                        <select name="events[<?= $i ?>][away][id]" id="away-team-1" class="select-team form-control">
+                            <option value="0">Select Team</option>
+                        </select>
                     </div>
                 </div>
-                <div class="scores-additional add">
-                    <a href="#" class="call call-additional btn btn-primary">Additional Time</a>
-                </div>
-                <div class="scores-additional pen">
-                    <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
-                </div>
-                <div class="show-inputs show-add">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-                <div class="show-inputs show-pen">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-            </div>
-
-            <div class="col-md-5">
-                <select name="" id="away-team-1" class="select-team form-control">
-                    <option value="0">Select Team</option>
-                </select>
-            </div>
+            <? endfor ?>
+        </form>
+        <div class="panel-footer form-group col-md-12">
+            <button type="submit" class="btn btn-primary" form="submit" name="submit">Save</button>
         </div>
-        <hr>
-        <div class="team-line row">
-            <div class="col-md-5">
-                <select name="" id="home-team-2" class="select-team form-control">
-                    <option value="0">Select Team</option>
-                </select>
-            </div>
-
-            <div class="col-md-2">
-                <div class="scores">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-                <div class="dates">
-                    <div class='input-group date' id='datetimepicker1'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
-                    </div>
-                </div>
-                <div class="scores-additional add">
-                    <a href="#" class="call call-additional btn btn-primary">Additional Time</a>
-                </div>
-                <div class="scores-additional pen">
-                    <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
-                </div>
-                <div class="show-inputs show-add">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-                <div class="show-inputs show-pen">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-            </div>
-
-            <div class="col-md-5">
-                <select name="" id="home-away-2" class="select-team form-control">
-                    <option value="0">Select Team</option>
-                </select>
-            </div>
-        </div>
-        <hr>
-        <div class="team-line row">
-            <div class="col-md-5">
-                <select name="" id="home-team-3" class="select-team form-control">
-                    <option value="0">Select Team</option>
-                </select>
-            </div>
-
-            <div class="col-md-2">
-                <div class="scores">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-                <div class="dates">
-                    <div class='input-group date' id='datetimepicker1'>
-                        <input type='text' class="form-control" />
-                        <span class="input-group-addon">
-                            <span class="glyphicon glyphicon-calendar"></span>
-                        </span>
-                    </div>
-                </div>
-                <div class="scores-additional add">
-                    <a href="#" class="call call-additional btn btn-primary">Additional Time</a>
-                </div>
-                <div class="scores-additional pen">
-                    <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
-                </div>
-                <div class="show-inputs show-add">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-                <div class="show-inputs show-pen">
-                    <input type="number" value="" min="0">
-                    <span> - </span>
-                    <input type="number" value="" min="0">
-                </div>
-            </div>
-            <div class="col-md-5">
-                <select name="" id="home-away-3" class="select-team form-control">
-                    <option value="0">Select Team</option>
-                </select>
-            </div>
-        </div>
-        <hr>
-    </div>
+<!---->
+<!--        <div class="team-line row">-->
+<!--            <div class="col-md-5">-->
+<!--                <select name="" id="home-team-1" class="select-team form-control">-->
+<!--                    <option value="0">Select Team</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="col-md-2">-->
+<!--                <div class="scores">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--                <div class="dates">-->
+<!--                    <div class='input-group date' id='datetimepicker1'>-->
+<!--                        <input type='text' class="form-control" />-->
+<!--                        <span class="input-group-addon">-->
+<!--                            <span class="glyphicon glyphicon-calendar"></span>-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="scores-additional add">-->
+<!--                    <a href="#" class="call call-additional btn btn-primary">Additional Time</a>-->
+<!--                </div>-->
+<!--                <div class="scores-additional pen">-->
+<!--                    <a href="#" class="call call-penalties btn btn-primary">Penalties</a>-->
+<!--                </div>-->
+<!--                <div class="show-inputs show-add">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--                <div class="show-inputs show-pen">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="col-md-5">-->
+<!--                <select name="" id="away-team-1" class="select-team form-control">-->
+<!--                    <option value="0">Select Team</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <hr>-->
+<!--        <div class="team-line row">-->
+<!--            <div class="col-md-5">-->
+<!--                <select name="" id="home-team-2" class="select-team form-control">-->
+<!--                    <option value="0">Select Team</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="col-md-2">-->
+<!--                <div class="scores">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--                <div class="dates">-->
+<!--                    <div class='input-group date' id='datetimepicker1'>-->
+<!--                        <input type='text' class="form-control" />-->
+<!--                        <span class="input-group-addon">-->
+<!--                            <span class="glyphicon glyphicon-calendar"></span>-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="scores-additional add">-->
+<!--                    <a href="#" class="call call-additional btn btn-primary">Additional Time</a>-->
+<!--                </div>-->
+<!--                <div class="scores-additional pen">-->
+<!--                    <a href="#" class="call call-penalties btn btn-primary">Penalties</a>-->
+<!--                </div>-->
+<!--                <div class="show-inputs show-add">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--                <div class="show-inputs show-pen">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="col-md-5">-->
+<!--                <select name="" id="home-away-2" class="select-team form-control">-->
+<!--                    <option value="0">Select Team</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <hr>-->
+<!--        <div class="team-line row">-->
+<!--            <div class="col-md-5">-->
+<!--                <select name="" id="home-team-3" class="select-team form-control">-->
+<!--                    <option value="0">Select Team</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!---->
+<!--            <div class="col-md-2">-->
+<!--                <div class="scores">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--                <div class="dates">-->
+<!--                    <div class='input-group date' id='datetimepicker1'>-->
+<!--                        <input type='text' class="form-control" />-->
+<!--                        <span class="input-group-addon">-->
+<!--                            <span class="glyphicon glyphicon-calendar"></span>-->
+<!--                        </span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="scores-additional add">-->
+<!--                    <a href="#" class="call call-additional btn btn-primary">Additional Time</a>-->
+<!--                </div>-->
+<!--                <div class="scores-additional pen">-->
+<!--                    <a href="#" class="call call-penalties btn btn-primary">Penalties</a>-->
+<!--                </div>-->
+<!--                <div class="show-inputs show-add">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--                <div class="show-inputs show-pen">-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                    <span> - </span>-->
+<!--                    <input type="number" value="" min="0">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-md-5">-->
+<!--                <select name="" id="home-away-3" class="select-team form-control">-->
+<!--                    <option value="0">Select Team</option>-->
+<!--                </select>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <hr>-->
+<!--    </div>-->
 </div>
 
 <script type="text/javascript">
     $(function () {
         console.log("ready!!!");
-        $('#datetimepicker1').datetimepicker();
+
+        $('.datetimepicker').datetimepicker();
 
         $('.call-additional').on('click', function(){
             $(this).closest('.scores-additional').siblings('.show-add').slideToggle();

@@ -313,12 +313,12 @@ body.loading .loader {
     float: left;
     border: 1px solid #ccc;
     border-radius: 4px;
+    text-align: center;
 }
 .scores span{
     width: 4%;
     float: left;
 }
-
 .dates{
     margin: 10px 0;
 }

@@ -379,6 +379,9 @@ body.am .inner_content.vacancy .vacancy_page .vacancy_bananc h1{
     font-weight: bold;
 }
 
+body.am .widget.widget-with-tabs .widget-header .widget-tabs > div.active span{
+    font-size: 15px;
+}
 
 /** #Fonts For Languages  **/
 

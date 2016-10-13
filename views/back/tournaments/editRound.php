@@ -238,51 +238,54 @@ use Helpers\Uri;
 
         $('.select-team').on('change', function () {
 
-            var selected_team = $(this).val();
+            var hide_zero = $(this).val();
 
-            // store selected team in array
-            hidden_teams.push(selected_team);
+                var selected_team = $(this).val();
 
-            // add 'selected' class to selected element
-            $(this).find(':selected').addClass('selected')
-                .siblings('option').removeClass('selected');
+                // store selected team in array
+                if(hide_zero > 0) {
+                    hidden_teams.push(selected_team);
+                }
 
-            // hide selected element from all elements
-            // except the current one
-            $('.select-team').not(this).each(function(){
+                // add 'selected' class to selected element
+                $(this).find(':selected').addClass('selected')
+                    .siblings('option').removeClass('selected');
 
-                $(this).find("option").each(function(){
-                    if($(this).val() == selected_team){
-                        $(this).hide();
-                    }
+                // hide selected element from all elements
+                // except the current one
+                $('.select-team').not(this).each(function () {
+
+                    $(this).find("option").each(function () {
+                        if ($(this).val() == selected_team) {
+                            $(this).hide();
+                        }
+                    });
                 });
-            });
+                // check all 'option' elements in other 'select' tags
+                $('.select-team').not(this).find("option").each(function(i, el){
+                    var self = $(el);
+                        if(self.hasClass("selected")){
+                            self.hide();
+                        }
+                    if($.inArray($(this).val(), hidden_teams) == -1){//if not in array 'hidden_teams' show
+                        $('[value=' + self.val()+']').show();
+                    }
+                    if($.inArray($(this).val(), hidden_teams) != -1){//if not in array 'hidden_teams' hide
+                        $('[value=' + self.val()+']').hide();
+                    }
 
-            // check all 'option' elements in other 'select' tags
-            $('.select-team').not(this).find("option").each(function(i, el){
-                var self = $(el);
-                if(self.hasClass("selected")){
-                    self.hide();
+                });
+                var selected_teams =[];
+                $('.selected').each(function(i, el){
+                    var self = $(el);
+                    selected_teams[i] = self.val();
+                });
+                for(var j = 0; j < hidden_teams.length; j++) {
+                    if($.inArray(hidden_teams[j], selected_teams) == -1){
+                        $('[value=' + hidden_teams[j]+']').show();
+                        hidden_teams.splice($.inArray(hidden_teams[j],hidden_teams) , 1 );
+                    }
                 }
-                if($.inArray($(this).val(), hidden_teams) == -1){//if not in array 'hidden_teams' show
-                    $('[value=' + self.val()+']').show();
-                }
-                if($.inArray($(this).val(), hidden_teams) != -1){//if not in array 'hidden_teams' hide
-                    $('[value=' + self.val()+']').hide();
-                }
-
-            });
-            var selected_teams =[];
-            $('.selected').each(function(i, el){
-                var self = $(el);
-                selected_teams[i] = self.val();
-            });
-            for(var j = 0; j < hidden_teams.length; j++) {
-                if($.inArray(hidden_teams[j], selected_teams) == -1){
-                    $('[value=' + hidden_teams[j]+']').show();
-                    hidden_teams.splice($.inArray(hidden_teams[j],hidden_teams) , 1 );
-                }
-            }
 
         });
 

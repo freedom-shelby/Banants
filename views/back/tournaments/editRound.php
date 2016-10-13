@@ -221,18 +221,18 @@ use Helpers\Uri;
             $(this).closest('.scores-additional').siblings('.show-pen').slideToggle();
         });
 
-        var teamModels = <?= $teams ?>;
+        var team_models = <?= $teams ?>;
         var teams = {};
         var hidden_teams = [];
-//        var teamCounts = Object.keys(teams).length;
+//        var team_counts = Object.keys(teams).length;
 
-        for (var key in teamModels) {
-            teams[key]= teamModels[key]["entity"]["text"] ;
+        for (var key in team_models) {
+            teams[key]= team_models[key]["entity"]["text"] ;
         }
 
         for (var key in teams) {
             $('.select-team').append(
-                '<option value="' + teams[key] + '">'  + teams[key] +  '</option>'
+                '<option value="' + key + '">'  + teams[key] +  '</option>'
             );
         }
 

@@ -271,6 +271,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'EntityModel' => __DIR__ . '/../..' . '/models/EntityModel.php',
         'EntityTranslationModel' => __DIR__ . '/../..' . '/models/EntityTranslationModel.php',
         'Event' => __DIR__ . '/../..' . '/system/Event.php',
+        'EventModel' => __DIR__ . '/../..' . '/models/EventModel.php',
         'Event\\Emmiter' => __DIR__ . '/../..' . '/system/Event/Emmiter.php',
         'Event\\EventHandlerInterface' => __DIR__ . '/../..' . '/system/Event/EventHandlerInterface.php',
         'Faker\\Calculator\\Luhn' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Calculator/Luhn.php',

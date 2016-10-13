@@ -45,10 +45,14 @@ class DoubleRoundRobin extends AbstractType {
         return $item;
     }
 
-
     public function getTeams()
     {
         return $this->_teams->orderBy('pos')->get()->keyBy('id');
+    }
+
+    public function getLazyTeamModels()
+    {
+        return $this->_teamModels->with('entity')->orderBy('pos')->get()->keyBy('id');
     }
 
     public function loadFromArray($data)

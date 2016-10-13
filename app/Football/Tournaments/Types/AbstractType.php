@@ -32,6 +32,8 @@ abstract class AbstractType {
     protected $_name;
     protected $_fullName;
     protected $_teams;
+    protected $_teamModels;
+    protected $_events;
     protected $_current_round;
     protected $_max_rounds;
 
@@ -118,10 +120,47 @@ abstract class AbstractType {
         $this->_fullName = $model->fullName();
         $this->_type = $model->type();
         $this->_teams = $model->tableTeams();
+        $this->_teamModels = $model->teams();
+        $this->_events = $model->events();
         $this->_current_round = $model->current_round;
         $this->_max_rounds = $model->max_rounds;
 
         return $this;
+    }
+
+    /**
+     * Воврашает указаний тур
+     * @param $round
+     * @return mixed
+     */
+    public function getEventsByRound($round)
+    {
+        return $this->_events->whereRound($round)->get();
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTeams()
+    {
+        return $this->_teams;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLazyTeamModels()
+    {
+        return $this->_teamModels->with('entity');
+    }
+
+    /**
+     * Максималное количество матчей за один тур
+     * @return float|int
+     */
+    public function maxEventsPerRound()
+    {
+        return ($this->getTeams()->count() / 2);
     }
 
     // todo: avelacnel API -ner@

@@ -284,8 +284,18 @@ class Tournaments extends Back
 
         $model = TournamentModel::find($id);
         $item = Tournament::factory($model);
-        $round = $item->events()->whereRound($roundNumber);
+        $events = $item->getEventsByRound($roundNumber);
 
+//        foreach ($events->keyBy('id') as $key => $r) {
+//            echo "<pre>";
+//            var_dump($key);
+//            echo "<pre>";
+//            var_dump($r->id);
+//            echo "<pre>";
+//            print_r($r);
+//        }
+//
+//die;
         if (empty($item)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Model']));
         }
@@ -316,10 +326,11 @@ die;
             }
         }
 
-        $teams = $item->getTeams();
+        $teams = $item->getLazyTeamModels();
 
         $this->layout->content = View::make('back/tournaments/editRound')
             ->with('item', $item)
+            ->with('events', $events)
             ->with('teams', $teams);
 
     }

@@ -21,7 +21,7 @@ use Helpers\Uri;
 </pre>
 
         <? for ($i = 0; $i < $item->maxEventsPerRound(); $i++): ?>
-            <!--            --><?//= $events[$i] ?>
+<!--            --><?//= $events[$i] ?>
             <div class="team-line row">
                 <div class="col-md-5">
                     <select name="" id="home-team-1" class="select-team form-control">
@@ -31,9 +31,9 @@ use Helpers\Uri;
 
                 <div class="col-md-2">
                     <div class="scores">
-                        <input type="number" value="" min="0">
+                        <input type="number" value="write score"  min="0">
                         <span> - </span>
-                        <input type="number" value="" min="0">
+                        <input type="number" value="write score"  min="0">
                     </div>
                     <div class="dates">
                         <div class='input-group date' id='datetimepicker1'>
@@ -50,14 +50,14 @@ use Helpers\Uri;
                         <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
                     </div>
                     <div class="show-inputs show-add">
-                        <input type="number" value="" min="0">
+                        <input type="number" value="write score"  min="0">
                         <span> - </span>
-                        <input type="number" value="" min="0">
+                        <input type="number" value="write score"  min="0">
                     </div>
                     <div class="show-inputs show-pen">
-                        <input type="number" value="" min="0">
+                        <input type="number" value="write score"  min="0">
                         <span> - </span>
-                        <input type="number" value="" min="0">
+                        <input type="number" value="write score"  min="0">
                     </div>
                 </div>
 
@@ -78,14 +78,14 @@ use Helpers\Uri;
 
             <div class="col-md-2">
                 <div class="scores">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
                 <div class="dates">
                     <div class='input-group date' id='datetimepicker1'>
                         <input type='text' class="form-control" />
-                        <span class="input-group-addon">
+                            <span class="input-group-addon">
                             <span class="glyphicon glyphicon-calendar"></span>
                         </span>
                     </div>
@@ -97,14 +97,14 @@ use Helpers\Uri;
                     <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
                 </div>
                 <div class="show-inputs show-add">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
                 <div class="show-inputs show-pen">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
             </div>
 
@@ -124,14 +124,14 @@ use Helpers\Uri;
 
             <div class="col-md-2">
                 <div class="scores">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
                 <div class="dates">
                     <div class='input-group date' id='datetimepicker1'>
                         <input type='text' class="form-control" />
-                        <span class="input-group-addon">
+                            <span class="input-group-addon">
                             <span class="glyphicon glyphicon-calendar"></span>
                         </span>
                     </div>
@@ -143,14 +143,14 @@ use Helpers\Uri;
                     <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
                 </div>
                 <div class="show-inputs show-add">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
                 <div class="show-inputs show-pen">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
             </div>
 
@@ -170,14 +170,14 @@ use Helpers\Uri;
 
             <div class="col-md-2">
                 <div class="scores">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
                 <div class="dates">
                     <div class='input-group date' id='datetimepicker1'>
                         <input type='text' class="form-control" />
-                        <span class="input-group-addon">
+                            <span class="input-group-addon">
                             <span class="glyphicon glyphicon-calendar"></span>
                         </span>
                     </div>
@@ -189,14 +189,14 @@ use Helpers\Uri;
                     <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
                 </div>
                 <div class="show-inputs show-add">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
                 <div class="show-inputs show-pen">
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                     <span> - </span>
-                    <input type="number" value="" min="0">
+                    <input type="number" value="write score"  min="0">
                 </div>
             </div>
             <div class="col-md-5">
@@ -215,76 +215,75 @@ use Helpers\Uri;
         $('#datetimepicker1').datetimepicker();
 
         $('.call-additional').on('click', function(){
-            $(this).closest('.scores-additional').siblings('.show-add').slideToggle();
+           $(this).closest('.scores-additional').siblings('.show-add').slideToggle();
         });
         $('.call-penalties').on('click', function(){
-            $(this).closest('.scores-additional').siblings('.show-pen').slideToggle();
+           $(this).closest('.scores-additional').siblings('.show-pen').slideToggle();
         });
 
-        var teamModelss = <?= $teams ?>;
-        var teams = {};
+//        var teams = ['team-1', 'team-2', 'team-3', 'team-4', 'team-5', 'team-6', 'team-7', 'team-8'];
+        var teams = {'team-1':'team-1', 'team-2':'team-2', 'team-3':'team-3', 'team-4':'team-4', 'team-5':'team-5', 'team-6':'team-6', 'team-7':'team-7', 'team-8':'team-8'};
+//        var teams = <?//= $teams ?>//;
         var hidden_teams = [];
-//        var teamCounts = Object.keys(teams).length;
 
-        for (var key in teamModelss) {
-            teams[key]= teamModelss[key]["entity"]["text"] ;
-        }
+        var teamCounts = Object.keys(teams).length;
+        console.log(teamCounts);
 
-        for (var key in teams) {
+        for(var i = 0; i < teams.length; i++){
             $('.select-team').append(
-                '<option value="' + teams[key] + '">'  + teams[key] +  '</option>'
+                '<option value="' + teams[i] + '">'  + teams[i] +  '</option>'
             );
         }
 
-        $('.select-team').on('change', function () {
+            $('.select-team').on('change', function () {
 
-            var selected_team = $(this).val();
+                var selected_team = $(this).val();
 
-            // store selected team in array
-            hidden_teams.push(selected_team);
+                // store selected team in array
+                hidden_teams.push(selected_team);
 
-            // add 'selected' class to selected element
-            $(this).find(':selected').addClass('selected')
-                .siblings('option').removeClass('selected');
+                // add 'selected' class to selected element
+                $(this).find(':selected').addClass('selected')
+                    .siblings('option').removeClass('selected');
 
-            // hide selected element from all elements
-            // except the current one
-            $('.select-team').not(this).each(function(){
+                // hide selected element from all elements
+                // except the current one
+                $('.select-team').not(this).each(function(){
 
-                $(this).find("option").each(function(){
-                    if($(this).val() == selected_team){
-                        $(this).hide();
-                    }
+                    $(this).find("option").each(function(){
+                        if($(this).val() == selected_team){
+                            $(this).hide();
+                        }
+                    });
                 });
-            });
 
-            // check all 'option' elements in other 'select' tags
-            $('.select-team').not(this).find("option").each(function(i, el){
-                var self = $(el);
-                if(self.hasClass("selected")){
-                    self.hide();
-                }
-                if($.inArray($(this).val(), hidden_teams) == -1){//if not in array 'hidden_teams' show
-                    $('[value=' + self.val()+']').show();
-                }
-                if($.inArray($(this).val(), hidden_teams) != -1){//if not in array 'hidden_teams' hide
-                    $('[value=' + self.val()+']').hide();
+                // check all 'option' elements in other 'select' tags
+                $('.select-team').not(this).find("option").each(function(i, el){
+                    var self = $(el);
+                    if(self.hasClass("selected")){
+                        self.hide();
+                    }
+                    if($.inArray($(this).val(), hidden_teams) == -1){//if not in array 'hidden_teams' show
+                        $('[value=' + self.val()+']').show();
+                    }
+                    if($.inArray($(this).val(), hidden_teams) != -1){//if not in array 'hidden_teams' hide
+                        $('[value=' + self.val()+']').hide();
+                    }
+
+                });
+                var selected_teams =[];
+                $('.selected').each(function(i, el){
+                    var self = $(el);
+                    selected_teams[i] = self.val();
+                });
+                for(var j = 0; j < hidden_teams.length; j++) {
+                    if($.inArray(hidden_teams[j], selected_teams) == -1){
+                        $('[value=' + hidden_teams[j]+']').show();
+                        hidden_teams.splice($.inArray(hidden_teams[j],hidden_teams) , 1 );
+                    }
                 }
 
             });
-            var selected_teams =[];
-            $('.selected').each(function(i, el){
-                var self = $(el);
-                selected_teams[i] = self.val();
-            });
-            for(var j = 0; j < hidden_teams.length; j++) {
-                if($.inArray(hidden_teams[j], selected_teams) == -1){
-                    $('[value=' + hidden_teams[j]+']').show();
-                    hidden_teams.splice($.inArray(hidden_teams[j],hidden_teams) , 1 );
-                }
-            }
-
-        });
 
     });
 </script>

@@ -306,7 +306,14 @@ body.loading .loader {
 .scores{
     overflow: hidden;
 }
-.scores > input,
+.scores > input{
+    height: 34px;
+    width: 48%;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
 .show-inputs > input{
     height: 34px;
     width: 48%;
@@ -314,6 +321,10 @@ body.loading .loader {
     border: 1px solid #ccc;
     border-radius: 4px;
     text-align: center;
+    margin-bottom: 10px;
+}
+.show-inputs .line{
+    float: left;
 }
 .scores span{
     width: 4%;
@@ -326,6 +337,7 @@ body.loading .loader {
     display: inline-block;
     vertical-align: middle;
     width: 50%;
+    margin-bottom: 10px;
 }
 .scores-additional.add{
     padding:  0 3px 0 0;
@@ -341,9 +353,6 @@ body.loading .loader {
 }
 .show-add, .show-pen{
     display: none;
-}
-.show-inputs{
-    margin: 10px 0;
 }
 .scores-additional .show-inputs > input{
     height: 34px;

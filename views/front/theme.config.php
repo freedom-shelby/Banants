@@ -14,6 +14,7 @@ return array(
         'css' => array(
             array('file' => 'normalize.css'),
             array('file' => 'owl.carousel.css'),
+            array('file' => 'jquery.bxslider.css'),
             array('file' => 'style.css'),
             array('file' => 'jquery.fancybox.css'),
         ),
@@ -27,6 +28,7 @@ return array(
             array('file' => 'jquery.fancybox.pack.js'),
             array('file' => 'custom/check.incognito.mode.js'),
             array('file' => 'custom/scripts.js'),
+            array('file' => 'jquery.bxslider.min.js'),
         )
     )
 );

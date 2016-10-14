@@ -13,9 +13,14 @@ restrictAccess();
 
 
 use Football\Tournaments\Tournament;
+use Helpers\Arr;
 use Widgets\AbstractWidget;
 use View;
 use TournamentModel;
+use Setting;
+use Router;
+use ArticleModel;
+use Event;
 
 class FullTournamentTable extends AbstractWidget{
 
@@ -45,10 +50,10 @@ class FullTournamentTable extends AbstractWidget{
     protected $_param;
 
     /**
-     * Матеряли
-     * @type array[Tournament]
+     * Турнамент
+     * @type Tournament
      */
-    protected $_items = [];
+    protected $_item;
 
     public function getPosition()
     {
@@ -63,12 +68,28 @@ class FullTournamentTable extends AbstractWidget{
     public function render()
     {
         return View::make($this->_template)
-            ->with('items', $this->_items);
+            ->with('item', $this->_item);
     }
 
     public function init($model)
     {
-        $this->_param = json_decode($model->param, true);
+        $slug = Router::getCurrentRoute()->getActionVariable('param');
+
+        if( ! $slug)
+        {
+            $page = Router::getCurrentRoute()->getActionVariable('page');
+            $slug = Arr::get(Setting::instance()->getGroupAsKeyVal('football'), $page);
+        }elseif(Setting::instance()->groupHasVal('football', $slug)){
+            Event::fire('App.invalidRoute',$slug); // TODO:: throw Exception 404
+        }
+
+        $tournamentModel = TournamentModel::whereSlug($slug)->first();
+
+        if ( ! $model){
+            Event::fire('App.invalidRoute',$slug); // TODO:: throw Exception 404
+        }
+
+        $this->_item = Tournament::factory($tournamentModel);
 
 //        foreach ($this->_param['items'] as $item)
 //        {
@@ -78,6 +99,7 @@ class FullTournamentTable extends AbstractWidget{
 //            unset($tmp);
 //        }
 
+        $this->_param = json_decode($model->param, true);
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

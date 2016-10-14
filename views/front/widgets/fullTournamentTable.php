@@ -4,6 +4,8 @@
  * User: Arsen
  * Date: 11/6/2015
  * Time: 3:20 PM
+ *
+ * @var $item \Football\Tournaments\Types\DoubleRoundRobin
  */
 ?>
 
@@ -52,88 +54,41 @@
 <!--</div>-->
 
 <div class="info-col">
-    <p class="col-title">Чемпионат Армении по футболу-2015/2016 гг. Первая лига</p>
+    <p class="col-title"><?= __($item->getFullName()) ?></p>
     <div class="inner_content contener-white">
-        <p class="fild-name">Турнирная таблица</p>
         <div class="static-table tournir-table">
             <table>
                 <tbody>
                 <tr>
                     <th></th>
-                    <th>И</th>
-                    <th>В</th>
-                    <th>Н</th>
-                    <th>П</th>
-                    <th>ЗГ</th>
-                    <th>ПГ</th>
-                    <th>О</th>
+                    <th><?= __('G') ?></th>
+                    <th><?= __('W') ?></th>
+                    <th><?= __('D') ?></th>
+                    <th><?= __('L') ?></th>
+                    <th><?= __('GF') ?></th>
+                    <th><?= __('GA') ?></th>
+                    <th><?= __('P') ?></th>
                 </tr>
-                <tr>
-                    <td class="name"><span>1</span>   <?= __('Shirak') ?></td>
-                    <td>8</td>
-                    <td>5</td>
-                    <td>2</td>
-                    <td>1</td>
-                    <td>9</td>
-                    <td>4</td>
-                    <td>17</td>
-                </tr>
-                <tr>
-                    <td class="name"><span>1</span>   <?= __('Alashkert') ?></td>
-                    <td>8</td>
-                    <td>4</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>13</td>
-                    <td>6</td>
-                    <td>15</td>
-                </tr>
-                <tr>
-                    <td class="name"><span>1</span>   <?= __('Banants') ?></td>
-                    <td>8</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>4</td>
-                    <td>9</td>
-                    <td>10</td>
-                    <td>12</td>
-                </tr>
-                <tr>
-                    <td class="name"><span>1</span>   <?= __('Gandzasar-kapan') ?></td>
-                    <td>8</td>
-                    <td>3</td>
-                    <td>1</td>
-                    <td>4</td>
-                    <td>6</td>
-                    <td>10</td>
-                    <td>10</td>
-                </tr>
-                <tr>
-                    <td class="name"><span>1</span>   <?= __('Pyunik') ?></td>
-                    <td>8</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>3</td>
-                    <td>7</td>
-                    <td>7</td>
-                    <td>9</td>
-                </tr>
-                <tr>
-                    <td class="name"><span>1</span>   <?= __('Ararat') ?></td>
-                    <td>8</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>6</td>
-                    <td>3</td>
-                    <td>10</td>
-                    <td>4</td>
-                </tr>
-                </tbody></table>
-        </div>
-        <p class="col-title">Туры</p>
 
-        <div id="pager" class="tours">
+                <? foreach ($item->getTeams() as $team): ?>
+                    <tr>
+                        <td class="name">
+                            <span><?= $team->pos ?></span>
+                            <?= __($team->team()->text()) ?>
+                        </td>
+                        <td><?= $team->played ?></td>
+                        <td><?= $team->win ?></td>
+                        <td><?= $team->draw ?></td>
+                        <td><?= $team->lose ?></td>
+                        <td><?= $team->goals_for ?></td>
+                        <td><?= $team->goals_against ?></td>
+                        <td><?= $team->points ?></td>
+                    </tr>
+                <? endforeach ?>
 
+                </tbody>
+            </table>
         </div>
+        <p class="col-title"><?= __('Rounds') ?></p>
     </div>
 </div>

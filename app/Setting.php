@@ -68,6 +68,22 @@ class Setting {
     }
 
     /**
+     * Возвращает есть ли значения в настройке
+     * @param string $groupName имя группы
+     * @return bool
+     */
+    public function groupHasVal($groupName, $value){
+        $output = false;
+        $group = $this->getGroupAsKeyVal($groupName);
+
+        if(!empty($group) and in_array($value, $group)){
+            $output = true;
+        }
+
+        return $output;
+    }
+
+    /**
      * Возвращает конкретную настройку
      * Разрешается точеная нотация например
      * до настройки setting_name array([group][setting_name] => array())

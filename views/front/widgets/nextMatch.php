@@ -8,16 +8,16 @@
 ?>
 <div class="banner_team2">
     <div class="team1_logo">
-        <img src="/media/assets/images/team_logo/gandzasar-kapan-logo.png" alt="team2_logo" />
+        <img src="/media/assets/images/logo_main.png" alt="team2_logo" />
 <!--                                                <h4>--><?//=__('PYUNIK')?><!--</h4>-->
 <!--                                                <img src="/media/assets/images/team_logo/fc-gandzasar-kapan.png" alt="team2_logo" />-->
 <!--                                                <h4>ГАНДЗАСАР</h4>-->
     </div>
     <div class="banner_team1_text">
-        <span>15.10</span>
-        <span style="margin-top: 10px; display: block">14:00</span>
+        <span>18.10</span>
+        <span style="margin-top: 10px; display: block">15:00</span>
     </div>
     <div class="team2_logo">
-        <img src="/media/assets/images/logo_main.png" alt="logo_main" />
+        <img src="/media/assets/images/team_logo/Ararat-yerevan-logo.png" alt="logo_main" />
     </div>
 </div>

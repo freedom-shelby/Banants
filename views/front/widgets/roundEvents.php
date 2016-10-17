@@ -6,6 +6,51 @@
  * Time: 3:20 PM
  */
 ?>
+
+<!--<div class="widget widget-with-tabs">-->
+<!--    <div class="widget-header">-->
+<!--        <div class="widget-tabs">-->
+<!---->
+<!--            --><?// foreach ($items as $key => $item): ?>
+<!--                <div class="tab---><?//= ++$key ?><!-- --><?//= ($key == 1) ? ' active' : ''?><!--"><div>-->
+<!--                        <span>--><?//= __($item->getName()) ?><!--</span>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            --><?// endforeach ?>
+<!---->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="widget-body">-->
+<!--        <div class="widget-tabs-body">-->
+<!---->
+<!--            --><?// foreach ($items as $key => $item): ?>
+<!--                <div class="tab---><?//= ++$key ?><!-- --><?//= ($key == 1) ? ' active' : ''?><!--">-->
+<!---->
+<!--                    --><?//= $item->renderBasicWidget()?>
+<!---->
+<!--                </div>-->
+<!--            --><?// endforeach ?>
+<!---->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="widget-footer">-->
+<!--        <div class="widget-pagination">-->
+<!--            <div class="owl-controls clickable">-->
+<!--                <div class="owl-pagination">-->
+<!---->
+<!--                    --><?// foreach ($items as $item): ?>
+<!--                        <div class="owl-page circle">-->
+<!--                            <span class=""></span>-->
+<!--                        </div>-->
+<!--                    --><?// endforeach ?>
+<!---->
+<!--                </div>-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
 <ul class="bxslider">
     <li><div class="results">
             <p class="number">Тур 1</p>

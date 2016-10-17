@@ -75,11 +75,13 @@ class FullTournamentTable extends AbstractWidget{
     {
         $slug = Router::getCurrentRoute()->getActionVariable('param');
 
+        // Проверяет Слуг для того чтобы страница турнамента не повторялся
         if( ! $slug)
         {
             $page = Router::getCurrentRoute()->getActionVariable('page');
             $slug = Arr::get(Setting::instance()->getGroupAsKeyVal('football'), $page);
-        }elseif(Setting::instance()->groupHasVal('football', $slug)){
+        }elseif(Setting::instance()->groupHasVal('football', $slug))
+        {
             Event::fire('App.invalidRoute',$slug); // TODO:: throw Exception 404
         }
 

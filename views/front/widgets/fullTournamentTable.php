@@ -9,53 +9,9 @@
  */
 ?>
 
-<!--<div class="widget widget-with-tabs">-->
-<!--    <div class="widget-header">-->
-<!--        <div class="widget-tabs">-->
-<!---->
-<!--            --><?// foreach ($items as $key => $item): ?>
-<!--                <div class="tab---><?//= ++$key ?><!-- --><?//= ($key == 1) ? ' active' : ''?><!--"><div>-->
-<!--                        <span>--><?//= __($item->getName()) ?><!--</span>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            --><?// endforeach ?>
-<!---->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="widget-body">-->
-<!--        <div class="widget-tabs-body">-->
-<!---->
-<!--            --><?// foreach ($items as $key => $item): ?>
-<!--                <div class="tab---><?//= ++$key ?><!-- --><?//= ($key == 1) ? ' active' : ''?><!--">-->
-<!---->
-<!--                    --><?//= $item->renderBasicWidget()?>
-<!---->
-<!--                </div>-->
-<!--            --><?// endforeach ?>
-<!---->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="widget-footer">-->
-<!--        <div class="widget-pagination">-->
-<!--            <div class="owl-controls clickable">-->
-<!--                <div class="owl-pagination">-->
-<!---->
-<!--                    --><?// foreach ($items as $item): ?>
-<!--                        <div class="owl-page circle">-->
-<!--                            <span class=""></span>-->
-<!--                        </div>-->
-<!--                    --><?// endforeach ?>
-<!---->
-<!--                </div>-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
 <div class="info-col">
     <p class="col-title"><?= __($item->getFullName()) ?></p>
-    <div class="inner_content contener-white">
+    <div class="contener-white">
         <div class="static-table tournir-table">
             <table>
                 <tbody>

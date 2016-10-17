@@ -5091,10 +5091,9 @@ div.dialog{
     width: 42px;
 }
 .info-col .tours{
-    padding: 2px 0 2px 0px;
-}
-.info-col .tours{
+    padding: 2px 0 2px 0;
     text-align: center;
+    border: 1px solid #3789bf;
 }
 .info-col .tours .bx-pager-item{
     display: inline-block;

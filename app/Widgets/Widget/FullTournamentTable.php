@@ -82,24 +82,16 @@ class FullTournamentTable extends AbstractWidget{
             $slug = Arr::get(Setting::instance()->getGroupAsKeyVal('football'), $page);
         }elseif(Setting::instance()->groupHasVal('football', $slug))
         {
-            Event::fire('App.invalidRoute',$slug); // TODO:: throw Exception 404
+            Event::fire('App.invalidRoute',$slug);
         }
 
         $tournamentModel = TournamentModel::whereSlug($slug)->first();
 
-        if ( ! $model){
-            Event::fire('App.invalidRoute',$slug); // TODO:: throw Exception 404
+        if ( ! $tournamentModel){
+            Event::fire('App.invalidRoute',$slug);
         }
 
         $this->_item = Tournament::factory($tournamentModel);
-
-//        foreach ($this->_param['items'] as $item)
-//        {
-//            $tmp = TournamentModel::find($item);
-//            $this->_items[] = Tournament::factory($tmp);
-//
-//            unset($tmp);
-//        }
 
         $this->_param = json_decode($model->param, true);
         $this->_position = $model->position;

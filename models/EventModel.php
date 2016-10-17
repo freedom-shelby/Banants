@@ -23,15 +23,43 @@ class EventModel extends Eloquent
         return $this->belongsTo('TournamentModel', 'tournament_id')->first();
     }
 
-    public function home()
+    public function homeTeam()
     {
-        return $this->belongsTo('TeamModel', 'home_id')->first();
+        return $this->home()->team()->first();
     }
 
+    public function awayTeam()
+    {
+        return $this->away()->team()->first();
+    }
+
+    /**
+     * Статистика Домашней команди
+     * @return mixed
+     */
+    public function home()
+    {
+        return $this->belongsTo('EventTeamStatisticModel', 'home_id')->first();
+    }
+
+    /**
+     * Статистика Гостевой команди
+     * @return mixed
+     */
     public function away()
     {
-        return $this->belongsTo('TeamModel', 'away_id')->first();
+        return $this->belongsTo('EventTeamStatisticModel', 'away_id')->first();
     }
+
+//    public function homeStatistic()
+//    {
+//        return $this->hasOne('EventTeamStatisticModel', 'event_id')->first();
+//    }
+//
+//    public function awayStatistic()
+//    {
+//        return $this->hasOne('EventTeamStatisticModel', 'event_id')->first();
+//    }
 
     // this is a recommended way to declare event handlers
     protected static function boot() {

@@ -81,6 +81,7 @@ return array(
     'EntityTranslationModel' => $baseDir . '/models/EntityTranslationModel.php',
     'Event' => $baseDir . '/system/Event.php',
     'EventModel' => $baseDir . '/models/EventModel.php',
+    'EventTeamStatisticModel' => $baseDir . '/models/EventTeamStatisticModel.php',
     'Event\\Emmiter' => $baseDir . '/system/Event/Emmiter.php',
     'Event\\EventHandlerInterface' => $baseDir . '/system/Event/EventHandlerInterface.php',
     'Faker\\Calculator\\Luhn' => $vendorDir . '/fzaninotto/faker/src/Faker/Calculator/Luhn.php',

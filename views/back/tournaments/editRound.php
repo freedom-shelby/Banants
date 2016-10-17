@@ -4,6 +4,8 @@
  * User: crosscomp
  * Date: 22.01.2015
  * Time: 11:54
+ *
+ * @var $item \Football\Tournaments\Types\DoubleRoundRobin
  */
 use Helpers\Uri;
 
@@ -15,59 +17,123 @@ use Helpers\Uri;
     </div>
     <div class="panel-body">
 
-<pre>
+<!--<pre>-->
 <?//=  print_r($teams->toArray(), true); ?>
-<?=  $teams ?>
-</pre>
+<?//=  $teams ?>
+<!--</pre>-->
         <form action="" method="post" id="submit">
             <? for ($i = 0; $i < $item->maxEventsPerRound(); $i++): ?>
-                <?//= $events[$i] ?>
-                <div class="team-line row">
-                    <div class="col-md-5">
-                        <select name="events[<?= $i ?>][home][id]" id="home-team-1" class="select-team form-control">
-                            <option value="0">Select Team</option>
-                        </select>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="scores">
-                            <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
-                            <span class="line"> - </span>
-                            <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
+<?//= $events[$i] ?>
+                <? if (isset($events[$i])): ?>
+                    <div class="team-line row">
+                        <input type="hidden" name="events[<?= $i ?>][id]">
+                        <div class="col-md-5">
+                            <select name="events[<?= $i ?>][home][id]" id="home-team-1" class="select-team form-control">
+                                <option value="0">Select Team</option>
+
+                                <? foreach ($item->getTeams() as $team): ?>
+                                    <option value="<?= $team->team()->id ?>" <?= ($team->team()->id == $events[$i]->home()->team()->id) ? 'selected' : '' ?>><?= __($team->team()->text()) ?></option>
+                                <? endforeach ?>
+
+                            </select>
                         </div>
-                        <div class="dates">
-                            <div class='input-group date datetimepicker'>
-                                <input type='text' name="events[<?= $i ?>][date]" class="form-control" />
-                                <span class="input-group-addon">
+                        <div class="col-md-2">
+                            <div class="scores">
+                                <input type="number" name="events[<?= $i ?>][score]" value="<?= $events[$i]->home()->score ?>" min="0">
+                                <span class="line"> - </span>
+                                <input type="number" name="events[<?= $i ?>][score]" value="<?= $events[$i]->away()->score ?>" min="0">
+                            </div>
+                            <div class="dates">
+                                <div class='input-group date datetimepicker'>
+                                    <input type='text' name="events[<?= $i ?>][date]" class="form-control" />
+                                    <span class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar"></span>
                             </span>
+                                </div>
                             </div>
-                        </div>
                             <div class="scores-additional add">
                                 <a href="#" class="call call-additional btn btn-primary">Additional Time</a>
                             </div>
                             <div class="scores-additional pen">
                                 <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
                             </div>
-
-
-                        <div class="show-inputs show-add">
-                            <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
-                            <span class="line"> - </span>
-                            <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                            <div class="show-inputs show-add">
+                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                                <span class="line"> - </span>
+                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                            </div>
+                            <div class="show-inputs show-pen">
+                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                                <span class="line"> - </span>
+                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                            </div>
                         </div>
-                        <div class="show-inputs show-pen">
-                            <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
-                            <span class="line"> - </span>
-                            <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                        <div class="col-md-5">
+                            <select name="events[<?= $i ?>][away][id]" id="away-team-1" class="select-team form-control">
+                                <option value="0">Select Team</option>
+
+                                <? foreach ($item->getTeams() as $team): ?>
+                                    <option value="<?= $team->team()->id ?>" <?= ($team->team()->id == $events[$i]->away()->team()->id) ? 'selected' : '' ?>><?= __($team->team()->text()) ?></option>
+                                <? endforeach ?>
+
+                            </select>
                         </div>
                     </div>
+                <? else: ?>
+                    <div class="team-line row">
+                        <div class="col-md-5">
+                            <select name="events[<?= $i ?>][home][id]" id="home-team-1" class="select-team form-control">
+                                <option value="0">Select Team</option>
 
-                    <div class="col-md-5">
-                        <select name="events[<?= $i ?>][away][id]" id="away-team-1" class="select-team form-control">
-                            <option value="0">Select Team</option>
-                        </select>
+                                <? foreach ($item->getTeams() as $team): ?>
+                                    <option value="<?= $team->team()->id ?>"><?= __($team->team()->text()) ?></option>
+                                <? endforeach ?>
+
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="scores">
+                                <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
+                                <span class="line"> - </span>
+                                <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
+                            </div>
+                            <div class="dates">
+                                <div class='input-group date datetimepicker'>
+                                    <input type='text' name="events[<?= $i ?>][date]" class="form-control" />
+                                    <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                                </div>
+                            </div>
+                            <div class="scores-additional add">
+                                <a href="#" class="call call-additional btn btn-primary">Additional Time</a>
+                            </div>
+                            <div class="scores-additional pen">
+                                <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
+                            </div>
+                            <div class="show-inputs show-add">
+                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                                <span class="line"> - </span>
+                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                            </div>
+                            <div class="show-inputs show-pen">
+                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                                <span class="line"> - </span>
+                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <select name="events[<?= $i ?>][away][id]" id="away-team-1" class="select-team form-control">
+                                <option value="0">Select Team</option>
+
+                                <? foreach ($item->getTeams() as $team): ?>
+                                    <option value="<?= $team->team()->id ?>"><?= __($team->team()->text()) ?></option>
+                                <? endforeach ?>
+
+                            </select>
+                        </div>
                     </div>
-                </div>
+                <? endif ?>
             <? endfor ?>
         </form>
         <div class="panel-footer form-group col-md-12">
@@ -77,13 +143,9 @@ use Helpers\Uri;
 
 <script type="text/javascript">
     $(function () {
-        console.log("ready!!!");
-
         $('.scores-additional a').on('click', function(e){
              e.preventDefault();
         });
-
-
 
         $('.datetimepicker').datetimepicker();
 
@@ -94,9 +156,11 @@ use Helpers\Uri;
             $(this).closest('.scores-additional').siblings('.show-pen').slideToggle();
         });
 
-        var team_models = <?= $teams ?>;
+//        var team_models = <?//= $teams ?>//; // Командий из Модела
+        var team_models = [];
         var teams = {};
         var hidden_teams = [];
+        var selected_teams =[];
 //        var team_counts = Object.keys(teams).length;
 
         for (var key in team_models) {
@@ -112,55 +176,51 @@ use Helpers\Uri;
         $('.select-team').on('change', function () {
 
             var hide_zero = $(this).val();
+            var selected_team = $(this).val();
 
-                var selected_team = $(this).val();
+            // store selected team in array
+            if(hide_zero > 0) {
+                hidden_teams.push(selected_team);
+            }
 
-                // store selected team in array
-                if(hide_zero > 0) {
-                    hidden_teams.push(selected_team);
+            // add 'selected' class to selected element
+            $(this).find(':selected').addClass('selected')
+                .siblings('option').removeClass('selected');
+
+            // hide selected element from all elements
+            // except the current one
+            $('.select-team').not(this).each(function () {
+
+                $(this).find("option").each(function () {
+                    if ($(this).val() == selected_team) {
+                        $(this).hide();
+                    }
+                });
+            });
+            // check all 'option' elements in other 'select' tags
+            $('.select-team').not(this).find("option").each(function(i, el){
+                var self = $(el);
+                    if(self.hasClass("selected")){
+                        self.hide();
+                    }
+                if($.inArray($(this).val(), hidden_teams) == -1){//if not in array 'hidden_teams' show
+                    $('.select-team [value=' + self.val()+']').show();
                 }
-
-                // add 'selected' class to selected element
-                $(this).find(':selected').addClass('selected')
-                    .siblings('option').removeClass('selected');
-
-                // hide selected element from all elements
-                // except the current one
-                $('.select-team').not(this).each(function () {
-
-                    $(this).find("option").each(function () {
-                        if ($(this).val() == selected_team) {
-                            $(this).hide();
-                        }
-                    });
-                });
-                // check all 'option' elements in other 'select' tags
-                $('.select-team').not(this).find("option").each(function(i, el){
-                    var self = $(el);
-                        if(self.hasClass("selected")){
-                            self.hide();
-                        }
-                    if($.inArray($(this).val(), hidden_teams) == -1){//if not in array 'hidden_teams' show
-                        $('[value=' + self.val()+']').show();
-                    }
-                    if($.inArray($(this).val(), hidden_teams) != -1){//if not in array 'hidden_teams' hide
-                        $('[value=' + self.val()+']').hide();
-                    }
-
-                });
-                var selected_teams =[];
-                $('.selected').each(function(i, el){
-                    var self = $(el);
-                    selected_teams[i] = self.val();
-                });
-                for(var j = 0; j < hidden_teams.length; j++) {
-                    if($.inArray(hidden_teams[j], selected_teams) == -1){
-                        $('[value=' + hidden_teams[j]+']').show();
-                        hidden_teams.splice($.inArray(hidden_teams[j],hidden_teams) , 1 );
-                    }
+                if($.inArray($(this).val(), hidden_teams) != -1){//if not in array 'hidden_teams' hide
+                    $('.select-team [value=' + self.val()+']').hide();
                 }
+            });
 
+            $('.selected').each(function(i, el){
+                var self = $(el);
+                selected_teams[i] = self.val();
+            });
+            for(var j = 0; j < hidden_teams.length; j++) {
+                if($.inArray(hidden_teams[j], selected_teams) == -1){
+                    $('.select-team [value=' + hidden_teams[j]+']').show();
+                    hidden_teams.splice($.inArray(hidden_teams[j],hidden_teams) , 1 );
+                }
+            }
         });
-
     });
 </script>

@@ -292,23 +292,24 @@ class Tournaments extends Back
 //            echo "<pre>";
 //            var_dump($r->id);
 //            echo "<pre>";
-//            print_r($r);
+//            print_r($r->home()->toArray());
+//            print_r($r->away()->toArray());
 //        }
-//
 //die;
         if (empty($item)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Model']));
         }
 
         if (Arr::get($this->getPostData(),'submit') !== null) {
-echo "<pre>";
-print_r($this->getPostData());
-die;
-            $data = Arr::extract($this->getPostData(), ['team', 'current_round']);
+//echo "<pre>";
+//print_r($this->getPostData());
+//die;
+            $data = Arr::extract($this->getPostData(), ['events']);
             // Транзакция для Записание данных в базу
             try {
-                $item = Capsule::connection()->transaction(function () use ($data, $item)
+                $item = Capsule::connection()->transaction(function () use ($data, $item, $roundNumber)
                 {
+
                     return $item->generateWith($data['team'])
                         ->setCurrentRound($data['current_round'])
                         ->save();
@@ -320,9 +321,9 @@ die;
 //                    }
                 });
 
-                Message::instance()->success('Tournament Table was successfully edited');
+                Message::instance()->success('Tournament Round Matches was successfully edited');
             } catch (QueryException $e) {
-                Message::instance()->warning('Tournament Table was don\'t edited');
+                Message::instance()->warning('Tournament Round Matches was don\'t edited');
             }
         }
 

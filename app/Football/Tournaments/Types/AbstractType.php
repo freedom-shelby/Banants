@@ -181,6 +181,49 @@ abstract class AbstractType {
         throw new InvalidArgumentException("Unsupported driver [$driver]");
     }
 
+    // todo: avelacnel API -ner@
+    public function updateOrCreateRoundEvents($driver, $round)
+    {
+//        \TeamHasTournamentModel::updateOrCreate(
+//            ['id' => $key],
+//            ['pos' => $d['pos'], 'points' => $d['points'], 'win' => $d['win'], 'draw' => $d['draw'], 'lose' => $d['lose'], 'goals_for' => $d['goals_for'], 'goals_against' => $d['goals_against']]);
+
+        if($driver instanceof Eloquent){
+            return $this->init($driver);
+        }elseif(is_array($driver)){
+            return $this->loadFromArray($driver);
+        }
+
+        switch ($driver)
+        {
+            case 'Scorestime':
+                return new Scorestime($this); // todo::
+        }
+
+        throw new InvalidArgumentException("Unsupported driver [$driver]");
+    }
+    public static function firstOrNew(array $attributes)
+    {
+        if ( ! is_null($instance = static::where($attributes)->first()))
+        {
+            return $instance;
+        }
+
+        return new static($attributes);
+    }
+    public static function updateOrCreate(array $attributes, array $values = array())
+    {
+        $instance = static::firstOrNew($attributes);
+
+        $instance->fill($values)->save();
+
+        return $instance;
+    }
+
+    /**
+     * Запис в базу
+     * @return $this
+     */
     public function save()
     {
         $this->_model->update([

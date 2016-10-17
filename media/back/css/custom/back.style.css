@@ -333,6 +333,9 @@ body.loading .loader {
 .dates{
     margin: 10px 0;
 }
+.dates .form-control{
+    padding: 4px 8px;
+}
 .scores-additional{
     display: inline-block;
     vertical-align: middle;

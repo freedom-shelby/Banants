@@ -11,7 +11,8 @@
     <div class="video_wrapper">
         <div class="videoimage_wrapper">
             <a class="various fancybox.iframe" href="https://www.youtube.com/embed/<?= $item->youtube_id ?>?autoplay=1">
-                <img src="http://img.youtube.com/vi/<?= $item->youtube_id ?>/mqdefault.jpg" alt="video_image">
+<!--                <img src="http://img.youtube.com/vi/--><?//= $item->youtube_id ?><!--/mqdefault.jpg" alt="video_image">-->
+                <img src="https://i.ytimg.com/vi/<?= $item->youtube_id ?>/mqdefault_live.jpg" alt="video_image">
                 <img class="videoplayer_icon" src="/media/assets/images/videoplayer_icon.png" alt="videoplayer_icon">
             </a>
         </div>

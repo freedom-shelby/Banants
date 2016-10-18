@@ -306,25 +306,18 @@ class Tournaments extends Back
 //die;
             $data = Arr::extract($this->getPostData(), ['events']);
             // Транзакция для Записание данных в базу
-            try {
-                $item = Capsule::connection()->transaction(function () use ($data, $item, $roundNumber)
+//            try {
+                Capsule::connection()->transaction(function () use ($data, $item, $roundNumber)
                 {
-
-                    return $item->generateWith($data['team'])
-                        ->setCurrentRound($data['current_round'])
-                        ->save();
-
-//                    foreach ($data['team'] as $key => $d) {
-//                        TeamHasTournamentModel::updateOrCreate(
-//                            ['id' => $key],
-//                            ['pos' => $d['pos'], 'points' => $d['points'], 'win' => $d['win'], 'draw' => $d['draw'], 'lose' => $d['lose'], 'goals_for' => $d['goals_for'], 'goals_against' => $d['goals_against']]);
-//                    }
+                    foreach ($data['events'] as $event) {
+                        $item->updateOrCreateEvent($event, $roundNumber);
+                    }
                 });
 
                 Message::instance()->success('Tournament Round Matches was successfully edited');
-            } catch (QueryException $e) {
-                Message::instance()->warning('Tournament Round Matches was don\'t edited');
-            }
+//            } catch (QueryException $e) {
+//                Message::instance()->warning('Tournament Round Matches was don\'t edited');
+//            }
         }
 
         $teams = $item->getLazyModelForTeams();

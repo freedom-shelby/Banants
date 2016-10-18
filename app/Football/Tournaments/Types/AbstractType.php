@@ -13,6 +13,8 @@ restrictAccess();
 
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Model as Eloquent;
+use TeamHasTournamentModel;
+use EventModel;
 
 
 abstract class AbstractType {
@@ -141,6 +143,14 @@ abstract class AbstractType {
     /**
      * @return mixed
      */
+    public function getEvents()
+    {
+        return $this->_events;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getTeams()
     {
         return $this->_teams;
@@ -181,8 +191,69 @@ abstract class AbstractType {
         throw new InvalidArgumentException("Unsupported driver [$driver]");
     }
 
+    /**
+     * Обновляет или создаёт собития
+     *
+     * @param $data['id'] ИД собития
+     * @param $data['home']['team'] ИД домашней командий
+     * @param $data['away']['team'] ИД гостевой командий
+     * @param $data['home']['score'] Счёт домашней командий
+     * @param $data['away']['score'] Счёт гостевой командий
+     * @param $data['date'] Дата провидения матча
+     * @param $data['home']['additional'] Счёт домашней командий в Дополнителное время
+     * @param $data['away']['additional'] Счёт гостевой командий в Дополнителное время
+     * @param $data['home']['pen'] Счёт домашней командий по Пеналти
+     * @param $data['away']['pen'] Счёт гостевой командий по Пеналти
+     * @param $round
+     */
+    public function updateOrCreateEvent($data, $round)
+    {
+        if (isset($data['id']) and ! is_null($model = EventModel::find($data['id'])))
+        {
+            echo "<pre>";
+            $a = $model->homeModel();
+            $a->associate()->update([
+                ['team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score']] // todo:: team_formation_id -n statistikayic poxel
+            ]);
+//            $model->save();
+            print_r($a->toArray());
+            echo "</pre>";
+var_dump($data['home']['score']);
+//            die;
+
+//            $model->homeModel()->update([
+//                ['team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score']] // todo:: team_formation_id -n statistikayic poxel
+//            ]);
+//
+//            $model->away()->update([
+//                ['team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score']] // todo:: team_formation_id -n statistikayic poxel
+//            ]);
+
+            $model->update([
+                'played_at' => $data['date'], 'round' => $round,
+            ]);
+
+        }else{
+            $home = TeamHasTournamentModel::create([
+                ['team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score']] // todo:: team_formation_id -n statistikayic poxel
+            ]);
+
+            $away = TeamHasTournamentModel::create([
+                ['team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score']] // todo:: team_formation_id -n statistikayic poxel
+            ]);
+
+            $model = EventModel::create([
+                'played_at' => $data['date'], 'round' => $round, 'home_id' => $home->id, 'away_id' => $away->id
+            ]);
+        }
+
+//        $this->getEvents()->home()->whereHome_id($data['home']['team']);
+//        $this->getEvents()->away()->whereHome_id($data['away']['team']);
+
+    }
+
     // todo: avelacnel API -ner@
-    public function updateOrCreateRoundEvents($driver, $round)
+    public function updateOrCreateEventWith($driver, $round)
     {
 //        \TeamHasTournamentModel::updateOrCreate(
 //            ['id' => $key],

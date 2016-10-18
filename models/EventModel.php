@@ -39,7 +39,7 @@ class EventModel extends Eloquent
      */
     public function home()
     {
-        return $this->belongsTo('EventTeamStatisticModel', 'home_id')->first();
+        return $this->homeModel()->first();
     }
 
     /**
@@ -48,7 +48,25 @@ class EventModel extends Eloquent
      */
     public function away()
     {
-        return $this->belongsTo('EventTeamStatisticModel', 'away_id')->first();
+        return $this->awayModel()->first();
+    }
+
+    /**
+     * Модел Статистики Домашней команди
+     * @return mixed
+     */
+    public function homeModel()
+    {
+        return $this->belongsTo('EventTeamStatisticModel', 'home_id');
+    }
+
+    /**
+     * Модел Статистики Гостевой команди
+     * @return mixed
+     */
+    public function awayModel()
+    {
+        return $this->belongsTo('EventTeamStatisticModel', 'away_id');
     }
 
 //    public function homeStatistic()
@@ -65,14 +83,9 @@ class EventModel extends Eloquent
     protected static function boot() {
         parent::boot();
 
-        static::updating(function($model) { // before update() method call this
-
-            $slug = $model->home()->text() . '_' . $model->away()->text(); // todo:: add slugable CLASS by DateTime
-            $model->update(['slug' => $slug]);
-            // do the rest of the cleanup...
-        });
-
         static::creating(function($model) { // before create() method call this
+            $slug = $model->home()->team()->text() . '_' . $model->away()->team()->text(); // todo:: add slugable CLASS by DateTime
+            $model->update(['slug' => $slug]);
 
 //            $model->contents()->detach($model->id);
             // do the rest of the cleanup...

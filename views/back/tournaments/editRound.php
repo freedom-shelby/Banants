@@ -26,9 +26,9 @@ use Helpers\Uri;
 <?//= $events[$i] ?>
                 <? if (isset($events[$i])): ?>
                     <div class="team-line row">
-                        <input type="hidden" name="events[<?= $i ?>][id]">
+                        <input type="hidden" name="events[<?= $i ?>][id]" value="<?= $events[$i]->id ?>">
                         <div class="col-md-5">
-                            <select name="events[<?= $i ?>][home][id]" id="home-team-1" class="select-team form-control">
+                            <select name="events[<?= $i ?>][home][team]" id="home-team-1" class="select-team form-control">
                                 <option value="0">Select Team</option>
 
                                 <? foreach ($item->getTeams() as $team): ?>
@@ -39,13 +39,13 @@ use Helpers\Uri;
                         </div>
                         <div class="col-md-2">
                             <div class="scores">
-                                <input type="number" name="events[<?= $i ?>][score]" value="<?= $events[$i]->home()->score ?>" min="0">
+                                <input type="number" name="events[<?= $i ?>][home][score]" value="<?= $events[$i]->home()->score ?>" min="0">
                                 <span class="line"> - </span>
-                                <input type="number" name="events[<?= $i ?>][score]" value="<?= $events[$i]->away()->score ?>" min="0">
+                                <input type="number" name="events[<?= $i ?>][away][score]" value="<?= $events[$i]->away()->score ?>" min="0">
                             </div>
                             <div class="dates">
                                 <div class='input-group date datetimepicker'>
-                                    <input type='text' name="events[<?= $i ?>][date]" class="form-control" />
+                                    <input type='text' name="events[<?= $i ?>][date]" class="form-control" value="<?= $events[$i]->played_at ?>"/>
                                     <span class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar"></span>
                             </span>
@@ -58,18 +58,18 @@ use Helpers\Uri;
                                 <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
                             </div>
                             <div class="show-inputs show-add">
-                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][home][additional]" value="" min="0">
                                 <span class="line"> - </span>
-                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][away][additional]" value="" min="0">
                             </div>
                             <div class="show-inputs show-pen">
-                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][home][pen]" value="" min="0">
                                 <span class="line"> - </span>
-                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][away][pen]" value="" min="0">
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <select name="events[<?= $i ?>][away][id]" id="away-team-1" class="select-team form-control">
+                            <select name="events[<?= $i ?>][away][team]" id="away-team-1" class="select-team form-control">
                                 <option value="0">Select Team</option>
 
                                 <? foreach ($item->getTeams() as $team): ?>
@@ -93,9 +93,9 @@ use Helpers\Uri;
                         </div>
                         <div class="col-md-2">
                             <div class="scores">
-                                <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][home][score]" value="" min="0">
                                 <span class="line"> - </span>
-                                <input type="number" name="events[<?= $i ?>][score]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][away][score]" value="" min="0">
                             </div>
                             <div class="dates">
                                 <div class='input-group date datetimepicker'>
@@ -112,14 +112,14 @@ use Helpers\Uri;
                                 <a href="#" class="call call-penalties btn btn-primary">Penalties</a>
                             </div>
                             <div class="show-inputs show-add">
-                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][home][additional]" value="" min="0">
                                 <span class="line"> - </span>
-                                <input type="number" name="events[<?= $i ?>][additional]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][away][additional]" value="" min="0">
                             </div>
                             <div class="show-inputs show-pen">
-                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][home][pen]" value="" min="0">
                                 <span class="line"> - </span>
-                                <input type="number" name="events[<?= $i ?>][pen]" value="" min="0">
+                                <input type="number" name="events[<?= $i ?>][away][pen]" value="" min="0">
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -147,7 +147,9 @@ use Helpers\Uri;
              e.preventDefault();
         });
 
-        $('.datetimepicker').datetimepicker();
+        $('.datetimepicker').datetimepicker({
+            format: 'YYYY-MM-DD HH:mm:SS'
+        });
 
         $('.call-additional').on('click', function(){
             $(this).closest('.scores-additional').siblings('.show-add').slideToggle();

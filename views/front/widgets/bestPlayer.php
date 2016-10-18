@@ -11,13 +11,13 @@
         <h2><?=__('BEST PLAYER')?></h2>
     </div>
     <div class="best_player_content">
-        <h3> <?=__('Claudio')?> <?=__('Torrejon')?></h3>
+        <h3> <?=__('Layonel')?> <?=__('Adams')?></h3>
         <div class="best_player_images_wrapper">
-            <img src="/uploads/tmp/ClaudioWithFlag.png" alt="best_player" />
+            <img src="/uploads/tmp/AdamsWithRuFlag.png" alt="best_player" />
         </div>
         <div class="best_player_right">
             <div class="best_player_info">
-                <span><?=__('Goals')?> 0<br> <?=__('Assists')?> 0<br> <?=__('Shots')?> 1</span>
+                <span><?=__('Goals')?> 0<br> <?=__('Assists')?> 0<br> <?=__('Shots')?> 0</span>
 <!--                <span class="best-player-goalkeeper">--><?//=__('Saves')?><!-- 2<br> --><?//=__('Passes')?><!-- 62 (87 %)<br> --><?//=__('Fight in the air')?><!-- 2 (100 %)</span>-->
             </div>
             <div class="best_player_multiple clearfix">

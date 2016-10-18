@@ -221,6 +221,8 @@ abstract class AbstractType {
 var_dump($data['home']['score']);
 //            die;
 
+            $user = User::find(1)->clients()->updateExistingPivot($client->id, ['read' => 1]);
+
 //            $model->homeModel()->update([
 //                ['team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score']] // todo:: team_formation_id -n statistikayic poxel
 //            ]);

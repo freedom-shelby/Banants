@@ -19,7 +19,6 @@ use View;
 use TournamentModel;
 use Setting;
 use Router;
-use ArticleModel;
 use Event;
 
 class FullTournamentTable extends AbstractWidget{

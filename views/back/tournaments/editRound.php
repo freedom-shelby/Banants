@@ -82,7 +82,7 @@ use Helpers\Uri;
                 <? else: ?>
                     <div class="team-line row">
                         <div class="col-md-5">
-                            <select name="events[<?= $i ?>][home][id]" id="home-team-1" class="select-team form-control">
+                            <select name="events[<?= $i ?>][home][team]" id="home-team-1" class="select-team form-control">
                                 <option value="0">Select Team</option>
 
                                 <? foreach ($item->getTeams() as $team): ?>
@@ -123,7 +123,7 @@ use Helpers\Uri;
                             </div>
                         </div>
                         <div class="col-md-5">
-                            <select name="events[<?= $i ?>][away][id]" id="away-team-1" class="select-team form-control">
+                            <select name="events[<?= $i ?>][away][team]" id="away-team-1" class="select-team form-control">
                                 <option value="0">Select Team</option>
 
                                 <? foreach ($item->getTeams() as $team): ?>

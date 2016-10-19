@@ -8,6 +8,7 @@ restrictAccess();
  * Time: 12:06 PM
  */
 use Illuminate\Database\Eloquent\Model as Eloquent;
+use Carbon\Carbon;
 
 class EventModel extends Eloquent
 {
@@ -83,8 +84,10 @@ class EventModel extends Eloquent
     protected static function boot() {
         parent::boot();
 
-        static::creating(function($model) { // before create() method call this
-            $slug = $model->home()->team()->text() . '_' . $model->away()->team()->text(); // todo:: add slugable CLASS by DateTime
+        static::created(function($model) { // before create() method call this
+            $time = Carbon::now();
+
+            $slug = strtolower($model->home()->team()->text()) . '_' . strtolower($model->away()->team()->text()) . '_' . $time->year . '_' . $time->month . '_' . $time->day . '_' . $time->minute.$time->second; // todo:: add slugable CLASS by DateTime
             $model->update(['slug' => $slug]);
 
 //            $model->contents()->detach($model->id);

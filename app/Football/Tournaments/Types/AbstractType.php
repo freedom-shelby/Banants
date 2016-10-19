@@ -13,7 +13,7 @@ restrictAccess();
 
 use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use TeamHasTournamentModel;
+use EventTeamStatisticModel;
 use EventModel;
 
 
@@ -36,6 +36,7 @@ abstract class AbstractType {
     protected $_teams;
     protected $_teamModels;
     protected $_events;
+    protected $_defaultImage;
     protected $_current_round;
     protected $_max_rounds;
 
@@ -111,6 +112,14 @@ abstract class AbstractType {
     }
 
     /**
+     * @return mixed
+     */
+    public function getDefaultImage()
+    {
+        return $this->_defaultImage;
+    }
+
+    /**
      * @param $model
      * @return AbstractType
      */
@@ -124,6 +133,7 @@ abstract class AbstractType {
         $this->_teams = $model->tableTeams();
         $this->_teamModels = $model->teams();
         $this->_events = $model->events();
+        $this->_defaultImage = $model->defaultImage();
         $this->_current_round = $model->current_round;
         $this->_max_rounds = $model->max_rounds;
 
@@ -137,7 +147,8 @@ abstract class AbstractType {
      */
     public function getEventsByRound($round)
     {
-        return $this->_events->whereRound($round)->get();
+        $events = $this->_model->events();
+        return $events->whereRound($round)->get();
     }
 
     /**
@@ -210,25 +221,30 @@ abstract class AbstractType {
     {
         if (isset($data['id']) and ! is_null($model = EventModel::find($data['id'])))
         {
-            echo "<pre>";
-            $a = $model->homeModel();
-            $a->associate()->update([
-                ['team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score']] // todo:: team_formation_id -n statistikayic poxel
-            ]);
-//            $model->save();
-            print_r($a->toArray());
-            echo "</pre>";
-var_dump($data['home']['score']);
+            // todo::
+//            echo "<pre>";
+//            $a = $model->homeModel();
+//            $a->associate()->update([
+//                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score'] // todo:: team_formation_id -n statistikayic poxel
+//            ]);
+////            $model->save();
+//            print_r($a->toArray());
+//            echo "</pre>";
+//var_dump($data['home']['score']);
+            // todo::
+
 //            die;
 
-            $user = User::find(1)->clients()->updateExistingPivot($client->id, ['read' => 1]);
+            // todo::
+//            $user = User::find(1)->clients()->updateExistingPivot($client->id, ['read' => 1]);
+            // todo::
 
 //            $model->homeModel()->update([
-//                ['team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score']] // todo:: team_formation_id -n statistikayic poxel
+//                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score'] // todo:: team_formation_id -n statistikayic poxel
 //            ]);
 //
 //            $model->away()->update([
-//                ['team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score']] // todo:: team_formation_id -n statistikayic poxel
+//                'team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score'] // todo:: team_formation_id -n statistikayic poxel
 //            ]);
 
             $model->update([
@@ -236,16 +252,20 @@ var_dump($data['home']['score']);
             ]);
 
         }else{
-            $home = TeamHasTournamentModel::create([
-                ['team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score']] // todo:: team_formation_id -n statistikayic poxel
+            $home = EventTeamStatisticModel::create([
+                'team_id' => $data['home']['team'],
+                'team_formation_id' => 1,
+                'score' => $data['home']['score'] // todo:: team_formation_id -n statistikayic poxel
             ]);
 
-            $away = TeamHasTournamentModel::create([
-                ['team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score']] // todo:: team_formation_id -n statistikayic poxel
+            $away = EventTeamStatisticModel::create([
+                'team_id' => $data['away']['team'],
+                'team_formation_id' => 1,
+                'score' => $data['away']['score'] // todo:: team_formation_id -n statistikayic poxel
             ]);
 
             $model = EventModel::create([
-                'played_at' => $data['date'], 'round' => $round, 'home_id' => $home->id, 'away_id' => $away->id
+                'tournament_id' => $this->getId(), 'played_at' => $data['date'], 'round' => $round, 'home_id' => $home->id, 'away_id' => $away->id
             ]);
         }
 
@@ -305,5 +325,10 @@ var_dump($data['home']['score']);
         ]);
 
         return $this;
+    }
+
+    public function __get($name)
+    {
+        return $this->_model->$name;
     }
 } 

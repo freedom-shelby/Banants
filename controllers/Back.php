@@ -24,6 +24,8 @@ class Back extends \Base{
             App::instance()->http()->getIpAddress() != '37.157.219.63' and // Davit
             App::instance()->http()->getIpAddress() != '37.157.219.23' and // Davit
             App::instance()->http()->getIpAddress() != '87.241.188.112' and // Davit
+            App::instance()->http()->getIpAddress() != '37.186.110.200' and // Davit
+            App::instance()->http()->getIpAddress() != '37.157.219.22' and // Davit
             App::instance()->http()->getIpAddress() != '87.241.188.163' and // Banants
             App::instance()->http()->getIpAddress() != '87.241.184.177' and // Banants
             App::instance()->http()->getIpAddress() != '37.157.222.35' and

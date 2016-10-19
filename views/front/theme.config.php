@@ -14,9 +14,9 @@ return array(
         'css' => array(
             array('file' => 'normalize.css'),
             array('file' => 'owl.carousel.css'),
-            array('file' => 'jquery.bxslider.css'),
-            array('file' => 'style.css'),
             array('file' => 'jquery.fancybox.css'),
+            array('file' => 'style.css'),
+//            array('file' => 'jquery.bxslider.css'),
         ),
         'js' => array(
             array('file' => 'jquery.js'),

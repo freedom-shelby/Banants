@@ -22,22 +22,4 @@ class EventTeamStatisticModel extends Eloquent
     {
         return $this->belongsTo('TeamModel', 'team_id')->first();
     }
-
-    // this is a recommended way to declare event handlers
-    protected static function boot() {
-        parent::boot();
-
-        static::updating(function($model) { // before update() method call this
-
-            $slug = $model->home()->text() . '_' . $model->away()->text(); // todo:: add slugable CLASS by DateTime
-            $model->update(['slug' => $slug]);
-            // do the rest of the cleanup...
-        });
-
-        static::creating(function($model) { // before create() method call this
-
-//            $model->contents()->detach($model->id);
-            // do the rest of the cleanup...
-        });
-    }
 }

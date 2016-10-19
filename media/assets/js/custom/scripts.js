@@ -312,14 +312,6 @@ $(document).ready(function() {
 });
 
 $(document).ready(function () {
-    $('.bxslider').bxSlider({
-        mode: 'vertical',
-        startSlide: '3',
-        pagerSelector : '#pager'
-    });
-});
-
-$(document).ready(function () {
     size_li = $("#myList li").length;
     x=3;
     $('#myList li:lt('+x+')').show();

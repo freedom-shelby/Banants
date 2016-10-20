@@ -27,7 +27,6 @@ use Carbon\Carbon;
                             <p class="date-match"><?= Carbon::parse($event->played_at)->format('d\\/m\\/Y H:i') ?></p>
                             <a href="#">
                                 <span class="name"><?= __($event->home()->team()->text()) ?></span>
-<!--                                <img src="--><?//= $event->home()->team()->defaultImage()->path ?><!--" alt="">-->
                                 <img src="<?= Imagefly::imagePath($event->home()->team()->defaultImage()->path, 'w65-q65') ?>" alt="">
                             </a>
                             <a href="" class="result"><?= $event->home()->score ?> - <?= $event->away()->score ?></a>

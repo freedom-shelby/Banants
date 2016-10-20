@@ -11,9 +11,9 @@
         <h2><?=__('BEST PLAYER')?></h2>
     </div>
     <div class="best_player_content">
-        <h3> <?=__('Layonel')?> <?=__('Adams')?></h3>
+        <h3> <?=__('Aram')?> <?=__('Bareghamyan')?></h3>
         <div class="best_player_images_wrapper">
-            <img src="/uploads/tmp/AdamsWithRuFlag.png" alt="best_player" />
+            <img src="/uploads/tmp/BareghamyanWithARMBackFLAG.png" alt="best_player" />
         </div>
         <div class="best_player_right">
             <div class="best_player_info">

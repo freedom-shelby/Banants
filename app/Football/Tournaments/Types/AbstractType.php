@@ -221,49 +221,17 @@ abstract class AbstractType {
     {
         if (isset($data['id']) and ! is_null($model = EventModel::find($data['id'])))
         {
-            // todo::
-            echo "<pre>";
-//            $a = $model->homeModel()->first();
-            $a = $model->homeModel();
-
-            $b = EventTeamStatisticModel::find(3);
-            $model->with('homeModel')->first()->homeModel->update([
-                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => 666
+            $model->homeModel()->update([
+                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score'] // todo:: team_formation_id -n statistikayic poxel
             ]);
-//            $a->account()->associate($b);
-//            echo "<pre>";
-//            print_r($model->with('homeModel')->first()->homeModel()->first()->toArray());
-//            die;
-//            $a->updateExistingPivot(5, ['read' => 1]);;
-
-//            $a->save([
-//                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => 666
-//            ]);
-            
-//            $model->save();
-
-            echo "</pre>";
-var_dump($data['home']['score']);
-            // todo::
-
-//            die;
-
-            // todo::
-//            $user = User::find(1)->clients()->updateExistingPivot($client->id, ['read' => 1]);
-            // todo::
-
-//            $model->homeModel()->update([
-//                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score'] // todo:: team_formation_id -n statistikayic poxel
-//            ]);
 //
-//            $model->away()->update([
-//                'team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score'] // todo:: team_formation_id -n statistikayic poxel
-//            ]);
+            $model->awayModel()->update([
+                'team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score'] // todo:: team_formation_id -n statistikayic poxel
+            ]);
 
-//            $model->update([
-//                'played_at' => $data['date'], 'round' => $round,
-//            ]);
-
+            $model->update([
+                'played_at' => $data['date'], 'round' => $round,
+            ]);
         }else{
             $home = EventTeamStatisticModel::create([
                 'team_id' => $data['home']['team'],
@@ -281,10 +249,8 @@ var_dump($data['home']['score']);
                 'tournament_id' => $this->getId(), 'played_at' => $data['date'], 'round' => $round, 'home_id' => $home->id, 'away_id' => $away->id
             ]);
         }
-
 //        $this->getEvents()->home()->whereHome_id($data['home']['team']);
 //        $this->getEvents()->away()->whereHome_id($data['away']['team']);
-
     }
 
     // todo: avelacnel API -ner@

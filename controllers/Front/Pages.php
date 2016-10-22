@@ -63,17 +63,16 @@ class Pages extends Front
         // User Register
 
         // Create Role
-        $role = Sentinel::getRoleRepository()->createModel()->create([
-            'name' => 'Admin',
-            'slug' => 'admin',
-        ]);
+//        $role = Sentinel::getRoleRepository()->createModel()->create([
+//            'name' => 'Admin',
+//            'slug' => 'admin',
+//        ]);
 
 //        $tmpName = trim('Davit');
-//        $tmpEmail = trim('dgalstyan@gmail.com');
+//        $tmpEmail = trim('dg');
+//        $pass = 'pass';
 //        $country = 1;
-//
-//        $pass = 'Banants@Davit!';
-//
+
 //        $credentials = [
 //            'email'    => $tmpEmail,
 //            'password' => $pass,
@@ -83,7 +82,7 @@ class Pages extends Front
 //
 //        $user = Sentinel::register($credentials);
 //
-//        $role = Sentinel::findRoleByName('Super Admin');
+//        $role = Sentinel::findRoleByName('Admin');
 //        $role->users()->attach($user);
 //
 //        var_dump($pass);

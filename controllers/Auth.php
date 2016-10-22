@@ -50,7 +50,7 @@ class Auth extends Base
 
         if(Sentinel::check())
         {
-            $result['redirectUrl'] = Uri::makeUriFromId('Admin');
+            $result['redirectUrl'] = Uri::makeUriFromId('/Admin');
             $result['status'] = 'ok';
         }
 

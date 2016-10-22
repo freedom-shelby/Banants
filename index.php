@@ -7,13 +7,19 @@
  * Входная точка
  */
 error_reporting(E_ALL);
-//ini_set('display_errors', 'On');
+ini_set('display_errors', 'On');
 
 /**
  * Устанавливаем корневую директорию
  */
 define('ROOT_PATH',dirname(__FILE__).'/');
 define('EXT','.php');
+
+/**
+ * Настройкий сессии
+ */
+session_save_path('/tmp');
+ini_set('session.gc_probability', 1);
 
 /**
  * Подключаем и регистрируем автозагрузчик

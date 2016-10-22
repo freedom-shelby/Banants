@@ -48,5 +48,5 @@ use Ivliev\Imagefly\Imagefly;
         <?endforeach?>
 
     </div><!-- news_slider -->
-    <span class="all_news_link"><a href="<?=Uri::makeUriFromId('/club_news')?>">Посмотреть все новости</a></span>
+    <span class="all_news_link"><a href="<?=Uri::makeUriFromId('/club_news')?>"><?= __('View all news') ?></a></span>
 </div>

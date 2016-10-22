@@ -31,5 +31,5 @@
         <? endif ?>
 
     </div>
-    <span class="all_news_link"><a href="#">Видео архив. Лудшие моменты.</a></span>
+    <span class="all_news_link"><a href="#"><?= __('Video archive. The best moments.') ?></a></span>
 </div><!-- leftbar_images_slider_wrapper -->

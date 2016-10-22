@@ -38,7 +38,7 @@ use Helpers\Uri;
                         <? endif ?>
 
                         </div>
-                        <span class="photogalery_link"><a href="<?= Uri::makeUriFromId('photos')?>">Фото Галерея</a></span>
+                        <span class="photogalery_link"><a href="<?= Uri::makeUriFromId('photos')?>"><?= __('Photo Gallery') ?></a></span>
                     </div>
                 </div>
             </div>

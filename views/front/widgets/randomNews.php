@@ -28,5 +28,5 @@ use Ivliev\Imagefly\Imagefly;
         <?endforeach?>
 
     </div><!-- carousel_slider -->
-    <span class="all_news_link"><a href="<?=Uri::makeUriFromId('Club')?>">Перейти к новостям клуба</a></span>
+    <span class="all_news_link"><a href="<?=Uri::makeUriFromId('Club')?>"><?= __('Go to news of the club') ?></a></span>
 </div>

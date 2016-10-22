@@ -26,7 +26,7 @@ class QuizResponsesModel extends Eloquent {
 
     public function user()
     {
-        return $this->belongsTo('UserModel', 'user_id');
+        return $this->belongsTo('QuizUserModel', 'user_id');
     }
 
 } 

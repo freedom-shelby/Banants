@@ -7,9 +7,9 @@
  */
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
-class UserModel extends Eloquent {
+class QuizUserModel extends Eloquent {
 
-    protected $table = 'users';
+    protected $table = 'quiz_users';
 
     public $timestamps = false;
 
@@ -19,4 +19,4 @@ class UserModel extends Eloquent {
     {
         return $this->hasMany('QuizResponsesModel', 'user_id');
     }
-} 
+}

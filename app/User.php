@@ -34,7 +34,7 @@ class User {
      * Конструктор
      */
     protected function __construct(){
-        $this->_userModel = UserModel::firstOrCreate([
+        $this->_userModel = QuizUserModel::firstOrCreate([
             'ip' => App::instance()->http()->getIpAddress()
             ]);
     }

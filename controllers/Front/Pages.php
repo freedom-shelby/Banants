@@ -16,6 +16,7 @@ use View;
 use ArticleModel;
 
 use Widgets\WidgetsContainer;
+use Cartalyst\Sentinel\Native\Facades\Sentinel;
 
 class Pages extends Front
 {
@@ -58,6 +59,36 @@ class Pages extends Front
     public function getTest(){
         error_reporting(E_ALL);
         ini_set('display_errors', 'On');
+
+        // User Register
+
+        // Create Role
+        $role = Sentinel::getRoleRepository()->createModel()->create([
+            'name' => 'Admin',
+            'slug' => 'admin',
+        ]);
+
+//        $tmpName = trim('Davit');
+//        $tmpEmail = trim('dgalstyan@gmail.com');
+//        $country = 1;
+//
+//        $pass = 'Banants@Davit!';
+//
+//        $credentials = [
+//            'email'    => $tmpEmail,
+//            'password' => $pass,
+//            'first_name' => $tmpName,
+//            'country_id' => $country,
+//        ];
+//
+//        $user = Sentinel::register($credentials);
+//
+//        $role = Sentinel::findRoleByName('Super Admin');
+//        $role->users()->attach($user);
+//
+//        var_dump($pass);
+        // #User Register
+
 //        $img = Image::make('uploads/images/5721fc06d139a.jpg')->resize(300, 300)->greyscale();
 
 //        $img = Image::cache(function($image) {
@@ -82,8 +113,8 @@ class Pages extends Front
 ////        $model = ArticleModel::where('slug','=','home')->first();
 ////        WidgetsContainer::instance($model);
 ////
-        $this->layout = View::make('test/index');
-        $this->layout->content = View::make('test/Test_1');
+//        $this->layout = View::make('test/index');
+//        $this->layout->content = View::make('test/Test_1');
     }
 
 

@@ -61,7 +61,7 @@ class Http {
         $this->_get = $_GET;
         $this->_server = $_SERVER;
         $this->_rawPostData = file_get_contents('php://input');
-        unset($_POST,$_SERVER,$_GET,$_REQUEST);
+//        unset($_POST,$_SERVER,$_GET,$_REQUEST);
         $this->phpExpose();
         $this->checkHeaders();
     }

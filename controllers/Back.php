@@ -9,11 +9,14 @@ namespace Back;
 restrictAccess();
 
 use App;
+use Cartalyst\Sentinel\Native\Facades\Sentinel;
 
 class Back extends \Base{
 
     public function __construct(array $requestParams)
     {
+//        Sentinel::creating
+
         if( App::instance()->http()->getIpAddress() != '127.0.0.1' and
             App::instance()->http()->getIpAddress() != '109.75.47.150' and // Home
             App::instance()->http()->getIpAddress() != '81.16.8.9' and // Office

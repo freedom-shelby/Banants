@@ -8,8 +8,11 @@ $baseDir = dirname($vendorDir);
 return array(
     'Symfony\\Polyfill\\Util\\' => array($vendorDir . '/symfony/polyfill-util'),
     'Symfony\\Polyfill\\Php56\\' => array($vendorDir . '/symfony/polyfill-php56'),
+    'Symfony\\Polyfill\\Php55\\' => array($vendorDir . '/symfony/polyfill-php55'),
+    'Symfony\\Polyfill\\Php54\\' => array($vendorDir . '/symfony/polyfill-php54'),
     'Symfony\\Polyfill\\Mbstring\\' => array($vendorDir . '/symfony/polyfill-mbstring'),
     'Symfony\\Component\\Translation\\' => array($vendorDir . '/symfony/translation'),
+    'Symfony\\Component\\HttpFoundation\\' => array($vendorDir . '/symfony/http-foundation'),
     'SuperClosure\\' => array($vendorDir . '/jeremeamia/SuperClosure/src'),
     'Stringy\\' => array($vendorDir . '/danielstjules/stringy/src'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
@@ -27,5 +30,7 @@ return array(
     'Illuminate\\Cache\\' => array($vendorDir . '/illuminate/cache'),
     'GuzzleHttp\\Psr7\\' => array($vendorDir . '/guzzlehttp/psr7/src'),
     'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
+    'Cartalyst\\Support\\' => array($vendorDir . '/cartalyst/support/src'),
+    'Cartalyst\\Sentinel\\' => array($vendorDir . '/cartalyst/sentinel/src'),
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
 );

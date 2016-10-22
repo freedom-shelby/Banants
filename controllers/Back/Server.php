@@ -10,14 +10,7 @@ namespace Back;
 restrictAccess();
 
 
-use Http\Exception as Exception;
 use View;
-use ArticleModel;
-
-use Widgets\WidgetsContainer;
-use Helpers\Arr;
-use Quiz;
-use App;
 use PhotoModel;
 
 class Server extends Back
@@ -55,5 +48,4 @@ class Server extends Back
         echo View::make('back/server/photoGalleryPaginate')
             ->with('photos', $photos);
     }
-
 }

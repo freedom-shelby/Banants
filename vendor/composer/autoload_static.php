@@ -229,6 +229,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'ArticleHasOnlySelfWidgetModel' => __DIR__ . '/../..' . '/models/ArticleHasOnlySelfWidgetModel.php',
         'ArticleHasWidgetModel' => __DIR__ . '/../..' . '/models/ArticleHasWidgetModel.php',
         'ArticleModel' => __DIR__ . '/../..' . '/models/ArticleModel.php',
+        'Auth' => __DIR__ . '/../..' . '/controllers/Auth.php',
         'Back\\Articles' => __DIR__ . '/../..' . '/controllers/Back/Articles.php',
         'Back\\Back' => __DIR__ . '/../..' . '/controllers/Back.php',
         'Back\\Categories' => __DIR__ . '/../..' . '/controllers/Back/Categories.php',

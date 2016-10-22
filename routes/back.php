@@ -13,6 +13,8 @@ restrictAccess();
  * Роуты
  */
 Router::get(['/Admin', 'as' => 'back.home'],'Back\Pages@getHome');
+Router::get(['/Admin/login', 'as' => 'auth.login'],'Auth@getLogin');
+Router::get(['/Admin/logout', 'as' => 'auth.logout'],'Auth@getLogout');
 Router::get(['/Admin/Articles', 'as' => 'back.articles.list'],'Back\Articles@getList');
 Router::any(['/Admin/Articles/Add', 'as' => 'back.articles.add'],'Back\Articles@anyAdd');
 Router::any(['/Admin/Articles/Edit/{id?}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.articles.edit'],'Back\Articles@anyEdit');
@@ -76,6 +78,7 @@ Router::get(['/Admin/Tournament/List', 'as' => 'back.tournament.list'],'Back\Tou
  */
 Router::get(['/Admin/Server/getPhotos', 'as' => 'back.server.photo'],'Back\Server@getPhotos');
 Router::get(['/Admin/Server/getPhotosForGallery', 'as' => 'back.server.photo.gallery'],'Back\Server@getPhotosForGallery');
+Router::any(['/Admin/Auth/login', 'as' => 'back.server.login'],'Auth@anyLogin');
 
 /**
  * Тесты

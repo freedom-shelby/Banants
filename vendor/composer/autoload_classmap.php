@@ -10,6 +10,7 @@ return array(
     'ArticleHasOnlySelfWidgetModel' => $baseDir . '/models/ArticleHasOnlySelfWidgetModel.php',
     'ArticleHasWidgetModel' => $baseDir . '/models/ArticleHasWidgetModel.php',
     'ArticleModel' => $baseDir . '/models/ArticleModel.php',
+    'Auth' => $baseDir . '/controllers/Auth.php',
     'Back\\Articles' => $baseDir . '/controllers/Back/Articles.php',
     'Back\\Back' => $baseDir . '/controllers/Back.php',
     'Back\\Categories' => $baseDir . '/controllers/Back/Categories.php',

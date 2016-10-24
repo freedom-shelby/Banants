@@ -14,10 +14,10 @@
 <!--                                                <h4>ГАНДЗАСАР</h4>-->
     </div>
     <div class="banner_team1_text">
-        <span>23.10</span>
+        <span>26.10</span>
         <span style="margin-top: 10px; display: block">15:00</span>
     </div>
     <div class="team2_logo">
-        <img src="/media/assets/images/team_logo/Pyunik-Logo.png" alt="logo_main" />
+        <img src="/media/assets/images/team_logo/Ararat-yerevan-logo.png" alt="logo_main" />
     </div>
 </div>

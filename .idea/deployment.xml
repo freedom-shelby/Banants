@@ -36,6 +36,7 @@
             <excludedPath path="/HTML" />
             <excludedPath path="/localstorage" />
             <excludedPath path="/phpmyadmin" />
+            <excludedPath path="/uploads" />
           </excludedPaths>
         </serverdata>
       </paths>

@@ -7,7 +7,7 @@
  * Входная точка
  */
 error_reporting(E_ALL);
-ini_set('display_errors', 'On');
+//ini_set('display_errors', 'On');
 
 /**
  * Устанавливаем корневую директорию
@@ -18,6 +18,7 @@ define('EXT','.php');
 /**
  * Настройкий сессии
  */
+//ini_set('session.save_path',realpath(dirname($_SERVER['DOCUMENT_ROOT']) . '/../session'));
 session_save_path('/tmp');
 ini_set('session.gc_probability', 1);
 

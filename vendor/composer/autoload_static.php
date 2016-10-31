@@ -1418,6 +1418,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'Subscribers\\Admin\\LanguagesEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Admin/LanguagesEventHandler.php',
         'Subscribers\\Admin\\SettingsEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Admin/SettingsEventHandler.php',
         'Subscribers\\Controller\\GlobalEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Controller/GlobalEventHandler.php',
+        'Subscribers\\Football\\TournamentEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Football/TournamentEventHandler.php',
         'Subscribers\\Route\\GlobalEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Route/GlobalEventHandler.php',
         'SuperClosure\\Analyzer\\AstAnalyzer' => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src/Analyzer/AstAnalyzer.php',
         'SuperClosure\\Analyzer\\ClosureAnalyzer' => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src/Analyzer/ClosureAnalyzer.php',

@@ -293,6 +293,14 @@ abstract class AbstractType {
     }
 
     /**
+     * Сортировка позиции таблицы
+     */
+    public function reSortingTable()
+    {
+
+    }
+
+    /**
      * Запис в базу
      * @return $this
      */

@@ -1199,6 +1199,7 @@ return array(
     'Subscribers\\Admin\\LanguagesEventHandler' => $baseDir . '/app/Subscribers/Admin/LanguagesEventHandler.php',
     'Subscribers\\Admin\\SettingsEventHandler' => $baseDir . '/app/Subscribers/Admin/SettingsEventHandler.php',
     'Subscribers\\Controller\\GlobalEventHandler' => $baseDir . '/app/Subscribers/Controller/GlobalEventHandler.php',
+    'Subscribers\\Football\\TournamentEventHandler' => $baseDir . '/app/Subscribers/Football/TournamentEventHandler.php',
     'Subscribers\\Route\\GlobalEventHandler' => $baseDir . '/app/Subscribers/Route/GlobalEventHandler.php',
     'SuperClosure\\Analyzer\\AstAnalyzer' => $vendorDir . '/jeremeamia/SuperClosure/src/Analyzer/AstAnalyzer.php',
     'SuperClosure\\Analyzer\\ClosureAnalyzer' => $vendorDir . '/jeremeamia/SuperClosure/src/Analyzer/ClosureAnalyzer.php',

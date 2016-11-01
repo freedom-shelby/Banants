@@ -10,6 +10,8 @@ namespace Subscribers\Football;
 restrictAccess();
 
 
+use Football\Tournaments\Types\AbstractType;
+use Football\Tournaments\Types\DoubleRoundRobin;
 use Message;
 use Cache\LocalStorage as Cache;
 
@@ -18,25 +20,28 @@ class TournamentEventHandler
 
     /**
      * Метод обрабатывающий событие перед обновлением материала
-     * @param $article \ArticleModel
+     * @param $tournament DoubleRoundRobin
+     *
+     * todo:: avelacnel AbstracType -um vor @ndhanur sagh turnirneri hamar lini generateTabel -en
      */
-    public static function onEventUpdate($article){
+    public static function onEventUpdate($tournament){
 //        $cache = new Cache();
-//        $cache->setLocalPath($article->slug.'_article');
+//        $cache->setLocalPath($tournament->slug.'_article');
 //        $cache->clear();
 
+        $tournament->generateTable();
     }
 
     /**
      * Метод обрабатывающий событие обновления материала
-     * @param $article \ArticleModel
+     * @param $tournament AbstractType
      */
-    public static function onTableUpdate($article){
+    public static function onTableUpdate($tournament){
 //        Message::instance()->success('Article was successfully saved');
 //        $cache = new Cache();
-//        $cache->setLocalPath($article->slug.'_article');
+//        $cache->setLocalPath($tournament->slug.'_article');
 //        $cache->clear();
-//        $cache->setData($article);
+//        $cache->setData($tournament);
 //        $cache->save();
 
     }

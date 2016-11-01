@@ -623,4 +623,30 @@ class Arr {
         return $flat;
     }
 
+    /**
+     * Easy way to sort database-style results
+     *
+     * This does what example 3 does, except it takes
+     * care of creating those intermediate arrays for
+     * you before passing control on to array_multisort().
+     *
+     * @return mixed
+     * @example array_order_by($data, 'volume', SORT_DESC, 'edition', SORT_ASC)
+     */
+    public static function array_order_by()
+    {
+        $args = func_get_args();
+        $data = array_shift($args);
+        foreach ($args as $n => $field) {
+            if (is_string($field)) {
+                $tmp = array();
+                foreach ($data as $key => $row)
+                    $tmp[$key] = $row[$field];
+                $args[$n] = $tmp;
+            }
+        }
+        $args[] = &$data;
+        call_user_func_array('array_multisort', $args);
+        return array_pop($args);
+    }
 }

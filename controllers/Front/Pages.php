@@ -88,6 +88,24 @@ class Pages extends Front
 //        var_dump($pass);
         // #User Register
 
+        /**
+         * add teams id to EventModel
+         */
+//        $items = \EventModel::all();
+//
+//        foreach ($items as $item) {
+//            $data = [];
+//
+//            $data['home_team_id'] = $item->home()->team_id;
+//            $data['away_team_id'] = $item->away()->team_id;
+//
+//            $item->update($data);
+//        }
+        /**
+         * #add teams id to EventModel
+         */
+
+
 //        $img = Image::make('uploads/images/5721fc06d139a.jpg')->resize(300, 300)->greyscale();
 
 //        $img = Image::cache(function($image) {

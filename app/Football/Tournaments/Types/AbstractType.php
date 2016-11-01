@@ -40,9 +40,6 @@ abstract class AbstractType {
     protected $_current_round;
     protected $_max_rounds;
 
-    public function getPosition(){}
-    public function getSorting(){}
-    public function render(){}
 
     /**
      * @var array $driver

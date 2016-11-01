@@ -301,24 +301,24 @@ class Tournaments extends Back
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Model']));
         }
 
-        if (Arr::get($this->getPostData(),'submit') !== null) {
-//echo "<pre>";
-//print_r($this->getPostData());
-//die;
+        if (Arr::get($this->getPostData(),'submit') !== null)
+        {
             $data = Arr::extract($this->getPostData(), ['events']);
             // Транзакция для Записание данных в базу
-//            try {
+            try {
                 Capsule::connection()->transaction(function () use ($data, $item, $roundNumber)
                 {
                     foreach ($data['events'] as $event) {
                         $item->updateOrCreateEvent($event, $roundNumber);
                     }
+
+                    Event::fire('Football.eventUpdate', $item);
                 });
 
                 Message::instance()->success('Tournament Round Matches was successfully edited');
-//            } catch (QueryException $e) {
-//                Message::instance()->warning('Tournament Round Matches was don\'t edited');
-//            }
+            } catch (QueryException $e) {
+                Message::instance()->warning('Tournament Round Matches was don\'t edited');
+            }
         }
 
         $teams = $item->getLazyModelForTeams();

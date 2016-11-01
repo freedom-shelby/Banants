@@ -22,4 +22,9 @@ class EventTeamStatisticModel extends Eloquent
     {
         return $this->belongsTo('TeamModel', 'team_id')->first();
     }
+
+    public function event()
+    {
+        return ($this->hasOne('EventModel', 'home_id')->first()) ?: $this->hasOne('EventModel', 'away_id')->first();
+    }
 }

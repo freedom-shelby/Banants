@@ -20,11 +20,7 @@ class DoubleRoundRobin extends AbstractType {
     const WIN_POINT = 3;
     const DRAW_POINT = 1;
     const LOSE_POINT = 0;
-
-    public function getPosition(){}
-    public function getSorting(){}
-    public function render(){}
-
+    
 
     /**
      * Конструктор
@@ -39,8 +35,8 @@ class DoubleRoundRobin extends AbstractType {
      * @param $model Eloquent
      * @return DoubleRoundRobin $item
      */
-    public static function factory($model){
-
+    public static function factory($model)
+    {
         $item = new self($model);
         return $item;
     }
@@ -55,7 +51,7 @@ class DoubleRoundRobin extends AbstractType {
         return $this->_teamModels->with('entity')->orderBy('pos')->get()->keyBy('id');
     }
 
-    public function loadFromArray($data)
+    public function loadFromArray(array $data)
     {
         foreach ($data as $key => $value) {
             $optimized = $this->optimizeTeamStatistic($value);
@@ -100,16 +96,24 @@ class DoubleRoundRobin extends AbstractType {
         return (int) ($goalsFor - $goalsAgainst);
     }
 
-    public function generateTable()
+    /**
+     * Оптимизирует таблицу по текущей статистке (не трогает позиций)
+     */
+    public function autoOptimizeTable()
     {
         $this->loadFromArray($this->getTeams()->toArray());
+    }
 
-        $this->sortPositions();// todo:: generate table positions
+    /**
+     * Генерирует Таблицу с нуля (по статистике всех сыгранных играх)
+     */
+    public function generateTable()
+    {
+        // todo:: $this->generateWithRoundEvents()
 
-//        foreach ($data as $key => $value) {
-//            $optimized = $this->optimizeTeamStatistic($value);
-//            $this->getTeams()->find($key)->update($optimized);
-//        }
+        $this->loadFromArray($this->getTeams()->toArray());
+
+        $this->sortPositions();
     }
 
     public function renderBasicWidget()
@@ -120,7 +124,18 @@ class DoubleRoundRobin extends AbstractType {
 
     public function sortPositions()
     {
-     // todo:: generate table positions
+        $teams = $this->getTeams()->toArray();
+
+        usort($teams, [$this, 'bestOfBothTeam']);
+
+echo "<pre>";
+print_r($teams);
+die;
+//        Arr::array_order_by($data,
+//            'points', SORT_DESC, SORT_NUMERIC,
+//            'duels', SORT_ASC, SORT_NUMERIC,
+//            'difference', SORT_ASC, SORT_NUMERIC,
+//            'goals_for', SORT_ASC, SORT_NUMERIC);
 
 //        foreach ($data as $key => $value) {
 //            $optimized = $this->optimizeTeamStatistic($value);
@@ -128,9 +143,67 @@ class DoubleRoundRobin extends AbstractType {
 //        }
     }
 
+    /**
+     * Возвращает Какая команда лучший по всем параметрам
+     * @param $team1
+     * @param $team2
+     *
+     * @return int (-1 => <) (0 => ==) (+1 => >)
+     */
+    public function bestOfBothTeam($team1, $team2)
+    {
+        if($team1['points'] == $team2['points'])
+        {
+            if($cmp = $this->whoWonOnDuel($team1, $team2))
+            {
+                if($team1['win'] == $team2['win'])
+                {
+                    if($team1['difference'] == $team2['difference'])
+                    {
+                        if($team1['goals_against'] == $team2['goals_against'])
+                        {
+                            return 0;
+                        }
+
+                        return $team1['goals_against'] - $team2['goals_against'];
+                    }
+
+                    return $team1['difference'] - $team2['difference'];
+                }
+
+                return $team1['win'] - $team2['win'];
+            }
+
+            return $cmp;
+        }
+
+        return $team1['points'] > $team2['points'] ? -1 : 1;
+    }
+
     public function whoWon()
     {
         // todo::
+    }
+
+    /**
+     * Возвращает Какая команда победила в матчах между собой в текущем турнире
+     * @return int
+     */
+    public function whoWonOnDuel($team1, $team2)
+    {
+//        $t1 = $this->getEvents()->whereHome_team_id($team1['team_id'])->whereAway_team_id($team2['team_id'])->get();
+        $t1 = $this->getEvents()->whereHome_team_id($team1['team_id'])->whereAway_team_id($team2['team_id'])->get();
+
+        echo "<pre>";
+        print_r($t1->toArray());
+        die;
+        
+        if($team1['goals_against'] == $team2['goals_against'])
+        {
+            return 0;
+        }
+
+        return $team1['goals_against'] - $team2['goals_against'];
     }
 
     // todo:: Add match and generateTable()

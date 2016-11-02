@@ -20,7 +20,7 @@ class DoubleRoundRobin extends AbstractType {
     const WIN_POINT = 3;
     const DRAW_POINT = 1;
     const LOSE_POINT = 0;
-    
+
 
     /**
      * Конструктор
@@ -109,7 +109,7 @@ class DoubleRoundRobin extends AbstractType {
      */
     public function generateTable()
     {
-        // todo:: $this->generateWithRoundEvents()
+        $this->generateWithRoundEvents();
 
         $this->loadFromArray($this->getTeams()->toArray());
 
@@ -122,25 +122,24 @@ class DoubleRoundRobin extends AbstractType {
             ->with('items', $this->getTeams());
     }
 
+    /**
+     * Сортирует позииций клубов
+     */
     public function sortPositions()
     {
         $teams = $this->getTeams()->toArray();
 
         usort($teams, [$this, 'bestOfBothTeam']);
-
-echo "<pre>";
-print_r($teams);
-die;
-//        Arr::array_order_by($data,
+        
+//        Arr::array_order_by($teams,
 //            'points', SORT_DESC, SORT_NUMERIC,
-//            'duels', SORT_ASC, SORT_NUMERIC,
+//            'win', SORT_DESC, SORT_NUMERIC,
 //            'difference', SORT_ASC, SORT_NUMERIC,
 //            'goals_for', SORT_ASC, SORT_NUMERIC);
 
-//        foreach ($data as $key => $value) {
-//            $optimized = $this->optimizeTeamStatistic($value);
-//            $this->getTeams()->find($key)->update($optimized);
-//        }
+        foreach ($teams as $key => $value) {
+            $this->getTeams()->find($value['id'])->update(['pos' => ++$key]); // Обновляет позиции команд добавляя 1 к индексу массива по скольку индекс начинается с 0
+        }
     }
 
     /**
@@ -148,13 +147,17 @@ die;
      * @param $team1
      * @param $team2
      *
-     * @return int (-1 => <) (0 => ==) (+1 => >)
+     * @return int (- => <) (0 => ==) (+ => >)
+     * Если возврошает положителное число(+) то team2 силнее чем team1
+     * Значит в функций usort() team1 > team2 и по этому сортировка начинается с team2 (значит с сильных и по убиванию)
      */
     public function bestOfBothTeam($team1, $team2)
     {
         if($team1['points'] == $team2['points'])
         {
-            if($cmp = $this->whoWonOnDuel($team1, $team2))
+            $cmp = $this->whoWonOnDuel($team1, $team2);
+
+            if($cmp === 0)
             {
                 if($team1['win'] == $team2['win'])
                 {
@@ -165,46 +168,101 @@ die;
                             return 0;
                         }
 
-                        return $team1['goals_against'] - $team2['goals_against'];
+                        return $team2['goals_against'] - $team1['goals_against'];
                     }
 
-                    return $team1['difference'] - $team2['difference'];
+                    return $team2['difference'] - $team1['difference'];
                 }
 
-                return $team1['win'] - $team2['win'];
+                return $team2['win'] - $team1['win'];
             }
 
             return $cmp;
         }
 
-        return $team1['points'] > $team2['points'] ? -1 : 1;
+        return $team2['points'] - $team1['points']; // Если + то у team2 больше очков чем у team1
+    }
+
+    /**
+     * Возвращает Какая команда победила в матчах между собой в текущем турнире
+     *
+     * Возвращает 0 если общий счёт равный
+     * 
+     * @param $team1
+     * @param $team2
+     * @return int
+     */
+    public function whoWonOnDuel($team1, $team2)
+    {
+        $goals['team1'] = 0;
+        $goals['team2'] = 0;
+
+        $model = $this->getEvents()
+            ->where(['home_team_id' => $team1['team_id'], 'away_team_id' => $team2['team_id']])
+            ->orWhere(['home_team_id' => $team2['team_id'], 'away_team_id' => $team1['team_id']])
+            ->with('homeModel')
+            ->with('awayModel')
+            ->get()
+            ->toArray();
+
+        // Считает забитые голы команд
+        foreach($model as $item) {
+            if($item['home_team_id'] == $team1['team_id'])
+            {
+                $goals['team1'] += $item['home_model']['score'];
+                $goals['team2'] += $item['away_model']['score'] * (1 + static::GOAL_FACTOR); // Для голах забытых в гостях Добавляет коэффициент
+            }else{
+                $goals['team2'] += $item['home_model']['score'];
+                $goals['team1'] += $item['away_model']['score'] * (1 + static::GOAL_FACTOR); // Для голах забытых в гостях Добавляет коэффициент
+            }
+        }
+
+        if($goals['team1'] == $goals['team2'])
+        {
+            return 0;
+        }
+
+        return $goals['team2'] - $goals['team1'];
+    }
+
+    public function generateWithRoundEvents()
+    {
+        $events = $this->getEvents()
+            ->with('homeModel')
+            ->with('awayModel')
+            ->get()
+            ->toArray();
+
+        $teams = [];
+
+        foreach ($events as $event) {
+            $homeId = $event['home_team_id'];
+            $awayId = $event['away_team_id'];
+
+            // Забитие голи
+            $homeScores = $event['home_model']['score'];
+            $awayScores = $event['away_model']['score'];
+
+            // Инициализация
+            if( ! isset($teams[$homeId]['goals_for'])) $teams[$homeId]['goals_for'] = 0;
+            if( ! isset($teams[$homeId]['goals_against'])) $teams[$homeId]['goals_against'] = 0;
+            if( ! isset($teams[$awayId]['goals_for'])) $teams[$awayId]['goals_for'] = 0;
+            if( ! isset($teams[$awayId]['goals_against'])) $teams[$awayId]['goals_against'] = 0;
+
+            $teams[$homeId]['goals_for'] += $homeScores;
+            $teams[$homeId]['goals_against'] += $homeScores;
+            $teams[$awayId]['goals_for'] += $awayScores;
+            $teams[$awayId]['goals_against'] += $awayScores;
+
+            echo "<pre>";
+            print_r($teams);
+            die;
+        }
     }
 
     public function whoWon()
     {
         // todo::
     }
-
-    /**
-     * Возвращает Какая команда победила в матчах между собой в текущем турнире
-     * @return int
-     */
-    public function whoWonOnDuel($team1, $team2)
-    {
-//        $t1 = $this->getEvents()->whereHome_team_id($team1['team_id'])->whereAway_team_id($team2['team_id'])->get();
-        $t1 = $this->getEvents()->whereHome_team_id($team1['team_id'])->whereAway_team_id($team2['team_id'])->get();
-
-        echo "<pre>";
-        print_r($t1->toArray());
-        die;
-        
-        if($team1['goals_against'] == $team2['goals_against'])
-        {
-            return 0;
-        }
-
-        return $team1['goals_against'] - $team2['goals_against'];
-    }
-
     // todo:: Add match and generateTable()
 } 

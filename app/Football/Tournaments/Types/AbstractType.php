@@ -19,6 +19,9 @@ use EventModel;
 
 abstract class AbstractType {
 
+    // коэффициент забитих голов в гостях
+    const GOAL_FACTOR = 0.0001;
+
     /**
      * Тип страницы
      */

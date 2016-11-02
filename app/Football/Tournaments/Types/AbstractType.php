@@ -23,6 +23,17 @@ abstract class AbstractType {
     const GOAL_FACTOR = 0.0001;
 
     /**
+     * winner [ 0 = pending, 1 = home, 2 = away, 3 = draw]
+     * status [ 0 = pending, 1 = in progress, 2 = completed]
+     */
+    const EVENT_PENDING = 0;
+    const EVENT_HOME_WIN = 1;
+    const EVENT_AWAY_WIN = 2;
+    const EVENT_DRAW = 3;
+    const EVENT_STATUS_IN_PROGRESS = 1;
+    const EVENT_STATUS_COMPLETED = 2;
+
+    /**
      * Тип страницы
      */
     protected $_type;

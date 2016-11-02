@@ -14,6 +14,7 @@ restrictAccess();
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Helpers\Arr;
 use View;
+use EventModel;
 
 class DoubleRoundRobin extends AbstractType {
 
@@ -109,9 +110,10 @@ class DoubleRoundRobin extends AbstractType {
      */
     public function generateTable()
     {
-        $this->generateWithRoundEvents();
+        $teams = $this->generateTeamsStatistics();
 
-        $this->loadFromArray($this->getTeams()->toArray());
+        $this->loadFromArray($teams);
+//        $this->loadFromArray($this->getTeams()->toArray());
 
         $this->sortPositions();
     }
@@ -225,7 +227,11 @@ class DoubleRoundRobin extends AbstractType {
         return $goals['team2'] - $goals['team1'];
     }
 
-    public function generateWithRoundEvents()
+    /**
+     * Генерирует статистику команд по раундам сыгранных игр
+     * @return array
+     */
+    public function generateTeamsStatistics()
     {
         $events = $this->getEvents()
             ->with('homeModel')
@@ -235,34 +241,93 @@ class DoubleRoundRobin extends AbstractType {
 
         $teams = [];
 
-        foreach ($events as $event) {
-            $homeId = $event['home_team_id'];
-            $awayId = $event['away_team_id'];
-
-            // Забитие голи
-            $homeScores = $event['home_model']['score'];
-            $awayScores = $event['away_model']['score'];
+        $teamsStatistic = $this->_teams->get()->keyBy('team_id')->toArray();
+        
+        foreach ($events as $event)
+        {
+            $homeId = $teamsStatistic[$event['home_team_id']]['id'];
+            $awayId = $teamsStatistic[$event['away_team_id']]['id'];
 
             // Инициализация
             if( ! isset($teams[$homeId]['goals_for'])) $teams[$homeId]['goals_for'] = 0;
             if( ! isset($teams[$homeId]['goals_against'])) $teams[$homeId]['goals_against'] = 0;
+            if( ! isset($teams[$homeId]['win'])) $teams[$homeId]['win'] = 0;
+            if( ! isset($teams[$homeId]['draw'])) $teams[$homeId]['draw'] = 0;
+            if( ! isset($teams[$homeId]['lose'])) $teams[$homeId]['lose'] = 0;
             if( ! isset($teams[$awayId]['goals_for'])) $teams[$awayId]['goals_for'] = 0;
             if( ! isset($teams[$awayId]['goals_against'])) $teams[$awayId]['goals_against'] = 0;
+            if( ! isset($teams[$awayId]['win'])) $teams[$awayId]['win'] = 0;
+            if( ! isset($teams[$awayId]['draw'])) $teams[$awayId]['draw'] = 0;
+            if( ! isset($teams[$awayId]['lose'])) $teams[$awayId]['lose'] = 0;
 
+            // Забитие голи
+            $homeScores = $event['home_model']['score'];
+            $awayScores = $event['away_model']['score'];
+            
             $teams[$homeId]['goals_for'] += $homeScores;
-            $teams[$homeId]['goals_against'] += $homeScores;
+            $teams[$awayId]['goals_against'] += $homeScores;
             $teams[$awayId]['goals_for'] += $awayScores;
-            $teams[$awayId]['goals_against'] += $awayScores;
+            $teams[$homeId]['goals_against'] += $awayScores;
 
-            echo "<pre>";
-            print_r($teams);
-            die;
+
+            $result = $this->whoWon($event);
+
+            switch($result)
+            {
+                case static::EVENT_DRAW:
+                    $teams[$homeId]['draw']++;
+                    $teams[$awayId]['draw']++;
+                    $status = static::EVENT_STATUS_COMPLETED;
+                    break;
+
+                case static::EVENT_HOME_WIN:
+                    $teams[$homeId]['win']++;
+                    $teams[$awayId]['lose']++;
+                    $status = static::EVENT_STATUS_COMPLETED;
+                    break;
+
+                case static::EVENT_AWAY_WIN:
+                    $teams[$homeId]['lose']++;
+                    $teams[$awayId]['win']++;
+                    $status = static::EVENT_STATUS_COMPLETED;
+                    break;
+
+                case static::EVENT_PENDING:
+                    $status = static::EVENT_PENDING;
+                    break;
+
+                default:
+                    $status = static::EVENT_PENDING;
+            }
+
+            // Обновляет статус собития
+            EventModel::find($event['id'])->update(['winner' => $result, 'status' => $status]);
         }
+
+        return $teams;
     }
 
-    public function whoWon()
+    /**
+     * Определяет какая команда победила
+     * @param $event array|Eloquent
+     * @return int
+     */
+    public function whoWon($event)
     {
-        // todo::
+        if(is_array($event))
+        {
+            $homeScores = $event['home_model']['score'];
+            $awayScores = $event['away_model']['score'];
+
+            // Если счёт NULL то игра еще не началась
+            if(($homeScores === null) and ($awayScores === null)) return static::EVENT_PENDING;
+
+            // Если счёт равно то ничейний резултат
+            if($homeScores == $awayScores) return static::EVENT_DRAW;
+
+            return ($homeScores > $awayScores) ? static::EVENT_HOME_WIN : static::EVENT_AWAY_WIN;
+        }
+        // todo:: Eloquent Event
     }
     // todo:: Add match and generateTable()
 } 

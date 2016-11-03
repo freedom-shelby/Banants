@@ -562,11 +562,6 @@ body.am .widget.widget-with-tabs .widget-header .widget-tabs > div.active span{
     height:0;
 }
  
-.clearfix{
-    *display:inline-block;
-    height:1%;
-}
- 
 .clear{
     clear: both;
 }
@@ -782,19 +777,21 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team1{
-	width: 240px;
-	height: 102px;
+	width: 245px;
+	height: 88px;
 	background-image: url(../images/banner_top1_ru.png);
 	background-repeat: no-repeat;
+    background-size:cover;
 	float: left;
-    margin: 12px 10px 0 30px;
-
+    margin: 0 10px 0 30px;
+    padding: 0 10px;
 }
 
 .header_right .banner_team1 .team1_logo{
-	width: 80px;
-	float: left;
-    margin: auto;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -10px;
 }
 
 .header_right .banner_team1 h4{
@@ -805,15 +802,17 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team1 .main_logo{
-	float: right;
-    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+    margin-top: -10px;
 }
 
 .header_right .banner_team1_text{
-	float: left;
-    margin-top: 21px;
-    margin-left: 7px;
-	line-height: 26px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 75px;
+
 }
 
 .header_right .banner_team1 .banner_team1_text p{
@@ -839,7 +838,6 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team1 img {
-	margin: 0  0 13px 4px;
 	font-size: 30px;
 	color: #044980;
 }
@@ -942,12 +940,14 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2{
-	width: 240px;
-	height: 102px;
+	width: 245px;
+	height: 88px;
 	background-image: url(../images/banner_top1_ru.png);
 	background-repeat: no-repeat;
+    background-size: cover;
 	float: left;
-    margin: 12px 10px 0 1px;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
 }
 
 .header_right .main_logo{
@@ -955,13 +955,15 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2 .banner_team1_text{
-   	margin: 21px 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 75px;
+   	margin: 21px 0;
     color: #044980;
     font-size: 18px;
-    float: left;
     font-weight: bold;
     text-align: center;
-    width: 73px;
+
     line-height: 0.8;
     font-family: arial;
 }
@@ -979,14 +981,18 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2 .team1_logo{
-    margin: auto;
-    float: left;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -10px;
 }
 
 
 .header_right .banner_team2 .team2_logo{
-    margin: auto;
-    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    width: 80px;
+    margin-top: -10px;
 }
 
 
@@ -994,8 +1000,24 @@ h1, h2, h3, h4, h5, h5, h6 {
 .header_right .banner_team2 .team1_logo img,
 .header_right .banner_team1 .team1_logo img,
 .header_right .banner_team2 .team2_logo img{
-	max-width: 82px;
-	max-height: 82px;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 78px;
+}
+.header_right .banner_team1 .main_logo .team_name_,
+.header_right .banner_team2 .team1_logo .team_name_,
+.header_right .banner_team1 .team1_logo .team_name_,
+.header_right .banner_team2 .team2_logo .team_name_{
+    display: block;
+    margin-bottom: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #456579;
+    font-size: 14px;
+    font-family: 'Segoe UI Regular', Arial, 'sans-serif';
+    line-height: 14px;
 }
 
 
@@ -1008,6 +1030,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .banners  {
 	float: left;
+    padding-top: 25px;
 }
 
 .banner {
@@ -1026,7 +1049,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 	line-height: 14px;
 	padding-top: 10px;
 	float: left;
-	width: 280px;
+	width: 200px;
 }
 
 .header_info span {
@@ -4369,7 +4392,7 @@ div.dialog{
 #language{
     background: #11436c;
     border: none;
-    /*margin-top: 25px;*/
+    margin-top: 25px;
     padding: 0 0px 0 10px;
     color: #217cb8;
 }

@@ -233,27 +233,27 @@ abstract class AbstractType {
         if (isset($data['id']) and ! is_null($model = EventModel::find($data['id'])))
         {
             $model->homeModel()->update([
-                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => $data['home']['score'] // todo:: team_formation_id -n statistikayic poxel
+                'team_id' => $data['home']['team'], 'team_formation_id' => 1, 'score' => ($data['home']['score'] !== '') ? $data['home']['score'] : null// todo:: team_formation_id -n statistikayic poxel
             ]);
 //
             $model->awayModel()->update([
-                'team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => $data['away']['score'] // todo:: team_formation_id -n statistikayic poxel
+                'team_id' => $data['away']['team'], 'team_formation_id' => 1, 'score' => ($data['away']['score'] !== '') ? $data['away']['score'] : null// todo:: team_formation_id -n statistikayic poxel
             ]);
 
             $model->update([
-                'played_at' => $data['date'], 'round' => $round,
+                'home_team_id' => $data['home']['team'], 'away_team_id' => $data['away']['team'], 'played_at' => $data['date'], 'round' => $round,
             ]);
         }else{
             $home = EventTeamStatisticModel::create([
                 'team_id' => $data['home']['team'],
                 'team_formation_id' => 1,
-                'score' => $data['home']['score'] // todo:: team_formation_id -n statistikayic poxel
+                'score' => ($data['home']['score'] !== '') ? $data['home']['score'] : null// todo:: team_formation_id -n statistikayic poxel
             ]);
 
             $away = EventTeamStatisticModel::create([
                 'team_id' => $data['away']['team'],
                 'team_formation_id' => 1,
-                'score' => $data['away']['score'] // todo:: team_formation_id -n statistikayic poxel
+                'score' => ($data['away']['score'] !== '') ? $data['away']['score'] : null// todo:: team_formation_id -n statistikayic poxel
             ]);
 
             $model = EventModel::create([

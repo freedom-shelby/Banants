@@ -308,7 +308,8 @@ class Tournaments extends Back
             try {
                 Capsule::connection()->transaction(function () use ($data, $item, $roundNumber)
                 {
-                    foreach ($data['events'] as $event) {
+                    foreach ($data['events'] as $event)
+                    {
                         $item->updateOrCreateEvent($event, $roundNumber);
                     }
 

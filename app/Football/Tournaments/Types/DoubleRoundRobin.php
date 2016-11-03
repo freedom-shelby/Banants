@@ -268,8 +268,7 @@ class DoubleRoundRobin extends AbstractType {
             $teams[$awayId]['goals_against'] += $homeScores;
             $teams[$awayId]['goals_for'] += $awayScores;
             $teams[$homeId]['goals_against'] += $awayScores;
-
-
+            
             $result = $this->whoWon($event);
 
             switch($result)

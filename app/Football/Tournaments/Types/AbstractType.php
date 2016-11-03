@@ -56,14 +56,6 @@ abstract class AbstractType {
 
 
     /**
-     * @var array $driver
-     * @return AbstractType
-     */
-    public function loadFromForm($driver){
-        return $this;
-    }
-
-    /**
      * @return mixed
      */
     public function getId()

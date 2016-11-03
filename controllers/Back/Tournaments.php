@@ -285,7 +285,6 @@ class Tournaments extends Back
 
         $model = TournamentModel::find($id);
         $item = Tournament::factory($model);
-        $events = $item->getEventsByRound($roundNumber);
 
 //        foreach ($events->keyBy('id') as $key => $r) {
 //            echo "<pre>";
@@ -322,6 +321,7 @@ class Tournaments extends Back
             }
         }
 
+        $events = $item->getEventsByRound($roundNumber);
         $teams = $item->getLazyModelForTeams();
 
         $this->layout->content = View::make('back/tournaments/editRound')

@@ -113,7 +113,6 @@ class DoubleRoundRobin extends AbstractType {
         $teams = $this->generateTeamsStatistics();
 
         $this->loadFromArray($teams);
-//        $this->loadFromArray($this->getTeams()->toArray());
 
         $this->sortPositions();
     }

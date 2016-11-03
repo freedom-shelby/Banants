@@ -187,6 +187,16 @@ abstract class AbstractType {
         return ($this->getTeams()->count() / 2);
     }
 
+    public function calculateCurrentEvent()
+    {
+//        $events = $this->getEvents()->whereStatus(static::EVENT_PENDING)->orWhere(['home_team_id', '=', 1])->orderBy('played_at', 'DESC')->first();
+//echo "<pre>";
+//print_r($events->toArray());
+//echo "</pre>";
+//die;
+
+    }
+
     // todo: avelacnel API -ner@
     public function generateWith($driver)
     {

@@ -17,8 +17,8 @@
             </b>
         </p>
     </div>
-    <div class="main_logo">
-        <img src="/media/assets/images/team_logo/Pyunik-Logo.png" alt="logo_team1" />
-        <span class="team_name_">Pyunik</span>
+    <div class="team1_logo">
+        <img src="/media/assets/images/team_logo/Shirak-Logo.png" alt="logo_team1" />
+        <span class="team_name_"><?= __('Shirak') ?></span>
     </div>
 </div>

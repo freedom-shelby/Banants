@@ -26,12 +26,12 @@ class EventModel extends Eloquent
 
     public function homeTeam()
     {
-        return $this->home()->team()->first();
+        return $this->home()->team();
     }
 
     public function awayTeam()
     {
-        return $this->away()->team()->first();
+        return $this->away()->team();
     }
 
     /**

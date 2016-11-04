@@ -8,17 +8,18 @@
 ?>
 <div class="banner_team1">
     <div class="team1_logo">
-        <img src="/media/assets/images/logo_main.png" alt="logo_main" />
+        <img src="<?= $item->homeTeam()->defaultImage()->path ?>" alt="logo_main" />
+<!--        <span class="team_name_">--><?//= __($item->homeTeam()->text()) ?><!--</span>-->
     </div>
     <div class="banner_team1_text">
         <p>
             <b>
-                <span>0</span> <span>-</span>  <span>0</span>
+                <span><?= $item->home()->score ?></span> <span>-</span>  <span><?= $item->away()->score ?></span>
             </b>
         </p>
     </div>
     <div class="team1_logo">
-        <img src="/media/assets/images/team_logo/Shirak-Logo.png" alt="logo_team1" />
-        <span class="team_name_"><?= __('Shirak') ?></span>
+        <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="logo_team1" />
+        <span class="team_name_"><?= __($item->homeTeam()->text()) ?></span>
     </div>
 </div>

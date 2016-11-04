@@ -16,6 +16,7 @@ use Widgets\AbstractWidget;
 use View;
 use Setting;
 use TournamentModel;
+use EventModel;
 use Football\Tournaments\Tournament;
 
 class NextMatch extends AbstractWidget{
@@ -44,6 +45,7 @@ class NextMatch extends AbstractWidget{
      * Параметри в виде JSON-а
      */
     protected $_param;
+    protected $_item;
 
 
     public function getPosition()
@@ -58,13 +60,13 @@ class NextMatch extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('item', $this->_item);
     }
 
     public function init($model)
     {
-        $tournament = TournamentModel::whereSlug(Setting::instance()->getSettingVal('football.banants_tournament_table'))->first();
-        $item = Tournament::factory($tournament);
+        $this->_item = EventModel::find(Setting::instance()->getSettingVal('football.current_event'));
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

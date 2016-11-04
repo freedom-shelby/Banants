@@ -14,6 +14,8 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use EventModel;
+use Setting;
 
 class LastMatch extends AbstractWidget{
 
@@ -41,6 +43,7 @@ class LastMatch extends AbstractWidget{
      * Параметри в виде JSON-а
      */
     protected $_param;
+    protected $_item;
 
 
     public function getPosition()
@@ -55,11 +58,14 @@ class LastMatch extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('item', $this->_item);
     }
 
     public function init($model)
     {
+        $this->_item = EventModel::find(Setting::instance()->getSettingVal('football.last_event'));
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

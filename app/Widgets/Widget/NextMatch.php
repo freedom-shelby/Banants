@@ -14,6 +14,9 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
+use Setting;
+use TournamentModel;
+use Football\Tournaments\Tournament;
 
 class NextMatch extends AbstractWidget{
 
@@ -60,6 +63,9 @@ class NextMatch extends AbstractWidget{
 
     public function init($model)
     {
+        $tournament = TournamentModel::whereSlug(Setting::instance()->getSettingVal('football.banants_tournament_table'))->first();
+        $item = Tournament::factory($tournament);
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

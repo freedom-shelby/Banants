@@ -116,7 +116,10 @@ class DoubleRoundRobin extends AbstractType {
 
         $this->sortPositions();
 
-        $this->calculateCurrentEvent();
+        $event = $this->calculateCurrentEvent();
+
+        $this->setCurrentRound($event->round)
+            ->save();
     }
 
     public function renderBasicWidget()

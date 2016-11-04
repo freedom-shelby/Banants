@@ -187,19 +187,23 @@ abstract class AbstractType {
         return ($this->getTeams()->count() / 2);
     }
 
+    /**
+     * Рассчитывает предстоящий раунд
+     * @return EventModel
+     */
     public function calculateCurrentEvent()
     {
+        // Находит клуб Бананца который играет в текущем турнире
         $ownTeam = $this->getLazyTeamModels()
             ->where('is_own', '=', 1)
             ->first();
 
-        $events = EventModel::where(['status' => static::EVENT_PENDING, 'home_team_id' => $ownTeam->id])
+        $event = EventModel::where(['status' => static::EVENT_PENDING, 'home_team_id' => $ownTeam->id])
             ->orWhere(['status' => static::EVENT_PENDING, 'away_team_id' => $ownTeam->id])
             ->orderBy('played_at')
             ->first();
 
-        $this->setCurrentRound($events->round)
-            ->save();
+        return $event;
     }
 
     // todo: avelacnel API -ner@

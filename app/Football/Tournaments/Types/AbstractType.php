@@ -189,12 +189,17 @@ abstract class AbstractType {
 
     public function calculateCurrentEvent()
     {
-//        $events = $this->getEvents()->whereStatus(static::EVENT_PENDING)->orWhere(['home_team_id', '=', 1])->orderBy('played_at', 'DESC')->first();
-//echo "<pre>";
-//print_r($events->toArray());
-//echo "</pre>";
-//die;
+        $ownTeam = $this->getLazyTeamModels()
+            ->where('is_own', '=', 1)
+            ->first();
 
+        $events = EventModel::where(['status' => static::EVENT_PENDING, 'home_team_id' => $ownTeam->id])
+            ->orWhere(['status' => static::EVENT_PENDING, 'away_team_id' => $ownTeam->id])
+            ->orderBy('played_at')
+            ->first();
+
+        $this->setCurrentRound($events->round)
+            ->save();
     }
 
     // todo: avelacnel API -ner@

@@ -148,7 +148,8 @@ use Helpers\Uri;
         });
 
         $('.datetimepicker').datetimepicker({
-            format: 'YYYY-MM-DD HH:mm:SS'
+            format: 'YYYY-MM-DD HH:mm:SS',
+            viewDate: moment(new Date()).hours(15).minutes(0).seconds(0).milliseconds(0)
         });
 
         $('.call-additional').on('click', function(){

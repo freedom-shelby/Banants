@@ -309,7 +309,10 @@ class Tournaments extends Back
                 {
                     foreach ($data['events'] as $event)
                     {
-                        $item->updateOrCreateEvent($event, $roundNumber);
+                        if(( ! empty($event['home']['team'])) and ( ! empty($event['away']['team'])))
+                        {
+                            $item->updateOrCreateEvent($event, $roundNumber);
+                        }
                     }
 
                     Event::fire('Football.eventUpdate', $item);

@@ -46,6 +46,16 @@ class TeamModel extends Eloquent
         return $this->belongsTo('LeagueModel', 'league_id')->first();
     }
 
+    public function tournaments()
+    {
+        return $this->belongsToMany('TournamentModel', 'teams_has_tournaments', 'team_id', 'tournament_id')->withPivot('pos', 'points', 'win', 'draw', 'lose', 'goals_for', 'goals_against', 'difference');
+    }
+
+    public function tournamentsTable()
+    {
+        return $this->hasMany('TeamHasTournamentModel', 'team_id');
+    }
+
     public function text()
     {
         return $this->belongsTo('EntityModel', 'entity_id')->first()->text;

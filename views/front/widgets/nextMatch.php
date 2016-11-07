@@ -17,7 +17,7 @@
     </div>
     <div class="match-score-info">
         <span><?= $item->played_at->format('jS \\of F') ?></span>
-        <span class="match-time"><?= $item->played_at->format('h:i') ?></span>
+        <span class="match-time"><?= $item->played_at->format('H:i') ?></span>
     </div>
     <div class="team2_logo">
         <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="team2_logo" />

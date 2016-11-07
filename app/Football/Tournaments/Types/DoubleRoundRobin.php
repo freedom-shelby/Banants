@@ -16,6 +16,7 @@ use Helpers\Arr;
 use View;
 use EventModel;
 
+
 class DoubleRoundRobin extends AbstractType {
 
     const WIN_POINT = 3;
@@ -116,10 +117,7 @@ class DoubleRoundRobin extends AbstractType {
 
         $this->sortPositions();
 
-        $event = $this->calculateCurrentEvent();
-
-        $this->setCurrentRound($event->round)
-            ->save();
+        $this->generateCurrentEvent();
     }
 
     public function renderBasicWidget()

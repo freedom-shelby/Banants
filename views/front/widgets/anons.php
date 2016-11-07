@@ -16,7 +16,7 @@ use Ivliev\Imagefly\Imagefly;
     <? foreach ($items as $item):?>
         <div class="item">
             <a href="<?=Uri::makeUriFromId($item->slug)?>" title="slideshow_images" rel="gallery">
-                <img src="<?=Imagefly::imagePath($item->defaultImage()->path, 'w640-q52')?>" alt="slideshow_images" />
+                <img src="<?=Imagefly::imagePath($item->defaultImage()->path, 'w720-q100')?>" alt="slideshow_images" />
                 <div class="container_top_slider_text">
                     <div class="container_top_slider_text_inner">
                         <?=$item->title?>

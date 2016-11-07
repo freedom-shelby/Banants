@@ -9,9 +9,13 @@
 <div class="banner_team1">
     <div class="team1_logo">
         <img src="<?= $item->homeTeam()->defaultImage()->path ?>" alt="logo_main" />
-<!--        <span class="team_name_">--><?//= __($item->homeTeam()->text()) ?><!--</span>-->
+
+        <? if( ! $item->homeTeam()->is_own): ?>
+            <span class="team_name_"><?= __($item->homeTeam()->text()) ?></span>
+        <? endif ?>
+
     </div>
-    <div class="banner_team1_text">
+    <div class="match-score-info">
         <p>
             <b>
                 <span><?= $item->home()->score ?></span> <span>-</span>  <span><?= $item->away()->score ?></span>
@@ -20,6 +24,10 @@
     </div>
     <div class="team1_logo">
         <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="logo_team1" />
-        <span class="team_name_"><?= __($item->homeTeam()->text()) ?></span>
+
+        <? if( ! $item->awayTeam()->is_own): ?>
+            <span class="team_name_"><?= __($item->awayTeam()->text()) ?></span>
+        <? endif ?>
+
     </div>
 </div>

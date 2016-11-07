@@ -15,6 +15,8 @@ use InvalidArgumentException;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use EventTeamStatisticModel;
 use EventModel;
+use Event;
+use Setting;
 
 
 abstract class AbstractType {
@@ -189,9 +191,10 @@ abstract class AbstractType {
 
     /**
      * Рассчитывает предстоящий раунд
+     * Изаписивает в базе
      * @return EventModel
      */
-    public function calculateCurrentEvent()
+    public function generateCurrentEvent()
     {
         // Находит клуб Бананца который играет в текущем турнире
         $ownTeam = $this->getLazyTeamModels()
@@ -203,7 +206,14 @@ abstract class AbstractType {
             ->orderBy('played_at')
             ->first();
 
-        return $event;
+        $this->setCurrentRound($event->round)
+            ->save();
+
+        // Если это первая команда то сгенерировать Event для записи текущего собития в настройках
+        if(Setting::instance()->getSettingVal('football.first_team') == $ownTeam->id)
+        {
+            Event::fire('Football.currentEventUpdate', $event);
+        }
     }
 
     // todo: avelacnel API -ner@

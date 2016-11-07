@@ -39,7 +39,7 @@ class Settings extends Back {
                 $item->save();
                 Event::fire('Admin.settingsUpdate');
             }catch (QueryException $e){
-//                Message::instance()->warning('Setting was don\'t edited');
+                Message::instance()->warning('Setting was don\'t edited');
 //echo '<pre>';
 //print_r($e->getMessage());die;
             }

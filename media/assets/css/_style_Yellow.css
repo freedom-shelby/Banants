@@ -452,13 +452,13 @@ h1, h2, h3, h4, h5, h5, h6 {
 	margin: -12px 9px 2px 0;
 }
 
-.header_right .banner_team1_text{
+.header_right .match-score-info{
 	float: left;
 	margin: 30px 30px -83px -1px;
 	line-height: 26px;
 }
 
-.header_right .banner_team1 .banner_team1_text p{
+.header_right .banner_team1 .match-score-info p{
 	color: #044980;
 	font-size: 30px;
 	margin: 0;
@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 	font-weight: bold;
 }
 
-.header_right .banner_team1 .banner_team1_text .result{
+.header_right .banner_team1 .match-score-info .result{
 	color: #7d8970;
 	font-size: 18px;
 }
@@ -597,7 +597,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 	margin: -12px 169px 0 0;
 }
 
-.header_right .banner_team2 .banner_team1_text{
+.header_right .banner_team2 .match-score-info{
    	margin: 18px 1px 1px 10px;
     color: #044980;
     font-size: 18px;
@@ -610,15 +610,15 @@ h1, h2, h3, h4, h5, h5, h6 {
     font-family: arial;
 }
 
-.header_right .banner_team2 .banner_team1_text i {
+.header_right .banner_team2 .match-score-info i {
 	font-style: normal;
 }
 
-.header_right .banner_team2 .banner_team1_text i:first-child {
+.header_right .banner_team2 .match-score-info i:first-child {
 	font-size: 18px;
 }
 
-.header_right .banner_team2 .banner_team1_text i:last-child {
+.header_right .banner_team2 .match-score-info i:last-child {
 	font-size: 24px;
 }
 

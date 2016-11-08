@@ -72,16 +72,27 @@ class Anons extends AbstractWidget{
         $this->_param = json_decode($model->param, true);
 
         // Матерялов из клуба (1 ий матерял)
-        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))->descendants()->limit($this->_param['settings']['club_articles_count'])->get();
-        foreach ($data as $item) {
-            $this->_items[] = $item;
-        }
+        $this->_items = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
+            ->descendants()
+            ->where('photo_id', '!=' , 1)
+            ->reOrderBy('created_at', 'desc')
+            ->limit(4) // todo:: Settings -neric poxel
+//            ->limit($this->_param['settings']['club_articles_count'])
+            ->get();
+//        foreach ($data as $item) {
+//            $this->_items[] = $item;
+//        }
 
         // Матерялов из Бананца (1 ий и 2 ой матерял)
-        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))->descendants()->limit($this->_param['settings']['banants_articles_count'])->get();
-        foreach ($data as $item) {
-            $this->_items[] = $item;
-        }
+//        $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))
+//            ->descendants()
+//            ->where('photo_id', '!=' , 1)
+//            ->reOrderBy('created_at', 'desc')
+//            ->limit($this->_param['settings']['banants_articles_count'])
+//            ->get();
+//        foreach ($data as $item) {
+//            $this->_items[] = $item;
+//        }
 
 
 //foreach ($this->_items as $item) {

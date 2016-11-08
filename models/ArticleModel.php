@@ -15,7 +15,7 @@ class ArticleModel extends LangModel
 
     protected $table = 'articles';
 
-    protected $dates = ['created_at' , 'updated_at', 'deleted_at', 'publish_date'];
+    protected $dates = ['created_at', 'updated_at', 'deleted_at', 'publish_date'];
 
     protected $fillable = ['parent_id', 'status', 'photo_id', 'lvl', 'lft', 'rgt', 'slug'];
 

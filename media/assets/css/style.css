@@ -1,3 +1,55 @@
+@font-face{
+    font-family:'Segoe UI';
+    src:url('../fonts/ru/segoeui-webfont.eot'),
+    url('../fonts/ru/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ru/segoeui-webfont.woff') format('woff'),
+    url('../fonts/ru/segoeui-webfont.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'Impact Regular';
+    src:url('../fonts/ru/Impact.eot'),
+    url('../fonts/ru/Impact.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ru/Impact.woff') format('woff'),
+    url('../fonts/ru/Impact.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'Segoe UI Bold';
+    src:url('../fonts/am/SegoeUI-Bold.eot'),
+    url('../fonts/am/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/am/SegoeUI-Bold.woff') format('woff'),
+    url('../fonts/am/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'Segoe UI Regular';
+    src:url('../fonts/ru/SegoeUI.eot'),
+    url('../fonts/ru/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ru/SegoeUI.woff') format('woff'),
+    url('../fonts/ru/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face{*/
+    /*font-family:'Arial';*/
+    /*src:url('../fonts/am/Arial-BoldMT.eot'),*/
+    /*url('../fonts/am/Arial-BoldMT.woff') format('woff'),*/
+    /*url('../fonts/am/SARM-B.TTF') format('truetype');*/
+    /*font-weight:normal;*/
+    /*font-style:normal;*/
+/*}*/
+@font-face {
+    font-family: Arial;
+    src: local(‘Arial’); }
+
 html, body {
     height: 100%;
 }
@@ -26,55 +78,6 @@ body.en {
 body.am {
     font-family: 'Segoe UI Regular', Arial, 'sans-serif';
     min-width: 1200px;
-}
-
-@font-face{
-    font-family:'Segoe UI';
-    src:url('../fonts/ru/segoeui-webfont.eot'),
-        url('../fonts/ru/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ru/segoeui-webfont.woff') format('woff'),
-        url('../fonts/ru/segoeui-webfont.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;  
-}
-
-@font-face{
-    font-family:'Impact Regular';
-    src:url('../fonts/ru/Impact.eot'),
-        url('../fonts/ru/Impact.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ru/Impact.woff') format('woff'),
-        url('../fonts/ru/Impact.ttf') format('truetype');
-    font-weight:normal;
-    font-style:normal;  
-}
-
-@font-face{
-    font-family:'Segoe UI Bold';
-    src:url('../fonts/am/SegoeUI-Bold.eot'),
-        url('../fonts/am/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/am/SegoeUI-Bold.woff') format('woff'),
-        url('../fonts/am/SegoeUI-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face{
-    font-family:'Segoe UI Regular';
-    src:url('../fonts/ru/SegoeUI.eot'),
-        url('../fonts/ru/SegoeUI.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ru/SegoeUI.woff') format('woff'),
-        url('../fonts/ru/SegoeUI.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family:'Arial';
-    src:url('../fonts/am/Arial-BoldMT.eot'),
-        url('../fonts/am/Arial-BoldMT.woff') format('woff'),
-        url('../fonts/am/SARM-B.TTF') format('truetype');
-    font-weight:normal;
-    font-style:normal;
 }
 
 /** Fonts For AM Language **/
@@ -550,7 +553,7 @@ body.am .widget.widget-with-tabs .widget-header .widget-tabs > div.active span{
 
 .submenu{
 	display: none;
-	font-family: arial;
+	font-family: Arial;
 }
 
 .clearfix:after{
@@ -777,7 +780,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team1{
-	width: 245px;
+	width: 270px;
 	height: 88px;
 	background-image: url(../images/banner_top1_ru.png);
 	background-repeat: no-repeat;
@@ -790,7 +793,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 .header_right .banner_team1 .team1_logo{
     width: 80px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     margin-top: -10px;
 }
 
@@ -809,19 +812,30 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .match-score-info{
+    width: 95px;
     display: inline-block;
     vertical-align: middle;
-    width: 75px;
+    margin-top: 34px;
+    color: #044980;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 0.9;
+    /*font-family: 'Segoe UI', Arial;*/
+    font-family: Arial, 'Segoe UI';
+}
 
+.header_right .banner_team1 .match-score-info{
+    vertical-align: middle;
+}
+
+.header_right .banner_team2 .match-score-info{
+    vertical-align: top;
 }
 
 .header_right .banner_team1 .match-score-info p{
-	color: #044980;
 	font-size: 30px;
 	margin: 0;
-	font-family: arial;
-	font-weight: bold;
-    text-align: center;
 }
 
 .header_right .banner_team1 .match-score-info .result{
@@ -846,7 +860,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 	background-color:#fff;
 	padding: 15px 40px 5px 40px;
 	position: relative;
-	font-family:arial;
+	font-family:Arial;
 }
 
 .navigation div.submenu_bottom .submenu_bottom_col a{
@@ -940,7 +954,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2{
-	width: 245px;
+	width: 270px;
 	height: 88px;
 	background-image: url(../images/banner_top1_ru.png);
 	background-repeat: no-repeat;
@@ -955,17 +969,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2 .match-score-info{
-    display: inline-block;
-    vertical-align: middle;
-    width: 75px;
-   	margin: 21px 0;
-    color: #044980;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-
-    line-height: 0.8;
-    font-family: arial;
+    margin: 13px 0;
 }
 
 .header_right .banner_team2 .match-score-info i {
@@ -973,8 +977,9 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_right .banner_team2 .match-score-info .match-time {
-    margin-top: 10px;
-    display: block
+    margin-top: 5px;
+    display: block;
+    font-size: 25px;
 }
 
 .header_right .banner_team2 .match-score-info i:first-child {
@@ -988,18 +993,16 @@ h1, h2, h3, h4, h5, h5, h6 {
 .header_right .banner_team2 .team1_logo{
     width: 80px;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     margin-top: -10px;
 }
-
 
 .header_right .banner_team2 .team2_logo{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     width: 80px;
     margin-top: -10px;
 }
-
 
 .header_right .banner_team1 .main_logo img,
 .header_right .banner_team2 .team1_logo img,
@@ -1023,9 +1026,14 @@ h1, h2, h3, h4, h5, h5, h6 {
     font-size: 14px;
     font-family: 'Segoe UI Regular', Arial, 'sans-serif';
     line-height: 14px;
+    width: 78px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-
+.am .header_right .banner_team2 .team2_logo .team_name_{
+    width: 83px;
+}
 
 .header_right .banner_team2 h4{
 	margin: -7px 0px 0px 19px;
@@ -1054,7 +1062,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 	line-height: 14px;
 	padding-top: 10px;
 	float: left;
-	width: 200px;
+	width: 140px;
 }
 
 .header_info span {
@@ -1807,7 +1815,7 @@ body.am .best_player .best-player-goalkeeper {
 
 .leftbar_images_slider_wrapper {	
 	border: 1px solid #66a6d1;
-	margin-top: 4px;
+	margin-top: 6px;
 	background-color: #fff;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -1957,7 +1965,7 @@ body.am .best_player .best-player-goalkeeper {
 }
 
 .home.quizzes{
-	margin-top: 14px;
+	margin-top: 11px;
 }
 
 .home_thanks{
@@ -2174,6 +2182,7 @@ div.news_list h3 {
 	display: block;
 	margin: 0 auto;
 	max-width: 100%;
+    height: 99px;
 }
 
 .watch_icon{
@@ -4253,6 +4262,17 @@ div.dialog{
 }
 .widget.widget-with-tabs .widget-body{
     min-height: 247px;
+}
+.widget.widget-with-tabs .widget-body .tournament-link{
+    margin-left: 10px;
+    font-size: 11px;
+    color: #ababab;
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+.widget.widget-with-tabs .widget-body .tournament-link a{
+    color: #ababab;
 }
 .widget-tabs-body > div.active{
     display: block;

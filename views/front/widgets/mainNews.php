@@ -17,36 +17,36 @@ use Ivliev\Imagefly\Imagefly;
 <div class="news_slider_wrapper clearfix">
     <div class="news_slider homepage clearfix">
 
-        <?foreach($items as $data):?>
+        <? foreach($items as $data): ?>
             <div class="news_slider_item">
 
-                <?foreach($data as $item):?>
+                <? foreach($data as $item): ?>
                     <div class="news_list clearfix">
-                        <a href="<?=Uri::makeUriFromId($item->slug)?>">
+                        <a href="<?= Uri::makeUriFromId($item->slug) ?>">
                             <div class="news_list_images">
-                                <img src="<?=Imagefly::imagePath($item->defaultImage()->path, 'w138-q52')?>" alt="news_list_images" />
-                            </div><!-- news_list_images -->
+                                <img src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w176-q52') ?>" alt="news_list_images" />
+                            </div>
                             <div class="news_list_info">
-                                <h3><?=$item->title?></h3>
+                                <h3><?= $item->title ?></h3>
                                 <div class="news_list_middle">
                                     <span>17:46 Сегодня</span>
                                     <span class="news_list_watch">
-                                        <span><i class="watch_icon"></i><?=rand(1, 50)?></span>
-                                    </span><!-- news_list_watch -->
-                                </div><!-- news_list_middle -->
+                                        <span><i class="watch_icon"></i><?= rand(1, 50) ?></span>
+                                    </span>
+                                </div>
                                 <span>
 
-                                    <?=Strings::limitWords($item->desc, 20)?>...
+                                    <?= Strings::limitWords($item->desc, 20) ?>...
 
                                 </span>
-                            </div><!-- news_list_info -->
+                            </div>
                         </a>
-                    </div><!-- news_list -->
-                <?endforeach?>
+                    </div>
+                <? endforeach ?>
 
-            </div><!-- news_slider_item -->
-        <?endforeach?>
+            </div>
+        <? endforeach ?>
 
-    </div><!-- news_slider -->
-    <span class="all_news_link"><a href="<?=Uri::makeUriFromId('/club_news')?>"><?= __('View all news') ?></a></span>
+    </div>
+    <span class="all_news_link"><a href="<?= Uri::makeUriFromId('/club_news') ?>"><?=  __('View all news')  ?></a></span>
 </div>

@@ -76,10 +76,11 @@ class NextMatch extends AbstractWidget{
 //        echo $dt->formatLocalized('%d %b');
 //die;
 
-        $time = __(':month :day', [
-            ':month' => __($dt->format('M')),
-            ':day' => $dt->format('h'),
+        $time = __(':dayth of :month', [
+            ':month' => __($dt->format('F')),
+            ':day' => $dt->format('d'),
             ]);
+//var_dump($time);die;
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

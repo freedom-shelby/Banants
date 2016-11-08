@@ -16,7 +16,8 @@
 
     </div>
     <div class="match-score-info">
-        <span><?= $item->played_at->format('jS \\of F') ?></span>
+        <span><?= __(':dayth of :month', [':month' => __($item->played_at->format('F')), ':day' => $item->played_at->format('d'),]) ?>
+        </span>
         <span class="match-time"><?= $item->played_at->format('H:i') ?></span>
     </div>
     <div class="team2_logo">

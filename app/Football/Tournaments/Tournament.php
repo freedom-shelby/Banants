@@ -16,6 +16,8 @@ use Football\Tournaments\Types\EliminationKnockout;
 use Football\Tournaments\Types\DoubleEliminationKnockout;
 use Football\Tournaments\Types\MultiStage;
 use InvalidArgumentException;
+use Setting;
+use Helpers\Arr;
 
 class Tournament
 {
@@ -42,4 +44,9 @@ class Tournament
         throw new InvalidArgumentException("Unsupported driver [$driver]");
     }
 
+    static public function getUriBySlug($slug)
+    {
+        $flipped = array_flip(Setting::instance()->getGroupAsKeyVal('football'));
+        return Arr::get(Setting::instance()->getGroupAsKeyVal('football'), $flipped);
+    }
 }

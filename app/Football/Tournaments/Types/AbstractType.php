@@ -17,6 +17,7 @@ use EventTeamStatisticModel;
 use EventModel;
 use Event;
 use Setting;
+use Helpers\Arr;
 
 
 abstract class AbstractType {
@@ -49,6 +50,7 @@ abstract class AbstractType {
     protected $_id;
     protected $_name;
     protected $_fullName;
+    protected $_slug;
     protected $_teams;
     protected $_teamModels;
     protected $_events;
@@ -79,6 +81,14 @@ abstract class AbstractType {
     public function getFullName()
     {
         return $this->_fullName;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getSlug()
+    {
+        return $this->_slug;
     }
 
     /**
@@ -134,6 +144,7 @@ abstract class AbstractType {
         $this->_id = $model->id;
         $this->_name = $model->name();
         $this->_fullName = $model->fullName();
+        $this->_slug = $model->slug;
         $this->_type = $model->type();
         $this->_teams = $model->tableTeams();
         $this->_teamModels = $model->teams();

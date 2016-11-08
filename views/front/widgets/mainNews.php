@@ -10,7 +10,6 @@ use Helpers\Uri;
 use Helpers\Strings;
 use Ivliev\Imagefly\Imagefly;
 
-//todo: Дату Матеряла вывадить при помоши Carbon -а
 //todo: Нужен функционал для сколко раз смотрели
 ?>
 
@@ -29,9 +28,9 @@ use Ivliev\Imagefly\Imagefly;
                             <div class="news_list_info">
                                 <h3><?= $item->title ?></h3>
                                 <div class="news_list_middle">
-                                    <span>17:46 Сегодня</span>
+                                    <span><?= __(':dayth of :month', [':month' => __($item->created_at->format('F')), ':day' => $item->created_at->format('j'),]) ?></span>
                                     <span class="news_list_watch">
-                                        <span><i class="watch_icon"></i><?= rand(1, 50) ?></span>
+                                        <span><i class="watch_icon"></i><?= rand(1, 100) ?></span>
                                     </span>
                                 </div>
                                 <span>

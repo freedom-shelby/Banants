@@ -112,8 +112,7 @@ $(document).ready(function() {
             slideSpeed : 300,
             paginationSpeed : 400,
             navigationText: false,
-            singleItem: true,
-            autoPlay : 8000
+            singleItem: true
         });
     }
 
@@ -124,8 +123,7 @@ $(document).ready(function() {
             slideSpeed : 300,
             paginationSpeed : 400,
             navigationText: false,
-            singleItem: true,
-            autoPlay : 8000
+            singleItem: true
         });
     }
 
@@ -234,8 +232,7 @@ $(document).ready(function() {
             slideSpeed : 300,
             paginationSpeed : 400,
             navigationText: false,
-            singleItem: true,
-            autoPlay : 8000
+            singleItem: true
         });
     }
 

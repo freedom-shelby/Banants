@@ -4270,6 +4270,7 @@ div.dialog{
     float: left;
     position: relative;
     z-index: 9;
+    margin-top: 10px;
 }
 .widget.widget-with-tabs .widget-body .tournament-link a{
     color: #ababab;

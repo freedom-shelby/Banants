@@ -33,9 +33,9 @@ use Football\Tournaments\Tournament;
                 <div class="tab-<?= ++$key ?> <?= ($key == 1) ? ' active' : ''?>">
 
                     <?= $item->renderBasicWidget()?>
-<!--                    <span class="tournament-link">-->
-<!--                        <a href="--><?//= Uri::makeUriFromId(Tournament::getUriBySlug($item->getSlug())) ?><!--">--><?//= __($item->getName()) ?><!--</a>-->
-<!--                    </span>-->
+                    <span class="tournament-link">
+                        <a href="<?= Uri::makeUriFromId(Tournament::getUriBySlug($item->getSlug())) ?>"><?= __('Games Schedule') ?></a>
+                    </span>
                 </div>
             <? endforeach ?>
 

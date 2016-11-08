@@ -47,6 +47,7 @@ class Tournament
     static public function getUriBySlug($slug)
     {
         $flipped = array_flip(Setting::instance()->getGroupAsKeyVal('football'));
-        return Arr::get(Setting::instance()->getGroupAsKeyVal('football'), $flipped);
+
+        return Arr::get($flipped, $slug);
     }
 }

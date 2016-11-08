@@ -68,19 +68,6 @@ class NextMatch extends AbstractWidget{
     {
         $this->_item = EventModel::find(Setting::instance()->getSettingVal('football.current_event'));
 
-//        Carbon::setLocale('ru');
-//        setlocale(LC_TIME, 'ru');
-        $dt = $this->_item->played_at;
-//        var_dump($dt->format('jS \\of M h:i'));
-//
-//        echo $dt->formatLocalized('%d %b');
-//die;
-
-        $time = __(':dayth of :month', [
-            ':month' => __($dt->format('F')),
-            ':day' => $dt->format('h'),
-            ]);
-//var_dump($time);die;
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

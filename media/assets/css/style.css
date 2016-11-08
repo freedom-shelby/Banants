@@ -1289,6 +1289,11 @@ h1, h2, h3, h4, h5, h5, h6 {
 	margin-left: 7px;
 }
 
+.right_bar .container_top_right {
+    width: 290px;
+    margin-left: 8px;
+}
+
 .owl-page {
 	width: 12px;
 	height: 12px;

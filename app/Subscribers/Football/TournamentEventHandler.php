@@ -61,7 +61,7 @@ class TournamentEventHandler
             ->orderBy('played_at', 'DESC')
             ->first();
 
-        // lt() less than
+        // gt() great than
         if($lastEvent->played_at->gt($oldLastEvent->played_at))
         {
             SettingsModel::whereGroup('football')->whereName('last_event')->first()

@@ -44,8 +44,8 @@ class TournamentEventHandler
     public static function onCurrentEventUpdate($currentEvent){
         $oldCurrentEvent = EventModel::find(Setting::instance()->getSettingVal('football.current_event'));
 
-        // lt() less than
-        if($currentEvent->played_at->lt($oldCurrentEvent->played_at))
+        // [lt() less than] или Закончился
+        if($oldCurrentEvent->isCompleted() or $currentEvent->played_at->lt($oldCurrentEvent->played_at))
         {
             SettingsModel::whereGroup('football')->whereName('current_event')->first()
                 ->update([

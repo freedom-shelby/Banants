@@ -1,13 +1,6 @@
 $(document).ready(function() {
 
-/*$("#container_top_aside").on("click", function(){
-  $("#tournament_table").addClass("hidden");
-  $("#best_player").addClass("hidden");
-  $("#container_top_header").css("width", "1500")
-  $("#container_top_aside").css("width", "500px");
-}); */
-
-$( "#quizzes" ).submit(function( event ) {
+  $( "#quizzes" ).submit(function( event ) {
     event.preventDefault();
     $("#home").addClass("hidden");
     $("#home_thanks").removeClass("hidden");
@@ -30,7 +23,7 @@ $(function() {
       at: "center",
       of: window
     },
-    
+
      open: function(){
       jQuery('.ui-widget-overlay').bind('click',function(){
         jQuery('#dialog,#login').dialog('close');
@@ -38,18 +31,17 @@ $(function() {
     }
   })
 
-  });
- 
-  $( ".photo1" ).click(function() {
-    var calldialog = $(this).data().calldialog;
-    $('.' + calldialog).dialog( "open" );
-    console.log(calldialog)
-  });
+      });
 
-  $(window).resize(function() {
-    $("#login").dialog("option", "position", {my: "center", at: "center", of: window});
-  });
-});
+      $( ".photo1" ).click(function() {
+        var calldialog = $(this).data().calldialog;
+        $('.' + calldialog).dialog( "open" );
+      });
+
+      $(window).resize(function() {
+        $("#login").dialog("option", "position", {my: "center", at: "center", of: window});
+      });
+    });
 
   if($(".container_top_slideshow").length > 0) {
       $(".container_top_slideshow").owlCarousel({
@@ -128,7 +120,7 @@ $(function() {
          navigationText: false,
          responsive: false
       });
-   }  
+   }
 
    if($('.dialog_slider').length) {
         $('.dialog_slider').owlCarousel({
@@ -165,7 +157,7 @@ $(function() {
       });
    }
 
-   /*if($('.leftbar_images_slider_item').length && $('.content_middle_slider_item').length) {         
+   /*if($('.leftbar_images_slider_item').length && $('.content_middle_slider_item').length) {
       var $container = ['.leftbar_images_slider_item', '.content_middle_slider_item'];
       var itemSelector = ['.leftbar_slider_images', '.content_slider_images'];
 
@@ -233,32 +225,32 @@ $(document).ready(function() {
                 }
             },
             beforeShow  : function() {
-                    // Find the iframe ID
-                    var id = $.fancybox.inner.find('iframe').attr('id');
-                   console.log('id', id);
-                }
+                // Find the iframe ID
+                var id = $.fancybox.inner.find('iframe').attr('id');
+                console.log('id', id);
+            }
         });
     }
 
-     $('.photo1 a').click(function(e){
-      e.preventDefault();
-    })
-})
-/*  Video  */
+    $('.photo1 a').click(function(e){
+        e.preventDefault();
+    });
 
-//"http://img.youtube.com/vi/"+vid+"/0.jpg";
+    //"http://img.youtube.com/vi/"+vid+"/0.jpg";
 
- /*--------------------------------------------- Form Validation ---------------------------------*/
+    /*  Video  */
 
- function validateForm() {
-    var x = document.forms["clearfix"]["username"].value;
-    if (x == null || x == "") {
-        alert("Fill out the form");
-        return ("Registration is done successfully");
+    $('.widget.widget-with-tabs').banantsTabsWidget();
+
+    //"http://img.youtube.com/vi/"+vid+"/0.jpg";
+
+    /*--------------------------------------------- Form Validation ---------------------------------*/
+
+    function validateForm() {
+        var x = document.forms["clearfix"]["username"].value;
+        if (x == null || x == "") {
+            alert("Fill out the form");
+            return ("Registration is done successfully");
+        }
     }
-}
-
-
-/*--------------Replacement of divs --------------------*/
-
-
+});

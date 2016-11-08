@@ -78,10 +78,9 @@ class NextMatch extends AbstractWidget{
 
         $time = __(':dayth of :month', [
             ':month' => __($dt->format('F')),
-            ':day' => $dt->format('d'),
+            ':day' => $dt->format('h'),
             ]);
 //var_dump($time);die;
-
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

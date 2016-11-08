@@ -9,6 +9,7 @@ restrictAccess();
  */
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Carbon\Carbon;
+use Football\Tournaments\Types\AbstractType;
 
 class EventModel extends Eloquent
 {
@@ -20,6 +21,11 @@ class EventModel extends Eloquent
 
     protected $fillable = ['tournament_id', 'home_id', 'away_id',  'home_team_id', 'away_team_id', 'slug', 'winner', 'status', 'round', 'played_at', 'started_at', 'ended_at'];
 
+
+    public function isCompleted()
+    {
+        return (bool) ($this->status == AbstractType::EVENT_STATUS_COMPLETED);
+    }
 
     public function tournament()
     {

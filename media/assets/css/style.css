@@ -1031,6 +1031,9 @@ h1, h2, h3, h4, h5, h5, h6 {
     overflow: hidden;
 }
 
+.am .header_right .banner_team1 .main_logo .team_name_,
+.am .header_right .banner_team2 .team1_logo .team_name_,
+.am .header_right .banner_team1 .team1_logo .team_name_,
 .am .header_right .banner_team2 .team2_logo .team_name_{
     width: 83px;
 }

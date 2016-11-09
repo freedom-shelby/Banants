@@ -90,7 +90,8 @@
 @font-face{
     font-family: 'ArmTimes';
     src:
-        url('../fonts/am/ArmTimesTytleSTBold.ttf') format('truetype');
+        url('../fonts/am/ArTarumianMHarvats-Regular-8937.ttf') format('truetype');
+        /*url('../fonts/am/ArmTimesTytleSTBold.ttf') format('truetype');*/
         /*url('../fonts/am/tahoma_693.ttf') format('truetype');*/
         /*url('../fonts/am/dejavu-sans-condensed_125.ttf') format('truetype');*/
     font-weight: bold;
@@ -197,8 +198,8 @@ body.am #item_tabs li a {
 }
 
 body.am .navigation_main li.club a{
-    font-size: 25px;
-    letter-spacing: -3.5px;
+    font-size: 27px;
+    letter-spacing: -1.0px;
 }
 
 body.am .carousel_slider_item span {

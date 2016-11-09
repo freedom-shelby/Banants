@@ -78,6 +78,22 @@
     font-weight: 700;
     src: local("Segoe UI Bold Italic");
 }
+@font-face {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 800;
+    src:
+        url('../fonts/am/Arial-BoldMT.eot'),
+        url('../fonts/am/Arial-BoldMT.woff') format('woff'),
+        url('../fonts/am/SARM-B.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'ArmTimes';
+    src:
+        url('../fonts/am/ArmTimesTytleSTBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 html, body {
     height: 100%;
@@ -112,7 +128,7 @@ body.am {
 
 /** Fonts For AM Language **/
 body.am .navigation .navigation_main li{
-    font-family: "Segoe UI";
+    font-family: 'ArmTimes';
     font-weight: bold;
 }
 
@@ -135,6 +151,9 @@ body.am .container_top_slider_text {
     padding: 15px 30px 15px 15px;
     font-family: "Segoe UI";
     letter-spacing: 0px;
+    /*font-family: "ArmTimes"; todo:: Poxel Bold Fonti, chakertner@ chen ashxatum ArmTimes-i depqum*/
+    /*font-weight: bold;*/
+    /*letter-spacing: -1px;*/
     cursor: pointer;
 }
 
@@ -176,8 +195,8 @@ body.am #item_tabs li a {
 }
 
 body.am .navigation_main li.club a{
-    font-size: 22px;
-    letter-spacing: 0px;
+    font-size: 25px;
+    letter-spacing: -3.5px;
 }
 
 body.am .carousel_slider_item span {
@@ -852,7 +871,6 @@ h1, h2, h3, h4, h5, h5, h6 {
     font-weight: bold;
     text-align: center;
     line-height: 0.9;
-    /*font-family: 'Segoe UI', Arial;*/
     font-family: Arial, 'Segoe UI';
 }
 
@@ -1220,6 +1238,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .navigation .navigation_main .submenu_top ul li a{
 	font-size: 16px;
+    letter-spacing: -2.5px;
 }
 
 .navigation .navigation_main li.home a{

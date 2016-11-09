@@ -1290,8 +1290,8 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .right_bar .container_top_right {
-    width: 290px;
-    margin-left: 8px;
+    width: 293px;
+    margin-left: 0;
 }
 
 .owl-page {
@@ -1727,8 +1727,11 @@ body.am .best_player .best-player-goalkeeper {
 }
 
 .best_player_images_wrapper {
-	/*width: 142px;*/
 	float: left;
+}
+
+.right_bar .best_player_images_wrapper {
+	width: 142px;
 }
 
 .best_player_images_wrapper img {
@@ -2030,11 +2033,11 @@ body.am .best_player .best-player-goalkeeper {
 }
 
 #content {
-    width: 592px;
-    min-height: 904px;
+    width: 596px;
+    min-height: 970px;
     height: auto;
     float: left;
-    margin: 0 8px;
+    margin: 0 6px;
     background: #fff;
     padding: 10px 6px 22px 6px;
     font-size: 15px;
@@ -2684,7 +2687,7 @@ div.news_list h3 {
 
 .left_bar_menu{
 	background-color: #217cb8;
-	width:291px;
+	width: 290px;
 	margin-bottom: 8px;
 }
 
@@ -2765,10 +2768,6 @@ div.news_list h3 {
 	width: 283px;
 	float: left;
 	margin-right: 5px;
-}
-
-.right_bar  .container_top_right{
-	margin-left: 0;
 }
 
 .right_bar .content_top_right_info_blog_wrapper{

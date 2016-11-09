@@ -91,6 +91,8 @@
     font-family: 'ArmTimes';
     src:
         url('../fonts/am/ArmTimesTytleSTBold.ttf') format('truetype');
+        /*url('../fonts/am/tahoma_693.ttf') format('truetype');*/
+        /*url('../fonts/am/dejavu-sans-condensed_125.ttf') format('truetype');*/
     font-weight: bold;
     font-style: normal;
 }

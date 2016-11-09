@@ -1076,7 +1076,7 @@ h1, h2, h3, h4, h5, h5, h6 {
     color: #456579;
     font-size: 14px;
     font-family: 'Segoe UI', Arial, 'sans-serif';
-    line-height: 14px;
+    line-height: 10px;
     width: 78px;
     white-space: nowrap;
     overflow: hidden;

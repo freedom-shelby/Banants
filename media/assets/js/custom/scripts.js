@@ -90,6 +90,10 @@ $(document).ready(function() {
         $(window).resize(function() {
             $("#login").dialog("option", "position", {my: "center", at: "center", of: window});
         });
+
+        $('.navigation .submenu_parent > a').on('click', function(e){
+            e.preventDefault();
+        });
     });
 
     if($(".container_top_slideshow").length > 0) {

@@ -15,6 +15,11 @@ restrictAccess();
 abstract class AbstractWidget {
 
     /**
+     * Максималний число INT в MySQL
+     */
+    const INT_MAX_VALUE = 2147483647;
+
+    /**
      * Тип страницы
      */
     protected $_type;

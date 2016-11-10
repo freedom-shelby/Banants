@@ -14,9 +14,11 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
-use VideoModel;
+use Setting;
+use ArticleModel;
+use App;
 
-class VideoGalleryPage extends AbstractWidget{
+class NewsAnons extends AbstractWidget{
 
     /**
      * Тип страницы
@@ -42,10 +44,10 @@ class VideoGalleryPage extends AbstractWidget{
      * Параметри в виде JSON-а
      */
     protected $_param;
-    
+
     /**
-     * Видео
-     * @type array(VideoModel)
+     * Матеряли
+     * @type array[ArticleModel]
      */
     protected $_items = [];
 
@@ -70,13 +72,14 @@ class VideoGalleryPage extends AbstractWidget{
     {
         $this->_param = json_decode($model->param, true);
 
-        // Последние добавлённие видео
-        $this->_items = VideoModel::orderBy('created_at', 'desc')->get()->toArray();
+        // выборка последнийх матерялов
+        $this->_items = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+            ->descendants()
+            ->where('photo_id', '!=' , 1)
+            ->reOrderBy('created_at', 'desc')
+            ->limit($this->_param['settings']['news_count'])
+            ->get();
 
-        $this->_items = array_chunk($this->_items, 8, true);
-//echo "<pre>";
-//print_r($this->_items);
-//die;
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

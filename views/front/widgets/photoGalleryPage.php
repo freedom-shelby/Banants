@@ -27,7 +27,7 @@ use Helpers\Uri;
                                         <? foreach ($data as $key => $item): ?>
                                             <div class="photo-item">
                                                 <a class="fancybox" title="slideshow_images" href="<?= $item['path'] ?>" rel="gallary_b">
-                                                    <img class="image" src="<?= Imagefly::imagePath($item['path'], 'w280-q52') ?>" alt="Banants Stadium" />
+                                                    <img class="image" src="<?= Imagefly::imagePath($item['path'], 'w279-h187-q60-c') ?>" alt="Banants Stadium" />
                                                 </a>
                                             </div>
                                         <? endforeach ?>

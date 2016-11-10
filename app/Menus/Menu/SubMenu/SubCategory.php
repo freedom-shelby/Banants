@@ -28,7 +28,7 @@ class SubCategory extends Category{
      * Активний пункт
      * @var
      */
-    protected $_active;
+    protected $_activeSlug;
 
     /**
      * Пункти меню
@@ -52,7 +52,7 @@ class SubCategory extends Category{
                         <ul>';
 
         foreach($this->_items as $item){
-            $output .= '<li ' . (($this->_active == $item->slug) ? 'class="active"' : "") . '><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a></li>';
+            $output .= '<li ' . (($this->_activeSlug == $item->slug) ? 'class="active"' : "") . '><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a></li>';
 
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);
@@ -71,7 +71,7 @@ class SubCategory extends Category{
 
         foreach($items as $item)
         {
-            $output .= '<li ' . (($this->_active == $item->slug) ? 'class="active"' : "") . '><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
+            $output .= '<li ' . (($this->_activeSlug == $item->slug) ? 'class="active"' : "") . '><a href="' . $item->slug.App::URI_EXT . '">' . __($item->text()) . '</a></li>';
         }
 
         $output .= '</ul>';
@@ -82,7 +82,8 @@ class SubCategory extends Category{
     public function init($model)
     {
         $this->_items = $model->descendants()->whereStatus(1)->get()->toHierarchy();
+
         // Устанавлиает Активни пункт и суб-меню
-        $this->_active = MenusContainer::getCurrent();
+        $this->_activeSlug = MenusContainer::getCurrent();
     }
 }

@@ -119,9 +119,17 @@ class Category extends AbstractMenu{
 
         // Иконка для Home
         $output .= '<li class="home"><a href="' . Uri::makeUriFromId('/') . '"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
-
         foreach($this->_items as $item){
-            $output .= '<li class="club ' . (($this->_active == $item->slug) ? "active" : "") . ' submenu_parent"><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a>';
+            $output .= '<li class="club';
+
+            // Проверяет текущий елемент активний или нет
+            if(isset($this->_active))
+            {
+                $output .= (($this->_active->id == $item->id) ? ' active' : '');
+            }
+
+            $output .= ' submenu_parent"><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a>';
+
             if(isset($item->children)) {
                 $output .= $this->subMenuRender($item->children);
             }
@@ -164,32 +172,25 @@ class Category extends AbstractMenu{
 
     public function init($model)
     {
-
         $this->_position = $model->pos;
         $this->_title = $model->title;
 
-        $model = $model->items()->whereStatus(1);
+        $model = $model->items()->whereStatus(1)->get();
 
         // Устанавлиает Активни пункт и суб-меню
-        foreach($model->get() as $item)
+        foreach($model as $item)
         {
             if($item->slug == MenusContainer::getCurrent()){
-                if($item->lvl == MenusContainer::CATEGORY_LEVEL){
-                    $this->_active = $item->slug;
-                    $this->initSubMenu($item);
-                }else{
-                    $tmpModel = $item->ancestors()->whereLvl(MenusContainer::CATEGORY_LEVEL)->first();
-                    $this->_active = $tmpModel->slug;
-                    $this->initSubMenu($tmpModel);
-                }
+                $tmpModel = $item->ancestors()->whereLvl(MenusContainer::CATEGORY_LEVEL)->first();
+                $this->_active = $tmpModel;
+                $this->initSubMenu($tmpModel);
             }
         }
-        $this->_items = $model->get()->toHierarchy();
+        $this->_items = $model->toHierarchy();
     }
 
     public function initSubMenu($model)
     {
-//        $model->subMenus()->get()->toArray();
         $menus = $model->menu()->subMenus()->get();
         if(!empty($menus)){
             foreach($menus as $m){
@@ -200,13 +201,5 @@ class Category extends AbstractMenu{
                 $this->_subMenuItems[$tmp->getPosition()] = $tmp;
             }
         }
-
-//        echo "<pre>";
-//        print_r($this->_subMenuItems);
-//        die;
-
-//        $this->_position = $model->pos;
-//        $this->_title = $model->title;
-//        $this->_items = $model->items()->whereStatus(1);
     }
 }

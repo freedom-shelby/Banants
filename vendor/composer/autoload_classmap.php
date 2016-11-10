@@ -1551,6 +1551,8 @@ return array(
     'Widgets\\Widget\\LastMatchesAnons' => $baseDir . '/app/Widgets/Widget/LastMatchesAnons.php',
     'Widgets\\Widget\\MainNews' => $baseDir . '/app/Widgets/Widget/MainNews.php',
     'Widgets\\Widget\\Managers' => $baseDir . '/app/Widgets/Widget/Managers.php',
+    'Widgets\\Widget\\News' => $baseDir . '/app/Widgets/Widget/News.php',
+    'Widgets\\Widget\\NewsAnons' => $baseDir . '/app/Widgets/Widget/NewsAnons.php',
     'Widgets\\Widget\\NextMatch' => $baseDir . '/app/Widgets/Widget/NextMatch.php',
     'Widgets\\Widget\\NextMatchInfo' => $baseDir . '/app/Widgets/Widget/NextMatchInfo.php',
     'Widgets\\Widget\\PhotoGalleriesPage' => $baseDir . '/app/Widgets/Widget/PhotoGalleriesPage.php',

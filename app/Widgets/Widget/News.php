@@ -14,9 +14,11 @@ restrictAccess();
 
 use Widgets\AbstractWidget;
 use View;
-use VideoModel;
+use Setting;
+use ArticleModel;
+use App;
 
-class VideoGalleryPage extends AbstractWidget{
+class News extends AbstractWidget{
 
     /**
      * Тип страницы
@@ -42,10 +44,10 @@ class VideoGalleryPage extends AbstractWidget{
      * Параметри в виде JSON-а
      */
     protected $_param;
-    
+
     /**
-     * Видео
-     * @type array(VideoModel)
+     * Матеряли
+     * @type array[ArticleModel]
      */
     protected $_items = [];
 
@@ -64,19 +66,28 @@ class VideoGalleryPage extends AbstractWidget{
     {
         return View::make($this->_template)
             ->with('items', $this->_items);
+
     }
 
     public function init($model)
     {
         $this->_param = json_decode($model->param, true);
 
-        // Последние добавлённие видео
-        $this->_items = VideoModel::orderBy('created_at', 'desc')->get()->toArray();
+        // Матерялов из slug-а (от 1-го до последного матеряла по добавлению)
+        $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+            ->descendants()
+            ->where('photo_id', '!=' , 1)->reOrderBy('created_at', 'desc')
+            ->limit(static::INT_MAX_VALUE) // todo:: paginationov sarqel u hanel limit -@
+            ->offset($this->_param['settings']['anons_news_count'])
+            ->get();
 
-        $this->_items = array_chunk($this->_items, 8, true);
-//echo "<pre>";
-//print_r($this->_items);
-//die;
+        foreach ($data as $item) {
+            $this->_items[] = $item;
+        }
+
+        // todo: надо сделать Pagination
+        $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true);
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

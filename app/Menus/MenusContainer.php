@@ -63,7 +63,6 @@ class MenusContainer {
         $cache->load();
         if($cache->isValid()){
             $this->_items = unserialize(base64_decode($cache->getData()));
-
         }else{
             $items = MenuModel::all();
 

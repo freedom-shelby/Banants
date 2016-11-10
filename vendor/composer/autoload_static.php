@@ -1770,6 +1770,8 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'Widgets\\Widget\\LastMatchesAnons' => __DIR__ . '/../..' . '/app/Widgets/Widget/LastMatchesAnons.php',
         'Widgets\\Widget\\MainNews' => __DIR__ . '/../..' . '/app/Widgets/Widget/MainNews.php',
         'Widgets\\Widget\\Managers' => __DIR__ . '/../..' . '/app/Widgets/Widget/Managers.php',
+        'Widgets\\Widget\\News' => __DIR__ . '/../..' . '/app/Widgets/Widget/News.php',
+        'Widgets\\Widget\\NewsAnons' => __DIR__ . '/../..' . '/app/Widgets/Widget/NewsAnons.php',
         'Widgets\\Widget\\NextMatch' => __DIR__ . '/../..' . '/app/Widgets/Widget/NextMatch.php',
         'Widgets\\Widget\\NextMatchInfo' => __DIR__ . '/../..' . '/app/Widgets/Widget/NextMatchInfo.php',
         'Widgets\\Widget\\PhotoGalleriesPage' => __DIR__ . '/../..' . '/app/Widgets/Widget/PhotoGalleriesPage.php',

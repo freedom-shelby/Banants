@@ -53,10 +53,6 @@ use Football\Tournaments\Tournament;
                     <? endforeach ?>
 
                 </div>
-<!--                <div class="owl-buttons">-->
-<!--                    <div class="owl-prev wgt-prev"></div>-->
-<!--                    <div class="owl-next wgt-next"></div>-->
-<!--                </div>-->
             </div>
         </div>
     </div>

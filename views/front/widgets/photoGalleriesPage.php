@@ -14,14 +14,22 @@ use Helpers\Uri;
 <div class="inner_content_wrapper">
     <div class="inner_content">
         <div class="clearfix">
-            <h3><strong><?= __('PHOTO GALLERY')?></strong></h3>
+            <h1>
+                <strong><?= __('PHOTO GALLERY')?></strong>
+            </h1>
 
             <? if (isset($items)): ?>
                 <? foreach ($items as $item): ?>
 
                     <div class="photo-galleries-item">
                         <div class="leftbar_images_slider_wrapper">
-                            <a href="<?= Uri::makeUriFromId('photo_gallery/' . $item->slug) ?>"><div class="h3"><?= __($item->text())?></div></a>
+                            <div class="header">
+                                <a href="<?= Uri::makeUriFromId('photo_gallery/' . $item->slug) ?>">
+                                    <div class="h3">
+                                        <?= __($item->text())?>
+                                    </div>
+                                </a>
+                            </div>
                             <div class="leftbar_images_slider clearfix">
                                 <div class="leftbar_images_slider_item">
 
@@ -35,7 +43,9 @@ use Helpers\Uri;
 
                                 </div>
                             </div>
-                            <span class="photo-galery-link"><a href="<?= Uri::makeUriFromId('gallery/' . $item->slug) ?>"><?= __('Show More')?> >> </a></span>
+                            <span class="photo-galery-link">
+                                <a href="<?= Uri::makeUriFromId('gallery/' . $item->slug) ?>"><?= __('Show More')?> >> </a>
+                            </span>
                         </div>
                     </div>
 

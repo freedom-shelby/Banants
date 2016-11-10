@@ -1850,15 +1850,27 @@ body.am .best_player .best-player-goalkeeper {
     border-bottom: 1px solid transparent;
 }
 
-.photo-galleries-item .photo-galery-link a {
+.photo-galleries-item .photo-galery-link a{
      color:#ababab;
 }
 
-.photo-galleries-item .leftbar_images_slider_wrapper a {
+.photo-galleries-item .h3{
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    padding: 4px 0;
+}
+
+.photo-galleries-item .header a{
+    display: table;
+    width: 100%;
+}
+
+.photo-galleries-item .leftbar_images_slider_wrapper a{
     text-decoration: none;
 }
 
-.shooter_slider {
+.shooter_slider{
 	background-color: #217cb8;
 	padding-bottom: 5px;
 }
@@ -2802,6 +2814,13 @@ div.news_list h3 {
 .inner_content h3 {
 	font-size: 18px;
 	color:#044980;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+
+.inner_content h1 {
+	font-size: 19px;
+	color: #044980;
 	text-transform: uppercase;
 	margin-bottom: 4px;
 }

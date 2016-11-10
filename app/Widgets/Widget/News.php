@@ -66,7 +66,6 @@ class News extends AbstractWidget{
     {
         return View::make($this->_template)
             ->with('items', $this->_items);
-
     }
 
     public function init($model)
@@ -77,7 +76,8 @@ class News extends AbstractWidget{
         $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
             ->descendants()
             ->where('photo_id', '!=' , 1)->reOrderBy('created_at', 'desc')
-            ->limit(static::INT_MAX_VALUE) // todo:: paginationov sarqel u hanel limit -@
+//            ->limit(static::INT_MAX_VALUE) // todo:: paginationov sarqel u hanel limit -@
+            ->limit(90)
             ->offset($this->_param['settings']['anons_news_count'])
             ->get();
 

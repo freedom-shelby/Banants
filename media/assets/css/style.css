@@ -3080,6 +3080,11 @@ div.news_list h3 {
     padding: 0 5px;
 }
 
+.pagination li span {
+    padding: 0 5px;
+    color: #ffe000;
+}
+
 .pagination li a:hover {
 	color:#ffe002;
 }

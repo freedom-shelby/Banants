@@ -72,21 +72,40 @@ class News extends AbstractWidget{
     {
         $this->_param = json_decode($model->param, true);
 
-        // Матерялов из slug-а (от 1-го до последного матеряла по добавлению)
-        $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+        // Находит первий матерял после Анонса Новостей
+        $offset = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
             ->descendants()
-            ->where('photo_id', '!=' , 1)->reOrderBy('created_at', 'desc')
-//            ->limit(static::INT_MAX_VALUE) // todo:: paginationov sarqel u hanel limit -@
-            ->limit(90)
+            ->where('photo_id', '!=' , 1)
+            ->reOrderBy('created_at', 'desc')
+            ->limit(1)
             ->offset($this->_param['settings']['anons_news_count'])
-            ->get();
+            ->first();
 
-        foreach ($data as $item) {
-            $this->_items[] = $item;
-        }
+        // Матерялов из slug-а (от 1-го до последного матеряла по добавлению)
+        $this->_items = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+            ->descendants()
+            ->where('photo_id', '!=' , 1)
+            ->where('created_at', '<=' , $offset->created_at->toDateTimeString()) // Находит новости старее чем последний матерял Анонса Новостей (NewsAnons)
+            ->reOrderBy('created_at', 'desc')
+            ->paginate(5);
+//            ->getCollection()
+//            ->all();
+//echo "<pre>";
+//print_r($data->toArray());
+//echo "</pre>";
+//echo $data->render();
+//die;
 
+//        foreach ($data as $item) {
+//            $this->_items[] = $item;
+
+//echo "<pre>";
+//print_r($item->toArray());
+//echo "</pre>";
+//        }
+//die;
         // todo: надо сделать Pagination
-        $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true);
+//        $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true);
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

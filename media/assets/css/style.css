@@ -4229,7 +4229,6 @@ div.dialog{
 /*--------------------Coaches------------------*/
 
 .team_wrapper.coaches{
-
     background: #fff;
 }
 
@@ -4241,20 +4240,14 @@ div.dialog{
     margin-top: 5px;
 }
 
-
-
-/*:-)-:-)*/
 .news_wrapper .news_item{
     background-color: #d7e9f5;
     border-bottom: 2px solid #5ba5d4;
 }
 
-
-
 .widget{
     background-color: #217cb8;
     margin-bottom: 5px;
-
 }
 .widget-header{
     background-color: #044980;

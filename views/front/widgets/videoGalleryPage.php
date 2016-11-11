@@ -44,9 +44,9 @@ use Illuminate\Pagination\LengthAwarePaginator;
                     </div>
                 </div>
             </div>
+
+            <?= $items->render() ?>
+
         </div>
-
-        <?= $items->render() ?>
-
     </div>
 <? endif ?>

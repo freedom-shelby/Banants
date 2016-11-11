@@ -71,12 +71,8 @@ class VideoGalleryPage extends AbstractWidget{
         $this->_param = json_decode($model->param, true);
 
         // Последние добавлённие видео
-        $this->_items = VideoModel::orderBy('created_at', 'desc')->get()->toArray();
+        $this->_items = VideoModel::orderBy('created_at', 'desc')->paginate($this->_param['settings']['per_page']);
 
-        $this->_items = array_chunk($this->_items, 8, true);
-//echo "<pre>";
-//print_r($this->_items);
-//die;
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

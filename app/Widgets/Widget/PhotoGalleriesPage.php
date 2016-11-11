@@ -68,23 +68,15 @@ class PhotoGalleriesPage extends AbstractWidget{
             ->with('items', $this->_items);
     }
 
-    // todo:: avelacnel Pegination
     public function init($model)
     {
-//        $param = Router::getCurrentRoute()->getActionVariable('param');
+        $this->_param = json_decode($model->param, true);
 
-        $this->_items = PhotoGalleryModel::all();
-//
-//        if( ! $data) Event::fire('App.invalidRoute', Router::getCurrentRoute());
-//
-//        $this->_items = $data->photos()->get()->toArray();
-//
-//        $this->_items = array_chunk($this->_items, 8, true);
+        $this->_items = PhotoGalleryModel::orderBy('created_at', 'desc')->paginate($this->_param['settings']['per_page']);
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
-        $this->_param = $model->param;
         $this->_type = $model->type;
     }
 }

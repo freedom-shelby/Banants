@@ -4,22 +4,27 @@
  * User: Arsen
  * Date: 11/6/2015
  * Time: 3:20 PM
+ *
+ * @var $items \Illuminate\Pagination\Paginator
+ * @var $item PhotoGalleryModel
  */
 
 use Ivliev\Imagefly\Imagefly;
 use Helpers\Uri;
+use Illuminate\Pagination\LengthAwarePaginator;
+
 
 ?>
 
-<div class="inner_content_wrapper">
-    <div class="inner_content">
-        <div class="clearfix">
-            <h1>
-                <strong><?= __('PHOTO GALLERY')?></strong>
-            </h1>
+<? if ($items instanceof LengthAwarePaginator): ?>
+    <div class="inner_content_wrapper">
+        <div class="inner_content">
+            <div class="clearfix">
+                <h1>
+                    <strong><?= __('PHOTO GALLERY')?></strong>
+                </h1>
 
-            <? if (isset($items)): ?>
-                <? foreach ($items as $item): ?>
+                <? foreach ($items->getCollection()->all() as $item): ?>
 
                     <div class="photo-galleries-item">
                         <div class="leftbar_images_slider_wrapper">
@@ -50,8 +55,11 @@ use Helpers\Uri;
                     </div>
 
                 <? endforeach ?>
-            <? endif ?>
 
+            </div>
         </div>
+
+        <?= $items->render() ?>
+
     </div>
-</div>
+<? endif ?>

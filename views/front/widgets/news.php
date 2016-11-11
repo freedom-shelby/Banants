@@ -13,6 +13,7 @@ use Helpers\Uri;
 use Helpers\Strings;
 use Ivliev\Imagefly\Imagefly;
 use Illuminate\Pagination\LengthAwarePaginator;
+
 //todo: Нужен функционал для сколко раз смотрели
 ?>
 

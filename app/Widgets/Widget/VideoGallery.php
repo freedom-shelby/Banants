@@ -69,13 +69,11 @@ class VideoGallery extends AbstractWidget{
     {
         $this->_param = json_decode($model->param, true);
 
-        // Последние добавлённие видео начиная с второго
-        $this->_items = VideoModel::orderBy('id', 'desc')->limit(8)->offset(1)->get()->toArray();
+        // Последние добавлённие видео начиная по убыванию дате добавления
+        $this->_items = VideoModel::orderBy('id', 'desc')->limit(8)->get()->toArray();
 
         $this->_items = array_chunk($this->_items, 4, true);
-//echo "<pre>";
-//print_r($this->_items);
-//die;
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

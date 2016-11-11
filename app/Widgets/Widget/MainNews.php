@@ -66,20 +66,20 @@ class MainNews extends AbstractWidget{
     {
         return View::make($this->_template)
             ->with('items', $this->_items);
-
     }
 
     public function init($model)
     {
         $this->_param = json_decode($model->param, true);
 
-        // Матерялов из клуба (от 1-го до 8-го матеряла)
+        // Матерялов по убиванию дате добавления (от 5-го до 15-го матеряла)
         $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
             ->descendants()
             ->where('photo_id', '!=' , 1)
             ->reOrderBy('created_at', 'desc')
             ->limit($this->_param['settings']['max_news_limit'])
-            ->offset(4)->get(); // todo:: Anonsi Limitic sksi offset@
+            ->offset($this->_param['settings']['anons_news_count'])
+            ->get();
 
         foreach ($data as $item) {
             $this->_items[] = $item;

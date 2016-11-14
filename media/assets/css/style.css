@@ -2116,7 +2116,9 @@ body.am .best_player .best-player-goalkeeper {
     box-sizing: border-box;
     overflow: hidden;
 }
-
+#content.mce-content-body{
+    overflow: scroll;
+}
 .content_top_left {
 	width: 545px;
 	float: left;
@@ -4618,7 +4620,6 @@ div.dialog{
 .last-match-anons a {
     text-decoration: none;
 }
-
 /** Content Styles From TinyMCE Editor**/
 #content .article-header{
     margin: 0;

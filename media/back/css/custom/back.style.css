@@ -182,7 +182,6 @@ body.loading .loader {
 .dropdown-submenu:hover>.dropdown-menu{
     display:block;
 }
-
 .dropdown-submenu>a:after{
     display:block;
     content:" ";
@@ -218,7 +217,12 @@ body.loading .loader {
     width: 65%;
     min-height: 12em;
 }
-
+#photo-paginate .article-context-menu{
+    cursor: pointer;
+}
+.thumbnail.active, .thumbnail:focus, .thumbnail:hover{
+    border-color: #337ab7;
+}
 .gallery.custom-state-active {
     background: #eee;
 }

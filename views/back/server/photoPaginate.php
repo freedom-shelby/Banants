@@ -13,9 +13,9 @@
     <div class="row">
         <? foreach ($row as $item): ?>
             <div class="col-lg-4 thumb">
-                <a class="thumbnail article-context-menu" href="#">
+                <div class="thumbnail article-context-menu">
                     <img class="img-responsive" src="<?= $item['path'] ?>" alt="" data-photo-id="<?= $item['id'] ?>">
-                </a>
+                </div>
             </div>
         <? endforeach ?>
     </div>

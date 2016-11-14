@@ -285,7 +285,7 @@ tinymce.init({
         {title: 'Custom', items: [
             {
                 title: 'Header',
-                block: 'p',
+                block: 'h1',
                 classes: 'article-header'
             },
             {

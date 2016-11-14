@@ -10,7 +10,7 @@
 ?>
 
 <div class="info-col">
-    <p class="col-title"><?= __($item->getFullName()) ?></p>
+    <h1 class="col-title"><?= __($item->getFullName()) ?></h1>
     <div class="contener-white">
         <div class="static-table tournir-table">
             <table>

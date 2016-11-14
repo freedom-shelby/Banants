@@ -229,12 +229,17 @@ class Page
     {
         $model = $this->getModelFromSlug($slug);
 
-        $this->setMetaContent('description', $model->meta_desc);
-        $this->setMetaContent('keywords', $model->meta_keys);
-        $this->setTitle($model->meta_title);
+        $this->setMetaContent('description', $model->meta_desc ? htmlspecialchars($model->meta_desc) : htmlspecialchars($model->title));
+        $this->setMetaContent('keywords', $model->meta_keys ? htmlspecialchars($model->meta_keys):  htmlspecialchars($model->title));
+        $this->setTitle($model->meta_title ? htmlspecialchars($model->meta_title) : htmlspecialchars($model->title));
         $this->setContent($model->desc);
     }
 
+    /**
+     * @param $slug
+     * @return ArticleModel
+     * @throws HttpException
+     */
     public function getModelFromSlug($slug)
     {
         $cache = new Cache();

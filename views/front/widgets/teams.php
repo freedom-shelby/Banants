@@ -13,11 +13,11 @@ use Ivliev\Imagefly\Imagefly;
 //todo: Надо включить сортировку
 ?>
 
+<h1 class="news_slider_item_text"><?= __($title) ?></h1>
 <div class="inner_content_wrapper">
     <div class="inner_content">
         <div class="team_wrapper clearfix">
             <div class="team_wrapper_top">
-                <h3><?=$title?></h3>
                 <span>
 
                 </span>

@@ -15,7 +15,7 @@ use Helpers\Uri;
         <div class="stadion_page">
             <div class="stadion_info clearfix">
                 <div class="stadion_info_wrapper">
-                    <h3><a href="#"><strong><?= __($title) ?></strong></a></h3>
+                    <h1><strong><?= __($title) ?></strong></h1>
                     <div class="leftbar_images_slider_wrapper">
                         <div class="leftbar_images_slider clearfix">
 

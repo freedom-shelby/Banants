@@ -91,8 +91,14 @@
     font-family: 'ArmTimes';
     src:
         url('../fonts/am/ArTarumianMHarvats-Regular-8937.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'ArmTimes Title';
+    src:
         /*url('../fonts/am/ArmTimesTytleSTBold.ttf') format('truetype');*/
-        /*url('../fonts/am/tahoma_693.ttf') format('truetype');*/
+        url('../fonts/am/tahoma_693.ttf') format('truetype');
         /*url('../fonts/am/dejavu-sans-condensed_125.ttf') format('truetype');*/
     font-weight: bold;
     font-style: normal;
@@ -131,7 +137,7 @@ body.am {
 
 /** Fonts For AM Language **/
 body.am .navigation .navigation_main li{
-    font-family: 'ArmTimes';
+    font-family: 'ArmTimes', 'ArmTimes Title', Impact Regular, 'Segoe UI', Arial;
     font-weight: bold;
 }
 
@@ -4622,6 +4628,10 @@ div.dialog{
     font-family: Impact Regular;
     margin-bottom: 8px;
     line-height: 20px;
+}
+
+.am #content .article-header{
+    font-family: 'ArmTimes', 'ArmTimes Title', Impact Regular, 'Segoe UI', Arial;
 }
 
 #content .article-pull-left{

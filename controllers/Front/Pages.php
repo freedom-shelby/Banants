@@ -68,11 +68,11 @@ class Pages extends Front
 //            'slug' => 'admin',
 //        ]);
 
-//        $tmpName = trim('Davit');
-//        $tmpEmail = trim('dg');
-//        $pass = 'pass';
+//        $tmpName = trim('Mane');
+//        $tmpEmail = trim('mane@fcbanants.am');
+//        $pass = 'Mane@banants!';
 //        $country = 1;
-
+//
 //        $credentials = [
 //            'email'    => $tmpEmail,
 //            'password' => $pass,

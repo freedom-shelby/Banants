@@ -5,6 +5,8 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+use Helpers\Uri;
 ?>
 
 
@@ -31,5 +33,5 @@
         <? endif ?>
 
     </div>
-    <span class="all_news_link"><a href="#"><?= __('Video archive. The best moments.') ?></a></span>
+    <span class="all_news_link"><a href="<?= Uri::makeUriFromId('photos') ?>"><?= __('Video archive. The best moments.') ?></a></span>
 </div><!-- leftbar_images_slider_wrapper -->

@@ -2101,6 +2101,15 @@ body.am .best_player .best-player-goalkeeper {
 	margin-left: 5px;
 }
 
+.content .header .col-title{
+    background: #044980;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 4px 7px;
+    text-transform: uppercase;
+}
+
 #content {
     width: 596px;
     min-height: 970px;

@@ -49,7 +49,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
                                 </div>
                             </div>
                             <span class="photo-galery-link">
-                                <a href="<?= Uri::makeUriFromId('gallery/' . $item->slug) ?>"><?= __('Show More')?> >> </a>
+                                <a href="<?= Uri::makeUriFromId('photo_gallery/' . $item->slug) ?>"><?= __('Show More')?> >> </a>
                             </span>
                         </div>
                     </div>

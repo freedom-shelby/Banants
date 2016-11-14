@@ -31,5 +31,5 @@ use Helpers\Uri;
         <? endif ?>
 
     </div>
-    <span class="photogalery_link"><a href="https://www.flickr.com/photos/133834241@N06/albums"><?= __('Photo Gallery') ?></a></span>
+    <span class="photogalery_link"><a href="<?= Uri::makeUriFromId('photos') ?>"><?= __('Photo Gallery') ?></a></span>
 </div>

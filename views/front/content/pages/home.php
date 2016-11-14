@@ -38,6 +38,9 @@
                 <div class="content">
                     <div class="content_top clearfix">
                         <div class="content_top_left">
+                            <div class="header">
+                                <h1 class="col-title"><?= __('Last News') ?></h1>
+                            </div>
 
                             <?//Theme::drawWidgetByType('RandomNews')?>
                             <?//Theme::drawWidgetByType('ContentBanner')?>

@@ -38,13 +38,13 @@ use Lang\Lang;
                                     <? endforeach ?>
                                 <? endif ?>
                             </select>
-                            <div class="checkbox form-group col-sm-13">
-                                <label>
-                                    <input type="checkbox" name="status" value="1" <?=($article->status) ? ' checked' : ''?>> Status
-                                </label>
-                            </div>
                         </div>
-                        <div class="inline form-group col-sm-5">
+                        <div class="checkbox form-group col-sm-13">
+                            <label>
+                                <input type="checkbox" name="status" value="1" <?=($article->status) ? ' checked' : ''?>> Status
+                            </label>
+                        </div>
+                        <div class="inline form-group col-sm-6">
                             <label>
                                 <span>Default Image</span>
                                 <img id="article-photo-url" src="<?= $article->defaultImage()->path ?>" class="img-thumbnail" alt="Default Image">

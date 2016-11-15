@@ -1844,6 +1844,11 @@ body.am .best_player .best-player-goalkeeper {
 .leftbar, .photo-galleries-item {
 	width: 290px;
 	float: left;
+    height: 961px;
+}
+
+.leftbar .widget-snipers {
+    height: 258px;
 }
 
 .photo-galleries-item .photo-galery-link{
@@ -1900,6 +1905,7 @@ body.am .best_player .best-player-goalkeeper {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+    height: 306px;
 }
 
 .leftbar_images_slider_wrapper .leftbar_images_slider{
@@ -2046,6 +2052,7 @@ body.am .best_player .best-player-goalkeeper {
 
 .home.quizzes{
 	margin-top: 11px;
+    height: 39.2%;
 }
 
 .home_thanks{
@@ -2285,6 +2292,7 @@ div.news_list h3 {
     padding: 1px 5px 3px 5px;
 	border-bottom: 1px solid #b4b4b4;
 	background: #fff;
+    height: 104px;
 }
 
 .news_list span {
@@ -2547,10 +2555,10 @@ div.news_list h3 {
 }
 
 .content_middle_right {
-	width: 440px;
+	width: 445px;
 	float: left;
 	margin-top: 5px;
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .content_middle_right_slideshow {

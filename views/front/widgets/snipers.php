@@ -36,13 +36,13 @@
         </div>
         <div class="best_player clearfix">
             <div class="best_player_content">
-                <h3> <?=__('Zaven Badoyan')?></h3>
+                <h3> <?=__('Gevorg Xuloyan')?></h3>
                 <div class="best_player_images_wrapper">
-                    <img src="/uploads/tmp/zaven_badoyan_with_flag.png" alt="best_player" />
+                    <img src="/uploads/tmp/GevorgXuloyan_ARM_BackFLAG.png" alt="best_player" />
                 </div>
                 <div class="best_player_right">
                     <div class="best_player_info">
-                        <span><?=__('Age')?> 26<br> <?=__('Goals')?> 2 </span>
+                        <span><?=__('Age')?> 26<br> <?=__('Goals')?> 1 </span>
                     </div>
                     <div class="best_player_multiple">
                         <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

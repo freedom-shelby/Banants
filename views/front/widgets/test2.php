@@ -65,20 +65,6 @@ use Ivliev\Imagefly\Imagefly;
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
-                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Karen_Stepanyan.png', 'w140-q52')?>" alt="player" />
-                                </div>
-                            </div>
-                            <div class="team_item_title">
-                                <h3><?=__('Karen')?> <?=__('Stepanyan')?></h3>
-                            </div>
-                            <div class="team_item_bottom">
-                                <h4><?=__('Doctor')?></h4>
-                            </div>
-                        </div>
-                        <div class="team_item">
-                            <div class="team_item_images pictures_wrapper">
-                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
-                                <div class="manager_wrapper">
                                     <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/banants_2/Arsen_Hambaryan.png', 'w140-q52')?>" alt="coach1" />
                                 </div>
                             </div>

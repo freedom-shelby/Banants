@@ -48,9 +48,6 @@ use Helpers\Uri;
                     <select name="language" id="language">
 
                         <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
-                            <? if ($lang['id'] == 2): ?>
-                                <? continue ?>
-                            <? endif ?>
                             <option lang="<?=$lang['iso']?>" value="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>" <?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? 'selected' : ''?>><?=$lang['name']?></option>
                         <?endforeach?>
 

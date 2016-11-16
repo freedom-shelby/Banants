@@ -1847,7 +1847,7 @@ body.am .best_player .best-player-goalkeeper {
 	float: left;
 }
 .leftbar{
-    height: 961px;
+     /*height: 961px; */
 }
 .leftbar .widget-snipers {
     height: 258px;
@@ -1897,6 +1897,9 @@ body.am .best_player .best-player-goalkeeper {
     color: #ffe000;
     padding: 8px 0 8px 0;
     margin-bottom: 0;
+}
+.am .photo-galleries-item .photo-gallery-item .h3{
+    font-family: 'ArmTimes', 'ArmTimes Title', Impact Regular, 'Segoe UI', Arial
 }
 .photo-galleries-item .photo-gallery-item .leftbar_images_slider{
     width: auto;
@@ -2074,7 +2077,7 @@ body.am .best_player .best-player-goalkeeper {
 
 .home.quizzes{
 	margin-top: 11px;
-    height: 39.2%;
+    height: 368px;
 }
 
 .home_thanks{

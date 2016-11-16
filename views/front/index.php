@@ -85,6 +85,8 @@ use Helpers\Uri;
                     </div><!-- container_top_right -->
                 </div> <!--right_bar-->
 
+                <div class="clearfix"></div>
+
                 <div class="container_bottom clearfix">
 
                     <?Theme::drawWidgets('bottom')?>

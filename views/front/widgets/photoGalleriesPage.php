@@ -27,7 +27,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
                 <? foreach ($items->getCollection()->all() as $item): ?>
 
                     <div class="photo-galleries-item">
-                        <div class="leftbar_images_slider_wrapper">
+                        <div class="photo-gallery-item">
                             <div class="header">
                                 <a href="<?= Uri::makeUriFromId('photo_gallery/' . $item->slug) ?>">
                                     <div class="h3">

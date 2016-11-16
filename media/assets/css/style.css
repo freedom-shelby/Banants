@@ -1841,12 +1841,14 @@ body.am .best_player .best-player-goalkeeper {
 	margin-top: 6px;
 }
 
-.leftbar, .photo-galleries-item {
+.leftbar,
+.photo-galleries-item {
 	width: 290px;
 	float: left;
+}
+.leftbar{
     height: 961px;
 }
-
 .leftbar .widget-snipers {
     height: 258px;
 }
@@ -1877,8 +1879,28 @@ body.am .best_player .best-player-goalkeeper {
     width: 100%;
 }
 
-.photo-galleries-item .leftbar_images_slider_wrapper a{
+.photo-galleries-item .photo-gallery-item a{
     text-decoration: none;
+}
+
+.photo-galleries-item .photo-gallery-item {
+    border: 1px solid #66a6d1;
+    margin-top: 6px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.photo-galleries-item .photo-gallery-item .h3{
+    font-size: 15px;
+    font-family: Impact Regular;
+    text-align: center;
+    background-color: #044980;
+    color: #ffe000;
+    padding: 8px 0 8px 0;
+    margin-bottom: 0;
+}
+.photo-galleries-item .photo-gallery-item .leftbar_images_slider{
+    width: auto;
+    padding: 5px;
 }
 
 .shooter_slider{

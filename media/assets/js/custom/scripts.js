@@ -41,6 +41,42 @@ $(document).ready(function() {
         quizPercentage();
     }
 
+    $( window ).load(function() {
+        if($('#home').length > 0) {
+            quizDoResponsive();
+        }
+    });
+
+    // Сделать опрос респонсивном
+    function quizDoResponsive() {
+        var leftBarChildrens = 0;
+        var leftBar;
+        var content;
+        var quiz;
+        var dif;
+
+        $('.leftbar').children().not('#home').each(function(){
+            leftBarChildrens += $(this).outerHeight(true);
+        });
+
+        // console.log($('.content').outerHeight(true));
+        if($('.content').length > 0) {
+            content = $('.content').outerHeight(true);
+        }
+        if($('#content').length > 0) {
+            content = $('#content').outerHeight(true);
+        }
+
+        leftBar = $('#home').outerHeight(true) + leftBarChildrens;
+        dif = content - leftBar;
+
+        // Если dif + (то есть true) то надо растянуть опрос
+        if(dif > 0){
+            quiz = content - leftBarChildrens;
+            $('#home').outerHeight(quiz, true);
+        }
+    }
+
     // Нарисовка статистики Опроса по процентам
     function quizPercentage() {
         $("#quizzes div.percent").each(function() {
@@ -48,7 +84,6 @@ $(document).ready(function() {
             $(this).css({"background-size": s});
         });
     }
-
 
     // При вибора языка делает редирект по языку
     $('#language').on('change', function () {

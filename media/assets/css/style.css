@@ -190,12 +190,6 @@ body.am .best_player {
 }
 
 body.am .quizzes {
-    padding: 9px 15px 15px 15px;
-    background-color: #217cb8;
-    margin-top: 5px;
-    background-image: url(../images/ball.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom right;
     font-family: "Segoe UI";
 }
 
@@ -1304,6 +1298,15 @@ h1, h2, h3, h4, h5, h5, h6 {
 	float: left;
 	position: relative;
 }
+.academy-anons {
+	width: 100%;
+	float: left;
+	position: relative;
+    /*overflow: hidden;*/
+}
+.academy-anons img{
+    display: block;
+}
 
 .home-anons {
 	width: 839px;
@@ -2054,10 +2057,6 @@ body.am .best_player .best-player-goalkeeper {
 
 .news_slider_wrapper .all_news_link {
 	margin-top: -18px;
-}
-
-.photogalery_link:hover, .all_news_link:hover {
-	border-bottom: 1px solid transparent;
 }
 
 .content_top_banner {

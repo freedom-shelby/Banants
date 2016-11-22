@@ -75,6 +75,6 @@ use Helpers\Uri;
 
     <?//Theme::drawMenu('bottom')?>
 
-</div><
+</div>
 </body>
 </html>

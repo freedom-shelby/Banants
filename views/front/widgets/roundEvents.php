@@ -53,7 +53,7 @@ use Carbon\Carbon;
     $(document).ready(function () {
         $(document).find('#bxslider').bxSlider({
             mode: 'vertical',
-            startSlide: '<?= $tournament->getCurrentRound() - 1 ?>',
+            startSlide: '<?= $tournament->getLastRound() ?>',
             pagerSelector : '#pager'
         });
     });

@@ -1549,6 +1549,7 @@ return array(
     'Widgets\\Widget\\FullTournamentTable' => $baseDir . '/app/Widgets/Widget/FullTournamentTable.php',
     'Widgets\\Widget\\LastMatch' => $baseDir . '/app/Widgets/Widget/LastMatch.php',
     'Widgets\\Widget\\LastMatchesAnons' => $baseDir . '/app/Widgets/Widget/LastMatchesAnons.php',
+    'Widgets\\Widget\\LastRoundEvents' => $baseDir . '/app/Widgets/Widget/LastRoundEvents.php',
     'Widgets\\Widget\\MainNews' => $baseDir . '/app/Widgets/Widget/MainNews.php',
     'Widgets\\Widget\\Managers' => $baseDir . '/app/Widgets/Widget/Managers.php',
     'Widgets\\Widget\\News' => $baseDir . '/app/Widgets/Widget/News.php',

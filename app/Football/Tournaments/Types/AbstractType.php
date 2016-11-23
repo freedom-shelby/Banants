@@ -55,8 +55,8 @@ abstract class AbstractType {
     protected $_teamModels;
     protected $_events;
     protected $_defaultImage;
-    protected $_current_round;
-    protected $_max_rounds;
+    protected $_currentRound;
+    protected $_maxRounds;
 
 
     /**
@@ -104,7 +104,7 @@ abstract class AbstractType {
      */
     public function getMaxRounds()
     {
-        return $this->_max_rounds;
+        return $this->_maxRounds;
     }
 
     /**
@@ -113,7 +113,7 @@ abstract class AbstractType {
      */
     public function setCurrentRound($current_round)
     {
-        $this->_current_round = $current_round;
+        $this->_currentRound = $current_round;
 
         return $this;
     }
@@ -123,7 +123,15 @@ abstract class AbstractType {
      */
     public function getCurrentRound()
     {
-        return $this->_current_round;
+        return $this->_currentRound;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLastRound()
+    {
+        return ($this->_currentRound - 1) > 0 ? $this->_currentRound - 1 : $this->_currentRound;
     }
 
     /**
@@ -150,8 +158,8 @@ abstract class AbstractType {
         $this->_teamModels = $model->teams();
         $this->_events = $model->events();
         $this->_defaultImage = $model->defaultImage();
-        $this->_current_round = $model->current_round;
-        $this->_max_rounds = $model->max_rounds;
+        $this->_currentRound = $model->current_round;
+        $this->_maxRounds = $model->max_rounds;
 
         return $this;
     }
@@ -350,8 +358,8 @@ abstract class AbstractType {
     public function save()
     {
         $this->_model->update([
-            'current_round' => $this->_current_round,
-            'max_rounds' => $this->_max_rounds,
+            'current_round' => $this->_currentRound,
+            'max_rounds' => $this->_maxRounds,
         ]);
 
         return $this;

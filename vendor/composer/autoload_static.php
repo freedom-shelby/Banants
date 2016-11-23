@@ -1768,6 +1768,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'Widgets\\Widget\\FullTournamentTable' => __DIR__ . '/../..' . '/app/Widgets/Widget/FullTournamentTable.php',
         'Widgets\\Widget\\LastMatch' => __DIR__ . '/../..' . '/app/Widgets/Widget/LastMatch.php',
         'Widgets\\Widget\\LastMatchesAnons' => __DIR__ . '/../..' . '/app/Widgets/Widget/LastMatchesAnons.php',
+        'Widgets\\Widget\\LastRoundEvents' => __DIR__ . '/../..' . '/app/Widgets/Widget/LastRoundEvents.php',
         'Widgets\\Widget\\MainNews' => __DIR__ . '/../..' . '/app/Widgets/Widget/MainNews.php',
         'Widgets\\Widget\\Managers' => __DIR__ . '/../..' . '/app/Widgets/Widget/Managers.php',
         'Widgets\\Widget\\News' => __DIR__ . '/../..' . '/app/Widgets/Widget/News.php',

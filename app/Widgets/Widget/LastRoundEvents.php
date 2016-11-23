@@ -11,17 +11,16 @@
 namespace Widgets\Widget;
 restrictAccess();
 
-use Football\Tournaments\Tournament;
-use Helpers\Arr;
 use Widgets\AbstractWidget;
 use View;
-use TournamentModel;
+use EventModel;
 use Setting;
-use Router;
+use Football\Tournaments\Tournament;
+use TournamentModel;
 use Event;
 
 
-class RoundEvents extends AbstractWidget{
+class LastRoundEvents extends AbstractWidget{
 
     /**
      * Тип страницы
@@ -59,6 +58,12 @@ class RoundEvents extends AbstractWidget{
      */
     protected $_tournament;
 
+    /**
+     * Прошедщий Тур
+     * @var
+     */
+    protected $_round;
+
     public function getPosition()
     {
         return $this->_position;
@@ -72,24 +77,13 @@ class RoundEvents extends AbstractWidget{
     public function render()
     {
         return View::make($this->_template)
-            ->with('items', $this->_items)
-            ->with('tournament', $this->_tournament);
+            ->with('round', $this->_round)
+            ->with('items', $this->_items);
     }
 
     public function init($model)
     {
-        $slug = Router::getCurrentRoute()->getActionVariable('param');
-
-        // Проверяет Слуг для того чтобы страница турнамента не повторялся
-        if( ! $slug)
-        {
-            $page = Router::getCurrentRoute()->getActionVariable('page');
-            $slug = Arr::get(Setting::instance()->getGroupAsKeyVal('football'), $page);
-        }elseif(Setting::instance()->groupHasVal('football', $slug))
-        {
-            Event::fire('App.invalidRoute',$slug);
-        }
-
+        $slug = Setting::instance()->getSettingVal('football.banants_tournament_table');
         $tournamentModel = TournamentModel::whereSlug($slug)->first();
 
         if ( ! $tournamentModel){
@@ -98,22 +92,13 @@ class RoundEvents extends AbstractWidget{
 
         $this->_tournament = Tournament::factory($tournamentModel);
 
-        for ($i = 1; $i <= $this->_tournament->getMaxRounds(); $i++){
-            $this->_items[$i] = $this->_tournament->getEventsByRound($i);
-        }
-//        $events = Tournament::factory($tournamentModel)->getEvents()->get()->keyBy('round');
+        $this->_round = $this->_tournament->getLastRound();
+        $this->_items = $this->_tournament->getEventsByRound($this->_round);
 
-//echo "<pre>";
-//print_r($this->_items);
-//die;
-//        foreach ( as $item) {
-//            $this->_items[] = ;
-//        }
-
-        $this->_param = json_decode($model->param, true);
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;
+        $this->_param = $model->param;
         $this->_type = $model->type;
     }
 }

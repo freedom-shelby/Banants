@@ -2911,12 +2911,15 @@ div.news_list h3 {
 	margin: 0 0 4px 0;
 }
 
-.right_bar  .content_top_right_info_blog_wrapper span.small_size_span{
+.right_bar .content_top_right_info_blog_wrapper span.small_size_span{
 	margin-bottom: 0;
 }
 
-.right_bar  .content_top_right_info_blog_aside_media{
+.right_bar .content_top_right_info_blog_aside_media{
 	margin-top: 1px;
+}
+.right_bar .last-round-events .match-result {
+    padding: 2px 2px;
 }
 
 .content_top_right_info_blog_aside .icon_hover{
@@ -4394,7 +4397,7 @@ div.dialog{
     margin-top: 10px;
 }
 .widget.widget-with-tabs .widget-body .tournament-link a{
-    color: #ababab;
+    color: #fedf00;
 }
 .widget-tabs-body > div.active{
     display: block;
@@ -5491,3 +5494,67 @@ div.dialog{
 #myList li{
     display:none;
 }
+/** LastRoundEvents **/
+/*.last-round-events{*/
+    /*font-size: 12px;*/
+/*}*/
+/*.last-round-events .result-match img{*/
+    /*width: 55px;*/
+/*}*/
+/*.last-round-events .result-bottom img{*/
+    /*width: 33px;*/
+/*}*/
+/*.last-round-events .match-col.next-tour{*/
+    /*margin-top: 4px;*/
+/*}*/
+/*.last-round-events .match-col{*/
+    /*padding: 8px 0;*/
+/*}*/
+/*.last-round-events .result-match .name{*/
+    /*width: 63px;*/
+/*}*/
+/*.last-round-events .result-match .result{*/
+    /*width: 90px;*/
+/*}*/
+.last-round-events{
+    font-size: 12px;
+    background-color: #3487be;
+}
+.last-round-events ul{
+    list-style-type: none;
+}
+.last-round-events .match-result{
+    padding: 2px 29px;
+}
+.last-round-events .match-info{
+    background-color: #044980;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 4px 12px;
+}
+.last-round-events .match-column .match-row{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.last-round-events span{
+    color: #ffffff;
+}
+.last-round-events .match-result img{
+    width: 30px;
+}
+.last-round-events .match-row.name{
+    width: 61px;
+    text-align: left;
+    overflow: hidden;
+}
+.last-round-events .match-result .result{
+    width: 88px;
+}
+.last-round-events .match-result .result span{
+    color: #ffffff;
+}
+/** #LastRoundEvents **/

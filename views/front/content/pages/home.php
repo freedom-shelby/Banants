@@ -49,6 +49,7 @@
                         </div>
                         <div class="content_top_right">
 
+                            <? Theme::drawWidgetByType('LastRoundEvents') ?>
                             <? Theme::drawWidgetByType('LastMatchesAnons') ?>
 
                             <div class="content_top_right_banners">

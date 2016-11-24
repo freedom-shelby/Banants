@@ -120,6 +120,7 @@ class Category extends AbstractMenu{
         // Иконка для Home
         $output .= '<li class="home"><a href="' . Uri::makeUriFromId('/') . '"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
         foreach($this->_items as $item){
+            if( ! $item->status) continue;
             $output .= '<li class="club';
 
             // Проверяет текущий елемент активний или нет
@@ -151,6 +152,8 @@ class Category extends AbstractMenu{
         $i = 0;
         foreach($items as $item)
         {
+            if( ! $item->status) continue;
+
             // Через каждий 3-ий пункт прикрепляет тег <ul>
             if(($i % 3) == 0){
                 if($i != 0 ){
@@ -175,7 +178,7 @@ class Category extends AbstractMenu{
         $this->_position = $model->pos;
         $this->_title = $model->title;
 
-        $model = $model->items()->whereStatus(1)->get();
+        $model = $model->items()->get();
 
         // Устанавлиает Активни пункт и суб-меню
         foreach($model as $item)

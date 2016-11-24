@@ -25,7 +25,7 @@ use Helpers\Uri;
             </div><!-- logo_wrapper -->
             <div class="header_navigation">
 
-<!--                --><?//Theme::drawMenu('top')//todo:unused?>
+                <?Theme::drawMenu('top')//todo:unused?>
 
             </div><!-- header_navigation -->
         </div><!-- inner -->

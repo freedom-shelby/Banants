@@ -725,7 +725,7 @@ h1, h2, h3, h4, h5, h5, h6 {
     top: 15px;
 }
 .header_navigation {
-	padding-left: 150px;
+	padding-left: 29%;
 }
 
 .header_navigation ul li {
@@ -1083,8 +1083,8 @@ h1, h2, h3, h4, h5, h5, h6 {
     font-family: 'Segoe UI', Arial, 'sans-serif';
     line-height: 10px;
     width: 78px;
-    white-space: nowrap;
-    overflow: hidden;
+    /*white-space: nowrap;*/
+    /*overflow: hidden;*/
 }
 
 .am .header_right .banner_team1 .main_logo .team_name_,

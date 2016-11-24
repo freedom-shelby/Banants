@@ -15,7 +15,7 @@ class MenuItemModel extends Node
 
     protected $table = 'menu_items';
 
-    protected $fillable = ['parent_id', 'entity_id', 'menu_id', 'icon', 'lvl', 'lft', 'rgt', 'slug'];
+    protected $fillable = ['parent_id', 'entity_id', 'menu_id', 'icon', 'lvl', 'status', 'lft', 'rgt', 'slug'];
 
 
     // 'depth' column name

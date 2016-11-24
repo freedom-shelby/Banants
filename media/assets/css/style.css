@@ -108,22 +108,14 @@ html, body {
     height: 100%;
 }
 body{
-    /*background-image: url(../images/body-bg.jpg);*/
-    /*background-repeat: no-repeat;*/
     background-color: #000012;
-    /*-webkit-background-size: 100% 100%;*/
-    /*-moz-background-size: 100% 100%;*/
-    /*background-size: 100% 100%;*/
-
     min-width: 1200px;
 }
 @media (min-width: 1200px) {
     body{
         background-image: url(../images/body-bg.jpg);
         background-repeat: no-repeat;
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        background-size: 100% 100%;
+        background-size: 100% 112%;
     }
 }
 
@@ -198,11 +190,6 @@ body.am .widget-with-tabs table {
 }
 
 body.am .best_player {
-    background-image: url(../images/tournament_table_bg.jpg);
-    background-repeat: no-repeat;
-    position: relative;
-    float: left;
-    width: 100%;
     font-family: "Segoe UI";
 }
 
@@ -4330,6 +4317,9 @@ div.dialog{
 .widget.widget-with-tabs{
     min-height: 309px;
     position: relative;
+    background-image: url(../images/tournament_table_bg.jpg);
+    background-size: cover;
+    width: 100%;
 }
 .widget.widget-with-tabs .widget-header .widget-tabs > div{
     position: absolute;
@@ -5535,10 +5525,18 @@ div.dialog{
 /*}*/
 .last-round-events{
     font-size: 12px;
-    background-color: #3487be;
+    background-image: url(../images/tournament_table_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    width: 100%;
 }
 .last-round-events ul{
     list-style-type: none;
+    position: relative;
+    height: 100%;
+    background-image: url(../images/player_bg.png);
+    width: 100%;
 }
 .last-round-events .match-result{
     padding: 2px 29px;

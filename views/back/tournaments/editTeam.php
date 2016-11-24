@@ -26,7 +26,7 @@ use Helpers\Uri;
                                 </div>
                                 <div class="checkbox-inline form-group col-sm-13">
                                     <label>
-                                        <input type="checkbox" name="status" value="1" checked> Status
+                                        <input type="checkbox" name="status" value="1" <?=($item->status) ? ' checked' : ''?>> Status
                                     </label>
                                 </div>
                                 <div class="form-group col-sm-9">

@@ -58,31 +58,6 @@ class Menus extends Back
             // Транзакция для Записание данных в базу
             Capsule::connection()->transaction(function() use ($data, $parent, $id)
             {
-                // Загрузка картинки
-                $file = new UploadFile('image', new FileSystem('uploads/images'));
-
-                // Optionally you can rename the file on upload
-                $file->setName(uniqid());
-
-                // Validate file upload
-                $file->addValidations(array(
-                    // Ensure file is of type image
-                    new UploadMimeType(['image/png','image/jpg','image/gif']),
-
-                    // Ensure file is no larger than 5M (use "B", "K", M", or "G")
-                    new UploadSize('50M')
-                ));
-
-                // Try to upload file
-                try {
-                    // Success!
-                    $file->upload();
-                    $data['icon'] = $file->getNameWithExtension();
-                } catch (Exception $e) {
-                    // Fail!
-                    Message::instance()->warning($file->getErrors());
-                }
-
                 $newEntity = EntityModel::create([
                     'text' => $data['entity'],
                     'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
@@ -143,32 +118,8 @@ class Menus extends Back
             $parent = MenuItemModel::find($data['parentId']);
             // Транзакция для Записание данных в базу
             try {
-                Capsule::connection()->transaction(function () use ($data, $model, $parent, $entityModel) {
-                    // Загрузка картинки
-                    $file = new UploadFile('image', new FileSystem('uploads/images'));
-
-                    // Optionally you can rename the file on upload
-                    $file->setName(uniqid());
-
-                    // Validate file upload
-                    $file->addValidations(array(
-                        // Ensure file is of type image
-                        new UploadMimeType(['image/png','image/jpg','image/gif']),
-
-                        // Ensure file is no larger than 5M (use "B", "K", M", or "G")
-                        new UploadSize('50M')
-                    ));
-
-                    // Try to upload file
-                    try {
-                        // Success!
-                        $file->upload();
-                        $data['icon'] = $file->getNameWithExtension();
-                    } catch (Exception $e) {
-                        // Fail!
-                        Message::instance()->warning($file->getErrors());
-                    }
-
+                Capsule::connection()->transaction(function () use ($data, $model, $parent, $entityModel)
+                {
                     $entityModel->update([
                         'text' => $data['entity'],
                     ]);
@@ -193,8 +144,8 @@ class Menus extends Back
                     } else {
                         $model->makeRoot($parent);
                     }
-
                 });
+
                 Message::instance()->success('Menu Item was successfully edited');
             } catch (Exception $e) {
                 Message::instance()->warning('Menu Item was don\'t edited');

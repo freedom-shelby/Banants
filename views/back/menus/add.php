@@ -68,8 +68,8 @@ use Lang\Lang;
                                 </div>
                             <?endforeach?>
                             <div class="form-group col-sm-13">
-                                <label class="control-label">Select File</label>
-                                <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
+                                <label class="control-label">Icon Type</label>
+                                <input name="icon">
                             </div>
                             <div class="form-group col-sm-13">
                                 <div class="btn-group" role="group" aria-label="...">
@@ -83,22 +83,3 @@ use Lang\Lang;
         </form>
     </div>
 </div>
-<!--End Container-->
-<script>
-    $(document).on('ready', function() {
-        $("#image").fileinput({
-            previewFileType: "image",
-            browseClass: "btn btn-success",
-            browseLabel: "Pick Image",
-            browseIcon: "<i class=\"glyphicon glyphicon-picture\"></i> ",
-            removeClass: "btn btn-danger",
-            removeLabel: "Delete",
-            removeIcon: "<i class=\"glyphicon glyphicon-trash\"></i> ",
-            uploadClass: "btn btn-info",
-            uploadLabel: "Upload",
-            uploadIcon: "<i class=\"glyphicon glyphicon-upload\"></i> ",
-            allowedFileTypes: ["image"],
-            previewClass: "bg-warning",
-        });
-    });
-</script>

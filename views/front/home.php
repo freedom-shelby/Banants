@@ -27,7 +27,7 @@ use Helpers\Uri;
             </div>
             <div class="header_navigation">
 
-                <?//Theme::drawMenu('top')//todo:unused?>
+<!--                --><?//Theme::drawMenu('top')//todo:unused?>
 
             </div>
         </div>

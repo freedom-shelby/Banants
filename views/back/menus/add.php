@@ -42,7 +42,7 @@ use Lang\Lang;
                         </div>
                         <div class="checkbox-inline form-group col-sm-13">
                             <label>
-                                <input type="checkbox" name="status" value="1"> Status
+                                <input type="checkbox" name="status" value="1" checked> Status
                             </label>
                         </div>
                     </div>

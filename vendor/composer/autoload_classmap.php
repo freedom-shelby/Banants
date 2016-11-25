@@ -1541,6 +1541,7 @@ return array(
     'WidgetModel' => $baseDir . '/models/WidgetModel.php',
     'Widgets\\AbstractWidget' => $baseDir . '/app/Widgets/AbstractWidget.php',
     'Widgets\\Widget\\AcademyAnons' => $baseDir . '/app/Widgets/Widget/AcademyAnons.php',
+    'Widgets\\Widget\\AllNews' => $baseDir . '/app/Widgets/Widget/AllNews.php',
     'Widgets\\Widget\\Anons' => $baseDir . '/app/Widgets/Widget/Anons.php',
     'Widgets\\Widget\\BestPlayer' => $baseDir . '/app/Widgets/Widget/BestPlayer.php',
     'Widgets\\Widget\\BottomBanner' => $baseDir . '/app/Widgets/Widget/BottomBanner.php',

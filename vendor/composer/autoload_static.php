@@ -1760,6 +1760,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'WidgetModel' => __DIR__ . '/../..' . '/models/WidgetModel.php',
         'Widgets\\AbstractWidget' => __DIR__ . '/../..' . '/app/Widgets/AbstractWidget.php',
         'Widgets\\Widget\\AcademyAnons' => __DIR__ . '/../..' . '/app/Widgets/Widget/AcademyAnons.php',
+        'Widgets\\Widget\\AllNews' => __DIR__ . '/../..' . '/app/Widgets/Widget/AllNews.php',
         'Widgets\\Widget\\Anons' => __DIR__ . '/../..' . '/app/Widgets/Widget/Anons.php',
         'Widgets\\Widget\\BestPlayer' => __DIR__ . '/../..' . '/app/Widgets/Widget/BestPlayer.php',
         'Widgets\\Widget\\BottomBanner' => __DIR__ . '/../..' . '/app/Widgets/Widget/BottomBanner.php',

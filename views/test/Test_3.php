@@ -1,21 +1,67 @@
 <div class="inner_content_wrapper">
-	<div class="inner_content article">
-		<div style="min-height: 173px;">
-			<div>
-				<h1>Тито Рамальо - о матче против "Гандзасара"</h1>
-				<div class="photo_wrapper" style="width: 265px;">
-					<a class="fancybox" title="Бананц" href="/uploads/images/news_12/tito.jpg" rel="gallary_p">
-						<img class="image" style="max-width: 264px;" src="/uploads/images/news_12/tito.jpg" alt="banants" />
-					</a>
+	<div class="inner_content stadion">
+		<div class="stadion_page">
+			<div class="stadion_info clearfix">
+				<div class="stadion_info_wrapper">
+					<h1><strong><a href="#">Инфраструктура</a>&nbsp;Бананца</strong></h1>
+					<div class="stadion_photos_wrapper clearfix"><br />
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/014.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/014.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/015.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/015.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/017.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/017.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/018.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/018.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/020.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/020.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/021.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/021.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/022.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/022.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/1606353_915634365156257_2740259977770882815_o.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/1606353_915634365156257_2740259977770882815_o.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/11182790_915634361822924_7429852942942243148_o.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/11182790_915634361822924_7429852942942243148_o.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/IMG_9054.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/IMG_9054.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/IMG_9057.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/IMG_9057.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/001.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/001.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/004.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/004.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/005.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/005.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/006.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/006.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/007.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/007.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/008.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/008.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/009.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/009.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/012.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/012.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/013.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/013.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/015.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/015.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/016.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/016.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/019.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/019.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/020.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/020.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/0006.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/0006.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/007_1.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/007_1.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/0020.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/0020.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/021.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/021.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/021_1.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/021_1.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+						<div class="stadions_photos clearfix">
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/022.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/022.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/023.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/023.jpg" alt="Banants Stadium" /> </a></div>
+							<div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/024.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/024.jpg" alt="Banants Stadium" /> </a></div>
+						</div>
+					</div>
 				</div>
-				<p>Главный тренер ереванского "Бананца" Тито Рамальо на послематчевой пресс-конференции поделился своими впечатлениями от поединка 27-го тура чемпионата Армении с капанским "Гандзасаром" (0:0), коротко подвел итоги своего первого сезона в нашей стране и рассказал с каким настроением уходит в отпуск.</p>
-				<p>- Трудно ли было настроиться на эту встречу и каковы Ваши впечатления от игры?</p>
-				<p>- Действительно трудно, так как мы уже завоевали кубок и решили поставленную перед нами главную задачу и было очень трудно сохранить в команде соревновательный дух. Однако, ребята проявили себя очень профессионально и решили также маленькую задачу, поставленную перед ними после завоевания кубка: поднялись с последней строчки в турнирной таблице. В целом, думаю, мы заслужили и более высокого места.</p>
-				<p>Что касается матча, то у нас было четыре реальных голевых момента, был неназначенный пенальти, в одном эпизоде мяч угодил в штангу. Ребята заслуживали большего.</p>
-				<p>- Как коротко подведете итоги Вашего первого сезона, проведенного в Армении?</p>
-				<p>- В первую очередь, мы добились поставленных перед нами целей. Прежде всего, завоевали титул, а также произвели изменения в инфраструктуре клуба. Мы должны хорошо отдохнуть, немного перевести дыхание и понять, что будем делать в следующем сезоне.</p>
-				<p>- С каким настроением уходите в отпуск?</p>
-				<p>- Я около пяти месяцев не был дома. Очень хочу вернуться домой и отдохнуть. Домой возвращаюсь с чувством удовлетворения от завоевания кубка.</p>
 			</div>
 		</div>
 	</div>

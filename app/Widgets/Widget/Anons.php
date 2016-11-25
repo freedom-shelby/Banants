@@ -76,8 +76,7 @@ class Anons extends AbstractWidget{
             ->descendants()
             ->where('photo_id', '!=' , 1)
             ->reOrderBy('created_at', 'desc')
-            ->limit(4) // todo:: Settings -neric poxel
-//            ->limit($this->_param['settings']['club_articles_count'])
+            ->limit($this->_param['settings']['news_count'])
             ->get();
 //        foreach ($data as $item) {
 //            $this->_items[] = $item;

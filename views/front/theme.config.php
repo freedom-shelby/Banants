@@ -12,10 +12,11 @@ return array(
     'image_path' => '',
     'assets' => array(
         'css' => array(
+            array('file' => 'glyphicons.css'),
             array('file' => 'normalize.css'),
             array('file' => 'owl.carousel.css'),
             array('file' => 'jquery.fancybox.css'),
-            array('file' => 'style.css?ver=1.9539.4'),
+            array('file' => 'style.css?ver=1.0.5'),
 //            array('file' => 'jquery.bxslider.css'),
         ),
         'js' => array(

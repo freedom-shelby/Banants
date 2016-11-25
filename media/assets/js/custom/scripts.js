@@ -59,7 +59,6 @@ $(document).ready(function() {
             leftBarChildrens += $(this).outerHeight(true);
         });
 
-        // console.log($('.content').outerHeight(true));
         if($('.content').length > 0) {
             content = $('.content').outerHeight(true);
         }
@@ -157,6 +156,17 @@ $(document).ready(function() {
 
     if($('.news_slider').length > 0) {
         $(".news_slider").owlCarousel({
+            navigation : false,
+            pagination: true,
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            navigationText: false,
+            singleItem: true
+        });
+    }
+
+    if($('.infrastruct_slider').length > 0) {
+        $(".infrastruct_slider").owlCarousel({
             navigation : false,
             pagination: true,
             slideSpeed : 300,

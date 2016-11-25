@@ -10,7 +10,7 @@
             activeTabClass: 'active',
             beforeActiveTabClass: 'lighter',
             afterActiveTabClass: 'darken',
-            tabsWidthPercentage: 55,
+            tabsWidthPercentage: 63,
             shiftDistortion: 10, //сдвиг искажения углов (величина которую нужно добавить к позиции чтоб огранизовать 0евое положение)
             freeSpacePercentage: 10, //суммарный процент который нужно оставить свободным с 2х сторон табов
             autoHidePagination: true //скрывать навигацию если таб всего один

@@ -73,7 +73,7 @@ class AllNews extends AbstractWidget{
         $this->_param = json_decode($model->param, true);
 
         // Находит первий матерял после Анонса Новостей
-        $offset = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+        $offset = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
             ->descendants()
             ->where('photo_id', '!=' , 1)
             ->reOrderBy('created_at', 'desc')
@@ -85,7 +85,7 @@ class AllNews extends AbstractWidget{
         if($offset)
         {
             // Матерялов из slug-а (от 1-го до последного матеряла по добавлению)
-            $this->_items = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
+            $this->_items = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
                 ->where('created_at', '<=' , $offset->created_at->toDateTimeString()) // Находит новости старее чем последний матерял Анонса Новостей (NewsAnons)

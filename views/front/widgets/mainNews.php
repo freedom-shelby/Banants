@@ -47,5 +47,5 @@ use Ivliev\Imagefly\Imagefly;
         <? endforeach ?>
 
     </div>
-    <span class="all_news_link"><a href="<?= Uri::makeUriFromId('/club_news') ?>"><?=  __('View all news')  ?></a></span>
+    <span class="all_news_link"><a href="<?= Uri::makeUriFromId('/all_news') ?>"><?=  __('View all news')  ?></a></span>
 </div>

@@ -119,6 +119,10 @@ body{
     }
 }
 
+span.icon.glyphicons::before {
+    padding: 0 2px;
+}
+
 /*html{*/
     /*background: url(../images/body-bg.jpg) no-repeat top center fixed;*/
     /*-webkit-background-size: cover;*/
@@ -518,41 +522,6 @@ body.am .widget.widget-with-tabs .widget-header .widget-tabs > div.active span{
     font-size:20px;
 }
 /*UI Dialog_End*/
-
-.icon-cal1_hover:before {
-    content: "\e900";
-}
-.icon-cal2:before {
-    content: "\e901";
-}
-.icon-home:before {
-    content: "\e902";
-}
-.icon-last_matches_hover:before {
-    content: "\e903";
-}
-.icon-photo:before {
-    content: "\e904";
-}
-.icon-photo_hover:before {
-    content: "\e905";
-}
-.icon-prediction_hover:before {
-    content: "\e906";
-}
-.icon-statistic_hover:before {
-    content: "\e907";
-}
-.icon-vacancies_hover:before {
-    content: "\e908";
-}
-.icon-video_hover:before {
-    content: "\e909";
-}
-.icon-video_rightbar:before {
-    content: "\e90a";
-}
-
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
@@ -759,7 +728,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .header_navigation ul li a span.icon_text{
-    margin: 3px 0 0 5px;
+    margin: 3px 0 0 2px;
     float: left;
 }
 
@@ -2080,7 +2049,7 @@ body.am .best_player .best-player-goalkeeper {
 
 .home.quizzes{
 	margin-top: 11px;
-    height: 368px;
+    min-height: 167px;
 }
 
 .home_thanks{
@@ -2160,8 +2129,18 @@ body.am .best_player .best-player-goalkeeper {
     box-sizing: border-box;
     overflow: hidden;
 }
+#content h1 {
+    font-weight: bold;
+}
 #content.mce-content-body{
     overflow: scroll;
+}
+#content .container_top_slideshow{
+    height: 420px;
+}
+#content .container_top_slideshow img{
+    height: 420px;
+    width: 100%;
 }
 .content_top_left {
 	width: 545px;

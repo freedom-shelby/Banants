@@ -1,83 +1,77 @@
 <div class="inner_content_wrapper">
-    <div class="inner_content">
-        <div class="daily_news_page">
-            <div class="personal_info clearfix">
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Шахназарян Эдвард" href="../../../uploads/images/staff/Edward_Shahnazaryan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/Edward_Shahnazaryan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Шахназарян Эдвард Арамович</h3>
-                            <p>Кладовик-поставщик</p>
+    <div class="inner_content stadion">
+        <div class="stadion_page">
+            <div class="stadion_info clearfix">
+                <div class="stadion_info_wrapper">
+                    <h1><strong><a href="#">Инфраструктура</a>&nbsp;Бананца</strong></h1>
+                    <div class="stadion_photos_wrapper clearfix"><br />
+
+                        <div class="infrastruct_slider clearfix">
+                            <div class=infrastruct_slider_item">
+                                <div class="infrastruct_slider_list clearfix">
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/014.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/014.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/015.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/015.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/017.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/017.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/018.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/018.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/020.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/020.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/021.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/021.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/022.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/022.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/1606353_915634365156257_2740259977770882815_o.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/1606353_915634365156257_2740259977770882815_o.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/11182790_915634361822924_7429852942942243148_o.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/11182790_915634361822924_7429852942942243148_o.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/12244364_915634485156245_7407727081523401959_o.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/IMG_9054.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/IMG_9054.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/IMG_9057.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/IMG_9057.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/001.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/001.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/004.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/004.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/005.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/005.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/006.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/006.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/007.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/007.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/008.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/008.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=infrastruct_slider_item">
+                                <div class="infrastruct_slider_list clearfix">
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/009.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/009.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/012.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/012.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/013.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/013.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/015.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/015.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/016.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/016.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/019.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/019.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/020.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/020.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/0006.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/0006.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/007_1.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/007_1.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/0020.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/0020.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/021.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/021.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/021_1.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/021_1.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                    <div class="stadions_photos clearfix">
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/022.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/022.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/023.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/023.jpg" alt="Banants Stadium" /> </a></div>
+                                        <div class="stadion"><a class="fancybox" title="slideshow_images" href="../../../uploads/images/stadiums/new/024.jpg" rel="gallary_s"> <img class="image" src="../../../uploads/images/stadiums/new/024.jpg" alt="Banants Stadium" /> </a></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Варданян Гоар" href="../../../uploads/images/staff/Gohar_Vardanyan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/Gohar_Vardanyan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Варданян Гоар Вардановна</h3>
-                            <p>Помощница генерального директора</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="personal_info clearfix">
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Овакимян Ишхан Ваунович" href="../../../uploads/images/staff/Ishkhan_Hovakimyan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/Ishkhan_Hovakimyan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Овакимян Ишхан Ваунович</h3>
-                            <p>Специалист ИТ</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Тутян Манук Ашотович" href="../../../uploads/images/staff/Manuk_Tutyan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/Manuk_Tutyan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Тутян Манук Ашотович</h3>
-                            <p>Заведующих хозяйством</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="personal_info clearfix">
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Авагян Марине Гамарниковна" href="../../../uploads/images/staff/Marine_Avagyan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/Marine_Avagyan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Авагян Марине Гамарниковна</h3>
-                            <p>Инспектор по кадрам</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Енокян Оник Арайикович" href="../../../uploads/images/staff/Onik_Enokyan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/Onik_Enokyan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Енокян Оник Арайикович</h3>
-                            <p>Главный бухгальтер</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="personal_info clearfix">
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Авагян Марине Гамарниковна" href="../../../uploads/images/staff/RomanShakaryan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/RomanShakaryan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Роман Шакарян</h3>
-                            <p>Менеджер спорткомплекса</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="person">
-                    <div class="person_images_wrapper pictures_wrapper"><a class="fancybox" title="Ռոման Շաքարյյան" href="../../../uploads/images/staff/Simon_Israelyan.jpg" rel="gallary_p"> <img class="image" src="../../../uploads/images/staff/RomanShakaryan.jpg" alt="leftbar_images_slider_images" /> </a></div>
-                    <div class="person_contacts">
-                        <div class="person_contacts_info">
-                            <h3>Исрайелян Симон</h3>
-                            <p>Заведующих хозяйством</p>
-                        </div>
+
                     </div>
                 </div>
             </div>

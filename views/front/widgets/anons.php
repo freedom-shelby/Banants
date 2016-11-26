@@ -12,7 +12,7 @@ use Ivliev\Imagefly\Imagefly;
 
 ?>
 
-<div class="container_top_slideshow clearfix">
+<div class="container_top_slideshow anons-widget clearfix">
     <? foreach ($items as $item):?>
         <div class="item">
             <a href="<?=Uri::makeUriFromId($item->slug)?>" title="slideshow_images" rel="gallery">

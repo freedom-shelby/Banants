@@ -90,6 +90,9 @@
 @font-face{
     font-family: 'ArmTimes';
     src:
+        url('../fonts/am/ArTarumianMHarvats-Regular-8937.otf') format('opentype'),
+        url('../fonts/am/ArTarumianMHarvats-Regular-8937.eot') format('embedded-opentype'),
+        url('../fonts/am/ArTarumianMHarvats-Regular-8937.woff') format('woff'),
         url('../fonts/am/ArTarumianMHarvats-Regular-8937.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
@@ -2135,10 +2138,10 @@ body.am .best_player .best-player-goalkeeper {
 #content.mce-content-body{
     overflow: scroll;
 }
-#content .container_top_slideshow{
+#content .container_top_slideshow.anons-widget{
     height: 420px;
 }
-#content .container_top_slideshow img{
+#content .container_top_slideshow.anons-widget img{
     height: 420px;
     width: 100%;
 }
@@ -3180,7 +3183,7 @@ div.news_list h3 {
 }
 .inner_content.form_page select{
 	background-color: #e6eff3;
-	padding: 8px 13px;
+    padding: 3px 6px;
 	border-radius: 5px;
 	color: #044980;
 	border: none;
@@ -3401,6 +3404,7 @@ div.news_list h3 {
 	margin: 0 auto;
 	padding-top: 8px;
     max-width: 182px;
+	height: 275px;
 }
 
 
@@ -3860,7 +3864,6 @@ div.news_list h3 {
 	text-align: center; 
 	margin-bottom: 14px;
 	font-size: 18px;
-	font-family: "Impact Regular";
 }
 
 .sponsor_info_wrapper a{
@@ -4078,7 +4081,6 @@ div.news_list h3 {
 .history_page .history_bananc h1{
 	font-size: 18px;
 	color: #044980;
-	font-family: Impact Regular;
 	margin-bottom: 8px;
 }
 
@@ -4112,7 +4114,6 @@ div.news_list h3 {
 .inner_content.vacancy .vacancy_page .vacancy_bananc h1{
 	font-size: 18px;
 	color: #044980;
-	font-family: Impact Regular;
 	margin-bottom: 11px;
 	text-transform: uppercase;
 }
@@ -4519,13 +4520,16 @@ div.dialog{
 }
 
 /*select lenguage*/
-
-#language{
-    background: #11436c;
-    border: none;
-    margin-top: 25px;
-    padding: 0 0px 0 10px;
+#language a{
+    color: #f5da19;
+    text-decoration: none;
+}
+#language .lang-nav a.current{
     color: #217cb8;
+}
+#language .lang-nav a:hover{
+    color: #217cb8;
+    text-decoration: underline;
 }
 
 .language-select{
@@ -4631,7 +4635,6 @@ div.dialog{
 .inner_content.article h1{
     font-size: 18px;
     color: #044980;
-    font-family: Impact Regular;
     margin-bottom: 8px;
 }
 
@@ -5142,10 +5145,15 @@ div.dialog{
     background: #044980;
     color: #fff;
     font-family: Impact;
+    font-weight: 500;
     font-size: 15px;
     margin: 0;
     padding: 12px;
     text-transform: uppercase;
+}
+#content .info-col h1.col-title{
+    font-family: Impact;
+    font-weight: 500;
 }
 .info-col .wr-group{
     float: left;

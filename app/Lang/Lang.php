@@ -60,6 +60,7 @@ class Lang {
                     'id' => $i->id,
                     'name' => $i->name,
                     'iso' => $iso,
+                    'iso3' => $i->iso3,
                 );
 
                 if($primaryLangIso == $i->iso){

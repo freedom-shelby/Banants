@@ -225,8 +225,13 @@ abstract class AbstractType {
             ->orderBy('played_at')
             ->first();
 
-        $this->setCurrentRound($event->round)
-            ->save();
+        if($event){
+            $this->setCurrentRound($event->round);
+        }else{
+            $this->setCurrentRound(1);
+        }
+
+        $this->save();
 
         // Если это первая команда то сгенерировать Event для записи текущего собития в настройках
         if(Setting::instance()->getSettingVal('football.first_team') == $ownTeam->id)
@@ -297,7 +302,13 @@ abstract class AbstractType {
             ]);
 
             $model = EventModel::create([
-                'tournament_id' => $this->getId(), 'played_at' => $data['date'], 'round' => $round, 'home_id' => $home->id, 'away_id' => $away->id
+                'tournament_id' => $this->getId(),
+                'played_at' => $data['date'],
+                'round' => $round,
+                'home_id' => $home->id,
+                'away_id' => $away->id,
+                'home_team_id' => $data['home']['team'],
+                'away_team_id' => $data['away']['team'],
             ]);
         }
 //        $this->getEvents()->home()->whereHome_id($data['home']['team']);

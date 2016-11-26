@@ -24,7 +24,7 @@ class LangModel extends Node
 
 //    protected $guarded = ['id'];
 
-    protected $fillable = ['name', 'iso', 'status'];
+    protected $fillable = ['name', 'iso', 'status', 'iso3'];
 
 
     public function __get($name)

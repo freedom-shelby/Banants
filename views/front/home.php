@@ -29,6 +29,15 @@ use Helpers\Uri;
 
                 <?Theme::drawMenu('top')?>
 
+                <div id="language" class="language-select">
+                    <nav class="lang-nav">
+
+                        <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
+                            <a lang="<?=$lang['iso']?>" href="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>" class="<?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? 'current' : ''?>"><?=$lang['iso3']?></a>
+                        <?endforeach?>
+
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
@@ -43,18 +52,6 @@ use Helpers\Uri;
                     <?Theme::drawWidgets('top')?>
 
                 </div>
-
-                <div class="language-select">
-                    <select name="language" id="language">
-
-                        <?foreach(Lang\Lang::instance()->getLangs() as $lang):?>
-                            <option lang="<?=$lang['iso']?>" value="<?= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?>" <?=($lang['iso'] == Lang\Lang::instance()->getCurrentLang()['iso']) ? 'selected' : ''?>><?=$lang['name']?></option>
-                        <?endforeach?>
-
-                    </select>
-<!--                        <a lang="fr" hreflang="fr" href="--><?//= Lang\Lang::instance()->isPrimary($lang['iso']) ? Router::getCurrentRoute()->getWhiteUri() : '/'.$lang['iso'] . Router::getCurrentRoute()->getWhiteUri()?><!--">--><?//=$lang['iso']?><!--</a>-->
-                </div>
-
             </div>
         </div>
 

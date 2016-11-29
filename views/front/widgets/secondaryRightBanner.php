@@ -11,6 +11,6 @@ use Ivliev\Imagefly\Imagefly;
 
 <div class="content_top_right_banner">
     <a href="https://www.instagram.com/fcbanants/" target="_blank">
-        <img src="<?=Imagefly::imagePath('/media/assets/images/banner1.jpg', 'w341-q52')?>" alt="banner" />
+        <img src="<?=Imagefly::imagePath('/media/assets/images/banner1.jpg', 'w344-q60')?>" alt="banner" />
     </a>
 </div><!-- content_top_right_banner -->

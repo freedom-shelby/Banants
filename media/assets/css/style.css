@@ -1288,6 +1288,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 .academy-anons img{
     display: block;
+    width: 100%;
 }
 
 .home-anons {
@@ -1331,8 +1332,8 @@ h1, h2, h3, h4, h5, h5, h6 {
 
 .container_top_right {
 	float: left;
-	width: 340px;
-	margin-left: 7px;
+    width: 344px;
+    margin-left: 6px;
 }
 
 .right_bar .container_top_right {
@@ -2154,7 +2155,7 @@ body.am .best_player .best-player-goalkeeper {
     width: 100%;
 }
 .content_top_left {
-	width: 545px;
+	width: 544px;
 	float: left;
 }
 
@@ -2339,8 +2340,8 @@ div.news_list h3 {
 
 .content_top_right {
 	float: left;
-	width: 342px;
-	margin-left: 5px;
+	width: 344px;
+	margin-left: 6px;
 }
 
 .content_top_right.sizing{
@@ -2571,10 +2572,10 @@ div.news_list h3 {
 }
 
 .content_middle_right {
-	width: 445px;
-	float: left;
-	margin-top: 5px;
-	margin-left: 5px;
+    width: 448px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 6px;
 }
 
 .content_middle_right_slideshow {
@@ -5534,7 +5535,7 @@ div.dialog{
     width: 100%;
 }
 .last-round-events .match-result{
-    padding: 2px 29px;
+    padding: 2px 26px;
 }
 .last-round-events .match-info{
     background-color: #044980;

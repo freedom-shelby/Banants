@@ -37,7 +37,7 @@ use Helpers\Uri;
                     <tbody>
 				    <? foreach($items as $item): ?>
                         <tr>
-                            <td><a href="<?= Uri::makeUriFromId('Admin/Tournament/Edit/'.$item->id) ?>"><?= __($item->name()) ?></a></td>
+                            <td><a href="<?= Uri::makeUriFromId('Admin/Tournament/Edit/Table/'.$item->id) ?>"><?= __($item->name()) ?></a></td>
                             <td><?= $item->slug ?></td>
                             <td><img src="<?=$item->defaultImage()->path?>" class="img-circle" alt="Cinque Terre"></td>
                             <td><?= __($item->type()->text()) ?></td>

@@ -161,7 +161,7 @@ class Teams extends Back
 
             $model = TeamModel::find($id);
             $entityModel = $model->entity()->first();
-            $shortNameModel = $model->shortNameModel()->first();
+            $shortNameModel = $model->firstShortNameModel();
 
             if (empty($model)) {
                 throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Team']));
@@ -193,11 +193,11 @@ class Teams extends Back
                         Message::instance()->warning($file->getErrors());
                     }
 
-                    $entityModel->updateOrCreate(
+                    $entityModel = EntityModel::updateOrCreate(
                         ['id' => $entityModel->id,],
                         ['text' => $data['entity'],
                         ]);
-                    $shortNameModel->updateOrCreate(
+                    $shortNameModel = EntityModel::updateOrCreate(
                         ['id' => $shortNameModel->id,],
                         ['text' => $data['short_name'],
                         ]);
@@ -241,13 +241,13 @@ class Teams extends Back
 
         $model = TeamModel::find($id);
         $entityModel = $model->entity()->first();
-        $shortNameModel = $model->shortNameModel()->first();
+        $shortNameModel = $model->firstShortNameModel();
 
         // Загрузка контента для каждово языка
         $contents = [];
         foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang){
-            $contents[$iso] = $entityModel->translations()->whereLang_id($lang['id'])->first();
-            $contents[$iso]['shortName'] = $shortNameModel->translations()->whereLang_id($lang['id'])->first();
+            if($entityModel) $contents[$iso] = $entityModel->translations()->whereLang_id($lang['id'])->first();
+            if($shortNameModel) $contents[$iso]['shortName'] = $shortNameModel->translations()->whereLang_id($lang['id'])->first();
         }
 
         $article = new ArticleModel();

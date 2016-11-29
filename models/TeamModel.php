@@ -63,12 +63,19 @@ class TeamModel extends Eloquent
 
     public function shortName()
     {
-        return $this->shortNameModel()->first()->text;
+        $name = $this->firstShortNameModel();
+
+        return ($name) ? $name->text : null;
     }
 
     public function shortNameModel()
     {
         return $this->belongsTo('EntityModel', 'short_name_id');
+    }
+
+    public function firstShortNameModel()
+    {
+        return $this->shortNameModel()->first();
     }
 
     public function entity()

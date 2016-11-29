@@ -129,10 +129,10 @@ use Helpers\Uri;
 
                                     <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
                                         <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="short_name-<?=$iso?>">
-                                            <input type="hidden" name="content[<?=$iso?>][short_name_id]" value="<?= isset($contents[$iso]['shortName']->id) ? $contents[$iso]['shortName']->id : ''?>">
+                                            <input type="hidden" name="content[<?=$iso?>][short_name_id]" value="<?= isSet($contents[$iso]['shortName']->id) ? $contents[$iso]['shortName']->id : ''?>">
                                             <div class="form-group col-sm-13">
                                                 <label for="short_name">Translated Name</label>
-                                                <input type="short_name" name="content[<?=$iso?>][short_name]" value="<?= ( ! is_null($contents[$iso]['shortName']->text)) ? $contents[$iso]['shortName']->text : ''?>" class="form-control" id="short_name" placeholder="Team Short Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                                <input type="short_name" name="content[<?=$iso?>][short_name]" value="<?= (isSet($contents[$iso]['shortName']->text)) ? $contents[$iso]['shortName']->text : ''?>" class="form-control" id="short_name" placeholder="Team Short Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
                                             </div>
                                         </div>
                                     <?endforeach?>

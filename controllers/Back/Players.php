@@ -196,11 +196,11 @@ class Players extends Back
                         Message::instance()->warning($file->getErrors());
                     }
 
-                    $firstNameModel->updateOrCreate(
+                    $firstNameModel = EntityModel::updateOrCreate(
                         ['id' => $firstNameModel->id,],
                         ['text' => $data['first_name'],
                     ]);
-                    $lastNameModel->updateOrCreate(
+                    $lastNameModel = EntityModel::updateOrCreate(
                         ['id' => $lastNameModel->id,],
                         ['text' => $data['last_name'],
                     ]);

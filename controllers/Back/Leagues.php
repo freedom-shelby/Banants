@@ -154,7 +154,7 @@ class Leagues extends Back
                         Message::instance()->warning($file->getErrors());
                     }
 
-                    $entityModel->updateOrCreate(
+                    $entityModel = EntityModel::updateOrCreate(
                         ['id' => $entityModel->id,],
                         ['text' => $data['entity'],
                     ]);

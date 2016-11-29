@@ -11,7 +11,7 @@
         <img src="<?= $item->homeTeam()->defaultImage()->path ?>" alt="logo_main" />
 
         <? if( ! $item->homeTeam()->is_own): ?>
-            <span class="team_name_"><?= __($item->homeTeam()->text()) ?></span>
+            <span class="team_name_"><?= __($item->homeTeam()->shortName()) ?></span>
         <? endif ?>
 
     </div>
@@ -26,7 +26,7 @@
         <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="logo_team1" />
 
         <? if( ! $item->awayTeam()->is_own): ?>
-            <span class="team_name_"><?= __($item->awayTeam()->text()) ?></span>
+            <span class="team_name_"><?= __($item->awayTeam()->shortName()) ?></span>
         <? endif ?>
 
     </div>

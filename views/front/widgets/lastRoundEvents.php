@@ -24,7 +24,7 @@ use Ivliev\Imagefly\Imagefly;
                         <img src="<?= Imagefly::imagePath($item->home()->team()->defaultImage()->path, 'w30-q65') ?>" alt="">
                     </div>
                     <div class="match-row name">
-                        <span class=""><?= __($item->home()->team()->text()) ?></span>
+                        <span class=""><?= __($item->home()->team()->shortName()) ?></span>
                     </div>
                     <div class="result match-row">
                         <span><?= $item->home()->score ?> - <?= $item->away()->score ?></span>
@@ -33,7 +33,7 @@ use Ivliev\Imagefly\Imagefly;
                         <img src=<?= Imagefly::imagePath($item->away()->team()->defaultImage()->path, 'w30-q65') ?> alt="">
                     </div>
                     <div class="match-row name">
-                        <span class=""><?= __($item->away()->team()->text()) ?></span>
+                        <span class=""><?= __($item->away()->team()->shortName()) ?></span>
                     </div>
                 </div>
             </li>

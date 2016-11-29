@@ -15,7 +15,7 @@ class TeamModel extends Eloquent
 
     protected $table = 'teams';
 
-    protected $fillable = ['entity_id', 'photo_id', 'status', 'slug', 'is_own', 'formation_id', 'league_id'];
+    protected $fillable = ['entity_id', 'photo_id', 'short_name_id', 'status', 'slug', 'is_own', 'formation_id', 'league_id'];
 
 
     public function article()
@@ -59,6 +59,16 @@ class TeamModel extends Eloquent
     public function text()
     {
         return $this->belongsTo('EntityModel', 'entity_id')->first()->text;
+    }
+
+    public function shortName()
+    {
+        return $this->shortNameModel()->first()->text;
+    }
+
+    public function shortNameModel()
+    {
+        return $this->belongsTo('EntityModel', 'short_name_id');
     }
 
     public function entity()

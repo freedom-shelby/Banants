@@ -17,8 +17,8 @@ use Ivliev\Imagefly\Imagefly;
         <div class="item">
             <a href="<?= Uri::makeUriFromId($item->slug) ?>" title="slideshow_images" rel="gallery">
                 <img src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w584-h302-q90-c') ?>" alt="slideshow_images" />
-                <div class="container_top_slider_text">
-                    <div class="container_top_slider_text_inner">
+                <div class="container_top_slider_text adaptive-text">
+                    <div class="container_top_slider_text_inner adaptive-row">
                         <?= $item->title ?>
                     </div>
                 </div>

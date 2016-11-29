@@ -110,6 +110,36 @@ use Helpers\Uri;
                                 </div>
                             </div>
                         </div>
+                        <div class="bordered">
+                            <div>
+                                <div class="form-group col-sm-13">
+                                    <label for="entity">Team Short Name</label>
+                                    <input type="text" value="<?=$item->shortName()?>" name="short_name" class="form-control" id="short_name" placeholder="Primary Language" required>
+                                </div>
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist">
+
+                                    <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
+                                        <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#short_name-<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
+                                    <?endforeach?>
+
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+
+                                    <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
+                                        <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="short_name-<?=$iso?>">
+                                            <input type="hidden" name="content[<?=$iso?>][short_name_id]" value="<?= isset($contents[$iso]['shortName']->id) ? $contents[$iso]['shortName']->id : ''?>">
+                                            <div class="form-group col-sm-13">
+                                                <label for="short_name">Translated Name</label>
+                                                <input type="short_name" name="content[<?=$iso?>][short_name]" value="<?= ( ! is_null($contents[$iso]['shortName']->text)) ? $contents[$iso]['shortName']->text : ''?>" class="form-control" id="short_name" placeholder="Team Short Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                            </div>
+                                        </div>
+                                    <?endforeach?>
+
+                                </div>
+                            </div>
+                        </div>
                         <div class="form-group col-sm-13">
                             <label class="control-label">Select Logo</label>
                             <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">

@@ -50,7 +50,7 @@ class Teams extends Back
 //        die;
         if (Arr::get($this->getPostData(), 'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'entity', 'formation', 'league', 'article', 'status', 'is_own', 'content', 'image']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'entity', 'short_name', 'formation', 'league', 'article', 'status', 'is_own', 'content', 'image']);
 
             try {
                 // Транзакция для Записание данных в базу
@@ -99,6 +99,20 @@ class Teams extends Back
                         ]);
                     }
 
+                    $shortNameEntity = EntityModel::create([
+                        'text' => $data['short_name'],
+                        'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                    ]);
+
+                    foreach ($data['content'] as $iso => $item) {
+                        $lang_id = Lang::instance()->getLang($iso)['id'];
+                        EntityTranslationModel::create([
+                            'text' => $item['short_name'],
+                            'lang_id' => $lang_id,
+                            'entity_id' => $shortNameEntity->id,
+                        ]);
+                    }
+
                     Event::fire('Admin.entitiesUpdate');
 
                     // Если приклеплён к отделному матеряалу, прикрепляет митерял к виджету
@@ -116,6 +130,7 @@ class Teams extends Back
                         'status' => $data['status'],
                         'photo_id' => $imageId,
                         'entity_id' => $entity->id,
+                        'short_name_id' => $shortNameEntity->id,
                         'is_own' => $data['is_own'],
                         'article_id' => $data['article'],
                     ]);
@@ -146,16 +161,17 @@ class Teams extends Back
 
             $model = TeamModel::find($id);
             $entityModel = $model->entity()->first();
+            $shortNameModel = $model->shortNameModel()->first();
 
             if (empty($model)) {
                 throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Team']));
             }
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'entity', 'formation', 'league', 'article', 'status', 'is_own', 'content', 'image']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'entity', 'short_name', 'formation', 'league', 'article', 'status', 'is_own', 'content', 'image']);
 
             // Транзакция для Записание данных в базу
             try {
-                Capsule::connection()->transaction(function () use ($data, $model, $entityModel) {
+                Capsule::connection()->transaction(function () use ($data, $model, $entityModel, $shortNameModel) {
                     // Загрузка картинки
                     $file = new UploadFile('image', new FileSystem(static::IMAGE_PATH));
 
@@ -181,11 +197,16 @@ class Teams extends Back
                         ['id' => $entityModel->id,],
                         ['text' => $data['entity'],
                         ]);
+                    $shortNameModel->updateOrCreate(
+                        ['id' => $shortNameModel->id,],
+                        ['text' => $data['short_name'],
+                        ]);
 
                     foreach ($data['content'] as $iso => $d) {
                         $langId = Lang::instance()->getLang($iso)['id'];
 
                         EntityTranslationModel::updateOrCreate(['id' => $d['id']], ['text' => $d['text'], 'lang_id' => $langId, 'entity_id' => $entityModel->id]);
+                        EntityTranslationModel::updateOrCreate(['id' => $d['short_name_id']], ['text' => $d['short_name'], 'lang_id' => $langId, 'entity_id' => $shortNameModel->id]);
                     }
 
                     Event::fire('Admin.entitiesUpdate');
@@ -205,6 +226,7 @@ class Teams extends Back
                         'slug' => $data['slug'],
                         'status' => $data['status'],
                         'entity_id' => $entityModel->id,
+                        'short_name_id' => $shortNameModel->id,
                         'formation_id' => $data['formation'],
                         'league_id' => $data['league'],
                         'is_own' => $data['is_own'],
@@ -219,11 +241,13 @@ class Teams extends Back
 
         $model = TeamModel::find($id);
         $entityModel = $model->entity()->first();
+        $shortNameModel = $model->shortNameModel()->first();
 
         // Загрузка контента для каждово языка
         $contents = [];
         foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang){
             $contents[$iso] = $entityModel->translations()->whereLang_id($lang['id'])->first();
+            $contents[$iso]['shortName'] = $shortNameModel->translations()->whereLang_id($lang['id'])->first();
         }
 
         $article = new ArticleModel();

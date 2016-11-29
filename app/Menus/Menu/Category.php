@@ -118,7 +118,8 @@ class Category extends AbstractMenu{
         $output = '<ul class="navigation_main clearfix" id="navigation_main">';
 
         // Иконка для Home
-        $output .= '<li class="home"><a href="' . Uri::makeUriFromId('/') . '"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
+//        $output .= '<li class="home"><a href="' . Uri::makeUriFromId('/') . '"><img src="/media/assets/images/homeIcon.jpg" alt="homeIcon" /></a></li>';
+        $output .= '<li class="home"><a href="' . Uri::makeUriFromId('/') . '"><span class="icon glyphicons glyphicons-home"></span></a></li>';
         foreach($this->_items as $item){
             if( ! $item->status) continue;
             $output .= '<li class="club';

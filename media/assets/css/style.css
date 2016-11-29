@@ -166,20 +166,10 @@ body.am .navigation > ul > li {
 }
 
 body.am .container_top_slider_text {
-    position: absolute;
-    top:75px;
-    left:0;
-    font-size: 29px;
-    line-height: 39px;
-    color:#fff;
-    background: rgba(1, 38, 68, 0.51);
-    padding: 15px 30px 15px 15px;
     font-family: "ArmTimes";
-    letter-spacing: 0;
     /*font-family: "ArmTimes"; todo:: Poxel Bold Fonti, chakertner@ chen ashxatum ArmTimes-i depqum*/
     /*font-weight: bold;*/
     /*letter-spacing: -1px;*/
-    cursor: pointer;
 }
 
 body.am .container_top_aside {
@@ -1240,7 +1230,23 @@ h1, h2, h3, h4, h5, h5, h6 {
 .navigation_active_item a {
 	position: relative;
 }
+.navigation .home span {
+    font-size: 35px;
+}
 
+.navigation .home {
+    width: 39px;
+    background-color: #ffe000;
+    padding: 6px 8px 7px 9px;
+}
+
+.navigation .home .icon{
+    color: #044980;
+}
+
+.navigation .home .icon:hover{
+    color: #217cb8;
+}
 .changable{
 	width: 24px;
     height: 21px;
@@ -1311,8 +1317,10 @@ h1, h2, h3, h4, h5, h5, h6 {
 	background: rgba(1, 38, 68, 0.51);
 	padding: 15px 30px 15px 15px;
 	font-family: Impact Regular;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     cursor: pointer;
+    max-height: 180px;
+    overflow: hidden;
 }
 
 .container_top_aside {

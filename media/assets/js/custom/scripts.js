@@ -84,11 +84,6 @@ $(document).ready(function() {
         });
     }
 
-    // При вибора языка делает редирект по языку
-    $('#language').on('change', function () {
-        window.location.replace(this.value);
-    });
-
 /* dialog */
     $(function() {
         $('.dialog').each(function(i, item){

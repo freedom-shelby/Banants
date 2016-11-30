@@ -64,6 +64,12 @@ class CupLastRoundEvents extends AbstractWidget{
      */
     protected $_round;
 
+    /**
+     * Имя Тур
+     * @var
+     */
+    protected $_roundName;
+
     public function getPosition()
     {
         return $this->_position;
@@ -77,13 +83,13 @@ class CupLastRoundEvents extends AbstractWidget{
     public function render()
     {
         return View::make($this->_template)
-            ->with('round', $this->_round)
+            ->with('roundName', $this->_roundName)
             ->with('items', $this->_items);
     }
 
     public function init($model)
     {
-        $slug = Setting::instance()->getSettingVal('football.banants_tournament_table');
+        $slug = Setting::instance()->getSettingVal('football.armenian_cup');
         $tournamentModel = TournamentModel::whereSlug($slug)->first();
 
         if ( ! $tournamentModel){
@@ -93,6 +99,7 @@ class CupLastRoundEvents extends AbstractWidget{
         $this->_tournament = Tournament::factory($tournamentModel);
 
         $this->_round = $this->_tournament->getLastRound();
+        $this->_roundName = $this->_tournament->getRoundStage();
         $this->_items = $this->_tournament->getEventsByRound($this->_round);
 
         $this->_position = $model->position;

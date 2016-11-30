@@ -135,6 +135,14 @@ abstract class AbstractType {
     }
 
     /**
+     * Генерирует Таблицу с нуля (по статистике всех сыгранных играх)
+     */
+    public function generateTable()
+    {
+        $this->generateCurrentEvent();
+    }
+
+    /**
      * @return mixed
      */
     public function getDefaultImage()

@@ -35,7 +35,7 @@ class DoubleRoundRobin extends AbstractType {
     /**
      * Фабричный метод
      * @param $model Eloquent
-     * @return DoubleRoundRobin $item
+     * @return self $item
      */
     public static function factory($model)
     {

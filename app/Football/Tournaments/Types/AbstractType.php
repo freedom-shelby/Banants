@@ -191,6 +191,11 @@ abstract class AbstractType {
         return $this->_teams;
     }
 
+    public function getLazyModelForTeams()
+    {
+        return $this->_teamModels->with('entity')->get()->keyBy('id');
+    }
+
     /**
      * @return mixed
      */

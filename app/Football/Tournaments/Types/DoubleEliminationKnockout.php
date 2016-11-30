@@ -11,38 +11,37 @@
 namespace Football\Tournaments\Types;
 restrictAccess();
 
+use Illuminate\Database\Eloquent\Model as Eloquent;
+use Helpers\Arr;
+use View;
+use EventModel;
+
 
 class DoubleEliminationKnockout extends AbstractType {
 
-    /**
-     * Тип страницы
-     */
-    protected $_type;
-
-    /**
-     * Позиция
-     */
-    protected $_position;
-
-    /**
-     * Индекс сортировки
-     */
-    protected $_sort;
-
-    /**
-     * Шаблон
-     */
-    protected $_template;
-
-    /**
-     * Параметри в виде JSON-а
-     */
-    protected $_param;
-
-    public function getPosition(){}
-    public function getSorting(){}
     public function render(){}
-    public function init($model){}
 
+    /**
+     * Конструктор
+     * @param $model
+     */
+    public function __construct($model){
+        $this->init($model);
+    }
 
+    /**
+     * Фабричный метод
+     * @param $model Eloquent
+     * @return self $item
+     */
+    public static function factory($model)
+    {
+        $item = new self($model);
+        return $item;
+    }
+
+    public function getTeams()
+    {
+        return $this->_teams->orderBy('pos')->get()->keyBy('id');
+    }
 } 

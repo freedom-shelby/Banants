@@ -13,7 +13,7 @@
 use Ivliev\Imagefly\Imagefly;
 
 ?>
-<div class="last-round-events">
+<div class="last-round-events cup-last-round-events">
     <h2 class="match-info"><?= __('Armenian Cup') ?> <?= $roundName ?> <?= __('Final') ?></h2>
     <ul>
 

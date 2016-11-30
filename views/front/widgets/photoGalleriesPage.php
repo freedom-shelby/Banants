@@ -21,7 +21,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
         <div class="inner_content">
             <div class="clearfix">
                 <h1>
-                    <strong><?= __('PHOTO GALLERY')?></strong>
+                    <strong><?= __('Photo Gallery')?></strong>
                 </h1>
 
                 <? foreach ($items->getCollection()->all() as $item): ?>

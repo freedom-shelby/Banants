@@ -1547,6 +1547,8 @@ return array(
     'Widgets\\Widget\\BottomBanner' => $baseDir . '/app/Widgets/Widget/BottomBanner.php',
     'Widgets\\Widget\\ContentBanner' => $baseDir . '/app/Widgets/Widget/ContentBanner.php',
     'Widgets\\Widget\\ContentPanoramaBanner' => $baseDir . '/app/Widgets/Widget/ContentPanoramaBanner.php',
+    'Widgets\\Widget\\CupLastRoundEvents' => $baseDir . '/app/Widgets/Widget/CupLastRoundEvents.php',
+    'Widgets\\Widget\\FullCupTable' => $baseDir . '/app/Widgets/Widget/FullCupTable.php',
     'Widgets\\Widget\\FullTournamentTable' => $baseDir . '/app/Widgets/Widget/FullTournamentTable.php',
     'Widgets\\Widget\\LastMatch' => $baseDir . '/app/Widgets/Widget/LastMatch.php',
     'Widgets\\Widget\\LastMatchesAnons' => $baseDir . '/app/Widgets/Widget/LastMatchesAnons.php',

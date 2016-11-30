@@ -44,4 +44,9 @@ class DoubleEliminationKnockout extends AbstractType {
     {
         return $this->_teams->orderBy('pos')->get()->keyBy('id');
     }
+
+    public function getRoundName()
+    {
+
+    }
 } 

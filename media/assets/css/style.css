@@ -2916,6 +2916,9 @@ div.news_list h3 {
 .right_bar .last-round-events .match-result {
     padding: 2px 2px;
 }
+.right_bar .cup-last-round-events {
+    font-size: 13px;
+}
 
 .content_top_right_info_blog_aside .icon_hover{
     font-size: 16px;

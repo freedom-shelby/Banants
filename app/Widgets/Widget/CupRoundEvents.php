@@ -20,7 +20,7 @@ use TournamentModel;
 use Event;
 
 
-class CupLastRoundEvents extends AbstractWidget{
+class CupRoundEvents extends AbstractWidget{
 
     /**
      * Тип страницы

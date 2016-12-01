@@ -39,23 +39,44 @@ class TournamentEventHandler
     /**
      * Метод обрабатывающий событие перед обновлением текущего и предедущего события
      * для записи текущего собития в настройках
-     * @param $currentEvent \EventModel
      */
-    public static function onCurrentEventUpdate($currentEvent){
+    public static function onCurrentEventUpdate(){
+        // Находит ближайшое события Бананца
+        $ownTeam = Setting::instance()->getSettingVal('football.first_team');
+        $currentEvent = EventModel::where(['status' => AbstractType::EVENT_PENDING, 'home_team_id' => $ownTeam])
+            ->orWhere(['status' => AbstractType::EVENT_PENDING, 'away_team_id' => $ownTeam])
+            ->orderBy('played_at')
+            ->first();
+
         $oldCurrentEvent = EventModel::find(Setting::instance()->getSettingVal('football.current_event'));
 
-        // [lt() less than] или Закончился
-        if($oldCurrentEvent->isCompleted() or $currentEvent->played_at->lt($oldCurrentEvent->played_at))
+        // Если эсть ближайшое события
+        if($currentEvent)
         {
+            if($oldCurrentEvent)
+            {
+                // [lt() less than] или Закончился
+                if($oldCurrentEvent->isCompleted() or $currentEvent->played_at->lt($oldCurrentEvent->played_at))
+                {
+                    SettingsModel::whereGroup('football')->whereName('current_event')->first()
+                        ->update([
+                            'value' => $currentEvent->id,
+                        ]);
+                }
+            }else{
+                SettingsModel::whereGroup('football')->whereName('current_event')->first()
+                    ->update([
+                        'value' => $currentEvent->id,
+                    ]);
+            }
+        }else{
             SettingsModel::whereGroup('football')->whereName('current_event')->first()
                 ->update([
-                    'value' => $currentEvent->id,
+                    'value' => null,
                 ]);
         }
 
         $oldLastEvent = EventModel::find(Setting::instance()->getSettingVal('football.last_event'));
-        $ownTeam = Setting::instance()->getSettingVal('football.first_team');
-
         $lastEvent = EventModel::where(['status' => AbstractType::EVENT_STATUS_COMPLETED, 'home_team_id' => $ownTeam])
             ->orWhere(['status' => AbstractType::EVENT_STATUS_COMPLETED, 'away_team_id' => $ownTeam])
             ->orderBy('played_at', 'DESC')

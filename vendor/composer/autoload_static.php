@@ -1766,7 +1766,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'Widgets\\Widget\\BottomBanner' => __DIR__ . '/../..' . '/app/Widgets/Widget/BottomBanner.php',
         'Widgets\\Widget\\ContentBanner' => __DIR__ . '/../..' . '/app/Widgets/Widget/ContentBanner.php',
         'Widgets\\Widget\\ContentPanoramaBanner' => __DIR__ . '/../..' . '/app/Widgets/Widget/ContentPanoramaBanner.php',
-        'Widgets\\Widget\\CupLastRoundEvents' => __DIR__ . '/../..' . '/app/Widgets/Widget/CupLastRoundEvents.php',
+        'Widgets\\Widget\\CupRoundEvents' => __DIR__ . '/../..' . '/app/Widgets/Widget/CupRoundEvents.php',
         'Widgets\\Widget\\FullCupTable' => __DIR__ . '/../..' . '/app/Widgets/Widget/FullCupTable.php',
         'Widgets\\Widget\\FullTournamentTable' => __DIR__ . '/../..' . '/app/Widgets/Widget/FullTournamentTable.php',
         'Widgets\\Widget\\LastMatch' => __DIR__ . '/../..' . '/app/Widgets/Widget/LastMatch.php',

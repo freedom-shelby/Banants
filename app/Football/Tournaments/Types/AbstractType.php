@@ -233,15 +233,15 @@ abstract class AbstractType {
             ->where('is_own', '=', 1)
             ->first();
 
-        $event = EventModel::where(['status' => static::EVENT_PENDING, 'home_team_id' => $ownTeam->id])
-            ->orWhere(['status' => static::EVENT_PENDING, 'away_team_id' => $ownTeam->id])
+        $event = EventModel::where(['status' => static::EVENT_PENDING, 'home_team_id' => $ownTeam->id, 'tournament_id' => $this->getId()])
+            ->orWhere(['status' => static::EVENT_PENDING, 'away_team_id' => $ownTeam->id, 'tournament_id' => $this->getId()])
             ->orderBy('played_at')
             ->first();
 
         if($event){
             $this->setCurrentRound($event->round);
         }else{
-            $this->setCurrentRound(1);
+            $this->setCurrentRound($this->getMaxRounds());
         }
 
         $this->save();
@@ -249,7 +249,7 @@ abstract class AbstractType {
         // Если это первая команда то сгенерировать Event для записи текущего собития в настройках
         if(Setting::instance()->getSettingVal('football.first_team') == $ownTeam->id)
         {
-            Event::fire('Football.currentEventUpdate', $event);
+            Event::fire('Football.currentEventUpdate');
         }
     }
 

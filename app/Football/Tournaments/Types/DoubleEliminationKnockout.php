@@ -43,27 +43,27 @@ class DoubleEliminationKnockout extends AbstractType {
         return $this->_teams->orderBy('pos')->get()->keyBy('id');
     }
 
+    /**
+     * Возврошает стадию финала
+     * @return string
+     */
     public function getRoundStage()
     {
-//        echo "<pre>";
-//        var_dump($this->getMaxRounds());
-//        var_dump($this->getLastRound());
-//        echo "</pre>";
-//        die;
-
         $stage = 1;
 
-        $ratio = ($this->getMaxRounds() - $this->getLastRound()) / 2;
+        $ratio = $this->getMaxRounds() - $this->getLastRound();
 
-        while($ratio > 1)
+        // Рачёт начинаетца с конца (с финала)
+        while($ratio > 0)
         {
-            $ratio -= 2;
-            $stage *= 2*2; //todo:: correct
+            $ratio -= 2; // Уменшается 2 (игры дом-в гостях)
+            $stage *= 2;
         }
 
         $name = '1/' . $stage;
 
-        if($this->getMaxRounds() == $this->getCurrentRound()) $name = '';
+        // Если это финал
+        if( ! $ratio) $name = '';
 
         return $name;
     }

@@ -4,28 +4,33 @@
  * User: Arsen
  * Date: 11/6/2015
  * Time: 3:20 PM
+ *
+ * @var $item EventModel
  */
 ?>
-<div class="banner_team2">
-    <div class="team1_logo">
-        <img src="<?= $item->homeTeam()->defaultImage()->path ?>" alt="logo_main" />
 
-        <? if( ! $item->homeTeam()->is_own): ?>
-            <span class="team_name_"><?= __($item->homeTeam()->shortName()) ?></span>
-        <? endif ?>
+<? if ($item): ?>
+    <div class="banner_team2">
+        <div class="team1_logo">
+            <img src="<?= $item->homeTeam()->defaultImage()->path ?>" alt="logo_main" />
 
-    </div>
-    <div class="match-score-info">
+            <? if( ! $item->homeTeam()->is_own): ?>
+                <span class="team_name_"><?= __($item->homeTeam()->shortName()) ?></span>
+            <? endif ?>
+
+        </div>
+        <div class="match-score-info">
         <span><?= __(':dayth of :month', [':month' => __($item->played_at->format('F')), ':day' => $item->played_at->format('j'),]) ?>
         </span>
-        <span class="match-time"><?= $item->played_at->format('H:i') ?></span>
-    </div>
-    <div class="team2_logo">
-        <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="team2_logo" />
+            <span class="match-time"><?= $item->played_at->format('H:i') ?></span>
+        </div>
+        <div class="team2_logo">
+            <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="team2_logo" />
 
-        <? if( ! $item->awayTeam()->is_own): ?>
-            <span class="team_name_"><?= __($item->awayTeam()->shortName()) ?></span>
-        <? endif ?>
+            <? if( ! $item->awayTeam()->is_own): ?>
+                <span class="team_name_"><?= __($item->awayTeam()->shortName()) ?></span>
+            <? endif ?>
 
+        </div>
     </div>
-</div>
+<? endif ?>

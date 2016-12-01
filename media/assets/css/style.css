@@ -5169,7 +5169,7 @@ div.dialog{
 }
 .info-col .group{
     background: url(../images/ax-top.png) no-repeat right 55px;
-    padding: 10px 15px 10px 0;
+    padding: 12px 11px 11px 0;
 }
 .info-col .group:nth-child(even){
     background: url(../images/ax-bottom.png) no-repeat right -101px;

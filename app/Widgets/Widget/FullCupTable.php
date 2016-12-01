@@ -90,7 +90,7 @@ class FullCupTable extends AbstractWidget{
             Event::fire('App.invalidRoute',$slug);
         }
 
-        $this->_item = Tournament::factory($tournamentModel);
+        $this->_item = Tournament::factory($tournamentModel)->generateDuels();
 
         $this->_param = json_decode($model->param, true);
         $this->_position = $model->position;

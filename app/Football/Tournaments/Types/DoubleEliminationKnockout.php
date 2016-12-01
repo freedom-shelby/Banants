@@ -19,6 +19,8 @@ use EventModel;
 
 class DoubleEliminationKnockout extends AbstractType {
 
+    protected $_duels;
+
     /**
      * Конструктор
      * @param $model
@@ -36,6 +38,14 @@ class DoubleEliminationKnockout extends AbstractType {
     {
         $item = new self($model);
         return $item;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDuels()
+    {
+        return $this->_duels;
     }
 
     public function getTeams()
@@ -308,5 +318,14 @@ class DoubleEliminationKnockout extends AbstractType {
         $this->sortPositions();
 
         $this->generateCurrentEvent();
+    }
+
+    public function generateDuels()
+    {
+        $duels = [];
+
+        foreach ($this->getEvents() as $event) {
+
+        }
     }
 } 

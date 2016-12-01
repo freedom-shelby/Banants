@@ -7,14 +7,14 @@
  *
  * @var $items array[round][EventModel]
  * @var $item EventModel
- * @var $roundName string
+ * @var $roundStage string
  */
 
 use Ivliev\Imagefly\Imagefly;
 
 ?>
 <div class="last-round-events cup-last-round-events">
-    <h2 class="match-info"><?= __('Armenian Cup') ?> <?= $roundName ?> <?= __('Final') ?></h2>
+    <h2 class="match-info"><?= __('Armenian Cup') ?> <?= $roundStage ?> <?= __('Final') ?></h2>
     <ul>
 
         <? foreach ($items as $item): ?>

@@ -51,19 +51,22 @@ class DoubleEliminationKnockout extends AbstractType {
     {
         $stage = 1;
 
-        $ratio = $this->getMaxRounds() - $this->getLastRound();
+        $ratio = $this->getMaxRounds() - $this->getCurrentRound();
 
-        // Рачёт начинаетца с конца (с финала)
-        while($ratio > 0)
+        $name = '';
+
+        // Если это не финал
+        if($ratio > 0)
         {
-            $ratio -= 2; // Уменшается 2 (игры дом-в гостях)
-            $stage *= 2;
+            // Рачёт начинаетца с конца (с финала)
+            while($ratio > 0)
+            {
+                $ratio -= 2; // Уменшается 2 (игры дом-в гостях)
+                $stage *= 2;
+            }
+
+            $name = '1/' . $stage;
         }
-
-        $name = '1/' . $stage;
-
-        // Если это финал
-        if( ! $ratio) $name = '';
 
         return $name;
     }

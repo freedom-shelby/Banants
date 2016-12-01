@@ -68,7 +68,7 @@ class CupRoundEvents extends AbstractWidget{
      * Имя Тур
      * @var
      */
-    protected $_roundName;
+    protected $_roundStage;
 
     public function getPosition()
     {
@@ -83,7 +83,7 @@ class CupRoundEvents extends AbstractWidget{
     public function render()
     {
         return View::make($this->_template)
-            ->with('roundName', $this->_roundName)
+            ->with('roundStage', $this->_roundStage)
             ->with('items', $this->_items);
     }
 
@@ -98,8 +98,8 @@ class CupRoundEvents extends AbstractWidget{
 
         $this->_tournament = Tournament::factory($tournamentModel);
 
-        $this->_round = $this->_tournament->getLastRound();
-        $this->_roundName = $this->_tournament->getRoundStage();
+        $this->_round = $this->_tournament->getCurrentRound();
+        $this->_roundStage = $this->_tournament->getRoundStage();
         $this->_items = $this->_tournament->getEventsByRound($this->_round);
 
         $this->_position = $model->position;

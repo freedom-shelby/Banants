@@ -327,5 +327,7 @@ class DoubleEliminationKnockout extends AbstractType {
         foreach ($this->getEvents() as $event) {
 
         }
+
+        return $this;
     }
 } 

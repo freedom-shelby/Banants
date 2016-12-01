@@ -3459,7 +3459,13 @@ div.news_list h3 {
 	background-color: #f6f6f6;
     padding: 5px 11px 8px 4px;
     border-top: 1px solid #b4b4b4;
+}
 
+.management_page .inner_content .manager_info .manager-portrait{
+    width: 210px;
+}
+.management_page .inner_content .manager_info .manager-portrait img{
+    max-width: 100%;
 }
 
 .management_page .inner_content .manager_info img{
@@ -4392,8 +4398,11 @@ div.dialog{
     z-index: 9;
     margin-top: 10px;
 }
-.widget.widget-with-tabs .widget-body .tournament-link a{
+.tournament-link a{
     color: #fedf00;
+}
+span.tournament-link{
+    margin-left: 10px;
 }
 .widget-tabs-body > div.active{
     display: block;
@@ -5167,9 +5176,12 @@ div.dialog{
 .info-col .wr-group{
     float: left;
 }
+.cup-page .info-col .group img{
+    width: 38px;
+}
 .info-col .group{
     background: url(../images/ax-top.png) no-repeat right 55px;
-    padding: 12px 11px 11px 0;
+    padding: 10px 11px 11px 0;
 }
 .info-col .group:nth-child(even){
     background: url(../images/ax-bottom.png) no-repeat right -101px;
@@ -5222,8 +5234,8 @@ div.dialog{
 }
 .info-col .group3 .group{
     background: url(../images/ax-final.png) no-repeat left center;
-    margin-top: 115px;
-    padding:48px 0 66px 15px;
+    margin-top: 119px;
+    padding: 50px 0 69px 15px;
 }
 
 .info-col .group table.empty td{

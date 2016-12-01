@@ -11,6 +11,9 @@
  */
 
 use Ivliev\Imagefly\Imagefly;
+use Helpers\Uri;
+use Football\Tournaments\Tournament;
+
 
 ?>
 <div class="last-round-events cup-last-round-events">
@@ -40,4 +43,7 @@ use Ivliev\Imagefly\Imagefly;
         <? endforeach ?>
 
     </ul>
+    <span class="tournament-link">
+        <a href="<?= Uri::makeUriFromId('armenian_cup') ?>"><?= __('Cup Table') ?></a>
+    </span>
 </div>

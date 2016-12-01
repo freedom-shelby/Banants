@@ -11,10 +11,9 @@
 
 <div class="info-col">
 
-        <? foreach ($item->getDuels() as $team): ?>
-            <?= __($team->team()->text()) ?>
-        <? endforeach ?>
-
+<!--        --><?// foreach ($item->getDuels() as $team): ?>
+<!--            --><?//= __($team->team()->text()) ?>
+<!--        --><?// endforeach ?>
 
 </div>
 
@@ -25,105 +24,72 @@
             <div class="group">
                 <table>
                     <tr>
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Ararat-yerevan-logo.png" /> <?= __('Ararat') ?></td>
+                        <td class="cef">1</td>
+                        <td class="cef">1</td>
+                        <td class="cef">2</td>
                     </tr>
                     <tr class="win">
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">3</td>
+                        <td><img alt="" src="/media/assets/images/logo.png" /> <?= __('Banants') ?></td>
                         <td class="cef">2</td>
-                        <td class="cef">1</td>
+                        <td class="cef">0</td>
+                        <td class="cef">2</td>
                     </tr>
                 </table>
             </div>
             <div class="group">
                 <table>
                     <tr>
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Logo-Alashkert.png" /> <?= __('Alaskert') ?></td>
+                        <td class="cef">1</td>
                         <td class="cef">0</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                    </tr>
-                    <tr class="win">
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">3</td>
-                        <td class="cef">2</td>
                         <td class="cef">1</td>
                     </tr>
-                </table>
-            </div>
-            <div class="group">
-                <table>
-                    <tr>
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                    </tr>
                     <tr class="win">
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">3</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
                         <td class="cef">2</td>
                         <td class="cef">1</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="group">
-                <table>
-                    <tr>
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                    </tr>
-                    <tr class="win">
-                        <td><img alt="" src="images/team1.jpg" /><span>Гандзасар-<br />
-                                                Капан</span></td>
                         <td class="cef">3</td>
-                        <td class="cef">2</td>
-                        <td class="cef">1</td>
                     </tr>
                 </table>
             </div>
         </div>
         <div class="wr-group group2">
             <div class="group">
-                <div>2.04.16  15:00</div>
+                <div>11.04.17  16:00</div>
                 <table>
                     <tr>
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                     <tr class="win">
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">3</td>
-                        <td class="cef">2</td>
-                        <td class="cef">1</td>
+                        <td><img alt="" src="/media/assets/images/logo.png" /> <?= __('Banants') ?></td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                 </table>
-                <div class="under">15.03.16  14:00</div>
+                <div class="under">25.04.17  16:00</div>
             </div>
             <div class="group">
-                <div>2.04.16  15:00</div>
+                <div>12.04.17  16:00</div>
                 <table>
                     <tr>
-                        <td><img alt="" src="images/team1.jpg" /> Арарат</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
-                        <td class="cef">0</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/gandzasar-kapan-logo.png" /> <?= __('Gandzasar') ?></td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                     <tr class="win">
-                        <td><img alt="" src="images/team1.jpg" /> Алашкерт</td>
-                        <td class="cef">3</td>
-                        <td class="cef">2</td>
-                        <td class="cef">1</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                 </table>
-                <div class="under">15.03.16  14:00</div>
+                <div class="under">26.04.17  15:00</div>
             </div>
         </div>
         <div class="wr-group group3">
@@ -149,39 +115,41 @@
         </div>
         <div class="clearfix"></div>
     </div>
-    <div class="info-col">
-        <p class="col-title">Бомбардиры</p>
-        <div class="scorer">
-            <table>
-                <tr>
-                    <td><a href="#">01- Лаерсио Гомес Коста (Бананц)</a></td>
-                    <td>3 гола</td>
-                </tr>
-                <tr>
-                    <td>01- Лаерсио Гомес Коста (Бананц)</td>
-                    <td>3 гола</td>
-                </tr>
-                <tr>
-                    <td>01- Лаерсио Гомес Коста (Бананц)</td>
-                    <td>3 гола</td>
-                </tr>
-                <tr>
-                    <td>01- Лаерсио Гомес Коста (Бананц)</td>
-                    <td>3 гола</td>
-                </tr>
-                <tr>
-                    <td>01- Лаерсио Гомес Коста (Бананц)</td>
-                    <td>3 гола</td>
-                </tr><tr>
-                    <td>01- Лаерсио Гомес Коста (Бананц)</td>
-                    <td>3 гола</td>
-                </tr>
-                <tr>
-                    <td>01- Лаерсио Гомес Коста (Бананц)</td>
-                    <td>3 гола</td>
-                </tr>
 
-            </table>
-        </div>
-    </div>
+<!--    <div class="info-col">-->
+<!--        <p class="col-title">Бомбардиры</p>-->
+<!--        <div class="scorer">-->
+<!--            <table>-->
+<!--                <tr>-->
+<!--                    <td><a href="#">01- Лаерсио Гомес Коста (Бананц)</a></td>-->
+<!--                    <td>3 гола</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>01- Лаерсио Гомес Коста (Бананц)</td>-->
+<!--                    <td>3 гола</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>01- Лаерсио Гомес Коста (Бананц)</td>-->
+<!--                    <td>3 гола</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>01- Лаерсио Гомес Коста (Бананц)</td>-->
+<!--                    <td>3 гола</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>01- Лаерсио Гомес Коста (Бананц)</td>-->
+<!--                    <td>3 гола</td>-->
+<!--                </tr><tr>-->
+<!--                    <td>01- Лаерсио Гомес Коста (Бананц)</td>-->
+<!--                    <td>3 гола</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>01- Лаерсио Гомес Коста (Бананц)</td>-->
+<!--                    <td>3 гола</td>-->
+<!--                </tr>-->
+<!---->
+<!--            </table>-->
+<!--        </div>-->
+<!--    </div>-->
+
 </div>

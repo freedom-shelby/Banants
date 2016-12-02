@@ -52,7 +52,14 @@ class Uri
     //static function to redirect to other page
     public static function to($url){
 
-        $url = $url . \App::URI_EXT;
+        // Если это Домашная страница
+        if($url == '/'){
+            if(Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso']) {
+                $url = '/' . Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'];
+            }
+        }else{
+            $url = $url . App::URI_EXT;
+        }
 
         header('Location: ' . $url, true, 302);
         exit;

@@ -159,7 +159,7 @@ class Message {
         $output = '';
         $output .= '<div class="alert alert-'.$alert_type.'">';
         $output .=      '<button type="button" class="close" data-dismiss="alert">×</button>';
-        $output .=      '<strong>Exception! </strong> '.$message.'.';
+        $output .=      $message;
         $output .= '</div>';
 
         return $output;

@@ -187,6 +187,14 @@ class Http {
     }
 
     /**
+     * Позвращает данные из $_POST
+     * @return array
+     */
+    public function getServerData(){
+        return $this->_server;
+    }
+
+    /**
      * Позвращает данные из $_REQUEST
      * @return array
      */

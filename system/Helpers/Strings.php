@@ -31,4 +31,14 @@ class Strings
         $words = explode(" ", strip_tags($string));
         return implode(" ", array_splice($words, 0 ,$wordLimit));
     }
+
+    static function generateRandomString($length = 10) {
+        $characters = '@#$%^&*()-_=+*!0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@#$%^&*()-_=+*!';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
 }

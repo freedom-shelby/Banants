@@ -39,13 +39,19 @@ class Controller {
     }
 
     protected function getRequestParam($param, $default = null){
-        return $this->_requestParams[$param] ?:$default;
+        return (isset($this->_requestParams[$param])) ? $this->_requestParams[$param] : $default;
     }
 
     protected function getPostData($param = null, $default = null){
         $postData = $this->_app->http()->getPostData();
         if(!$param) return $postData;
         return isset($postData[$param]) ? $postData[$param]  : $default;
+    }
+
+    protected function getServerData($param = null, $default = null){
+        $serverData = $this->_app->http()->getServerData();
+        if(!$param) return $serverData;
+        return isset($serverData[$param]) ? $serverData[$param]  : $default;
     }
 
     protected function getCurrentUri(){

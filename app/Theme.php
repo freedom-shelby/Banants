@@ -56,8 +56,8 @@ class Theme
      */
     public static function drawHead(){
         echo static::$_page->getDoctype(),PHP_EOL,
-               '<html '.static::$_page->getLang(),PHP_EOL.'>',
-               static::$_page->getHead(true),PHP_EOL;
+            '<html '.static::$_page->getLang(),PHP_EOL.'>',
+        static::$_page->getHead(true),PHP_EOL;
     }
 
     public static function drawContent(){
@@ -73,7 +73,7 @@ class Theme
      * @return string
      */
     public static function script($file,$attributes = null){
-        if(strpos($file,'http://') !== false){
+        if((strpos($file,'http://') !== false) or (strpos($file,'https://') !== false)){
 
             // Set the script link
             $attributes['src'] = $file;
@@ -95,7 +95,7 @@ class Theme
      * @return string
      */
     public static function style($file,$attributes = null){
-        if(strpos($file,'http://') !== false){
+        if((strpos($file,'http://') !== false) or (strpos($file,'https://') !== false)){
 
             // Set the stylesheet link
             $attributes['href'] = $file;
@@ -123,6 +123,26 @@ class Theme
         $comments = $output = '';
         if($assets AND !empty($assets['js'])){
             foreach($assets['js'] as $js){
+                if(isset($js['in-comment'])){
+                    $comments .= static::commentedAssets(array(static::script($js['file'],isset($js['attributes']) ? $js['attributes'] : null).PHP_EOL),$js['in-comment']);
+                }else{
+                    $output .= static::script($js['file'],isset($js['attributes']) ? $js['attributes'] : null).PHP_EOL;
+                }
+            }
+        }
+
+        return $output.$comments;
+    }
+
+    /**
+     * Возвращает скрипты для всего сайта
+     * @return string
+     */
+    public static function bottomScripts(){
+        $assets = static::_getThemeConfig('assets');
+        $comments = $output = '';
+        if($assets AND !empty($assets['bottomJS'])){
+            foreach($assets['bottomJS'] as $js){
                 if(isset($js['in-comment'])){
                     $comments .= static::commentedAssets(array(static::script($js['file'],isset($js['attributes']) ? $js['attributes'] : null).PHP_EOL),$js['in-comment']);
                 }else{

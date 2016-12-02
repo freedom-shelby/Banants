@@ -23,6 +23,10 @@ class Page
     private $_plainHeader;
     private $_content;
     private $_breadcrumbs = [];
+    private $_attributes = [
+        ['http-equiv' => "X-UA-Compatible", 'content' => "IE=edge"],
+        ['name' => "viewport", 'content' => "width=device-width,initial-scale=1"],
+    ];
 
     /**
      * Добавление мета тега с атрибутом content
@@ -39,6 +43,15 @@ class Page
      */
     public function setMetaCharset($charset){
         $this->_charset = '<meta charset="'.$charset.'">'.PHP_EOL;
+    }
+
+    /**
+     * кодировки документа
+     * @return string
+     */
+    public function getCharset()
+    {
+        return $this->_charset;
     }
 
     /**
@@ -161,12 +174,40 @@ class Page
     }
 
     /**
+     * @return array
+     */
+    public function getAttributes()
+    {
+        $output = '';
+        foreach ($this->_attributes as $attribute) {
+            $output .= '<meta'.PHP_EOL;
+
+            foreach ($attribute as $name => $content) {
+                $output .= $name . "=" . $content.PHP_EOL;
+            }
+
+            $output .= '/>'.PHP_EOL;
+        }
+        return $output;
+    }
+
+    /**
+     * @param array $attributes
+     */
+    public function setAttributes($attributes)
+    {
+        $this->_attributes = $attributes;
+    }
+
+    /**
      * Возвращает шапку документа в HTML формате
      * @param bool $withThemeSettings
      * @return string
      */
     public function getHead($withThemeSettings = false){
         $output = '<head>'.PHP_EOL;
+        $output .= $this->getAttributes();
+        $output .= $this->getCharset();
         $output .= $this->getTitle();
         $output .= $this->getMetaTags();
         if($withThemeSettings){

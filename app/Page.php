@@ -243,7 +243,7 @@ class Page
      */
     public function setContent($content)
     {
-        $this->_content = $content;
+        $this->_content = $content.PHP_EOL;
     }
 
     /**
@@ -266,6 +266,11 @@ class Page
         return Breadcrumb::withLinks($this->_breadcrumbs);
     }
 
+    /**
+     * Инициализация Страници при с помощий моделий
+     * @param $slug
+     * @return $this
+     */
     public function initFromSlug($slug)
     {
         $model = $this->getModelFromSlug($slug);
@@ -274,6 +279,17 @@ class Page
         $this->setMetaContent('keywords', $model->meta_keys ? htmlspecialchars($model->meta_keys):  htmlspecialchars($model->title));
         $this->setTitle($model->meta_title ? htmlspecialchars($model->meta_title) : htmlspecialchars($model->title));
         $this->setContent($model->desc);
+
+        return $this;
+    }
+
+    /**
+     * Прибавляет к контенту
+     * @param $content
+     */
+    public function appendToContent($content)
+    {
+        $this->_content .= $content . PHP_EOL;
     }
 
     /**

@@ -307,7 +307,8 @@ tinymce.init({
             }
         ]}
     ],
-    style_formats_merge: true
+    style_formats_merge: true,
+    valid_children : "span"
 });
 
 /**

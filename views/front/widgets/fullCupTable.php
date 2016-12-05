@@ -126,7 +126,7 @@
         </div>
         <div class="wr-group group3">
             <div class="group">
-                <div>2.04.16  15:00</div>
+                <div></div>
                 <table class="empty">
                     <tr>
                         <td>?</td>

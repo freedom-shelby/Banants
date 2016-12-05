@@ -9,17 +9,20 @@
 namespace Front;
 restrictAccess();
 
-
 use Http\Exception as Exception;
 use Intervention\Image\ImageManagerStatic as Image;
 use View;
-use ArticleModel;
-
+use Helpers\Arr;
 use Widgets\WidgetsContainer;
 use Cartalyst\Sentinel\Native\Facades\Sentinel;
+use Illuminate\Database\Capsule\Manager as Capsule;
+use Message;
+use Event;
+
 
 class Pages extends Front
 {
+    protected $_slug;
 
     public function __construct(array $requestParams)
     {
@@ -32,29 +35,69 @@ class Pages extends Front
      */
     public function getHome()
     {
+        $slug = 'home';
+
+        $this->_page->initFromSlug($slug);
+    }
+
+    public function anyPage()
+    {
+        $this->_slug = $this->getRequestParam('page') ?: null;
+
+        // Если есть метод по ури то вызвать эго
+        $method = 'any' . ucfirst($this->_slug);
+        if(method_exists($this, $method) && is_callable(array($this, $method)))
+        {
+            call_user_func(
+                array($this, $method)
+            );
+        }else{
+            $this->_page->initFromSlug($this->_slug);
+        }
+    }
+
+    public function anyContact()
+    {
+        if (Arr::get($this->getPostData(),'submit') !== null) {
+
+            $data = Arr::extract($this->getPostData(), ['name', 'email', 'text']);
+
+            $to = 'arsen@horizondvp.com';
+            $subject = 'Qcard Test' . $data['name'];
+            $message = 'User Name ' . $data['name'] . PHP_EOL .
+                'User Email ' . $data['email'] . PHP_EOL .
+                $data['text'];
+
+            if(mail($to, $subject, $message)) {
+                Message::instance()->success('Message has successfully send');
+            }
+        }
+
+        $content = View::make('front/content/pages/contact');
+
+        $this->_page->initFromSlug($this->_slug)
+            ->appendToContent($content);
+    }
+
+    public function anyOrder()
+    {
+        $this->_page->initFromSlug($this->_slug);
+    }
+
+    public function getTestHome()
+    {
 //        $slug = 'home';
 //        $this->_page->initFromSlug($slug);
 
-        $this->_page->setTitle('Официальный сайт FC Banants');
+        $this->_page->setTitle('Qcard');
 //        $this->_page->setContent('Тестовый контент');
 
 //        $model = ArticleModel::where('slug','=','home')->first();
 //        WidgetsContainer::instance($model);
 
-        $this->layout = View::make('front/home');
-        $this->layout->content = View::make('front/content/pages/home');
+        $this->layout = View::make('front/_home');
+        $this->layout->content = View::make('front/content/pages/_home');
     }
-
-    public function getPage()
-    {
-        $slug = $this->getRequestParam('page') ?: null;
-
-        $this->_page->initFromSlug($slug);
-
-//        $this->layout->content = View::make('front/content/pages/page');
-
-    }
-
 
     public function getTest(){
         error_reporting(E_ALL);

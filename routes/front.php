@@ -35,7 +35,7 @@ Router::any(['/TestQuizResult','rules' => ['id' => '[0-9]+'], 'as' => 'test.resu
 Router::get(['/', 'as' => 'front.home'],'Front\Pages@getHome');
 Router::any(['/server/quiz', 'as' => 'front.server'],'Front\Server@anyQuizResponse');
 Router::get(['/image/{params}/{imagePath}','rules' => ['imagePath' => '[/\\a-z0-9_-]+', 'params' => '[a-z0-9-]+'], 'as' => 'imagefly'],'Ivliev\Imagefly\ImageflyController@getIndex');
-Router::get(['/{page}/{param?}','rules' => ['page' => '[a-zA-Z0-9_-]+', 'param' => '[a-zA-Z0-9_-]+'], 'as' => 'front.page'],'Front\Pages@getPage');
+Router::any(['/{page}/{param?}','rules' => ['page' => '[a-zA-Z0-9_-]+', 'param' => '[a-zA-Z0-9_-]+'], 'as' => 'front.page'],'Front\Pages@anyPage');
 
 
 /**

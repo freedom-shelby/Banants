@@ -53,6 +53,38 @@
                     </tr>
                 </table>
             </div>
+            <div class="group">
+                <table>
+                    <tr>
+                        <td><img alt="" src="/media/assets/images/team_logo/gandzasar-kapan-logo.png" /> <?= __('Gandzasar') ?></td>
+                        <td class="cef">3</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                    </tr>
+                    <tr class="win">
+                        <td><img alt="" src="/media/assets/images/team_logo/erebuni-logo.png" /> <?= __('Erebuni') ?></td>
+                        <td class="cef">0</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="group">
+                <table>
+                    <tr>
+                        <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
+                        <td class="cef">1</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                    </tr>
+                    <tr class="win">
+                        <td><img alt="" src="/media/assets/images/team_logo/erebuni-logo.png" /> <?= __('Erebuni') ?></td>
+                        <td class="cef">0</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                    </tr>
+                </table>
+            </div>
         </div>
         <div class="wr-group group2">
             <div class="group">

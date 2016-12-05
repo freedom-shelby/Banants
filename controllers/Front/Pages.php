@@ -35,9 +35,17 @@ class Pages extends Front
      */
     public function getHome()
     {
-        $slug = 'home';
+//        $slug = 'home';
+//        $this->_page->initFromSlug($slug);
 
-        $this->_page->initFromSlug($slug);
+        $this->_page->setTitle('Официальный сайт FC Banants');
+//        $this->_page->setContent('Тестовый контент');
+
+//        $model = ArticleModel::where('slug','=','home')->first();
+//        WidgetsContainer::instance($model);
+
+        $this->layout = View::make('front/home');
+        $this->layout->content = View::make('front/content/pages/home');
     }
 
     public function anyPage()
@@ -54,34 +62,6 @@ class Pages extends Front
         }else{
             $this->_page->initFromSlug($this->_slug);
         }
-    }
-
-    public function anyContact()
-    {
-        if (Arr::get($this->getPostData(),'submit') !== null) {
-
-            $data = Arr::extract($this->getPostData(), ['name', 'email', 'text']);
-
-            $to = 'arsen@horizondvp.com';
-            $subject = 'Qcard Test' . $data['name'];
-            $message = 'User Name ' . $data['name'] . PHP_EOL .
-                'User Email ' . $data['email'] . PHP_EOL .
-                $data['text'];
-
-            if(mail($to, $subject, $message)) {
-                Message::instance()->success('Message has successfully send');
-            }
-        }
-
-        $content = View::make('front/content/pages/contact');
-
-        $this->_page->initFromSlug($this->_slug)
-            ->appendToContent($content);
-    }
-
-    public function anyOrder()
-    {
-        $this->_page->initFromSlug($this->_slug);
     }
 
     public function getTestHome()

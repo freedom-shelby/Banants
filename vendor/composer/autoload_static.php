@@ -373,6 +373,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'Crypt\\Rijndael' => __DIR__ . '/../..' . '/system/Crypt/Rijndael.php',
         'Crypt\\Sha256' => __DIR__ . '/../..' . '/system/Crypt/Sha256.php',
         'Doctrine\\Common\\Inflector\\Inflector' => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector/Inflector.php',
+        'EasyPeasyICS' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
         'EntityModel' => __DIR__ . '/../..' . '/models/EntityModel.php',
         'EntityTranslationModel' => __DIR__ . '/../..' . '/models/EntityTranslationModel.php',
         'Event' => __DIR__ . '/../..' . '/system/Event.php',
@@ -1161,6 +1162,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'League\\Flysystem\\Util\\ContentListingFormatter' => __DIR__ . '/..' . '/league/flysystem/src/Util/ContentListingFormatter.php',
         'League\\Flysystem\\Util\\MimeType' => __DIR__ . '/..' . '/league/flysystem/src/Util/MimeType.php',
         'League\\Flysystem\\Util\\StreamHasher' => __DIR__ . '/..' . '/league/flysystem/src/Util/StreamHasher.php',
+        'Mail' => __DIR__ . '/../..' . '/system/Mail.php',
         'ManagerModel' => __DIR__ . '/../..' . '/models/ManagerModel.php',
         'MenuItemModel' => __DIR__ . '/../..' . '/models/MenuItemModel.php',
         'MenuModel' => __DIR__ . '/../..' . '/models/MenuModel.php',
@@ -1183,6 +1185,10 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'OrderedClusterSeeder' => __DIR__ . '/../..' . '/controllers/Test/NestedSets/seeders/ClusterSeeder.php',
         'OrderedScopedCategory' => __DIR__ . '/../..' . '/controllers/Test/NestedSets/models/Category.php',
         'OrderedScopedCategorySeeder' => __DIR__ . '/../..' . '/controllers/Test/NestedSets/seeders/CategorySeeder.php',
+        'PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
+        'PHPMailerOAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauth.php',
+        'PHPMailerOAuthGoogle' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
+        'POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.pop3.php',
         'Page' => __DIR__ . '/../..' . '/app/Page.php',
         'PhotoGalleryModel' => __DIR__ . '/../..' . '/models/PhotoGalleryModel.php',
         'PhotoModel' => __DIR__ . '/../..' . '/models/PhotoModel.php',
@@ -1401,6 +1407,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'RecursiveCallbackFilterIterator' => __DIR__ . '/..' . '/symfony/polyfill-php54/Resources/stubs/RecursiveCallbackFilterIterator.php',
         'Route' => __DIR__ . '/../..' . '/system/Route.php',
         'Router' => __DIR__ . '/../..' . '/system/Router.php',
+        'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
         'ScopedCategory' => __DIR__ . '/../..' . '/controllers/Test/NestedSets/models/Category.php',
         'ScopedCategorySeeder' => __DIR__ . '/../..' . '/controllers/Test/NestedSets/seeders/CategorySeeder.php',
         'ScopedCluster' => __DIR__ . '/../..' . '/controllers/Test/NestedSets/models/Cluster.php',
@@ -1799,6 +1806,8 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'Widgets\\Widget\\VideoGallery' => __DIR__ . '/../..' . '/app/Widgets/Widget/VideoGallery.php',
         'Widgets\\Widget\\VideoGalleryPage' => __DIR__ . '/../..' . '/app/Widgets/Widget/VideoGalleryPage.php',
         'Widgets\\WidgetsContainer' => __DIR__ . '/../..' . '/app/Widgets/WidgetsContainer.php',
+        'ntlm_sasl_client_class' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/ntlm_sasl_client.php',
+        'phpmailerException' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

@@ -25,7 +25,8 @@
     "Ivliev/Imagefly": "1.*",
     "illuminate/pagination": "^5.0",
     "cartalyst/sentinel": "^2.0",
-    "symfony/http-foundation": "^2.8"
+    "symfony/http-foundation": "^2.8",
+    "phpmailer/phpmailer": "^5.2"
   },
   "autoload": {
     "classmap" : [

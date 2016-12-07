@@ -34,7 +34,7 @@ use Lang\Lang;
                                 <input type="hidden" name="content[<?=$iso?>][id]" value="<?=$translations[$iso]->id?>">
                                 <div class="form-group col-sm-13">
                                     <label for="text">Text</label>
-                                    <input type="text" name="content[<?=$iso?>][text]" value="<?=$translations[$iso]->text?>" class="form-control" id="text" placeholder="Text" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                    <input type="text" name="content[<?=$iso?>][text]" value="<?=htmlspecialchars($translations[$iso]->text)?>" class="form-control" id="text" placeholder="Text" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
                                 </div>
                             </div>
                         <?endforeach?>

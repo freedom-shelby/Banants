@@ -112,7 +112,6 @@ html, body {
 }
 body{
     background-color: #000012;
-    min-width: 1200px;
 }
 @media (min-width: 1200px) {
     body{

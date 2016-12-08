@@ -5583,3 +5583,69 @@ span.tournament-link{
     color: #ffffff;
 }
 /** #LastRoundEvents **/
+
+/** FFA Styles **/
+.competition .title1 {
+    padding: 8px 5px;
+    font-size: 16px;
+    color: #191919;
+    font-weight: bold;
+}
+.bigCol .table {
+    padding: 5px;
+    background-color: #d9d2d2;
+}
+.margin {
+    margin-bottom: 10px;
+}
+.competition .table1 {
+    width: 590px;
+}
+.table1 {
+    width: 340px;
+    background-color: #ffffff;
+}
+table tr.even {
+    background-color: #EBEBEB;
+}
+.competition .table1 th {
+    background-color: #929292;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 11px;
+    color: white;
+    font-weight: bold;
+}
+.competition .table1 tr th.team {
+    text-align: left;
+    padding: 0 5px;
+    margin-bottom: 5px;
+}
+.competition .table1 tbody td {
+    background-color: #ffffff;
+    line-height: 26px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 11px;
+}
+.competition .table1 tr td.team {
+    width: 296px;
+    max-width: 296px;
+    text-align: left;
+    color: #191919;
+    font-weight: bold;
+}
+td.team span {
+    display: inline-block;
+    width: 21px;
+}
+.competition .table1 tr td.number1, .competition .table1 tr td.number2 {
+    width: 38px;
+    text-align: center;
+    color: #191919;
+    font-weight: bold;
+}
+table tr.even {
+    background-color: #EBEBEB;
+}
+/**# FFA Styles **/

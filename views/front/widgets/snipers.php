@@ -19,13 +19,13 @@
         <div class="shooter_slider_item">
             <div class="best_player clearfix">
                 <div class="best_player_content">
-                    <h3><?=__('LAERSIO GOMES COSTA')?></h3>
+                    <h3><?=__('Aghekyan')?> <?=__('Grigor')?></h3>
                     <div class="best_player_images_wrapper">
-                        <img src="/uploads/images/players/laersio.png" alt="best_player" />
+                        <img src="/uploads/images/players/57d01cd14405b.png" alt="best_player" />
                     </div>
                     <div class="best_player_right">
                         <div class="best_player_info">
-                            <span> <?=__('Age')?> 26<br> <?=__('Goals')?> 3</span>
+                            <span> <?=__('Age')?> 19<br> <?=__('Goals')?> 2</span>
                         </div>
                         <div class="best_player_multiple">
                             <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

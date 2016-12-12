@@ -25,7 +25,7 @@
                     </div>
                     <div class="best_player_right">
                         <div class="best_player_info">
-                            <span> <?=__('Age')?> 19<br> <?=__('Goals')?> 2</span>
+                            <span> <?=__('Age')?> 20<br> <?=__('Goals')?> 1</span>
                         </div>
                         <div class="best_player_multiple">
                             <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

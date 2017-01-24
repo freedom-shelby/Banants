@@ -1204,6 +1204,7 @@ return array(
     'Subscribers\\Admin\\ArticlesEventHandler' => $baseDir . '/app/Subscribers/Admin/ArticlesEventHandler.php',
     'Subscribers\\Admin\\EntitiesEventHandler' => $baseDir . '/app/Subscribers/Admin/EntitiesEventHandler.php',
     'Subscribers\\Admin\\LanguagesEventHandler' => $baseDir . '/app/Subscribers/Admin/LanguagesEventHandler.php',
+    'Subscribers\\Admin\\MenusEventHandler' => $baseDir . '/app/Subscribers/Admin/MenusEventHandler.php',
     'Subscribers\\Admin\\SettingsEventHandler' => $baseDir . '/app/Subscribers/Admin/SettingsEventHandler.php',
     'Subscribers\\Controller\\GlobalEventHandler' => $baseDir . '/app/Subscribers/Controller/GlobalEventHandler.php',
     'Subscribers\\Football\\TournamentEventHandler' => $baseDir . '/app/Subscribers/Football/TournamentEventHandler.php',

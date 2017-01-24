@@ -73,6 +73,7 @@ class Menus extends Back
                 }
 
                 Event::fire('Admin.entitiesUpdate');
+                Event::fire('Admin.menuUpdate');
 
                 $newModel = MenuItemModel::create([
                     'menu_id' => $id,
@@ -129,6 +130,7 @@ class Menus extends Back
                     }
 
                     Event::fire('Admin.entitiesUpdate');
+                    Event::fire('Admin.menuUpdate');
 
                     // если нету нового изображения оставить прежний
                     $data['icon'] ?: $model->icon;
@@ -195,6 +197,8 @@ class Menus extends Back
                         ]);
                     }
 
+                    Event::fire('Admin.menuUpdate');
+
                     $response = 'Menu Sorting has successfully saved';
                 });
             }
@@ -233,6 +237,8 @@ class Menus extends Back
             @unlink(ltrim(UploadFile::getImagePath($item->icon), '/'));
 //            $item->delete();
         });
+
+        Event::fire('Admin.menuUpdate');
 
         Message::instance()->success('Menu Item has successfully deleted');
         Uri::to('/Admin');

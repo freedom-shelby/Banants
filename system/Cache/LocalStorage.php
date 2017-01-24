@@ -94,5 +94,7 @@ class LocalStorage {
 
     }
 
-
+    public function clearAll(){
+        @unlink(ROOT_PATH.static::STORAGE_DIR);
+    }
 }

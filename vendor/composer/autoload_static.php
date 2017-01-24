@@ -1423,6 +1423,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'Subscribers\\Admin\\ArticlesEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Admin/ArticlesEventHandler.php',
         'Subscribers\\Admin\\EntitiesEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Admin/EntitiesEventHandler.php',
         'Subscribers\\Admin\\LanguagesEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Admin/LanguagesEventHandler.php',
+        'Subscribers\\Admin\\MenusEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Admin/MenusEventHandler.php',
         'Subscribers\\Admin\\SettingsEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Admin/SettingsEventHandler.php',
         'Subscribers\\Controller\\GlobalEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Controller/GlobalEventHandler.php',
         'Subscribers\\Football\\TournamentEventHandler' => __DIR__ . '/../..' . '/app/Subscribers/Football/TournamentEventHandler.php',

@@ -10,7 +10,8 @@
 //route::post('dsfdsf');
 
 use Lang\Lang;
-
+use Helpers\Uri;
+use Helpers\File;
 
 class Route {
 
@@ -257,6 +258,11 @@ class Route {
         //удаляем оконцовку
         $uri = preg_replace('#('.str_replace('.','\.',App::URI_EXT).')$#uD' ,'',$uri);
         $pattern = $this->_uri;
+
+        // Если это файл
+        if(File::isValidFile(trim(Setting::instance()->getSettingVal('app.doc_path'), '/') .'/'. Lang::instance()->getCurrentLang()['iso'] . $uri)){
+            Uri::toFile(trim(Setting::instance()->getSettingVal('app.doc_path'), '/') .'/'. Lang::instance()->getCurrentLang()['iso'] . $uri);
+        }
 
         //находим совпадения для правил валидации
         preg_match_all('#[{]([^}?]+)([?]?)[}]#uD',$pattern,$matches);

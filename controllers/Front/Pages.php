@@ -12,6 +12,7 @@ restrictAccess();
 use Http\Exception as Exception;
 use Intervention\Image\ImageManagerStatic as Image;
 use View;
+use Setting;
 use Helpers\Arr;
 use Widgets\WidgetsContainer;
 use Cartalyst\Sentinel\Native\Facades\Sentinel;
@@ -52,16 +53,14 @@ class Pages extends Front
     {
         $this->_slug = $this->getRequestParam('page') ?: null;
 
-        $this->_page->initFromSlug($this->_slug);
-
         // Если есть метод по ури то вызвать эго
         $method = 'any' . ucfirst($this->_slug);
         if(method_exists($this, $method) && is_callable(array($this, $method)))
         {
-            call_user_func(
-                array($this, $method)
-            );
+            call_user_func(array($this, $method));
         }
+
+        $this->_page->initFromSlug($this->_slug);
     }
 
     public function getTestHome()

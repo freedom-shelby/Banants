@@ -54,14 +54,21 @@ class Uri
 
         // Если это Домашная страница
         if($url == '/'){
-            if(Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso']) {
-                $url = '/' . Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'];
+            if(Lang::instance()->getCurrentLangExceptCurrent()['iso']) {
+                $url = '/' . Lang::instance()->getCurrentLangExceptCurrent()['iso'];
             }
         }else{
             $url = $url . App::URI_EXT;
         }
 
         header('Location: ' . $url, true, 302);
+        exit;
+    }
+
+    //static function to redirect to file
+    public static function toFile($url){
+
+        header('Location: /' . trim($url, '/'), true, 302);
         exit;
     }
 }

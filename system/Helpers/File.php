@@ -9,7 +9,7 @@
 namespace Helpers;
 
 use InvalidArgumentException;
-
+use Setting;
 
 class File
 {
@@ -31,4 +31,11 @@ class File
         rmdir($dirPath);
     }
 
+    public static function isValidFile($file) {
+        if (file_exists($file) and strpos($file, '.')) {
+            return true;
+        }
+
+        return false;
+    }
 }

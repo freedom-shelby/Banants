@@ -9,6 +9,9 @@
 namespace Cache;
 restrictAccess();
 
+use Helpers\File;
+
+
 class LocalStorage {
 
     const STORAGE_DIR = 'localstorage/';
@@ -95,6 +98,6 @@ class LocalStorage {
     }
 
     public function clearAll(){
-        @unlink(ROOT_PATH.static::STORAGE_DIR);
+        File::deleteDir(static::STORAGE_DIR);
     }
 }

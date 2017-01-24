@@ -32,6 +32,7 @@ namespace Upload;
 
 use Upload\Storage\Base;
 use SplFileInfo;
+use InvalidArgumentException;
 /**
  * File
  *
@@ -57,7 +58,7 @@ class Files extends File
     public function __construct($file, Base $storage)
     {
         if (!isset($file)) {
-            throw new \InvalidArgumentException("Cannot find uploaded file");
+            throw new InvalidArgumentException("Cannot find uploaded file");
         }
 
         $this->storage = $storage;

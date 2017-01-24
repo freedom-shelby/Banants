@@ -733,6 +733,7 @@ class ComposerStaticInit591a2b0ae83bd369e373d7f967df75e4
         'HTML' => __DIR__ . '/../..' . '/app/HTML.php',
         'Helpers\\Arr' => __DIR__ . '/../..' . '/system/Helpers/Arr.php',
         'Helpers\\Date' => __DIR__ . '/../..' . '/system/Helpers/Date.php',
+        'Helpers\\File' => __DIR__ . '/../..' . '/system/Helpers/File.php',
         'Helpers\\Strings' => __DIR__ . '/../..' . '/system/Helpers/Strings.php',
         'Helpers\\Uri' => __DIR__ . '/../..' . '/system/Helpers/Uri.php',
         'Http' => __DIR__ . '/../..' . '/system/Http.php',

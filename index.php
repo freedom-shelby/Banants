@@ -7,7 +7,7 @@
  * Входная точка
  */
 error_reporting(E_ALL);
-ini_set('display_errors', 'On');
+//ini_set('display_errors', 'On');
 
 /**
  * Устанавливаем корневую директорию

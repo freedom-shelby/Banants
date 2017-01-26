@@ -83,7 +83,7 @@ class Top extends AbstractMenu{
         // Устанавлиает Активни пункт и суб меню
 //        foreach($model->get() as $item)
 //        {
-//            if($item->_slug == MenusContainer::instance()->getCurrent()){
+//            if($item->_slug == MenusContainer::getCurrent()){
 //                if($item->lvl == MenusContainer::CATEGORY_LEVEL){
 //                    $this->initSubMenu($item);
 //                    $this->_active = $item->_slug;

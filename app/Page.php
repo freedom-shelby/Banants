@@ -17,6 +17,7 @@ class Page
     private $_metaTags;
     private $_charset = "<meta charset='utf-8'>\r\n";
     private $_title;
+    private $_pageTitle;
     private $_links;
     private $_lang = 'en';
     private $_doctype = "<!DOCTYPE html>\r\n";
@@ -100,6 +101,22 @@ class Page
      */
     public function getTitle(){
         return '<title>'.$this->_title.'</title>'.PHP_EOL;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPageTitle()
+    {
+        return $this->_pageTitle;
+    }
+
+    /**
+     * @param mixed $pageTitle
+     */
+    public function setPageTitle($pageTitle)
+    {
+        $this->_pageTitle = $pageTitle;
     }
 
     /**
@@ -278,6 +295,7 @@ class Page
         $this->setMetaContent('description', $model->meta_desc ? htmlspecialchars($model->meta_desc) : htmlspecialchars($model->title));
         $this->setMetaContent('keywords', $model->meta_keys ? htmlspecialchars($model->meta_keys):  htmlspecialchars($model->title));
         $this->setTitle($model->meta_title ? htmlspecialchars($model->meta_title) : htmlspecialchars($model->title));
+        $this->setPageTitle(htmlspecialchars($model->title));
         $this->setContent($model->desc);
 
         return $this;

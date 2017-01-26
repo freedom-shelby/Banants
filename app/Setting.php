@@ -2,6 +2,7 @@
 /**
  * Created by SUR-SER.
  * User: SURO
+ * Exchange to Eloquent: ArmSALArm
  * Date: 14.10.14
  * Time: 13:40
  * Класс настроек приложения
@@ -9,7 +10,6 @@
  */
 restrictAccess();
 use Cache\LocalStorage as Cache;
-
 
 class Setting {
 
@@ -37,7 +37,7 @@ class Setting {
      * @return array|null
      */
     public function getAllGroups(){
-        return \SettingsModel::all();
+        return SettingsModel::groupBy('group')->get();
     }
 
     /**

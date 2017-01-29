@@ -29,6 +29,8 @@ Router::get(['/Admin/PhotoGallery/List', 'as' => 'back.photo.gallery.list'],'Bac
 Router::any(['/Admin/PhotoGallery/Edit/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.photo.gallery.edit'],'Back\PhotoGalleries@anyEdit');
 Router::get(['/Admin/PhotoGallery/Delete/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.photo.gallery.delete'],'Back\PhotoGalleries@getDelete');
 Router::any(['/Admin/Videos/Add', 'as' => 'back.video.add'],'Back\Videos@anyAdd');
+Router::get(['/Admin/Videos/List', 'as' => 'back.video.list'],'Back\Videos@getList');
+Router::get(['/Admin/Videos/Delete/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.video.delete'],'Back\Videos@getDelete');
 Router::get(['/Admin/Entities', 'as' => 'back.entities.list'],'Back\Entities@getList');
 Router::any(['/Admin/Entities/Add', 'as' => 'back.entities.add'],'Back\Entities@anyAdd');
 Router::any(['/Admin/Entities/Edit/{id?}','rules' => ['id' => '[0-9]+'],  'as' => 'back.entities.edit'],'Back\Entities@anyEdit');

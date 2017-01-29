@@ -24,7 +24,7 @@ class TournamentEventHandler
 
     /**
      * Метод обрабатывающий событие перед обновлением события
-     * @param $tournament DoubleRoundRobin
+     * @param $tournament AbstractType
      *
      * todo:: avelacnel AbstracType -um vor @ndhanur sagh turnirneri hamar lini generateTabel -en
      */

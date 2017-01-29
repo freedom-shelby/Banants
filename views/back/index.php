@@ -97,6 +97,7 @@ use Lang\Lang;
                                 <a tabindex="-1" href="#">Video</a>
                                 <ul class="dropdown-menu">
                                     <li><a tabindex="-1" href="<?= Helpers\Uri::makeRouteUri('back.video.add') ?>">Add Video</a></li>
+                                    <li><a tabindex="-1" href="<?= Helpers\Uri::makeRouteUri('back.video.list') ?>">List Videos</a></li>
 <!--                                    <li><a href="#">Second level</a></li>-->
 <!--                                    <li class="dropdown-submenu">-->
 <!--                                        <a href="#">More..</a>-->

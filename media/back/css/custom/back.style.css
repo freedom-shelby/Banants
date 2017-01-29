@@ -115,6 +115,10 @@ li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
     width: 30px;
 }
 
+.team-list .table.list-items img.video-images{
+    width: 100px;
+}
+
 .table.list-items .second-item{
     min-width: 910px;
 }

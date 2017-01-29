@@ -15,6 +15,7 @@ use Football\Tournaments\Types\RoundRobin;
 use Football\Tournaments\Types\EliminationKnockout;
 use Football\Tournaments\Types\DoubleEliminationKnockout;
 use Football\Tournaments\Types\MultiStage;
+use Football\Tournaments\Types\FriendlyMatches;
 use InvalidArgumentException;
 use Setting;
 use Helpers\Arr;
@@ -39,6 +40,9 @@ class Tournament
 
             case 'MultiStage':
                 return MultiStage::factory($driver); // todo::
+
+            case 'FriendlyMatches':
+                return FriendlyMatches::factory($driver); // todo::
         }
 
         throw new InvalidArgumentException("Unsupported driver [$driver]");

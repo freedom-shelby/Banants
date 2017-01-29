@@ -82,6 +82,8 @@ class Pages extends Front
         error_reporting(E_ALL);
         ini_set('display_errors', 'On');
 
+//        $this->getModelFilling();
+
         // User Register
 
         // Create Role
@@ -174,5 +176,23 @@ class Pages extends Front
 //        $img = Image::make('5721fc06d139a.jpg')->fit(400, 200);
 
         echo $img->resize(300, 300)->response(null, 52);
+    }
+
+    public function getModelFilling()
+    {
+        /**
+         * Add teams to tournament
+         */
+
+//        $items = \TeamModel::all();
+//
+//        foreach ($items as $item) {
+//            \TeamHasTournamentModel::create([
+//                'team_id' => $item->id,
+//                'tournament_id' => 4,
+//            ]);
+//        }
+
+        // #Add teams to tournament
     }
 }

@@ -180,7 +180,12 @@ abstract class AbstractType {
     public function getEventsByRound($round)
     {
         $events = $this->_model->events();
-        return $events->whereRound($round)->get();
+
+        if($events){
+            $events = $events->whereRound($round)->get();
+        }
+
+        return $events;
     }
 
     /**

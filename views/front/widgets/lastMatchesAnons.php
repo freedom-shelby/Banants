@@ -12,13 +12,13 @@ use Ivliev\Imagefly\Imagefly;
 
 <div class="content_top_right_info_blog_wrapper last-match-anons clearfix">
     <div class="content_top_right_info_blog clearfix">
-        <a href="/uploads/documents/last_match_anons/2016-12-05 Shirak 1-0 Banants (04.12.2016).pdf" target="_blank">
+        <a href="/uploads/documents/last_match_anons/2017-01-31 Chernomorets Novorossijsk 3-1 Banants (28.01.2017).pdf" target="_blank">
             <div class="content_top_right_info_blog_images">
-                <img src="<?=Imagefly::imagePath('/uploads/images/last_matches_anons/Banants_Shirak_03_12.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
+                <img src="<?=Imagefly::imagePath('/uploads/images/last_matches_anons/2.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
             </div>
             <div class="content_top_right_info_blog_aside">
-                <h4><?=__('BANANTS')?> - <?=__('SHIRAK')?> 0:1</h4>
-                <span class="small_size_span"><?=__('There was')?> 03.12.2016 <?=__('at')?> 16:00</span>
+                <h4><?=__('CHERNOMORETS')?> - <?=__('BANANTS')?> 3:1</h4>
+                <span class="small_size_span"><?=__('There was')?> 28.01.2017 <?=__('at')?> 16:00</span>
                 <div>
                     <span>
                         <a href="#">
@@ -47,13 +47,13 @@ use Ivliev\Imagefly\Imagefly;
         </a>
     </div>
     <div class="content_top_right_info_blog clearfix">
-        <a href="/uploads/documents/last_match_anons/2016-11-30 Ararat 1-1 Banants (27.11.2016).pdf" target="_blank">
+        <a href="/uploads/documents/last_match_anons/2017-01-31 Banants 1-0 Team 1 (21.01.2017).pdf" target="_blank">
             <div class="content_top_right_info_blog_images">
-                <img src="<?=Imagefly::imagePath('/uploads/images/las_match_anons/Banants_27_11_Ararat.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
+                <img src="<?=Imagefly::imagePath('/uploads/images/last_matches_anons/1.jpg', 'w135-q52')?>" alt="content_top_right_info_blog_images" />
             </div>
             <div class="content_top_right_info_blog_aside">
-                <h4><?=__('BANANTS')?> - <?=__('ARARAT')?> 1:1</h4>
-                <span class="small_size_span"><?=__('There was')?> 27.11.2016 <?=__('at')?> 18:00</span>
+                <h4><?=__('BANANTS')?> - <?=__('SHIRAK')?> 1:0</h4>
+                <span class="small_size_span"><?=__('There was')?> 21.01.2017 <?=__('at')?> 14:00</span>
                 <div>
                     <span>
                         <a href="#">

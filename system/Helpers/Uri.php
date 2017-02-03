@@ -71,4 +71,30 @@ class Uri
         header('Location: /' . trim($url, '/'), true, 302);
         exit;
     }
+
+    /**
+     * Удаляет # ИД из ссилки
+     * @param $slug
+     * @return mixed
+     */
+    public static function deleteIdFromSlug($slug){
+
+        // Вырезает из строки ИД (самий бистрий способ;))
+        $pos = strpos($slug, '#');
+        if ($pos !== false) {
+            $slug = substr_replace($slug, '', $pos); // Вырезает остаток от #
+        }
+
+        return $slug;
+
+    }
+    public static function getIdFromSlug($slug){
+
+        $pos = strpos($slug, '#');
+        if ($pos !== false) {
+            $slug = explode('#', $slug);
+        }
+
+        return end($slug);
+    }
 }

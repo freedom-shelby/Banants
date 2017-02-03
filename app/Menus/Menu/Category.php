@@ -131,8 +131,8 @@ class Category extends AbstractMenu{
             }
 
             $output .= ' submenu_parent"><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a>';
-
-            if(isset($item->children)) {
+//var_dump($item->children);
+            if($item) {
                 $output .= $this->subMenuRender($item->children);
             }
 

@@ -103,7 +103,7 @@ class Node extends BaumNode
                                     </div>
                                 </div>';
 
-                    if(isset($node->children)) {
+                    if($node->children->count() != 0) {
                         $output .= '<ol>';
                             $output .= static::renderArticleSortableNode($node->children);
                         $output .= '</ol>';
@@ -156,7 +156,7 @@ class Node extends BaumNode
                                     </div>
                                 </div>';
 
-                    if(isset($node->children)) {
+                    if($node->children->count() != 0) {
                         $output .= '<ol>';
                             $output .= static::renderMenuSortableNode($node->children);
                         $output .= '</ol>';

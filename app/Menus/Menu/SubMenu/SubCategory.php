@@ -54,7 +54,7 @@ class SubCategory extends Category{
         foreach($this->_items as $item){
             $output .= '<li ' . (($this->_activeSlug == $item->slug) ? 'class="active"' : "") . '><a href="' . Uri::makeUriFromId($item->slug) . '">' . __($item->text()) . '</a></li>';
 
-            if(isset($item->children)) {
+            if($item) {
                 $output .= $this->subMenuRender($item->children);
             }
         }

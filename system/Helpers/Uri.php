@@ -86,8 +86,8 @@ class Uri
         }
 
         return $slug;
-
     }
+
     public static function getIdFromSlug($slug){
 
         $pos = strpos($slug, '#');

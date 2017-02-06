@@ -54,8 +54,8 @@ class Uri
 
         // Если это Домашная страница
         if($url == '/'){
-            if(Lang::instance()->getCurrentLangExceptCurrent()['iso']) {
-                $url = '/' . Lang::instance()->getCurrentLangExceptCurrent()['iso'];
+            if(Lang::instance()->getCurrentLangExceptPrimary()['iso']) {
+                $url = '/' . Lang::instance()->getCurrentLangExceptPrimary()['iso'];
             }
         }else{
             $url = $url . App::URI_EXT;

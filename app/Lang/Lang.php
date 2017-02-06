@@ -129,7 +129,7 @@ class Lang {
     /**
      * @return mixed
      */
-    public function getCurrentLangExceptCurrent()
+    public function getCurrentLangExceptPrimary()
     {
         return $this->getCurrentLangExcept($this->_primaryLang['iso']);
     }

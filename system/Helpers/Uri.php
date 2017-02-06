@@ -44,8 +44,15 @@ class Uri
             return '/' . Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'];
         }
 
-        // Приклепляет к УРЛ '/' . текуший язык . сам УРЛ . расширение сайта
-        return '/'.ltrim(Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'] . '/' . ltrim($uri, '/'),'/') . App::URI_EXT;
+        $uriId = '';
+
+        if(strpos($uri, '#')){
+            $uriId = '#' . self::getIdFromSlug($uri);
+            $uri = self::deleteIdFromSlug($uri);
+        }
+
+        // Приклепляет к УРЛ '/' . текуший язык . сам УРЛ . расширение сайта . ИД в УРЛ
+        return '/'.ltrim(Lang::instance()->getCurrentLangExceptPrimary()['iso'] . '/' . ltrim($uri, '/'),'/') . App::URI_EXT . $uriId;
 //        return '/'.ltrim(implode('/', [Lang::instance()->getCurrentLangExcept(Lang::instance()->getPrimaryLang()['iso'])['iso'], ltrim($uri, '/')]),'/') . App::URI_EXT;
     }
 

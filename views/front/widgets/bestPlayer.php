@@ -13,11 +13,11 @@
     <div class="best_player_content">
         <h3><?=__('Zhirayr')?> <?=__('Margaryan')?></h3>
         <div class="best_player_images_wrapper">
-            <img src="/uploads/tmp/Jhirayr_ARM_BackFLAG.png" alt="best_player" />
+            <img src="/uploads/tmp/Valter_ARMBackFLAG.png" alt="best_player" />
         </div>
         <div class="best_player_right">
             <div class="best_player_info">
-                <span><?=__('Instat Index')?> 231<br> <?=__('Goals')?> 0<br> <?=__('Shots')?> 2</span>
+                <span><?=__('Instat Index')?> 157<br> <?=__('Goals')?> 1<br> <?=__('Shots')?> 2</span>
 <!--                <span class="best-player-goalkeeper">--><?//=__('Saves')?><!-- 2<br> --><?//=__('Passes')?><!-- 62 (87 %)<br> --><?//=__('Fight in the air')?><!-- 2 (100 %)</span>-->
             </div>
             <div class="best_player_multiple clearfix">

@@ -17,7 +17,7 @@ use Helpers\Uri;
     </div>
     <div class="panel-body">
         <div class="group container-fluid">
-            <form action="" method="post" id="submit">
+            <form action="" method="post" id="submit" enctype="multipart/form-data">
                 <div class="row col-sm-5 pull-right">
                     <div class="form-group col-sm-13">
                         <label for="alias">Statistic on Instat PDF File</label>

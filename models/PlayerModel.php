@@ -11,11 +11,11 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class PlayerModel extends Eloquent
 {
-    public $timestamps = false;
+    public $timestamps = true;
 
     protected $table = 'players';
 
-    protected $fillable = ['first_name_id', 'last_name_id', 'team_id', 'country_id', 'position_id', 'photo_id', 'status', 'number', 'place', 'slug'];
+    protected $fillable = ['first_name_id', 'last_name_id', 'team_id', 'country_id', 'position_id', 'photo_id', 'status', 'number', 'place', 'slug', 'height', 'weight', 'was_born', 'article_id'];
 
 
     public function firstName()
@@ -41,6 +41,11 @@ class PlayerModel extends Eloquent
     public function country()
     {
         return $this->belongsTo('CountryModel', 'country_id')->first();
+    }
+
+    public function article()
+    {
+        return $this->belongsTo('ArticleModel', 'article_id')->first();
     }
 
     public function position()

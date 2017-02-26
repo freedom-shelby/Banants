@@ -34,9 +34,9 @@ use Carbon\Carbon;
                 <td><?= $data->getAwayTeam()->on_target ?></td>
             </tr>
             <tr>
-                <td><?= $data->getHomeTeam()->possession ?></td>
+                <td><?= $data->getHomeTeam()->possession ?>%</td>
                 <td><?= __('Possession') ?></td>
-                <td><?= $data->getAwayTeam()->possession ?></td>
+                <td><?= $data->getAwayTeam()->possession ?>%</td>
             </tr>
             <tr>
                 <td><?= $data->getHomeTeam()->passes ?></td>

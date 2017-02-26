@@ -5,6 +5,9 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+use Helpers\Uri;
+
 ?>
 <div class="banner_team1">
     <div class="team1_logo">
@@ -17,9 +20,11 @@
     </div>
     <div class="match-score-info">
         <p>
-            <b>
-                <span><?= $item->home()->score ?></span> <span>-</span>  <span><?= $item->away()->score ?></span>
-            </b>
+            <a href="<?= Uri::makeUriFromId($item->slug()) ?>">
+                <b>
+                    <span><?= $item->home()->score ?></span> <span>-</span>  <span><?= $item->away()->score ?></span>
+                </b>
+            </a>
         </p>
     </div>
     <div class="team1_logo">

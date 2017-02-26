@@ -13,6 +13,8 @@ use Football\Tournaments\Types\AbstractType;
 
 class EventModel extends Eloquent
 {
+    const SLUG = 'event/';
+
     public $timestamps = true;
 
     protected $table = 'events';
@@ -84,6 +86,11 @@ class EventModel extends Eloquent
     public function defaultImage()
     {
         return $this->belongsTo('PhotoModel', 'photo_id')->first();
+    }
+
+    public function slug()
+    {
+        return static::SLUG . $this->slug;
     }
 
 //    public function homeStatistic()

@@ -841,6 +841,13 @@ h1, h2, h3, h4, h5, h5, h6 {
     line-height: 0.9;
     font-family: Arial, 'Segoe UI';
 }
+.header_right .match-score-info a{
+    text-decoration: none;
+    color: #044980;
+}
+.header_right .match-score-info a:hover{
+    text-decoration: underline;
+}
 
 .header_right .banner_team1 .match-score-info{
     vertical-align: middle;
@@ -4972,6 +4979,9 @@ span.tournament-link{
     font-weight: normal;
     padding: 5px;
 }
+.static-table .team-column{
+    width: 170px;
+}
 .static-table table td{
     padding: 4px;
 }
@@ -5564,6 +5574,12 @@ span.tournament-link{
     text-align: center;
     vertical-align: middle;
     display: inline-block;
+}
+.last-round-events .match-column .match-row a{
+    text-decoration: none;
+}
+.last-round-events .match-column .match-row a:hover{
+    text-decoration: underline;
 }
 .last-round-events span{
     color: #ffffff;

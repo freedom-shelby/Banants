@@ -30,7 +30,9 @@ use Football\Tournaments\Tournament;
                         <span class=""><?= __($item->home()->team()->shortName()) ?></span>
                     </div>
                     <div class="result match-row">
-                        <span><?= $item->home()->score ?> - <?= $item->away()->score ?></span>
+                        <a href="<?= Uri::makeUriFromId($item->slug()) ?>">
+                            <span><?= $item->home()->score ?> - <?= $item->away()->score ?></span>
+                        </a>
                     </div>
                     <div class="match-row">
                         <img src=<?= Imagefly::imagePath($item->away()->team()->defaultImage()->path, 'w30-q65') ?> alt="">

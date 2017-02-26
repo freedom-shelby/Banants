@@ -12,8 +12,10 @@ namespace Widgets\Widget;
 restrictAccess();
 
 
+use Football\Tournaments\Types\AbstractType;
 use Widgets\AbstractWidget;
 use View;
+use EventModel;
 
 class LastMatchesAnons extends AbstractWidget{
 
@@ -42,6 +44,11 @@ class LastMatchesAnons extends AbstractWidget{
      */
     protected $_param;
 
+    /**
+     * @var EventModel
+     */
+    protected $_items;
+
 
     public function getPosition()
     {
@@ -55,11 +62,17 @@ class LastMatchesAnons extends AbstractWidget{
 
     public function render()
     {
-        return View::make($this->_template);
+        return View::make($this->_template)
+            ->with('items', $this->_items);
     }
 
     public function init($model)
     {
+        $this->_items = EventModel::orderBy('played_at', 'desc')
+            ->whereStatus(AbstractType::EVENT_STATUS_COMPLETED)
+            ->limit(2)
+            ->get();
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

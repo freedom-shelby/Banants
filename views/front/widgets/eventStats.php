@@ -19,9 +19,9 @@ use Carbon\Carbon;
     <div  class="static-table">
         <table class="table table-bordered">
             <tr>
-                <th><?= __($data->getHomeTeam()->team()->text()) ?></th>
+                <th class="team-column"><?= __($data->getHomeTeam()->team()->text()) ?></th>
                 <th></th>
-                <th><?= __($data->getAwayTeam()->team()->text()) ?></th>
+                <th class="team-column"><?= __($data->getAwayTeam()->team()->text()) ?></th>
             </tr>
             <tr>
                 <td><?= $data->getHomeTeam()->shots ?></td>
@@ -75,38 +75,38 @@ use Carbon\Carbon;
             </tr>
         </table>
     </div>
-    <p class="fild-name"><?= __('Statistics') ?></p>
-    <div class="diagram">
-        <div>
-            <div class='wr-diagram'>
-                <div id="1-diagram" data-home-team-score="85" data-away-team-score="65"></div>
-            </div>
-            <div>Голевые
-                передачи</div>
-        </div>
-        <div>
-            <div class='wr-diagram'>
-                <div id="1-diagram" data-home-team-score="45" data-away-team-score="65"></div>
-            </div>
-            <div>Голы
-            </div>
-        </div>
-        <div>
-            <div class='wr-diagram'>
-                <div id="1-diagram" data-home-team-score="55" data-away-team-score="65"></div>
-            </div>
-            <div>Удары
-            </div>
-        </div>
-        <div>
-            <div class='wr-diagram'>
-                <div id="1-diagram" data-home-team-score="85" data-away-team-score="65"></div>
-            </div>
-            <div>
-                Голевые
-                передачи
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+<!--    <p class="fild-name">--><?//= __('Statistics') ?><!--</p>-->
+<!--    <div class="diagram">-->
+<!--        <div>-->
+<!--            <div class='wr-diagram'>-->
+<!--                <div id="1-diagram" data-home-team-score="85" data-away-team-score="65"></div>-->
+<!--            </div>-->
+<!--            <div>Голевые-->
+<!--                передачи</div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <div class='wr-diagram'>-->
+<!--                <div id="1-diagram" data-home-team-score="45" data-away-team-score="65"></div>-->
+<!--            </div>-->
+<!--            <div>Голы-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <div class='wr-diagram'>-->
+<!--                <div id="1-diagram" data-home-team-score="55" data-away-team-score="65"></div>-->
+<!--            </div>-->
+<!--            <div>Удары-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <div class='wr-diagram'>-->
+<!--                <div id="1-diagram" data-home-team-score="85" data-away-team-score="65"></div>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                Голевые-->
+<!--                передачи-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="clearfix"></div>-->
+<!--    </div>-->
 </div>

@@ -19,12 +19,15 @@ use Carbon\Carbon;
 
     <? foreach ($items as $item): ?>
         <div class="content_top_right_info_blog clearfix">
-            <a href="<?= Uri::makeUriFromId($item->slug()) ?>" target="_blank">
+            <a href="<?= Uri::makeUriFromId($item->slug()) ?>">
                 <div class="content_top_right_info_blog_images">
                     <img src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w135-q52') ?>" alt="content_top_right_info_blog_images" />
                 </div>
                 <div class="content_top_right_info_blog_aside">
-                    <h4><?= __($item->homeTeam()->shortName()) ?> - <?= __($item->awayTeam()->shortName()) ?> 3:1</h4>
+                    <h4>
+                        <?= __($item->homeTeam()->shortName()) ?> - <?= __($item->awayTeam()->shortName()) ?>
+                        <?= $item->home()->score ?>:<?= $item->away()->score ?>
+                    </h4>
                     <span class="small_size_span"><?= __('There was') ?> <?= Carbon::parse($item->played_at)->format('d\\/m\\/Y') ?> <?= __('at') ?> <?= Carbon::parse($item->played_at)->format('H:i') ?></span>
                     <div>
                     <span>

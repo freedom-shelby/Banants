@@ -15,7 +15,7 @@ class EventTeamStatisticModel extends Eloquent
 
     protected $table = 'event_team_statistics';
 
-    protected $fillable = ['team_id', 'team_formation_id', 'score', 'has_additional_time', 'created_at', 'updated_at'];
+    protected $fillable = ['team_id', 'team_formation_id', 'score', 'shots', 'on_target', 'possession', 'passes', 'target_passing', 'offsides', 'corners', 'fouls', 'yellow_cards', 'red_cards', 'has_additional_time', 'created_at', 'updated_at'];
 
 
     public function team()

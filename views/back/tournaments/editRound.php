@@ -27,7 +27,7 @@ use Helpers\Uri;
                 <? if (isset($events[$i])): ?>
                     <div class="team-line row">
                         <input type="hidden" name="events[<?= $i ?>][id]" value="<?= $events[$i]->id ?>">
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                             <select name="events[<?= $i ?>][home][team]" id="home-team-1" class="select-team form-control">
                                 <option value="0">Select Team</option>
 
@@ -68,7 +68,7 @@ use Helpers\Uri;
                                 <input type="number" name="events[<?= $i ?>][away][pen]" value="" min="0">
                             </div>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                             <select name="events[<?= $i ?>][away][team]" id="away-team-1" class="select-team form-control">
                                 <option value="0">Select Team</option>
 
@@ -77,6 +77,12 @@ use Helpers\Uri;
                                 <? endforeach ?>
 
                             </select>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="">
+                                <a href="<?= Uri::makeUriFromId('/Admin/Event/Statistic/'. $events[$i]->id)?>" class="btn btn-success">Stats</a>
+                                <a href="<?= Uri::makeUriFromId('/Admin/Event/Statistic/'. $events[$i]->id)?>" class="btn btn-info">Player Stats</a>
+                            </div>
                         </div>
                     </div>
                 <? else: ?>

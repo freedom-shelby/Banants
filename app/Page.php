@@ -30,6 +30,23 @@ class Page
     ];
 
     /**
+     * Храните экземпляр ядра
+     * @var self
+     */
+    private static $_instance;
+
+    private function __construct(){}
+
+    public static function instance()
+    {
+        if(empty(static::$_instance)){
+            static::$_instance = new static();
+        }
+
+        return static::$_instance;
+    }
+
+    /**
      * Добавление мета тега с атрибутом content
      * @param $name
      * @param $content
@@ -221,7 +238,8 @@ class Page
      * @param bool $withThemeSettings
      * @return string
      */
-    public function getHead($withThemeSettings = false){
+    public function getHead($withThemeSettings = false)
+    {
         $output = '<head>'.PHP_EOL;
         $output .= $this->getAttributes();
         $output .= $this->getCharset();

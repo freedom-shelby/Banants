@@ -8,10 +8,11 @@
 namespace Front;
 restrictAccess();
 
-
 use View;
 use \Page as Page;
 use Lang\Lang as Lang;
+use Theme;
+
 
 class Front extends \Base{
 
@@ -20,7 +21,7 @@ class Front extends \Base{
     public function __construct(array $requestParams)
     {
         parent::__construct($requestParams);
-        $this->_page = new Page();
+        $this->_page = Page::instance();
     }
 
     public function setLayout(){
@@ -31,7 +32,7 @@ class Front extends \Base{
     {
         if($this->_page){
             $this->_page->setLang(Lang::instance()->getCurrentLang()['iso']);
-            \Theme::setPage($this->_page);
+            Theme::setPage($this->_page);
         }
         parent::dispose();
     }

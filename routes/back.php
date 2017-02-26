@@ -74,6 +74,7 @@ Router::any(['/Admin/Tournament/Edit/Team/{id}', 'rules' => ['id' => '[0-9]+'], 
 Router::any(['/Admin/Tournament/Edit/Round/{id}/{number}', 'rules' => ['id' => '[0-9]+', 'number' => '[0-9]+'], 'as' => 'back.tournament.edit.round'],'Back\Tournaments@anyEditRound');
 Router::get(['/Admin/Tournament/List/Rounds/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.tournament.list.rounds'],'Back\Tournaments@getListRounds');
 Router::get(['/Admin/Tournament/List', 'as' => 'back.tournament.list'],'Back\Tournaments@getList');
+Router::any(['/Admin/Event/Statistic/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.event.statistic.edit'],'Back\Events@anyEdit');
 
 /**
  * Ajax

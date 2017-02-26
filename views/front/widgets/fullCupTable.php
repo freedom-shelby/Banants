@@ -78,7 +78,7 @@
                         <td class="cef">-</td>
                     </tr>
                     <tr class="win">
-                        <td><img alt="" src="/media/assets/images/team_logo/erebuni-logo.png" /> <?= __('Erebuni') ?></td>
+                        <td><img alt="" src="/media/assets/images/team_logo/kotayk.png" /> <?= __('Kotayk') ?></td>
                         <td class="cef">0</td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>

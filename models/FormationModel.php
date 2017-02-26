@@ -17,6 +17,6 @@ class FormationModel extends Eloquent
 
 //    protected $guarded = ['id'];
 
-    protected $fillable = ['type'];
+    protected $fillable = ['type', 'title'];
 
 }

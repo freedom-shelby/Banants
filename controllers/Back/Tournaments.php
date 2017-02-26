@@ -35,7 +35,7 @@ class Tournaments extends Back
     const IMAGE_PATH = 'uploads/images/football/tournament';
 
     /**
-     * Добавления Галерии
+     * Добавления Турнамента
      */
     public function anyAdd()
     {

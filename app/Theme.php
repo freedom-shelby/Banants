@@ -222,7 +222,4 @@ class Theme
     public static function setPage($page){
         static::$_page = $page;
     }
-
-
-
 }

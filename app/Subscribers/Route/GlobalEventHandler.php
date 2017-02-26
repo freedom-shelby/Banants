@@ -17,8 +17,11 @@ class GlobalEventHandler
      */
     public static function onInvalidRoute($route){
         //  Очищает (стирает) буфер вывода и отключает буферизацию вывода
-        ob_end_clean();
-
+        if (ob_get_contents()) ob_end_clean();
+//echo "<pre>";
+//print_r(debug_backtrace());
+//echo "</pre>";
+//die;
         header('HTTP/1.0 404 Not Found');
         die("<h1>404 Not Found</h1>The page that you have requested could not be found.");
     }

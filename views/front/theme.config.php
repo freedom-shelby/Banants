@@ -16,6 +16,7 @@ return array(
             array('file' => 'normalize.css'),
             array('file' => 'owl.carousel.css'),
             array('file' => 'jquery.fancybox.css'),
+            array('file' => 'percircle.css'),
             array('file' => 'style.css?ver=1.0.10'),
 //            array('file' => 'jquery.bxslider.css'),
         ),
@@ -29,6 +30,7 @@ return array(
             array('file' => 'jquery-ui-1.10.4.custom.min.js'),
             array('file' => 'jquery.fancybox.pack.js'),
             array('file' => 'custom/check.incognito.mode.js'),
+            array('file' => 'percircle.js'),
             array('file' => 'custom/scripts.js'),
             array('file' => 'jquery.bxslider.min.js'),
         )

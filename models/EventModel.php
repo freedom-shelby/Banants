@@ -19,7 +19,7 @@ class EventModel extends Eloquent
 
     protected $dates = ['played_at'];
 
-    protected $fillable = ['tournament_id', 'home_id', 'away_id',  'home_team_id', 'away_team_id', 'slug', 'winner', 'status', 'round', 'played_at', 'started_at', 'ended_at'];
+    protected $fillable = ['tournament_id', 'home_id', 'away_id',  'home_team_id', 'away_team_id', 'slug', 'photo_id', 'winner', 'status', 'round', 'played_at', 'started_at', 'ended_at'];
 
 
     public function isCompleted()
@@ -76,6 +76,14 @@ class EventModel extends Eloquent
     public function awayModel()
     {
         return $this->belongsTo('EventTeamStatisticModel', 'away_id');
+    }
+
+    /**
+     * Загрузка картинки по-умолчанию
+     */
+    public function defaultImage()
+    {
+        return $this->belongsTo('PhotoModel', 'photo_id')->first();
     }
 
 //    public function homeStatistic()

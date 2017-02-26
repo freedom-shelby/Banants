@@ -19,6 +19,8 @@ use Cartalyst\Sentinel\Native\Facades\Sentinel;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Message;
 use Event;
+use EventModel;
+use Carbon\Carbon;
 
 
 class Pages extends Front
@@ -61,6 +63,23 @@ class Pages extends Front
         {
             call_user_func(array($this, $method));
         }
+    }
+
+    public function anyEvent()
+    {
+        $param = $this->getRequestParam('param');
+
+        $data = EventModel::whereSlug($param)->first();
+
+        if(! $data) Event::fire('App.invalidRoute', $param);
+
+        $title = __($data->homeTeam()->text()) .' '. __('against') .' '. __($data->awayTeam()->text());
+        $this->_page->setTitle($title .' '. Carbon::parse($data->played_at)->format('d\\/m\\/Y H:i'));
+
+        $content = View::make('front/content/pages/event')
+            ->with('title', $title);
+
+        $this->_page->appendToContent($content);
     }
 
     public function getTestHome()

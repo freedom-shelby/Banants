@@ -5,6 +5,10 @@
  * User: Arsen
  * Date: 11/6/2015
  * Time: 3:20 PM
+ *
+ * @var $title string
+ * @var $items array
+ * @var $item \Football\Player
  */
 
 use Helpers\Uri;
@@ -34,22 +38,24 @@ use Ivliev\Imagefly\Imagefly;
                     <div id="item_tabs_list1" class="item_tabs_list">
 
                         <?foreach ($items as $item):?>
-                            <div class="team_item">
-                                <div class="team_item_images pictures_wrapper">
-                                    <img class="flag_icon" src="<?=$item->getCountry()->flag?>" alt="flag">
-                                    <div class="player_number"><?=$item->getNumber()?></div>
-                                    <div class="player_wrapper">
-                                        <img src="<?=Imagefly::imagePath($item->getDefaultImage(), 'w140-q52')?>" alt="player">
+                            <a href="<?= Uri::makeUriFromId($item->getSlug()) ?>">
+                                <div class="team_item">
+                                    <div class="team_item_images pictures_wrapper">
+                                        <img class="flag_icon" src="<?=$item->getCountry()->flag?>" alt="flag">
+                                        <div class="player_number"><?=$item->getNumber()?></div>
+                                        <div class="player_wrapper">
+                                            <img src="<?=Imagefly::imagePath($item->getDefaultImage(), 'w140-q52')?>" alt="player">
+                                        </div>
+                                    </div>
+                                    <div class="team_item_title">
+                                        <h3><?=__($item->getFullName())?></h3>
+                                    </div>
+                                    <div class="team_item_bottom">
+                                        <h4><?=__($item->getPosition()->title())?></h4>
+                                        <img src="<?=$item->getPosition()->icon?>" alt="player icon">
                                     </div>
                                 </div>
-                                <div class="team_item_title">
-                                    <h3><?=__($item->getFullName())?></h3>
-                                </div>
-                                <div class="team_item_bottom">
-                                    <h4><?=__($item->getPosition()->title())?></h4>
-                                    <img src="<?=$item->getPosition()->icon?>" alt="goalkeeper icon">
-                                </div>
-                            </div>
+                            </a>
                         <?endforeach ?>
 
                     </div>

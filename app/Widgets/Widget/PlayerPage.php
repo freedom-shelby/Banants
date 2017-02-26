@@ -15,8 +15,11 @@ restrictAccess();
 use Widgets\AbstractWidget;
 use View;
 use EventModel;
+use PlayerModel;
 use Router;
 use Football\Events\EventManager;
+use Football\Player;
+
 
 class PlayerPage extends AbstractWidget{
 
@@ -78,8 +81,10 @@ class PlayerPage extends AbstractWidget{
     {
         $param = Router::getCurrentRoute()->getActionVariable('param');
 
-        $event = EventModel::whereSlug($param)->first();
-        $this->_data = EventManager::factory($event);
+        $item = PlayerModel::whereSlug($param)->first();
+
+        $this->_data = new Player;
+        $this->_data->init($item);
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

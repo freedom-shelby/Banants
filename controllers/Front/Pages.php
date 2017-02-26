@@ -20,6 +20,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 use Message;
 use Event;
 use EventModel;
+use PlayerModel;
 use Carbon\Carbon;
 
 
@@ -80,6 +81,18 @@ class Pages extends Front
             ->with('title', $title);
 
         $this->_page->appendToContent($content);
+    }
+
+    public function anyPlayers()
+    {
+        $param = $this->getRequestParam('param');
+
+        $data = PlayerModel::whereSlug($param)->first();
+
+        if(! $data) Event::fire('App.invalidRoute', $param);
+
+        $title = $data->fullName();
+        $this->_page->setTitle($title);
     }
 
     public function getTestHome()

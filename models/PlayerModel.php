@@ -11,11 +11,15 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class PlayerModel extends Eloquent
 {
+    const SLUG = 'players/';
+
     public $timestamps = true;
 
     protected $table = 'players';
 
     protected $fillable = ['first_name_id', 'last_name_id', 'team_id', 'country_id', 'position_id', 'photo_id', 'status', 'number', 'place', 'slug', 'height', 'weight', 'was_born', 'article_id'];
+
+    protected $dates = ['was_born'];
 
 
     public function firstName()
@@ -26,6 +30,16 @@ class PlayerModel extends Eloquent
     public function lastName()
     {
         return $this->belongsTo('EntityModel', 'last_name_id')->first()->text;
+    }
+
+    public function fullName($separator = ' ')
+    {
+        return __($this->firstName()) . $separator . __($this->lastName());
+    }
+
+    public function slug()
+    {
+        return static::SLUG . $this->slug;
     }
 
     public function firstNameModel()

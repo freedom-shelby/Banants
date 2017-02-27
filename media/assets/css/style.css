@@ -5137,6 +5137,7 @@ span.tournament-link{
 /**/
 .player-info{
     padding-bottom: 18px;
+
 }
 .player-info .player-foto{
     background: url(../images/player-info-bg.png) no-repeat left top;
@@ -5153,6 +5154,30 @@ span.tournament-link{
     font-size: 17px;
     margin: 25px 0 5px 0;
 }
+.player-info  .player-bg{
+    position: relative;
+    background: url(../images/pat.jpg) no-repeat;
+    width: 100%;
+    height: 265px;
+}
+
+.player-info  .player-info-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 265px;
+    line-height: 263px;
+}
+
+.player-info  .player-info-box img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 190px;
+    height: 190px;
+}
+
 .player-info .info{
     background: url(../images/angle.png) no-repeat left top;
     color: #fff;

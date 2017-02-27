@@ -31,11 +31,11 @@ use Carbon\Carbon;
                 <?= __($data->getLastName()) ?>
             </h2>
             <div class="wr-p">
-                <p>Амплуа: <?= __($data->getPosition()->title()) ?></p>
-                <p>Возраст: <?= $data->getAge() ?> лет</p>
-                <p>Дата рождения: <?= $data->getWasBorn() ?></p>
-                <p>Рост: <?= $data->getHeight() ?> см</p>
-                <p>Вес: <?= $data->getWeight() ?> кг</p>
+                <p><?= __('Position') ?>: <?= __($data->getPosition()->title()) ?></p>
+                <p><?= __('Age') ?>: <?= $data->getAge() ?> <?= __('Years') ?></p>
+                <p><?= __('Date of Birth') ?>: <?= $data->getWasBorn() ?></p>
+                <p><?= __('Height') ?>: <?= $data->getHeight() ?> <?= __('cm') ?></p>
+                <p><?= __('Weight') ?>: <?= $data->getWeight() ?> <?= __('kg') ?></p>
             </div>
         </div>
         <div class="clearfix"></div>

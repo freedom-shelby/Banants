@@ -39,6 +39,13 @@
           </excludedPaths>
         </serverdata>
       </paths>
+      <paths name="Dto">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="IVR">
         <serverdata>
           <mappings>
@@ -54,6 +61,13 @@
         </serverdata>
       </paths>
       <paths name="MailTest">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ManagementPROD">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -103,6 +117,13 @@
         </serverdata>
       </paths>
       <paths name="shop">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="visualivrapp">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

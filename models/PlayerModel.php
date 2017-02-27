@@ -9,9 +9,10 @@ restrictAccess();
  */
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
+
 class PlayerModel extends Eloquent
 {
-    const SLUG = 'players/';
+    const SLUG = 'players';
 
     public $timestamps = true;
 
@@ -39,7 +40,7 @@ class PlayerModel extends Eloquent
 
     public function slug()
     {
-        return static::SLUG . $this->slug;
+        return static::SLUG .'/'. $this->slug;
     }
 
     public function firstNameModel()
@@ -75,4 +76,32 @@ class PlayerModel extends Eloquent
         return $this->belongsTo('PhotoModel', 'photo_id')->first();
     }
 
+    protected static function boot() {
+        parent::boot();
+
+        static::created(function($model) { // before create() method call this
+
+            $slug = strtolower($model->fullName('_') .'_'. $model->number); // todo:: add slugable CLASS by DateTime
+
+            if(PlayerModel::whereSlug($slug)->first())
+            {
+                $slug .= uniqid();
+            }
+
+            $model->update(['slug' => $slug]);
+        });
+
+        static::updated(function($model) { // before create() method call this
+
+            $slug = strtolower($model->fullName('_') .'_'. $model->number); // todo:: add slugable CLASS by DateTime
+
+            // Если есть модел по слагу и не равно текущей
+            if(PlayerModel::whereSlug($slug)->first() and PlayerModel::whereSlug($slug)->first()->id != $model->id)
+            {
+                $slug .= uniqid();
+            }
+
+            $model->update(['slug' => $slug]);
+        });
+    }
 }

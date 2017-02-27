@@ -107,8 +107,8 @@ use Helpers\Uri;
                                 <div class='input-group date datetimepicker'>
                                     <input type='text' name="events[<?= $i ?>][date]" class="form-control" />
                                     <span class="input-group-addon">
-                                <span class="glyphicon glyphicon-calendar"></span>
-                            </span>
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
                                 </div>
                             </div>
                             <div class="scores-additional add">

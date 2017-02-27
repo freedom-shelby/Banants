@@ -15,7 +15,6 @@ use Carbon\Carbon;
 ?>
 
 <div class="inner_content_wrapper">
-    <!--inner_content-->
     <div class="player-info">
         <div class="player-foto">
             <img src="<?= Imagefly::imagePath($data->getDefaultImage(), 'w140-q52') ?>" alt="player">
@@ -40,16 +39,17 @@ use Carbon\Carbon;
         </div>
         <div class="clearfix"></div>
     </div>
-<!--    <div class="inner_content contener-white">-->
-<!---->
-<!--        <p class="fild-name">Биография</p>-->
-<!--        <p  class="wr-15px">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.-->
-<!--            Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также реальное распределение букв и пробелов в абзацах,-->
-<!--            которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.." Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию.-->
-<!--            <br /><br />-->
-<!--            Kлючевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно (например, юмористические варианты).-->
-<!--            Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда приемлемые модификации, например, юмористические вставки или слова, </p>-->
-<!---->
+    <div class="inner_content contener-white">
+
+        <? if ($data->getArticle()): ?>
+            <p class="fild-name"><?= __('Biography') ?></p>
+            <p  class="wr-15px">
+
+                <?= $data->getArticle()->desc ?>
+
+            </p>
+        <? endif ?>
+
 <!--        <p class="fild-name">Последние сыгранные игры</p>-->
 <!--        <div  class="static-table">-->
 <!--            <table>-->
@@ -162,7 +162,7 @@ use Carbon\Carbon;
 <!--            <div class="clearfix"></div>-->
 <!--        </div>-->
 <!---->
-<!--    </div>-->
+    </div>
 <!--    <div class="videos">-->
 <!--        <div class="wr-video">-->
 <!--            <img alt="" src="images/video.jpg" />-->
@@ -203,100 +203,100 @@ use Carbon\Carbon;
 <!---->
 <!--            <div class="news_list_images">-->
 <!--                <a href="#"> <img alt="news_list_images" src="images/news_list_images1.jpg"></a>-->
-<!--            </div><!-- news_list_images -->-->
+<!--            </div>-->
 <!--            <div class="news_list_info">-->
 <!--                <h3><a href="#">Амбардзум Карапетян получил красную карточку за оскорбление судьи!</a></h3>-->
 <!--                <div class="news_list_middle">-->
 <!--                    <span>17:46 Сегодня</span>-->
 <!--                    <span class="news_list_watch">-->
 <!--                                                <span><i class="watch_icon"></i> 1427</span>-->
-<!--                                            </span><!-- news_list_watch -->-->
-<!--                </div><! news_list_middle -->-->
+<!--                                            </span>-->
+<!--                </div>
 <!--                <a href="#"><span>-->
 <!--                                            Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...-->
 <!--                                        </span>-->
 <!--                </a>-->
-<!--            </div><!-- news_list_info -->-->
+<!--            </div>-->
 <!---->
 <!--        </div>-->
 <!--        <div class="news_list clearfix">-->
 <!---->
 <!--            <div class="news_list_images">-->
 <!--                <a href="#"> <img alt="news_list_images" src="images/news_list_images1.jpg"></a>-->
-<!--            </div><!-- news_list_images -->-->
+<!--            </div>-->
 <!--            <div class="news_list_info">-->
 <!--                <h3><a href="#">Амбардзум Карапетян получил красную карточку за оскорбление судьи!</a></h3>-->
 <!--                <div class="news_list_middle">-->
 <!--                    <span>17:46 Сегодня</span>-->
 <!--                    <span class="news_list_watch">-->
 <!--                                                <span><i class="watch_icon"></i> 1427</span>-->
-<!--                                            </span><!-- news_list_watch -->-->
-<!--                </div><! news_list_middle -->-->
+<!--                                            </span>-->
+<!--                </div>
 <!--                <a href="#"><span>-->
 <!--                                            Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...-->
 <!--                                        </span>-->
 <!--                </a>-->
-<!--            </div><!-- news_list_info -->-->
+<!--            </div>-->
 <!---->
 <!--        </div>-->
 <!--        <div class="news_list clearfix">-->
 <!---->
 <!--            <div class="news_list_images">-->
 <!--                <a href="#"> <img alt="news_list_images" src="images/news_list_images1.jpg"></a>-->
-<!--            </div><!-- news_list_images -->-->
+<!--            </div>-->
 <!--            <div class="news_list_info">-->
 <!--                <h3><a href="#">Амбардзум Карапетян получил красную карточку за оскорбление судьи!</a></h3>-->
 <!--                <div class="news_list_middle">-->
 <!--                    <span>17:46 Сегодня</span>-->
 <!--                    <span class="news_list_watch">-->
 <!--                                                <span><i class="watch_icon"></i> 1427</span>-->
-<!--                                            </span><!-- news_list_watch -->-->
-<!--                </div><! news_list_middle -->-->
+<!--                                            </span>-->
+<!--                </div>
 <!--                <a href="#"><span>-->
 <!--                                            Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...-->
 <!--                                        </span>-->
 <!--                </a>-->
-<!--            </div><!-- news_list_info -->-->
+<!--            </div>-->
 <!---->
 <!--        </div>-->
 <!--        <div class="news_list clearfix">-->
 <!---->
 <!--            <div class="news_list_images">-->
 <!--                <a href="#"> <img alt="news_list_images" src="images/news_list_images1.jpg"></a>-->
-<!--            </div><!-- news_list_images -->-->
+<!--            </div>-->
 <!--            <div class="news_list_info">-->
 <!--                <h3><a href="#">Амбардзум Карапетян получил красную карточку за оскорбление судьи!</a></h3>-->
 <!--                <div class="news_list_middle">-->
 <!--                    <span>17:46 Сегодня</span>-->
 <!--                    <span class="news_list_watch">-->
 <!--                                                <span><i class="watch_icon"></i> 1427</span>-->
-<!--                                            </span><!-- news_list_watch -->-->
-<!--                </div><! news_list_middle -->-->
+<!--                                            </span>-->
+<!--                </div>
 <!--                <a href="#"><span>-->
 <!--                                            Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...-->
 <!--                                        </span>-->
 <!--                </a>-->
-<!--            </div><!-- news_list_info -->-->
+<!--            </div>-->
 <!---->
 <!--        </div>-->
 <!--        <div class="news_list clearfix">-->
 <!---->
 <!--            <div class="news_list_images">-->
 <!--                <a href="#"> <img alt="news_list_images" src="images/news_list_images1.jpg"></a>-->
-<!--            </div><!-- news_list_images -->-->
+<!--            </div>-->
 <!--            <div class="news_list_info">-->
 <!--                <h3><a href="#">Амбардзум Карапетян получил красную карточку за оскорбление судьи!</a></h3>-->
 <!--                <div class="news_list_middle">-->
 <!--                    <span>17:46 Сегодня</span>-->
 <!--                    <span class="news_list_watch">-->
 <!--                                                <span><i class="watch_icon"></i> 1427</span>-->
-<!--                                            </span><!-- news_list_watch -->-->
-<!--                </div><! news_list_middle -->-->
+<!--                                            </span>-->
+<!--                </div>
 <!--                <a href="#"><span>-->
 <!--                                            Во время напрежённого развития событий в матче, Амбардзум Карапетян не выдержал и оскорбил судью Антонио Хорхе за не вено поставленный пенальти по мнению...-->
 <!--                                        </span>-->
 <!--                </a>-->
-<!--            </div><!-- news_list_info -->-->
+<!--            </div>-->
 <!---->
 <!--        </div>-->
 <!--    </div>-->

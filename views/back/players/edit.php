@@ -20,10 +20,10 @@ use Helpers\Uri;
             <form method="post" enctype="multipart/form-data" id="form">
                 <div class="group container-fluid">
                     <div class="row col-sm-6 pull-right">
-                        <div class="form-group col-sm-13">
-                            <label for="alias">Slug</label>
-                            <input type="text" name="slug" value="<?=$item->slug?>" class="form-control" id="slug" placeholder="Slug" required>
-                        </div>
+<!--                        <div class="form-group col-sm-13">-->
+<!--                            <label for="alias">Slug</label>-->
+<!--                            <input type="text" name="slug" value="--><?//=$item->slug?><!--" class="form-control" id="slug" placeholder="Slug" required>-->
+<!--                        </div>-->
                         <div class="form-group col-sm-9">
                             <label for="country">Select Country</label>
                             <select name="country">
@@ -157,5 +157,9 @@ use Helpers\Uri;
             }]
         });
 
+        $('.datetimepicker').datetimepicker({
+            format: 'YYYY-MM-DD HH:mm:SS',
+            viewDate: moment(new Date()).hours(15).minutes(0).seconds(0).milliseconds(0)
+        });
     });
 </script>

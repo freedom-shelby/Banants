@@ -49,9 +49,12 @@ class Players extends Back
 
         if (Arr::get($this->getPostData(), 'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'position', 'country', 'number', 'status', 'content', 'image']);
-
-            try {
+            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'position', 'country', 'was_born', 'number', 'height', 'weight', 'status', 'content', 'image']);
+//echo "<pre>";
+//print_r($data);
+//echo "</pre>";
+//die;
+//            try {
                 // Транзакция для Записание данных в базу
                 Capsule::connection()->transaction(function () use ($data, $id) {
                     // Загрузка картинки
@@ -71,6 +74,8 @@ class Players extends Back
 
                     // Try to upload file
                     try {
+                        $imageId = null;
+
                         // Success!
                         $file->upload();
                         $image = '/' . static::IMAGE_PATH . '/' . $file->getNameWithExtension();
@@ -95,27 +100,63 @@ class Players extends Back
                         'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
                     ]);
 
-                    foreach ($data['content'] as $iso => $item) {
-                        $lang_id = Lang::instance()->getLang($iso)['id'];
-                        EntityTranslationModel::create([
-                            'text' => $item['first_name'],
-                            'lang_id' => $lang_id,
-                            'entity_id' => $firstNameEntity->id,
-                        ]);
-                    }
+//                    $lastNameEntity = EntityModel::create([
+//                        'text' => $data['last_name'],
+//                        'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+//                    ]);
 
-                    $lastNameEntity = EntityModel::create([
-                        'text' => $data['last_name'],
-                        'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                    $newArticle = ArticleModel::create([
+                        'slug' => 'players/'.uniqid(),
+                        'status' => $data['status'],
                     ]);
-
-                    foreach ($data['content'] as $iso => $item) {
+//
+                    $parent = ArticleModel::whereSlug(PlayerModel::SLUG)->first();
+//                    echo "<pre>";
+//                    print_r($parent->toArray());
+//                    echo "</pre>";
+//                    die;
+                    
+                    $newArticle->makeChildOf($parent);
+//echo "<pre>";
+//print_r($data);
+//echo "</pre>";
+//die;
+                    foreach($data['content'] as $iso => $item){
                         $lang_id = Lang::instance()->getLang($iso)['id'];
-                        EntityTranslationModel::create([
-                            'text' => $item['last_name'],
+
+                        if(! Lang::DEFAULT_LANGUAGE == $iso)
+                        {
+                            // Add First Name Translations
+                            EntityTranslationModel::create([
+                                'text' => $item['first_name'],
+                                'lang_id' => $lang_id,
+                                'entity_id' => $firstNameEntity->id,
+                            ]);
+//
+//                        // Add Last Name Translations
+//                        EntityTranslationModel::create([
+//                            'text' => $item['last_name'],
+//                            'lang_id' => $lang_id,
+//                            'entity_id' => $lastNameEntity->id,
+//                        ]);
+
+                            // Add Articles With Translations
+                            $fullName = $item['first_name'] .' '. $item['last_name'];
+                        }else{
+                            $fullName = $data['first_name'] .' '. $data['last_name'];
+                        }
+
+
+                        $content = ContentModel::create([
+                            'title' => $fullName,
+                            'crumb' => $fullName,
+                            'desc' => $item['desc'],
+                            'meta_title' => $fullName,
+                            'meta_desc' => $fullName,
+                            'meta_keys' => $fullName,
                             'lang_id' => $lang_id,
-                            'entity_id' => $lastNameEntity->id,
                         ]);
+                        $newArticle->contents()->attach($content);
                     }
 
                     Event::fire('Admin.entitiesUpdate');
@@ -124,20 +165,24 @@ class Players extends Back
                         'team_id' => $id,
                         'country_id' => $data['country'],
                         'position_id' => $data['position'],
-                        'slug' => $data['slug'],
+//                        'slug' => $data['slug'],
                         'number' => $data['number'],
+                        'height' => $data['height'],
+                        'weight' => $data['weight'],
+                        'was_born' => $data['was_born'],
                         'status' => $data['status'],
                         'photo_id' => $imageId,
                         'first_name_id' => $firstNameEntity->id,
-                        'last_name_id' => $lastNameEntity->id,
+//                        'last_name_id' => $lastNameEntity->id,
+                        'article_id' => $newArticle->id,
                     ]);
                 });
 
                 Message::instance()->success('Player has successfully added');
 
-            } catch (Exception $e) {
-                Message::instance()->warning('Player has don\'t added');
-            }
+//            } catch (Exception $e) {
+//                Message::instance()->warning('Player has don\'t added');
+//            }
         }
 
         $this->layout->content = View::make('back/players/add');
@@ -227,7 +272,7 @@ class Players extends Back
 
                     $model->update([
                         'team_id' => $data['team'],
-                        'slug' => $data['slug'],
+//                        'slug' => $data['slug'],
                         'number' => $data['number'],
                         'status' => $data['status'],
                         'country_id' => $data['country'],

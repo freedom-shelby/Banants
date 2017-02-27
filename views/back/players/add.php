@@ -17,11 +17,11 @@ use Lang\Lang;
         <form method="post" enctype="multipart/form-data" id="form">
             <div class="panel-body">
                 <div class="group container-fluid">
-                    <div class="row col-sm-6 pull-right">
-                        <div class="form-group col-sm-13">
-                            <label for="alias">Slug</label>
-                            <input type="text" name="slug" class="form-control" id="slug" placeholder="Slug" required>
-                        </div>
+                    <div class="row col-sm-5 pull-right">
+<!--                        <div class="form-group col-sm-13">-->
+<!--                            <label for="alias">Slug</label>-->
+<!--                            <input type="text" name="slug" class="form-control" id="slug" placeholder="Slug" required>-->
+<!--                        </div>-->
                         <div class="form-group col-sm-9">
                             <label for="country">Select Country</label>
                             <select name="country">
@@ -43,8 +43,31 @@ use Lang\Lang;
                             </select>
                         </div>
                         <div class="form-group col-sm-9">
+                            <div class="dates">
+                                <label for="was_born">Was Born</label>
+                                <div class='input-group date datetimepicker'>
+                                    <input type='text' name="was_born" class="form-control" />
+                                    <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-9">
                             <label for="number">Set Player Number</label>
                             <input type="number" name="number" class="form-control" id="number" placeholder="Number">
+                        </div>
+                        <div class="form-group col-sm-9">
+                            <label for="height">Set Player Height</label>
+                            <input type="text" name="height" class="form-control" id="height" placeholder="Height">
+                        </div>
+                        <div class="form-group col-sm-9">
+                            <label for="weight">Set Player Weight</label>
+                            <input type="text" name="weight" class="form-control" id="weight" placeholder="Weight">
+                        </div>
+                        <div class="form-group col-sm-9">
+                            <label class="control-label">Select File</label>
+                            <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
                         </div>
                         <div class="checkbox-inline form-group col-sm-13">
                             <label>
@@ -52,7 +75,7 @@ use Lang\Lang;
                             </label>
                         </div>
                     </div>
-                    <div class="row col-sm-6 pull-left">
+                    <div class="row col-sm-7 pull-left">
                         <div class="bordered">
                             <div>
                                 <div class="form-group col-sm-13">
@@ -101,14 +124,29 @@ use Lang\Lang;
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group col-sm-13">
-                            <label class="control-label">Select File</label>
-                            <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
-                        </div>
-                        <div class="form-group col-sm-13">
-                            <div class="btn-group" role="group" aria-label="...">
-                                <input type="submit" name="submit" value="Add Player" class="btn btn-primary">
-                            </div>
+                    </div>
+                    <div class="row col-sm-7 pull-left">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <?foreach(Lang::instance()->getLangs() as $iso => $lang):?>
+                                <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
+                            <?endforeach?>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <?foreach(Lang::instance()->getLangs() as $iso => $lang):?>
+                                <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="<?=$iso?>">
+                                    <div class="form-group col-sm-13">
+                                        <label for="desc">Biography</label>
+                                        <textarea name="content[<?=$iso?>][desc]" class="tinymce"></textarea>
+                                    </div>
+                                    <div class="form-group col-sm-13">
+                                        <div class="btn-group" role="group" aria-label="...">
+                                            <input type="submit" name="submit" value="Add Player" class="btn btn-primary">
+                                        </div>
+                                    </div>
+                                </div>
+                            <?endforeach?>
                         </div>
                     </div>
                 </div>
@@ -133,5 +171,10 @@ use Lang\Lang;
             allowedFileTypes: ["image"],
             previewClass: "bg-warning",
         });
+    });
+
+    $('.datetimepicker').datetimepicker({
+        format: 'YYYY-MM-DD HH:mm:SS',
+        viewDate: moment(new Date()).hours(15).minutes(0).seconds(0).milliseconds(0)
     });
 </script>

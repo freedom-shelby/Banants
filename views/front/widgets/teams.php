@@ -40,6 +40,10 @@ use Ivliev\Imagefly\Imagefly;
                         <?foreach ($items as $item):?>
                             <a href="<?= Uri::makeUriFromId($item->getSlug()) ?>">
                                 <div class="team_item">
+                                    <div class="team_item_header">
+                                        <div class="team_item_header_top"></div>
+                                        <div class="team_item_header_bottom"></div>
+                                    </div>
                                     <div class="team_item_images pictures_wrapper">
                                         <img class="flag_icon" src="<?=$item->getCountry()->flag?>" alt="flag">
                                         <div class="player_number"><?=$item->getNumber()?></div>
@@ -51,8 +55,13 @@ use Ivliev\Imagefly\Imagefly;
                                         <h3><?=__($item->getFullName())?></h3>
                                     </div>
                                     <div class="team_item_bottom">
-                                        <h4><?=__($item->getPosition()->title())?></h4>
-                                        <img src="<?=$item->getPosition()->icon?>" alt="player icon">
+                                        <div class="team_item_footer_top"></div>
+                                        <div class="team_item_footer_bottom"></div>
+                                        <div class="team_item_footer_desc">
+                                            <h4><?=__($item->getPosition()->title())?></h4>
+                                            <img src="<?=$item->getPosition()->icon?>" alt="player icon">
+                                        </div>
+
                                     </div>
                                 </div>
                             </a>

@@ -22,6 +22,7 @@
                     <h3><?=__('Aghekyan')?> <?=__('Grigor')?></h3>
                     <div class="best_player_images_wrapper">
                         <img src="/uploads/tmp/AghekyanGrigor_ARM_BackFLAG.png" alt="best_player" />
+                        <div class="cylinder"></div>
                     </div>
                     <div class="best_player_right">
                         <div class="best_player_info">
@@ -40,6 +41,7 @@
                     <h3> <?=__('Vahagn Ayvazyan')?></h3>
                     <div class="best_player_images_wrapper">
                         <img src="/uploads/tmp/VahagnAyvazyanWithFlag.png" alt="best_player" />
+                        <div class="cylinder"></div>
                     </div>
                     <div class="best_player_right">
                         <div class="best_player_info">

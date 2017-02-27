@@ -14,6 +14,7 @@
         <h3><?=__('Stepan')?> <?=__('Ghazaryan')?></h3>
         <div class="best_player_images_wrapper">
             <img src="/uploads/tmp/stepan_with_flag.png" alt="best_player" />
+            <div class="cylinder"></div>
         </div>
         <div class="best_player_right">
             <div class="best_player_info">

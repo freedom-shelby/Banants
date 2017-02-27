@@ -1780,6 +1780,23 @@ body.am .best_player .best-player-goalkeeper {
 
 .best_player_images_wrapper {
 	float: left;
+    position: relative;
+    overflow: hidden;
+}
+.best_player_images_wrapper .cylinder{
+    position: absolute;
+    top: 31px;
+    right: -56px;
+    background: red;
+    border-radius: 75% 10%;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: bottom;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
 }
 
 .right_bar .best_player_images_wrapper {
@@ -3691,7 +3708,7 @@ div.news_list h3 {
 	float: left;
 	position: relative;
 	padding-top: 17px;
-	padding-bottom: 54px;
+	/*padding-bottom: 54px;*/
 	margin-left: 5px;
 	margin-bottom: 7px;
 	text-align: center;
@@ -3704,14 +3721,44 @@ div.news_list h3 {
 	position: absolute;
 	top:0;
 	left: 0;
-	background-image: url('../images/team_item_top_icon.png');
-	background-repeat: no-repeat;
+	/*background-image: url('../images/team_item_top_icon.png');*/
+	/*background-repeat: no-repeat;*/
 }
 
 .team_item:hover:before {
-    background-image: url('../images/22.png');
+    /*background-image: url('../images/22.png');*/
 }
 
+.team_item_header{
+    position: relative;
+    width: 140px;
+    height: 17px;
+    background: #ffffff;
+}
+.team_item_header_top{
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    width: 140px;
+    height: 30px;
+    border-radius: 100% 100% 0% 0%;
+    background: #00345E;
+}
+.team_item_header_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 140px;
+    height: 5px;
+    background: #00345E;
+}
+
+.team_item:hover .team_item_header_top,
+.team_item:hover .team_item_header_bottom{
+    background: #FFE000;
+}
 /*
 .team_item:after {
 	content: '';
@@ -3728,16 +3775,48 @@ div.news_list h3 {
 
 .team_item_bottom {
 	width: 140px;
-	height: 54px;
-	position: absolute;
-	bottom: -5px;
-	left: 0;
-	background-image: url('../images/team_item_triangle1.png');
-	background-repeat: no-repeat;	
+    height: 52px;
+    position: relative;
+	/*background-image: url('../images/team_item_triangle1.png');*/
+	/*background-repeat: no-repeat;	*/
 	margin-bottom: 5px;
 	font-size: 14px;	
 	color:#fff;
 }
+.team_item_footer_top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 27px;
+    background: #00345E;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.team_item_footer_bottom{
+    position: absolute;
+    top: 26px;
+    left: 3px;
+    width: 0;
+    height: 0;
+    border-left: 67px solid transparent;
+    border-right: 67px solid transparent;
+    border-top: 25px solid #00345E;
+}
+
+.team_item_footer_desc{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.team_item:hover .team_item_footer_top{
+    background: #FFE000;
+}
+.team_item:hover .team_item_footer_bottom{
+    border-top: 25px solid #FFE000;
+}
+
 
 .team_item_images {
 	position: relative;

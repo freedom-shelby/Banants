@@ -17,9 +17,17 @@ use Carbon\Carbon;
 <div class="inner_content_wrapper">
     <div class="player-info">
         <div class="player-foto">
-            <img src="<?= Imagefly::imagePath($data->getDefaultImage(), 'w140-q52') ?>" alt="player">
-            <p class="prof"><?= __($data->getPosition()->title()) ?></p>
-            <img src="<?= $data->getPosition()->icon ?>" alt="player icon">
+            <div class="player-bg">
+                <div class="player-info-box">
+                    <img src="<?= Imagefly::imagePath($data->getDefaultImage(), 'w140-q52') ?>" alt="player">
+
+                </div>
+            </div>
+            <div class="player-info-footer">
+                <p class="prof"><?= __($data->getPosition()->title()) ?></p>
+                <img src="<?= $data->getPosition()->icon ?>" alt="player icon">
+            </div>
+
         </div>
         <div class="info">
 

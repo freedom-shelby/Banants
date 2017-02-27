@@ -140,13 +140,13 @@ use Lang\Lang;
                                         <label for="desc">Biography</label>
                                         <textarea name="content[<?=$iso?>][desc]" class="tinymce"></textarea>
                                     </div>
-                                    <div class="form-group col-sm-13">
-                                        <div class="btn-group" role="group" aria-label="...">
-                                            <input type="submit" name="submit" value="Add Player" class="btn btn-primary">
-                                        </div>
-                                    </div>
                                 </div>
                             <?endforeach?>
+                        </div>
+                        <div class="form-group col-sm-13">
+                            <div class="btn-group" role="group" aria-label="...">
+                                <input type="submit" name="submit" value="Add Player" class="btn btn-primary">
+                            </div>
                         </div>
                     </div>
                 </div>

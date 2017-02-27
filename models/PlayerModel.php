@@ -38,6 +38,11 @@ class PlayerModel extends Eloquent
         return __($this->firstName()) . $separator . __($this->lastName());
     }
 
+    public function defaultFullName($separator = ' ')
+    {
+        return $this->firstName() . $separator . $this->lastName();
+    }
+
     public function slug()
     {
         return static::SLUG .'/'. $this->slug;
@@ -81,7 +86,8 @@ class PlayerModel extends Eloquent
 
         static::created(function($model) { // before create() method call this
 
-            $slug = strtolower($model->fullName('_') .'_'. $model->number); // todo:: add slugable CLASS by DateTime
+            $slug = strtolower($model->defaultFullName('_') .'_'. $model->number); // todo:: add slugable CLASS by DateTime
+            $slug = str_replace(' ', '-', $slug); // todo:: add slugable CLASS by DateTime
 
             if(PlayerModel::whereSlug($slug)->first())
             {
@@ -91,17 +97,17 @@ class PlayerModel extends Eloquent
             $model->update(['slug' => $slug]);
         });
 
-        static::updated(function($model) { // before create() method call this
-
-            $slug = strtolower($model->fullName('_') .'_'. $model->number); // todo:: add slugable CLASS by DateTime
-
-            // Если есть модел по слагу и не равно текущей
-            if(PlayerModel::whereSlug($slug)->first() and PlayerModel::whereSlug($slug)->first()->id != $model->id)
-            {
-                $slug .= uniqid();
-            }
-
-            $model->update(['slug' => $slug]);
-        });
+//        static::updated(function($model) { // before create() method call this
+//
+//            $slug = strtolower($model->defaultFullName('_') .'_'. $model->number); // todo:: add slugable CLASS by DateTime
+//
+//            // Если есть модел по слагу и не равно текущей
+//            if(PlayerModel::whereSlug($slug)->first() and PlayerModel::whereSlug($slug)->first()->id != $model->id)
+//            {
+//                $slug .= uniqid();
+//            }
+//
+//            $model->update(['slug' => $slug]);
+//        });
     }
 }

@@ -19,7 +19,7 @@ use Carbon\Carbon;
         <div class="player-foto">
             <div class="player-bg">
                 <div class="player-info-box">
-                    <img src="<?= Imagefly::imagePath($data->getDefaultImage(), 'w140-q52') ?>" alt="player">
+                    <img src="<?= Imagefly::imagePath($data->getDefaultImage(), 'w190-q52') ?>" alt="player">
 
                 </div>
             </div>

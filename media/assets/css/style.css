@@ -1763,6 +1763,7 @@ div.tournament_table .tournament_table_active a {
 	right: 0;
 	background-image: url(../images/best_player_title_bg.png);
 	background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .best_player span {

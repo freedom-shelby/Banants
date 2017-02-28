@@ -11,6 +11,8 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class TournamentModel extends Eloquent
 {
+    const TOURNAMENT_ARTICLE = 'tournaments';
+
     public $timestamps = true;
 
     protected $table = 'tournaments';

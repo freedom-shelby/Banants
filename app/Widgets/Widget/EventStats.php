@@ -12,6 +12,7 @@ namespace Widgets\Widget;
 restrictAccess();
 
 
+use Football\Tournaments\Tournament;
 use Widgets\AbstractWidget;
 use View;
 use EventModel;

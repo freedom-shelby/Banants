@@ -137,4 +137,22 @@ class FriendlyMatches extends AbstractType {
             return ($homeScores > $awayScores) ? static::EVENT_HOME_WIN : static::EVENT_AWAY_WIN;
         }
     }
+
+    /**
+     * Проходит ли по раундам
+     * @return bool
+     */
+    public function hasRound()
+    {
+        return false;
+    }
+
+    /**
+     * Есть ли таблица
+     * @return bool
+     */
+    public function hasTable()
+    {
+        return false;
+    }
 } 

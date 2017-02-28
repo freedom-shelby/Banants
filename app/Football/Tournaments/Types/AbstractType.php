@@ -18,7 +18,7 @@ use EventModel;
 use Event;
 use Setting;
 use Helpers\Arr;
-
+use TournamentModel;
 
 abstract class AbstractType {
 
@@ -378,6 +378,44 @@ abstract class AbstractType {
     public function reSortingTable()
     {
 
+    }
+
+    /**
+     * Проходит ли по раундам
+     * @return bool
+     */
+    public function hasRound()
+    {
+        return true;
+    }
+
+    /**
+     * Есть ли таблица
+     * @return bool
+     */
+    public function hasTable()
+    {
+        return true;
+    }
+
+    /**
+     * Возврашает ури турнамента
+     * @return string
+     */
+    public function getUri()
+    {
+        // Проверяет Слуг для того чтобы страница турнамента не повторялся
+        if(Setting::instance()->groupHasVal('football', $this->getSlug()))
+        {
+            $settings = Setting::instance()->getGroupAsKeyVal('football');
+            $settings = array_reverse($settings);
+
+            $slug = Arr::get($settings, $this->getSlug());
+        }else {
+            $slug = TournamentModel::TOURNAMENT_ARTICLE .'/'. $this->getSlug();
+        }
+
+        return $slug;
     }
 
     /**

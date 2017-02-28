@@ -107,8 +107,8 @@ use Carbon\Carbon;
         <div>
             <div class='wr-diagram'>
                 <div id="1-diagram"
-                     data-home-team-score="<?= (int)($data->getHomeTeam()->fouls/ ($data->getHomeTeam()->fouls + $data->getAwayTeam()->fouls) * 100) ?>"
-                     data-away-team-score="<?= (int)($data->getAwayTeam()->fouls/ ($data->getAwayTeam()->fouls + $data->getHomeTeam()->fouls) * 100) ?>">
+                     data-home-team-score="<?= (int)($data->getHomeTeam()->fouls / ($data->getHomeTeam()->fouls + $data->getAwayTeam()->fouls) * 100) ?>"
+                     data-away-team-score="<?= (int)($data->getAwayTeam()->fouls / ($data->getAwayTeam()->fouls + $data->getHomeTeam()->fouls) * 100) ?>">
                 </div>
             </div>
             <div>

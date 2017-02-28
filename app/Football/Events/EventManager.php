@@ -8,11 +8,14 @@
 
 namespace Football\Events;
 
+use Football\Tournaments\Types\AbstractType;
 use InvalidArgumentException;
 use Football\Events\Statistics\PDFToStatistic;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use EventModel;
 use EventTeamStatisticModel;
+use Football\Tournaments\Tournament;
+
 
 class EventManager
 {
@@ -24,6 +27,7 @@ class EventManager
     protected $_defaultImage;
     protected $_homeTeam;
     protected $_awayTeam;
+    protected $_tournament;
 
     /**
      * Конструктор
@@ -66,6 +70,10 @@ class EventManager
         return $this;
     }
 
+    /**
+     * @param $model EventModel
+     * @return $this
+     */
     public function init($model)
     {
         $this->_model = $model;
@@ -73,6 +81,7 @@ class EventManager
         $this->_defaultImage = $model->defaultImage();
         $this->_homeTeam = $model->home();
         $this->_awayTeam = $model->away();
+        $this->_tournament = Tournament::factory($model->tournament());
 
         return $this;
     }
@@ -99,6 +108,14 @@ class EventManager
     public function getAwayTeam()
     {
         return $this->_awayTeam;
+    }
+
+    /**
+     * @return AbstractType
+     */
+    public function getTournament()
+    {
+        return $this->_tournament;
     }
 
     /**

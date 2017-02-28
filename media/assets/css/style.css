@@ -2376,6 +2376,7 @@ div.news_list h3 {
 	width: 135px;
 	float: left;
 	margin-right: 10px;
+    min-height: 90px;
 }
 
 .content_top_right_info_blog_images img {

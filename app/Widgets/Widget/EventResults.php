@@ -15,7 +15,7 @@ use Widgets\AbstractWidget;
 use View;
 use EventModel;
 use Router;
-
+use Football\Events\EventManager;
 
 class EventResults extends AbstractWidget{
 
@@ -77,7 +77,10 @@ class EventResults extends AbstractWidget{
     {
         $param = Router::getCurrentRoute()->getActionVariable('param');
 
-        $this->_data = EventModel::whereSlug($param)->first();
+//        $this->_data = EventModel::whereSlug($param)->first();
+
+        $event = EventModel::whereSlug($param)->first();
+        $this->_data = EventManager::factory($event);
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

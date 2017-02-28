@@ -10,6 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/cartalyst/sentinel" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cartalyst/support" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/codeguy/upload" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
@@ -62,6 +63,88 @@
         </CLASSES>
         <SOURCES>
           <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/baum/baum" />
+          <root url="file://$MODULE_DIR$/vendor/cartalyst/sentinel" />
+          <root url="file://$MODULE_DIR$/vendor/cartalyst/support" />
+          <root url="file://$MODULE_DIR$/vendor/codeguy/upload" />
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/cache" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/console" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/container" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/database" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/events" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/filesystem" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/pagination" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/support" />
+          <root url="file://$MODULE_DIR$/vendor/intervention/image" />
+          <root url="file://$MODULE_DIR$/vendor/intervention/imagecache" />
+          <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
+          <root url="file://$MODULE_DIR$/vendor/ivliev/imagefly" />
+          <root url="file://$MODULE_DIR$/vendor/jeremeamia/SuperClosure" />
+          <root url="file://$MODULE_DIR$/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/vendor/phpmailer/phpmailer" />
+          <root url="file://$MODULE_DIR$/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php54" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php55" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/baum/baum" />
+          <root url="file://$MODULE_DIR$/vendor/cartalyst/sentinel" />
+          <root url="file://$MODULE_DIR$/vendor/cartalyst/support" />
+          <root url="file://$MODULE_DIR$/vendor/codeguy/upload" />
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/danielstjules/stringy" />
+          <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/cache" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/console" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/container" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/contracts" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/database" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/events" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/filesystem" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/pagination" />
+          <root url="file://$MODULE_DIR$/vendor/illuminate/support" />
+          <root url="file://$MODULE_DIR$/vendor/intervention/image" />
+          <root url="file://$MODULE_DIR$/vendor/intervention/imagecache" />
+          <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
+          <root url="file://$MODULE_DIR$/vendor/ivliev/imagefly" />
+          <root url="file://$MODULE_DIR$/vendor/jeremeamia/SuperClosure" />
+          <root url="file://$MODULE_DIR$/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/vendor/phpmailer/phpmailer" />
+          <root url="file://$MODULE_DIR$/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php54" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php55" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-php56" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/polyfill-util" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
         </SOURCES>
       </library>
     </orderEntry>

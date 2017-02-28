@@ -35,5 +35,4 @@ use Carbon\Carbon;
             <a href="#"><?= __('Round') . ' ' . $data->round ?></a>
         </div>
     </div>
-
 </div>

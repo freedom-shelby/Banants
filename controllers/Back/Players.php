@@ -183,12 +183,13 @@ class Players extends Back
         $id = (int) $this->getRequestParam('id') ?: null;
 
         $model = PlayerModel::find($id);
-        $firstNameModel = $model->firstNameModel()->first();
-        $lastNameModel = $model->lastNameModel()->first();
 
         if (empty($model)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Player']));
         }
+
+        $firstNameModel = $model->firstNameModel()->first();
+        $lastNameModel = $model->lastNameModel()->first();
 
         if (Arr::get($this->getPostData(),'submit') !== null) {
 
@@ -237,7 +238,15 @@ class Players extends Back
                         ['text' => $data['last_name'],
                     ]);
 
-
+                    $newArticle = ArticleModel::updateOrCreate(
+                        [
+                            'id' => ($model->article()) ? $model->article()->id : null,
+                        ],
+                        [
+                            'slug' => 'players/'.uniqid(),
+                            'status' => $data['status'],
+                        ]
+                    );
                     foreach ($data['content'] as $iso => $d) {
                         $lang_id = Lang::instance()->getLang($iso)['id'];
 
@@ -245,16 +254,6 @@ class Players extends Back
                         {
                             EntityTranslationModel::updateOrCreate(['id' => $d['first_name_id']], ['text' => $d['first_name'], 'lang_id' => $lang_id, 'entity_id' => $firstNameModel->id]);
                             EntityTranslationModel::updateOrCreate(['id' => $d['last_name_id']], ['text' => $d['last_name'], 'lang_id' => $lang_id, 'entity_id' => $lastNameModel->id]);
-
-                            $newArticle = ArticleModel::updateOrCreate(
-                                [
-                                    'id' => ($model->article()) ? $model->article()->id : null,
-                                ],
-                                [
-                                    'slug' => 'players/'.uniqid(),
-                                    'status' => $data['status'],
-                                ]
-                            );
 
                             $fullName = $d['first_name'] .' '. $d['last_name'];
                         }else{
@@ -264,10 +263,13 @@ class Players extends Back
                         $parent = ArticleModel::whereSlug(PlayerModel::SLUG)->first();
 
                         $newArticle->makeChildOf($parent);
-
-                        ContentModel::updateOrCreate(
+//echo "<pre>";
+//var_dump($d['content_id']);
+//echo "</pre>";
+//die;
+                        $contentModel = ContentModel::updateOrCreate(
                             [
-                                'id' => $d['content_id']
+                                'id' => $d['content_id'] ?: null
                             ],
                             [
                                 'article_id' => $newArticle->id,
@@ -280,6 +282,9 @@ class Players extends Back
                                 'lang_id' => $lang_id,
                             ]
                         );
+
+                        // Приклепляет много ко многим связ (syncWithoutDetaching)
+                        $newArticle->contents()->sync([$contentModel->id], false);
                     }
 
                     Event::fire('Admin.entitiesUpdate');
@@ -340,25 +345,20 @@ class Players extends Back
 
         $id = (int)$this->getRequestParam('id') ?: null;
 
-        $article = ArticleModel::find($id);
+        $model = PlayerModel::find($id);
 
-        if (empty($article)) {
+        if (empty($model)) {
             throw new HttpException(404, json_encode(['errorMessage' => 'Incorrect Article']));
         }
 
         // Транзакция для Записание данных в базу
-        Capsule::connection()->transaction(function () use ($article) {
+        Capsule::connection()->transaction(function () use ($model) {
 
-            // Заодно удаляет и пункты меню привязанные к slug-у
-            (new \MenuItemModel)->whereSlug($article->slug)->delete();
-
-            foreach ($article->getDescendantsAndSelf() as $desc) {
-                $desc->contents()->delete();
-            }
-            $article->delete();
+            $model->article()->delete();
+            $model->delete();
         });
 
         Message::instance()->success('Player has successfully deleted');
-        Uri::to('/Admin/Categories');
+        Uri::to('/Admin');
     }
 }

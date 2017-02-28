@@ -116,6 +116,8 @@ class Pages extends Front
 
 //        $this->getModelFilling();
 
+//        $this->playerModelSlugCorrect();
+
         // User Register
 
         // Create Role
@@ -226,5 +228,26 @@ class Pages extends Front
 //        }
 
         // #Add teams to tournament
+    }
+
+    public function playerModelSlugCorrect()
+    {
+        $model = PlayerModel::all();
+
+        foreach ($model as $item) {
+            $slug = strtolower($item->defaultFullName('_') .'_'. $item->number); // todo:: add slugable CLASS by DateTime
+            $slug = str_replace(' ', '-', $slug); // todo:: add slugable CLASS by DateTime
+
+            if(PlayerModel::whereSlug($slug)->first())
+            {
+                $slug .= uniqid();
+            }
+
+            $item->update(['slug' => $slug]);
+
+            echo "<pre>";
+            var_dump($slug);
+            echo "</pre>";
+        }
     }
 }

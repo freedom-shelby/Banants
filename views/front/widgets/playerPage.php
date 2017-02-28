@@ -20,7 +20,6 @@ use Carbon\Carbon;
             <div class="player-bg">
                 <div class="player-info-box">
                     <img src="<?= Imagefly::imagePath($data->getDefaultImage(), 'w190-q52') ?>" alt="player">
-
                 </div>
             </div>
             <div class="player-info-footer">

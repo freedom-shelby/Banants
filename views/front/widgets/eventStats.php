@@ -75,38 +75,46 @@ use Carbon\Carbon;
             </tr>
         </table>
     </div>
-<!--    <p class="fild-name">--><?//= __('Statistics') ?><!--</p>-->
-<!--    <div class="diagram">-->
-<!--        <div>-->
-<!--            <div class='wr-diagram'>-->
-<!--                <div id="1-diagram" data-home-team-score="85" data-away-team-score="65"></div>-->
-<!--            </div>-->
-<!--            <div>Голевые-->
-<!--                передачи</div>-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <div class='wr-diagram'>-->
-<!--                <div id="1-diagram" data-home-team-score="45" data-away-team-score="65"></div>-->
-<!--            </div>-->
-<!--            <div>Голы-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <div class='wr-diagram'>-->
-<!--                <div id="1-diagram" data-home-team-score="55" data-away-team-score="65"></div>-->
-<!--            </div>-->
-<!--            <div>Удары-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div>-->
-<!--            <div class='wr-diagram'>-->
-<!--                <div id="1-diagram" data-home-team-score="85" data-away-team-score="65"></div>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                Голевые-->
-<!--                передачи-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="clearfix"></div>-->
-<!--    </div>-->
+    <p class="fild-name"><?= __('Statistics') ?></p>
+    <div class="diagram">
+        <div>
+            <div class='wr-diagram'>
+                <div id="1-diagram"
+                     data-home-team-score="<?= $data->getHomeTeam()->possession ?>"
+                     data-away-team-score="<?= $data->getAwayTeam()->possession ?>">
+                </div>
+            </div>
+            <div><?= __('Possession') ?></div>
+        </div>
+        <div>
+            <div class='wr-diagram'>
+                <div id="1-diagram"
+                     data-home-team-score="<?= (int)($data->getHomeTeam()->on_target / $data->getHomeTeam()->shots * 100) ?>"
+                     data-away-team-score="<?= (int)($data->getAwayTeam()->on_target / $data->getAwayTeam()->shots * 100) ?>">
+                </div>
+            </div>
+            <div><?= __('Shots') ?></div>
+        </div>
+        <div>
+            <div class='wr-diagram'>
+                <div id="1-diagram"
+                     data-home-team-score="<?= (int)($data->getHomeTeam()->target_passing / $data->getHomeTeam()->passes * 100) ?>"
+                     data-away-team-score="<?= (int)($data->getAwayTeam()->target_passing / $data->getAwayTeam()->passes * 100) ?>">
+                </div>
+            </div>
+            <div><?= __('Target passing') ?></div>
+        </div>
+        <div>
+            <div class='wr-diagram'>
+                <div id="1-diagram"
+                     data-home-team-score="<?= (int)($data->getHomeTeam()->fouls/ ($data->getHomeTeam()->fouls + $data->getAwayTeam()->fouls) * 100) ?>"
+                     data-away-team-score="<?= (int)($data->getAwayTeam()->fouls/ ($data->getAwayTeam()->fouls + $data->getHomeTeam()->fouls) * 100) ?>">
+                </div>
+            </div>
+            <div>
+                <?= __('Fouls') ?>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
 </div>

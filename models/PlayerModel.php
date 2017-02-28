@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class PlayerModel extends Eloquent
 {
+    // Article slug
     const SLUG = 'players';
 
     public $timestamps = true;

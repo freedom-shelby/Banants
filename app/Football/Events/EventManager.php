@@ -105,6 +105,94 @@ class EventManager
     /**
      * @return mixed
      */
+    public function getHomeTeamShotsOnTarget()
+    {
+        $result = 0;
+
+        if($this->getHomeTeam()->shots){
+            $result = $this->getHomeTeam()->on_target / $this->getHomeTeam()->shots * 100;
+        }
+
+        return (int)$result;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAwayTeamShotsOnTarget()
+    {
+        $result = 0;
+
+        if($this->getAwayTeam()->shots){
+            $result = $this->getAwayTeam()->on_target / $this->getAwayTeam()->shots * 100;
+        }
+
+        return (int)$result;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getHomeTeamPassesOnTarget()
+    {
+        $result = 0;
+
+        if($this->getHomeTeam()->passes){
+            $result = $this->getHomeTeam()->target_passing / $this->getHomeTeam()->passes * 100;
+        }
+
+        return (int)$result;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAwayTeamPassesOnTarget()
+    {
+        $result = 0;
+
+        if($this->getAwayTeam()->passes){
+            $result = $this->getAwayTeam()->target_passing / $this->getAwayTeam()->passes * 100;
+        }
+
+        return (int)$result;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getHomeTeamTotalFouls()
+    {
+        $result = 0;
+
+        $totalFouls = $this->getHomeTeam()->fouls + $this->getAwayTeam()->fouls;
+
+        if($totalFouls){
+            $result = $this->getHomeTeam()->fouls / $totalFouls * 100;
+        }
+
+        return (int)$result;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAwayTeamTotalFouls()
+    {
+        $result = 0;
+
+        $totalFouls = $this->getAwayTeam()->fouls + $this->getAwayTeam()->fouls;
+
+        if($totalFouls){
+            $result = $this->getAwayTeam()->fouls / $totalFouls * 100;
+        }
+
+        return (int)$result;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getAwayTeam()
     {
         return $this->_awayTeam;

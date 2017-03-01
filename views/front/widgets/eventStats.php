@@ -89,8 +89,8 @@ use Carbon\Carbon;
         <div>
             <div class='wr-diagram'>
                 <div id="1-diagram"
-                     data-home-team-score="<?= (int)($data->getHomeTeam()->on_target / $data->getHomeTeam()->shots * 100) ?>"
-                     data-away-team-score="<?= (int)($data->getAwayTeam()->on_target / $data->getAwayTeam()->shots * 100) ?>">
+                     data-home-team-score="<?= $data->getHomeTeamShotsOnTarget()?>"
+                     data-away-team-score="<?= $data->getAwayTeamShotsOnTarget()?>">
                 </div>
             </div>
             <div><?= __('Shots') ?></div>
@@ -98,8 +98,8 @@ use Carbon\Carbon;
         <div>
             <div class='wr-diagram'>
                 <div id="1-diagram"
-                     data-home-team-score="<?= (int)($data->getHomeTeam()->target_passing / $data->getHomeTeam()->passes * 100) ?>"
-                     data-away-team-score="<?= (int)($data->getAwayTeam()->target_passing / $data->getAwayTeam()->passes * 100) ?>">
+                     data-home-team-score="<?= $data->getHomeTeamPassesOnTarget() ?>"
+                     data-away-team-score="<?= $data->getAwayTeamPassesOnTarget() ?>">
                 </div>
             </div>
             <div><?= __('Target passing') ?></div>
@@ -107,8 +107,8 @@ use Carbon\Carbon;
         <div>
             <div class='wr-diagram'>
                 <div id="1-diagram"
-                     data-home-team-score="<?= (int)($data->getHomeTeam()->fouls / ($data->getHomeTeam()->fouls + $data->getAwayTeam()->fouls) * 100) ?>"
-                     data-away-team-score="<?= (int)($data->getAwayTeam()->fouls / ($data->getAwayTeam()->fouls + $data->getHomeTeam()->fouls) * 100) ?>">
+                     data-home-team-score="<?= $data->getHomeTeamTotalFouls() ?>"
+                     data-away-team-score="<?= $data->getAwayTeamTotalFouls() ?>">
                 </div>
             </div>
             <div>

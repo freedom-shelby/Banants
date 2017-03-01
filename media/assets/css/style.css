@@ -5173,11 +5173,23 @@ span.tournament-link{
     line-height: 263px;
 }
 
-.player-info  .player-info-box img{
+.player-info  .player-info-box .player-main-img{
     display: inline-block;
     vertical-align: middle;
     width: 190px;
     height: 190px;
+}
+
+.player-info  .player-info-box .country-flag{
+    position: absolute;
+    top: 25px;
+    left: 12px;
+    width: 30px;
+    height: 19px;
+    line-height: 1;
+}
+.player-info  .player-info-box .country-flag img{
+    width: 100%;
 }
 
 .player-info .info{

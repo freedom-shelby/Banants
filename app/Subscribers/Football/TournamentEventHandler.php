@@ -43,8 +43,12 @@ class TournamentEventHandler
     public static function onCurrentEventUpdate(){
         // Находит ближайшое события Бананца
         $ownTeam = Setting::instance()->getSettingVal('football.first_team');
-        $currentEvent = EventModel::where(['status' => AbstractType::EVENT_PENDING, 'home_team_id' => $ownTeam])
-            ->orWhere(['status' => AbstractType::EVENT_PENDING, 'away_team_id' => $ownTeam])
+//        $currentEvent = EventModel::where(['status' => AbstractType::EVENT_PENDING, 'home_team_id' => $ownTeam])
+//            ->orWhere(['status' => AbstractType::EVENT_PENDING, 'away_team_id' => $ownTeam])
+//            ->orderBy('played_at')
+//            ->first();
+
+        $currentEvent = (new EventModel)->getOwnTeamEventsWhereStatus(AbstractType::EVENT_PENDING)
             ->orderBy('played_at')
             ->first();
 

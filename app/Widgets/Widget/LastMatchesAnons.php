@@ -68,8 +68,8 @@ class LastMatchesAnons extends AbstractWidget{
 
     public function init($model)
     {
-        $this->_items = EventModel::orderBy('played_at', 'desc')
-            ->whereStatus(AbstractType::EVENT_STATUS_COMPLETED)
+        $this->_items = (new EventModel)->getOwnTeamEventsWhereStatus(AbstractType::EVENT_STATUS_COMPLETED)
+            ->orderBy('played_at', 'desc')
             ->limit(2)
             ->get();
 

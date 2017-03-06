@@ -24,6 +24,17 @@ class EventModel extends Eloquent
     protected $fillable = ['tournament_id', 'home_id', 'away_id',  'home_team_id', 'away_team_id', 'slug', 'photo_id', 'winner', 'status', 'round', 'played_at', 'started_at', 'ended_at'];
 
 
+    public function getOwnTeamEventsWhereStatus($status)
+    {
+        $ownTeam = Setting::instance()->getSettingVal('football.first_team');
+        $event = EventModel::where(['status' => $status, 'home_team_id' => $ownTeam])
+            ->orWhere(['status' => $status, 'away_team_id' => $ownTeam]);
+//            ->orderBy('played_at')
+//            ->first();
+//        AbstractType::EVENT_PENDING
+        return $event;
+    }
+
     public function isCompleted()
     {
         return (bool) ($this->status == AbstractType::EVENT_STATUS_COMPLETED);

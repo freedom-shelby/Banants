@@ -39,10 +39,9 @@ class Pages extends Front
      */
     public function getHome()
     {
-//        $slug = 'home';
-//        $this->_page->initFromSlug($slug);
+        $slug = 'home';
+        $this->_page->initFromSlug($slug);
 
-        $this->_page->setTitle('Официальный сайт FC Banants');
 //        $this->_page->setContent('Тестовый контент');
 
 //        $model = ArticleModel::where('slug','=','home')->first();

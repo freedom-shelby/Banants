@@ -73,7 +73,7 @@ class Pages extends Front
 
         if(! $data) Event::fire('App.invalidRoute', $param);
 
-        $title = __($data->homeTeam()->text()) .' '. __('against') .' '. __($data->awayTeam()->text());
+        $title = __($data->homeTeam()->text()) .' - '. __($data->awayTeam()->text());
         $this->_page->setTitle($title .' '. Carbon::parse($data->played_at)->format('d\\/m\\/Y H:i'));
 
         $content = View::make('front/content/pages/event')

@@ -76,6 +76,7 @@ class MainNews extends AbstractWidget{
         $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
             ->descendants()
             ->where('photo_id', '!=' , 1)
+            ->whereStatus(1)
             ->reOrderBy('created_at', 'desc')
             ->limit($this->_param['settings']['max_news_limit'])
             ->offset($this->_param['settings']['anons_news_count'])

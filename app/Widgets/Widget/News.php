@@ -76,6 +76,7 @@ class News extends AbstractWidget{
         $offset = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
             ->descendants()
             ->where('photo_id', '!=' , 1)
+            ->whereStatus(1)
             ->reOrderBy('created_at', 'desc')
             ->limit(1)
             ->offset($this->_param['settings']['anons_news_count'])

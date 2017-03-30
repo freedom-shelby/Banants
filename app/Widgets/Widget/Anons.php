@@ -75,6 +75,7 @@ class Anons extends AbstractWidget{
         $this->_items = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
             ->descendants()
             ->where('photo_id', '!=' , 1)
+            ->whereStatus(1)
             ->reOrderBy('created_at', 'desc')
             ->limit($this->_param['settings']['news_count'])
             ->get();

@@ -77,6 +77,7 @@ class RandomNews extends AbstractWidget{
             $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.club_article_news_id'))
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
+                ->whereStatus(1)
                 ->limit($this->_param['settings']['home_page_club_articles_limit'] + $this->_param['settings']['club_articles_start'])
                 ->offset($this->_param['settings']['club_articles_start'])->get();
             foreach ($data as $item) {
@@ -86,6 +87,7 @@ class RandomNews extends AbstractWidget{
             $data = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.banants_article_news_id'))
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
+                ->whereStatus(1)
                 ->limit($this->_param['settings']['home_page_banants_articles_limit'] + $this->_param['settings']['banants_articles_start'])
                 ->offset($this->_param['settings']['banants_articles_start'])->get();
             foreach ($data as $item) {
@@ -97,6 +99,7 @@ class RandomNews extends AbstractWidget{
                 ->whereLvl(Setting::instance()->getSettingVal('main_articles.category_level'))->first()
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
+                ->whereStatus(1)
                 ->limit($this->_param['settings']['max_news_limit'])->get();
             foreach ($data as $item) {
                 $this->_items[] = $item;

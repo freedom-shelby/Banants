@@ -76,6 +76,7 @@ class AllNews extends AbstractWidget{
         $offset = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
             ->descendants()
             ->where('photo_id', '!=' , 1)
+            ->whereStatus(1)
             ->reOrderBy('created_at', 'desc')
             ->limit(1)
             ->offset($this->_param['settings']['anons_news_count'])
@@ -88,6 +89,7 @@ class AllNews extends AbstractWidget{
             $this->_items = ArticleModel::find(Setting::instance()->getSettingVal('main_articles.category_id'))
                 ->descendants()
                 ->where('photo_id', '!=' , 1)
+                ->whereStatus(1)
                 ->where('created_at', '<=' , $offset->created_at->toDateTimeString()) // Находит новости старее чем последний матерял Анонса Новостей (NewsAnons)
                 ->reOrderBy('created_at', 'desc')
                 ->paginate($this->_param['settings']['news_per_page']);

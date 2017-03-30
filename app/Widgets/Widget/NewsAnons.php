@@ -76,6 +76,7 @@ class NewsAnons extends AbstractWidget{
         $this->_items = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first()
             ->descendants()
             ->where('photo_id', '!=' , 1)
+            ->whereStatus(1)
             ->reOrderBy('created_at', 'desc')
             ->limit($this->_param['settings']['news_count'])
             ->get();

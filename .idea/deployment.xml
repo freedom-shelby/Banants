@@ -9,33 +9,18 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="BanantsDEMO">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath path="/HTML" />
-            <excludedPath path="/localstorage" />
-            <excludedPath path="/config/__database.php" />
-            <excludedPath path="/config/_database.php" />
-            <excludedPath path="/config/database.php" />
-            <excludedPath path="/views/test" />
-            <excludedPath path="/phpmyadmin" />
-            <excludedPath path="/uploads" />
-          </excludedPaths>
-        </serverdata>
-      </paths>
       <paths name="BanantsPROD">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
-            <excludedPath path="/config/database.php" />
             <excludedPath path="/HTML" />
-            <excludedPath path="/localstorage" />
+            <excludedPath path="/config/database.php" />
             <excludedPath path="/phpmyadmin" />
+            <excludedPath path="/localstorage" />
+            <excludedPath path="/tmp" />
+            <excludedPath path="/messages" />
           </excludedPaths>
         </serverdata>
       </paths>

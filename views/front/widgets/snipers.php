@@ -19,14 +19,14 @@
         <div class="shooter_slider_item">
             <div class="best_player clearfix">
                 <div class="best_player_content">
-                    <h3><?=__('Aghekyan')?> <?=__('Grigor')?></h3>
+                    <h3><?=__('Nenad')?> <?=__('Injac')?></h3>
                     <div class="best_player_images_wrapper">
-                        <img src="/uploads/tmp/AghekyanGrigor_ARM_BackFLAG.png" alt="best_player" />
+                        <img src="/uploads/tmp/NenadWithFlag.png" alt="best_player" />
                         <div class="cylinder"></div>
                     </div>
                     <div class="best_player_right">
                         <div class="best_player_info">
-                            <span> <?=__('Age')?> 20<br> <?=__('Goals')?> 1</span>
+                            <span> <?=__('Age')?> 31<br> <?=__('Goals')?> 2</span>
                         </div>
                         <div class="best_player_multiple">
                             <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>

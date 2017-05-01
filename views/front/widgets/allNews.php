@@ -33,7 +33,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
                                 <div class="news_list_middle">
                                     <span><?= __(':dayth of :month', [':month' => __($item->created_at->format('F')), ':day' => $item->created_at->format('j'),]) ?></span>
                                     <span class="news_list_watch">
-                                    <span><i class="watch_icon"></i><?= rand(1, 100) ?></span>
+<!--                                    <span><i class="watch_icon"></i>--><?//= rand(1, 100) ?><!--</span>-->
                                 </span>
                                 </div>
                                 <span>

@@ -90,17 +90,17 @@
             <div class="group">
                 <div>11.04.17  16:00</div>
                 <table>
-                    <tr>
-                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
-                    </tr>
                     <tr class="win">
+                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
+                        <td class="cef">2</td>
+                        <td class="cef">1</td>
+                        <td class="cef">3</td>
+                    </tr>
+                    <tr>
                         <td><img alt="" src="/media/assets/images/logo.png" /> <?= __('Banants') ?></td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">1</td>
+                        <td class="cef">0</td>
+                        <td class="cef">1</td>
                     </tr>
                 </table>
                 <div class="under">25.04.17  16:00</div>
@@ -110,15 +110,15 @@
                 <table>
                     <tr>
                         <td><img alt="" src="/media/assets/images/team_logo/gandzasar-kapan-logo.png" /> <?= __('Gandzasar') ?></td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">1</td>
+                        <td class="cef">0</td>
+                        <td class="cef">1</td>
                     </tr>
                     <tr class="win">
                         <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">1</td>
+                        <td class="cef">1</td>
+                        <td class="cef">2</td>
                     </tr>
                 </table>
                 <div class="under">26.04.17  15:00</div>
@@ -127,15 +127,16 @@
         <div class="wr-group group3">
             <div class="group">
                 <div></div>
-                <table class="empty">
+<!--                <table class="empty">-->
+                <table>
                     <tr>
-                        <td>?</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>
                     </tr>
                     <tr>
-                        <td>?</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>

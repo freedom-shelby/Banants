@@ -8,6 +8,9 @@ restrictAccess();
  * Time: 12:06 PM
  */
 use Illuminate\Database\Eloquent\Model as Eloquent;
+use Carbon\Carbon;
+use Lang\Lang;
+
 
 class ContentModel extends Eloquent
 {
@@ -36,7 +39,6 @@ class ContentModel extends Eloquent
 //            return array_key_exists($lang, self::$content[$parent->id]) ? self::$content[$parent->id][$lang] : null;
 //        }
     }
-
 //    public function getTitleAttribute($date)
 //    {
 //        return addslashes($date);

@@ -20,7 +20,7 @@ use Lang\Lang;
                     <div class="row col-sm-5 pull-right">
                         <div class="form-group col-sm-13">
                             <label for="alias">Slug</label>
-                            <input type="text" name="slug" class="form-control" id="slug" placeholder="Slug" required>
+                            <input type="text" name="slug" class="form-control" id="slug" placeholder="Slug">
                         </div>
                         <div class="form-group col-sm-7">
                             <label for="parentId">Select Parent</label>

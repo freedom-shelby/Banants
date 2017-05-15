@@ -8,6 +8,9 @@ restrictAccess();
  * Time: 12:06 PM
  */
 //use Illuminate\Database\Eloquent\Model as Eloquent;
+use Carbon\Carbon;
+use Lang\Lang;
+
 
 class ArticleModel extends LangModel
 {

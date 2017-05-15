@@ -26,6 +26,8 @@ use Http\Exception as HttpException;
 use Illuminate\Database\QueryException;
 use PhotoModel;
 use MenuItemModel;
+use Carbon\Carbon;
+
 
 class Articles extends Back
 {
@@ -75,6 +77,23 @@ class Articles extends Back
                     ]);
                     $newArticle->contents()->attach($content);
                 }
+
+                $time = Carbon::now();
+
+                Lang::instance()->setCurrentLang(Lang::DEFAULT_LANGUAGE);
+
+                $slug = strtolower($newArticle->title) . '_' . $time->year . '_' . $time->month . '_' . $time->day . '_' . $time->minute.$time->second; // todo:: add slugable CLASS by DateTime
+                $slug = str_replace(' ', '_', $slug); // todo:: add slugable CLASS by DateTime
+
+                if(ArticleModel::whereSlug($slug)->first())
+                {
+                    $slug .= uniqid();
+                }
+
+                $newArticle->update(['slug' => $slug]);
+
+//            $model->contents()->detach($model->id);
+                    // do the rest of the cleanup...
             });
 
             Message::instance()->success('Articles has successfully added');

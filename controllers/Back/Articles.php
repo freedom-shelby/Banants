@@ -85,6 +85,9 @@ class Articles extends Back
                 $slug = strtolower($newArticle->title) . '_' . $time->year . '_' . $time->month . '_' . $time->day . '_' . $time->minute.$time->second; // todo:: add slugable CLASS by DateTime
                 $slug = str_replace(' ', '_', $slug); // todo:: add slugable CLASS by DateTime
 
+                // Удаляет все не нужные символи
+                $slug = str_replace([',', '\'', '"', '.', '?', ':', ';', '(', ')', '!', '@', '#', '$', '%', '^', '&', '*', '-', '+', '|', '/', '\\'], '', $slug);
+
                 if(ArticleModel::whereSlug($slug)->first())
                 {
                     $slug .= uniqid();

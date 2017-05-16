@@ -79,7 +79,7 @@ use Lang\Lang;
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="crumb">Crumb</label>
-                                        <input type="text" name="content[<?=$iso?>][crumb]" class="form-control" id="crumb" placeholder="Crumb" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                        <input type="text" name="content[<?=$iso?>][crumb]" class="form-control" id="crumb" placeholder="Crumb">
                                     </div>
                                     <div class="form-group col-sm-13">
                                         <label for="desc">Description</label>

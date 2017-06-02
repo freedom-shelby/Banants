@@ -133,13 +133,13 @@
                         <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">0</td>
                     </tr>
                     <tr>
                         <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">3</td>
                     </tr>
                 </table>
 

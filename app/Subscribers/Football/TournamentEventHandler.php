@@ -76,7 +76,7 @@ class TournamentEventHandler
         }else{
             SettingsModel::whereGroup('football')->whereName('current_event')->first()
                 ->update([
-                    'value' => null,
+                    'value' => 0,
                 ]);
         }
 

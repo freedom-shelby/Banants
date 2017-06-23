@@ -22,6 +22,7 @@ use Event;
 use EventModel;
 use PlayerModel;
 use Carbon\Carbon;
+use Mail;
 
 
 class Pages extends Front
@@ -95,14 +96,28 @@ class Pages extends Front
         $this->_page->setTitle($title);
     }
 
+    /**
+     * Отправляет почту ич страницы <apply>
+     *
+     * todo: anhrajhesht e C-Panel -i dostup kam admin -i kargavorutyunner
+     */
     public function anyApply()
     {
         $post = $this->getPostData();
-echo "<pre>";
-print_r($post);
-echo "</pre>";
-die;
-//        $this->_page->setTitle($title);
+
+        if(! empty($post)){
+//
+            $to = Setting::instance()->getSettingVal('contact.mail');
+            $subject = __('Application');
+
+            $message =  'Name - ' . $post['name'] . ' ' . $post['last-name'] . '<br />';
+            $message .= 'Age - ' . $post['age'] . '<br />';
+            $message .= 'Phone - ' . $post['phone'] . '<br />';
+            $message .= 'Email - ' . $post['email'] . '<br />';
+            $message .= 'Message - ' . $post['comments'] . '<br />';
+
+            Mail::send([$to], $subject, $message);
+        }
 
         $content = View::make('front/content/pages/apple');
 

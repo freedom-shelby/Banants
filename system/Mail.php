@@ -13,7 +13,7 @@ class Mail
 //        require 'PHPMailerAutoload.php';
         $mail = new PHPMailer;
 
-//        $mail->SMTPDebug = 3; // Enable verbose debug output
+//        $mail->SMTPDebug = 2; // Enable verbose debug output
 
         $mail->isSMTP();                                // Set mailer to use SMTP
         $mail->Host = config('mail.host');              // Specify main and backup SMTP servers
@@ -21,14 +21,15 @@ class Mail
         $mail->Username = config('mail.username');      // SMTP username
         $mail->Password = config('mail.password');      // SMTP password
         $mail->SMTPSecure = 'tls';                      // Enable TLS encryption, `ssl` also accepted
+//        $mail->SMTPSecure = 'ssl';                      // Enable TLS encryption, `ssl` also accepted
         $mail->Port = config('mail.smtp_port');         // TCP port to connect to
 //        $mail->Port = 587;                              // TCP port to connect to
 
-        if( ! empty($from))
+        if(! empty($from))
         {
-            $mail->setFrom(config('mail.from'), 'Qcard');
+            $mail->setFrom(config('mail.from'), 'Banants Apply Page');
         }else{
-            $mail->setFrom($from);
+            $mail->setFrom($from, 'Banants Apply Page');
         }
 
         foreach ($to as $item) {
@@ -39,7 +40,7 @@ class Mail
 //        $mail->addCC('cc@example.com');
 //        $mail->addBCC('bcc@example.com');
 
-        if ( ! empty($attachment))
+        if (! empty($attachment))
         {
             foreach ($attachment as $item) {
                 $mail->addAttachment($item); // Add a recipient

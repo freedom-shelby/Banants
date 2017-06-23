@@ -9,6 +9,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="BanantsDEMO">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="BanantsPROD">
         <serverdata>
           <mappings>
@@ -21,7 +28,22 @@
             <excludedPath path="/localstorage" />
             <excludedPath path="/tmp" />
             <excludedPath path="/messages" />
+            <excludedPath path="/.well-known" />
           </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="DataMiningHTMLToPDFGenerator">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Datamining">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
         </serverdata>
       </paths>
       <paths name="Dto">
@@ -66,6 +88,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="QcardPROD">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="TransferTo">
         <serverdata>
           <mappings>
@@ -74,6 +103,13 @@
         </serverdata>
       </paths>
       <paths name="bullpay">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="dataminingPROD">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -102,6 +138,13 @@
         </serverdata>
       </paths>
       <paths name="shop">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sss">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

@@ -33,6 +33,62 @@ use Ivliev\Imagefly\Imagefly;
                                 <h4><?=__('Head coach')?></h4>
                             </div>
                         </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/march_17/Ara_Nigoyan.png', 'w140-q52')?>" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Ara')?> <?=__('Nigoyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Coach')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/march_17/Aram_Hakobyan.png', 'w140-q52')?>" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Aram')?> <?=__('Hakobyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Coach')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/march_17/Manuk_Sargsyan.png', 'w140-q52')?>" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Manuk')?> <?=__('Sargsyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Coach analyst')?></h4>
+                            </div>
+                        </div>
+                        <div class="team_item">
+                            <div class="team_item_images pictures_wrapper">
+                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
+                                <div class="manager_wrapper">
+                                    <img src="<?=Imagefly::imagePath('/uploads/images/Coaches/march_17/tigran_aslanyan.png', 'w140-q52')?>" alt="player" />
+                                </div>
+                            </div>
+                            <div class="team_item_title">
+                                <h3><?=__('Tigran')?> <?=__('Aslanyan')?></h3>
+                            </div>
+                            <div class="team_item_bottom">
+                                <h4><?=__('Coach')?></h4>
+                            </div>
+                        </div>
 <!--                        <div class="team_item">-->
 <!--                            <div class="team_item_images pictures_wrapper">-->
 <!--                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />-->

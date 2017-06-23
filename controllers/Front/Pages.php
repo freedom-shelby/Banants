@@ -59,6 +59,7 @@ class Pages extends Front
 
         // Если есть метод по ури то вызвать эго
         $method = 'any' . ucfirst($this->_slug);
+
         if(method_exists($this, $method) && is_callable(array($this, $method)))
         {
             call_user_func(array($this, $method));
@@ -92,6 +93,20 @@ class Pages extends Front
 
         $title = $data->fullName();
         $this->_page->setTitle($title);
+    }
+
+    public function anyApply()
+    {
+        $post = $this->getPostData();
+echo "<pre>";
+print_r($post);
+echo "</pre>";
+die;
+//        $this->_page->setTitle($title);
+
+        $content = View::make('front/content/pages/apple');
+
+        $this->_page->appendToContent($content);
     }
 
     public function getTestHome()

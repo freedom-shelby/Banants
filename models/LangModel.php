@@ -36,7 +36,7 @@ class LangModel extends Node
             $this->content = (new ContentModel)->getContent($this, Lang::instance()->getCurrentLang()['id']);
         }
 
-        return $this->content->$name;
+        return isset($this->content->$name) ? $this->content->$name : '';
 //        return parent::__get($name);
 //        return $this->content[$name];
 

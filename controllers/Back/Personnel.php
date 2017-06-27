@@ -32,6 +32,8 @@ use Upload\Validation\Mimetype as UploadMimeType;
 use Upload\Validation\Size as UploadSize;
 use Upload\Exception\UploadException;
 use Exception;
+use PersonnelModel;
+use PersonnelTypeModel;
 
 class Personnel extends Back
 {

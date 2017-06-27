@@ -5,6 +5,8 @@
  * Date: 11/6/2015
  * Time: 3:20 PM
  */
+
+use Ivliev\Imagefly\Imagefly;
 ?>
 <div class="widget-snipers">
     <div class="tournament_slider_title_wrapper clearfix">
@@ -22,7 +24,7 @@
                     <h3><?=__('Nenad')?> <?=__('Injac')?></h3>
                     <div class="best_player_images_wrapper">
                         <img src="/uploads/tmp/armenian-flag.jpg" class="sb-back-flag" alt="best_player" />
-                        <img src="/uploads/tmp/57bff825d6fc0.png" class="sb-front-player" alt="best_player" />
+                        <img src="<?= Imagefly::imagePath('/uploads/images/players/58bfc814d8475.png', 'w100-q70')?>" class="sb-front-player" alt="best_player" />
                         <div class="cylinder"></div>
                     </div>
                     <div class="best_player_right">

@@ -12,10 +12,10 @@ use Helpers\Uri;
 <div class="container-fluid">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h3>Teams List</h3>
+            <h3>Personnel List</h3>
         </div>
         <div class="panel-body">
-            <a class="btn btn-primary" href="<?=Uri::makeUriFromId('Admin/Player/Add/'.$id)?>">Add Player</a>
+            <a class="btn btn-primary" href="<?=Uri::makeUriFromId('Admin/Personnel/Add/'.$id)?>">Add Personnel</a>
             <?if($items->count()):?>
                 <div class="table-responsive">
                     <table class="table list-items">
@@ -30,13 +30,13 @@ use Helpers\Uri;
                         <tbody>
                         <?foreach($items as $item):?>
                             <tr>
-                                <td><a href="<?=Uri::makeUriFromId('Admin/Player/Edit/'.$item->id)?>"><?=__($item->firstName()) .' '. __($item->lastName())?></a></td>
+                                <td><a href="<?=Uri::makeUriFromId('Admin/Personnel/Edit/'.$item->id)?>"><?=__($item->firstName()) .' '. __($item->lastName())?></a></td>
                                 <td class="second-item"><img src="<?=$item->defaultImage()->path?>" class="img-circle" alt="Cinque Terre"></td>
                                 <td>
-                                    <a href="<?=Uri::makeUriFromId('Admin/Player/Edit/'.$item->id)?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
+                                    <a href="<?=Uri::makeUriFromId('Admin/Personnel/Edit/'.$item->id)?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a>
                                 </td>
                                 <td>
-                                    <a class="remove-confirm" href="<?=Uri::makeUriFromId('Admin/Player/Delete/'.$item->id)?>"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
+                                    <a class="remove-confirm" href="<?=Uri::makeUriFromId('Admin/Personnel/Delete/'.$item->id)?>"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
                                 </td>
                             </tr>
                         <?endforeach?>

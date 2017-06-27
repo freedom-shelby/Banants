@@ -27,16 +27,19 @@ use Carbon\Carbon;
                             <p class="date-match"><?= Carbon::parse($event->played_at)->format('d\\/m\\/Y H:i') ?></p>
                             <a href="#">
                                 <span class="name"><?= __($event->home()->team()->text()) ?></span>
-                                <img src="<?= Imagefly::imagePath($event->home()->team()->defaultImage()->path, 'w65-q65') ?>" alt="">
+                                <img src="<?= Imagefly::imagePath($event->home()->team()->defaultImage()->path, 'w65-q65') ?>"
+                                     alt="">
                             </a>
                             <a href="" class="result"><?= $event->home()->score ?> - <?= $event->away()->score ?></a>
                             <a href="#">
-                                <img src="<?= Imagefly::imagePath($event->away()->team()->defaultImage()->path, 'w65-q65') ?>" alt="">
+                                <img src="<?= Imagefly::imagePath($event->away()->team()->defaultImage()->path, 'w65-q65') ?>"
+                                     alt="">
                                 <span class="name"><?= __($event->away()->team()->text()) ?></span>
                             </a>
                         </div>
                         <div class="result-bottom"><a href="#">
-                                <img src="<?= Imagefly::imagePath($tournament->getDefaultImage()->path, 'w36-q36') ?>" alt="1 Liga">
+                                <img src="<?= Imagefly::imagePath($tournament->getDefaultImage()->path, 'w36-q36') ?>"
+                                     alt="1 Liga">
                                 <span><?= __($tournament->getName()) ?></span></a>
                             <a href="#"><?= __('Round') . ' ' . $event->round ?></a>
                         </div>
@@ -48,13 +51,19 @@ use Carbon\Carbon;
         </li>
     <? endforeach ?>
 </ul>
-
+<div class="slider-outside">
+    <div id="slider-prev"></div><div id="slider-next"></div>
+</div>
 <script>
     $(document).ready(function () {
         $(document).find('#bxslider').bxSlider({
             mode: 'vertical',
             startSlide: '<?= $tournament->getLastRound() ?>',
-            pagerSelector : '#pager'
+            pagerSelector: '#pager',
+            nextSelector: '#slider-next',
+            prevSelector: '#slider-prev',
+            nextText: '<?= __('Next') ?>→',
+            prevText: '←<?= __('Last') ?>'
         });
     });
 </script>

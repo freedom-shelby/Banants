@@ -37,22 +37,22 @@ use Carbon\Carbon;
                         </a>
                     </span>
                     </div>
-                    <div class="photo_video">
-                    <span>
-                        <a href="<?= Uri::makeUriFromId($item->slug()) ?>">
-                            <span class="icon_hover icon-video_rightbar"></span>
-                            <span><?= __('Video') ?></span>
-                        </a>
-                    </span>
-                    </div>
-                    <div class="photo_video">
-                    <span>
-                        <a href="<?= Uri::makeUriFromId($item->slug()) ?>">
-                            <span class="icon_hover icon-photo_hover"></span>
-                            <span><?= __('Pictures') ?></span>
-                        </a>
-                    </span>
-                    </div>
+<!--                    <div class="photo_video">-->
+<!--                    <span>-->
+<!--                        <a href="--><?//= Uri::makeUriFromId($item->slug()) ?><!--">-->
+<!--                            <span class="icon_hover icon-video_rightbar"></span>-->
+<!--                            <span>--><?//= __('Video') ?><!--</span>-->
+<!--                        </a>-->
+<!--                    </span>-->
+<!--                    </div>-->
+<!--                    <div class="photo_video">-->
+<!--                    <span>-->
+<!--                        <a href="--><?//= Uri::makeUriFromId($item->slug()) ?><!--">-->
+<!--                            <span class="icon_hover icon-photo_hover"></span>-->
+<!--                            <span>--><?//= __('Pictures') ?><!--</span>-->
+<!--                        </a>-->
+<!--                    </span>-->
+<!--                    </div>-->
                 </div>
             </a>
         </div>

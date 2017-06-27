@@ -76,7 +76,8 @@ class Teams extends Back
                         Message::instance()->warning($file->getErrors());
                     }
 
-                    $imageId = 1;
+                    //todo:: add from settings
+                    $imageId = 2;
 
                     if($image) {
                         $imageId = PhotoModel::create([

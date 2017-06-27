@@ -30,8 +30,8 @@
                         </div>
                         <div class="best_player_multiple">
                             <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
-                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
-                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
+<!--                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>-->
+<!--                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>-->
                         </div>
                     </div>
                 </div>
@@ -48,9 +48,15 @@
                             <span><?=__('Age')?> 24<br> <?=__('Goals')?> 1 </span>
                         </div>
                         <div class="best_player_multiple">
-                            <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
-                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
-                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
+                            <a class="" href="#">
+                                <span class="icon-cal2 shooter_icons"></span>
+                            </a>
+                            <a class="" href="#">
+<!--                                <span class="icon-photo_hover shooter_icons"></span>-->
+                            </a>
+                            <a class="" href="#">
+<!--                                <span class="icon-video_hover shooter_icons"></span>-->
+                            </a>
                         </div>
                     </div>
                 </div>

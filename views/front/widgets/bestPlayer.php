@@ -23,8 +23,8 @@
             </div>
             <div class="best_player_multiple clearfix">
                 <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
-                <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>
-                <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>
+<!--                <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>-->
+<!--                <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>-->
             </div>
         </div>
     </div>

@@ -1831,6 +1831,7 @@ body.am .best_player .best-player-goalkeeper {
 
 .best_player_multiple {
     float: left;
+    min-width: 110px;
 }
 
 .best_player_multiple span{
@@ -4837,7 +4838,7 @@ span.tournament-link{
 }
 .result-bottom{
     border-bottom: 1px solid #e6e6e6;
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px 0;
     text-transform: uppercase;
 }
@@ -5418,6 +5419,16 @@ span.tournament-link{
     margin: 4px;
     width: 30px;
 }
+.slider-outside #slider-next {
+    float: right;
+}
+.slider-outside #slider-prev {
+    float: left;
+}
+.slider-outside a {
+    text-decoration: none;
+    color: #044980;
+}
 .info-col .tours a{
     background: #217cb8;
     color: #fff;
@@ -5425,7 +5436,6 @@ span.tournament-link{
     font-family: Verdana;
     font-size: 14px;
     font-weight: bold;
-
     padding: 6px;
     text-align: center;
     text-decoration: none;

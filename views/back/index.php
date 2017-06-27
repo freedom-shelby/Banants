@@ -20,8 +20,6 @@ use Lang\Lang;
     <link href="/media/libs/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet">
     <link href="/media/back/plugins/bootstrap-fileinput-master/css/fileinput.min.css" rel="stylesheet">
 
-
-
     <script src="/media/libs/jquery-1.12.0.min.js"></script>
     <script src="/media/libs/bs3/js/bootstrap.min.js"></script>
     <script src='/media/back/plugins/tinymce/tinymce.min.js'></script>
@@ -151,17 +149,31 @@ use Lang\Lang;
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Entities Translation <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.entities.add') ?>">Add</a></li>
-                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.entities.list') ?>">List</a></li>
+                        <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Personnel <span class="caret"></span></a>
+                        <ul role="menu" class="dropdown-menu">
+                            <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>">Governance</a></li>
+                            <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>">Club Staff</a></li>
+                            <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>">Academy Staff</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">I18n <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.languages.add') ?>">Add</a></li>
-                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.languages.list') ?>">List</a></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Entity Translation</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="<?= Helpers\Uri::makeRouteUri('back.entities.add') ?>">Add</a></li>
+                                    <li><a href="<?= Helpers\Uri::makeRouteUri('back.entities.list') ?>">List</a></li>
+                                </ul>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Languages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="<?= Helpers\Uri::makeRouteUri('back.languages.add') ?>">Add</a></li>
+                                    <li><a href="<?= Helpers\Uri::makeRouteUri('back.languages.list') ?>">List</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li class="dropdown">

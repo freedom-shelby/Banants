@@ -17,7 +17,7 @@ return array(
             array('file' => 'owl.carousel.css'),
             array('file' => 'jquery.fancybox.css'),
             array('file' => 'percircle.css'),
-            array('file' => 'style.css?ver=1.0.12'),
+            array('file' => 'style.css?ver=1.0.13'),
 //            array('file' => 'jquery.bxslider.css'),
         ),
         'js' => array(

@@ -143,7 +143,7 @@ use Lang\Lang;
                     <li class="dropdown">
                         <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Players <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
-                            <? foreach(TeamModel::orderBy('id')->get() as $item): ?>
+                            <? foreach(TeamModel::orderBy('id')->whereIs_own(1)->get() as $item): ?>
                                 <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>"><?= $item->article()->title ?></a></li>
                             <? endforeach ?>
                         </ul>
@@ -151,9 +151,11 @@ use Lang\Lang;
                     <li class="dropdown">
                         <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Personnel <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>">Governance</a></li>
-                            <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>">Club Staff</a></li>
-                            <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>">Academy Staff</a></li>
+
+                            <? foreach(PersonnelTypeModel::all() as $item): ?>
+                                <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Personnel/List/'.$item->id) ?>"><?= $item->name ?></a></li>
+                            <? endforeach ?>
+
                         </ul>
                     </li>
                     <li class="dropdown">

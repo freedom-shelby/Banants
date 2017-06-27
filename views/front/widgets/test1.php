@@ -19,6 +19,28 @@ use Ivliev\Imagefly\Imagefly;
             <div class="team_wrapper_body clearfix">
                 <div id="item_tabs">
                     <div id="item_tabs_list1">
+<!--                        <div class="team_item">-->
+<!--                            <div class="team_item_header">-->
+<!--                                <div class="team_item_header_top"></div>-->
+<!--                                <div class="team_item_header_bottom"></div>-->
+<!--                            </div>-->
+<!--                            <div class="team_item_images pictures_wrapper">-->
+<!--                                <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />-->
+<!--                                <div class="manager_wrapper">-->
+<!--                                    <img src="--><?//=Imagefly::imagePath('/uploads/images/Coaches/premier/Aram_Voskanyan.png', 'w140-q52')?><!--" alt="player" />-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="team_item_title">-->
+<!--                                <h3>--><?//=__('Aram')?><!-- --><?//=__('Voskanyan')?><!--</h3>-->
+<!--                            </div>-->
+<!--                            <div class="team_item_bottom">-->
+<!--                                <div class="team_item_footer_top"></div>-->
+<!--                                <div class="team_item_footer_bottom"></div>-->
+<!--                                <div class="team_item_footer_desc">-->
+<!--                                    <h4>--><?//=__('Head coach')?><!--</h4>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
                         <div class="team_item">
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
@@ -30,7 +52,7 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Aram')?> <?=__('Voskanyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Head coach')?></h4>
+                                <h4><?=__('Head Coach')?></h4>
                             </div>
                         </div>
                         <div class="team_item">

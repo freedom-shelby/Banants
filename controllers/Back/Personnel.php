@@ -93,10 +93,15 @@ class Personnel extends Back
                         'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
                     ]);
 
-                    $middleNameEntity = EntityModel::create([
-                        'text' => $data['middle_name'],
-                        'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
-                    ]);
+                    $middleNameEntityId = null;
+                    if($data['middle_name']){
+                        $middleNameEntity = EntityModel::create([
+                            'text' => $data['middle_name'],
+                            'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                        ]);
+
+                        $middleNameEntityId = $middleNameEntity->id;
+                    }
 
                     $newArticle = ArticleModel::create([
                         'slug' => PersonnelModel::SLUG  .'/'. uniqid(),
@@ -126,12 +131,14 @@ class Personnel extends Back
                                 'entity_id' => $lastNameEntity->id,
                             ]);
 
-                            // Add Last Name Translations
-                            EntityTranslationModel::create([
-                                'text' => $item['middle_name'],
-                                'lang_id' => $lang_id,
-                                'entity_id' => $middleNameEntity->id,
-                            ]);
+                            if(isset($middleNameEntity)){
+                                // Add Last Name Translations
+                                EntityTranslationModel::create([
+                                    'text' => $item['middle_name'],
+                                    'lang_id' => $lang_id,
+                                    'entity_id' => $middleNameEntityId,
+                                ]);
+                            }
 
                             // Add Articles With Translations
                             $fullName = $item['first_name'] .' '. $item['last_name'] .' '. $item['middle_name'];
@@ -162,7 +169,7 @@ class Personnel extends Back
                         'photo_id' => $imageId,
                         'first_name_id' => $firstNameEntity->id,
                         'last_name_id' => $lastNameEntity->id,
-                        'middle_name_id' => $middleNameEntity->id,
+                        'middle_name_id' => $middleNameEntityId,
                         'article_id' => $newArticle->id,
                     ]);
                 });

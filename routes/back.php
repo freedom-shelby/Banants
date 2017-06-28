@@ -84,7 +84,7 @@ Router::get(['/Admin/Personnel/Delete/{id}','rules' => ['id' => '[0-9]+'], 'as' 
 Router::any(['/Admin/Specializations/Add', 'as' => 'back.specializations.add'],'Back\Specializations@anyAdd');
 Router::any(['/Admin/Specializations/Edit/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.edit'],'Back\Specializations@anyEdit');
 Router::get(['/Admin/Specializations/Delete/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.delete'],'Back\Specializations@getDelete');
-Router::get(['/Admin/Specializations/List/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.list'],'Back\Specializations@getList');
+Router::get(['/Admin/Specializations/List','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.list'],'Back\Specializations@getList');
 
 /**
  * Ajax

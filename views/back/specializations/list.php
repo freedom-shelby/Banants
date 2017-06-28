@@ -12,7 +12,7 @@
 			<h3>Specializations List</h3>
         </div>
 		<div class="panel-body">
-            <a class="btn btn-primary" href="<?=Helpers\Uri::makeRouteUri('back.specializations.add')?>">Add Entity</a>
+            <a class="btn btn-primary" href="<?=Helpers\Uri::makeRouteUri('back.specializations.add')?>">Add Specialization</a>
             <?if($items->count()):?>
 			<div class="table-responsive">
                 <table class="table">

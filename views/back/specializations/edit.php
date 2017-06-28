@@ -12,14 +12,14 @@ use Lang\Lang;
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h1>Edit Entity</h1>
+            <h1>Edit Specialization</h1>
         </div>
-        <form method="post" action="<?=Helpers\Uri::makeUri('Admin/Entities/Edit').'/'.$item->id . App::URI_EXT?>" enctype="multipart/form-data" id="form">
+        <form method="post" action="<?=Helpers\Uri::makeUri('Admin/Specializations/Edit').'/'.$item->id . App::URI_EXT?>" enctype="multipart/form-data" id="form">
             <div class="panel-body">
                 <div class="group container-fluid">
                     <div class="form-group col-sm-13">
-                        <label for="entity">Entity</label>
-                        <input type="text" name="entity" value="<?=$item->text?>" class="form-control" id="entity" placeholder="Entity..." required>
+                        <label for="entity">Specialization</label>
+                        <input type="text" name="entity" value="<?=$item->text?>" class="form-control" id="entity" placeholder="Specialization..." required>
                     </div>
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">

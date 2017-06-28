@@ -37,9 +37,8 @@ class Specializations extends Back
      */
     public function anyAdd()
     {
-        $item = new EntityModel();
-
         if (Arr::get($this->getPostData(),'submit') !== null) {
+            $item = new EntityModel();
 
             $data = Arr::extract($this->getPostData(), ['entity', 'content']);
 
@@ -58,9 +57,14 @@ class Specializations extends Back
                         'entity_id' => $newEntity->id,
                     ]);
                 }
+
+                SpecializationModel::create([
+                    'entity_id' => $newEntity->id,
+                ]);
             });
+
             Event::fire('Admin.entitiesUpdate');
-            Message::instance()->success('Entity has successfully added');
+            Message::instance()->success('Specialization has successfully added');
         }
 
         $this->layout->content = View::make('back/specializations/add');
@@ -73,10 +77,11 @@ class Specializations extends Back
     {
         $id = (int) $this->getRequestParam('id') ?: null;
 
-        $item = EntityModel::find($id);
+        $model = SpecializationModel::find($id);
+        $item = $model->entities();
 
         if (empty($item)) {
-            throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Article']));
+            throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Specialization']));
         }
 
         // Загрузка контента для каждово языка
@@ -106,9 +111,9 @@ class Specializations extends Back
                     }
                 });
                 Event::fire('Admin.entitiesUpdate');
-                Message::instance()->success('Entity was successfully edited');
+                Message::instance()->success('Specialization was successfully edited');
             } catch (QueryException $e) {
-                Message::instance()->warning('Entity was don\'t edited');
+                Message::instance()->warning('Specialization was don\'t edited');
             }
         }
         $this->layout->content = View::make('back/specializations/edit')
@@ -122,22 +127,19 @@ class Specializations extends Back
 
         $id = (int) $this->getRequestParam('id') ?: null;
 
-        $item = EntityModel::find($id);
+        $item = SpecializationModel::find($id);
 
         if (empty($item)) {
-            throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Article']));
+            throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Specialization']));
         }
 
         // Транзакция для Записание данных в базу
         Capsule::connection()->transaction(function() use ($item){
-            foreach($item->translations() as $i){
-                $i->translations()->delete();
-            }
             $item->delete();
             Event::fire('Admin.entitiesUpdate');
         });
 
-        Message::instance()->success('Entity has successfully deleted');
-        Uri::to('/Admin/Entities');
+        Message::instance()->success('Specialization has successfully deleted');
+        Uri::to('/Admin/Specializations');
     }
 }

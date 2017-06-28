@@ -12,13 +12,13 @@ use Lang\Lang;
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h1>Add Entity</h1>
+            <h1>Add Specialization</h1>
         </div>
         <form method="post" enctype="multipart/form-data" id="form">
             <div class="panel-body">
                 <div class="group container-fluid">
                     <div class="form-group col-sm-13">
-                        <label for="entity">Entity</label>
+                        <label for="entity">Specialization Entity</label>
                         <input type="text" name="entity" class="form-control" id="entity" placeholder="Entity..." required>
                     </div>
                     <!-- Nav tabs -->

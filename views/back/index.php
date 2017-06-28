@@ -151,6 +151,13 @@ use Lang\Lang;
                     <li class="dropdown">
                         <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Personnel <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Specialization</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="<?= Helpers\Uri::makeRouteUri('back.specializations.add') ?>">Add Specialization</a></li>
+                                    <li><a href="<?= Helpers\Uri::makeRouteUri('back.specializations.list') ?>">List Specialization</a></li>
+                                </ul>
+                            </li>
 
                             <? foreach(PersonnelTypeModel::all() as $item): ?>
                                 <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Personnel/List/'.$item->id) ?>"><?= $item->name ?></a></li>

@@ -75,16 +75,16 @@ Router::any(['/Admin/Tournament/Edit/Round/{id}/{number}', 'rules' => ['id' => '
 Router::get(['/Admin/Tournament/List/Rounds/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.tournament.list.rounds'],'Back\Tournaments@getListRounds');
 Router::get(['/Admin/Tournament/List', 'as' => 'back.tournament.list'],'Back\Tournaments@getList');
 Router::any(['/Admin/Event/Statistic/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.event.statistic.edit'],'Back\Events@anyEdit');
+Router::any(['/Admin/Specializations/Add', 'as' => 'back.specializations.add'],'Back\Specializations@anyAdd');
+Router::any(['/Admin/Specializations/Edit/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.edit'],'Back\Specializations@anyEdit');
+Router::get(['/Admin/Specializations/Delete/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.delete'],'Back\Specializations@getDelete');
+Router::get(['/Admin/Specializations','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.list'],'Back\Specializations@getList');
 
 Router::get(['/Admin/Personnel/List/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.list'],'Back\Personnel@getList');
 Router::any(['/Admin/Personnel/Add/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.add'],'Back\Personnel@anyAdd');
 Router::any(['/Admin/Personnel/Edit/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.edit'],'Back\Personnel@anyEdit');
 Router::get(['/Admin/Personnel/Delete/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.delete'],'Back\Personnel@getDelete');
 
-Router::any(['/Admin/Specializations/Add', 'as' => 'back.specializations.add'],'Back\Specializations@anyAdd');
-Router::any(['/Admin/Specializations/Edit/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.edit'],'Back\Specializations@anyEdit');
-Router::get(['/Admin/Specializations/Delete/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.delete'],'Back\Specializations@getDelete');
-Router::get(['/Admin/Specializations/List','rules' => ['id' => '[0-9]+'], 'as' => 'back.specializations.list'],'Back\Specializations@getList');
 
 /**
  * Ajax

@@ -113,6 +113,8 @@ class Entities extends Back
                 Message::instance()->warning('Entity was don\'t edited');
             }
         }
+        $item = EntityModel::find($id);
+
         $this->layout->content = View::make('back/entities/edit')
             ->with('item', $item)
             ->with('translations', $translations);

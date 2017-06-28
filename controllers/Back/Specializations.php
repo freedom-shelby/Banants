@@ -78,7 +78,7 @@ class Specializations extends Back
         $id = (int) $this->getRequestParam('id') ?: null;
 
         $model = SpecializationModel::find($id);
-        $item = $model->entities();
+        $item = $model->entities()->first();
 
         if (empty($item)) {
             throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Specialization']));
@@ -116,6 +116,10 @@ class Specializations extends Back
                 Message::instance()->warning('Specialization was don\'t edited');
             }
         }
+
+        $model = SpecializationModel::find($id);
+        $item = $model->entities()->first();
+
         $this->layout->content = View::make('back/specializations/edit')
             ->with('item', $item)
             ->with('translations', $translations);

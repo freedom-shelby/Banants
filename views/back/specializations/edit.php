@@ -14,7 +14,7 @@ use Lang\Lang;
         <div class="panel-heading">
             <h1>Edit Specialization</h1>
         </div>
-        <form method="post" action="<?=Helpers\Uri::makeUri('Admin/Specializations/Edit').'/'.$item->id . App::URI_EXT?>" enctype="multipart/form-data" id="form">
+        <form method="post" id="form">
             <div class="panel-body">
                 <div class="group container-fluid">
                     <div class="form-group col-sm-13">

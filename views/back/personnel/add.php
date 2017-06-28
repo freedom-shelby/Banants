@@ -5,7 +5,9 @@
  * Date: 23.01.2015
  * Time: 12:23
  */
+
 use Lang\Lang;
+use Helpers\Uri;
 
 ?>
 <!--Begin Container-->
@@ -22,16 +24,17 @@ use Lang\Lang;
 <!--                            <label for="alias">Slug</label>-->
 <!--                            <input type="text" name="slug" class="form-control" id="slug" placeholder="Slug" required>-->
 <!--                        </div>-->
-                        <div class="form-group col-sm-9">
-                            <label for="country">Select Personnel Post</label>
-                            <select name="country">
-                                <?foreach(PersonnelTypeModel::all() as $i):?>
-                                    <option value="<?=$i->id?>">
-                                        <?=$i->title()?>
-                                    </option>
-                                <?endforeach?>
-                            </select>
-                        </div>
+
+<!--                        <div class="form-group col-sm-9">-->
+<!--                            <label for="personnel_type">Select Personnel Post</label>-->
+<!--                            <select name="personnel_type">-->
+<!--                                --><?//foreach(PersonnelTypeModel::all() as $i):?>
+<!--                                    <option value="--><?//=$i->id?><!--">-->
+<!--                                        --><?//=$i->name?>
+<!--                                    </option>-->
+<!--                                --><?//endforeach?>
+<!--                            </select>-->
+<!--                        </div>-->
                         <div class="form-group col-sm-9">
                             <div class="dates">
                                 <label for="was_born">Was Born</label>
@@ -44,8 +47,8 @@ use Lang\Lang;
                             </div>
                         </div>
                         <div class="form-group col-sm-9">
-                            <label for="number">Set Sort Position</label>
-                            <input type="number" name="number" class="form-control" id="number" placeholder="Number">
+                            <label for="sort">Set Sort Position</label>
+                            <input type="number" name="sort" class="form-control" id="sort" placeholder="Sort">
                         </div>
                         <div class="form-group col-sm-9">
                             <label class="control-label">Select File</label>

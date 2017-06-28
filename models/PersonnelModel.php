@@ -64,6 +64,11 @@ class PersonnelModel extends Eloquent
         return $this->belongsTo('EntityModel', 'last_name_id');
     }
 
+    public function middleNameModel()
+    {
+        return $this->belongsTo('EntityModel', 'middle_name_id');
+    }
+
     public function article()
     {
         return $this->belongsTo('ArticleModel', 'article_id')->first();

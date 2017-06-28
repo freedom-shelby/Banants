@@ -79,6 +79,7 @@ Router::any(['/Admin/Event/Statistic/{id}', 'rules' => ['id' => '[0-9]+'], 'as' 
 Router::get(['/Admin/Personnel/List/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.list'],'Back\Personnel@getList');
 Router::any(['/Admin/Personnel/Add/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.add'],'Back\Personnel@anyAdd');
 Router::any(['/Admin/Personnel/Edit/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.edit'],'Back\Personnel@anyEdit');
+Router::get(['/Admin/Personnel/Delete/{id}','rules' => ['id' => '[0-9]+'], 'as' => 'back.personnel.delete'],'Back\Personnel@getDelete');
 
 /**
  * Ajax

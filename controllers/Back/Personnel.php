@@ -22,7 +22,6 @@ use ContentModel;
 use EntityModel;
 use EntityTranslationModel;
 use PhotoModel;
-use PlayerModel;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Http\Exception as HttpException;
 use Illuminate\Database\QueryException;
@@ -49,25 +48,17 @@ class Personnel extends Back
 
         if (Arr::get($this->getPostData(), 'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'position', 'country', 'was_born', 'number', 'height', 'weight', 'status', 'content', 'image']);
+//            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'middle_name', 'sort', 'personnel_type', 'was_born', 'status', 'content', 'image']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'middle_name', 'sort', 'was_born', 'status', 'content', 'image']);
 
             try {
                 // Транзакция для Записание данных в базу
                 Capsule::connection()->transaction(function () use ($data, $id) {
                     // Загрузка картинки
-                    $file = new UploadFile('image', new FileSystem(static::IMAGE_PATH)); // todo: Avelacnel tmi annun@
+                    $file = new UploadFile('image', new FileSystem(static::IMAGE_PATH));
 
                     // Optionally you can rename the file on upload
                     $file->setName(uniqid());
-
-//                    // Validate file upload
-//                    $file->addValidations(array(
-//                        // Ensure file is of type image
-//                        new UploadMimeType(['image/png', 'image/jpg', 'image/gif']),
-//
-//                        // Ensure file is no larger than 5M (use "B", "K", M", or "G")
-//                        new UploadSize('50M')
-//                    ));
 
                     // Try to upload file
                     try {
@@ -102,12 +93,17 @@ class Personnel extends Back
                         'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
                     ]);
 
+                    $middleNameEntity = EntityModel::create([
+                        'text' => $data['middle_name'],
+                        'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                    ]);
+
                     $newArticle = ArticleModel::create([
-                        'slug' => 'players/'.uniqid(),
+                        'slug' => PersonnelModel::SLUG  .'/'. uniqid(),
                         'status' => $data['status'],
                     ]);
-//
-                    $parent = ArticleModel::whereSlug(PlayerModel::SLUG)->first();
+
+                    $parent = ArticleModel::whereSlug(PersonnelModel::SLUG)->first();
 
                     $newArticle->makeChildOf($parent);
 
@@ -122,7 +118,7 @@ class Personnel extends Back
                                 'lang_id' => $lang_id,
                                 'entity_id' => $firstNameEntity->id,
                             ]);
-//
+
                             // Add Last Name Translations
                             EntityTranslationModel::create([
                                 'text' => $item['last_name'],
@@ -130,11 +126,19 @@ class Personnel extends Back
                                 'entity_id' => $lastNameEntity->id,
                             ]);
 
+                            // Add Last Name Translations
+                            EntityTranslationModel::create([
+                                'text' => $item['middle_name'],
+                                'lang_id' => $lang_id,
+                                'entity_id' => $middleNameEntity->id,
+                            ]);
+
                             // Add Articles With Translations
-                            $fullName = $item['first_name'] .' '. $item['last_name'];
+                            $fullName = $item['first_name'] .' '. $item['last_name'] .' '. $item['middle_name'];
                         }else{
-                            $fullName = $data['first_name'] .' '. $data['last_name'];
+                            $fullName = $data['first_name'] .' '. $data['last_name'] .' '. $data['middle_name'];
                         }
+
 
                         $content = ContentModel::create([
                             'title' => $fullName,
@@ -150,31 +154,27 @@ class Personnel extends Back
 
                     Event::fire('Admin.entitiesUpdate');
 
-                    PlayerModel::create([
-                        'team_id' => $id,
-                        'country_id' => $data['country'],
-                        'position_id' => $data['position'],
-//                        'slug' => $data['slug'],
-                        'number' => $data['number'],
-                        'height' => $data['height'],
-                        'weight' => $data['weight'],
+                    PersonnelModel::create([
+                        'personnel_type_id' => $id,
+                        'sort' => $data['sort'],
                         'was_born' => $data['was_born'],
                         'status' => $data['status'],
                         'photo_id' => $imageId,
                         'first_name_id' => $firstNameEntity->id,
                         'last_name_id' => $lastNameEntity->id,
+                        'middle_name_id' => $middleNameEntity->id,
                         'article_id' => $newArticle->id,
                     ]);
                 });
 
-                Message::instance()->success('Player has successfully added');
+                Message::instance()->success('Personnel has successfully added');
 
             } catch (Exception $e) {
-                Message::instance()->warning('Player has don\'t added');
+                Message::instance()->warning('Personnel has don\'t added');
             }
         }
 
-        $this->layout->content = View::make('back/personnels/add');
+        $this->layout->content = View::make('back/personnel/add');
     }
 
     /**
@@ -182,39 +182,32 @@ class Personnel extends Back
      */
     public function anyEdit()
     {
+        // ID персонала
         $id = (int) $this->getRequestParam('id') ?: null;
 
-        $model = PlayerModel::find($id);
+        $model = PersonnelModel::find($id);
 
         if (empty($model)) {
-            throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Player']));
+            throw new HttpException(404,json_encode(['errorMessage' => 'Incorrect Personnel']));
         }
 
         $firstNameModel = $model->firstNameModel()->first();
         $lastNameModel = $model->lastNameModel()->first();
+        $middleNameModel = $model->middleNameModel()->first();
 
-        if (Arr::get($this->getPostData(),'submit') !== null) {
+        if (Arr::get($this->getPostData(), 'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'image', 'country', 'was_born', 'position', 'status', 'number', 'height', 'weight', 'team', 'first_name', 'last_name', 'content']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'personnel_type', 'first_name', 'last_name', 'middle_name', 'sort', 'was_born', 'status', 'content', 'image']);
 
             // Транзакция для Записание данных в базу
             try {
-                Capsule::connection()->transaction(function () use ($data, $model, $firstNameModel, $lastNameModel) {
+                Capsule::connection()->transaction(function () use ($data, $model, $firstNameModel, $lastNameModel, $middleNameModel) {
                     // Загрузка картинки
 
                     $file = new UploadFile('image', new FileSystem(static::IMAGE_PATH));
 
                     // Optionally you can rename the file on upload
                     $file->setName(uniqid());
-
-//                    // Validate file upload
-//                    $file->addValidations(array(
-//                        // Ensure file is of type image
-//                        new UploadMimeType(['image/png','image/jpg','image/gif']),
-//
-//                        // Ensure file is no larger than 5M (use "B", "K", M", or "G")
-//                        new UploadSize('50M')
-//                    ));
 
                     // Try to upload file
                     try {
@@ -234,18 +227,22 @@ class Personnel extends Back
                     $firstNameModel = EntityModel::updateOrCreate(
                         ['id' => $firstNameModel->id,],
                         ['text' => $data['first_name'],
-                    ]);
+                        ]);
                     $lastNameModel = EntityModel::updateOrCreate(
                         ['id' => $lastNameModel->id,],
                         ['text' => $data['last_name'],
-                    ]);
+                        ]);
+                    $middleNameModel = EntityModel::updateOrCreate(
+                        ['id' => $middleNameModel->id,],
+                        ['text' => $data['last_name'],
+                        ]);
 
                     $newArticle = ArticleModel::updateOrCreate(
                         [
                             'id' => ($model->article()) ? $model->article()->id : null,
                         ],
                         [
-                            'slug' => 'players/'.uniqid(),
+                            'slug' => PersonnelModel::SLUG  .'/'. uniqid(),
                             'status' => $data['status'],
                         ]
                     );
@@ -256,19 +253,17 @@ class Personnel extends Back
                         {
                             EntityTranslationModel::updateOrCreate(['id' => $d['first_name_id']], ['text' => $d['first_name'], 'lang_id' => $lang_id, 'entity_id' => $firstNameModel->id]);
                             EntityTranslationModel::updateOrCreate(['id' => $d['last_name_id']], ['text' => $d['last_name'], 'lang_id' => $lang_id, 'entity_id' => $lastNameModel->id]);
+                            EntityTranslationModel::updateOrCreate(['id' => $d['middle_name_id']], ['text' => $d['middle_name'], 'lang_id' => $lang_id, 'entity_id' => $middleNameModel->id]);
 
-                            $fullName = $d['first_name'] .' '. $d['last_name'];
+                            $fullName = $d['first_name'] .' '. $d['last_name'] .' '. $d['middle_name'];
                         }else{
-                            $fullName = $data['first_name'] .' '. $data['last_name'];
+                            $fullName = $data['first_name'] .' '. $data['last_name'] .' '. $data['middle_name'];
                         }
 
-                        $parent = ArticleModel::whereSlug(PlayerModel::SLUG)->first();
+                        $parent = ArticleModel::whereSlug(PersonnelModel::SLUG)->first();
 
                         $newArticle->makeChildOf($parent);
-//echo "<pre>";
-//var_dump($d['content_id']);
-//echo "</pre>";
-//die;
+
                         $contentModel = ContentModel::updateOrCreate(
                             [
                                 'id' => $d['content_id'] ?: null
@@ -303,29 +298,27 @@ class Personnel extends Back
                     }
 
                     $model->update([
-                        'team_id' => $data['team'],
+                        'personnel_type_id' => $data['personnel_type'],
                         'slug' => $data['slug'],
-                        'number' => $data['number'],
-                        'height' => $data['height'],
-                        'weight' => $data['weight'],
+                        'sort' => $data['sort'],
                         'was_born' => $data['was_born'],
                         'status' => $data['status'],
-                        'country_id' => $data['country'],
-                        'position_id' => $data['position'],
                         'first_name_id' => $firstNameModel->id,
                         'last_name_id' => $lastNameModel->id,
+                        'middle_name_id' => $middleNameModel->id,
                         'article_id' => $newArticle->id,
                     ]);
                 });
-                Message::instance()->success('Player was successfully saved');
+                Message::instance()->success('Personnel was successfully saved');
             } catch (Exception $e) {
-                Message::instance()->warning('Player was don\'t saved');
+                Message::instance()->warning('Personnel was don\'t saved');
             }
         }
 
-        $model = PlayerModel::find($id);
+        $model = PersonnelModel::find($id);
         $firstNameModel = $model->firstNameModel()->first();
         $lastNameModel = $model->lastNameModel()->first();
+        $middleNameModel = $model->middleNameModel()->first();
         $articleModel = $model->article();
 
         // Загрузка контента для каждово языка
@@ -333,10 +326,11 @@ class Personnel extends Back
         foreach(Lang::instance()->getLangs() as $iso => $lang){
             $contents[$iso]['firstName'] = $firstNameModel->translations()->whereLang_id($lang['id'])->first();
             $contents[$iso]['lastName'] = $lastNameModel->translations()->whereLang_id($lang['id'])->first();
+            $contents[$iso]['middleName'] = $middleNameModel->translations()->whereLang_id($lang['id'])->first();
             $contents[$iso]['content'] = ($model->article()) ? $articleModel->contents()->whereLang_id($lang['id'])->first() : null;
         }
 
-        $this->layout->content = View::make('back/players/edit')
+        $this->layout->content = View::make('back/personnel/edit')
             ->with('item', $model)
             ->with('contents', $contents);
     }
@@ -358,7 +352,7 @@ class Personnel extends Back
 
         $id = (int)$this->getRequestParam('id') ?: null;
 
-        $model = PlayerModel::find($id);
+        $model = PersonnelModel::find($id);
 
         if (empty($model)) {
             throw new HttpException(404, json_encode(['errorMessage' => 'Incorrect Article']));
@@ -367,11 +361,11 @@ class Personnel extends Back
         // Транзакция для Записание данных в базу
         Capsule::connection()->transaction(function () use ($model) {
 
-            $model->article()->delete();
             $model->delete();
+            $model->article()->delete();
         });
 
-        Message::instance()->success('Player has successfully deleted');
+        Message::instance()->success('Personnel has successfully deleted');
         Uri::to('/Admin');
     }
 }

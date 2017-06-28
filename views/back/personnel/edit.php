@@ -14,7 +14,7 @@ use Helpers\Uri;
 <div class="container">
     <div class="panel panel-primary">
         <div class="panel-heading">
-            <h1>Edit Player</h1>
+            <h1>Edit Personnel</h1>
         </div>
         <div class="panel-body">
             <form method="post" enctype="multipart/form-data" id="form">
@@ -25,31 +25,11 @@ use Helpers\Uri;
                             <input type="text" name="slug" value="<?=$item->slug?>" class="form-control" id="slug" placeholder="Slug" required>
                         </div>
                         <div class="form-group col-sm-9">
-                            <label for="country">Select Country</label>
-                            <select name="country">
-                                <?foreach(CountryModel::all() as $i):?>
-                                    <option value="<?=$i->id?>" <?=($item->country_id == $i->id) ? ' selected' : ''?>>
-                                        <?=$i->title()?>
-                                    </option>
-                                <?endforeach?>
-                            </select>
-                        </div>
-                        <div class="form-group col-sm-9">
-                            <label for="position">Select Position</label>
-                            <select name="position">
-                                <?foreach(PositionModel::all() as $i):?>
-                                    <option value="<?=$i->id?>" <?=($item->position_id == $i->id) ? ' selected' : ''?>>
-                                        <?=$i->title()?>
-                                    </option>
-                                <?endforeach?>
-                            </select>
-                        </div>
-                        <div class="form-group col-sm-9">
-                            <label for="team">Select Team</label>
-                            <select name="team">
-                                <?foreach(TeamModel::orderBy('id')->get() as $i):?>
-                                    <option value="<?=$i->id?>" <?=($item->team_id == $i->id) ? ' selected' : ''?>>
-                                        <?=$i->article()->title?>
+                            <label for="personnel_type">Select Personnel Post</label>
+                            <select name="personnel_type">
+                                <?foreach(PersonnelTypeModel::all() as $i):?>
+                                    <option value="<?=$i->id?>" <?=($item->personnel_type_id == $i->id) ? ' selected' : ''?>>
+                                        <?=$i->name?>
                                     </option>
                                 <?endforeach?>
                             </select>
@@ -66,16 +46,8 @@ use Helpers\Uri;
                             </div>
                         </div>
                         <div class="form-group col-sm-9">
-                            <label for="number">Set Player Number</label>
-                            <input type="number" value="<?=$item->number?>" name="number" class="form-control" id="number" placeholder="Number">
-                        </div>
-                        <div class="form-group col-sm-9">
-                            <label for="height">Set Player Height</label>
-                            <input type="text" value="<?=$item->height?>" name="height" class="form-control" id="height" placeholder="Height">
-                        </div>
-                        <div class="form-group col-sm-9">
-                            <label for="weight">Set Player Weight</label>
-                            <input type="text" value="<?=$item->weight?>" name="weight" class="form-control" id="weight" placeholder="Weight">
+                            <label for="sort">Set Sort Position</label>
+                            <input type="number" value="<?=$item->sort?>" name="sort" class="form-control" id="sort" placeholder="Sort">
                         </div>
                         <div class="form-group col-sm-9">
                             <label class="control-label">Select File</label>
@@ -132,6 +104,30 @@ use Helpers\Uri;
                                             <div class="form-group col-sm-13">
                                                 <label for="text">Translated Name</label>
                                                 <input type="text" name="content[<?=$iso?>][last_name]" value="<?=isset($contents[$iso]['lastName']->text) ? $contents[$iso]['lastName']->text : ''?>" class="form-control" id="text" placeholder="Player Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                            </div>
+                                        </div>
+                                    <?endforeach?>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="form-group col-sm-13">
+                                    <label for="entity">Middle Name</label>
+                                    <input type="text" value="<?=$item->middleName()?>" name="middle_name" class="form-control" id="entity" placeholder="Primary Language" required>
+                                </div>
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs" role="tablist" id="middle-name">
+                                    <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
+                                        <li class="<?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>"><a href="#middle-name-<?=$iso?>" data-toggle="tab"><?=$lang['name']?></a></li>
+                                    <?endforeach?>
+                                </ul>
+                                <!-- Tab panes -->
+                                <div class="tab-content" id="middle-name">
+                                    <?foreach(Lang::instance()->getLangsExcept(Lang::DEFAULT_LANGUAGE) as $iso => $lang):?>
+                                        <div class="tab-pane <?=(Lang::instance()->isPrimary($iso)) ? 'active' : ''?>" id="middle-name-<?=$iso?>">
+                                            <input type="hidden" name="content[<?=$iso?>][middle_name_id]" value="<?=isset($contents[$iso]['middleName']->id) ? $contents[$iso]['middleName']->id : ''?>">
+                                            <div class="form-group col-sm-13">
+                                                <label for="text">Translated Name</label>
+                                                <input type="text" name="content[<?=$iso?>][middle_name]" value="<?=isset($contents[$iso]['middleName']->text) ? $contents[$iso]['middleName']->text : ''?>" class="form-control" id="text" placeholder="Player Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
                                             </div>
                                         </div>
                                     <?endforeach?>

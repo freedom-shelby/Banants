@@ -99,6 +99,11 @@ class EventModel extends Eloquent
         return $this->belongsTo('PhotoModel', 'photo_id')->first();
     }
 
+    public function playersStatistics()
+    {
+        return $this->hasMany('EventPlayerStatisticModel', 'event_id');
+    }
+
     public function slug()
     {
         return static::SLUG . $this->slug;

@@ -45,7 +45,7 @@ use Lang\Lang;
                             <input type="number" name="shots" class="form-control" id="shots" placeholder="Shots" required>
                         </div>
                         <div class="form-group col-sm-3">
-                            <label for="goals">Text</label>
+                            <label for="goals">Goals</label>
                             <input type="number" name="goals" class="form-control" id="goals" placeholder="Goals" required>
                         </div>
                     </div>

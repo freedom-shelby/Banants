@@ -26,6 +26,11 @@ class EventPlayerStatisticModel extends Eloquent
         return $this->belongsTo('PlayerModel', 'player_id')->first();
     }
 
+    public function playerModel()
+    {
+        return $this->belongsTo('PlayerModel', 'player_id');
+    }
+
     public function eventTeamStatistic()
     {
         return $this->belongsTo('EventTeamStatisticModel', 'player_id')->first();

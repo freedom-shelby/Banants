@@ -362,7 +362,7 @@ class Players extends Back
                             'player_id' => $data['best_player'],
                         ],
                         [
-                            'instat_index' => $data['best_player'],
+                            'instat_index' => $data['instat_index'],
                             'goals' => $data['goals'],
                             'shots' => $data['shots'],
                         ]);

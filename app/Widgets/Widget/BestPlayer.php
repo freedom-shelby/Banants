@@ -44,6 +44,7 @@ class BestPlayer extends AbstractWidget{
      */
     protected $_param;
     protected $_title;
+    protected $_item;
 
 
     public function getPosition()
@@ -59,6 +60,7 @@ class BestPlayer extends AbstractWidget{
     public function render()
     {
         return View::make($this->_template)
+            ->with('item', $this->_item)
             ->with('title', $this->_title);
     }
 
@@ -69,6 +71,8 @@ class BestPlayer extends AbstractWidget{
         $this->_title = __($lastEvent->homeTeam()->shortName()) .' - '.
             __($lastEvent->awayTeam()->shortName()) .'. '.
             __('BEST PLAYER');
+        
+        $this->_item = $lastEvent->playersStatistics()->wherePlayer_id(Setting::instance()->getSettingVal('football.best_player'))->first();
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

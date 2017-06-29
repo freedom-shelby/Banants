@@ -49,7 +49,7 @@ class Personnel extends Back
         if (Arr::get($this->getPostData(), 'submit') !== null) {
 
 //            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'middle_name', 'sort', 'personnel_type', 'was_born', 'status', 'content', 'image']);
-            $data = Arr::extract($this->getPostData(), ['slug', 'first_name', 'last_name', 'middle_name', 'sort', 'was_born', 'status', 'content', 'image']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'specialization', 'first_name', 'last_name', 'middle_name', 'sort', 'was_born', 'status', 'content', 'image']);
 
             try {
                 // Транзакция для Записание данных в базу
@@ -163,6 +163,7 @@ class Personnel extends Back
 
                     PersonnelModel::create([
                         'personnel_type_id' => $id,
+                        'specialization' => $data['specialization'],
                         'sort' => $data['sort'],
                         'was_born' => $data['was_born'],
                         'status' => $data['status'],
@@ -241,7 +242,7 @@ class Personnel extends Back
                         ]);
                     $middleNameModel = EntityModel::updateOrCreate(
                         ['id' => $middleNameModel->id,],
-                        ['text' => $data['last_name'],
+                        ['text' => $data['middle_name'],
                         ]);
 
                     $newArticle = ArticleModel::updateOrCreate(
@@ -333,7 +334,7 @@ class Personnel extends Back
         foreach(Lang::instance()->getLangs() as $iso => $lang){
             $contents[$iso]['firstName'] = $firstNameModel->translations()->whereLang_id($lang['id'])->first();
             $contents[$iso]['lastName'] = $lastNameModel->translations()->whereLang_id($lang['id'])->first();
-            $contents[$iso]['middleName'] = $middleNameModel->translations()->whereLang_id($lang['id'])->first();
+            $contents[$iso]['middleName'] = (! $middleNameModel) ?: $middleNameModel->translations()->whereLang_id($lang['id'])->first();
             $contents[$iso]['content'] = ($model->article()) ? $articleModel->contents()->whereLang_id($lang['id'])->first() : null;
         }
 

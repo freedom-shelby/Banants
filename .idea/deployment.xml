@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsPROD" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsPROD" uploadOnCheckin="79334809-2e9d-48a2-aec3-dea5d2297b6e">
     <serverData>
       <paths name="AccelCRM">
         <serverdata>
@@ -159,6 +159,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="BanantsPROD" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

@@ -25,16 +25,18 @@ use Helpers\Uri;
 <!--                            <input type="text" name="slug" class="form-control" id="slug" placeholder="Slug" required>-->
 <!--                        </div>-->
 
-<!--                        <div class="form-group col-sm-9">-->
-<!--                            <label for="personnel_type">Select Personnel Post</label>-->
-<!--                            <select name="personnel_type">-->
-<!--                                --><?//foreach(PersonnelTypeModel::all() as $i):?>
-<!--                                    <option value="--><?//=$i->id?><!--">-->
-<!--                                        --><?//=$i->name?>
-<!--                                    </option>-->
-<!--                                --><?//endforeach?>
-<!--                            </select>-->
-<!--                        </div>-->
+                        <div class="form-group col-sm-9">
+                            <label for="specialization">Select Specialization</label>
+                            <select name="specialization">
+
+                                <?foreach(SpecializationModel::all() as $i):?>
+                                    <option value="<?=$i->id?>">
+                                        <?=$i->text()?>
+                                    </option>
+                                <?endforeach?>
+
+                            </select>
+                        </div>
                         <div class="form-group col-sm-9">
                             <div class="dates">
                                 <label for="was_born">Was Born</label>
@@ -182,7 +184,7 @@ use Helpers\Uri;
     });
 
     $('.datetimepicker').datetimepicker({
-        format: 'YYYY-MM-DD HH:mm:SS',
+        format: 'YYYY-MM-DD',
         viewDate: moment(new Date()).hours(15).minutes(0).seconds(0).milliseconds(0)
     });
 </script>

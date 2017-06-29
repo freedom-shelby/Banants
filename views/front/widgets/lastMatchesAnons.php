@@ -21,7 +21,7 @@ use Carbon\Carbon;
         <div class="content_top_right_info_blog clearfix">
             <a href="<?= Uri::makeUriFromId($item->slug()) ?>">
                 <div class="content_top_right_info_blog_images">
-                    <img src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w135-q52') ?>" alt="content_top_right_info_blog_images" />
+                    <img src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w135-q52') ?>" alt="<?= __($item->homeTeam()->shortName()) ?> - <?= __($item->awayTeam()->shortName()) ?>" />
                 </div>
                 <div class="content_top_right_info_blog_aside">
                     <h4>

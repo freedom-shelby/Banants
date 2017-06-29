@@ -40,8 +40,8 @@ use Illuminate\Pagination\LengthAwarePaginator;
 
                                     <? foreach ($item->demoImages() as $key => $i): ?>
                                         <div class="leftbar_slider_images leftbar_slider_image_<?= $key%3 + 1 ?>">
-                                            <a class="fancybox" href="<?= $i->path?>" title="FC Banants" rel="gallary_g">
-                                                <img class="photo-gallery-image" src="<?= Imagefly::imagePath($i->path, 'w280-q52') ?>" alt="leftbar_images_slider_images">
+                                            <a class="fancybox" href="<?= $i->path?>" title="<?= $item->text() ?>" rel="gallary_g">
+                                                <img class="photo-gallery-image" src="<?= Imagefly::imagePath($i->path, 'w280-q52') ?>" alt="<?= $item->text() ?>">
                                             </a>
                                         </div>
                                     <? endforeach ?>

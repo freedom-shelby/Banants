@@ -53,21 +53,21 @@ use Lang\Lang;
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
+<!--                    <li class="dropdown">-->
+<!--                        <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Articles <span class="caret"></span></a>-->
+<!--                        <ul role="menu" class="dropdown-menu">-->
+<!--                            <li><a href="--><?//= Helpers\Uri::makeRouteUri('back.articles.frontpage') ?><!--">Front Page</a></li>-->
+<!--<!--                            <li><a href="-->--><?////=\Helpers\Uri::makeRouteUri('back.articles.about') ?><!--<!--">About</a></li>-->-->
+<!--<!--                            <li><a href="-->--><?////=\Helpers\Uri::makeRouteUri('back.articles.contacts') ?><!--<!--">Contact</a></li>-->-->
+<!--<!--                            <li><a href="-->--><?////=\Helpers\Uri::makeRouteUri('back.articles.faq') ?><!--<!--">FAQ</a></li>-->-->
+<!--                        </ul>-->
+<!--                    </li>-->
                     <li class="dropdown">
-                        <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Articles <span class="caret"></span></a>
-                        <ul role="menu" class="dropdown-menu">
-                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.articles.list') ?>">Standart</a></li>
-                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.articles.frontpage') ?>">Front Page</a></li>
-<!--                            <li><a href="--><?//=\Helpers\Uri::makeRouteUri('back.articles.about') ?><!--">About</a></li>-->
-<!--                            <li><a href="--><?//=\Helpers\Uri::makeRouteUri('back.articles.contacts') ?><!--">Contact</a></li>-->
-<!--                            <li><a href="--><?//=\Helpers\Uri::makeRouteUri('back.articles.faq') ?><!--">FAQ</a></li>-->
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Categories <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="<?= Helpers\Uri::makeRouteUri('back.articles.add') ?>">Add</a></li>
-                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.categories.list') ?>">List</a></li>
+                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.categories.list') ?>">List Categories</a></li>
+                            <li><a href="<?= Helpers\Uri::makeRouteUri('back.articles.list') ?>">List All</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">

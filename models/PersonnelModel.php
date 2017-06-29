@@ -26,17 +26,19 @@ class PersonnelModel extends Eloquent
 
     public function firstName()
     {
-        return $this->belongsTo('EntityModel', 'first_name_id')->first()->text;
+        return $this->firstNameModel()->first()->text;
     }
 
     public function lastName()
     {
-        return $this->belongsTo('EntityModel', 'last_name_id')->first()->text;
+        return $this->lastNameModel()->first()->text;
     }
 
     public function middleName()
     {
-        return $this->belongsTo('EntityModel', 'middle_name_id')->first()->text;
+        $model = $this->middleNameModel()->first();
+
+        return $model ? $model->text : null;
     }
 
     public function fullName($separator = ' ')
@@ -77,6 +79,11 @@ class PersonnelModel extends Eloquent
     public function type()
     {
         return $this->belongsTo('PersonnelTypeModel', 'personnel_type_id')->first();
+    }
+
+    public function specialization()
+    {
+        return $this->belongsTo('SpecializationModel', 'specialization_id')->first();
     }
 
     /**

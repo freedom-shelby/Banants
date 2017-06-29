@@ -24,9 +24,9 @@ use Illuminate\Pagination\LengthAwarePaginator;
 
                 <? foreach($items->getCollection()->all() as $item): ?>
                     <div class="news_list clearfix">
-                        <a href="<?= Uri::makeUriFromId($item->slug) ?>">
+                        <a href="<?= Uri::makeUriFromId($item->slug) ?>" title="<?= $item->title ?>">
                             <div class="news_list_images">
-                                <img src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w176-q52') ?>" alt="news_list_images" />
+                                <img src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w176-q52') ?>" alt="<?= $item->title ?>" />
                             </div>
                             <div class="news_list_info">
                                 <h3><?= $item->title ?></h3>

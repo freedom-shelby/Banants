@@ -21,6 +21,8 @@ use Message;
 use Event;
 use EventModel;
 use PlayerModel;
+use PersonnelTypeModel;
+use PersonnelModel;
 use Carbon\Carbon;
 use Mail;
 
@@ -95,6 +97,40 @@ class Pages extends Front
         $title = $data->fullName();
         $this->_page->setTitle($title);
     }
+
+//    public function anyStaff()
+//    {
+//        $param = $this->getRequestParam('param');
+//
+//        $data = PersonnelTypeModel::whereSlug($param)->first();
+//
+//        if(! $data) Event::fire('App.invalidRoute', $param);
+//
+//        $title = __($data->homeTeam()->text()) .' - '. __($data->awayTeam()->text());
+//        $this->_page->setTitle($title .' '. Carbon::parse($data->played_at)->format('d\\/m\\/Y H:i'));
+//
+//        $content = View::make('front/content/pages/event')
+//            ->with('title', $title);
+//
+//        $this->_page->appendToContent($content);
+//    }
+//
+//    public function anyPersonnel()
+//    {
+//        $param = $this->getRequestParam('param');
+//
+//        $data = PersonnelModel::whereSlug($param)->first();
+//
+//        if(! $data) Event::fire('App.invalidRoute', $param);
+//
+//        $title = __($data->homeTeam()->text()) .' - '. __($data->awayTeam()->text());
+//        $this->_page->setTitle($title .' '. Carbon::parse($data->played_at)->format('d\\/m\\/Y H:i'));
+//
+//        $content = View::make('front/content/pages/event')
+//            ->with('title', $title);
+//
+//        $this->_page->appendToContent($content);
+//    }
 
     /**
      * Отправляет почту ич страницы <apply>

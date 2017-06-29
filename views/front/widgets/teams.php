@@ -48,7 +48,7 @@ use Ivliev\Imagefly\Imagefly;
                                         <img class="flag_icon" src="<?=$item->getCountry()->flag?>" alt="flag">
                                         <div class="player_number"><?=$item->getNumber()?></div>
                                         <div class="player_wrapper">
-                                            <img src="<?=Imagefly::imagePath($item->getDefaultImage(), 'w140-q52')?>" alt="player">
+                                            <img src="<?=Imagefly::imagePath($item->getDefaultImage(), 'w140-q52')?>" alt="<?=__($item->getFullName())?>">
                                         </div>
                                     </div>
                                     <div class="team_item_title">
@@ -59,9 +59,8 @@ use Ivliev\Imagefly\Imagefly;
                                         <div class="team_item_footer_bottom"></div>
                                         <div class="team_item_footer_desc">
                                             <h4><?=__($item->getPosition()->title())?></h4>
-                                            <img src="<?=$item->getPosition()->icon?>" alt="player icon">
+                                            <img src="<?=$item->getPosition()->icon?>" alt="<?=__($item->getPosition()->title())?>">
                                         </div>
-
                                     </div>
                                 </div>
                             </a>

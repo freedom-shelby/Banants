@@ -20,8 +20,8 @@ use Helpers\Uri;
 
                     <? foreach ($data as $key => $item): ?>
                         <div class="leftbar_slider_images leftbar_slider_image_<?= $key%3 + 1 ?>">
-                            <a href="<?= Uri::makeUriFromId('photo_gallery/' . $item->slug) ?>" title="FC Banants">
-                                <img class="photo-gallery-image" src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w280-q52') ?>" alt="leftbar_images_slider_images">
+                            <a href="<?= Uri::makeUriFromId('photo_gallery/' . $item->slug) ?>" title="<?= $item->text() ?>">
+                                <img class="photo-gallery-image" src="<?= Imagefly::imagePath($item->defaultImage()->path, 'w280-q52') ?>" alt="<?= $item->text() ?>">
                             </a>
                         </div>
                     <? endforeach ?>

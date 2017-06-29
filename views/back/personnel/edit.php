@@ -112,7 +112,7 @@ use Helpers\Uri;
                             <div>
                                 <div class="form-group col-sm-13">
                                     <label for="entity">Middle Name</label>
-                                    <input type="text" value="<?=$item->middleName()?>" name="middle_name" class="form-control" id="entity" placeholder="Primary Language" required>
+                                    <input type="text" value="<?=$item->middleName()?>" name="middle_name" class="form-control" id="entity" placeholder="Primary Language">
                                 </div>
                                 <!-- Nav tabs -->
                                 <ul class="nav nav-tabs" role="tablist" id="middle-name">
@@ -127,7 +127,7 @@ use Helpers\Uri;
                                             <input type="hidden" name="content[<?=$iso?>][middle_name_id]" value="<?=isset($contents[$iso]['middleName']->id) ? $contents[$iso]['middleName']->id : ''?>">
                                             <div class="form-group col-sm-13">
                                                 <label for="text">Translated Name</label>
-                                                <input type="text" name="content[<?=$iso?>][middle_name]" value="<?=isset($contents[$iso]['middleName']->text) ? $contents[$iso]['middleName']->text : ''?>" class="form-control" id="text" placeholder="Player Name" <?=((Lang::instance()->isPrimary($iso)) ? ' required' : '')?>>
+                                                <input type="text" name="content[<?=$iso?>][middle_name]" value="<?=isset($contents[$iso]['middleName']->text) ? $contents[$iso]['middleName']->text : ''?>" class="form-control" id="text" placeholder="Player Name">
                                             </div>
                                         </div>
                                     <?endforeach?>
@@ -195,7 +195,7 @@ use Helpers\Uri;
         });
 
         $('.datetimepicker').datetimepicker({
-            format: 'YYYY-MM-DD HH:mm:SS',
+            format: 'YYYY-MM-DD',
             viewDate: moment(new Date()).hours(15).minutes(0).seconds(0).milliseconds(0)
         });
     });

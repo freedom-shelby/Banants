@@ -35,6 +35,18 @@ use Helpers\Uri;
                             </select>
                         </div>
                         <div class="form-group col-sm-9">
+                            <label for="specialization">Select Specialization</label>
+                            <select name="specialization">
+
+                                <?foreach(SpecializationModel::all() as $i):?>
+                                    <option value="<?=$i->id?>" <?=($item->specialization_id == $i->id) ? ' selected' : ''?>>
+                                        <?=$i->text()?>
+                                    </option>
+                                <?endforeach?>
+
+                            </select>
+                        </div>
+                        <div class="form-group col-sm-9">
                             <div class="dates">
                                 <label for="was_born">Was Born</label>
                                 <div class='input-group date datetimepicker'>

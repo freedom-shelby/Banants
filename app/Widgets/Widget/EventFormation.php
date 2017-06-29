@@ -87,7 +87,7 @@ class EventFormation extends AbstractWidget{
 //
 //        $this->_items = $data->photos()->get()->toArray();
 //
-//        $this->_items = array_chunk($this->_items, 8, true);
+//        $this->_items = array_chunk($this->_items, 8, true); // todo:: change to $collection->chunk($int)
 //
 //        $this->_position = $model->position;
 //        $this->_sort = $model->sort;

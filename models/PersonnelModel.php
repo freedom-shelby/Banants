@@ -19,7 +19,7 @@ class PersonnelModel extends Eloquent
 
     protected $table = 'personnels';
 
-    protected $fillable = ['first_name_id', 'last_name_id', 'middle_name_id', 'personnel_type_id', 'photo_id', 'status', 'sort', 'slug', 'was_born', 'article_id'];
+    protected $fillable = ['first_name_id', 'last_name_id', 'middle_name_id', 'specialization_id', 'personnel_type_id', 'photo_id', 'status', 'sort', 'slug', 'was_born', 'article_id'];
 
     protected $dates = ['was_born'];
 

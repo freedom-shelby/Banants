@@ -86,7 +86,7 @@ class MainNews extends AbstractWidget{
             $this->_items[] = $item;
         }
 
-        $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true);
+        $this->_items = array_chunk($this->_items, $this->_param['settings']['news_per_page'], true); // todo:: change to $collection->chunk($int)
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

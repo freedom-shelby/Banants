@@ -98,23 +98,31 @@ class Pages extends Front
         $this->_page->setTitle($title);
     }
 
-//    public function anyStaff()
-//    {
-//        $param = $this->getRequestParam('param');
-//
-//        $data = PersonnelTypeModel::whereSlug($param)->first();
-//
-//        if(! $data) Event::fire('App.invalidRoute', $param);
-//
-//        $title = __($data->homeTeam()->text()) .' - '. __($data->awayTeam()->text());
-//        $this->_page->setTitle($title .' '. Carbon::parse($data->played_at)->format('d\\/m\\/Y H:i'));
-//
-//        $content = View::make('front/content/pages/event')
-//            ->with('title', $title);
-//
-//        $this->_page->appendToContent($content);
-//    }
-//
+    /**
+     * Страныций для типов персонала
+     */
+    public function anyStaff()
+    {
+        $param = $this->getRequestParam('param');
+
+        $type = PersonnelTypeModel::whereSlug($param)->first();
+
+        if(! $type) Event::fire('App.invalidRoute', $param);
+
+        $items = $type->personnel()
+            ->whereStatus(1)
+            ->orderBy('sort', 'ASC')
+            ->get();
+
+        $content = View::make($type->template)
+            ->with('items', $items);
+
+        $this->_page->appendToContent($content);
+    }
+
+    /**
+     * Страныций для персонала
+     */
 //    public function anyPersonnel()
 //    {
 //        $param = $this->getRequestParam('param');
@@ -155,7 +163,7 @@ class Pages extends Front
             Mail::send([$to], $subject, $message);
         }
 
-        $content = View::make('front/content/pages/apple');
+        $content = View::make('front/content/pages/apply');
 
         $this->_page->appendToContent($content);
     }

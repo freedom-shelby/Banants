@@ -72,7 +72,7 @@ class VideoGallery extends AbstractWidget{
         // Последние добавлённие видео начиная по убыванию дате добавления
         $this->_items = VideoModel::orderBy('id', 'desc')->limit(8)->get()->toArray();
 
-        $this->_items = array_chunk($this->_items, 4, true);
+        $this->_items = array_chunk($this->_items, 4, true); // todo:: change to $collection->chunk($int)
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

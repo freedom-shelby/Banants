@@ -16,4 +16,9 @@ class PersonnelTypeModel extends Eloquent
     protected $table = 'personnel_types';
 
     protected $fillable = ['template', 'type'];
+
+    public function personnel()
+    {
+        return $this->hasMany('PersonnelModel', 'personnel_type_id');
+    }
 }

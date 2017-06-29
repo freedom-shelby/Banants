@@ -163,7 +163,7 @@ class Personnel extends Back
 
                     PersonnelModel::create([
                         'personnel_type_id' => $id,
-                        'specialization' => $data['specialization'],
+                        'specialization_id' => $data['specialization'],
                         'sort' => $data['sort'],
                         'was_born' => $data['was_born'],
                         'status' => $data['status'],
@@ -205,7 +205,7 @@ class Personnel extends Back
 
         if (Arr::get($this->getPostData(), 'submit') !== null) {
 
-            $data = Arr::extract($this->getPostData(), ['slug', 'personnel_type', 'first_name', 'last_name', 'middle_name', 'sort', 'was_born', 'status', 'content', 'image']);
+            $data = Arr::extract($this->getPostData(), ['slug', 'specialization', 'personnel_type', 'first_name', 'last_name', 'middle_name', 'sort', 'was_born', 'status', 'content', 'image']);
 
             // Транзакция для Записание данных в базу
             try {
@@ -307,6 +307,7 @@ class Personnel extends Back
 
                     $model->update([
                         'personnel_type_id' => $data['personnel_type'],
+                        'specialization_id' => $data['specialization'],
                         'slug' => $data['slug'],
                         'sort' => $data['sort'],
                         'was_born' => $data['was_born'],

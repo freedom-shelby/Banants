@@ -74,7 +74,7 @@ class PhotoGallery extends AbstractWidget{
             $this->_items[] = $item;
         }
 
-        $this->_items = array_chunk($this->_items, 3, true);
+        $this->_items = array_chunk($this->_items, 3, true); // todo:: change to $collection->chunk($int)
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

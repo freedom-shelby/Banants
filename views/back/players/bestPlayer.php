@@ -23,9 +23,9 @@ use Lang\Lang;
                             <select name="best_player">
 
                                 <? if(!empty($players)): ?>
-                                    <? foreach($players as $key => $n): ?>
+                                    <? foreach($players as $n): ?>
 
-                                        <option value="<?= $key?> ">
+                                        <option value="<?= $n->id?> ">
                                             <?= $n->fullName() ?>
                                         </option>
 

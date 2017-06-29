@@ -143,9 +143,19 @@ use Lang\Lang;
                     <li class="dropdown">
                         <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Players <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Options</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1" href="<?= Helpers\Uri::makeRouteUri('back.player.bestPlayer') ?>">Best Player</a></li>
+                                    <li><a href="<?= Helpers\Uri::makeRouteUri('back.player.sniper') ?>">Snipers</a></li>
+                                </ul>
+                            </li>
+                            <li class="divider"></li>
+
                             <? foreach(TeamModel::orderBy('id')->whereIs_own(1)->get() as $item): ?>
                                 <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>"><?= $item->article()->title ?></a></li>
                             <? endforeach ?>
+
                         </ul>
                     </li>
                     <li class="dropdown">

@@ -11,7 +11,7 @@ use Helpers\Uri;
 ?>
 <div class="banner_team1">
     <div class="team1_logo">
-        <img src="<?= $item->homeTeam()->defaultImage()->path ?>" alt="logo_main" />
+        <img src="<?= $item->homeTeam()->defaultImage()->path ?>" alt="<?= __($item->homeTeam()->shortName()) ?>" />
 
         <? if( ! $item->homeTeam()->is_own): ?>
             <span class="team_name_"><?= __($item->homeTeam()->shortName()) ?></span>
@@ -28,7 +28,7 @@ use Helpers\Uri;
         </p>
     </div>
     <div class="team1_logo">
-        <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="logo_team1" />
+        <img src="<?= $item->awayTeam()->defaultImage()->path ?>" alt="<?= __($item->awayTeam()->shortName()) ?>" />
 
         <? if( ! $item->awayTeam()->is_own): ?>
             <span class="team_name_"><?= __($item->awayTeam()->shortName()) ?></span>

@@ -65,6 +65,10 @@ Router::get(['/Admin/Team/List/{id?}','rules' => ['id' => '[0-9]+'], 'as' => 'ba
 Router::get(['/Admin/Team/Delete/{id}', 'rules' => ['id' => '[0-9]+'], 'as' => 'back.team.delete'],'Back\Teams@getDelete');
 Router::any(['/Admin/Player/Add/{id?}','rules' => ['id' => '[0-9]+'], 'as' => 'back.player.add'],'Back\Players@anyAdd');
 Router::any(['/Admin/Player/Edit/{id?}','rules' => ['id' => '[0-9]+'], 'as' => 'back.player.edit'],'Back\Players@anyEdit');
+
+Router::any(['/Admin/Player/BestPlayer', 'as' => 'back.player.bestPlayer'],'Back\Players@anyBestPlayer');
+Router::any(['/Admin/Player/Snipers', 'as' => 'back.player.sniper'],'Back\Players@anySniper');
+
 Router::any(['/Admin/League/Add', 'as' => 'back.league.add'],'Back\Leagues@anyAdd');
 Router::any(['/Admin/League/Edit/{id?}','rules' => ['id' => '[0-9]+'], 'as' => 'back.league.edit'],'Back\Leagues@anyEdit');
 Router::get(['/Admin/League/List', 'as' => 'back.league.list'],'Back\Leagues@getList');

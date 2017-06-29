@@ -74,6 +74,11 @@ class PlayerModel extends Eloquent
         return $this->belongsTo('PositionModel', 'position_id')->first();
     }
 
+    public function playerStatistics()
+    {
+        return $this->hasMany('EventPlayerStatisticModel', 'player_id');
+    }
+
     /**
      * Загрузка картинки по-умолчанию
      */

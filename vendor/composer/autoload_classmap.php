@@ -162,6 +162,7 @@ return array(
     'EntityTranslationModel' => $baseDir . '/models/EntityTranslationModel.php',
     'Event' => $baseDir . '/system/Event.php',
     'EventModel' => $baseDir . '/models/EventModel.php',
+    'EventPlayerStatisticModel' => $baseDir . '/models/EventPlayerStatisticModel.php',
     'EventTeamStatisticModel' => $baseDir . '/models/EventTeamStatisticModel.php',
     'Event\\Emmiter' => $baseDir . '/system/Event/Emmiter.php',
     'Event\\EventHandlerInterface' => $baseDir . '/system/Event/EventHandlerInterface.php',

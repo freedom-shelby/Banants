@@ -32,6 +32,9 @@ use Upload\Validation\Mimetype as UploadMimeType;
 use Upload\Validation\Size as UploadSize;
 use Upload\Exception\UploadException;
 use Exception;
+use Setting;
+use SettingsModel;
+use EventPlayerStatisticModel;
 
 class Players extends Back
 {
@@ -337,6 +340,51 @@ class Players extends Back
         $this->layout->content = View::make('back/players/edit')
             ->with('item', $model)
             ->with('contents', $contents);
+    }
+
+    public function anyBestPlayer()
+    {
+//        $item = PlayerModel::find(Setting::instance()->getSettingVal('football.best_player'));
+
+
+        if (Arr::get($this->getPostData(), 'submit') !== null) {
+
+            $data = Arr::extract($this->getPostData(), ['best_player', 'instat_index', 'goals', 'shots']);
+
+//            try {
+                // Транзакция для Записание данных в базу
+//                Capsule::connection()->transaction(function () use ($data) {
+                    SettingsModel::whereGroup('football')->whereName('best_player')->first()
+                        ->update([
+                            'value' => $data['best_player'],
+                        ]);
+
+                    EventPlayerStatisticModel::updateOrCreate(
+                        [
+                            'event_id' => Setting::instance()->getSettingVal('football.last_event'),
+                            'player_id' => $data['best_player'],
+                        ],
+                        [
+                            'instat_index' => $data['best_player'],
+                            'goals' => $data['goals'],
+                            'shots' => $data['shots'],
+                        ]);
+
+                    Event::fire('Admin.settingsUpdate');
+//                });
+
+                Message::instance()->success('Best Player has successfully saved');
+
+//            } catch (Exception $e) {
+//                Message::instance()->warning('Best Player has don\'t saved');
+//            }
+        }
+
+        $players = PlayerModel::whereTeam_id(Setting::instance()->getSettingVal('football.first_team'))->get();
+
+        $this->layout->content = View::make('back/players/bestPlayer')
+            ->with('players', $players);
+//            ->with('item', $item);
     }
 
     public function getDelete()

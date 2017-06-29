@@ -20,6 +20,10 @@ use Ivliev\Imagefly\Imagefly;
                 <div id="item_tabs">
                     <div id="item_tabs_list1">
                         <div class="team_item">
+                            <div class="team_item_header">
+                                <div class="team_item_header_top"></div>
+                                <div class="team_item_header_bottom"></div>
+                            </div>
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
@@ -30,10 +34,18 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Vahe')?> <?=__('Gevorgyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Head coach')?></h4>
+                                <div class="team_item_footer_top"></div>
+                                <div class="team_item_footer_bottom"></div>
+                                <div class="team_item_footer_desc">
+                                    <h4><?=__('Head coach')?></h4>
+                                </div>
                             </div>
                         </div>
                         <div class="team_item">
+                            <div class="team_item_header">
+                                <div class="team_item_header_top"></div>
+                                <div class="team_item_header_bottom"></div>
+                            </div>
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
@@ -44,10 +56,18 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Karen')?> <?=__('Simonian')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Coach')?></h4>
+                                <div class="team_item_footer_top"></div>
+                                <div class="team_item_footer_bottom"></div>
+                                <div class="team_item_footer_desc">
+                                    <h4><?=__('Coach')?></h4>
+                                </div>
                             </div>
                         </div>
                         <div class="team_item">
+                            <div class="team_item_header">
+                                <div class="team_item_header_top"></div>
+                                <div class="team_item_header_bottom"></div>
+                            </div>
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
@@ -58,10 +78,18 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Artur')?> <?=__('Ghasaboghlyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Coach')?></h4>
+                                <div class="team_item_footer_top"></div>
+                                <div class="team_item_footer_bottom"></div>
+                                <div class="team_item_footer_desc">
+                                    <h4><?=__('Coach')?></h4>
+                                </div>
                             </div>
                         </div>
                         <div class="team_item">
+                            <div class="team_item_header">
+                                <div class="team_item_header_top"></div>
+                                <div class="team_item_header_bottom"></div>
+                            </div>
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
@@ -72,10 +100,18 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Vahinak')?> <?=__('Shahnazaryan')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Goalkeeper coach')?></h4>
+                                <div class="team_item_footer_top"></div>
+                                <div class="team_item_footer_bottom"></div>
+                                <div class="team_item_footer_desc">
+                                    <h4><?=__('Goalkeeper coach')?></h4>
+                                </div>
                             </div>
                         </div>
                         <div class="team_item">
+                            <div class="team_item_header">
+                                <div class="team_item_header_top"></div>
+                                <div class="team_item_header_bottom"></div>
+                            </div>
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
@@ -86,10 +122,18 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Arsen')?> <?=__('Hambaryan')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Doctor')?></h4>
+                                <div class="team_item_footer_top"></div>
+                                <div class="team_item_footer_bottom"></div>
+                                <div class="team_item_footer_desc">
+                                    <h4><?=__('Doctor')?></h4>
+                                </div>
                             </div>
                         </div>
                         <div class="team_item">
+                            <div class="team_item_header">
+                                <div class="team_item_header_top"></div>
+                                <div class="team_item_header_bottom"></div>
+                            </div>
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
@@ -100,10 +144,18 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Hovhannes')?> <?=__('Gevorgyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Massage therapist')?></h4>
+                                <div class="team_item_footer_top"></div>
+                                <div class="team_item_footer_bottom"></div>
+                                <div class="team_item_footer_desc">
+                                    <h4><?=__('Massage therapist')?></h4>
+                                </div>
                             </div>
                         </div>
                         <div class="team_item">
+                            <div class="team_item_header">
+                                <div class="team_item_header_top"></div>
+                                <div class="team_item_header_bottom"></div>
+                            </div>
                             <div class="team_item_images pictures_wrapper">
                                 <img class="flag_icon" src="/uploads/images/flags/flag-armenia.jpg" alt="flag" />
                                 <div class="manager_wrapper">
@@ -114,7 +166,11 @@ use Ivliev\Imagefly\Imagefly;
                                 <h3><?=__('Vilyam')?> <?=__('Gevorgyan')?></h3>
                             </div>
                             <div class="team_item_bottom">
-                                <h4><?=__('Administrator')?></h4>
+                                <div class="team_item_footer_top"></div>
+                                <div class="team_item_footer_bottom"></div>
+                                <div class="team_item_footer_desc">
+                                    <h4><?=__('Administrator')?></h4>
+                                </div>
                             </div>
                         </div>
                     </div>

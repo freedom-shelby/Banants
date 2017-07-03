@@ -125,7 +125,7 @@ use Ivliev\Imagefly\Imagefly;
                                 <div class="team_item_footer_top"></div>
                                 <div class="team_item_footer_bottom"></div>
                                 <div class="team_item_footer_desc">
-                                    <h4><?=__('Coach')?></h4>
+                                    <h4><?=__('Goalkeeper coach')?></h4>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ use Ivliev\Imagefly\Imagefly;
                                 <div class="team_item_footer_top"></div>
                                 <div class="team_item_footer_bottom"></div>
                                 <div class="team_item_footer_desc">
-                                    <h4><?=__('Doctor')?></h4>
+                                    <h4><?=__('Club doctor')?></h4>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ use Ivliev\Imagefly\Imagefly;
                                 <div class="team_item_footer_top"></div>
                                 <div class="team_item_footer_bottom"></div>
                                 <div class="team_item_footer_desc">
-                                    <h4><?=__('Massage therapist')?></h4>
+                                    <h4><?=__('Masseur')?></h4>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@ use Ivliev\Imagefly\Imagefly;
                                 <div class="team_item_footer_top"></div>
                                 <div class="team_item_footer_bottom"></div>
                                 <div class="team_item_footer_desc">
-                                    <h4><?=__('Massage therapist')?></h4>
+                                    <h4><?=__('Masseur')?></h4>
                                 </div>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ use Ivliev\Imagefly\Imagefly;
                                 <div class="team_item_footer_top"></div>
                                 <div class="team_item_footer_bottom"></div>
                                 <div class="team_item_footer_desc">
-                                    <h4><?=__('Team chief')?></h4>
+                                    <h4><?=__('Team manager')?></h4>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +235,7 @@ use Ivliev\Imagefly\Imagefly;
                                 <div class="team_item_footer_top"></div>
                                 <div class="team_item_footer_bottom"></div>
                                 <div class="team_item_footer_desc">
-                                    <h4><?=__('Administrator')?></h4>
+                                    <h4><?=__('Kit manager')?></h4>
                                 </div>
                             </div>
                         </div>

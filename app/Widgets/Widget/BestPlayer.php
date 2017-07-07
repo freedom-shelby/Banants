@@ -15,6 +15,7 @@ restrictAccess();
 use Widgets\AbstractWidget;
 use View;
 use EventModel;
+use EventPlayerStatisticModel;
 use Setting;
 
 class BestPlayer extends AbstractWidget{
@@ -67,13 +68,33 @@ class BestPlayer extends AbstractWidget{
     public function init($model)
     {
         $lastEvent = EventModel::find(Setting::instance()->getSettingVal('football.last_event'));
+        $playerId = Setting::instance()->getSettingVal('football.best_player');
 
         $this->_title = __($lastEvent->homeTeam()->shortName()) .' - '.
             __($lastEvent->awayTeam()->shortName()) .'. '.
             __('BEST PLAYER');
         
-        $this->_item = $lastEvent->playersStatistics()->wherePlayer_id(Setting::instance()->getSettingVal('football.best_player'))->first();
+        $this->_item = $lastEvent->playersStatistics()->wherePlayer_id($playerId)->first();
+//echo "<pre>";
+//print_r($lastEvent);
+//echo "</pre>";
+//die;
+        /**
+         * Если нету текющего лучшего игрока то получить последного доступного игрока
+         */
+        if(! $this->_item){
+            $lastBestPlayer = EventPlayerStatisticModel::wherePlayer_id($playerId)->orderBy('id', 'DESC')->first();
 
+            $this->_title = __($lastBestPlayer->event()->homeTeam()->shortName()) .' - '.
+                __($lastBestPlayer->event()->awayTeam()->shortName()) .'. '.
+                __('BEST PLAYER');
+
+            $this->_item = $lastBestPlayer;
+        }
+//echo "<pre>";
+//var_dump($this->_item);
+//echo "</pre>";
+//die;
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

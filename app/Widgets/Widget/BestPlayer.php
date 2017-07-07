@@ -75,10 +75,7 @@ class BestPlayer extends AbstractWidget{
             __('BEST PLAYER');
         
         $this->_item = $lastEvent->playersStatistics()->wherePlayer_id($playerId)->first();
-//echo "<pre>";
-//print_r($lastEvent);
-//echo "</pre>";
-//die;
+
         /**
          * Если нету текющего лучшего игрока то получить последного доступного игрока
          */
@@ -91,10 +88,7 @@ class BestPlayer extends AbstractWidget{
 
             $this->_item = $lastBestPlayer;
         }
-//echo "<pre>";
-//var_dump($this->_item);
-//echo "</pre>";
-//die;
+
         $this->_position = $model->position;
         $this->_sort = $model->sort;
         $this->_template = $model->template;

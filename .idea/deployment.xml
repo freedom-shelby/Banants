@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsPROD" uploadOnCheckin="79334809-2e9d-48a2-aec3-dea5d2297b6e">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="BanantsPROD">
     <serverData>
       <paths name="AccelCRM">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="BanantsDEMO">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -30,13 +23,6 @@
             <excludedPath path="/messages" />
             <excludedPath path="/.well-known" />
           </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="DataMiningHTMLToPDFGenerator">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
         </serverdata>
       </paths>
       <paths name="Datamining">
@@ -61,6 +47,13 @@
         </serverdata>
       </paths>
       <paths name="IVRProd">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="IVRProdSSH">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -144,13 +137,6 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="sss">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="visualivrapp">
         <serverdata>
           <mappings>
@@ -159,7 +145,6 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="BanantsPROD" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

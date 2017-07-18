@@ -30,6 +30,12 @@ ini_set('session.gc_probability', 1);
 
 require_once(ROOT_PATH . 'vendor/autoload' . EXT);
 
+/**
+ * Привилигирований ползователь (для тестов)
+ */
+define('IS_PRIVILEGED', (bool) (App::instance()->http()->getIpAddress() == '81.16.8.9'));
+//            print_r(geoip_isp_by_name('http://google.com'));
+
 //Инициализация событийной модели
 Event::instance();
 
@@ -37,6 +43,7 @@ Event::instance();
 Event::fire('App.beforeAppStart',null);
 //Запуск приложения
 App::start();
+
 
 /**
  * Ограничивает доступ к файлу напрямую из адресной строки

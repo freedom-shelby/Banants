@@ -74,8 +74,6 @@ class TournamentTable extends AbstractWidget{
         {
             $tmp = TournamentModel::find($item);
             $this->_items[] = Tournament::factory($tmp);
-
-            unset($tmp);
         }
 
         $this->_position = $model->position;

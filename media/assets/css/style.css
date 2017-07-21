@@ -5350,7 +5350,7 @@ span.tournament-link{
     font-size: 13px;
     height: 36px;
     padding: 3px;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     width: 112px;
 }
 .info-col .group table td > span{

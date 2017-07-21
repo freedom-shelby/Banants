@@ -69,7 +69,7 @@ class TournamentTable extends AbstractWidget{
     public function init($model)
     {
         $this->_param = json_decode($model->param, true);
-
+        
         foreach ($this->_param['items'] as $item)
         {
             $tmp = TournamentModel::find($item);

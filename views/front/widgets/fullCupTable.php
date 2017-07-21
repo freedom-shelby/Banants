@@ -24,32 +24,16 @@
             <div class="group">
                 <table>
                     <tr>
-                        <td><img alt="" src="/media/assets/images/team_logo/Ararat-yerevan-logo.png" /> <?= __('Ararat') ?></td>
-                        <td class="cef">1</td>
-                        <td class="cef">1</td>
-                        <td class="cef">2</td>
-                    </tr>
-                    <tr class="win">
-                        <td><img alt="" src="/media/assets/images/logo.png" /> <?= __('Banants') ?></td>
-                        <td class="cef">2</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
                         <td class="cef">0</td>
-                        <td class="cef">2</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
                     </tr>
-                </table>
-            </div>
-            <div class="group">
-                <table>
                     <tr>
-                        <td><img alt="" src="/media/assets/images/team_logo/Logo-Alashkert.png" /> <?= __('Alaskert') ?></td>
-                        <td class="cef">1</td>
+                        <td><img alt="" src="/media/assets/images/team_logo/Ararat-yerevan-logo.png" /> <?= __('Ararat') ?></td>
                         <td class="cef">0</td>
-                        <td class="cef">1</td>
-                    </tr>
-                    <tr class="win">
-                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
-                        <td class="cef">2</td>
-                        <td class="cef">1</td>
-                        <td class="cef">3</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
                     </tr>
                 </table>
             </div>
@@ -57,31 +41,47 @@
                 <table>
                     <tr>
                         <td><img alt="" src="/media/assets/images/team_logo/gandzasar-kapan-logo.png" /> <?= __('Gandzasar') ?></td>
-                        <td class="cef">3</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
                     </tr>
                     <tr class="win">
-                        <td><img alt="" src="/media/assets/images/team_logo/erebuni-logo.png" /> <?= __('Erebuni') ?></td>
+                        <td><img alt="" src="/uploads/images/59511585b8884.png" /> <?= __('Avan Academy') ?></td>
                         <td class="cef">0</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
                     </tr>
                 </table>
             </div>
             <div class="group">
                 <table>
-                    <tr>
-                        <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
-                        <td class="cef">1</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
+                    <tr class="win">
+                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
                     </tr>
                     <tr class="win">
-                        <td><img alt="" src="/media/assets/images/team_logo/kotayk.png" /> <?= __('Kotayk') ?></td>
+                        <td><img alt="" src="/media/assets/images/logo.png" /> <?= __('Banants') ?></td>
                         <td class="cef">0</td>
-                        <td class="cef">-</td>
-                        <td class="cef">-</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="group">
+                <table>
+                    <tr class="win">
+                        <td><img alt="" src="/uploads/images/football/team/5957a92e7054b.png" /> <?= __('Artsakh') ?></td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
+                    </tr>
+                    <tr>
+                        <td><img alt="" src="/media/assets/images/team_logo/Logo-Alashkert.png" /> <?= __('Alaskert') ?></td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
+                        <td class="cef">0</td>
                     </tr>
                 </table>
             </div>
@@ -91,16 +91,16 @@
                 <div>11.04.17  16:00</div>
                 <table>
                     <tr class="win">
-                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
-                        <td class="cef">2</td>
-                        <td class="cef">1</td>
-                        <td class="cef">3</td>
+                        <td>-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                     <tr>
-                        <td><img alt="" src="/media/assets/images/logo.png" /> <?= __('Banants') ?></td>
-                        <td class="cef">1</td>
-                        <td class="cef">0</td>
-                        <td class="cef">1</td>
+                        <td>-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                 </table>
                 <div class="under">25.04.17  16:00</div>
@@ -109,16 +109,16 @@
                 <div>12.04.17  16:00</div>
                 <table>
                     <tr>
-                        <td><img alt="" src="/media/assets/images/team_logo/gandzasar-kapan-logo.png" /> <?= __('Gandzasar') ?></td>
-                        <td class="cef">1</td>
-                        <td class="cef">0</td>
-                        <td class="cef">1</td>
+                        <td>-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                     <tr class="win">
-                        <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
-                        <td class="cef">1</td>
-                        <td class="cef">1</td>
-                        <td class="cef">2</td>
+                        <td>-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
+                        <td class="cef">-</td>
                     </tr>
                 </table>
                 <div class="under">26.04.17  15:00</div>
@@ -130,16 +130,16 @@
 <!--                <table class="empty">-->
                 <table>
                     <tr>
-                        <td><img alt="" src="/media/assets/images/team_logo/Pyunik-Logo.png" /> <?= __('Pyunik') ?></td>
+                        <td>-</td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>
-                        <td class="cef">0</td>
+                        <td class="cef">-</td>
                     </tr>
                     <tr>
-                        <td><img alt="" src="/media/assets/images/team_logo/Shirak-Logo.png" /> <?= __('Shirak') ?></td>
+                        <td>-</td>
                         <td class="cef">-</td>
                         <td class="cef">-</td>
-                        <td class="cef">3</td>
+                        <td class="cef">-</td>
                     </tr>
                 </table>
 

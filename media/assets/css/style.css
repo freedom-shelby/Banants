@@ -1307,7 +1307,7 @@ h1, h2, h3, h4, h5, h5, h6 {
 }
 
 .home-anons .container_top_slideshow{
-    height: 464px;
+    height: 529px;
 }
 
 .home-anons .owl-carousel .owl-wrapper-outer{
@@ -2362,7 +2362,7 @@ div.news_list h3 {
     padding: 1px 5px 3px 5px;
 	border-bottom: 1px solid #b4b4b4;
 	background: #fff;
-    height: 104px;
+    height: 124px;
 }
 
 .news_list span {
@@ -4501,7 +4501,7 @@ div.dialog{
     display: none;
 }
 .widget.widget-with-tabs .widget-body{
-    min-height: 247px;
+    min-height: 312px;
 }
 .widget.widget-with-tabs .widget-body .tournament-link{
     margin-left: 10px;

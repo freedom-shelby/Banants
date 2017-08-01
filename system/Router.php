@@ -14,6 +14,8 @@ class Router {
      */
     protected static $_routes;
 
+    protected static $currentRoute;
+
     /**
      * Выполняем действие в зависимости от метода
      * (нужно для удобства)
@@ -68,7 +70,7 @@ class Router {
     }
 
     public static function startWorking(){
-        $route = static::getCurrentRoute();
+        $route = static::searchCurrentRoute();
 
         if($route){
             Event::fire('App.beforeRouteExecute',$route);
@@ -88,6 +90,8 @@ class Router {
     public static function findRouteByURI($uri){
         foreach(static::$_routes as $r){
             if ($r->matchURI(urldecode($uri)) AND $r->requestIsValid()){
+                static::$currentRoute = $r;
+
                 return $r;
             }
 
@@ -116,6 +120,10 @@ class Router {
      * @return \Route|false
      */
     public static function getCurrentRoute(){
+        return static::$currentRoute;
+    }
+
+    public static function searchCurrentRoute(){
         return static::findRouteByURI(App::instance()->http()->getURI());
     }
 

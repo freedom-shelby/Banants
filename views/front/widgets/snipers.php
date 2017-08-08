@@ -7,6 +7,7 @@
  */
 
 use Ivliev\Imagefly\Imagefly;
+use Helpers\Uri;
 ?>
 <div class="widget-snipers">
     <div class="tournament_slider_title_wrapper clearfix">
@@ -29,10 +30,10 @@ use Ivliev\Imagefly\Imagefly;
                     </div>
                     <div class="best_player_right">
                         <div class="best_player_info">
-                            <span> <?=__('Age')?> 31<br> <?=__('Goals')?> 2</span>
+                            <span> <?=__('Age')?> 31<br> <?=__('Goals')?> 1</span>
                         </div>
                         <div class="best_player_multiple">
-                            <a class="" href="#"><span class="icon-cal2 shooter_icons"></span></a>
+                            <a class="" href="<?= Uri::makeUriFromId('players/' . 'nenad_injac_12') ?>"><span class="icon-cal2 shooter_icons"></span></a>
 <!--                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>-->
 <!--                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>-->
                         </div>
@@ -40,29 +41,22 @@ use Ivliev\Imagefly\Imagefly;
                 </div>
             </div>
 
-
-
             <div class="best_player clearfix">
                 <div class="best_player_content">
-                    <h3> <?=__('Vahagn Ayvazyan')?></h3>
+                    <h3><?=__('Norayr')?> <?=__('Gyozalyan')?></h3>
                     <div class="best_player_images_wrapper">
-                        <img src="/uploads/tmp/VahagnAyvazyanWithFlag.png" alt="best_player" />
+                        <img src="/uploads/tmp/armenian-flag.jpg" class="sb-back-flag" alt="best_player" />
+                        <img src="<?= Imagefly::imagePath('/uploads/images/players/598862a2570d1.png', 'w100-q70')?>" class="sb-front-player" alt="best_player" />
                         <div class="cylinder"></div>
                     </div>
                     <div class="best_player_right">
                         <div class="best_player_info">
-                            <span><?=__('Age')?> 24<br> <?=__('Goals')?> 1 </span>
+                            <span> <?=__('Age')?> 27<br> <?=__('Goals')?> 1</span>
                         </div>
                         <div class="best_player_multiple">
-                            <a class="" href="#">
-                                <span class="icon-cal2 shooter_icons"></span>
-                            </a>
-                            <a class="" href="#">
-<!--                                <span class="icon-photo_hover shooter_icons"></span>-->
-                            </a>
-                            <a class="" href="#">
-<!--                                <span class="icon-video_hover shooter_icons"></span>-->
-                            </a>
+                            <a class="" href="<?= Uri::makeUriFromId('players/' . 'norayr-_gyozalyan_10') ?>"><span class="icon-cal2 shooter_icons"></span></a>
+<!--                            <a class="" href="#"><span class="icon-photo_hover shooter_icons"></span></a>-->
+<!--                            <a class="" href="#"><span class="icon-video_hover shooter_icons"></span></a>-->
                         </div>
                     </div>
                 </div>

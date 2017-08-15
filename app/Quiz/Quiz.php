@@ -11,6 +11,7 @@
 
 //todo: amen User-i hamar mta&el vor konkret et harcin patasxana& chlini, ete mi qani hat harc lini sxala ashxatelu, mek el quiz-i himikva ID-in settingsneric vercni
 
+use Illuminate\Database\Capsule\Manager as Capsule;
 
 class Quiz
 {
@@ -87,24 +88,27 @@ class Quiz
     public function addResponse($id)
     {
         try{
+            // Транзакция для Записание данных в базу
+            Capsule::connection()->transaction(function() use ($id){
+                // ���������� �� +1 ����� ���������� ������
+                $this->_model->total_responses = $this->_totalResponses + 1;
 
-            // ���������� �� +1 ����� ���������� ������
-            $this->_model->total_responses = $this->_totalResponses + 1;
-            $this->_model->save();
+                // ���������� �� +1 ����� ���������� �������
+                $modelAnswer = QuizAnswerModel::find($id);
+                $modelAnswer->responses_count = $this->_answers[$id]['count'] + 1;
 
-            // ���������� �� +1 ����� ���������� �������
-            $modelAnswer = QuizAnswerModel::find($id);
-            $modelAnswer->responses_count = $this->_answers[$id]['count'] + 1;
-            $modelAnswer->save();
+                $this->_model->save();
+                $modelAnswer->save();
 
-            // ��������� ������ ������
-            QuizResponsesModel::create([
-                'user_id' => $this->_userId,
-                'quiz_id' => $this->_quizId,
-                'quiz_answer_id' => $id
+                // ��������� ������ ������
+                QuizResponsesModel::create([
+                    'user_id' => $this->_userId,
+                    'quiz_id' => $this->_quizId,
+                    'quiz_answer_id' => $id
                 ]);
-
+            });
         }catch (Exception $e){
+
         }
         // ��������� �������
         $this->find();

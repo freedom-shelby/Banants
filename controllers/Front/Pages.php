@@ -150,17 +150,17 @@ class Pages extends Front
         $post = $this->getPostData();
 
         if(! empty($post)){
-//
-//            $to = Setting::instance()->getSettingVal('contact.mail');
-//            $subject = __('Application');
-//
-//            $message =  'Name - ' . $post['name'] . ' ' . $post['last-name'] . '<br />';
-//            $message .= 'Age - ' . $post['age'] . '<br />';
-//            $message .= 'Phone - ' . $post['phone'] . '<br />';
-//            $message .= 'Email - ' . $post['email'] . '<br />';
-//            $message .= 'Message - ' . $post['comments'] . '<br />';
-//
-//            Mail::send([$to], $subject, $message);
+
+            $to = Setting::instance()->getSettingVal('contact.mail');
+            $subject = __('Application');
+
+            $message =  'Name - ' . $post['name'] . ' ' . $post['last-name'] . '<br />';
+            $message .= 'Age - ' . $post['age'] . '<br />';
+            $message .= 'Phone - ' . $post['phone'] . '<br />';
+            $message .= 'Email - ' . $post['email'] . '<br />';
+            $message .= 'Message - ' . $post['comments'] . '<br />';
+
+            Mail::send([$to, 'arsen@horizondvp.com'], $subject, $message);
         }
 
         $content = View::make('front/content/pages/apply');

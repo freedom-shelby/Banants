@@ -86,6 +86,38 @@ class Teams extends Back
                         ])->id;
                     }
 
+                    // Загрузка баннера
+                    $banner = new UploadFile('banner', new FileSystem(static::IMAGE_PATH));
+
+                    // Optionally you can rename the file on upload
+                    $banner->setName(uniqid());
+
+                    // Try to upload file
+                    try {
+                        // Success!
+                        $banner->upload();
+                        $bannerPath = '/' . static::IMAGE_PATH . '/' . $banner->getNameWithExtension();
+                    } catch (UploadException $e) {
+                        // Fail!
+                        $bannerPath = null;
+                        Message::instance()->warning($banner->getErrors());
+                    } catch (Exception $e) {
+                        // Fail!
+                        $bannerPath = null;
+                        Message::instance()->warning($banner->getErrors());
+                    }
+
+                    //todo:: add from settings
+                    $bannerId = 1;
+
+                    if($bannerPath) {
+                        $bannerId = PhotoModel::create([
+                            'path' => $bannerPath,
+                            'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                        ])->id;
+                    }
+                    // #Загрузка баннера
+
                     $entity = EntityModel::create([
                         'text' => $data['entity'],
                         'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
@@ -130,6 +162,7 @@ class Teams extends Back
                         'slug' => $data['slug'],
                         'status' => $data['status'],
                         'photo_id' => $imageId,
+                        'banner_id' => $bannerId,
                         'entity_id' => $entity->id,
                         'short_name_id' => $shortNameEntity->id,
                         'is_own' => $data['is_own'],
@@ -194,6 +227,28 @@ class Teams extends Back
                         Message::instance()->warning($file->getErrors());
                     }
 
+                    // Загрузка баннера
+                    $bannerFile = new UploadFile('banner', new FileSystem(static::IMAGE_PATH));
+
+                    // Optionally you can rename the file on upload
+                    $bannerFile->setName(uniqid());
+
+                    // Try to upload file
+                    try {
+                        // Success!
+                        $bannerFile->upload();
+                        $bannerPath = '/' . static::IMAGE_PATH . '/' . $bannerFile->getNameWithExtension();
+                    } catch (UploadException $e) {
+                        // Fail!
+                        $bannerPath = null;
+                        Message::instance()->warning($bannerFile->getErrors());
+                    } catch (Exception $e) {
+                        // Fail!
+                        $bannerPath = null;
+                        Message::instance()->warning($bannerFile->getErrors());
+                    }
+                    // #Загрузка баннера
+
                     $entityModel = EntityModel::updateOrCreate(
                         ['id' => $entityModel->id,],
                         ['text' => $data['entity'],
@@ -220,6 +275,17 @@ class Teams extends Back
                         ])->id;
                         $model->update([
                             'photo_id' => $imageId,
+                        ]);
+                    }
+
+                    // если нету нового изображения оставить прежний
+                    if($bannerPath){
+                        $bannerId = PhotoModel::create([
+                            'path' => $bannerPath,
+                            'is_bound' => 1, // Указивает привязку, стоб не показивал в мести с обычними словами переводов
+                        ])->id;
+                        $model->update([
+                            'banner_id' => $bannerId,
                         ]);
                     }
 

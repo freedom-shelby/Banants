@@ -140,9 +140,17 @@ use Helpers\Uri;
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group col-sm-13">
-                            <label class="control-label">Select Logo</label>
-                            <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
+                        <div class="bordered">
+                            <div class="form-group col-sm-13">
+                                <label class="control-label">Select Logo</label>
+                                <input id="image" class="file-loading" name="image" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
+                            </div>
+                        </div>
+                        <div class="bordered">
+                            <div class="form-group col-sm-13">
+                                <label class="control-label">Select Team Banner</label>
+                                <input id="banner" class="file-loading" name="banner" type="file" data-show-upload="false" data-show-caption="true" accept="image/*">
+                            </div>
                         </div>
                         <div class="form-group col-sm-13">
                             <div class="btn-group" role="group" aria-label="...">
@@ -173,6 +181,29 @@ use Helpers\Uri;
             previewClass: "bg-warning",
             initialPreview: [
                 <?=($item->defaultImage()) ? '\'<img style="height:160px" src="'.$item->defaultImage()->path.'">\'' : ''?>
+            ],
+            initialPreviewConfig: [{
+                caption: '<?=$item->text().' Icon'?>',
+                width: "120px",
+                url: '<?=Uri::makeRouteUri("back.menu.image.delete")?>',
+                key: <?=$item->id?>
+            }]
+        });
+        $("#banner").fileinput({
+            previewFileType: "image",
+            browseClass: "btn btn-success",
+            browseLabel: "Pick Image",
+            browseIcon: "<i class=\"glyphicon glyphicon-picture\"></i> ",
+            removeClass: "btn btn-danger",
+            removeLabel: "Delete",
+            removeIcon: "<i class=\"glyphicon glyphicon-trash\"></i> ",
+            uploadClass: "btn btn-info",
+            uploadLabel: "Upload",
+            uploadIcon: "<i class=\"glyphicon glyphicon-upload\"></i> ",
+            allowedFileTypes: ["image"],
+            previewClass: "bg-warning",
+            initialPreview: [
+                <?=($item->defaultBanner()) ? '\'<img style="height:160px" src="'.$item->defaultBanner()->path.'">\'' : ''?>
             ],
             initialPreviewConfig: [{
                 caption: '<?=$item->text().' Icon'?>',

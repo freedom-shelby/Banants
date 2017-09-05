@@ -15,7 +15,7 @@ class TeamModel extends Eloquent
 
     protected $table = 'teams';
 
-    protected $fillable = ['entity_id', 'photo_id', 'short_name_id', 'status', 'slug', 'is_own', 'formation_id', 'league_id'];
+    protected $fillable = ['entity_id', 'photo_id',  'banner_id', 'short_name_id', 'status', 'slug', 'is_own', 'formation_id', 'league_id'];
 
 
     public function article()
@@ -34,6 +34,11 @@ class TeamModel extends Eloquent
     public function defaultImage()
     {
         return $this->belongsTo('PhotoModel', 'photo_id')->first();
+    }
+
+    public function defaultBanner()
+    {
+        return $this->belongsTo('PhotoModel', 'banner_id')->first();
     }
 
     public function formation()

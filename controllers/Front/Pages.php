@@ -14,6 +14,7 @@ use Intervention\Image\ImageManagerStatic as Image;
 use View;
 use Setting;
 use Helpers\Arr;
+use Widgets\Widget\Teams;
 use Widgets\WidgetsContainer;
 use Cartalyst\Sentinel\Native\Facades\Sentinel;
 use Illuminate\Database\Capsule\Manager as Capsule;
@@ -21,6 +22,7 @@ use Message;
 use Event;
 use EventModel;
 use PlayerModel;
+use TeamModel;
 use PersonnelTypeModel;
 use PersonnelModel;
 use Carbon\Carbon;
@@ -115,6 +117,23 @@ class Pages extends Front
             ->get();
 
         $content = View::make($type->template)
+            ->with('items', $items);
+
+        $this->_page->appendToContent($content);
+    }
+
+    /**
+     * Страныций для комманд академий персонала
+     */
+    public function anyAcademy_squads()
+    {
+        $items = TeamModel::whereStatus(1)
+            ->whereIs_own(1) // Комманди принидлижаюшие бананцу
+            ->where('league_id', '>', 2) // Комманди Академий
+            ->orderBy('slug', 'DESC')
+            ->get();
+
+        $content = View::make('front/content/pages/academySquads')
             ->with('items', $items);
 
         $this->_page->appendToContent($content);

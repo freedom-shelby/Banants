@@ -34,6 +34,12 @@ class Uri
 
     public static function makeUriFromId($uri)
     {
+        return self::makeUrl($uri); // todo:: bolor tegherum makeUriFromId -ov funkciayi kanch@ poxel makeUrl;
+    }
+
+    public static function makeUrl($uri)
+    {
+
         // Если это внешний УРЛ
         if((strpos($uri, 'http:\\') !== false) || (strpos($uri, 'https:\\') !== false)) return $uri;
         if((strpos($uri, 'http://') !== false) || (strpos($uri, 'https://') !== false)) return $uri;

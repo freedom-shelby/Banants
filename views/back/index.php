@@ -153,7 +153,7 @@ use Lang\Lang;
                             <li class="divider"></li>
 
                             <? foreach(TeamModel::orderBy('id')->whereIs_own(1)->get() as $item): ?>
-                                <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>"><?= $item->article()->title ?></a></li>
+                                <li><a href="<?= Helpers\Uri::makeUriFromId('Admin/Team/List/'.$item->id) ?>"><?= __($item->text()) ?></a></li>
                             <? endforeach ?>
 
                         </ul>

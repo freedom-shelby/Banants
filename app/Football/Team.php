@@ -18,6 +18,11 @@ class Team
      */
     protected $_items = [];
 
+    protected $_title = 'Team';
+    protected $_banner;
+
+    protected $_hasBanner = false;
+
     public function __construct()
     {
 
@@ -25,6 +30,10 @@ class Team
 
     public function init($model)
     {
+        $this->_title = $model->text();
+        $this->_banner = $model->defaultBanner();
+        $this->_hasBanner = $model->hasBanner();
+
 //        $data = $model->players()->whereStatus(1)->orderBy('position_id')->get();
         $data = $model->players()->whereStatus(1)->orderBy('position_id')->orderBy('number')->get();
 
@@ -35,6 +44,8 @@ class Team
 
             $this->_items[] = $tmp;
         }
+
+        return $this;
     }
 
     /**
@@ -45,5 +56,27 @@ class Team
         return $this->_items;
     }
 
+    /**
+     * @return string
+     */
+    public function getTitle()
+    {
+        return $this->_title;
+    }
 
+    /**
+     * @return mixed
+     */
+    public function getBanner()
+    {
+        return $this->_banner;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function hasBanner()
+    {
+        return $this->_hasBanner;
+    }
 }

@@ -87,4 +87,14 @@ class TeamModel extends Eloquent
     {
         return $this->belongsTo('EntityModel', 'entity_id');
     }
+
+    public function hasBanner()
+    {
+        return (bool) ($this->defaultBanner()->id !== 1);
+    }
+
+    public function getPage()
+    {
+        return 'team/' . $this->defaultBanner()->id;
+    }
 }

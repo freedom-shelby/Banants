@@ -67,8 +67,7 @@ class Teams extends AbstractWidget{
     public function render()
     {
         return View::make($this->_template)
-            ->with('title', $this->_title)
-            ->with('items', $this->_item->getPlayers());
+            ->with('team', $this->_item);
     }
 
     public function init($model)
@@ -77,9 +76,8 @@ class Teams extends AbstractWidget{
 
         $data = ArticleModel::whereSlug(App::instance()->getCurrentSlug())->first();
 
-        $this->_title = $data->title;
-        $this->_item = new Team;
-        $this->_item->init($data->team());
+//        $this->_title = $data->title;
+        $this->_item = (new Team)->init($data->team());
 
         $this->_position = $model->position;
         $this->_sort = $model->sort;

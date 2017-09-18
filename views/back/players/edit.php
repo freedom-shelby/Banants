@@ -49,7 +49,7 @@ use Helpers\Uri;
                             <select name="team">
                                 <?foreach(TeamModel::orderBy('id')->get() as $i):?>
                                     <option value="<?=$i->id?>" <?=($item->team_id == $i->id) ? ' selected' : ''?>>
-                                        <?=$i->article()->title?>
+                                        <?=$i->text()?>
                                     </option>
                                 <?endforeach?>
                             </select>

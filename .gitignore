@@ -219,8 +219,6 @@ pip-log.txt
 ## PhpStorm
 #############
 .idea
-.idea/*
-.idea/workspace.xml
 uploads
 config
 localstorage
